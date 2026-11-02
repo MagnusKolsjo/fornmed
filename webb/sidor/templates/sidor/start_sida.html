@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags humanize %}
+{% block titel %}Fornmed – källor till Sveriges och Nordens forntid och medeltid{% endblock %}
+{% block innehall %}
+<article class="text">
+  {% if page.ingress %}<p class="ingress stor fm-reading">{{ page.ingress }}</p>{% endif %}
+  {% if omfang %}
+  <ul class="siffror" aria-label="Databasens omfång">
+    <li><strong>{{ omfang.brev|intcomma }}</strong> medeltidsbrev</li>
+    <li><strong>{{ omfang.runinskrifter|intcomma }}</strong> runinskrifter</li>
+    <li><strong>{{ omfang.ovriga_verk|intcomma }}</strong> lagar, sagor och krönikor</li>
+    <li><strong>{{ omfang.pastaenden|intcomma }}</strong> påståenden</li>
+  </ul>
+  {% endif %}
+  {{ page.brodtext|richtext }}
+  {% if leveranser %}
+  <section class="senaste">
+    <h2>Senaste uppdateringarna</h2>
+    <ul class="leveranser">
+      {% for lev in leveranser %}
+      <li><time datetime="{{ lev.tidpunkt|date:'c' }}">{{ lev.tidpunkt|date:"j F Y" }}</time>: {{ lev.anmarkning|default:"Ny version av databasen." }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</article>
+{% endblock %}

@@ -1,0 +1,889 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Upplandslagen enligt Codex Holm B 199 (Schlyters hskr B), extraherade av språkmodell ur den fornsvenska texten. Flockar som i utgåvan supplerats ur hskr C (Mb 6 slut – Mb 15 början) har inte tagits ut. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/upplandslagen_hskr_b.json",
+ "passager": {},
+ "entiteter": [
+  [
+   "person:viger_spa",
+   "person",
+   "Viger spa",
+   "Lagsättare i hednisk tid enligt Upplandslagens prolog",
+   null
+  ]
+ ],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:innehallsforteckning",
+   "person:birger_magnusson",
+   "stiftar_lag",
+   "=kung Birger Magnusson sänder lagboken med Vigers flockar och uppländska lagar till alla som bor mellan hav och sjö",
+   "plats:sdhk:upland",
+   "Swa sændir ok en waldugher kunungær sweæ ok gøtæ. Byrghir son magnusæ kununx allum þem ær byggiæ. mællum hafs ok sæw. strøms ok emorþæ. bok þæssæ mz wigers flokkum ok laghum vplænzkum.",
+   "Prologen står i hskr B i passagen för innehållsförteckningen. Hskr B har ingen stadfästelse."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:innehallsforteckning",
+   "person:viger_spa",
+   "stiftar_lag",
+   "=Viger spá, hednisk, var lagens förste upphovsman; det nyttiga ur hans lagsaga togs in i boken",
+   "plats:sdhk:upland",
+   "Lagha yrkir war wiger spa heþin. J. heþnum timæ. Hwat ær wi hittum. i. hans laghsaghu. ær allum mannum þarflikt ær. þet sættium wir. bok þæssæ.",
+   "Viger kallas inte lagman, men lagen talar om 'hans laghsaghu'; ämbetet är en tolkning."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:innehallsforteckning",
+   "person:birger_magnusson",
+   "stiftar_lag",
+   "=lagen följer de lagar som förfäderna Erik den helige, jarl Birger och kung Magnus gav",
+   "plats:sdhk:upland",
+   "Ok wilium wir fylghiæ. J. laghum þæmmæ warum forfæþrum erikinum hælgæ. byrghiri iarli. magnusi kunungi.",
+   "'wir' syftar på kung Birger (pluralis majestatis); Birger jarl var jarl, inte kung."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|boten för dolgadråp (dulghæ drap) tillfaller den krönte kungen",
+   "plats:sdhk:upland",
+   "þa a han upsalæ øþæ ok dulghæ drap ok danær arff."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_3",
+   "begrepp:konungaval",
+   "kraver",
+   "=kungen ska vigas till krona av ärkebiskopen och lydbiskoparna i Uppsala kyrka",
+   "plats:sdhk:upland",
+   "Nu a han aff ærkibiskupi ok lybiskupum til krunu wighiæs. j. upsalæ kirkiu.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=första edsöresmålet: att hämnas på en annan än den som gjorde gärningen",
+   "plats:sdhk:upland",
+   "þæt ær þet fyrstæ hwar sum hæmpnis a annæn ok annær giørþi giærþinæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=andra edsöresmålet: att hämnas efter grid och förlikning eller efter gjord och gången lag eller laga tilltal",
+   "plats:sdhk:upland",
+   "hwar sum hæmpnis a gruþ ok a giøræ sæt. swa ok hwar sum hæmpnis a giør lagh ok gangin ællr a laghæ til mæli."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_4",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|hundaresnämnden avgör om förlikning hade skett",
+   "plats:sdhk:upland",
+   "þæt a hundæris næmpd witæ hwat þæt war sæt ællr æi."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att rida hem till en annan för att skada honom eller någon i hans gård och där såra, slå till blods, dräpa eller basta och binda en saklös",
+   "plats:sdhk:upland",
+   "riþer man hem at aþrum ok giør hanum hemsokn hwat sum þer æru en ællr flere. ok þæs wiliændis hanum skaþæ, giøræ. ællær nokrom. j. hans garþi.",
+   "Tredje edsöresmålet."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:fredloshet|alla deltagare biltoga, var och en huvudman för sig, och deras bo till skifte",
+   "plats:sdhk:upland",
+   "þa hawæ þer allir kununx eþsøre brutit. ok ær þer hwar huwzman fore sik. þer læggiæs allir biltughir ok þeræ bo til skiptis."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|sex marker om ingen skada görs utom att hus bryts",
+   "plats:sdhk:upland",
+   "ok ængin skaþæ gitæ giørt utæn brytæ hus hans dyli mz atertanmannæ eþe ællr bøte sæx marker.",
+   "Villkor: hemsökarna rider in i gården men skadar ingen."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:ed|arton mäns ed (atertanmannæ eþer) för att neka husbrott vid hemsökn",
+   "plats:sdhk:upland",
+   "dyli mz atertanmannæ eþe ællr bøte sæx marker."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och dräps innanför gård och grindstolpe",
+   "plats:sdhk:upland",
+   "wærþer han slæghin sarghæþer dræpin innæn garþ ok grindæ stulpæ liggi o gilder."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:arvinge|arvingarna till den som sökt skydd i bondens gård skiftar boet och tar böterna",
+   "plats:sdhk:upland",
+   "þa aghu hans arfwær æn han dræpin werþer ællr sar. bo skiptæ oc bøtær takæ.",
+   "Gäller den som inte är bondens hjon men flytt till gården undan ovänner; jordägaren ber honom i frid."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=inte hemsökn när män som möts förlikta skiljs oförlikta, om inte den ene går till en annan gård, skaffar vapen och följe och kommer tillbaka och gör full gärning",
+   "plats:sdhk:upland",
+   "þa ær þæt æi hemsokn utæn gangi aff þem garþi. ok. i. annæn. far sik wapn ok fylghi ganger atær til hans ok giør fullæ giærþ"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=också att rida till en gård efter sina ovänner och skjuta eller kasta mot någon så att han får skada i gården",
+   "plats:sdhk:upland",
+   "Rinder man at garþi fore o winum sinum. skiutær til hans ællr kastær. far han skaþæ. j. garþinum ær staddær. þæt ær hemsokn."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:namnd|hundaresnämnden avgör vad som är sant när våldet syns vid syn eller ropet kunde höras",
+   "plats:sdhk:upland",
+   "þa a þæt hundæris næmpd witæ. hwat þer ær sant um.",
+   "Fjärde edsöresmålet."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|dömas under svärd om han tas på bar eller färsk gärning",
+   "plats:sdhk:upland",
+   "wærþer bar ok a takin. ællr fangin. a færski giærning ok witnæ han. xii. mæn þær til. þa a han undir swærþ dømæs."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|tolv män vittnar vid bar eller färsk gärning",
+   "plats:sdhk:upland",
+   "ok witnæ han. xii. mæn þær til."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|kvinnan dräper den som tar henne med våld",
+   "plats:sdhk:upland",
+   "takær man kono mz wald dræper konæ han. j. þy liggi o gilder."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:valdtakt",
+   "paforljd",
+   "=ingen frid förrän kvinnans giftoman ber för honom, om han rymt ur landet med henne",
+   "plats:sdhk:upland",
+   "þa a han aldrigh fyrr friþ fa æn kononnæ giptæ man biþer fore hanum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_6",
+   "begrepp:edsore",
+   "definieras_som",
+   "=fjärde edsöresmålet: att ta en kvinna med våld",
+   "plats:sdhk:upland",
+   "þættæ ær þæt fiærþæ. taker man kono mz vald",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_7",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att ligga i försåt på kyrkvägen och dräpa, såra eller slå blodvite",
+   "plats:sdhk:upland",
+   "Sitær man a kirkiu vægh fore andrum. dræper sargher ællr bloþviti slar. han hawer brutit kununx eþsøre."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_7",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte edsöre när tvist på kyrk- eller tingsväg uppstår av hastig gärning och inte av långvarig avund",
+   "plats:sdhk:upland",
+   "skil þem a kirkiu wægh ællr a þinxwægh. ok æi af langi awnd. utæn aff braþum giærningum þæt ær æi kununx eþsøre."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_8",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att ta leder till stock eller hugga av händer eller fötter, utom i vapenskifte",
+   "plats:sdhk:upland",
+   "Takær man leþir til stox huggr aff hænder ællr føter þæt ær kononx eþsøre brutit. utæn þet komi. i. wapnæ skipti."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_8",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|laga böter när en kvinna eller omyndig gör detsamma",
+   "plats:sdhk:upland",
+   "giør konæ ællr owormaghi swa. bøten mz lagha botum. æi ma konæ ællr owormaghi friþ flyæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkar allt han äger ovan jord",
+   "plats:sdhk:upland",
+   "han hawer fore giørt allu þy sum han a owæn a iorþinni."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|landsflyktig och biltog över hela riket tills den han bröt mot ber för honom",
+   "plats:sdhk:upland",
+   "ok swa lanzwist ok biltughir læggiæs um alt rikit. ok aldrigh. j. friþ komæ fyrr æn þen bipær fore hanum sum han brøt til."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "=ingen förverkar för en annan: de saklösas lotter skiftas först undan",
+   "plats:sdhk:upland",
+   "Nu ma ængin annærs fore giøræ. æi faþir sons. oc æi son faþurs. ok æi broþer broþors."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av den brottsliges lott i boet",
+   "plats:sdhk:upland",
+   "siþæn hans lotær sum brutlikær ær. skiptis. j. þry. en lot taker malseghandi.",
+   "Det förverkade godset vid edsöresbrott."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av den brottsliges lott i boet",
+   "plats:sdhk:upland",
+   "annæn kunungr.",
+   "Det förverkade godset vid edsöresbrott."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:landskap|en tredjedel av den brottsliges lott i boet ('allir mæn')",
+   "plats:sdhk:upland",
+   "þriþiæ allir mæn.",
+   "Det förverkade godset. 'allir mæn' tolkat som landsmännen; kan avse hundaret."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen för att lösa sig i frid när målsäganden bett för honom",
+   "plats:sdhk:upland",
+   "þa a kunungær hanum friþ giwæ. ok løsi sik. j. friþ wiþ kunung. mz. xl. markum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:namnd",
+   "utses_av",
+   "=båda parterna, som ska vara med och säga ja till nämnden",
+   "plats:sdhk:upland",
+   "þa þæssi næmpd skal næmpnæs. þa skulu þer baþir wiþ wæræ ok ia wiþ sighiæ sum saman delæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|tolv nämndemän fria eller fäller med sin ed",
+   "plats:sdhk:upland",
+   "hwilikin sum þer tolff wæriæ mæþ sinum eþe han ær warþer. hwilikin sum þer fællæ han ær fallin."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte edsöre där män möts förlikta och skiljs oförlikta",
+   "plats:sdhk:upland",
+   "e hwar mæn hittæs satir ok skiliæs o satir. þær ær æi eþsøre brutit."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_9",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|tre marker för att hysa en biltog en natt, fyrtio marker för flera nätter",
+   "plats:sdhk:upland",
+   "hwar sum þæn man husær ok hemær biltughær ær laghþer ok sworin enæ nat bøte þre. markr. husær han flere nætær bøte. xl. markr.",
+   "Subjektet avser brottet att hysa en fredlös. Kan värja sig med tretolftered."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_1",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|orunæ bot, tolv öre karlgilda, när ett djur dödar en man; djuret lämnas ut",
+   "plats:sdhk:upland",
+   "þa skal han framsäldum fylghiæ ok orunæ bot mz biuþæ. þæt æru tolff øræ karlgildir."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_1",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:ting|boten bjuds på tre hundaresting och två folklandsting",
+   "plats:sdhk:upland",
+   "a hundæris þingum þrim ok folklanz þingum twem."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_1",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|ägaren styrker med sin domare och tre tingsvittnen att han lagligen lämnat ut djuret",
+   "plats:sdhk:upland",
+   "fylli þa þæn wiþ swar sitær mz domæræ sinum ok þingwitnum þrim at han hawer laghlikæ banænum fylght.",
+   "Faller han, böter han fyrtio marker."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_2",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=dråp av omyndig under femton år räknas som våda",
+   "plats:sdhk:upland",
+   "Dræper owormaghi man þen minnæ ær æn fæmptan aræ. hwariæ lund han dræper han. wæri þet waþæ bot."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|sex män om dråpet nekas; tolv män vittnar om den dräpande är omyndig",
+   "plats:sdhk:upland",
+   "dyls drapit. witnis þa til mz sæx mannum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|vådagäld sju marker för dråp av en vansinnig som lysts och hållits i bojor",
+   "plats:sdhk:upland",
+   "kan han man dræpæ ællr sarghæ. liggi allt. i. waþæ giældum. døz drap. i. siu markum.",
+   "Utan vittne om lysningen räknas gärningen som viljaverk."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_3",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=när en man hugger två i ett hugg är det bakåt våda och det framåt viljaverk",
+   "plats:sdhk:upland",
+   "j. huggi enu. annæn atær oc annæn fram. wæri þæt. i. waþæ atær gørs ok þæt. j. wiliæ wærkum fram giørs.",
+   "Sista orden 'i sarum' gör det osäkert om regeln bara gäller sår."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_4",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=bakvåda och handlös våda, t.ex. spjut eller sten kastad över hus utan att se var den faller, eller som studsar",
+   "plats:sdhk:upland",
+   "Nu skiutær man spiuti. ællr kastær stene iwir hus oc ser æi hwar niþær komber."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_4",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådan kan fullgöras utan målsägandens samtycke vid bakvåda och handlös våda",
+   "plats:sdhk:upland",
+   "i. þæmmæ twem waþum þa ma waþi fyllæs utæn malseghandæ þak."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_5",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|vådagäld sju marker när någon dör av ett lyst självskott",
+   "plats:sdhk:upland",
+   "far nokor siþæn aff. liggi han. i. waþæ giældum markum siu."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_5",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|halv gäld, tjugo marker, när självskottet inte lysts",
+   "plats:sdhk:upland",
+   "liggi þa. i. halwm giældum tiughu markum. fore glømsku sinæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_5",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:ting|alla vådaeder går på laga ting",
+   "plats:sdhk:upland",
+   "allir waþæ eþær aghu gangæs. j. laghþingum.",
+   "Länsman får inte kräva ed där han inte har del i boten."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_6",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|halv gäld, tjugo marker, när den som klättrat i träd på någons begäran faller och dör",
+   "plats:sdhk:upland",
+   "Kliwær man. i. træ mæþ bøn skipæræ. falder niþær. ok far aff banæ liggi. i. halwm giældum tiughu markum.",
+   "Resten av flocken och Mb 7–15 första del är supplerade ur hskr C och har inte tagits ut."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|stegel för den som dräper sin herre och tas på bar gärning",
+   "plats:sdhk:upland",
+   "wærþer han fangin wiþ sannæ giærning. þa skal han undir stæghl dømæs. ok fyrræ til þinx føræs.",
+   "Början av meningen ('hwilikin man sin rættæn hærræ dræper') står i den del som supplerats ur hskr C. Gäller också legodräng, bryte, träl m.fl. som dräper bonden eller hans familj."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|herredråparen förs först till tinget",
+   "plats:sdhk:upland",
+   "ok fyrræ til þinx føræs."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av herredråparens jord och gods",
+   "plats:sdhk:upland",
+   "ok iorþ ok goz hans þræskiptis. takær en lot kunungr"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av herredråparens jord och gods",
+   "plats:sdhk:upland",
+   "annæn malseghandi"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:hundare|en tredjedel av herredråparens jord och gods",
+   "plats:sdhk:upland",
+   "þriþiæ hundærit."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_15",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män värjer eller fäller den som anklagas för att ha dräpt sin herre",
+   "plats:sdhk:upland",
+   "þæn dyl sum sakin giffs. þæt aghu tolff mæn wæriæ ællr fællæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|kungsrätten när en präst eller annan klerk dräper en bonde",
+   "plats:sdhk:upland",
+   "Dræper præster bondæ. ællr annær klærkær. þa taki biskuper kununx rættin."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungsrätten när en bonde dräper en präst eller klerk",
+   "plats:sdhk:upland",
+   "Dræper bonde præst ællr annæn klærk. þa taki kununger kununx rættin."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_16",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tretolftered för arvingarna när dråparen dör innan han lagligen fällts",
+   "plats:sdhk:upland",
+   "þa standi þrætylfter eþær fore arwm hans. bristær at eþe sækær at sporgiældum.",
+   "Faller eden, döms de till spårgäld även om brottet gällde mordgäld."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråp på en biltog man",
+   "plats:sdhk:upland",
+   "kan han dræpin wærþæ bæt ær o gilt."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_17",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män avgör om dråpsboten betalats",
+   "plats:sdhk:upland",
+   "hin sighær þe bot guldit hawæ. þa aghu tolff mæn witæ hwat þæt guldit war ællr æi.",
+   "Talan om boten förs av målsäganden, kungen eller hundaret."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_17",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|länsmannen nämner de tolv som avgör om någon erkänt ett dödsbrott",
+   "plats:sdhk:upland",
+   "þem tolff a lænsman næmpnæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_17",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|tolv män svär om erkännandet före dom",
+   "plats:sdhk:upland",
+   "þa swærin þe tolff at han wiþ þe giærning gik fyr æn domber a han gangi.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_18",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|högst fyrtio marker, en enda bot oavsett antalet lik, för dråp på öar",
+   "plats:sdhk:upland",
+   "bøtes mz enungæ botum æi a bot høghri wæræ æn xl. markr.",
+   "Skeppslaget som ön hör till ska finna banemannen inom natt och år eller hålla boten uppe."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:dodsstraff|bål om någon dött av trolldomen",
+   "plats:sdhk:upland",
+   "hawer nokor þer døþ aff lutit. oc kiæris siþæn. witi þæt tolf mæn. skiæræ þe hanæ wæri sakløs. fallz hun þa a hun. i. bali brinnæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:boter|hundra och fyrtio marker om målsäganden unnar henne livet",
+   "plats:sdhk:upland",
+   "will malseghande hænni liff unnæ. þa bøtes mz hundræþæ markum. oc xl.",
+   "Skiftas som annan hundragäld."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|full bot för den som hyser en dråpare en natt mot arvingens vilja",
+   "plats:sdhk:upland",
+   "haldi þæn fullud botum uppi. ællær fae draparan rættum ærwingium. i. hand."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|vådagäld när någon av våda stöts i eld eller vatten och dör",
+   "plats:sdhk:upland",
+   "skiutær man annæn. i. eld mz waþæ aff husi ællr or træ. ællr. i. watn. liutær aff døþ ællr far aff annæn skaþæ. liggi allt. i. waþæ giældum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=våda är det som båda parter säger är våda",
+   "plats:sdhk:upland",
+   "þet ær vaþi baþir sighiæ wæræ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaed bjuds och vådabot böts; faller han på tillbudet blir vådan viljaverk",
+   "plats:sdhk:upland",
+   "þer skal oc waþæ eþ biuþæ oc waþæ bot bøtæ. Falder han at tilbuþinu væri þa waþi. i. wiliæ wærkum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_19",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|alla som blir skyldiga till mord gäldar med sitt liv, efter laglig dom",
+   "plats:sdhk:upland",
+   "æ hwar mæn wærþæ sannir fore morþe. giældin liff sitt fore. huru mangi þe hælzt æru."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_20",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tockabot|tackbot fyrtio marker när kungens man dräps",
+   "plats:sdhk:upland",
+   "wærþer. ku nunx man dræpin. þær ær xl. markr þokkæ bot at."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_20",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tockabot|tackbot tolv marker när jarlens eller biskopens man dräps",
+   "plats:sdhk:upland",
+   "wærþer iærls man dræpin ællr biskups. tolff markr. þokkæ bot at."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_20",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tockabot|tackbot sex marker när en tjänsteman åt kungens rådsman eller annan riddare dräps",
+   "plats:sdhk:upland",
+   "wærþer kuununx razmanz. þiænistu man dræpin. ællr oc andræ riddæræ þiænistumæn wærþæ dræpnir. vi. markr bockæ bot at."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_20",
+   "begrepp:tockabot",
+   "tillfaller",
+   "=den dräptes herre tar tackboten; ingen tackbot i hundragäld",
+   "plats:sdhk:upland",
+   "þænni þokki komber æi utæn. i. drapum han a takæ hærræ þæs sum dræpin ær. i. hundræþæ giældum æru æi þokkæ bøtær."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_25",
+   "begrepp:drap",
+   "paforljd",
+   "=den som tar sårbot inom natt och år har förverkat rätten till dråpsgäld om den sårade dör",
+   "plats:sdhk:upland",
+   "hwar sum takær saræbotenæ innæn nat ok iamlangæ. han hawer fore takit giældinu. i. døzdrapum."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_31",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|mördaren på stegel",
+   "plats:sdhk:upland",
+   "þa skal morþæri a stæghl. ok ransman undir swærþ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_31",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|tolv män nämns på tinget som värjer eller fäller den som tagits för mord eller rån",
+   "plats:sdhk:upland",
+   "þa skal han til þinx føræ. þær skulu tolff mæn næmpnæs. sum han skulu antwiggiæ wæriæ ællr fællæ.",
+   "Värjs han, böter den som plågat en saklös fyrtio marker."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_31",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv om dråparen inte förmår eller vill böta eller ställa borgen för full bot",
+   "plats:sdhk:upland",
+   "Dræper man annæn ællr hugger aff hand ællr limi aþræ. orkær æi botum ællr will æi bøtæ. ællr borghæn til fuldræ botæ. giældi þa liff fore liff."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_32",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:boter|fyrtio marker och dråparens brott för den som rövar en dråpare från den som tagit honom",
+   "plats:sdhk:upland",
+   "Rænir man draparæ aff aþrum. þiuff ællr þæn affhug hawer giørt. þa fylli þen ræntær ær ranswærk til þæs sum rænti. mz sæx mannum þem þer waru ok a saghu. ok hin bøte. xl. markr. ok brut þe han giørþe.",
+   "Alternativt lämnar han ut mannen till rätt målsägande; bevis med sex män eller tretolftered."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_46",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män värjer eller fäller den som säger sig ha dräpt en rövartjuv han inte kunde gripa",
+   "plats:sdhk:upland",
+   "þæt skulu tolff mæn antwiggiæ wæriæ ællr fællæ.",
+   "Arvingarna för talan."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_46",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråp på en rövartjuv som inte kunde gripas, om tolv män värjer dråparen",
+   "plats:sdhk:upland",
+   "wæriæ þer han ær sakin giffs wæri sakløs."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_46",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:sporgald|spårgäld om tolv män fäller den som påstått sig dräpa en rövartjuv",
+   "plats:sdhk:upland",
+   "fællæ þer han falli til sporgiældæ.",
+   "Spårgäldens belopp anges i hskr B bara i C-supplerade flockar."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|länsmannen nämner tolv män av hundaret när domare ska utses",
+   "plats:sdhk:upland",
+   "Nu skulu domæræ takæs. þa skal lænsman vp standæ ok tolff mæn næmpnæ aff hundæri.",
+   "Tingmålabalken står i hskr B inne i passagen för Vb 29."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:namnd|de tolv nämner två män till domare",
+   "plats:sdhk:upland",
+   "þe tolff aghu twa mæn til domæræ næmpnæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:kung|kungen sätter domen i domarnas händer",
+   "plats:sdhk:upland",
+   "kununger a þem dom. i. hænder sættiæ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna: vardera råder över halva nämnden; den som vägrar nämna har förlorat",
+   "plats:sdhk:upland",
+   "raþi ok halfwi næmpd hwar þeræ sum wiþ delæs. will annær næmpnæ ok annær æi þa ær þæn fallin æi will næmpnæ.",
+   "Nämnden får aldrig brytas när den är nämnd."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "utses_av",
+   "=nämndemän som båda tvistande säger ja till",
+   "plats:sdhk:upland",
+   "æ hwar næmpd næmpnis þa næmpni þe mæn. i. ær baþer sighiæ ia wiþ ær samæn delæs"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:ed|tio mäns ed av män som inte satt i nämnden när länsmannen klandrar nämnden",
+   "plats:sdhk:upland",
+   "Nu sigher lænsman næmpd giøræ wæræ. will hun dyliæ all. dyli mz tiu mannæ eþe. þem æi i. næmpd waru.",
+   "Läsningen 'næmpd giøræ wæræ' (nämnden har gjort fel) är osäker."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|tre marker för hela nämnden, tre öre för en enskild nämndeman som faller på eden",
+   "plats:sdhk:upland",
+   "fallz at eþe all næmpd bøte þre markr. fallz enkæ man bøte þre øræ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|bar-gärningsvittnen om dråp, sår, rån och stöld ska vara fria män och fridsvittnen",
+   "plats:sdhk:upland",
+   "swa sum ær vm bræþæ witni. vm drap. sar. ran. þiuffnæþ.",
+   "Fortsättning: 'þæt skall han witnæ mz frælsum mannum ok friþwitnum.'"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:vittne|vittnen om inläggsfä, byggning, land, köp, hemföljd, lysning, lån och vad ska vara bofasta män tagna inom hundaret",
+   "plats:sdhk:upland",
+   "þæt skal allt wæræ bolfastir mæn ok innæn hundæris takæs.",
+   "Tingmålabalken flock 9 i hskr B. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:tral",
+   "diskvalificerar",
+   "begrepp:edgard|alla eder ska fullgöras med fria män och fridsvittnen",
+   "plats:sdhk:upland",
+   "allir eþer þe aghu fyllæs mz frælsum mannum ok friþwitnum.",
+   "Tingmålabalken flock 11 i hskr B. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:namnd",
+   "utses_av",
+   "=vardera parten råder över halva nämnden i tvist om borgen",
+   "plats:sdhk:upland",
+   "dyl han þæt han æi taki war witin þæt tolff mæn. þer a þingi waru. hwat han taki war ællr æi e. hwat takæ þæt hælzt ær. ok raþi halffwi næmpd hwar þeræ."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tjugo mark till treskifte när bonden dräper den lagfällde man som tjänar av sina böter hos honom och har rymt",
+   "plats:sdhk:upland",
+   "Døz drap liggi. i xx. markum til þræskiptis.",
+   "Tingmålabalken flock 7 i hskr B; andra skador på honom är ogilda. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|tre marker för var och en av domarna som uteblir från tinget utan laga förfall",
+   "plats:sdhk:upland",
+   "ær hwarghin þær bøten baþir þre markr. ællr witin forfall."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|tre marker om domaren är på tinget och inte vill döma och tolv män fäller honom",
+   "plats:sdhk:upland",
+   "Nu ær domæri a þingi ok will æi dømæ. witi þæt tolff mæn þer a þingi waru. fællæ þe domæræn. þa bøte domærin þre markr."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|tre marker om domaren dömer i en sak som vädjats till lagmannen",
+   "plats:sdhk:upland",
+   "Dømir domæri nokot a wæþning þæt vndir laghman ar wæþiæt bøte þre markr"
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_vb_29",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|sex marker för den som dömer eller tvistar mot lagmannens utslag utan vad",
+   "plats:sdhk:upland",
+   "hwar sum dømir ællr deler at o wæþiæþu gen laghmanz skilu. bøte sæx markr."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_2",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|landskapens män svär kungen eder, och kungen ger dem lag och svär dem frid",
+   "plats:sdhk:upland",
+   "ok eþæ swæriæ. ok han a þem lagh at giwæ ok friþ at swæriæ.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_2",
+   "begrepp:eriksgata",
+   "kraver",
+   "=landskapens män följer kungen genom sitt land och ställer gisslan",
+   "plats:sdhk:upland",
+   "þe aghu hanum fylghiæ. ok aghu hanum gislæ sættiæ.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_kgb_2",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:eriksgata|kungen är lagligen kommen till land och rike först när han ridit rätt eriksgata genom landskapen",
+   "plats:sdhk:upland",
+   "þa ær þen konongr til land ok rikis laghlikæ kumin. mz upsweum ok suþermannum gøtum ok gutum ok allum smalændingium. þa hawer han riþit rættæ erix gatu.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_47",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp på den som kommer för att ransaka när husbonden står emot med vapen; husbonden själv ligger i enkel bot",
+   "plats:sdhk:upland",
+   "stander han gen mz wigh ok wærn. þa wæri þæn. i. enbøte sum fore ær. ok þæn. i. twæbøte sum til komber baþi. i. drapum ok sarum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:upplandslagen_enligt_codex_holm_b_199_schlyters_hskr_b:ul_hskr_b_mb_30",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|den som förverkat livet med sår eller dråp och inte gripits lyses på tre ting; på fjärde tinget nämns nämnden som värjer eller fäller honom",
+   "plats:sdhk:upland",
+   "wærþær han æi fangin. þa skal han lysæ a þrim þingum þylikæ giærning. ok a fiærþæ þingi skal þe næmpd næmpnæs",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

@@ -1,0 +1,381 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Yngre Västmannalagen (Holm B 57), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/yngre_vastmannalagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på någon annan än den som gjorde gärningen",
+   "plats:sdhk:vastmanland",
+   "Hwarsom hæmnis a annan. oc annar giorþe gærningina",
+   "Edsöret är kungens och de högsta herrarnas i Sverige."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas efter grid och förlikning, eller efter gången ed eller laga åtal",
+   "plats:sdhk:vastmanland",
+   "Hwa som hæmnis a gruþ oc giora sæt. suua oc hwasom hæmnes a gior lagh oc gangin. æller a lagha til mæle."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_1",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|hundarets nämnd prövar om hämnden drabbade annan än gärningsmannen",
+   "plats:sdhk:vastmanland",
+   "þa scal þæt hundæris næmd wita hvat hælldær han hæmdes a annan oc annar giorþe gærþina"
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_1",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|hundarets nämnd prövar om hämnd efter grid, ed eller åtal är sann",
+   "plats:sdhk:vastmanland",
+   "þæt a hundæris næmd wita. hwat þæt sant war. ællær æi."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att rida till annans hem med uppsåt att skada och såra, slå blodvite, dräpa eller binda någon saklös i gården",
+   "plats:sdhk:vastmanland",
+   "Riþær man hem at androm oc gior hanom hemsokn. hwat som þe æro en ællær flere. oc þæs wiliandis hanom skaþa giorþa."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:fredloshet|alla deltagare fredlösa och deras bo till skifte",
+   "plats:sdhk:vastmanland",
+   "þer læggias allir biltoghir. oc þera bo skiptis.",
+   "Var och en är huvudman för sig."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre marker om ingen skada skett utom att huset bröts",
+   "plats:sdhk:vastmanland",
+   "dyle mæþ eþe tolff manna ællær böte.III. markær.",
+   "Dalalagen har här sex marker."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:ed|tolv mäns ed för att neka när ingen skada skett",
+   "plats:sdhk:vastmanland",
+   "dyle mæþ eþe tolff manna"
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den hemsökande som dräps innanför gård och grindstolpar",
+   "plats:sdhk:vastmanland",
+   "warþær han slaghin. sarghaþær ællær dræpen. innan garþ oc grindastolpa. ligge ogildær."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att gå ut ur gården, hämta vapen eller följe och gå åter för att angripa; men inte gräl mellan dem som kom sams",
+   "plats:sdhk:vastmanland",
+   "vtan han gange aff þem garþe. oc i annan far sic wapn. ællær fylghe. gangær attær oc gior til hans fulla gærþ. þa ær þæt hemsokn"
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att rida till gården för sina ovänner och skjuta eller kasta så att någon i gården skadas",
+   "plats:sdhk:vastmanland",
+   "Rinþær man at garþe fore owinom sinom. skiutær til hans ællær castar. far þan scaþa i garþenom ær staddær. þæt ær hemsokn."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn där man i gården sårar, slår blodvite, dräper eller binder den som är saklös",
+   "plats:sdhk:vastmanland",
+   "sargha sla til bloz æller dræpa. ællær basta. ællær binda. þæn saclös ær. þa hawa þer allir konongs ezöre brotit.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_3",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:namnd|hundarets nämnd prövar vad som är sant",
+   "plats:sdhk:vastmanland",
+   "a a þæt hundæris næmd wita hwat þær ær sant om."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_3",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|halshuggning om han tas på färsk gärning och tolv män vittnar",
+   "plats:sdhk:vastmanland",
+   "oc witne han tolff mæn þær til. þa a han vnde swærd dömas."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_3",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldtäktsmannen som kvinnan dräper under övergreppet",
+   "plats:sdhk:vastmanland",
+   "dræpær {cono} (cona) han i þy. oc witna swa tolf mæn. ligge o gildær.",
+   "Tolv män ska vittna."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_3",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|rövar han kvinnan ur landet får han aldrig frid förrän hennes make ber för honom",
+   "plats:sdhk:vastmanland",
+   "Takær man cono mæþ wald. rymir aff lande mæþ hænne. warþær han laghlica wonnen til þere walzgærning. þa a han aldre friþ fa. fyr æn cononna gifftar man biþær före hanom."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_3",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldtäkt mot kvinna",
+   "plats:sdhk:vastmanland",
+   "Takær man cono mæþ walld.",
+   "Flocken står i edsöresbalken, som säger att dess mål är kungens edsöre. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att i försåt på kyrkväg eller tingsväg dräpa, såra eller slå blodvite",
+   "plats:sdhk:vastmanland",
+   "Sitær man a kirkio wægh. ællær a þinghswægh fore androm. dræpær. sarghar. ællær til bloþwite slar. han hafwær brotit cononghs ezöre."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte edsöre när striden på kyrk- eller tingsväg kommer av plötslig gärning och inte av långvarigt agg",
+   "plats:sdhk:vastmanland",
+   "Skil þöm a kirkiowægh. ællær þingswægh. æigh af langre awond. vtan braþom gærningom. þæt ær æig cononghs ezöre."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_5",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att leda bort någon och hugga av händer eller fötter, utom i vapenskifte",
+   "plats:sdhk:vastmanland",
+   "Takær man annan. leþær til stoc. hoggær aff hændær. ællær fötær. þær ær conongs ezöre. vtan þæt come til i wapna skipte."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_5",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|lagliga böter när kvinna eller omyndig gör gärningen",
+   "plats:sdhk:vastmanland",
+   "Gior cona ællær owormaghe þylica gærningar. bötin mæþ lagha botom. æigh ma cona. ællær owormaghe friþ flya.",
+   "Kvinna och omyndig kan inte bli fredlösa."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|fredlös över hela riket tills målsäganden ber för honom",
+   "plats:sdhk:vastmanland",
+   "oc {byltoghær} (biltoghær) læggias om alt rikit. oc aldre i friþ coma. fyr æn þan biþær fore hanom. som han bröt til."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkar all egendom ovan jord och landsvist",
+   "plats:sdhk:vastmanland",
+   "han hafwær fore giort allo þy som han a owan a iorþinne. Swa mange som þe æro. oc swa lanzwist."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=bara den brottsliges egen lott förverkas; ingen förverkar annans gods, inte far för son, son för far eller bror för bror",
+   "plats:sdhk:vastmanland",
+   "Nv ma ængin annars foregiora. æigh faþer sons. æigh son faþors. æigh broþir broþors.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av den brottsliges lott",
+   "plats:sdhk:vastmanland",
+   "æn lot takær malsæghande. annan cononghær. þriþia alle mæn.",
+   "Det förverkade godset; först tar de saklösa sina lotter."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av den brottsliges lott",
+   "plats:sdhk:vastmanland",
+   "æn lot takær malsæghande. annan cononghær. þriþia alle mæn.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:landskap|en tredjedel av den brottsliges lott",
+   "plats:sdhk:vastmanland",
+   "æn lot takær malsæghande. annan cononghær. þriþia alle mæn.",
+   "Det förverkade godset; 'alle mæn' tolkat som landet."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen för att lösa sig i frid",
+   "plats:sdhk:vastmanland",
+   "þa a conongær hanom friþ giwa. oc han löse sic i friþ wiþ conong. mæþ fioratighe marcom.",
+   "Sedan målsäganden eller dennes arvinge bett för honom."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=båda parterna samtycker till de nämndemän som nämns",
+   "plats:sdhk:vastmanland",
+   "oc þe i þa næmd næmnas som þe baþer ia wiþer sæghia."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:domare|alla nämnder",
+   "plats:sdhk:vastmanland",
+   "Alla næmdir scolo domara nænfna."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|tolv män, den de värjer är värjd och den de fäller är fälld",
+   "plats:sdhk:vastmanland",
+   "hwilkin som þe tolf wæria mæþ sinom eþe. han ær warþær. hwilikin þe fælla. han ær fælldær."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|nämnden får fälla eller fria den som stämts och uteblir",
+   "plats:sdhk:vastmanland",
+   "þa hafwin þö næfnda mæn wald {hat} at fælla han ællær skæra."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tjugo marker i tredelning när förrymd brottsling dräps vid återtagandet",
+   "plats:sdhk:vastmanland",
+   "vtan j drapom. Döz drap ligge j.XX. marcom til þræskiptis",
+   "Osäker tolkning: gäller den som tjänar av sina böter hos bonden och rymmer."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_21",
+   "begrepp:trolldom",
+   "kraver",
+   "begrepp:ed|tre vittnen och tre tolfters ed för hustru som anklagas för förgörning av maken",
+   "plats:sdhk:vastmanland",
+   "Dyle þa {þon} (hon) mæþ þrim witnom oc þrætolftom eþe.",
+   "Arvingen för talan efter makens död; ingen annan än maken eller sann arvinge får väcka saken."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_21",
+   "begrepp:trolldom",
+   "paforljd",
+   "=som annat mord om hustrun faller på eden",
+   "plats:sdhk:vastmanland",
+   "fallz hon at eþe. vare þæt som annor morþ."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_1",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:hundare|tolv män av hundaret nämner två domare",
+   "plats:sdhk:vastmanland",
+   "tolff mæn næmna af hundære. þe tolf agho twa mæn til domara. næmna.",
+   "Länsmannen låter nämna de tolv på tinget."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_1",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:kung|sätter domen i de nämnda domarnas händer",
+   "plats:sdhk:vastmanland",
+   "conungær a þem dom j hændær sætia."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_1",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|länsmannen nämner på tinget tolv män av hundaret, som sedan nämner två domare",
+   "plats:sdhk:vastmanland",
+   "NV scolo domarar takas þa scal læns man a þinge opstanda. oc tolff mæn næmna af hundære.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_8",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna nämner var sin hälft",
+   "plats:sdhk:vastmanland",
+   "Raþe halfwe næmd hwar þera som wiþ delas.",
+   "Den som vägrar nämna har förlorat."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_8",
+   "begrepp:namnd",
+   "utses_av",
+   "=de män som båda tvistande parter säger ja till",
+   "plats:sdhk:vastmanland",
+   "E hwar som næmd scal næmnas. þa næmnis þe mæn ær baþe sighia ia wiþ som wiþ delas."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_17",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|den som äger mindre än tre markers egendom",
+   "plats:sdhk:vastmanland",
+   "Þan ma witne bæra som a til þriggia marca cost. oc æi þan minna a."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_17",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|den som inte är fri och fredhelg, eller är utanför hundaret",
+   "plats:sdhk:vastmanland",
+   "Witne scal man innan hundæres taca frælsa mæn oc friþwita.",
+   "Positivt formulerat: vittnen ska vara fria män och fredvita inom hundaret."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_20",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|kvinna utom i mål om barnsbörd och barnamord",
+   "plats:sdhk:vastmanland",
+   "I þæmma malom ma cona swæria oc witne bæra. þær ær ett æn hon ær þa inne barn föþæs. hwat þæt hælldr födes döt ællær quict. annat æn hon wites om barna morþ.",
+   "Gäller även ed; jävet framgår motsatsvis."
+  ],
+  [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_13",
+   "person:birger_magnusson",
+   "stiftar_lag",
+   "=kung Birger gav lagen att ingen får ta målsägandes rätt utom den rätte saksägaren",
+   "plats:sdhk:vastmanland",
+   "Þæsse lagh gaff byrghir conungær. at ængin man scal malsæghanda ræt taka vtan rætær saca æghandi.",
+   "Lagen säger bara 'kung Birger'; identifierad med Birger Magnusson"
+  ]
+ ]
+}

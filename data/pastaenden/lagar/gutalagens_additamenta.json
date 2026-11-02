@@ -1,0 +1,90 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Gutalagens additamenta (AM 54), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/gutalagens_additamenta.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_3",
+   "begrepp:drap",
+   "paforljd",
+   "=en olärd prästson som dräper får själv akta sig för hämnd så länge han lever, inom eller utom landet",
+   "plats:gotland",
+   "Tha en prest {som} [son] olerder hitter sakar at giera ella man at wegha, tha sijr han sieluir wider sakom e medan han liffuir, hwar som han {er} ier {inna} [innan] lands eller vtan",
+   "Tillägg till GL kap. 5. Den olärde prästsonen har bonderätt och inget prästerligt skydd mot hämnd."
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|ska genast bjudas när en lärd man är målsägande, eftersom en präst inte får hämnas",
+   "plats:gotland",
+   "Tha en han döyr oc liauther hin lerdj sakar, tha biaudj han boot thegar, fyri thy at ey ma præster wider sakom sia",
+   "Talan: den lärde fränden (prästen) har saken att bevaka. Tillägg till GL kap. 5."
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|boten bärs fram på tinget inför hela folket om den lärde vägrar ta emot den; dråparen blir då saklös",
+   "plats:gotland",
+   "tha schal biera a tingh fyrj alla lydj, takj tar en han wil ellar radin allir lydir fyri Boot en si mader osaker.",
+   "'radin allir lydir fyri Boot' tolkas som att folket förfogar över boten."
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|full mansbot för hämnddråp sedan bot bjudits",
+   "plats:gotland",
+   "Tha en han {hempn at eyger so} [hempnar tha so ier] Budit, tha Byti han man at fullu werildj, och Allom landom XL. marker.",
+   "Gäller den som hämnas trots att bot bjudits; vem 'han' syftar på är inte helt klart."
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till hela landet för hämnddråp sedan bot bjudits",
+   "plats:gotland",
+   "Tha en han {hempn at eyger so} [hempnar tha so ier] Budit, tha Byti han man at fullu werildj, och Allom landom XL. marker.",
+   null
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|fyrtio marker vid hämnddråp sedan bot bjudits",
+   "plats:gotland",
+   "och Allom landom XL. marker.",
+   null
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den lärde broderns huvudlott (hafud lut) läggs fram när den olärde brodern vägrar bot; dråparen har sedan frid mot den lärde",
+   "plats:gotland",
+   "tha leggi hin lerdj fram hafud lut sen taka i hænder som allir landar til nempna, oc haffui helgh sidhan, en hin sie wider sakom som ey wildi Boot biauda",
+   "Osäker läsning: vem som lägger fram och tar emot huvudlotten. Den olärde brodern som vägrar bot behåller rätten till hämnd."
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=var och en av bröderna sin huvudlott när full mansbot bjuds",
+   "plats:gotland",
+   "Tha en werildj warder budhit, tha bytir hwar sen hafud luta.",
+   null
+  ],
+  [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_5",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|den lärde målsäganden klagar på tinget om dråparen inte bjuder bot; landsmännen tvingar dråparen att böta",
+   "plats:gotland",
+   "Tha schulu landar a sia, noyda och man til hanom at Byta iem wel som han war hoyder androm at Byta",
+   "Motivering i lagen: en präst får varken hämnas eller akta sig för hämnd utan att kristendomen fördärvas ('vtan kristindomber warder spiltir'). Prästens klagan på tinget: 'iach ma ey y haggom standa'."
+  ]
+ ]
+}

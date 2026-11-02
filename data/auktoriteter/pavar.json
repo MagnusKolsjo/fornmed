@@ -1,0 +1,884 @@
+{
+ "beskrivning": "Påvar och motpåvar 817–1549. 'fran' och 'till' är pontifikatets år; 'dod' anges när påven levde vidare efter pontifikatet (avgick eller avsattes), annars är 'till' dödsåret. Motpåvar har 'anm'. 'namnvarianter' normaliserar namnformer i SDHK:s regester till listans form. Sammanställd ur allmänna uppslagsverk och inte kontrollerad mot primärlitteratur.",
+ "pavar": [
+  {
+   "namn": "Paschalis",
+   "nr": "I",
+   "fran": 817,
+   "till": 824
+  },
+  {
+   "namn": "Eugenius",
+   "nr": "II",
+   "fran": 824,
+   "till": 827
+  },
+  {
+   "namn": "Valentinus",
+   "nr": "",
+   "fran": 827,
+   "till": 827
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "IV",
+   "fran": 827,
+   "till": 844
+  },
+  {
+   "namn": "Sergius",
+   "nr": "II",
+   "fran": 844,
+   "till": 847
+  },
+  {
+   "namn": "Leo",
+   "nr": "IV",
+   "fran": 847,
+   "till": 855
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "III",
+   "fran": 855,
+   "till": 858
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "I",
+   "fran": 858,
+   "till": 867
+  },
+  {
+   "namn": "Hadrianus",
+   "nr": "II",
+   "fran": 867,
+   "till": 872
+  },
+  {
+   "namn": "Johannes",
+   "nr": "VIII",
+   "fran": 872,
+   "till": 882
+  },
+  {
+   "namn": "Marinus",
+   "nr": "I",
+   "fran": 882,
+   "till": 884
+  },
+  {
+   "namn": "Hadrianus",
+   "nr": "III",
+   "fran": 884,
+   "till": 885
+  },
+  {
+   "namn": "Stephanus",
+   "nr": "V",
+   "fran": 885,
+   "till": 891
+  },
+  {
+   "namn": "Formosus",
+   "nr": "",
+   "fran": 891,
+   "till": 896
+  },
+  {
+   "namn": "Bonifatius",
+   "nr": "VI",
+   "fran": 896,
+   "till": 896
+  },
+  {
+   "namn": "Stephanus",
+   "nr": "VI",
+   "fran": 896,
+   "till": 897
+  },
+  {
+   "namn": "Romanus",
+   "nr": "",
+   "fran": 897,
+   "till": 897
+  },
+  {
+   "namn": "Theodorus",
+   "nr": "II",
+   "fran": 897,
+   "till": 897
+  },
+  {
+   "namn": "Johannes",
+   "nr": "IX",
+   "fran": 898,
+   "till": 900
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "IV",
+   "fran": 900,
+   "till": 903
+  },
+  {
+   "namn": "Leo",
+   "nr": "V",
+   "fran": 903,
+   "till": 903
+  },
+  {
+   "namn": "Sergius",
+   "nr": "III",
+   "fran": 904,
+   "till": 911
+  },
+  {
+   "namn": "Anastasius",
+   "nr": "III",
+   "fran": 911,
+   "till": 913
+  },
+  {
+   "namn": "Lando",
+   "nr": "",
+   "fran": 913,
+   "till": 914
+  },
+  {
+   "namn": "Johannes",
+   "nr": "X",
+   "fran": 914,
+   "till": 928
+  },
+  {
+   "namn": "Leo",
+   "nr": "VI",
+   "fran": 928,
+   "till": 929
+  },
+  {
+   "namn": "Stephanus",
+   "nr": "VII",
+   "fran": 929,
+   "till": 931
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XI",
+   "fran": 931,
+   "till": 936
+  },
+  {
+   "namn": "Leo",
+   "nr": "VII",
+   "fran": 936,
+   "till": 939
+  },
+  {
+   "namn": "Stephanus",
+   "nr": "VIII",
+   "fran": 939,
+   "till": 942
+  },
+  {
+   "namn": "Marinus",
+   "nr": "II",
+   "fran": 942,
+   "till": 946
+  },
+  {
+   "namn": "Agapitus",
+   "nr": "II",
+   "fran": 946,
+   "till": 955
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XII",
+   "fran": 955,
+   "till": 964
+  },
+  {
+   "namn": "Leo",
+   "nr": "VIII",
+   "fran": 963,
+   "till": 965
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "V",
+   "fran": 964,
+   "till": 964,
+   "dod": 966
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XIII",
+   "fran": 965,
+   "till": 972
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "VI",
+   "fran": 973,
+   "till": 974
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "VII",
+   "fran": 974,
+   "till": 983
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XIV",
+   "fran": 983,
+   "till": 984
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XV",
+   "fran": 985,
+   "till": 996
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "V",
+   "fran": 996,
+   "till": 999
+  },
+  {
+   "namn": "Silvester",
+   "nr": "II",
+   "fran": 999,
+   "till": 1003
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XVII",
+   "fran": 1003,
+   "till": 1003
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XVIII",
+   "fran": 1004,
+   "till": 1009
+  },
+  {
+   "namn": "Sergius",
+   "nr": "IV",
+   "fran": 1009,
+   "till": 1012
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "VIII",
+   "fran": 1012,
+   "till": 1024
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XIX",
+   "fran": 1024,
+   "till": 1032
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "IX",
+   "fran": 1032,
+   "till": 1048,
+   "dod": 1056
+  },
+  {
+   "namn": "Silvester",
+   "nr": "III",
+   "fran": 1045,
+   "till": 1045,
+   "dod": 1063
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "VI",
+   "fran": 1045,
+   "till": 1046,
+   "dod": 1047
+  },
+  {
+   "namn": "Clemens",
+   "nr": "II",
+   "fran": 1046,
+   "till": 1047
+  },
+  {
+   "namn": "Damasus",
+   "nr": "II",
+   "fran": 1048,
+   "till": 1048
+  },
+  {
+   "namn": "Leo",
+   "nr": "IX",
+   "fran": 1049,
+   "till": 1054
+  },
+  {
+   "namn": "Victor",
+   "nr": "II",
+   "fran": 1055,
+   "till": 1057
+  },
+  {
+   "namn": "Stephanus",
+   "nr": "IX",
+   "fran": 1057,
+   "till": 1058
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "X",
+   "fran": 1058,
+   "till": 1059,
+   "anm": "motpåve",
+   "dod": 1073
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "II",
+   "fran": 1059,
+   "till": 1061
+  },
+  {
+   "namn": "Alexander",
+   "nr": "II",
+   "fran": 1061,
+   "till": 1073
+  },
+  {
+   "namn": "Honorius",
+   "nr": "II",
+   "fran": 1061,
+   "till": 1064,
+   "anm": "motpåve (Cadalus)",
+   "dod": 1072
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "VII",
+   "fran": 1073,
+   "till": 1085
+  },
+  {
+   "namn": "Clemens",
+   "nr": "III",
+   "fran": 1080,
+   "till": 1100,
+   "anm": "motpåve (Wibert)"
+  },
+  {
+   "namn": "Victor",
+   "nr": "III",
+   "fran": 1086,
+   "till": 1087
+  },
+  {
+   "namn": "Urban",
+   "nr": "II",
+   "fran": 1088,
+   "till": 1099
+  },
+  {
+   "namn": "Paschalis",
+   "nr": "II",
+   "fran": 1099,
+   "till": 1118
+  },
+  {
+   "namn": "Gelasius",
+   "nr": "II",
+   "fran": 1118,
+   "till": 1119
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "VIII",
+   "fran": 1118,
+   "till": 1121,
+   "anm": "motpåve (Burdinus)",
+   "dod": 1137
+  },
+  {
+   "namn": "Calixtus",
+   "nr": "II",
+   "fran": 1119,
+   "till": 1124
+  },
+  {
+   "namn": "Honorius",
+   "nr": "II",
+   "fran": 1124,
+   "till": 1130
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "II",
+   "fran": 1130,
+   "till": 1143
+  },
+  {
+   "namn": "Anacletus",
+   "nr": "II",
+   "fran": 1130,
+   "till": 1138,
+   "anm": "motpåve"
+  },
+  {
+   "namn": "Celestinus",
+   "nr": "II",
+   "fran": 1143,
+   "till": 1144
+  },
+  {
+   "namn": "Lucius",
+   "nr": "II",
+   "fran": 1144,
+   "till": 1145
+  },
+  {
+   "namn": "Eugenius",
+   "nr": "III",
+   "fran": 1145,
+   "till": 1153
+  },
+  {
+   "namn": "Anastasius",
+   "nr": "IV",
+   "fran": 1153,
+   "till": 1154
+  },
+  {
+   "namn": "Hadrianus",
+   "nr": "IV",
+   "fran": 1154,
+   "till": 1159
+  },
+  {
+   "namn": "Alexander",
+   "nr": "III",
+   "fran": 1159,
+   "till": 1181
+  },
+  {
+   "namn": "Victor",
+   "nr": "IV",
+   "fran": 1159,
+   "till": 1164,
+   "anm": "motpåve"
+  },
+  {
+   "namn": "Paschalis",
+   "nr": "III",
+   "fran": 1164,
+   "till": 1168,
+   "anm": "motpåve"
+  },
+  {
+   "namn": "Calixtus",
+   "nr": "III",
+   "fran": 1168,
+   "till": 1178,
+   "anm": "motpåve",
+   "dod": 1180
+  },
+  {
+   "namn": "Lucius",
+   "nr": "III",
+   "fran": 1181,
+   "till": 1185
+  },
+  {
+   "namn": "Urban",
+   "nr": "III",
+   "fran": 1185,
+   "till": 1187
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "VIII",
+   "fran": 1187,
+   "till": 1187
+  },
+  {
+   "namn": "Clemens",
+   "nr": "III",
+   "fran": 1187,
+   "till": 1191
+  },
+  {
+   "namn": "Celestinus",
+   "nr": "III",
+   "fran": 1191,
+   "till": 1198
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "III",
+   "fran": 1198,
+   "till": 1216
+  },
+  {
+   "namn": "Honorius",
+   "nr": "III",
+   "fran": 1216,
+   "till": 1227
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "IX",
+   "fran": 1227,
+   "till": 1241
+  },
+  {
+   "namn": "Celestinus",
+   "nr": "IV",
+   "fran": 1241,
+   "till": 1241
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "IV",
+   "fran": 1243,
+   "till": 1254
+  },
+  {
+   "namn": "Alexander",
+   "nr": "IV",
+   "fran": 1254,
+   "till": 1261
+  },
+  {
+   "namn": "Urban",
+   "nr": "IV",
+   "fran": 1261,
+   "till": 1264
+  },
+  {
+   "namn": "Clemens",
+   "nr": "IV",
+   "fran": 1265,
+   "till": 1268
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "X",
+   "fran": 1271,
+   "till": 1276
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "V",
+   "fran": 1276,
+   "till": 1276
+  },
+  {
+   "namn": "Hadrianus",
+   "nr": "V",
+   "fran": 1276,
+   "till": 1276
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XXI",
+   "fran": 1276,
+   "till": 1277
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "III",
+   "fran": 1277,
+   "till": 1280
+  },
+  {
+   "namn": "Martin",
+   "nr": "IV",
+   "fran": 1281,
+   "till": 1285
+  },
+  {
+   "namn": "Honorius",
+   "nr": "IV",
+   "fran": 1285,
+   "till": 1287
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "IV",
+   "fran": 1288,
+   "till": 1292
+  },
+  {
+   "namn": "Celestinus",
+   "nr": "V",
+   "fran": 1294,
+   "till": 1294,
+   "dod": 1296
+  },
+  {
+   "namn": "Bonifatius",
+   "nr": "VIII",
+   "fran": 1294,
+   "till": 1303
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "XI",
+   "fran": 1303,
+   "till": 1304
+  },
+  {
+   "namn": "Clemens",
+   "nr": "V",
+   "fran": 1305,
+   "till": 1314
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XXII",
+   "fran": 1316,
+   "till": 1334
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "V",
+   "fran": 1328,
+   "till": 1330,
+   "anm": "motpåve",
+   "dod": 1333
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "XII",
+   "fran": 1334,
+   "till": 1342
+  },
+  {
+   "namn": "Clemens",
+   "nr": "VI",
+   "fran": 1342,
+   "till": 1352
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "VI",
+   "fran": 1352,
+   "till": 1362
+  },
+  {
+   "namn": "Urban",
+   "nr": "V",
+   "fran": 1362,
+   "till": 1370
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "XI",
+   "fran": 1370,
+   "till": 1378
+  },
+  {
+   "namn": "Urban",
+   "nr": "VI",
+   "fran": 1378,
+   "till": 1389
+  },
+  {
+   "namn": "Clemens",
+   "nr": "VII",
+   "fran": 1378,
+   "till": 1394,
+   "anm": "motpåve i Avignon"
+  },
+  {
+   "namn": "Bonifatius",
+   "nr": "IX",
+   "fran": 1389,
+   "till": 1404
+  },
+  {
+   "namn": "Benedictus",
+   "nr": "XIII",
+   "fran": 1394,
+   "till": 1423,
+   "anm": "motpåve i Avignon"
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "VII",
+   "fran": 1404,
+   "till": 1406
+  },
+  {
+   "namn": "Gregorius",
+   "nr": "XII",
+   "fran": 1406,
+   "till": 1415,
+   "dod": 1417
+  },
+  {
+   "namn": "Alexander",
+   "nr": "V",
+   "fran": 1409,
+   "till": 1410,
+   "anm": "motpåve i Pisa"
+  },
+  {
+   "namn": "Johannes",
+   "nr": "XXIII",
+   "fran": 1410,
+   "till": 1415,
+   "anm": "motpåve i Pisa",
+   "dod": 1419
+  },
+  {
+   "namn": "Martin",
+   "nr": "V",
+   "fran": 1417,
+   "till": 1431
+  },
+  {
+   "namn": "Clemens",
+   "nr": "VIII",
+   "fran": 1423,
+   "till": 1429,
+   "anm": "motpåve",
+   "dod": 1446
+  },
+  {
+   "namn": "Eugenius",
+   "nr": "IV",
+   "fran": 1431,
+   "till": 1447
+  },
+  {
+   "namn": "Felix",
+   "nr": "V",
+   "fran": 1439,
+   "till": 1449,
+   "anm": "motpåve i Basel",
+   "dod": 1451
+  },
+  {
+   "namn": "Nicolaus",
+   "nr": "V",
+   "fran": 1447,
+   "till": 1455
+  },
+  {
+   "namn": "Calixtus",
+   "nr": "III",
+   "fran": 1455,
+   "till": 1458
+  },
+  {
+   "namn": "Pius",
+   "nr": "II",
+   "fran": 1458,
+   "till": 1464
+  },
+  {
+   "namn": "Paulus",
+   "nr": "II",
+   "fran": 1464,
+   "till": 1471
+  },
+  {
+   "namn": "Sixtus",
+   "nr": "IV",
+   "fran": 1471,
+   "till": 1484
+  },
+  {
+   "namn": "Innocentius",
+   "nr": "VIII",
+   "fran": 1484,
+   "till": 1492
+  },
+  {
+   "namn": "Alexander",
+   "nr": "VI",
+   "fran": 1492,
+   "till": 1503
+  },
+  {
+   "namn": "Pius",
+   "nr": "III",
+   "fran": 1503,
+   "till": 1503
+  },
+  {
+   "namn": "Julius",
+   "nr": "II",
+   "fran": 1503,
+   "till": 1513
+  },
+  {
+   "namn": "Leo",
+   "nr": "X",
+   "fran": 1513,
+   "till": 1521
+  },
+  {
+   "namn": "Hadrianus",
+   "nr": "VI",
+   "fran": 1522,
+   "till": 1523
+  },
+  {
+   "namn": "Clemens",
+   "nr": "VII",
+   "fran": 1523,
+   "till": 1534
+  },
+  {
+   "namn": "Paulus",
+   "nr": "III",
+   "fran": 1534,
+   "till": 1549
+  }
+ ],
+ "namnvarianter": {
+  "Nikolaus": "Nicolaus",
+  "Klemens": "Clemens",
+  "Callixtus": "Calixtus",
+  "Kalixtus": "Calixtus",
+  "Coelestinus": "Celestinus",
+  "Caelestinus": "Celestinus",
+  "Celestin": "Celestinus",
+  "Bonifacius": "Bonifatius",
+  "Bonifacio": "Bonifatius",
+  "Benedikt": "Benedictus",
+  "Johan": "Johannes",
+  "Hadrian": "Hadrianus",
+  "Adrianus": "Hadrianus",
+  "Martinus": "Martin",
+  "Urbanus": "Urban",
+  "Eugenio": "Eugenius",
+  "Innocens": "Innocentius",
+  "Gregor": "Gregorius",
+  "Paul": "Paulus",
+  "Pascalis": "Paschalis",
+  "Calistus": "Calixtus",
+  "Kalistus": "Calixtus",
+  "Stefan": "Stephanus",
+  "Agapetus": "Agapitus",
+  "Sylvester": "Silvester",
+  "Viktor": "Victor",
+  "Anaklet": "Anacletus",
+  "Theodor": "Theodorus",
+  "Valentin": "Valentinus",
+  "Innocenitus": "Innocentius",
+  "Innoentius": "Innocentius",
+  "Innocentio": "Innocentius"
+ }
+}

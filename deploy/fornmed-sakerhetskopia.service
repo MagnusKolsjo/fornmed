@@ -1,0 +1,10 @@
+# Säkerhetskopia av det som bara finns på servern: webbplatsens sidor och
+# Umamis statistik. Fornmeds databas kommer från utvecklingsdatorn och
+# behöver ingen. Kopiorna sparas i 14 dagar i /srv/fornmed/sakerhetskopior.
+
+[Unit]
+Description=Fornmed — säkerhetskopia av webbplatsen och statistiken
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'install -d -m 700 /srv/fornmed/sakerhetskopior && for db in fornmed_webb umami; do sudo -u postgres pg_dump -Fc "$db" > "/srv/fornmed/sakerhetskopior/$db-$(date +%%Y%%m%%d).pgdump" || exit 1; done; find /srv/fornmed/sakerhetskopior -name "*.pgdump" -mtime +14 -delete'

@@ -1,0 +1,1826 @@
+[
+ {
+  "id": 1,
+  "beslut": "A_ratt",
+  "motivering": "Våldtäkt står i edsöresbalken; \"wndir swærþ dömas\" vid bar gärning och tolv mäns vittne saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 2,
+  "beslut": "samma_regel",
+  "motivering": "B har samma regel om hundaris næmþ med edsore som subjekt (#3).",
+  "ny_rad": null
+ },
+ {
+  "id": 3,
+  "beslut": "samma_regel",
+  "motivering": "A har regeln med valdtakt som subjekt (#2).",
+  "ny_rad": null
+ },
+ {
+  "id": 4,
+  "beslut": "osaker",
+  "motivering": "Flocken nämner inte ezöre; att våldtäkt bryter edsöret följer av balkens inledning (Eb 1) och Eb 6 (\"þæssum malum\"). Användaren avgör om balksammanhanget räcker för edsore definieras_som.",
+  "ny_rad": null
+ },
+ {
+  "id": 5,
+  "beslut": "A_fel",
+  "motivering": "Rätt andel, men begrepp:skeppslag finns bland kandidaterna och ska användas i stället för fritt värde.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_mb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:skeppslag|trettio marker av de hundrafyrtio",
+   "plats:sdhk:halsingland",
+   "ok XXX marker skiplaghit.",
+   "Skeppslaget motsvarar hundaret. Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 6,
+  "beslut": "samma_regel",
+  "motivering": "Motsvarar A:s rättade rad (#5).",
+  "ny_rad": null
+ },
+ {
+  "id": 7,
+  "beslut": "A_fel",
+  "motivering": "\"Nu ma ængin annars for giöræ\" gäller förverkat gods, inte en definition av edsöret; den andra halvan av värdet står inte i citatet.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=bara den brottsliges egen lott förverkas; ingen förverkar annans gods, inte far för son, son för far eller bror för bror",
+   "plats:sdhk:halsingland",
+   "Nu ma ængin annars for giöræ. æy faþur sönz. ok æy syn faþurs.\nok æi broþer broþærs.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 8,
+  "beslut": "A_ratt",
+  "motivering": "Nämndens tolv män som värjer eller fäller (\"þæn þe XII wæriæ\") saknas i B, som bara anger att nämnden handlägger.",
+  "ny_rad": null
+ },
+ {
+  "id": 9,
+  "beslut": "A_ratt",
+  "motivering": "\"þa næmpni konungx man foræ þæn som æy wil næmpnæ\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 10,
+  "beslut": "samma_regel",
+  "motivering": "B har samma skeppslag i #15 (edsore handlaggs_vid namnd).",
+  "ny_rad": null
+ },
+ {
+  "id": 11,
+  "beslut": "A_fel",
+  "motivering": "\"halfwre næmpd ... þe sum þe sighiæ baþir ia wiþer\" är en halv nämnd som båda parter godtar, inte att parterna nämner var sin hälft.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=halv nämnd som båda parter godtar, i mål om att hysa fredlös",
+   "plats:sdhk:halsingland",
+   "æller raþæ halfwre næmpd hwat\nhon wil hælder wæriæ æller fællæ. þe sum þe sighiæ baþir ia wiþer.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 12,
+  "beslut": "A_ratt",
+  "motivering": "Nämnden görs \"fora konungx aræ þa han þingtær i hælsingiæ landi\"; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 13,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel till \"allir mæn\"; B använder begrepp:allmoge (#14).",
+  "ny_rad": null
+ },
+ {
+  "id": 14,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel som A (#13) med landskap som mottagare.",
+  "ny_rad": null
+ },
+ {
+  "id": 15,
+  "beslut": "samma_regel",
+  "motivering": "A har nämnden ur samma skiplagh i #10.",
+  "ny_rad": null
+ },
+ {
+  "id": 16,
+  "beslut": "samma_regel",
+  "motivering": "Samma påföljd; A tar också med landzuist, B har kapat citatet.",
+  "ny_rad": null
+ },
+ {
+  "id": 17,
+  "beslut": "samma_regel",
+  "motivering": "Båda: nämnden nämns med bägge parters ja.",
+  "ny_rad": null
+ },
+ {
+  "id": 18,
+  "beslut": "A_ratt",
+  "motivering": "\"inne script sinæ vtlændis. oc böte ... XX. marker oc hundraþa\" om fränderna unnar honom livet; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 19,
+  "beslut": "A_ratt",
+  "motivering": "\"þæssin liggin all i þræböte\" om dråp inom närmaste släkten; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 20,
+  "beslut": "samma_regel",
+  "motivering": "Båda: kung och hundare delar andra halvan av trebot.",
+  "ny_rad": null
+ },
+ {
+  "id": 21,
+  "beslut": "samma_regel",
+  "motivering": "Båda: kung och hundare delar andra halvan av trebot.",
+  "ny_rad": null
+ },
+ {
+  "id": 22,
+  "beslut": "A_ratt",
+  "motivering": "\"wiliæ arfwr hænnæ böter taka. þee boot a wæræ hundræþæ marker ok XL\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 23,
+  "beslut": "samma_regel",
+  "motivering": "Samma \"liif foræ liif\".",
+  "ny_rad": null
+ },
+ {
+  "id": 24,
+  "beslut": "A_ratt",
+  "motivering": "\"VI.af kununx raþ.XII. mæn til næmnæ\" är en regel om hur nämnden utses; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 25,
+  "beslut": "A_ratt",
+  "motivering": "\"XII. mæn a þinge þem wæriæ eller fællæ\" gäller husbondedråp; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 26,
+  "beslut": "A_ratt",
+  "motivering": "Hur edgärden utses (\"eþa fylli taki men innan þriþiungz\") saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 27,
+  "beslut": "samma_regel",
+  "motivering": "Samma jäv för hushållet (\"vm disk oc duuk\").",
+  "ny_rad": null
+ },
+ {
+  "id": 28,
+  "beslut": "A_ratt",
+  "motivering": "Vid vad till fyrtio marker låter kungen nämna syn \"af landi\"; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 29,
+  "beslut": "osaker",
+  "motivering": "Texten säger \"þe næmpd ma attir bryta. sum baþi quædþa ia wiþir\" utan negation, alltså ordagrant att den nämnd båda godtagit \"må brytas\". B läser in ett \"får inte\". Användaren avgör om negationen fallit bort eller om meningen ska förstås som att nämnden kan angripas med vad (jfr § 2).",
+  "ny_rad": null
+ },
+ {
+  "id": 30,
+  "beslut": "samma_regel",
+  "motivering": "Samma tolvmannanämnd som värjer eller fäller.",
+  "ny_rad": null
+ },
+ {
+  "id": 31,
+  "beslut": "samma_regel",
+  "motivering": "Samma stegel för mördaren; A tar också med rånaren.",
+  "ny_rad": null
+ },
+ {
+  "id": 32,
+  "beslut": "samma_regel",
+  "motivering": "B har samma stadfästelse (\"giuum ui fullan lagha ræt\") i raden som paras med #38.",
+  "ny_rad": null
+ },
+ {
+  "id": 33,
+  "beslut": "A_ratt",
+  "motivering": "Laurens Ulfssons begäran är en del av lagstiftningen; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 34,
+  "beslut": "A_ratt",
+  "motivering": "Lagmannen valde tolv riddare och fullföljde kungens bud; B har bara uppdraget och då med begrepp:lagman.",
+  "ny_rad": null
+ },
+ {
+  "id": 35,
+  "beslut": "A_ratt",
+  "motivering": "Landsmännens antagande \"meþ samsæt ok utan genmæle\" utom två punkter saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 36,
+  "beslut": "samma_regel",
+  "motivering": "A har Laurens Ulfssons uppdrag med person-id (#34); B:s begrepp:lagman strider mot konventionen.",
+  "ny_rad": null
+ },
+ {
+  "id": 37,
+  "beslut": "B_fel",
+  "motivering": "De tolv riddarna var lagarbetets rådgivare, ingen nämnd.",
+  "ny_rad": null
+ },
+ {
+  "id": 38,
+  "beslut": "samma_regel",
+  "motivering": "Båda: Magnus Eriksson gav och stadfäste lagboken 1327; A har stadfästelsen också i #32.",
+  "ny_rad": null
+ },
+ {
+  "id": 39,
+  "beslut": "A_ratt",
+  "motivering": "\"wtan kunungir wili þær wm sanninþ skuþa\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 40,
+  "beslut": "A_ratt",
+  "motivering": "Nämnden nämns med båda parter närvarande och med deras ja; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 41,
+  "beslut": "A_ratt",
+  "motivering": "\"Raþi þær domarin næmd at næmpna\" när den stämde uteblir; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 42,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel till \"alle men\" (B: allmoge, #43).",
+  "ny_rad": null
+ },
+ {
+  "id": 43,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel som A (#42).",
+  "ny_rad": null
+ },
+ {
+  "id": 44,
+  "beslut": "samma_regel",
+  "motivering": "Samma tolvmannanämnd; A tar också med tredingen.",
+  "ny_rad": null
+ },
+ {
+  "id": 45,
+  "beslut": "samma_regel",
+  "motivering": "Samma påföljd; A tar också med lanz wist.",
+  "ny_rad": null
+ },
+ {
+  "id": 46,
+  "beslut": "A_ratt",
+  "motivering": "Tretolftsed (\"eþe þrætylptum\") för att värja sig mot försåt; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 47,
+  "beslut": "A_ratt",
+  "motivering": "Tvebot för den som dräps när han med lagdömt ting kräver ut sin sak; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 48,
+  "beslut": "A_ratt",
+  "motivering": "Lagens definition av morþwapn saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 49,
+  "beslut": "A_ratt",
+  "motivering": "Enböte fyrtio marker för den som kommer obuþin; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 50,
+  "beslut": "samma_regel",
+  "motivering": "B har tvebot för barn under tolv år (raden som paras med #55).",
+  "ny_rad": null
+ },
+ {
+  "id": 51,
+  "beslut": "A_ratt",
+  "motivering": "Fjärdedels bot för owita gerning, utan del för kung och biskop; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 52,
+  "beslut": "A_ratt",
+  "motivering": "B har tvebot för dråp på kvinna, men inte enböte när kvinna dräper man (\"Dræper kuna man. ligge i enböte\").",
+  "ny_rad": null
+ },
+ {
+  "id": 53,
+  "beslut": "A_ratt",
+  "motivering": "Högst fyrtio marker för heþit barn; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 54,
+  "beslut": "B_lagg_till",
+  "motivering": "\"oc þen i enböte forsat giorþe\": den som själv lagt försåtet och dräps ligger i enböte. A har det bara i en anmärkning.",
+  "ny_rad": [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:mansbot|enböte för den som själv lagt försåtet och dräps",
+   "plats:sdhk:sodermanland",
+   "oc þen i enböte forsat giorþe.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 55,
+  "beslut": "A_ratt",
+  "motivering": "Felparad: A:s rad gäller tvebot på ledungsskepp, som B saknar. B:s rad om barn motsvarar A #50.",
+  "ny_rad": null
+ },
+ {
+  "id": 56,
+  "beslut": "A_ratt",
+  "motivering": "Felparad: A:s rad gäller maltmælæ, som B saknar. B:s rad om kvinna motsvarar A #52.",
+  "ny_rad": null
+ },
+ {
+  "id": 57,
+  "beslut": "samma_regel",
+  "motivering": "\"twa kununger oc hundare\": två lotter till kung och hundare, alltså en var. Båda säger samma sak.",
+  "ny_rad": null
+ },
+ {
+  "id": 58,
+  "beslut": "samma_regel",
+  "motivering": "Samma som #57.",
+  "ny_rad": null
+ },
+ {
+  "id": 59,
+  "beslut": "samma_regel",
+  "motivering": "B har fredlösheten med edsore som subjekt (#67).",
+  "ny_rad": null
+ },
+ {
+  "id": 60,
+  "beslut": "A_ratt",
+  "motivering": "Sex marker när de bara brutit hus (\"þær ær hööt meþ litlu bööt\"); saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 61,
+  "beslut": "A_ratt",
+  "motivering": "Tolv mäns ed och två vittnen för att neka; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 62,
+  "beslut": "A_ratt",
+  "motivering": "A:s definition av hemsökn saknas i B. B:s edsöresdefinition (#65) är något annat.",
+  "ny_rad": null
+ },
+ {
+  "id": 63,
+  "beslut": "A_ratt",
+  "motivering": "Lagens gränsdragning för vad som räknas som heemsokn; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 64,
+  "beslut": "A_ratt",
+  "motivering": "Skott eller kast mot någon i gården är heemsokn; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 65,
+  "beslut": "B_lagg_till",
+  "motivering": "\"þa hawa þe kunungs ezöre brutit\": här säger flocken uttryckligen att hemsökn bryter edsöret. A saknar edsore definieras_som.",
+  "ny_rad": [
+   "lag:dalalagen_aldre_vastmannalagen:dl_eb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn där man i gården sårar, slår blodvite, dräper eller binder någon",
+   "plats:sdhk:dalarna",
+   "sarghæ. sla til bloz dræpa ælla basta oc binda. þa hawa þe kunungs ezöre brutit.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 66,
+  "beslut": "samma_regel",
+  "motivering": "A har \"þera bo til skiptis\" i värdet på fredlöshetsraden (#59).",
+  "ny_rad": null
+ },
+ {
+  "id": 67,
+  "beslut": "samma_regel",
+  "motivering": "A har samma fredlöshet med hemsokn som subjekt (#59).",
+  "ny_rad": null
+ },
+ {
+  "id": 68,
+  "beslut": "samma_regel",
+  "motivering": "Samma tjugo marker till tredelning.",
+  "ny_rad": null
+ },
+ {
+  "id": 69,
+  "beslut": "A_ratt",
+  "motivering": "\"böti meþ lagha botum. æi ma kuna ella owrmaghi frid flya\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 70,
+  "beslut": "A_ratt",
+  "motivering": "Hundæris næmd prövar om hämnden drabbade annan; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 71,
+  "beslut": "A_ratt",
+  "motivering": "Hundæris næmd prövar hämnd efter grid eller gången lag; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 72,
+  "beslut": "samma_regel",
+  "motivering": "A har \"þæt skulu XII mæn witæ\" och villkoret i ogild-raden (#73).",
+  "ny_rad": null
+ },
+ {
+  "id": 73,
+  "beslut": "samma_regel",
+  "motivering": "Samma ogilda dråp på tjuv som fälls av tolv män.",
+  "ny_rad": null
+ },
+ {
+  "id": 74,
+  "beslut": "samma_regel",
+  "motivering": "Samma sju marker i vådagälder.",
+  "ny_rad": null
+ },
+ {
+  "id": 75,
+  "beslut": "samma_regel",
+  "motivering": "Samma fyrtio marker för skeppslaget.",
+  "ny_rad": null
+ },
+ {
+  "id": 76,
+  "beslut": "A_ratt",
+  "motivering": "\"bötin allir ena boot\" när flera dräper en man; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 77,
+  "beslut": "A_ratt",
+  "motivering": "Två vittnen och tolv mäns ed för den i följet som inte var med i viljan; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 78,
+  "beslut": "samma_regel",
+  "motivering": "Samma tre marker till biskopen (B #80).",
+  "ny_rad": null
+ },
+ {
+  "id": 79,
+  "beslut": "A_ratt",
+  "motivering": "\"þrætolftum eþe\" för att neka försåt saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 80,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #78.",
+  "ny_rad": null
+ },
+ {
+  "id": 81,
+  "beslut": "A_ratt",
+  "motivering": "Vittne får bara bjudas i bland annat draap; en bevisregel för dråp som saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 82,
+  "beslut": "samma_regel",
+  "motivering": "Samma jäv i ed för far, son och bror.",
+  "ny_rad": null
+ },
+ {
+  "id": 83,
+  "beslut": "A_ratt",
+  "motivering": "Definitionen av hemsokn saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 84,
+  "beslut": "A_ratt",
+  "motivering": "Gränsdragningen för hemsokn saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 85,
+  "beslut": "A_ratt",
+  "motivering": "Skott eller kast i gården är hemsokn; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 86,
+  "beslut": "A_ratt",
+  "motivering": "\"dyle mæþ eþe tolff manna\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 87,
+  "beslut": "A_ratt",
+  "motivering": "Tre marker när de bara brutit hus; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 88,
+  "beslut": "samma_regel",
+  "motivering": "B har fredlösheten med edsore som subjekt (#89).",
+  "ny_rad": null
+ },
+ {
+  "id": 89,
+  "beslut": "samma_regel",
+  "motivering": "A har samma fredlöshet med hemsokn som subjekt (#88).",
+  "ny_rad": null
+ },
+ {
+  "id": 90,
+  "beslut": "B_lagg_till",
+  "motivering": "\"þa hawa þer allir konongs ezöre brotit\": här säger flocken uttryckligen att hemsökn bryter edsöret. A saknar edsore definieras_som.",
+  "ny_rad": [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn där man i gården sårar, slår blodvite, dräper eller binder den som är saklös",
+   "plats:sdhk:vastmanland",
+   "sargha sla til bloz æller dræpa. ællær basta. ællær binda. þæn saclös ær. þa hawa þer allir konongs ezöre brotit.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 91,
+  "beslut": "samma_regel",
+  "motivering": "A har \"þera bo skiptis\" i värdet på fredlöshetsraden (#88).",
+  "ny_rad": null
+ },
+ {
+  "id": 92,
+  "beslut": "B_lagg_till",
+  "motivering": "Kungens trygdareþ vid valet hör till konungavalet. A har bara Magnus stiftar_lag i flocken.",
+  "ny_rad": [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungen svär trygdared till alla bönder i riket på valdagen",
+   "plats:sdhk:sodermanland",
+   "a sama dagh ok staþ agher konunger allum innan ridhis boandum trygdar eþe sina ganga.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 93,
+  "beslut": "B_lagg_till",
+  "motivering": "Lagmannens och allmogens ed till kungen saknas i A.",
+  "ny_rad": [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|lagmannen och allmogen svär kungen sin ed på bok och helgedom",
+   "plats:sdhk:sodermanland",
+   "Siþan scal laghmaþer ok almoghe alder eþa thera suæria a book ok hælgha domum",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 94,
+  "beslut": "B_lagg_till",
+  "motivering": "\"konunger uæliande. ok æi æruande\": ett valrike. Saknas i A.",
+  "ny_rad": [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=kungen väljs och ärver inte riket",
+   "plats:sdhk:sodermanland",
+   "Nu ær til konunghs rikit i suearichi konunger uæliande. ok æi æruande",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 95,
+  "beslut": "B_lagg_till",
+  "motivering": "Varje lagman med tolv män ur lagsagan väljer kungen vid Mora ting. Saknas i A.",
+  "ny_rad": [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "utses_av",
+   "begrepp:lagman|varje lagman med tolv kloka män ur lagsagan, med böndernas samtycke, vid Mora ting; Upplands lagman har första rösten",
+   "plats:sdhk:sodermanland",
+   "laghmæn huar af laghsaghu sinne scal meþ samthyukiu aldra thera i laghsaghu boander æru. tolf mæn taca uitra ok sniælla meþ them a næmdom dagh ok tima til moro thinghs koma konung at uælia.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 96,
+  "beslut": "B_lagg_till",
+  "motivering": "Eriksgatan med ömsesidiga eder i varje lagsaga saknas i A.",
+  "ny_rad": [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|kungen och bönderna i varje lagsaga svär varandra eder, med början i Uppsala",
+   "plats:sdhk:sodermanland",
+   "Scal han eriks gatu sina riþa rætsöles um land sin. byriande i upsalum eþa at suæria allum them i uplanda laghsaghu boandes æru. ok the hanum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 97,
+  "beslut": "samma_regel",
+  "motivering": "Båda: Magnus lät skriva in valet och ederna i lagboken.",
+  "ny_rad": null
+ },
+ {
+  "id": 98,
+  "beslut": "A_ratt",
+  "motivering": "Hundæris næmd prövar våldtäkten; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 99,
+  "beslut": "A_ratt",
+  "motivering": "\"vnde swærd dömas\" vid färsk gärning; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 100,
+  "beslut": "A_ratt",
+  "motivering": "Rövar han kvinnan ur landet får han aldrig frid förrän maken ber för honom; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 101,
+  "beslut": "osaker",
+  "motivering": "Samma fråga som #4: flocken (\"Nu six om quinna friþ\") nämner inte ezöre uttryckligen, men den står i konungs edsöresbalk och Kgb 6 säger \"Þæssæ mal ... æra conongs ezöre\". Användaren avgör om balksammanhanget räcker.",
+  "ny_rad": null
+ },
+ {
+  "id": 102,
+  "beslut": "A_ratt",
+  "motivering": "De tolv som värjer eller fäller \"mæþ sinom eþe\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 103,
+  "beslut": "A_ratt",
+  "motivering": "Nämnden har \"wald at fælla han ællær skæra\" när den stämde uteblir; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 104,
+  "beslut": "A_ratt",
+  "motivering": "Nämndemännen nämns med bägge parters ja; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 105,
+  "beslut": "A_ratt",
+  "motivering": "\"Alla næmdir scolo domara nænfna\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 106,
+  "beslut": "A_fel",
+  "motivering": "\"Nv ma ængin annars foregiora\" gäller förverkat gods, inte en definition av edsöret.",
+  "ny_rad": [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_kgb_6",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=bara den brottsliges egen lott förverkas; ingen förverkar annans gods, inte far för son, son för far eller bror för bror",
+   "plats:sdhk:vastmanland",
+   "Nv ma ængin annars foregiora. æigh faþer sons. æigh son faþors. æigh broþir broþors.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 107,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel till \"alle mæn\" (B: allmoge, #108).",
+  "ny_rad": null
+ },
+ {
+  "id": 108,
+  "beslut": "samma_regel",
+  "motivering": "Samma tredjedel som A (#107).",
+  "ny_rad": null
+ },
+ {
+  "id": 109,
+  "beslut": "samma_regel",
+  "motivering": "Samma påföljd; A tar också med lanzwist.",
+  "ny_rad": null
+ },
+ {
+  "id": 110,
+  "beslut": "A_ratt",
+  "motivering": "\"þessa boot takir kunungir wp\": B har citatet men inget tillfaller-påstående.",
+  "ny_rad": null
+ },
+ {
+  "id": 111,
+  "beslut": "A_ratt",
+  "motivering": "Lagens egen definition (\"þæt hetir dulgha drap\") saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 112,
+  "beslut": "A_ratt",
+  "motivering": "Fyrtio marker, \"kunungs een sak\", om bolstadsmännen släpper banemannen; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 113,
+  "beslut": "samma_regel",
+  "motivering": "Samma tolv marker.",
+  "ny_rad": null
+ },
+ {
+  "id": 114,
+  "beslut": "A_ratt",
+  "motivering": "Undantaget \"aff braþum gerningum ... æi kunungs edzöre\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 115,
+  "beslut": "A_ratt",
+  "motivering": "Lagaböter för kvinna och omyndig, som inte kan bli fredlösa; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 116,
+  "beslut": "samma_regel",
+  "motivering": "Samma tak på fyrtio marker.",
+  "ny_rad": null
+ },
+ {
+  "id": 117,
+  "beslut": "A_ratt",
+  "motivering": "Hundaris næmþ prövar hämnden; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 118,
+  "beslut": "A_ratt",
+  "motivering": "Den som rymmer ur landet med kvinnan får aldrig frid förrän maken ber för honom; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 119,
+  "beslut": "A_ratt",
+  "motivering": "\"wndir swærþ dömæs\" vid färsk gärning; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 120,
+  "beslut": "A_ratt",
+  "motivering": "\"witi þæt XII. mæn\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 121,
+  "beslut": "osaker",
+  "motivering": "Samma fråga som #4: flocken nämner inte eþzöre, men Hl Kgb 6 (\"Thæssæ maal æru konungx eþzöræ\") täcker balken. Användaren avgör om det räcker.",
+  "ny_rad": null
+ },
+ {
+  "id": 122,
+  "beslut": "A_ratt",
+  "motivering": "Lagaböter för kvinna och omyndig; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 123,
+  "beslut": "A_ratt",
+  "motivering": "Flockens uppräkning av vådafall (\"I thessum malum nu æru saghda\"); saknas i B. Citatet täcker bara hus och ved.",
+  "ny_rad": null
+ },
+ {
+  "id": 124,
+  "beslut": "A_ratt",
+  "motivering": "Vådaed när föräldrar dräper sitt barn av våda; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 125,
+  "beslut": "samma_regel",
+  "motivering": "B har de sju markerna till målsäganden som paforljd (#128).",
+  "ny_rad": null
+ },
+ {
+  "id": 126,
+  "beslut": "B_lagg_till",
+  "motivering": "\"Kliwer fore kæti skyld: Wari o böter\": den som klättrar för nöjes skull och störtar ligger utan bot. A saknar det.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som klättrar i masten för nöjes skull och störtar",
+   "plats:sdhk:halsingland",
+   "Kliwer fore kæti skyld: Wari o böter.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 127,
+  "beslut": "B_lagg_till",
+  "motivering": "Två som fäller samma träd och båda dör ligger utan bot (\"Liggin o bötter\"). A saknar det. Citatet har förlängts.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|två som fäller samma träd och båda dör",
+   "plats:sdhk:halsingland",
+   "Hogga twe træ ett, fa badhin bana:\nLiggin o bötter.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 128,
+  "beslut": "samma_regel",
+  "motivering": "A har de sju markerna till målsäganden som tillfaller (#125).",
+  "ny_rad": null
+ },
+ {
+  "id": 129,
+  "beslut": "B_lagg_till",
+  "motivering": "Halv bot (\"Liggi i halwm giældum\") när någon klättrar i masten på skepparens bön; saknas i A. Citatet har förlängts.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|halv bot när någon klättrar i masten på skepparens begäran och störtar",
+   "plats:sdhk:halsingland",
+   "Klywer man i siægl træ medh bön skipara, falder nidher, ok far af bana:\nLiggi i halwm giældum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 130,
+  "beslut": "A_ratt",
+  "motivering": "Sex marker i tredelning \"falder at eþæ\"; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 131,
+  "beslut": "samma_regel",
+  "motivering": "B har fredlösheten med edsore som subjekt (#138) och boskiftet i #136.",
+  "ny_rad": null
+ },
+ {
+  "id": 132,
+  "beslut": "A_ratt",
+  "motivering": "\"dyli mæþ XIIII mannæ eþæ\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 133,
+  "beslut": "A_ratt",
+  "motivering": "Definitionen av hemsokn saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 134,
+  "beslut": "A_ratt",
+  "motivering": "Gränsdragningen för hemsokn saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 135,
+  "beslut": "A_ratt",
+  "motivering": "Skott eller kast i gården är hemsokn; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 136,
+  "beslut": "samma_regel",
+  "motivering": "A har \"þerræ bo til skiftis\" i värdet på fredlöshetsraden (#131).",
+  "ny_rad": null
+ },
+ {
+  "id": 137,
+  "beslut": "B_lagg_till",
+  "motivering": "Flocken säger \"þe hawi allir brutit konungx ezöræ\" om hemsökn. A saknar edsore definieras_som. Citatet har förlängts.",
+  "ny_rad": [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn där man i gården sårar, slår blodvite, dräper eller binder den som är saklös",
+   "plats:sdhk:halsingland",
+   "sargha. sla till blooz. dræpa. bastæ. æller bindæ þæn saklöz ær.\nþe hawi allir brutit konungx ezöræ.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 138,
+  "beslut": "samma_regel",
+  "motivering": "A har samma fredlöshet med hemsokn som subjekt (#131).",
+  "ny_rad": null
+ },
+ {
+  "id": 139,
+  "beslut": "A_ratt",
+  "motivering": "\"wari gilder at hundraþa markum\" för dråp i gården; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 140,
+  "beslut": "A_ratt",
+  "motivering": "Tretolftsed eller böter för den som hittar ett lik och inte skärskjuter det; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 141,
+  "beslut": "A_ratt",
+  "motivering": "Trebot för smed i smedjan; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 142,
+  "beslut": "samma_regel",
+  "motivering": "Samma trebot; A tar också med att hustrun har samma gälde.",
+  "ny_rad": null
+ },
+ {
+  "id": 143,
+  "beslut": "samma_regel",
+  "motivering": "Samma trebot på tingsplatsen.",
+  "ny_rad": null
+ },
+ {
+  "id": 144,
+  "beslut": "samma_regel",
+  "motivering": "Samma trebot i kyrka och på kyrkogård.",
+  "ny_rad": null
+ },
+ {
+  "id": 145,
+  "beslut": "samma_regel",
+  "motivering": "Samma kununx ræt till biskopen (B #146).",
+  "ny_rad": null
+ },
+ {
+  "id": 146,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #145.",
+  "ny_rad": null
+ },
+ {
+  "id": 147,
+  "beslut": "A_ratt",
+  "motivering": "\"Witin thet sex mæn\" om handaverk syns; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 148,
+  "beslut": "samma_regel",
+  "motivering": "B har samma hundra marker vid lik i låst hus (#149), med mordgald som subjekt.",
+  "ny_rad": null
+ },
+ {
+  "id": 149,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #148.",
+  "ny_rad": null
+ },
+ {
+  "id": 150,
+  "beslut": "A_ratt",
+  "motivering": "\"þæt skulu XII. mæn vita\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 151,
+  "beslut": "A_ratt",
+  "motivering": "\"liggin J. þings giældum\" för dråp mellan svågrar saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 152,
+  "beslut": "samma_regel",
+  "motivering": "B har samma tredelning med boter som subjekt (#161).",
+  "ny_rad": null
+ },
+ {
+  "id": 153,
+  "beslut": "samma_regel",
+  "motivering": "B har samma rad (tjugo marker manhelgd, fyrtio marker fall) i flocken.",
+  "ny_rad": null
+ },
+ {
+  "id": 154,
+  "beslut": "A_ratt",
+  "motivering": "Femton marker manhelgd när bror dräper bror; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 155,
+  "beslut": "A_ratt",
+  "motivering": "Tre marker manhelgd för tre- och fyrmänningar; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 156,
+  "beslut": "A_ratt",
+  "motivering": "Nio marker manhelgd och åttio marker fall när make dräper hustru; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 157,
+  "beslut": "A_ratt",
+  "motivering": "Nio marker manhelgd och LXXX marker fall när hustru dräper make; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 158,
+  "beslut": "samma_regel",
+  "motivering": "B har samma tredelning (#160).",
+  "ny_rad": null
+ },
+ {
+  "id": 159,
+  "beslut": "samma_regel",
+  "motivering": "B har samma tredelning (#162).",
+  "ny_rad": null
+ },
+ {
+  "id": 160,
+  "beslut": "samma_regel",
+  "motivering": "A har samma tredelning med manhelgd som subjekt (#158).",
+  "ny_rad": null
+ },
+ {
+  "id": 161,
+  "beslut": "samma_regel",
+  "motivering": "A har samma tredelning (#152).",
+  "ny_rad": null
+ },
+ {
+  "id": 162,
+  "beslut": "samma_regel",
+  "motivering": "A har samma tredelning (#159).",
+  "ny_rad": null
+ },
+ {
+  "id": 163,
+  "beslut": "A_ratt",
+  "motivering": "\"Witin thet tolf mæn\" om gärningsmannen är galen eller omyndig; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 164,
+  "beslut": "samma_regel",
+  "motivering": "Samma halva gälder för omyndig under tolv år.",
+  "ny_rad": null
+ },
+ {
+  "id": 165,
+  "beslut": "samma_regel",
+  "motivering": "Samma halva gälder för galen man som slipper lös.",
+  "ny_rad": null
+ },
+ {
+  "id": 166,
+  "beslut": "samma_regel",
+  "motivering": "B har allmogens samtycke i värdet på kungens stiftar_lag-rad. A har delat upp regeln på två rader.",
+  "ny_rad": null
+ },
+ {
+  "id": 167,
+  "beslut": "A_ratt",
+  "motivering": "Lagens definition av folklanz næmd saknas i B. Flocken gäller ägotvister, men regeln om hur nämnden sätts samman hör till ämnet.",
+  "ny_rad": null
+ },
+ {
+  "id": 168,
+  "beslut": "A_ratt",
+  "motivering": "De tolvs ed \"ma ængin atter bryta. æi konunger\" binder nämndens avgörande; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 169,
+  "beslut": "A_ratt",
+  "motivering": "\"raþe halui næmd huar thera\" om hur synen utses saknas i B. Det vore tydligare om värdet sa \"vardera parten\" i stället för målsägande.",
+  "ny_rad": null
+ },
+ {
+  "id": 170,
+  "beslut": "samma_regel",
+  "motivering": "B har samma regel med namnd som den som utser (#172).",
+  "ny_rad": null
+ },
+ {
+  "id": 171,
+  "beslut": "A_ratt",
+  "motivering": "\"conungær a þem dom j hændær sætia\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 172,
+  "beslut": "samma_regel",
+  "motivering": "A har samma regel (#170).",
+  "ny_rad": null
+ },
+ {
+  "id": 173,
+  "beslut": "B_lagg_till",
+  "motivering": "Länsmannen \"a þinge opstanda. oc tolff mæn næmna af hundære\". A har det bara i en anmärkning.",
+  "ny_rad": [
+   "lag:yngre_vastmannalagen_enl_holm_b_57:vml_tb_1",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|länsmannen nämner på tinget tolv män av hundaret, som sedan nämner två domare",
+   "plats:sdhk:vastmanland",
+   "NV scolo domarar takas þa scal læns man a þinge opstanda. oc tolff mæn næmna af hundære.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 174,
+  "beslut": "samma_regel",
+  "motivering": "Samma stiftar_lag. A följer konventionen med person-id (byrghir conungær = Birger Magnusson).",
+  "ny_rad": null
+ },
+ {
+  "id": 175,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A #174, men med begrepp:kung i stället för person-id.",
+  "ny_rad": null
+ },
+ {
+  "id": 176,
+  "beslut": "A_ratt",
+  "motivering": "\"wari saclös fori drapinu\" när den sårade intygar att han dör av annan sot; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 177,
+  "beslut": "A_ratt",
+  "motivering": "\"þæssen witnen sculu bygþfast wara\" är en regel om vem som får vittna; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 178,
+  "beslut": "A_utanfor",
+  "motivering": "Böter för falskt vittne gäller inte jäv eller hur nämnd och vittnen utses.",
+  "ny_rad": null
+ },
+ {
+  "id": 179,
+  "beslut": "A_ratt",
+  "motivering": "\"frælsum mannum oc friþwitum\" som vittnen i dråpsmål. B har regeln men med fel begrepp (#181).",
+  "ny_rad": null
+ },
+ {
+  "id": 180,
+  "beslut": "A_utanfor",
+  "motivering": "Böter för en nämnd som varken vill värja eller fälla gäller inte jäv, utseende eller domared.",
+  "ny_rad": null
+ },
+ {
+  "id": 181,
+  "beslut": "B_fel",
+  "motivering": "\"frælsum mannum\" betyder fria män, inte frälse (begrepp:fralse betyder skattefrihet eller frälsestånd). A har regeln rätt (#179).",
+  "ny_rad": null
+ },
+ {
+  "id": 182,
+  "beslut": "B_fel",
+  "motivering": "Att nämnden ska värja eller fälla \"i rættum lagþingum\" gäller tingsordningen, inte jäv eller hur nämnden utses. Det ligger utanför ämnena.",
+  "ny_rad": null
+ },
+ {
+  "id": 183,
+  "beslut": "samma_regel",
+  "motivering": "Samma åttio marker till målsägande (B #184). A tar också med friþbruth.",
+  "ny_rad": null
+ },
+ {
+  "id": 184,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #183.",
+  "ny_rad": null
+ },
+ {
+  "id": 185,
+  "beslut": "A_ratt",
+  "motivering": "Vid våldtäkt (\"kuna mæþ walþ takin\") får bonden saklöst skära upp budkavle; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 186,
+  "beslut": "A_utanfor",
+  "motivering": "Böter för domare som inte vill döma rätt är ingen jävsregel och ingen domared.",
+  "ny_rad": null
+ },
+ {
+  "id": 187,
+  "beslut": "A_ratt",
+  "motivering": "Den som dömer där en annan rätteligen är tagen till domare får sin dom ogiltig och böter. Det gäller vem som får vara domare. Läsningen är osäker, vilket A anmärker.",
+  "ny_rad": null
+ },
+ {
+  "id": 188,
+  "beslut": "A_ratt",
+  "motivering": "Vid dråp får bonden saklöst kalla till ting med budkavle; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 189,
+  "beslut": "samma_regel",
+  "motivering": "B har samma halva nämnd för vardera parten (#190).",
+  "ny_rad": null
+ },
+ {
+  "id": 190,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #189.",
+  "ny_rad": null
+ },
+ {
+  "id": 191,
+  "beslut": "A_ratt",
+  "motivering": "\"sarum warda ... Fore liflati, dagh ok iamlanga\": gärningsmannen svarar för såret som dråp i ett år. B läser fel (#192).",
+  "ny_rad": null
+ },
+ {
+  "id": 192,
+  "beslut": "B_fel",
+  "motivering": "\"warda\" betyder att svara för, inte att såret ska hållas öppet.",
+  "ny_rad": null
+ },
+ {
+  "id": 193,
+  "beslut": "A_ratt",
+  "motivering": "Lagens beskrivning av mord (liket fört i mosse, kärr eller vatten) saknas som definition i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 194,
+  "beslut": "A_ratt",
+  "motivering": "Tredelningen (\"taki een lut kunungir annan malsæghandi þridia alli men\") saknas i B för den här flocken.",
+  "ny_rad": null
+ },
+ {
+  "id": 195,
+  "beslut": "A_ratt",
+  "motivering": "Dylsbot, en mark per natt upp till tolv; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 196,
+  "beslut": "A_ratt",
+  "motivering": "Tredjedelen till \"alli men\" saknas i B för den här flocken.",
+  "ny_rad": null
+ },
+ {
+  "id": 197,
+  "beslut": "samma_regel",
+  "motivering": "B har samma fyrtio marker (#204).",
+  "ny_rad": null
+ },
+ {
+  "id": 198,
+  "beslut": "samma_regel",
+  "motivering": "B har samma åttio marker (#205).",
+  "ny_rad": null
+ },
+ {
+  "id": 199,
+  "beslut": "samma_regel",
+  "motivering": "B har samma åttio marker (#206).",
+  "ny_rad": null
+ },
+ {
+  "id": 200,
+  "beslut": "A_ratt",
+  "motivering": "Bot för grættingir (vaggbarn), gosse XL och flicka LXXX; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 201,
+  "beslut": "samma_regel",
+  "motivering": "B har samma mordgäld och manhelgd (#207).",
+  "ny_rad": null
+ },
+ {
+  "id": 202,
+  "beslut": "A_ratt",
+  "motivering": "Kungens tredjedel saknas i B för den här flocken.",
+  "ny_rad": null
+ },
+ {
+  "id": 203,
+  "beslut": "A_ratt",
+  "motivering": "Tvebot för kroklokarl saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 204,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #197.",
+  "ny_rad": null
+ },
+ {
+  "id": 205,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #198.",
+  "ny_rad": null
+ },
+ {
+  "id": 206,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #199.",
+  "ny_rad": null
+ },
+ {
+  "id": 207,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #201.",
+  "ny_rad": null
+ },
+ {
+  "id": 208,
+  "beslut": "A_ratt",
+  "motivering": "\"æi þan minna a\" än tre markers egendom får vittna; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 209,
+  "beslut": "A_ratt",
+  "motivering": "\"frælsa mæn oc friþwita\" inom hundaret. B har regeln men med fel begrepp (#210).",
+  "ny_rad": null
+ },
+ {
+  "id": 210,
+  "beslut": "B_fel",
+  "motivering": "\"frælsa mæn\" betyder fria män, inte frälse (begrepp:fralse). A har regeln rätt (#209).",
+  "ny_rad": null
+ },
+ {
+  "id": 211,
+  "beslut": "A_utanfor",
+  "motivering": "Böter för länsman som stämmer av agg är ingen jävsregel om domare, nämnd, edgärd eller vittne.",
+  "ny_rad": null
+ },
+ {
+  "id": 212,
+  "beslut": "A_ratt",
+  "motivering": "\"dyli mæþ XIIII mannæ eþe\" för hald- och rådbane saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 213,
+  "beslut": "A_ratt",
+  "motivering": "\"konunger wærold.IIII. marker\" saknas i B. A anmärker att wærold är osäkert.",
+  "ny_rad": null
+ },
+ {
+  "id": 214,
+  "beslut": "samma_regel",
+  "motivering": "B har femton marker för hallbane och radsbane i två rader (#219, #220).",
+  "ny_rad": null
+ },
+ {
+  "id": 215,
+  "beslut": "A_ratt",
+  "motivering": "Ättebotens fördelning på fränder saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 216,
+  "beslut": "A_ratt",
+  "motivering": "\"VII. marker wæghnær\" till målsäganden saknas i B. A anmärker att ordet är osäkert.",
+  "ny_rad": null
+ },
+ {
+  "id": 217,
+  "beslut": "samma_regel",
+  "motivering": "B har samma val mellan hämnd och bot (#218).",
+  "ny_rad": null
+ },
+ {
+  "id": 218,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #217.",
+  "ny_rad": null
+ },
+ {
+  "id": 219,
+  "beslut": "samma_regel",
+  "motivering": "A har femton marker för haldbane i #214.",
+  "ny_rad": null
+ },
+ {
+  "id": 220,
+  "beslut": "samma_regel",
+  "motivering": "A har femton marker för raaþbane i #214.",
+  "ny_rad": null
+ },
+ {
+  "id": 221,
+  "beslut": "A_ratt",
+  "motivering": "Hur lagmannen väljs och får domen i sina händer saknas i B. Det hör till vem som får vara domare. Flockens början saknas.",
+  "ny_rad": null
+ },
+ {
+  "id": 222,
+  "beslut": "A_ratt",
+  "motivering": "\"raþe halwe næmd hwar þeræ\" om hur nämnden utses saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 223,
+  "beslut": "A_ratt",
+  "motivering": "Den graderade hemsökningsboten, upp till \"Fiura ok tiughu boghar i tridhiung hwarn\". B har bara principen (#225).",
+  "ny_rad": null
+ },
+ {
+  "id": 224,
+  "beslut": "A_ratt",
+  "motivering": "Hemsökningsboten delas på målsägande, kung och alla män; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 225,
+  "beslut": "samma_regel",
+  "motivering": "A:s rad om den graderade boten (#223) säger samma sak, med belopp.",
+  "ny_rad": null
+ },
+ {
+  "id": 226,
+  "beslut": "samma_regel",
+  "motivering": "B har samma tolv marker i þocca bot (#229), som drap paforljd.",
+  "ny_rad": null
+ },
+ {
+  "id": 227,
+  "beslut": "samma_regel",
+  "motivering": "B har samma fyrtio marker till kungen (#228).",
+  "ny_rad": null
+ },
+ {
+  "id": 228,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #227.",
+  "ny_rad": null
+ },
+ {
+  "id": 229,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #226.",
+  "ny_rad": null
+ },
+ {
+  "id": 230,
+  "beslut": "A_utanfor",
+  "motivering": "Torwo giælþ gäller att begrava en levande sjuk man som sedan klarar sig. Det är inget dödande, vilket A självt anmärker.",
+  "ny_rad": null
+ },
+ {
+  "id": 231,
+  "beslut": "A_utanfor",
+  "motivering": "Samma som #230.",
+  "ny_rad": null
+ },
+ {
+  "id": 232,
+  "beslut": "A_utanfor",
+  "motivering": "Samma som #230: ingen har dödats.",
+  "ny_rad": null
+ },
+ {
+  "id": 233,
+  "beslut": "A_ratt",
+  "motivering": "\"þæt sculu tolf men wita\" om gärningsmannen är omyndig saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 234,
+  "beslut": "A_ratt",
+  "motivering": "Omyndigs dråp \"hwaria lund han dræpir\" räknas som våda. B har bara boten (#235).",
+  "ny_rad": null
+ },
+ {
+  "id": 235,
+  "beslut": "B_lagg_till",
+  "motivering": "Sju marker i vådabot för dråp av omyndig under femton år. A har beloppet bara i citatet, inte som påföljd.",
+  "ny_rad": [
+   "lag:dalalagen_aldre_vastmannalagen:dl_mb_25",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|sju marker i vådabot när omyndig under femton år dräper",
+   "plats:sdhk:dalarna",
+   "Dræpir owrmaghi man. minna æn fæmtan ara. hwaria lund han dræpir han. wari waþa bot siw markir.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 236,
+  "beslut": "A_ratt",
+  "motivering": "Kvinnan får bara vittna i de uppräknade målen, alltså jäv i övriga; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 237,
+  "beslut": "A_ratt",
+  "motivering": "Flockens uppräkning av vådafall saknas som definition i B. Citatet täcker bara huset.",
+  "ny_rad": null
+ },
+ {
+  "id": 238,
+  "beslut": "B_lagg_till",
+  "motivering": "Sju marker när ett gammalt hus som ägaren varken river eller bor i faller på någon. A har ingen påföljd i flocken.",
+  "ny_rad": [
+   "lag:dalalagen_aldre_vastmannalagen:dl_mb_26",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|sju marker när ett gammalt hus som ägaren varken river eller bor i faller på någon",
+   "plats:sdhk:dalarna",
+   "Hawir man forn hws i. graþi. wil æi wm rycta ella wm boa. faldir a man oc far af bana. gildir ær han meþ siw markum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 239,
+  "beslut": "B_lagg_till",
+  "motivering": "Sju marker när sten eller stock som ska rätas faller på någon, betalt av den som bad om hjälp; saknas i A.",
+  "ny_rad": [
+   "lag:dalalagen_aldre_vastmannalagen:dl_mb_26",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|sju marker när sten eller stock som ska rätas faller på någon; den som bad om hjälpen betalar",
+   "plats:sdhk:dalarna",
+   "Wil man ræta sten ella stuk faldir a man. oc far af bana. gildir ær han meþ siw markum. giælde þen þær giængis bidir.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 240,
+  "beslut": "A_ratt",
+  "motivering": "Förgörning av maken räknas \"som annor morþ\" om hustrun faller på eden; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 241,
+  "beslut": "A_ratt",
+  "motivering": "Tre vittnen och \"þrætolftom eþe\" för den anklagade hustrun; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 242,
+  "beslut": "A_ratt",
+  "motivering": "\"Taki the both herra thes sum dræpin ær\" saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 243,
+  "beslut": "samma_regel",
+  "motivering": "B har samma tre belopp i tre rader (#244–#246).",
+  "ny_rad": null
+ },
+ {
+  "id": 244,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A #243.",
+  "ny_rad": null
+ },
+ {
+  "id": 245,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A #243.",
+  "ny_rad": null
+ },
+ {
+  "id": 246,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A #243.",
+  "ny_rad": null
+ },
+ {
+  "id": 247,
+  "beslut": "samma_regel",
+  "motivering": "Samma två vittnen och tolvmannaed (B #248).",
+  "ny_rad": null
+ },
+ {
+  "id": 248,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #247.",
+  "ny_rad": null
+ },
+ {
+  "id": 249,
+  "beslut": "A_ratt",
+  "motivering": "Kvinnan får vittna bara om barnsbörd och barnamord; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 250,
+  "beslut": "samma_regel",
+  "motivering": "Samma stiftar_lag. A använder person-id enligt konventionen.",
+  "ny_rad": null
+ },
+ {
+  "id": 251,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #250, men med begrepp:kung.",
+  "ny_rad": null
+ },
+ {
+  "id": 252,
+  "beslut": "A_utanfor",
+  "motivering": "Böter för en edgärd som döms åter gäller mened, inte jäv eller hur edgärden utses.",
+  "ny_rad": null
+ },
+ {
+  "id": 253,
+  "beslut": "A_ratt",
+  "motivering": "Bonden ska \"bana finna ella giældum wppi halda\" när en gäst dräps hos honom; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 254,
+  "beslut": "A_ratt",
+  "motivering": "\"höfþi meþ ætinni. þeer allir bötin halwa boot\": hur dråparen och ätten delar boten; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 255,
+  "beslut": "samma_regel",
+  "motivering": "B har samma edsformel med edgard kraver ed (#257).",
+  "ny_rad": null
+ },
+ {
+  "id": 256,
+  "beslut": "A_ratt",
+  "motivering": "I særlæstum eþum får målsäganden \"firi lata þem eþ sum han wil\"; saknas i B. A anmärker att tolkningen är osäker.",
+  "ny_rad": null
+ },
+ {
+  "id": 257,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #255.",
+  "ny_rad": null
+ },
+ {
+  "id": 258,
+  "beslut": "A_ratt",
+  "motivering": "\"XX. marker oc hundraþa. Skiptins sum annur þræböte\" om målsägandena unnar henne livet; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 259,
+  "beslut": "A_ratt",
+  "motivering": "\"Falz han. böte XL. marker\" för försök att dräpa med forgerningum; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 260,
+  "beslut": "A_ratt",
+  "motivering": "Tolv män värjer eller fäller \"mæþ eþe sinum\"; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 261,
+  "beslut": "samma_regel",
+  "motivering": "B har samma bål med drap som subjekt (#262).",
+  "ny_rad": null
+ },
+ {
+  "id": 262,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #261.",
+  "ny_rad": null
+ },
+ {
+  "id": 263,
+  "beslut": "A_utanfor",
+  "motivering": "Att sju edsvurna avgör i synemål och nämnder är en omröstningsregel. Det gäller inte jäv eller hur nämnden utses.",
+  "ny_rad": null
+ },
+ {
+  "id": 264,
+  "beslut": "osaker",
+  "motivering": "Flocken ger en allmän bevisregel för \"XL. marka sak\" och nämner inte dråp. A knyter den till dråp med stöd i andra flockar (dråp ligger i fyrtio marker, Mb 3). Användaren avgör om sådana allmänna regler ska föras till dråp.",
+  "ny_rad": null
+ },
+ {
+  "id": 265,
+  "beslut": "A_ratt",
+  "motivering": "Den som har kungens sak nämner \"af fiarþunge hwarium.III. mæn\" till nämnden; saknas i B. Att det är länsmannen är A:s tolkning, som A anmärker.",
+  "ny_rad": null
+ },
+ {
+  "id": 266,
+  "beslut": "osaker",
+  "motivering": "Additamentet gäller \"ualzgerninga til bonda\" och rån och nämner varken hemsökn eller edsöre. A väljer själv hemsokn som subjekt. Användaren avgör om våldsgärning mot bonde hör till edsöret. Om inte ska raden bort, och om den behålls ska subjektet inte vara hemsokn.",
+  "ny_rad": null
+ },
+ {
+  "id": 267,
+  "beslut": "osaker",
+  "motivering": "Samma fråga som #266.",
+  "ny_rad": null
+ },
+ {
+  "id": 268,
+  "beslut": "A_ratt",
+  "motivering": "\"Warþir han dræpin liggi.i. en böti\": bonden som angriper mätesmännen och dräps ligger i enböte. Saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 269,
+  "beslut": "A_ratt",
+  "motivering": "\"Ængin ma næmpnas.i. næmd. þæn æi ær þa a þingi\" med mera är en regel om vem som får nämnas; saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 270,
+  "beslut": "B_lagg_till",
+  "motivering": "Mätesmän som angrips när de går till bonden efter laga dom \"liggia.i. twæ böti\". A saknar det.",
+  "ny_rad": [
+   "lag:dalalagen_aldre_vastmannalagen:dl_tb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|när mätesmän som efter laga dom går hem till bonden angrips och dräps",
+   "plats:sdhk:dalarna",
+   "Ganga mæz men heem til bondans æpti lagha domi. oc hin firi ær gior giærning til þera. þeer liggia.i. twæ böti.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 271,
+  "beslut": "B_fel",
+  "motivering": "\"warþir sin slaghin ella huggin wari vgilt\" gäller slag och hugg mot bonden. Dräps han ligger han i enböte, inte ogild (A #268).",
+  "ny_rad": null
+ },
+ {
+  "id": 272,
+  "beslut": "samma_regel",
+  "motivering": "B har samma halva nämnd för vardera parten (#273).",
+  "ny_rad": null
+ },
+ {
+  "id": 273,
+  "beslut": "samma_regel",
+  "motivering": "Samma som A #272.",
+  "ny_rad": null
+ },
+ {
+  "id": 274,
+  "beslut": "B_fel",
+  "motivering": "Böter för fridsbrott i kor och vid altare gäller kyrkofrid och sår, inte dråp eller edsöre. Det ligger utanför ämnena.",
+  "ny_rad": null
+ },
+ {
+  "id": 275,
+  "beslut": "samma_regel",
+  "motivering": "A har samma mening (\"lagh skipæt. först af guþy ok swa af ... konunge warom\") under stycke 6, med hänvisning till stycke 5.",
+  "ny_rad": null
+ },
+ {
+  "id": 276,
+  "beslut": "B_fel",
+  "motivering": "När fä dräper en man får arvingarna fäet. De sexton örena gäller fullsår (\"XVI öræ mæþ foræ fulsæræ\"), inte dråpet.",
+  "ny_rad": null
+ }
+]

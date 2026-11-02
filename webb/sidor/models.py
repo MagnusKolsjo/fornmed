@@ -1,0 +1,120 @@
+"""
+Webbplatsens sidtyper.
+
+Texterna redigeras i Wagtail. Källförteckningen och uppdateringarna
+hämtas ur Fornmeds databas när sidan visas (se kallor.py), så att de
+alltid stämmer med det som söktjänsten svarar med.
+"""
+
+from django.db import models
+from django.http import Http404
+from wagtail.admin.panels import FieldPanel
+from wagtail.contrib.routable_page.models import RoutablePageMixin, path
+from wagtail.fields import RichTextField
+from wagtail.models import Page
+
+from . import kallor, texter
+
+
+class TextSida(Page):
+    """En vanlig sida med ingress och brödtext."""
+
+    ingress = models.TextField(blank=True)
+    brodtext = RichTextField(blank=True)
+    visa_omfang = models.BooleanField(
+        "visa databasens omfång", default=False,
+        help_text="Visar antal verk, passager, påståenden och källsamlingar under texten, hämtat ur databasen.")
+
+    content_panels = Page.content_panels + [FieldPanel("ingress"), FieldPanel("brodtext"),
+                                            FieldPanel("visa_omfang")]
+
+    def get_context(self, request, *args, **kwargs):
+        kontext = super().get_context(request, *args, **kwargs)
+        if self.visa_omfang:
+            kontext["omfang"] = kallor.omfang()
+        return kontext
+
+    class Meta:
+        verbose_name = "textsida"
+        verbose_name_plural = "textsidor"
+
+
+class StartSida(TextSida):
+    """Startsidan, med de senaste uppdateringarna under brödtexten."""
+
+    parent_page_types = ["wagtailcore.Page"]
+
+    def get_context(self, request, *args, **kwargs):
+        kontext = super().get_context(request, *args, **kwargs)
+        kontext["leveranser"] = kallor.leveranser()[:3]
+        kontext["omfang"] = kallor.omfang()
+        return kontext
+
+    class Meta:
+        verbose_name = "startsida"
+
+
+class KallforteckningSida(RoutablePageMixin, TextSida):
+    """Källorna i bokstavsordning med licens och språkversioner.
+
+    Varje verk har dessutom en egen sida under verk/<verk_id>/, där texten
+    hämtas från API:et och visas med mallen sidor/verk.html.
+    """
+
+    def get_context(self, request, *args, **kwargs):
+        kontext = super().get_context(request, *args, **kwargs)
+        kontext["kallor"] = kallor.kallforteckning()
+        kontext["bokstaver"] = sorted({k["bokstav"] for k in kontext["kallor"]}, key=kallor.sorteringsnyckel)
+        return kontext
+
+    @path("")
+    def forteckning(self, request):
+        return self.render(request)
+
+    @path("verk/<slug:adress>/")
+    def verk(self, request, adress: str):
+        try:
+            sida = texter.verkets_sida(texter.verk_id(adress), request.GET.get("utgava"), request.GET.get("del"),
+                                       request.GET.get("parallellt"))
+        except texter.TextFel as fel:
+            if fel.kod == 404:
+                raise Http404(str(fel)) from fel
+            svar = self.render(request, template="sidor/verk_fel.html", context_overrides={"fel": str(fel)})
+            svar.status_code = 503 if fel.kod >= 500 else fel.kod
+            return svar
+        return self.render(request, template="sidor/verk.html", context_overrides=sida)
+
+    class Meta:
+        verbose_name = "källförteckning"
+
+
+class UppdateringarSida(TextSida):
+    """Leveranserna av databasen och skrivna inlägg, senaste först."""
+
+    subpage_types = ["sidor.Inlagg"]
+
+    def get_context(self, request, *args, **kwargs):
+        kontext = super().get_context(request, *args, **kwargs)
+        poster = [{"slag": "leverans", "datum": lev["tidpunkt"], **lev} for lev in kallor.leveranser()]
+        for inlagg in Inlagg.objects.child_of(self).live().specific():
+            poster.append({"slag": "inlagg", "datum": inlagg.datum, "sida": inlagg})
+        kontext["poster"] = sorted(poster, key=lambda p: p["datum"].isoformat(), reverse=True)
+        return kontext
+
+    class Meta:
+        verbose_name = "uppdateringar"
+
+
+class Inlagg(Page):
+    """Ett skrivet inlägg i listan över uppdateringar."""
+
+    datum = models.DateField()
+    brodtext = RichTextField(blank=True)
+
+    content_panels = Page.content_panels + [FieldPanel("datum"), FieldPanel("brodtext")]
+    parent_page_types = ["sidor.UppdateringarSida"]
+    subpage_types = []
+
+    class Meta:
+        verbose_name = "inlägg"
+        verbose_name_plural = "inlägg"

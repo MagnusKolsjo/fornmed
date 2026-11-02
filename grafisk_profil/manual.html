@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Fornmed – grafisk manual</title>
+  <link rel="stylesheet" href="./profil.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--fm-paper); color: var(--fm-ink); font: 400 18px/1.5 var(--fm-font-ui); }
+    a { color: var(--fm-manuscript); text-decoration-thickness: .08em; text-underline-offset: .18em; }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--fm-manuscript); outline-offset: 4px; }
+    .wrap { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
+    .eyebrow { margin: 0 0 14px; color: var(--fm-rune); font-size: .76rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+    h1, h2, h3 { font-family: var(--fm-font-reading); line-height: 1.08; }
+    h1 { margin: 0; font-size: clamp(3.2rem, 6vw, 5.7rem); font-weight: 600; letter-spacing: -.035em; }
+    h2 { margin: 0 0 22px; font-size: clamp(2.3rem, 4vw, 3.6rem); font-weight: 600; color: var(--fm-manuscript); }
+    h3 { margin: 0 0 8px; font-size: 1.6rem; font-weight: 600; }
+    p { max-width: 67ch; }
+    .topbar { border-bottom: 1px solid var(--fm-stone); }
+    .topbar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 20px; min-height: 66px; }
+    .topbar strong { font-family: var(--fm-font-reading); font-size: 1.35rem; font-weight: 600; }
+    .topbar span { color: var(--fm-muted); font-size: .85rem; }
+    .hero { position: relative; padding: 88px 0 86px; overflow: hidden; }
+    .hero::after { content: ""; position: absolute; z-index: 0; inset: 0 0 auto auto; width: 34%; height: 100%; opacity: .34; background: repeating-linear-gradient(125deg, transparent 0 42px, #ded3be 43px 44px, transparent 45px 86px); pointer-events: none; }
+    .hero .wrap { position: relative; z-index: 1; }
+    .hero-intro { max-width: 630px; margin: 22px 0 0; font-size: 1.15rem; color: var(--fm-muted); }
+    .hero-logo { display: block; width: min(590px, 100%); height: auto; margin: 55px 0 24px; }
+    .hero-rule { width: 100%; height: 2px; background: linear-gradient(90deg,var(--fm-rune) 0 49%,var(--fm-gold) 49% 51%,var(--fm-manuscript) 51% 100%); }
+    .hero-caption { display: flex; flex-wrap: wrap; gap: 10px 24px; color: var(--fm-muted); font-size: .9rem; }
+    .hero-caption span + span::before { content: "✦"; color: var(--fm-gold); margin-right: 24px; }
+    section { padding: 80px 0; border-top: 1px solid var(--fm-stone); }
+    .section-head { display: grid; grid-template-columns: 250px 1fr; gap: 38px; margin-bottom: 30px; }
+    .section-head > p { margin-top: 10px; }
+    .two { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+    .card { padding: 28px; background: var(--fm-surface); border: 1px solid var(--fm-stone); }
+    .logo-card { min-height: 235px; display: flex; flex-direction: column; justify-content: space-between; }
+    .logo-card img { width: min(390px,100%); height: auto; }
+    .logo-card small { color: var(--fm-muted); }
+    .logo-card.dark { background: var(--fm-manuscript); border-color: var(--fm-manuscript); }
+    .logo-card.dark small { color: #E6D6B2; }
+    .swatches { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; }
+    .swatch { background: var(--fm-surface); border: 1px solid var(--fm-stone); }
+    .swatch-color { height: 112px; border-bottom: 1px solid #0002; }
+    .swatch-meta { padding: 12px 14px 14px; }
+    .swatch-meta strong, .swatch-meta code { display: block; }
+    .swatch-meta strong { font-size: .93rem; }
+    .swatch-meta code { color: var(--fm-muted); font-size: .82rem; }
+    .type-card { min-height: 260px; }
+    .type-card .sample { margin: 18px 0; font-size: clamp(2.4rem, 4vw, 4.3rem); line-height: 1.04; }
+    .type-card .sample.serif { font-family: var(--fm-font-reading); }
+    .type-card .sample.sans { font-family: var(--fm-font-ui); font-size: clamp(2rem, 3vw, 3.2rem); font-weight: 600; }
+    .type-card p { margin-bottom: 0; color: var(--fm-muted); }
+    .example { display: grid; grid-template-columns: 1.2fr .8fr; gap: 28px; align-items: start; }
+    .search { display: flex; align-items: center; gap: 10px; width: 100%; margin: 20px 0 24px; padding: 14px 16px; border: 2px solid var(--fm-manuscript); background: var(--fm-surface); color: var(--fm-muted); }
+    .search .icon { color: var(--fm-manuscript); font-size: 1.35rem; line-height: 1; }
+    .result { padding: 26px; background: var(--fm-surface); border-left: 5px solid var(--fm-rune); box-shadow: 0 9px 30px #1E2C300C; }
+    .result .meta { color: var(--fm-muted); font-size: .86rem; letter-spacing: .04em; text-transform: uppercase; }
+    .result h3 { color: var(--fm-manuscript); }
+    .result blockquote { margin: 18px 0; font: 400 1.35rem/1.48 var(--fm-font-reading); }
+    .result .foot { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; font-size: .86rem; }
+    .tag { display: inline-block; padding: 4px 9px; background: #E7EDEB; border: 1px solid #C8D8D2; color: var(--fm-ink); font-weight: 600; }
+    .principles { padding: 24px 26px; background: #E9E3D4; }
+    .principles ul { margin: 15px 0 0; padding-left: 20px; }
+    .principles li + li { margin-top: 13px; }
+    .file-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 30px; padding: 0; list-style: none; }
+    .file-list li { padding: 12px 0; border-bottom: 1px solid var(--fm-stone); }
+    .closing { padding: 30px 0 50px; color: var(--fm-muted); font-size: .87rem; }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 32px,1120px); }
+      .hero { padding: 58px 0 58px; }
+      .section-head, .example, .two { grid-template-columns: 1fr; }
+      .swatches { grid-template-columns: repeat(2,minmax(0,1fr)); }
+      .file-list { grid-template-columns: 1fr; }
+      section { padding: 60px 0; }
+      .hero-caption span + span::before { margin-right: 10px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print { .hero { padding: 45px 0; } section { padding: 35px 0; break-inside: avoid; } .hero::after { display: none; } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="wrap"><strong>Fornmed</strong><span>Grafisk manual · version 1.0</span></div></header>
+  <main>
+    <div class="hero"><div class="wrap">
+      <p class="eyebrow">Källor · passager · bedömningar</p>
+      <h1>Historia med<br>spår tillbaka.</h1>
+      <p class="hero-intro">En visuell identitet för en källkritisk väg genom Sveriges och Nordens forntid och medeltid.</p>
+      <img class="hero-logo" src="./fornmed-logo.svg" alt="Fornmed">
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="hero-caption"><span>Ristad sten</span><span>Manuskript</span><span>Modern läsbarhet</span></p>
+    </div></div>
+
+    <section id="logotyp"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">01 / Ordmärke</p><div><h2>Två epoker, ett namn</h2><p>”Forn” tecknas med få raka streck efter runraderna. ”med” har mjukare blackletterformer från Texturina. Båda leden står på samma baslinje och har samma visuella höjd. Kurvorna ligger direkt i SVG-filen, så logotypen fungerar utan webbfont.</p></div></div>
+      <div class="two">
+        <div class="card logo-card"><img src="./fornmed-logo.svg" alt="Fornmed i runrött och manuskriptblått"><small>Primär · ljus bakgrund</small></div>
+        <div class="card logo-card dark"><img src="./fornmed-logo-mork.svg" alt="Fornmed i ljusa färger mot mörkblått"><small>Alternativ · mörk bakgrund</small></div>
+      </div>
+      <p>Minsta rekommenderade bredd: <strong>220 px</strong>. Ge märket fri yta och behåll originalets proportioner. <a href="./fornmed-logo-enfarg.svg">Enfärgad SVG</a> finns för tryck och särskilda sammanhang.</p>
+    </div></section>
+
+    <section id="farger"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">02 / Palett</p><div><h2>Sten, pergament och pigment</h2><p>Bakgrunden är varm och ljus. Bläckblått ger struktur åt länkar och rubriker; runrött markerar identiteten. Guld och grönt används sparsamt.</p></div></div>
+      <div class="swatches">
+        <div class="swatch"><div class="swatch-color" style="background:#F7F2E6"></div><div class="swatch-meta"><strong>Pergament</strong><code>#F7F2E6</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#FFFDFC"></div><div class="swatch-meta"><strong>Vit yta</strong><code>#FFFDFC</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#1E2C30"></div><div class="swatch-meta"><strong>Bläck</strong><code>#1E2C30</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#93483E"></div><div class="swatch-meta"><strong>Runröd</strong><code>#93483E</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#244A63"></div><div class="swatch-meta"><strong>Manuskriptblå</strong><code>#244A63</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#426C62"></div><div class="swatch-meta"><strong>Bladgrön</strong><code>#426C62</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#8B641E"></div><div class="swatch-meta"><strong>Guldockra</strong><code>#8B641E</code></div></div>
+        <div class="swatch"><div class="swatch-color" style="background:#D9D1C4"></div><div class="swatch-meta"><strong>Sten</strong><code>#D9D1C4</code></div></div>
+      </div>
+      <p>Bläck mot pergament: <strong>12,89:1</strong>. Runrött: <strong>5,81:1</strong>. Manuskriptblått: <strong>8,41:1</strong>. Färgerna fungerar som vanliga sRGB-hexvärden i CSS.</p>
+    </div></section>
+
+    <section id="typografi"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">03 / Typografi</p><div><h2>Historisk ton, nutida läsning</h2><p>Två fritt licensierade och lokalt hostade typsnitt räcker för hela webbplatsen. Det medeltidsinspirerade uttrycket stannar i logotypen.</p></div></div>
+      <div class="two">
+        <div class="card type-card"><p class="eyebrow">Gränssnitt / Source Sans 3</p><div class="sample sans">Sök, jämför, följ.</div><p>Navigation, formulär, metadata och tydliga bedömningsetiketter.</p></div>
+        <div class="card type-card"><p class="eyebrow">Läsning / EB Garamond</p><div class="sample serif">Källan är vägen tillbaka.</div><p>Längre källtext, redaktionella ingresser och större rubriker.</p></div>
+      </div>
+      <p>Filerna finns i <a href="./fonts/">fonts/</a> och laddas genom <a href="./profil.css">profil.css</a>. Inga externa fonttjänster, skript eller kakor krävs.</p>
+    </div></section>
+
+    <section id="tillampning"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">04 / Tillämpning</p><div><h2>Ge källan första plats</h2><p>Den historiska känslan är en ram. I själva arbetsflödet ska användaren snabbt se verk, passage, licens, datering och om en bedömning är granskad.</p></div></div>
+      <div class="example">
+        <div>
+          <div class="search" aria-label="Exempel på sökfält"><span class="icon" aria-hidden="true">⌕</span><span>Sök i verk, passager och begrepp</span></div>
+          <article class="result"><div class="meta">Exempel på sökträff · verk / passage</div><h3>En citerbar passage</h3><blockquote>“Här visas originaltexten tillsammans med adressen till den utgåva där passagen kan kontrolleras.”</blockquote><div class="foot"><span class="tag">Bedömning: ogranskad</span><a href="#tillampning">Visa källa och proveniens</a></div></article>
+        </div>
+        <aside class="principles"><h3>Tre grundregler</h3><ul><li>Skriv statusordet i text. Låt inte färg ensam visa om något är belagt, legendariskt eller omstritt.</li><li>Håll långa passager luftiga och avgränsa radlängden.</li><li>Visa adress och länk till underlaget nära påståendet.</li></ul></aside>
+      </div>
+    </div></section>
+
+    <section id="filer"><div class="wrap">
+      <div class="section-head"><p class="eyebrow">05 / Leverans</p><div><h2>Redo att hosta själv</h2><p>Alla visuella resurser i denna manual är lokala. WOFF2-filerna och deras SIL OFL-licenser medföljer.</p></div></div>
+      <ul class="file-list"><li><a href="./fornmed-logo.svg">Primär logotyp · SVG</a></li><li><a href="./fornmed-logo-mork.svg">Logotyp för mörk yta · SVG</a></li><li><a href="./fornmed-logo-enfarg.svg">Enfärgad logotyp · SVG</a></li><li><a href="./profil.css">CSS med färger och lokala typsnitt</a></li><li><a href="./GRAFISK_MANUAL.md">Fullständig specifikation · Markdown</a></li><li>Typsnitt och licenser · <code>fonts/</code>, <code>licenser/</code></li></ul>
+    </div></section>
+  </main>
+  <footer class="closing"><div class="wrap">Fornmed · grafisk manual · 1 november 2026</div></footer>
+</body>
+</html>

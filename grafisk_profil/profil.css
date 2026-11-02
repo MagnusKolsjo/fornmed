@@ -1,0 +1,50 @@
+/* Fornmed. Alla typsnitt laddas från den egna webbplatsen. */
+@font-face {
+  font-family: "FM Source Sans 3";
+  src: url("./fonts/SourceSans3[wght].woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "FM Source Sans 3";
+  src: url("./fonts/SourceSans3-Italic[wght].woff2") format("woff2");
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "FM EB Garamond";
+  src: url("./fonts/EBGaramond[wght].woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "FM EB Garamond";
+  src: url("./fonts/EBGaramond-Italic[wght].woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+:root {
+  --fm-paper: #F7F2E6;
+  --fm-surface: #FFFDFC;
+  --fm-ink: #1E2C30;
+  --fm-muted: #536166;
+  --fm-stone: #D9D1C4;
+  --fm-rune: #93483E;
+  --fm-manuscript: #244A63;
+  --fm-gold: #8B641E;
+  --fm-leaf: #426C62;
+  --fm-font-ui: "FM Source Sans 3", Arial, sans-serif;
+  --fm-font-reading: "FM EB Garamond", Georgia, serif;
+}
+
+.fm-body { color: var(--fm-ink); background: var(--fm-paper); font-family: var(--fm-font-ui); }
+.fm-reading { font-family: var(--fm-font-reading); font-size: 1.25rem; line-height: 1.55; }
+.fm-heading { color: var(--fm-manuscript); font-family: var(--fm-font-reading); font-weight: 600; line-height: 1.1; }
+.fm-link { color: var(--fm-manuscript); text-decoration-thickness: .09em; text-underline-offset: .17em; }
+.fm-link:hover { color: var(--fm-rune); }
+.fm-focus:focus-visible { outline: 3px solid var(--fm-manuscript); outline-offset: 3px; }

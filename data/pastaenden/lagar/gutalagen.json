@@ -1,0 +1,522 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Gutalagen (Holm B 64), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/gutalagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:boter|tre marker om dråpet sker under mansfriden (helgtiderna)",
+   "plats:gotland",
+   "Drepr þu mann a þaim firþi þa byt þriar marcr",
+   "Mansfriden (mannhelg) gäller helgdagar, jul, fasta, påsk-, gång- och pingstdagar. Boten är helgbrottsbot; att mansbot därtill utgår sägs inte här."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "=sockenmännen en tredjedel, kyrkan en tredjedel och prästen en tredjedel",
+   "plats:gotland",
+   "Socna menn aighu þriþiung i sac en annan kirchia Oc þriþia prestr",
+   "Gäller helgbrott där ingen landssak ingår. Talan: 'Allir aigu sac sykia saman' – alla för talan gemensamt."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker landssak om en man dräps i kyrka",
+   "plats:gotland",
+   "et mandr verþi i kirchiu drepin þa liggia fiauratigi marcr viþr þet ir landa sac",
+   "Dråp i kyrka är det enda helgbrott som blir landssak."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|fyrtio marker som landssak vid dråp i kyrka",
+   "plats:gotland",
+   "þa liggia fiauratigi marcr viþr þet ir landa sac",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "=prosten tre marker för bannmålet vid dråp i kyrka",
+   "plats:gotland",
+   "þar a proastr þriar marcr af firi banz mall",
+   "Prost saknas som begrepp; begrepp:biskop har inte använts."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker om en sakfälld man dräps i fristaden (de tre heligaste kyrkogårdarna eller prästgården)",
+   "plats:gotland",
+   "Þar sculu sakir menn helg hafa jem wel.i. prest garþi sum.i. kirkiugarþi þar liggia wiþr fiaurtighi marcr",
+   "De tre kyrkogårdarna är enligt GL 13 Fardhem, Tingstäde och Atlingbo."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_9",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:mansbot|en mansbot så stor som den dräptes, till hela landet, om dråpet sker under allas frid",
+   "plats:gotland",
+   "þu mann a þaim friþi. þa byt so miclu vereldi wiþr landa alla sum hinn ier dyr sum þu drapt",
+   "Allas frid (aldra manna friþr) varar tio dygn två gånger om året, efter påsk och efter midsommar."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_9",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:landskap|hela den extra mansboten vid dråp under allas frid",
+   "plats:gotland",
+   "byt so miclu vereldi wiþr landa alla",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_9",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "=ingen fridskrets (banda) skyddar dråparen förrän han har bötat, vid dråp under allas frid",
+   "plats:gotland",
+   "banda haldr þir engun fyr þan þu",
+   "Läsningen av 'banda haldr' som fridskretsens skydd följer GL 13; maskinöversättningen tolkar det som bojor."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_11",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:boter|sex marker för brott mot tingsfriden vid dråp eller hugg på tinget",
+   "plats:gotland",
+   "Drepr þu mann eþa hagg vaitr byt siex marcr. vtan þy at ains et mandr verþi at hemdum",
+   "Gäller inte när en man dräps som hämnd. Talan: tingsmännen ('þings menn aigu þingfriþ sykia'). En sakfälld man har inte tingsfrid utom under allas frid."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tolv marker till landet och tolv till den drabbade, därtill mansbot, om en man dräps eller huggs hemma på sin gård",
+   "plats:gotland",
+   "Drepr þu mann haima.j. garþi sinum eþa af hagg veitr. þa byt tolf marcr wiþr landa alla. oc andrar tolf hanum. Oc þau wereldi.",
+   "Hemfrid; lagen talar inte om kungens edsöre."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|tolv marker vid dråp i hemfrid",
+   "plats:gotland",
+   "þa byt tolf marcr wiþr landa alla",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|tolv marker vid dråp i hemfrid",
+   "plats:gotland",
+   "oc andrar tolf hanum",
+   "'hanum' = den drabbade; vid dråp rimligen hans arvingar (tolkning)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre marker till den drabbade och tre till menigheten jämte laga böter vid slag eller sår hemma",
+   "plats:gotland",
+   "þa byt þriar marcar hanum. oc andrar þriar mogha. oc þau laga bytr",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=när husbonden eller flera av hushållet slås på gården räknas bara en hemsökn, för den som står högst; alla får dock laga böter",
+   "plats:gotland",
+   "verþr husbondi berþr.j. garþj sinum. haima eþa flaira fulc. þa tacr þann ann",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp framställs som en olycka som kan drabba en man 'genom fiendens råd'",
+   "plats:gotland",
+   "en so illa cann bieras miþ fianda raþi et mandr hittr mann at drepa",
+   "Lagens inledande motivering, inte en definition i egentlig mening."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen ska fly tillsammans med fader, son och broder, eller om de saknas med de närmaste fränderna",
+   "plats:gotland",
+   "þa scal flya miþ hanum faþir. oc sun. oc broþir.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=fyrtio nätters fristad i kyrkorna i Fardhem, Tingstäde och Atlingbo",
+   "plats:gotland",
+   "netr til þairj kirchiur sum allir menn hafa helg. j takkit. þet ir farþeim. oc þingsteþj oc atlingabo.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen drar därefter en fridskrets (bandu) kring tre gårdar och har frid inom den till fristtidens (atmeli) slut",
+   "plats:gotland",
+   "þa riþi þengat sum hann bandu will hafa dragit. oc dragj vm haim þorp þry.",
+   "Fridskretsen får inte omfatta ting, köping eller mer än en kyrka och kräver markägarnas lov."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen kan i stället göra pilgrimsfärd utomlands för att böta för sina synder, med åtta dagars frist till skepp",
+   "plats:gotland",
+   "eþa fara ut lendis til helgra manna sinar",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|bjuds tre gånger under tre år efter fristtiden",
+   "plats:gotland",
+   "biauþi þrysuar vm þry ar",
+   "Målsäganden behåller sin heder även om han tar boten första gången den bjuds."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|inför hela folket (gutnaltinget) när boten inte tagits emot på tre år",
+   "plats:gotland",
+   "þa scal biera a þing firi alla lyþi",
+   "'a þing firi alla lyþi' tolkat som allmänna landstinget (gutnaltinget)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:landskap|hela folket förfogar över boten om målsäganden vägrar ta emot den på tinget",
+   "plats:gotland",
+   "Þa en hann ai wil þa raþin allir lyþir firi fe",
+   "Dråparen blir då saklös."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre av de män som var med dråparen på gården när boten bjöds",
+   "plats:gotland",
+   "miþ þrim þaira manna schiellum sum miþ hanum at garþi waru",
+   "Vid tvist om fristen är förliden har den som bjudit boten vitsord."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|att fristtid alltid lämnades mellan budet",
+   "plats:gotland",
+   "Oc viti þet miþ tolf manna aiþi.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|om dråparen inte vill bjuda mansbot när alla frister är förlidna",
+   "plats:gotland",
+   "þa scal land hann friþlausan dyma.",
+   "Samma påföljd för den som inte håller sig inom sin fridskrets."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|landet dömer dråparen fredlös",
+   "plats:gotland",
+   "þa scal land hann friþlausan dyma.",
+   "'land' tolkat som landstinget (gutnaltinget)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|ska ändå utgöras inom en månad när dråparen döms fredlös",
+   "plats:gotland",
+   "oc til dags vm manaþa frest vereldi vtretta.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sex marker silver till målsäganden och sex till landet när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc hann sacan at siex marcum silfs viþr mals aiganda. oc aþrar siex landi.",
+   "Talan: målsäganden (mals aigandi)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sex marker silver när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc hann sacan at siex marcum silfs viþr mals aiganda.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|sex marker silver när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc aþrar siex landi.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=när flera tillsammans dräper en man har de alla en gemensam fridskrets tills en tar på sig dråpet",
+   "plats:gotland",
+   "Uela tueir vm eþa flairin oc drepa ann mann. þa hafin þair allir aina bandu",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:att|fränder på kvinno- eller manssidan tar emot boten när arvingen är omyndig",
+   "plats:gotland",
+   "Þaun warþa oc vereldi upp taka en erfingi ir vngr",
+   "Samma fränder får hämnas för den omyndige; hämnden gäller som hans egen."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=en gute som dräper en icke-gute och kan bjuda mansbot behöver varken fristad eller fridskrets",
+   "plats:gotland",
+   "þa þarf hann huatki vegsl eþa bandur",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=en icke-gute som dräper en gute skyddas inte av fridskrets om han inte kan bjuda mansbot",
+   "plats:gotland",
+   "þa haldir ai hanum banda. vtan þi at ains et hann vereldi vinnj buþit.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tolv marker silver när en omyndig dräper en man",
+   "plats:gotland",
+   "Þa en oformagi verþr mannj at bana þa ir byt at tolf marcum silfs",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|full mansbot för en havande kvinna och tolv marker silver för det ofödda barnet",
+   "plats:gotland",
+   "þa {bytis} [bytir] barnit at tolf marcum silfs oburit en hana at fullu vereldi",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|husbonden eller närmaste frände med tre bofasta gutar i samma socken, tolv jämbördiga, att barnet levde",
+   "plats:gotland",
+   "miþ þrim bolfastum mannum gutnjscum at samv socn. oc þar til so margum et tolf sein allir hennj iem burnir",
+   "Edgärden ska vara kvinnan jämbördig ('iem burnir')."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tre marker guld för en gute",
+   "plats:gotland",
+   "Gutniscs manz vereldi bytis at þrim marcum gulz.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tio marker silver för alla andra män än gutar",
+   "plats:gotland",
+   "Aldra annara manna vereldi bytis at tiu marcum silfs.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|fyra och en halv mark penningar för en träl",
+   "plats:gotland",
+   "vtan þrels vereldi at halffemtj marc penninga",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "=när en träl dräper en gute ska husbonden föra banemannen bunden till gården inom fyrtio nätter och nio marker silver med",
+   "plats:gotland",
+   "þa taki drotin oc laiþi hanum bana bundnan.i. garþ firi fiauratigj nata. oc niv marcr",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|husbonden tolv marker silver om trälbanemannen inte finns, när en gute dräpts",
+   "plats:gotland",
+   "þa en ai ier banj til þa gieldi tolf marcr silfs oc ai maira",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|husbonden två marker silver jämte banemannen när en träl dräper en icke-gute",
+   "plats:gotland",
+   "þa byti drotin firj hann tuar marcr silfs.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|husbonden fem marker silver om banemannen inte finns, när en icke-gute dräpts",
+   "plats:gotland",
+   "þa en ai ir banj til. þa bytj hann fem marcr silfs",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|husbondens sexmannaed att han varken rådde eller vållade trälens dråp",
+   "plats:gotland",
+   "Oc vinnj hanum siex manna aiþ et hann huatki varj.j. þaim scaþa raþandi eþa valdandi",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|husbonden full mansbot om han inte kan gå eden",
+   "plats:gotland",
+   "vindr ai drotin aiþi uppi haldit þa bytj fult vereldi.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tolv mark silver för gutnisk man",
+   "plats:gotland",
+   "Gutniscs manz banda vereldi iru tolf marcr silfs.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|fem mark silver för icke gutnisk man",
+   "plats:gotland",
+   "en ogutniscs manz at fem marcum silfs.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|sex öre penningar för träl",
+   "plats:gotland",
+   "oc þrels at siex oyrum pennjnga.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tolv marker silver i sak för ägaren när ett av de fyra oskäliga djuren dödar en man",
+   "plats:gotland",
+   "þaim fiaurum oqueþins vitum varþar huer maþr.i. garþi sinum viþr tolf marca silfs sac",
+   "Dödande genom djur (oxe, häst, galt, hund); lagen kallar det inte våda."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:mansbot",
+   "definieras_som",
+   "=kravmansbot (crafar vereldi): när ett oskäligt djur dödar faller två delar av mansboten bort och ägaren böter en tredjedel",
+   "plats:gotland",
+   "þa falla e tueir lutir af vereldi hanns en þriþiung byti hiin sum soyþin a. þet calla menn crafar vereldi",
+   "Inledningen 'sueverþarj manni ... þan gutniscum' är oklar; maskinöversättningen tolkar det som en man av ringare värde än en gute."
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:drap",
+   "paforljd",
+   "=dödande genom oskäligt djur ska krävas som skuld och inte hämnas",
+   "plats:gotland",
+   "þet al creifia oc ai hemna",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|full mansbot när en man av våda dödar ett barn under kvinnans tillsyn",
+   "plats:gotland",
+   "þa en nequar mandr verþr miþ waþa.j. þairu gezlu barnj at bana þa bytir hann vereldi fullu",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|barn som lämnats obevakat på golv, bänk eller säng",
+   "plats:gotland",
+   "þa ir barn o byt huat sum helzt can at cuma",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|barn som kvävs i en säng där druckna män ligger",
+   "plats:gotland",
+   "þa ir þau barn obyt. þau et han liggi sielf ner.",
+   null
+  ],
+  [
+   "lag:gutalagen_enligt_holm_b_64:gl_28",
+   "begrepp:drap",
+   "paforljd",
+   "=när bröder i oskiftat bo dräper svarar var och en för sina egna gärningar; den som dräpte böter",
+   "plats:gotland",
+   "oc drepr ann þaira mann þa varþar sinum vercum huer þann bytir sum drap",
+   null
+  ]
+ ]
+}

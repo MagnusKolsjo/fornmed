@@ -1,0 +1,557 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Magnus Erikssons stadslag (de flockar som är exklusiva för stadslagen), extraherade av språkmodell ur den fornsvenska texten. Lagen gäller rikets städer; staden, rådet, borgmästarna och fogden motsvarar här häradet och tinget i landskapslagarna. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/magnus_erikssons_stadslag.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "utses_av",
+   "begrepp:borgmastare|borgmästare och rådmän väljer årligen, åtta dagar före Valborgsmässodagen",
+   "plats:sdhk:sverige",
+   "Nw skal man borghamestara ok radhmen wælia, tha skulu alle borghamestara ok radhmen al aar fore sancte walborghe dagh atta daghum til radzstufw koma",
+   "De valda kungörs i rådstugan på Valborgsmässodagen. Frånvaro vid valet bötas med tre marker."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:borgmastare",
+   "utses_av",
+   "begrepp:radman|borgmästare och rådmän väljer gemensamt varje år",
+   "plats:sdhk:sverige",
+   "Nw skal man borghamestara ok radhmen wælia, tha skulu alle borghamestara ok radhmen al aar fore sancte walborghe dagh atta daghum til radzstufw koma"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "kraver",
+   "=fogden ska vara närvarande när rådmän väljs",
+   "plats:sdhk:sverige",
+   "Ok æ tha radmen skulu wælias, tha skal foghaten nær wara.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "kraver",
+   "begrepp:ed|domared: vara kungen trogen, döma rätt mot fattig och rik, aldrig vränga lag",
+   "plats:sdhk:sverige",
+   "Then som borghamestare eller radhman skal wara, han egher thenna edh swæria",
+   "Eden gäller både borgmästare och rådmän; rådet är stadens domstol."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:radman|eden förbjuder att döma orätt för frändskaps eller vänskaps skull",
+   "plats:sdhk:sverige",
+   "eig fore rædde skuld, wild eller peninga gyri, eig fore awund eller iluilia, eig fore frændzæmio eller winskap",
+   "Ingen uttrycklig jävsregel utan en edsförpliktelse: inte av rädsla, ynnest, penninggirighet, avund, illvilja, frändskap eller vänskap."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:radman|eden förbjuder att döma orätt av penninggirighet",
+   "plats:sdhk:sverige",
+   "wild eller peninga gyri",
+   "Edsförpliktelse, jfr KgB 5 om straffet för mutor."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+   "begrepp:radman",
+   "definieras_som",
+   "=rådet består av sex borgmästare och trettio rådmän, hälften svenskar och hälften tyskar, räknat efter faderns börd",
+   "plats:sdhk:sverige",
+   "Borghamestara sculu vara alz siæx, thre swenske oc thre thyzske, oc twe skulu vara hvart arith. Radhmen sculu wara thretighi altz, halft aff hvario.",
+   "Två borgmästare och tio rådmän sitter varje år. Mindre städer får ha färre."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:radman|den som inte äger ärvd egendom i staden",
+   "plats:sdhk:sverige",
+   "Aldre ma ok then radhman vara, sum æi hawer æghit arff i stadhenum.",
+   "Behörighetsvillkor snarare än jäv i snäv mening."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:radman|högst fyra av samma släkt bland borgmästare och rådmän",
+   "plats:sdhk:sverige",
+   "Eig skulu eller ægha borghamestara eller radhmen i radheno aff enne slekt wara alz saman mera æn fyra, hwat thet ær maghsemia eller skylskaper.",
+   "'skylskaper' tolkat som blodsfrändskap."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:radman|högst fyra av samma släkt bland borgmästare och rådmän",
+   "plats:sdhk:sverige",
+   "Eig skulu eller ægha borghamestara eller radhmen i radheno aff enne slekt wara alz saman mera æn fyra, hwat thet ær maghsemia eller skylskaper.",
+   "'maghsemia' tolkat som svågerskap."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:borgmastare|två bröder får inte vara borgmästare eller rådmän samtidigt",
+   "plats:sdhk:sverige",
+   "Aldrigh skulu ok twe brödher borghamestera wara eller radhmen i sændir, vtan eig ær annat wal til.",
+   "Undantag när annat val saknas."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:muta",
+   "paforljd",
+   "begrepp:boter|fyrtio marker; mutan ges till kungen och domaren går ur rådet",
+   "plats:sdhk:sverige",
+   "Tagher borghamestare eller radhman muto for doom sin, giffui konunge muto, ok böte XL marker til treskiptis",
+   "Gäller borgmästare och rådman som tar muta för sin dom."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:radman|den som tagit muta för sin dom ska gå ur rådet",
+   "plats:sdhk:sverige",
+   "ok gange aff radheno, æn han wardher til wnnen medh siex godhom mannom"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar (en tredjedel)",
+   "plats:sdhk:sverige",
+   "konungenom XIII marker ok atta örtogher, stadhenom ok swa mykit, malsæghandenom samu ledhis",
+   "Mutböterna."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|tretton marker och åtta örtugar (en tredjedel)",
+   "plats:sdhk:sverige",
+   "konungenom XIII marker ok atta örtogher, stadhenom ok swa mykit, malsæghandenom samu ledhis",
+   "Mutböterna."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|tretton marker och åtta örtugar (en tredjedel)",
+   "plats:sdhk:sverige",
+   "konungenom XIII marker ok atta örtogher, stadhenom ok swa mykit, malsæghandenom samu ledhis",
+   "Mutböterna."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:muta",
+   "kraver",
+   "begrepp:vittne|sex goda män",
+   "plats:sdhk:sverige",
+   "æn han wardher til wnnen medh siex godhom mannom"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_5",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:borgmastare|går ur rådet om muta vid dom styrks",
+   "plats:sdhk:sverige",
+   "Tagher borghamestare eller radhman muto for doom sin,",
+   "Fortsättningen anger att den fällde går ur rådet. Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_7",
+   "begrepp:radman",
+   "utses_av",
+   "=vid oenighet om valet råder de som är flera, har bättre skäl och har fogden med sig",
+   "plats:sdhk:sverige",
+   "tha skulu the radha flere saman halda ok betre skæl haffua ok foghaten medh halder",
+   "Gäller val av både borgmästare och rådmän."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:fogde|fogden sätter en ställföreträdare som sitter i rätten",
+   "plats:sdhk:sverige",
+   "Ok foghaten skal skipa en fore sik som rætten skal sitia",
+   "Borgmästare och rådmän får inte döma utan att fogden eller hans bud är närvarande."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+   "begrepp:radman",
+   "kraver",
+   "begrepp:fogde|fogden eller hans bud ska vara närvarande när borgmästare och rådmän dömer",
+   "plats:sdhk:sverige",
+   "Enga doma magho borghamæstara ella radhmæn döma vtan foghaten ella hans budh ær ther næær.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_26",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|landsbor får inte vittna i staden om gäld",
+   "plats:sdhk:sverige",
+   "Um giæld ok thet tholiko til hörir, mogho the eller andre landzmæn engin witne ganga.",
+   "Utgångspunkten är att vittnen inte går från landet till staden eller tvärtom; gäster likställs med landsbor."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_26",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|bofasta män från landet, t.ex. bönder, får vittna i staden om de var närvarande",
+   "plats:sdhk:sverige",
+   "Alle bolfaste mæn, som böndir ok andre tholike, æn the skælike æra, mogho witne ganga i stadhenum fore draap ok saar ok annur tholikin, æn the nær æra tha tholikt hænder.",
+   "Undantag från regeln att vittnen inte går från landet till staden."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv och gods vid dråp under flock och samnad mot fogde, borgmästare eller rådmän; kungen tar godset och målsäganden livet",
+   "plats:sdhk:sverige",
+   "Gör han drap, saar, blodwite, blanadh, klædheriff ella husbrut, miste liiff ok godz; konungen taki godzet ok malsæghanden liffwit",
+   "Stadga 1357. Alla som deltar i flocken med samma vilja står samma rätt; den som hyser dem drabbas av kungens hämnd och vrede. Redan flocken utan gärning straffas med döden."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex män",
+   "plats:sdhk:sverige",
+   "æn til æru siex manna witne, ella wæri sik mædh tolff manna edhe; ok alle the mædh æru",
+   "Dråp under flock mot stadens ämbetsmän."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig",
+   "plats:sdhk:sverige",
+   "æn til æru siex manna witne, ella wæri sik mædh tolff manna edhe; ok alle the mædh æru",
+   "Dråp under flock mot stadens ämbetsmän."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv utan bot, när dråparen dräpt utan nöd och tas på färsk gärning",
+   "plats:sdhk:sverige",
+   "Nw dræper man annan vtan thrang, ok wardher fangen a færske gærning, giiffui liiff fore liiff, ok komi engum botum widher",
+   "Texten är märkt [DB Vl 1] (dråpbalken, viljaverk) men ligger i samma passage som EB 27. Hur många som än är i flocken när dråpet görs står alla samma rätt."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv utan bot när någon dör av att ankartåget huggits av med vilja",
+   "plats:sdhk:sverige",
+   "komber ther i manna wækt, giffwi liff fore liff ok kome engom botum widher",
+   "'manna wækt' tolkat som dråp. Sker skeppsbrott eller skada utan dödsfall ersätts skadan, annars förlorar han livet."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex män",
+   "plats:sdhk:sverige",
+   "æn siæx manna witne æra til, eller wæri sik mædh tolff manna edhe"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig",
+   "plats:sdhk:sverige",
+   "æn siæx manna witne æra til, eller wæri sik mædh tolff manna edhe"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "paforljd",
+   "=om han fälls vid eden väljer målsäganden mellan böter och att göra med honom vad han vill; kungen och staden får sin rätt",
+   "plats:sdhk:sverige",
+   "falz han at edhenum, wari fallin til sakinna, ok haffwi malsæghanden wald böter taka, eller göri mædh honum hwat han wil, tho swa at konungen ok stadhin fa sin ræth",
+   "Målsäganden för talan och bestämmer över påföljden."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker när någon omkommer i skeppsbrott som annan vållat",
+   "plats:sdhk:sverige",
+   "Nw kan nokor man aff skipbruti fordærffwas ther the koma i, böte malsæghandanum XL marker enskylt",
+   "Osäker läsning: 'fordærffwas' tolkat som omkommer. Gäller enligt texten både våda och vilja."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten, fyrtio marker",
+   "plats:sdhk:sverige",
+   "böte malsæghandanum XL marker enskylt",
+   "Skeppsbrott med dödsfall; osäker läsning av 'fordærffwas'."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|tolv mäns nämnd fäller eller värjer, vare sig det skett av våda eller vilja",
+   "plats:sdhk:sverige",
+   "ther skal a koma tolff manna næmpd at wita ther vm hwat sant ær; fælla the han, wari fælder; wæria the han, wari wardher, hwat thet ær hælder fore wadha eller wilia.",
+   "Osäker läsning av 'fordærffwas'."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att dräpa, hugga, sticka, ge blodvite eller slå i hemfrid, kyrkofrid, hemlighusfrid, badstufrid eller annan frid som tidigare nämnts",
+   "plats:sdhk:sverige",
+   "Hwilken man som gör nokot thet nw ær sakt antiggia i heemfridh, kirkiufridhi, hemelikhws fridhi, bastuffw fridhi ella nokot aff thöm förra sagdh æru eller vrskild, dræper, hogger eller stingher, gör blodhwite, slaar skeno"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|edsöresbot på 160 marker utöver boten enligt dråp- eller sårmålsbalken",
+   "plats:sdhk:sverige",
+   "thet skal alt bötas som vrskils i drapmala balkenum ella saramala balkenum, ok sidhan böte edzörit",
+   "Summan räknad ur delarna 60 + 60 + 40 marker."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sextio marker",
+   "plats:sdhk:sverige",
+   "malsæghandenum LX marker, konungenum LX. marker ok stadhenum XL marker",
+   "Edsöresboten."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|sextio marker",
+   "plats:sdhk:sverige",
+   "malsæghandenum LX marker, konungenum LX. marker ok stadhenum XL marker",
+   "Edsöresboten."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|fyrtio marker",
+   "plats:sdhk:sverige",
+   "malsæghandenum LX marker, konungenum LX. marker ok stadhenum XL marker",
+   "Edsöresboten; staden ersätter häradet/landet."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "=varken landsflykt eller förverkat gods",
+   "plats:sdhk:sverige",
+   "ok han skal eig rikit ryma, ok eig hans godz skyfflas",
+   "Skillnad mot landslagens edsöre, där den skyldige ska rymma riket."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:dodsstraff|halshuggning om han inte förmår böta",
+   "plats:sdhk:sverige",
+   "Orkar han eig botum, wardhe halshoggin."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "=förlust av högra handen om han inte förmår böta en fyrtiomarkerssak i balken",
+   "plats:sdhk:sverige",
+   "0rkar han eig botum som til XL. marka sak fælder ær i thæssum balkenum, tha skal han mista höghra hand sina."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "=lem för lem vid lemlästning med våld, om gärningsmannen tas på färsk gärning",
+   "plats:sdhk:sverige",
+   "huggir aff honum ena hand mædh wald, en foot, eller stingir vt ögha, skær aff annat öra, skap ella næsa, ok wardher fangen widher færska gærning, giffwi lim fore lim",
+   "Bevis: sex mäns vittne, annars tolv mäns ed."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig, om sex mäns vittne saknas",
+   "plats:sdhk:sverige",
+   "æn til æru siæx manna witne, ella wæri sik mædh tolff manna edhe"
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för varje lem om målsäganden tar bot; edsöret är då inte brutet",
+   "plats:sdhk:sverige",
+   "Nw vm malsæghandin wil widh botum taka, böte fore hwart eet XL markir, malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker, ok ær eig brutit edzörit.",
+   "Målsäganden väljer mellan bot och lem för lem."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "begrepp:boter|fullt edsöre och ingen annan bot, eller livet, om offret mister två lemmar",
+   "plats:sdhk:sverige",
+   "Miste man tw aff thæssom, böte fult edzörit, ok andra boot eig, ella miste liiff sit."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|tjugo marker av fyrtio",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tjugo marker gemensamt med staden",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem; delningen mellan kung och stad anges inte."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|tjugo marker gemensamt med kungen",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem; delningen mellan kung och stad anges inte."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=man har lika mycket frid i sitt skepp som i sin gård",
+   "plats:sdhk:sverige",
+   "Swa mykin fridh haffwer man i sino skipi som i sinum gardhe",
+   "Tolkning: hemfriden, och därmed edsöresskyddet, omfattar skeppet. Dråp och sår där döms efter sakens art."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "person:erik_magnusson_1339",
+   "stiftar_lag",
+   "=kung Erik Magnusson och hela rikets råd stadgade i Stockholm på S:ta Katarinas dag 1357 om flock och samnad mot stadens ämbetsmän",
+   "plats:sdhk:sverige",
+   "J areno epter gudz byrdh thrættan hundhrada siw ok fæmtighi, vm sancte katerine dagh, stadde ok stadgadhe then ærlike konung Erik magnusson ok alt rikessens radh i stokholme",
+   "Gäller ett tillägg, inte hela stadslagen."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "definieras_som",
+   "=dödande räknas som uppsåtligt dråp när den som ålagts att bättra hus eller annat verk försummar det efter utsatt dag",
+   "plats:sdhk:sverige",
+   "Wardhr honum thet budhit som thet aa at bætra, ok dagher fore laghdir, ok timadhe epter daghen, wari tha drap i wilia wærkum ok botum",
+   "DB Vd 8 i samma passage. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|åttio marker till treskifte mellan målsäganden, kungen och staden när dråparen var trängd i livsnöd",
+   "plats:sdhk:sverige",
+   "Ær han thrængder a liiffs nödh, tha miste eig liff, vtan böte LXXX marker epter foghatans ok radhmanna nadhum; the LXXX marker gange til thræskiptis malsæghandenum, konungenum ok stadhenum.",
+   "DB Vl 1 § 1 i samma passage. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sextio marker till målsäganden, trettio till kungen och trettio till staden när dråparen flytt och inte tagits på bar gärning",
+   "plats:sdhk:sverige",
+   "böte malsæghandenum LX marker, ok konungenum XXX marker, ok stadhenum XXX marker, ok ryme siæx wikur i kloster ella kirkiur",
+   "Dråparen rymmer sex veckor till kloster eller kyrka och bjuder sedan böter. DB Vl 1 § 2. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker, hälften till målsäganden och hälften till kungen och staden, när en minderårig under femton år dräper med vilja",
+   "plats:sdhk:sverige",
+   "Nw kan offwermaghi minna æn XV ara dræpa mædh wilia, böte XL marker, malsæghandenum halfft ok halfft konungenum ok stadhenum.",
+   "DB Vd 10. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|åtta marker när barn under sju år dräper, vare sig av våda eller vilja",
+   "plats:sdhk:sverige",
+   "Kan ok offwermaghi minna æn siu ara dræpa man, hwat thet ær wadhe ella wili, böte atta marker.",
+   "DB Vd 11. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot för dräpt havande kvinna, och tjugo marker för barnet till kvinnans arvingar",
+   "plats:sdhk:sverige",
+   "Uardher kona dræpen the mædh barne ær i hænna liiffue, tha bötes hon ater mædh twæböte.",
+   "Av tvåboten tar kvinnans arvingar hälften, kungen och staden hälften. DB Vl 12. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp mellan pingst och förra Vårfrudagen, vid jul och påsk, under lyst frid eller medan kungen är i staden",
+   "plats:sdhk:sverige",
+   "gör man drap, ella nokot aff them sakum hær skulu vptælias, mællom pinkinxdagha ok warfrw dagh then förra, ella vm iull ok pascha, ella swa længe then fridher lyses, ella swa længe konunger i stadhenum ær, ligge alt i tweböte.",
+   "SB Vl 1 § 1 i samma passage. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp på fogden, borgmästare, rådmän eller stadens skrivare",
+   "plats:sdhk:sverige",
+   "Alt thet foghatenum, borghamæstarum, radhmannum ok stadzins scriwara görs i drapum ella saramalum, wari alt i twæböte.",
+   "Gäller också män som skickas i stadens ärenden. SB Vl 18. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tolv marker när hus eller annat verk faller på en man och han dör",
+   "plats:sdhk:sverige",
+   "Nw falla hws a man ella annur handa wærke manna, ok faar bana aff, wari boot tolff marker",
+   "DB Vd 8. Samma bot när byggare tappar timmer eller sten (§ 1). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tolv marker när en minderårig dräper av våda",
+   "plats:sdhk:sverige",
+   "Dræpir offwermaghi man mædh wadha, böte XII. marker.",
+   "DB Vd 11. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|två goda kvinnor vittnar att barnet levde i moderns liv, annars sex mäns ed",
+   "plats:sdhk:sverige",
+   "twæggia godhra quinno som witne skulu bæra at thet barn war qwikt i hænna liiffue; æra eig the til, tha wæri sik mædh siæx manna edhe",
+   "Dråp på havande kvinna, DB Vl 12. Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

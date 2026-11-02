@@ -1,0 +1,953 @@
+{
+ "beskrivning": "Normpåståenden om dråp, fridsbrott och jäv ur Grágás (Konungsbók), extraherade av språkmodell. Grágás citeras efter Vilhjálmur Finsens danska översättning (1870), eftersom den fornisländska texten saknas i databasen. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/gragas.json",
+ "passager": {},
+ "entiteter": [
+  [
+   "plats:island",
+   "plats",
+   "Island",
+   null,
+   "Q189"
+  ]
+ ],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet",
+   "plats:island",
+   "Dersom man dræber en Mand, gjælder det Fredløshed",
+   "Fredløshed = skovgang (full fredlöshet). Dråpsaken förs av den som har rätt att hämnas dråpet (se kap. 94). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|för den som går hemifrån i avsikt att dräpa eller såra, om det fullbordas",
+   "plats:island",
+   "Naarsomhelst man begiver sig etsteds hen i den Hensigt at dræbe eller saare Mennesker, gjælder det Fredløshed, hvis det bliver fuldført",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande av den som sårat eller dräpt, utfört av den sårade eller av dem som har rätt att hämnas dråpet, fram till alltinget där saken ska väckas",
+   "plats:island",
+   "Den som har tilføiet Manden Saar eller dræbt ham, falder ufredhellig for denne og for alle dem, der ere i Ledtog med ham",
+   "Texten: 'ufredhellig'. Hämndrätten tillkommer dem som har rätt att föra dråpsaken. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "kraver",
+   "=kvidutsaga om vilken sida som började angreppet, när någon på båda sidor sårats eller dräpts och minst tre sårats på kampplatsen",
+   "plats:island",
+   "da skal der gives Kvidudsagn om, at Angrebet er skeet fra det Partis Side, hvorfra det i Virkeligheden er skeet.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande av den som först begett sig hemifrån i avsikt att dräpa eller såra till ett möte där dråp eller sår sker, även om motparten börjar angreppet",
+   "plats:island",
+   "de, der først begive sig hjemme fra i saadan Hensigt til et Møde, hvor Drab eller Saar finde Sted, ere ufredhellige",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande på kampplatsen av den som ställt sig till försvar för eller hjälper den som dräpt eller sårat, om han inte rätteligen velat skilja dem åt",
+   "plats:island",
+   "ligesom han da ogsaa ansees ufredhellig, hvilkesomhelst Legemsbeskadigelser der tilføies ham af dem, som ville yde Modstanderen Hjælp paa samme Kampplads",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "kraver",
+   "=lysning (kungörelse) inför fem grannbönder inom tre solmärken",
+   "plats:island",
+   "Alle de Lov-Overtrædelser, som her ere blevne opregnede, Drab, Saar, Stød og Angreb af alle Slags, skulle lyses for 5 Nabobønder",
+   "Lysningen görs av den som har rätt att föra saken, om han är närvarande. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|vittnen kallas till varje banesår",
+   "plats:island",
+   "han bør tilkalde Vidner ved hvert af Banesaarene og vise dem Saarene",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:87",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:vittne|vittnen om banesår måste uppfylla samma släktskapskrav som ledamöter av grannkvid",
+   "plats:island",
+   "Vidner angaaende Banesaar skulle have saadanne Egenskaber, at de i Henseende til Slægtskab med den søgsmaalsberettigede gyldigen kunde være Medlemmer af en Nabokvid",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|om dråparen inte täcker liget mot fåglar och djur",
+   "plats:island",
+   "hvis han ikke saaledes dækker Liget, straffes han med Landsforvisning",
+   "Landsforvisning = fjörbaugsgarðr (mindre fredlöshet). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:87",
+   "begrepp:mord",
+   "definieras_som",
+   "=dråp som dråparen inte själv lyser på föreskrivet sätt; den dräpte anses då inte ha fallit på sina gärningar",
+   "plats:island",
+   "dersom han lyser anderledes end nu er sagt, da regnes det for Mord, saa at den dræbte ansees ikke at være faldet paa sine Gjerninger",
+   "Dråparen ska samma dygn lysa dråpet på närmaste gård där han är säker. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:88",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:fredloshet",
+   "plats:island",
+   "dersom nogen myrder en Mand, da straffes han med Fredløshed",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:88",
+   "begrepp:mord",
+   "definieras_som",
+   "=att dölja gärningen, gömma liket eller inte vidkännas gärningen",
+   "plats:island",
+   "det er Mord, naar man lægger Skjul paa Gjerningen, eller skjuler Liget eller ikke vedkjender sig Gjerningen",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:88",
+   "begrepp:drap",
+   "kraver",
+   "=vid dråp utan synligt yttre våld eller banesår får högst tre lysas skyldiga med verkan att de hindras från tingsresa",
+   "plats:island",
+   "da kan saadant Drab ikke med den Virkning, at det hindrer de Vedkommende fra Thingreise, paalyses flere end 3",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|kvid av nio grannbönder närmast stridsplatsen, kallade hemma i bygden",
+   "plats:island",
+   "skal der hjemme i Bøigden til Kvidudsagn tilkaldes 9 Bønder, der boe Kamppladsen nærmest",
+   "Kvid återges här som nämnd. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|tremänning (næstsødskendebarn) eller närmare till käranden eller svaranden",
+   "plats:island",
+   "De Nabobønder kunne ikke være Medlemmer af Kviden, der ere Næstsødskendebørn til Sagsøgeren eller den sagsøgte eller nærmere beslægtede",
+   "Næstsødskendebørn tolkas som tremänningar (sv. 'tremänning'); osäker gradräkning. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|den som är gift med partens mor, dotter eller syster",
+   "plats:island",
+   "Disse 3 nærbeslægtede kunne heller ikke være gyldige Medlemmer af Kviden, den nemlig som er gift med Partens Moder eller Datter eller Søster",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|andligt släktskap: den som hållit parten under primsigning, dop eller konfirmation",
+   "plats:island",
+   "Ligeledes disse 3 aandelig beslægtede: nemlig den, som holder En under Primsignelse, eller under Daab, eller under Konfirmation",
+   "Andligt släktskap saknar eget begrepp; skrivet under frändskap. En part får dock inte rensa en kvidman för andligt släktskap med parten själv. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:namnd|bonde vars ätt har haft dråpsaker med kärandens eller svarandens ätt",
+   "plats:island",
+   "ligesaalidt kan en Bonde være Kvidmand, naar der mellem hans Æt og Sagsøgerens eller den sagsøgtes Æt er forefaldet Drabssager",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:jav",
+   "paforljd",
+   "begrepp:landsflykt|för den som stämmer en man enbart för att göra honom oduglig som kvidman",
+   "plats:island",
+   "Dersom man anlægger Sag imod en Mand, i den Hensigt at gjøre ham udygtig til at være Kvidmand, og ikke fordi han anseer ham for skyldig i den Sag han sigtes for, da er Straffen Landsforvisning",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|grannbonde som saknar förmögenhet att betala tingfärdsavgift",
+   "plats:island",
+   "kun de Nabobønder kunne gyldigen tilkaldes som Kvidmænd, der have saa megen Formue, at det tilkommer dem at udrede Thingreiselønsafgiften",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|käranden kallar nio grannbönder; motparten har rätt att rensa kviden",
+   "plats:island",
+   "Man skal tilkalde 9 Nabobønder",
+   "Satsen står i stycket om hur käranden kallar kvidmännen; rensningsrätten ('Forkastelsesret', 'Rydningsret') nämns i samma stycke. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:89",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|man som inte är duglig till tingsresa, t.ex. av sjukdom",
+   "plats:island",
+   "En Mand, der ikke er dygtig til Thingreise, skal ikke tilkaldes som Medlem af Kviden",
+   "Duglig är den som kan rida fulla dagsresor och själv fånga sin häst. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:90",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråp på bar gärning av den som våldtar hustru, dotter, mor, syster, fosterdotter eller fostermor",
+   "plats:island",
+   "dersom En kommer til, idet en Mand voldtager en Qvinde, som han er berettiget til der paa Stedet at udøve Drabshævn for, og hin har kastet hende ned og lagt sig ovenpaa hende, da kan han udøve Drabshævn der paa Stedet",
+   "Gäller också om mannen påträffas i sängen hos kvinnan i otuktigt syfte. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:90",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|samma grannbönder ger kvid både om dråpet eller såren och om den dräptes ofrid, när han dräpts för en kvinna och samlaget inte fullbordats",
+   "plats:island",
+   "skulle de samme Nabobønder afgive Kvidudsagn saa vel om Drabet eller Saarene, der ere blevne tilføiede, som ogsaa om det, hvorpaa man vil begrunde den dræbtes Ufredhellighed.",
+   "Var samlaget fullbordat ger grannarna till dråpsplatsen kvid om dråpet och grannarna till platsen för samlaget kvid om det. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:91",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|ingen fredlöshet om dråparen är under tolv år; hans fränder betalar fränderbot",
+   "plats:island",
+   "dersom en Mand, der er yngre end 12 Aar, dræber nogen, da bliver han ikke fredløs for Drabet, men hans Slægtninge skulle betale Frændeboder for den dræbte",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:92",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=vådagärning befriar i princip inte från straff; undantag när någon faller mot ett stillahållet vapen och kviden intygar att skada inte var avsedd",
+   "plats:island",
+   "Det er fastsat, at ingen Vaades-Gjerninger skulle finde Sted",
+   "Översättarens tillägg i hakparentes: '[med den Virkning, at man derfor slipper for Straf]'. Exemplen gäller sår. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:92",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|försvarskvid av fem grannbönder ur söksmålskviden",
+   "plats:island",
+   "alle disse Forsvarskvider skulle udtages af den Søgsmaalskvid, der er anvendt ved Saggivelsen, og skulle af den udtages 5 Nabobønder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:93",
+   "begrepp:drap",
+   "paforljd",
+   "=den vansinnige straffas som en man vid sina sinnen; förlikning får dock ske utan lagrättens samtycke",
+   "plats:island",
+   "han bliver straffet for Beskadigelser, paa samme Maade, som en Mand med fuld Forstand",
+   "Vansinnesgärning föreligger bara om han tidigare skadat sig själv livsfarligt och grannbönder intygar det i kvid. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:93",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|grannbönder ska ge kvid om att den vansinnige tidigare tillfogat sig själv livsfarliga skador, för att dråpet ska räknas som vansinnesgärning",
+   "plats:island",
+   "ansees det dog kun som Vanvids-Gjerning, dersom Nabobønder ville give Kvidudsagn om at dette er Tilfældet.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:94",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den dräptes fränder, fördelat mellan släktlinjerna på samma sätt som arv",
+   "plats:island",
+   "Søgsmaalsret og Bøder for Drab deles paa samme Maade mellem Linierne i Slægtfølgen som Arv",
+   "Talan förs av den dräptes son (16 år, friboren, arvsberättigad), därefter fader, broder på fädernet, broder på mödernet, oäkta son, oäkta broder, sedan närmaste arvsberättigade frände. Bröder på fädernet tar lika delar. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:95",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:arvinge|arvingarna, män eller kvinnor, oavsett vem som för talan",
+   "plats:island",
+   "Alle Bøder for Drabssager tilfalde Arvingerne, hvad enten de ere Mandfolk eller Qvinder, hvem der saa anlægger Sagen eller er søgsmaalsberettiget",
+   "Endast den rätte käranden får ge fullmakt att föra saken. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:95",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den dräptes mor|en tredjedel i förhållande till den dräptes bröder på fädernet",
+   "plats:island",
+   "Moderen er berettiget til en tredie Del af Drabsbøderne efter sine ægtefødte Børn i Forhold til den dræbtes Brødre paa fædrene Side",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:95",
+   "begrepp:drap",
+   "definieras_som",
+   "=dräps en kvinna som bär ett levande foster är det två dråpsaker, och fostrets dråp behandlas som andra dråpsaker",
+   "plats:island",
+   "Dersom en Qvinde, som bliver dræbt, er frugtsommelig med et levende Foster, er der 2 Drabssager, og Sagen angaaende Fosterets Drab skal behandles som andre Drabssager.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:95",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den dräpta hustruns myndiga arvsberättigade söner, som delar hälften av böterna sinsemellan",
+   "plats:island",
+   "ere de lige delagtige med Manden i Søgsmaalsretten, ligesom de ogsaa ere berettigede til Halvdelen af Bøderne i Forhold til hinanden.",
+   "Mannen är kärande när hustrun dräps och de har arvsberättigade barn; myndiga söner delar talerätten med honom. Utan söner delar fadern eller brodern på fädernet talan med mannen, och en arvsberättigad frände tar hälften av böterna. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:98",
+   "begrepp:drap",
+   "kraver",
+   "=alltingets tillstånd för förlikning",
+   "plats:island",
+   "Med Hensyn til alle de Drab, jeg nu har opregnet, saavelsom med Hensyn til større Saar er det ikke tilladt at slutte Forlig uden Althingets Tilladelse",
+   "Olovlig förlikning straffas med landsflykt; talan förs först av närmaste fränder, annars av vem som vill. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:98",
+   "begrepp:dagtingan",
+   "paforljd",
+   "begrepp:landsflykt|förlikning i dråpsak eller om större sår utan alltingets tillstånd",
+   "plats:island",
+   "Landsforvisning er Straffen, hvis man indgaaer Forlig i de Sager, hvilke ikke kunne forliges uden Tilladelse.",
+   "Talan förs först av närmaste fränder, annars av vem som vill. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:99",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|fjärdingsdomstolen på alltinget för den fjärding där gärningen skedde",
+   "plats:island",
+   "Alle de Sager, som her ere opregnede i Anledning af Legemsbeskadigelser, skulle anlægges for Fjerdingsretten [paa Althinget], der hører til den Fjerding, hvori Beskadigelserne ere udøvede",
+   "Hakparentesen är översättarens. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:101",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:fredloshet|dråp eller sår på ting eller vigt höstmöte; personlig bot ökas med hälften",
+   "plats:island",
+   "Dersom nogen dræber eller saarer en Mand paa Thinge eller paa indviede Høstmøder, straffes han med Fredløshed, og den personlige Bod forøges med det halve",
+   "Tingsfrid; Grágás saknar edsöre i svensk mening. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:101",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:tvebot|dubbel personlig bot vid stöt, sår eller dråp på alltinget",
+   "plats:island",
+   "Dersom man tilføier hinanden Stød eller Saar eller Drab paa Althinget, fordobbles den personlige Bod for de Mænd, som Fornærmelsen tilføies",
+   "Personlig bot (réttr) är 48 ören enligt kap. 88. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:101",
+   "begrepp:fridsbrott",
+   "kraver",
+   "begrepp:namnd|bodkvid av tre män från vardera av de tre närmaste bodarna",
+   "plats:island",
+   "da skal der tilkaldes Bodkvid fra de tre Boder, der ere nærmest, og hvoraf der i hver ere tre Mænd, der med Hensyn til Slægtskab kunne være Medlemmer af Kviden",
+   "Gäller kroppsskador och dråp på alltinget; lysning sker på lagberget. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:fredloshet|tre mark i pris på huvudet vid dråp på alltinget",
+   "plats:island",
+   "Dersom nogen i Anledning af et paa Althinget forøvet Drab bliver fredløs, da er Prisen paa hans Hoved 3 Mark i lovlige Betalingsmidler",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:mordbrand",
+   "paforljd",
+   "begrepp:fredloshet|tre mark i pris på huvudet för den som bränner folk inne",
+   "plats:island",
+   "Den anden, paa hvis Hoved samme Pris er sat, er den som indebrænder Folk",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|tre mark i pris på huvudet för träl som dräper sin herre, husfru eller deras barn",
+   "plats:island",
+   "Den tredie er Trællen, som dræber sin Herre eller sin Herskerinde eller deres Børn eller Fosterbørn",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:fredloshet|tre mark i pris på huvudet för lönnligt dråp",
+   "plats:island",
+   "Den fjerde er Forbryderen, der udøver lønligt Drab",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:fredloshet",
+   "definieras_som",
+   "=skogsgång; priset på huvudet är åtta ören för vanliga skogsmän, tre mark för de fyra svåraste fallen",
+   "plats:island",
+   "Men paa alle andre Skovmænd er Prisen 8 Ører",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:102",
+   "begrepp:attebot",
+   "kraver",
+   "=käranden utkorar en av deltagarna i dråpet till dråpare, av vars ätt fränderbot krävs",
+   "plats:island",
+   "skal Sagsøgeren for Retten eller ved Forligsmøde, i Voldgiftsmændenes Nærværelse, kaare en Mand til Drabsmand",
+   "Utan utkorad dråpare kan varken fränderbot krävas eller kvid rensas för släktskap. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:103",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|tolvmannakvid som goden i den svarandes tinglag bildar, alternativt nio grannbönder",
+   "plats:island",
+   "man skal opfordre den Gode, i hvis Thinglag den sagsøgte opholder sig, til at danne Tylfterkvid",
+   "Goden (godi) saknar eget begrepp. Tre alternativ: tylfterkvid, nio grannbönder till den svarande, eller bönderna närmast fyndplatsen. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:109",
+   "begrepp:mordbrand",
+   "paforljd",
+   "begrepp:fredloshet",
+   "plats:island",
+   "brænde de Folk eller deres Kreaturer inde, straffes de med Fredløshed",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:109",
+   "begrepp:fredloshet",
+   "tillfaller",
+   "=den som först sårade den fredlöse med sitt vapen|priset på den fredlöses huvud",
+   "plats:island",
+   "Naar en fredløs bliver dræbt, tilkommer Prisen paa hans Hoved den, der først saarede ham med sine Vaaben",
+   "Ur avsnitt 109a (Om Drab paa Fredløse) i samma passage. Dråp på fredlös är straffritt; priset betalas enligt kap. 110 av goden och hans tingmän. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:109",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre mark för att dräpa en fredlös på annan plats än den föreskrivna, mer än ett pilskott från där han greps",
+   "plats:island",
+   "Men dræbe de en fredløs paa et andet Sted end befalet er, straffes det med 3 Marks Bøder",
+   "Domstolen ålägger dem att föra bort den fredlöse inom fjorton nätter; markägaren för talan. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|dråp på annans träl eller trälkvinna, därtill ersättning för trälens värde",
+   "plats:island",
+   "dersom man dræber en andens Træl eller Trælkvinde; Straffen derfor er Landsforvisning",
+   "Trälens herre för talan och utkorar en dråpare. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|herre som dräper egen träl under helgtid eller fasta; annars straffritt",
+   "plats:island",
+   "Dersom Herren dræber sin Træl, straffes han ikke derfor, med mindre han gjør det paa hellige Tider eller i Langefasten, da er Straffen Landsforvisning",
+   "Talan förs av goden i dråparens tinglag, annars av vem som vill. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|herre som dräper sin egen träl, utom under helgtid eller långfastan",
+   "plats:island",
+   "Dersom Herren dræber sin Træl, straffes han ikke derfor, med mindre han gjør det paa hellige Tider eller i Langefasten",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "=ingen straff men trälens värde ska ersättas, när en frände som kan vara giltig tingman för herrens gård dräper trälen",
+   "plats:island",
+   "Dersom en Mand, der paa Grund af sit Slægtskab til Herren, kan være gyldig Thingmand for hans Gaard (7), dræber hans Træl, da straffes han ikke derfor, men skal betale Trællens Værdi.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|herre som när som helst dräper sin träl för förolämpningar som skulle göra en fri man ofridshelig",
+   "plats:island",
+   "Ikke straffes han for Trællens Drab, til hvad Tid han saa dræber ham, dersom han udøver Drabet formedelst Fornærmelser, for hvilke en fri Mand vilde falde ufredhellig.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråp på träl som löper mot motståndarens vapen för att försvara sin herre",
+   "plats:island",
+   "Naar en Træl, for at forsvare sin Herre, løber imod Modstanderens Vaaben, straffes hans Drab med Fredløshed, ifald han derved faaer Bane.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "definieras_som",
+   "=fyra lagstadgade ringar: tre mark, tjugo ören, två mark och tolv ören, med tillägg (ringdække och hvid)",
+   "plats:island",
+   "Fire ere de lovbestemte Ringe. Den første er tre Mark stor; den anden tyve Ører; den tredie to Mark; den fjerde tolv Ører",
+   "Fränderboten (baugatal) betalas av dråparens fränder till den dräptes fränder i motsvarande grad. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|huvudringen tre mark till den dräptes fader, son och broder, betald av dråparens fader, son och broder",
+   "plats:island",
+   "Til den første Ring ere tre Mænd baade Ringydere og Ringmodtagere, nemlig [den dræbtes og Drabsmandens] Fader, Søn og Broder",
+   "Hakparentesen är översättarens. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|tjugoöresringen till farfar, sonson, morfar och dotterson",
+   "plats:island",
+   "Til tyve Ørers Ringen ere fire Mænd baade Ringydere og Ringmodtagere, nemlig Farfader og Sønnesøn, Morfader og Dattersøn",
+   "Fränder på manssidan tar tre femtedelar, på kvinnosidan två femtedelar. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|tvåmarksringen till farbror, brorson, morbror och systerson",
+   "plats:island",
+   "Til to Marks Ringen ere ogsaa fire Mænd baade Ringydere og Ringmodtagere, nemlig Farbroder og Brodersøn, Morbroder og Søstersøn",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|tolvöresringen till kusiner (farbrors-, fasters-, morbrors- och mostersöner)",
+   "plats:island",
+   "Tolv Ørers Ringen skal modtages af [den dræbtes] Farbroders Sønner, Fasters og Morbroders sønner og Mosters sønner",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|ett öre till manliga fränder i femte led",
+   "plats:island",
+   "Den dræbtes mandlige Slægtninge i femte Led skulle modtage en Øre af Drabsmandens mandlige Slægtninge i femte Led",
+   "Mellanliggande grader får en mark, fem ören och en örtug, tre och ett halvt öre m.m. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "tillfaller",
+   "=bodförökarna: oäkta son, styvson och de tre svågrarna gifta med den dräptes mor, dotter eller syster|tolv ören och fem vägda penningar",
+   "plats:island",
+   "De skulle alle tilsammen tage tolv Ører og fem veiede Penninge",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "begrepp:trygd|fredslöfte ges alltid i gengäld för fränderbot",
+   "plats:island",
+   "Ogsaa skal Fredsløfte altid gives til Gjengjæld for Frændebøder; ellers kan der ikke gjøres Krav paa disse",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:drap",
+   "paforljd",
+   "=ingen fränderbot vid dråp på rättslösa män",
+   "plats:island",
+   "Dersom retløse Mænd dræbes, kan der ikke i saa Fald fordres Frændebøder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "=käranden ska utkora en av dem som deltog i dråpet till dråpare och kräva fränderboten av hans ätt; gör han det inte kan fränderbot inte krävas",
+   "plats:island",
+   "Dersom flere end een have deltaget i et Drab, skal Sagsøgeren, for Retten eller, ved Voldgift, for Voldgiftsmændene, udvælge en Mand til Drabsmand",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "=käranden ska för domstolen räkna upp släktskapet mellan den svarande och dråparen och mellan sig och den dräpte",
+   "plats:island",
+   "Sagsøgeren skal for Domstolen opregne Frændskabet mellem den sagsøgte og Drabsmanden, og mellem sig og den dræbte.",
+   "Kravet ska resas samma sommar som dråpsaken förlikas eller anhängiggörs. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "begrepp:ed|två mededsmän intygar på sin ära att släktskapsuppräkningen är riktig",
+   "plats:island",
+   "Han skal og have to Mededsmænd, som erklære paa deres Ære, at de troe, at den Frændskabsopregning er rigtig",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:4:dan:115",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:fredloshet|dråp efter givet fredslöfte (trygd): jagas som varg",
+   "plats:island",
+   "den af Eder, som bryder indgaaet Forlig eller begaaer Drab efter givet Fredsløfte, han bør og skal saa vide jages som Ulv",
+   "Ur fredslöftesformeln (trygðamál). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:domare",
+   "utses_av",
+   "=goden|varje gode med fullt och gammalt godord utser en man till fjärdingsdomstolen",
+   "plats:island",
+   "Hver Gode, som har gammelt og fuldt Godord [Bøigdsforstanderskab] skal udnævne en Mand i Domstol",
+   "Goden (godi) saknar eget begrepp. Hakparentesen är översättarens. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:domare",
+   "definieras_som",
+   "=fri man, minst tolv vintrar gammal, som kan råda för ord och ed och har fast hemvist",
+   "plats:island",
+   "En tolv Vintre gammel Karl eller ældre skal man udnævne til Dommer, en saadan, som kan raade for Ord eller Ed, en fri Mand og som har fast Hjemstavn",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|den som är kärande eller svarande, eller genom handslag överlåtit talan eller försvar i en sak vid tinget",
+   "plats:island",
+   "Den Mand skal man ikke udnævne til Dommer, som er Sagsøger eller Sagvolder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|den som inte i barndomen lärt sig 'danska tungan', förrän han varit tre vintrar på Island",
+   "plats:island",
+   "Den Mand skal man ikke udnævne til Dommer, som ikke i Barndommen har lært at tale paa den danske Tunge, førend han har været tre Vintre i Island eller længere",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:jav",
+   "paforljd",
+   "begrepp:boter|tre mark och förlorad sak för jävig man som låter sig utses till domare",
+   "plats:island",
+   "da bliver han derfor bodskyldig til tre Mark, og hans Sag tabt",
+   "Goden som utser jävig domare straffas med tre mark och förlust av godordet. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:20",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|kärande eller svarande i eget mål",
+   "plats:island",
+   "Den Mand skal man ikke udnævne til Dommer, som er Sagsøger eller Sagvolder [og selv vil føre sin Sag]",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:jav",
+   "kraver",
+   "begrepp:ed|den som rensar domstolen svär laged på korset",
+   "plats:island",
+   "Sagsøgere og Sagvoldere kunne rydde Domstol om de ville, og skulle sværge Eder derved",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:domare|tremänning eller närmare med motparten, i dråpsaker med dråparen, den dräpte eller käranden",
+   "plats:island",
+   "Næstsødskendebørn skulle reise sig fra Domstolen og de som ere nærmere beslægtede med Modparten, eller, i Drabssager, med Drabsmanden, den dræbte eller Sagsøgeren",
+   "Släktskapen räknas från ett syskonpar och bekräftas på äran, vid behov med två mededsmän. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:domare|den som är gift med partens dotter, syster eller mor, eller omvänt",
+   "plats:island",
+   "samt tre nærbesvogrede: dersom man er gift med en Mands Datter eller Søster eller Moder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|andligt släktskap (fadderskap vid primsigning, dop eller konfirmation) med parten",
+   "plats:island",
+   "Tre aandelig beslægtede skulle reise sig fra Domstolen",
+   "Andligt släktskap saknar eget begrepp. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:domare|ouppgjorda dråpsaker mellan domaren och motparten",
+   "plats:island",
+   "Dersom han skal rydde Domstol paa Grund af uafgjorte Drabssager",
+   "Släktskapen räknas bara till den lagligt utkorade dråparen. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:vittne",
+   "paforljd",
+   "begrepp:fredloshet|skogsgång för oriktig släktskapsräkning eller falskt vittnesbörd på alltinget",
+   "plats:island",
+   "Dersom man anfører Frændskabet urigtig, eller afgiver falsk Vidnesbyrd paa Althinget, da gjælder det Skovgang",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:landsflykt|domare som inte lämnar domstolen efter laglig rensning (tingskränkning)",
+   "plats:island",
+   "Dersom han ikke vil reise sig fra Domstolen, men vil ligefuldt blive siddende, da er det Thingkrænkelse, og gjælder det Fjørbaugsgaard",
+   "Fjørbaugsgaard = mindre fredlöshet (landsflykt i tre år). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:25",
+   "begrepp:domare",
+   "utses_av",
+   "=goden, som genast ska utse en ny domare i stället för den som rensats bort",
+   "plats:island",
+   "er Goden da pligtig at udnævne en anden Dommer strax",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|tremänning eller närmare",
+   "plats:island",
+   "skulle Næstsødskendebørn og nærmere Slægtninge vige Sæde af Kviden",
+   "Gäller rensning av kvid vid alltinget; släktskap med den rensande själv räknas också. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:ed|alla kvidmän svär ed inför domstolen innan utsagan",
+   "plats:island",
+   "inden Kvidudsagn afgives, skulle alle Kvidmændene først sværge Ed for Domstolen",
+   "Vid oenighet gäller majoritetens utsaga. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:vittne",
+   "kraver",
+   "begrepp:ed|alla som för talan, vittnar eller avger kvidutsaga vid alltingets domstolar svär ed",
+   "plats:island",
+   "Alle de Mænd, som have noget Lov-Anliggende at fremføre for Domstolene paa Althinget, være sig at forfølge Sag eller værge Sag, eller afgive Vidnesbyrd eller Kvidudsagn, de skulle sværge Eder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|gift med den andres moder, dotter eller syster",
+   "plats:island",
+   "naar den ene er gift med den andens Moder eller Datter eller Søster",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|andligt släktskap genom dop, primsigning eller konfirmation (inte med den rensande själv)",
+   "plats:island",
+   "Han kan rydde paa Grund af de 3 Slags aandeligt Slægtskab",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|för liten förmögenhet för att betala tingfärdsavgiften, eller bonde utan tjänstekarl",
+   "plats:island",
+   "Dersom en Mand har Sæde i Kviden, som har mindre Formue, end som saa, at han er pligtig til at betale Thingreiselønsafgiften",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|så svag att han inte hade varit skyldig att resa till tinget",
+   "plats:island",
+   "Dersom en Kvidmand er saa svag, at han ikke vilde have været pligtig til Thingreise",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:41",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|laged på korset att döma den dom han tror är lag",
+   "plats:island",
+   "Jeg nævner Vidner til det Vidnesbyrd, at jeg sværger Ed paa Korset, Lov-Ed, og jeg siger det Gud, at jeg vil dømme den Dom, som jeg troer er Lov",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:41",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:landsflykt|domare som vägrar döma i saken",
+   "plats:island",
+   "da gjælder det Fjørbaugsgaard for dem, der ikke ville paadømme Sagen",
+   "Fjørbaugsgaard = mindre fredlöshet. Sex domare räcker då för giltig dom. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:45",
+   "begrepp:domare",
+   "utses_av",
+   "=goden|domare i femtedomstolen; goden svär att ingen bättre lagkunnig fanns bland hans tingmän",
+   "plats:island",
+   "jeg sværger Ed med Bog i Haanden, Femterrets-Ed; hjælpe mig saa vist Gud i dette og det andet Lys, som jeg troer, at jeg har udnævnet en saadan Mand til Dommer, at ei vil nogen anden Mand eller Indbygger her i Landet raade bedre for vore Love end den Mand",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:5:dan:1",
+   "begrepp:lagman",
+   "utses_av",
+   "=lagrättemännen|lagsagomannen väljs i lagrätten för tre somrar",
+   "plats:island",
+   "Lovsigemanden bør udnævnes i Lovretten",
+   "Lovsigemand (lögsögumaðr) återges som lagman. Vid lika röster avgör den sida biskopen i fjärdingen ansluter sig till. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=goden, som utser elva män av sitt godord jämte sig själv till tylftarkvid, bönder eller tjänstekarlar",
+   "plats:island",
+   "han skal udnævne 11 Mænd foruden sig selv.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=en annan gode i samma tinglag, den som är fjärmast släkt med svaranden, när saken gäller goden själv",
+   "plats:island",
+   "den af dem, som han vil, dersom de begge ere i lige nært Slægtskab med den sagsøgte, men ellers den af dem, som er fjernest beslægtet med denne",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:42",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|moddomsed på kors eller bok att avge den motdom han tror stämmer med lagen",
+   "plats:island",
+   "jeg vil afsige den Moddom, som jeg troer er stemmende med Loven",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:24",
+   "begrepp:domare",
+   "utses_av",
+   "=goden, som sätter sin domare i domstolen",
+   "plats:island",
+   "Derpaa skal Goden nedsætte sin Dommer",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:40",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|egen sak: han får sitta kvar men hans röst gäller inte och han deltar inte i motdomar",
+   "plats:island",
+   "Ei skal hans Stemme gjælde i den Sag",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:2:dan:44",
+   "begrepp:muta",
+   "handlaggs_vid",
+   "=femtedomstolen (Femterretten), för motdomar då muta erbjuds, tas emot eller betingas på tinget",
+   "plats:island",
+   "naar man tilbyder, modtager eller betinger sig Bestikkelse her paa Thinget",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:108",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som ligger i bakhåll och dräps, även om de han lade bakhållet för angrep först",
+   "plats:island",
+   "uagtet de, imod hvilke Bagholdet blev lagt, have begyndt Angrebet, ansees de ufredhellige, der laae i Bagholdet, hvis de blive dræbte.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:110",
+   "begrepp:drap",
+   "kraver",
+   "=den som dräper en fredlös ska lysa dråpet samma dygn för en man med fast hem på gården, annars kan han inte kräva priset på den fredlöses huvud",
+   "plats:island",
+   "Naar man dræber en fredløs, skal man lyse Drabet i samme Etmaal og forkynde det for en Mand, som har fast Hjem [paa Gaarden].",
+   "Hakparentesen är översättarens. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "gragas:3:dan:110",
+   "begrepp:mord",
+   "definieras_som",
+   "=dråp på en fredlös räknas som mord bara när kviden intygar att dråparen ville hemlighålla det",
+   "plats:island",
+   "kun da skal Drabet af en fredløs ansees for Mord, naar Kviden giver Udsagn om, at han vilde holde det hemmeligt.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

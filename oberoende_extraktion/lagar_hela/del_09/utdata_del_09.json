@@ -1,0 +1,464 @@
+{
+  "beskrivning": "Flockarna har lästs var för sig och normpåståenden har förts in manuellt med ordagranna citat ur den aktuella delens indata.",
+  "extraherad_av": "språkmodell (GPT-6) – oberoende kontrollextraktion av lagarna, del 9",
+  "passager": {},
+  "entiteter": [],
+  "identifieringar": [],
+  "pastaenden": [
+    [
+      "gragas:3:dan:89",
+      "begrepp:drap",
+      "kraver",
+      "=nio närmast kampplatsen boende bönder avger kvid i dråpsmål",
+      "plats:island",
+      "skal der hjemme i Bøigden til Kvidudsagn tilkaldes 9 Bønder, der boe Kamppladsen nærmest."
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:frandskap",
+      "diskvalificerar",
+      "begrepp:namnd|nästsydskendebarn eller närmare släkting till målsägande eller tilltalad kan inte sitta i kvid",
+      "plats:island",
+      "De Nabobønder kunne ikke være Medlemmer af Kviden, der ere Næstsødskendebørn til Sagsøgeren eller den sagsøgte eller nærmere beslægtede."
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:svagerskap",
+      "diskvalificerar",
+      "begrepp:namnd|gift med partens moder, dotter eller syster",
+      "plats:island",
+      "den nemlig som er gift med Partens Moder eller Datter eller Søster."
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:jav",
+      "diskvalificerar",
+      "begrepp:namnd|andligt släktskap genom primsigning, dop eller konfirmation",
+      "plats:island",
+      "Ligeledes disse 3 aandelig beslægtede: nemlig den, som holder En under Primsignelse, eller under Daab, eller under Konfirmation"
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:fiendskap",
+      "diskvalificerar",
+      "begrepp:namnd|dråpssak mellan kvidmannens och partens släkter",
+      "plats:island",
+      "naar der mellem hans Æt og Sagsøgerens eller den sagsøgtes Æt er forefaldet Drabssager"
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:jav",
+      "diskvalificerar",
+      "begrepp:namnd|otillräcklig förmögenhet för tingreseavgift",
+      "plats:island",
+      "kun de Nabobønder kunne gyldigen tilkaldes som Kvidmænd, der have saa megen Formue"
+    ],
+    [
+      "gragas:3:dan:89",
+      "begrepp:jav",
+      "diskvalificerar",
+      "begrepp:namnd|oförmögen att resa till tinget",
+      "plats:island",
+      "En Mand, der ikke er dygtig til Thingreise, skal ikke tilkaldes som Medlem af Kviden"
+    ],
+    [
+      "gragas:3:dan:90",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:ogild|våldtäktsman dödas på platsen av nära anhörig till kvinnan",
+      "plats:island",
+      "da kan han udøve Drabshævn der paa Stedet"
+    ],
+    [
+      "gragas:3:dan:90",
+      "begrepp:drap",
+      "kraver",
+      "=kvid om dråpet och den dödades brist på rättsskydd",
+      "plats:island",
+      "de samme Nabobønder afgive Kvidudsagn saa vel om Drabet eller Saarene"
+    ],
+    [
+      "gragas:3:dan:91",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:attebot|släktingar till dråpare yngre än tolv år betalar frändeböter",
+      "plats:island",
+      "hans Slægtninge skulle betale Frændeboder for den dræbte."
+    ],
+    [
+      "gragas:3:dan:92",
+      "begrepp:vadadrap",
+      "definieras_som",
+      "=vådahandling fritar i princip inte från straff",
+      "plats:island",
+      "ingen Vaades-Gjerninger skulle finde Sted [med den Virkning, at man derfor slipper for Straf]."
+    ],
+    [
+      "gragas:3:dan:93",
+      "begrepp:drap",
+      "kraver",
+      "=kvid från grannar att den dråpande var vanvettig enligt föreskrivna tecken",
+      "plats:island",
+      "kun som Vanvids-Gjerning, dersom Nabobønder ville give Kvidudsagn om at dette er Tilfældet."
+    ],
+    [
+      "gragas:3:dan:94",
+      "begrepp:drap",
+      "kraver",
+      "=son minst sexton år, friboren och arvsberättigad är i första hand rätt målsägande",
+      "plats:island",
+      "[Den dræbtes] Søn er den rette Sagsøger i en Drabssag, naar han er 16 Aar gammel eller ældre"
+    ],
+    [
+      "gragas:3:dan:95",
+      "begrepp:drap",
+      "definieras_som",
+      "=dödas kvinna med levande foster räknas det som två dråpsmål",
+      "plats:island",
+      "Dersom en Qvinde, som bliver dræbt, er frugtsommelig med et levende Foster, er der 2 Drabssager"
+    ],
+    [
+      "gragas:3:dan:95",
+      "begrepp:mansbot",
+      "tillfaller",
+      "=arvingarna, oavsett kön eller vem som för talan",
+      "plats:island",
+      "Alle Bøder for Drabssager tilfalde Arvingerne"
+    ],
+    [
+      "gragas:3:dan:95",
+      "begrepp:mansbot",
+      "tillfaller",
+      "=modern, en tredjedel av dråpsböterna efter hennes äkta barn gentemot barnets bröder på fädernet",
+      "plats:island",
+      "Moderen er berettiget til en tredie Del af Drabsbøderne efter sine ægtefødte Børn"
+    ],
+    [
+      "gragas:3:dan:96",
+      "begrepp:drap",
+      "kraver",
+      "=skuldträl som är arvinge får inte själv föra dråpsmålet",
+      "plats:island",
+      "naar en Gjældstræl er den dræbtes Arving, skal han ikke anlægge Sagen"
+    ],
+    [
+      "gragas:3:dan:97",
+      "begrepp:drap",
+      "kraver",
+      "=utländsk mans nära fränder i landet för dråpstalan",
+      "plats:island",
+      "tilkommer Søgsmaalsretten den dræbtes Frænder, dersom saadanne ere her i Landet."
+    ],
+    [
+      "gragas:3:dan:98",
+      "begrepp:drap",
+      "kraver",
+      "=förlikning i dråpsmål kräver Alltingets tillstånd",
+      "plats:island",
+      "ikke tilladt at slutte Forlig uden Althingets Tilladelse"
+    ],
+    [
+      "gragas:3:dan:99",
+      "begrepp:drap",
+      "handlaggs_vid",
+      "=fjärdingsrätten i den fjärding där skadan skedde",
+      "plats:island",
+      "skulle anlægges for Fjerdingsretten [paa Althinget], der hører til den Fjerding, hvori Beskadigelserne ere udøvede."
+    ],
+    [
+      "gragas:3:dan:101",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:fredloshet|dråp på ting eller invigt höstmöte",
+      "plats:island",
+      "Dersom nogen dræber eller saarer en Mand paa Thinge eller paa indviede Høstmøder, straffes han med Fredløshed"
+    ],
+    [
+      "gragas:3:dan:101",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:tvebot|personlig bot för dråp på alltinget fördubblas",
+      "plats:island",
+      "Dersom man tilføier hinanden Stød eller Saar eller Drab paa Althinget, fordobbles den personlige Bod"
+    ],
+    [
+      "gragas:3:dan:103",
+      "begrepp:mord",
+      "kraver",
+      "=goden i den tilltalades tinglag skall bilda tolvmanskvid i mordmål",
+      "plats:island",
+      "man skal opfordre den Gode, i hvis Thinglag den sagsøgte opholder sig, til at danne Tylfterkvid."
+    ],
+    [
+      "gragas:3:dan:108",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:ogild|den som ligger i bakhåll dödas trots att motparten angriper först",
+      "plats:island",
+      "ansees de ufredhellige, der laae i Bagholdet, hvis de blive dræbte."
+    ],
+    [
+      "gragas:3:dan:109",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:boter|tre marker för att döda fredlös på fel plats",
+      "plats:island",
+      "Men dræbe de en fredløs paa et andet Sted end befalet er, straffes det med 3 Marks Bøder"
+    ],
+    [
+      "gragas:3:dan:110",
+      "begrepp:mord",
+      "definieras_som",
+      "=dråp på fredlös blir mord endast om kviden styrker avsikt att hemlighålla gärningen",
+      "plats:island",
+      "kun da skal Drabet af en fredløs ansees for Mord, naar Kviden giver Udsagn om, at han vilde holde det hemmeligt."
+    ],
+    [
+      "gragas:3:dan:110",
+      "begrepp:drap",
+      "kraver",
+      "=den som dödar fredlös skall kungöra dråpet samma dygn för att få huvudpriset",
+      "plats:island",
+      "Naar man dræber en fredløs, skal man lyse Drabet i samme Etmaal"
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:landsflykt|dråp på annans träl",
+      "plats:island",
+      "dersom man dræber en andens Træl eller Trælkvinde; Straffen derfor er Landsforvisning"
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:ogild|herre dödar sin egen träl utanför helgtid",
+      "plats:island",
+      "Dersom Herren dræber sin Træl, straffes han ikke derfor"
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:landsflykt|herre dödar sin egen träl under helgtid eller fastan",
+      "plats:island",
+      "med mindre han gjør det paa hellige Tider eller i Langefasten, da er Straffen Landsforvisning"
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:fredloshet|träl dödas när han försvarar sin herre och springer mot angriparens vapen",
+      "plats:island",
+      "Naar en Træl, for at forsvare sin Herre, løber imod Modstanderens Vaaben, straffes hans Drab med Fredløshed"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "definieras_som",
+      "=första ringen är tre marker",
+      "plats:island",
+      "Den første er tre Mark stor;"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "tillfaller",
+      "begrepp:att|första ringen till den dräptes far, son och bror",
+      "plats:island",
+      "Til den første Ring ere tre Mænd baade Ringydere og Ringmodtagere, nemlig [den dræbtes og Drabsmandens] Fader, Søn og Broder."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "tillfaller",
+      "begrepp:att|andra ringen till farfar, sonson, morfar och dotterson",
+      "plats:island",
+      "Til tyve Ørers Ringen ere fire Mænd baade Ringydere og Ringmodtagere, nemlig Farfader og Sønnesøn, Morfader og Dattersøn."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "tillfaller",
+      "begrepp:att|tredje ringen till farbror, brorson, morbror och systerson",
+      "plats:island",
+      "Til to Marks Ringen ere ogsaa fire Mænd baade Ringydere og Ringmodtagere, nemlig Farbroder og Brodersøn, Morbroder og Søstersøn."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "tillfaller",
+      "begrepp:att|fjärde ringen till kusiner i angivna släktled",
+      "plats:island",
+      "Tolv Ørers Ringen skal modtages af [den dræbtes] Farbroders Sønner, Fasters og Morbroders sønner og Mosters sønner"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "kraver",
+      "=målsäganden väljer en av flera deltagare som dråpare för att få frändeböter ur dennes släkt",
+      "plats:island",
+      "Dersom flere end een have deltaget i et Drab, skal Sagsøgeren, for Retten eller, ved Voldgift, for Voldgiftsmændene, udvælge en Mand til Drabsmand"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:drap",
+      "paforljd",
+      "=inga frändeböter när den dödade var rättslös",
+      "plats:island",
+      "Dersom retløse Mænd dræbes, kan der ikke i saa Fald fordres Frændebøder."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "kraver",
+      "=fredslöfte skall ges i utbyte mot frändeböter",
+      "plats:island",
+      "Ogsaa skal Fredsløfte altid gives til Gjengjæld for Frændebøder"
+    ],
+    [
+      "gragas:4:dan:115",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:fredloshet|dråp efter givet fredslöfte medför fördrivning",
+      "plats:island",
+      "den af Eder, som bryder indgaaet Forlig eller begaaer Drab efter givet Fredsløfte, han bør og skal saa vide jages som Ulv",
+      "Formel för fredslöfte; uttrycker följden av avtalsbrott, inte en separat påföljdsbestämmelse."
+    ],
+    [
+      "gragas:3:dan:93",
+      "begrepp:drap",
+      "paforljd",
+      "=samma straff som för en fullt förståndig person när gärningen klassas som vansinnesgärning",
+      "plats:island",
+      "han bliver straffet for Beskadigelser, paa samme Maade, som en Mand med fuld Forstand",
+      "Avser en sinnessjuk gärningsman; texten anger inte straffets art här."
+    ],
+    [
+      "gragas:3:dan:95",
+      "begrepp:drap",
+      "kraver",
+      "=den dödade hustruns make för talan när de har arvsberättigade barn",
+      "plats:island",
+      "Dersom en Mands Hustru, med hvem han har arveberettigede Børn, bliver dræbt, da er hendes Mand Sagsøger i Drabssagen."
+    ],
+    [
+      "gragas:3:dan:95",
+      "begrepp:mansbot",
+      "tillfaller",
+      "=maken och myndiga arvsberättigade söner, sönerna tillsammans hälften",
+      "plats:island",
+      "ere de lige delagtige med Manden i Søgsmaalsretten, ligesom de ogsaa ere berettigede til Halvdelen af Bøderne i Forhold til hinanden.",
+      "När dödad kvinna efterlämnar make och myndiga arvsberättigade söner."
+    ],
+    [
+      "gragas:3:dan:98",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:landsflykt|förlikning utan Alltingets tillstånd",
+      "plats:island",
+      "Landsforvisning er Straffen, hvis man indgaaer Forlig i de Sager, hvilke ikke kunne forliges uden Tilladelse.",
+      "Påföljden gäller den otillåtna förlikningen i dråpsmål."
+    ],
+    [
+      "gragas:3:dan:101",
+      "begrepp:drap",
+      "paforljd",
+      "=personlig bot ökas med hälften för dråp på ting eller invigt höstmöte",
+      "plats:island",
+      "Dersom nogen dræber eller saarer en Mand paa Thinge eller paa indviede Høstmøder, straffes han med Fredløshed, og den personlige Bod forøges med det halve."
+    ],
+    [
+      "gragas:3:dan:103",
+      "begrepp:mord",
+      "kraver",
+      "=alternativt nio grannbönder till kvid i den tilltalades bygd",
+      "plats:island",
+      "Man kan ogsaa vælge at tilkalde hjemme i Bøigden, til Kvidudsagn, 9 af den sagsøgtes Nabobønder"
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "=ersättning för dräpt träl ur den skyldiges gods enligt fem grannbönders värdering",
+      "plats:island",
+      "tilkommer der Sagsøgeren af hans Gods Erstatning for Trællen, efter som Sagsøgerens 5 Nabobønder med Haand lagt paa [hellig] Bog for Retten ansætte Trællens Værdi.",
+      "Gäller dödande av annans träl."
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:ogild|släkting till trälens herre som kan vara giltig tingman för dennes gård dödar trälen",
+      "plats:island",
+      "da straffes han ikke derfor, men skal betale Trællens Værdi.",
+      "Ersättningsskyldighet för trälens värde kvarstår."
+    ],
+    [
+      "gragas:3:dan:111",
+      "begrepp:drap",
+      "paforljd",
+      "begrepp:ogild|herre dödar egen träl på grund av förseelse som skulle gjort en fri man rättslös",
+      "plats:island",
+      "Ikke straffes han for Trællens Drab, til hvad Tid han saa dræber ham, dersom han udøver Drabet formedelst Fornærmelser, for hvilke en fri Mand vilde falde ufredhellig."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "kraver",
+      "=dråparens fränder svarar för ringböterna",
+      "plats:island",
+      "af hans Æt skal han fordre Frændebøder",
+      "När flera deltog måste en av dem väljas som dråpare för ringboten."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "kraver",
+      "=målsäganden skall uppräkna släktskapet mellan dråpare och svarande samt mellan sig och den dödade",
+      "plats:island",
+      "Sagsøgeren skal for Domstolen opregne Frændskabet mellem den sagsøgte og Drabsmanden, og mellem sig og den dræbte."
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "kraver",
+      "=två mededsmän bekräftar släktskapsuppräkningen",
+      "plats:island",
+      "Han skal og have to Mededsmænd, som erklære paa deres Ære, at de troe, at den Frændskabsopregning er rigtig"
+    ],
+    [
+      "gragas:3:dan:91",
+      "begrepp:drap",
+      "paforljd",
+      "=ingen fredlöshet för dråpare under tolv år",
+      "plats:island",
+      "da bliver han ikke fredløs for Drabet"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "definieras_som",
+      "=andra ringen är tjugo öre",
+      "plats:island",
+      "den anden tyve Ører;"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "definieras_som",
+      "=tredje ringen är två marker",
+      "plats:island",
+      "den tredie to Mark;"
+    ],
+    [
+      "gragas:4:dan:113",
+      "begrepp:attebot",
+      "definieras_som",
+      "=fjärde ringen är tolv öre",
+      "plats:island",
+      "den fjerde tolv Ører."
+    ]
+  ]
+}

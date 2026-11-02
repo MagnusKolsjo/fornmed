@@ -1,0 +1,10 @@
+mcp>=2.0
+python-dotenv>=1.0
+sentence-transformers>=3.0
+# REST-API:et och söktjänsten
+fastapi>=0.115
+uvicorn>=0.30
+# Behövs bara med PostgreSQL-backend (servern behöver tillägget pgvector)
+psycopg2-binary>=2.9
+# Behövs bara med SQLite-backend
+sqlite-vec>=0.1.6

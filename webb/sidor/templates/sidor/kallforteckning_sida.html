@@ -1,0 +1,45 @@
+{% extends "sidor/text_sida.html" %}
+{% load humanize wagtailcore_tags fornmed %}
+{% block efter_text %}
+{% if kallor %}
+<nav class="bokstaver" aria-label="Bokstäver">
+  {% for b in bokstaver %}<a href="#bokstav-{{ b }}">{{ b }}</a>{% endfor %}
+</nav>
+<p class="antal">{{ kallor|length }} källor.</p>
+{% regroup kallor by bokstav as grupper %}
+{% for grupp in grupper %}
+<section class="bokstav" id="bokstav-{{ grupp.grouper }}">
+  <h2>{{ grupp.grouper }}</h2>
+  <ul class="kallor">
+  {% for k in grupp.list %}
+    <li class="kalla">
+      <h3>{% if k.id %}<a href="{% pageurl page %}verk/{{ k.id|verkadress }}/">{{ k.titel }}</a>{% else %}{{ k.titel }}{% endif %}</h3>
+      <p class="metadata">
+        {% if k.antal %}{{ k.antal|intcomma }} {% if k.samlad == "sdhk" %}brev{% else %}inskrifter{% endif %}{% endif %}
+        {% if k.upphov %}{{ k.upphov }}{% endif %}{% if k.upphov and k.datering %} · {% endif %}{% if k.datering %}{{ k.datering }}{% endif %}
+        {% if k.kallsamling %}{% if k.upphov or k.datering %} · {% endif %}{{ k.kallsamling }}{% endif %}
+        {% if k.gemensam_licens %} · Licens: {{ k.gemensam_licens }}{% endif %}
+      </p>
+      {% if k.hanvisningar %}
+      <p class="metadata">{% if k.samlad == "rundata" %}Bygger på{% else %}Källa:{% endif %}
+        {% for namn, url in k.hanvisningar %}<a href="{{ url }}">{{ namn }}</a>{% if not forloop.last %}, som bygger på {% endif %}{% endfor %}.</p>
+      {% endif %}
+      <ul class="versioner">
+        {% for v in k.versioner %}
+        <li>
+          {% if k.id %}<a href="{% pageurl page %}verk/{{ k.id|verkadress }}/{% if v.utgava %}?utgava={{ v.utgava|urlencode }}{% endif %}">{{ v.sprak|capfirst }}</a>{% else %}{{ v.sprak|capfirst }}{% endif %}, {{ v.beskrivning }}{% if v.ogranskad %} <span class="ogranskad">ogranskad</span>{% endif %}
+          {% if not k.gemensam_licens and v.licens %} · {{ v.licens }}{% endif %}
+          {% if k.samlad %} · {{ v.passager|intcomma }} texter{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% else %}
+<p>Förteckningen kan inte visas just nu. Försök igen om en stund.</p>
+{% endif %}
+{% endblock %}
+{% block upp %}<a class="upp" href="#sidhuvud" aria-label="Till början av sidan" title="Till början av sidan">↑</a>{% endblock %}

@@ -1,0 +1,256 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Vidhemsprästens anteckningar, extraherade av språkmodell ur den fornsvenska texten. Konunga-, lagmans- och biskopslängderna är uttagna på annat håll; här finns bara rättsliga notiser (lejt dråp, domarregeln, Alsnö stadga). Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/vidhemsprastens_anteckningar.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som tagit lega för att dräpa eller såra",
+   "plats:sdhk:vastergotland",
+   "þa skal þæn ær legho takær vgillær wæræ.",
+   "'vgillær' tolkat som ogill (saklös att dräpa, utan bot); osäker läsning. Gäller också fulla sår."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|den som lejt dråparen värjer sig med sluten häradsnämnd",
+   "plats:sdhk:vastergotland",
+   "Æn þæn ær legher wæri sic mæþ luctri hæræznæmpþ.",
+   "'luctri' = sluten (lykt) nämnd."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "=den som lejt dråparen och fälls svarar som om han själv gjort det",
+   "plats:sdhk:vastergotland",
+   "þa scal han swaræ swa mykit firi sum han görþe þæt sialwær."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|så mycket som målsäganden själv begär, annars hämnd",
+   "plats:sdhk:vastergotland",
+   "Annittæggiæ böte swa mykit sum malseghændi quædþær sialwær ia widþær. ællær hæmniz vp a han.",
+   "Gäller den som lejt dråparen; målsäganden för talan."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:ovald",
+   "definieras_som",
+   "=domaren ska stå emot de fyra ting som kan hindra honom: kärlek, hat, gåvor och rädsla",
+   "plats:sdhk:vastergotland",
+   "Nu ær þe fiughur domæren ma hindræ. eit ær kiærlek. anæt ær hat. þridiæ ær gawur. fiærdþæ ær ræzl.",
+   "Ur den s.k. domarregeln, en moralisk förmaning snarare än en jävsregel."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:domare|gåvor; inte för hela jordens rike får domaren köpas till en orätt dom",
+   "plats:sdhk:vastergotland",
+   "alt iurþriki skulþi þu æi köpæ þær til. at þu skuldi en vrætæn dom vt giuæ.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|kärlek till någon",
+   "plats:sdhk:vastergotland",
+   "ok hawæ ingin iurdrikiz man swa kiæræn. at han göre þæt æi vtæn alt hindær.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:domare|hat, även mot faderns baneman",
+   "plats:sdhk:vastergotland",
+   "æn þö at han wari hans faþurs bani.",
+   "Tolkning: domaren ska döma rätt även om parten vore hans faders baneman. Förmaning."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|rädsla för liv eller gods",
+   "plats:sdhk:vastergotland",
+   "þu skalt ræt göræ. oc rædþes ingin. hwarrti a þit liff. ællær þit goz.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:lagman",
+   "stiftar_lag",
+   "=lagmannen Lum (lumbær) sägs ha tänkt ut och gjort en stor del av västgötarnas lag, som kallas Lums lag",
+   "plats:sdhk:vastergotland",
+   "Fyrsti war lumbær. oc af hanum æru lums lagh callæþþ. fore þy. at han sighs. hawæ huxæt. oc gört en mykin loth aff laghum warum.",
+   "Vidhemsprästens lagmanslängd. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:lagman",
+   "stiftar_lag",
+   "=lagmannen Alli (kringalli) förde in många orätter och krokiga regler i lagen",
+   "plats:sdhk:vastergotland",
+   "castæþhi han.i. lagh war. marghæ wrætti. oc krokæ. oc ilh braghþ.",
+   "Vidhemsprästens lagmanslängd. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:lagman",
+   "stiftar_lag",
+   "=lagmannen Eskil, Magnus Minnesköldssons son, gick igenom Lums lag och andra lagar och bearbetade landets lag",
+   "plats:sdhk:vastergotland",
+   "Syutanþi war. Æskil laghmaþþær. han spurþþi innurllikæ. oc lettæþþi all lums lagh. oc annarrær. at nytræ hæfþ lanzsins for ælþri. Siþþæn han fan lanszins lagh. þa. huxædþi han þem mæþ. myklli snilli.",
+   "Vidhemsprästens lagmanslängd. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:lagman",
+   "stiftar_lag",
+   "=under lagman Folkes tid togs många seder bort ur lagen och frillobarn förlorade sin arvsrätt",
+   "plats:sdhk:vastergotland",
+   "Nitanþi war folke laghman. warskær. oc milþær.i. daghum sinum. toko marghir hedþær af warum laghum. oc frillubörn gengu ffra arwi sinum..",
+   "Vidhemsprästens lagmanslängd; 'hedþær' osäkert (seder). Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "person:magnus_ladulas",
+   "stiftar_lag",
+   "=kung Magnus förnyade de stadgar hans fader gett riket och fäste dem med sin makt, sin ed och rikets främsta mäns",
+   "plats:sdhk:vastergotland",
+   "Ellighær wilium wir oc þy mal ær war faþir skippæþi rikinu til frælsis. oc til naþþæ. attær nyæ. oc festum þem mæþ wart walþ. oc warum eþe. oc aldræ þerræ fræmstu mannæ.i. rikinu æru.",
+   "Alsnö stadga (1285), avskriven i anteckningarna. Kungen heter Magnus enligt brevets inledning; fadern namnges inte (Birger jarl).; Alsnö stadga; kung Magnus är Magnus Ladulås"
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:forverkat_gods|allt den skyldiges gods förverkas och skiftas i tre lotter",
+   "plats:sdhk:vastergotland",
+   "Et ær þæt. at hwar sum huggær. allær dræppær nokon.i. sit sialfs hus. ællær annars manz hus. þa skal alt þæt han.a. skiptæs.i. þre lötte.",
+   "Att hugga eller dräpa någon i hans eget eller annans hus; edsöresbrott enligt Alsnö stadga."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av det förverkade godset",
+   "plats:sdhk:vastergotland",
+   "takær en konongær. annæn hæræþ. þriþiæ sacsökie.",
+   "Subjektet står för det förverkade godset vid edsöresbrott."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av det förverkade godset",
+   "plats:sdhk:vastergotland",
+   "takær en konongær. annæn hæræþ. þriþiæ sacsökie.",
+   "Subjektet står för det förverkade godset vid edsöresbrott."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av det förverkade godset",
+   "plats:sdhk:vastergotland",
+   "takær en konongær. annæn hæræþ. þriþiæ sacsökie.",
+   "'sacsökie' = saksökaren. Subjektet står för det förverkade godset."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:fredloshet|fredlös tills den han brutit mot ber för honom",
+   "plats:sdhk:vastergotland",
+   "oc þæn sum giærþinæ görþe. se vtlaghþær.e. til þæn biþær fore hanum. ær han hawir brutit wiþær."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|40 mark till kungen därefter",
+   "plats:sdhk:vastergotland",
+   "oc böte os siþæn.XL. markær.",
+   "'os' = oss, kungen."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|40 mark efter edsöresbrott",
+   "plats:sdhk:vastergotland",
+   "oc böte os siþæn.XL. markær.",
+   "'os' = oss, kungen."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=samma straff som hemsökn gäller den som våldför kvinna, dräper eller sårar i kyrka, på kyrkogård eller på ting, bryter grid, tar man för annans gärning eller hugger lem av man",
+   "plats:sdhk:vastergotland",
+   "Slikæ samu hæmþ sculu allir þer hawæ. sum quindi walföræ. ællær dræppær. sarghær.i. kyrkyu. kyrkyugarþum. ællær.a. þingum ællær gangær.a. gruþ. oc göræ sæth. ællær takær man fore annars manz giærþ. ællær huggær lim af manni.",
+   "Ordet edsöre används inte i flocken; brotten är de som senare kallas edsöresbrott."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|samma straff som hemsökn: förverkat gods, fredlöshet och 40 mark",
+   "plats:sdhk:vastergotland",
+   "Slikæ samu hæmþ sculu allir þer hawæ. sum quindi walföræ."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|samma straff som hemsökn, dråp i kyrka, på kyrkogård eller på ting",
+   "plats:sdhk:vastergotland",
+   "ællær dræppær. sarghær.i. kyrkyu. kyrkyugarþum. ællær.a. þingum"
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|den anklagade värjs eller fälls av hel häradsnämnd",
+   "plats:sdhk:vastergotland",
+   "at han wæris annattwæggiæ mæþ alþri hæræþz næmpþ. ællær fællis.",
+   "Motivering: att stadgan ska hållas på ett sätt över hela riket."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_2",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|ingen frid förrän husets ägare ber för honom",
+   "plats:sdhk:vastergotland",
+   "han alþrigh friþ ffa. fyr æn han þæn sami biþær fore hanum sum husit atti."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_5",
+   "person:magnus_ladulas",
+   "stiftar_lag",
+   "=kung Magnus lät sätta sitt sigill för brevet; stadgan gjord och skriven på Alnö 1285",
+   "plats:sdhk:vastergotland",
+   "Oc war þættæ skippæt.oc scriwæt.i. alnu æptir wars hærræ fözllo þagh. þusæn arum. oc tu hundræþ. arum oc attatighi. oc fæm arum.",
+   "Alsnö stadga; kung Magnus är Magnus Ladulås"
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_5",
+   "begrepp:biskop",
+   "stiftar_lag",
+   "=ärkebiskop Jakob av Uppsala och biskoparna Anund av Strängnäs, Kettil av Finland och Asser av Växjö var med, sade ja och svor att hålla stadgan",
+   "plats:sdhk:vastergotland",
+   "Wiþ þæssæ waræ skippæn waru wiþær mangir ærllikir mæn. oc gawu þær ia til. oc sworo at þer sculþu hanæ haldæ.",
+   "Biskoparna räknas upp i nästa mening; där nämns också riddare och andra som inte har tagits ut.; Biskoparna är inte kopplade till personer: ärkebiskop Jakob dog 1281, så dateringen 1285 och identiteterna behöver prövas"
+  ]
+ ]
+}

@@ -1,0 +1,12 @@
+# Hälsokontrollen: söktjänsten, de publika adresserna, MCP, Umami, disken och
+# certifikatet. Startar om söktjänsten när den inte svarar och larmar via
+# Healthchecks.io (FORNMED_HEALTHCHECKS_URL i .env). Se halsokontroll.sh.
+# Körs av fornmed-halsokontroll.timer.
+
+[Unit]
+Description=Fornmed — hälsokontroll, larmar via Healthchecks.io
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/srv/fornmed/fornmed/deploy/halsokontroll.sh

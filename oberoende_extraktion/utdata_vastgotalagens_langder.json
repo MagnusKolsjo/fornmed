@@ -1,0 +1,1895 @@
+{
+  "beskrivning": "Påståenden har extraherats post för post ur de tre fornsvenska längderna med ordagranna citat och markerade tolkningar.",
+  "extraherad_av": "språkmodell (GPT-6) – oberoende kontrollextraktion",
+  "passager": {
+    "K": "vastgotalagens_konungalangd:",
+    "L": "vastgotalagens_lagmanslangd:",
+    "B": "vastgotalagens_biskopslangd:"
+  },
+  "entiteter": [
+    [
+      "person:olof_skotkonung",
+      "person",
+      "Olof Skötkonung",
+      "Kung 1",
+      null
+    ],
+    [
+      "person:emund_kolbranna",
+      "person",
+      "Emund Kolbränna",
+      "Kung 2",
+      null
+    ],
+    [
+      "person:emund_slemme",
+      "person",
+      "Emund Slemme",
+      "Kung 3",
+      null
+    ],
+    [
+      "person:hakon_rodhe",
+      "person",
+      "Håkon Röde",
+      "Kung 4",
+      null
+    ],
+    [
+      "person:stenkil",
+      "person",
+      "Stenkil",
+      "Kung 5",
+      null
+    ],
+    [
+      "person:inge_den_aldre",
+      "person",
+      "Inge",
+      "Kung 6",
+      null
+    ],
+    [
+      "person:halsten",
+      "person",
+      "Halsten",
+      "Kung 7",
+      null
+    ],
+    [
+      "person:filip_halstensson",
+      "person",
+      "Filip",
+      "Kung 8",
+      null
+    ],
+    [
+      "person:inge_den_yngre",
+      "person",
+      "Inge",
+      "Kung 9",
+      null
+    ],
+    [
+      "person:ragnvald_konung",
+      "person",
+      "Ragnvald",
+      "Kung 10",
+      null
+    ],
+    [
+      "person:magnus_konung_fjortonde",
+      "person",
+      "Magnus",
+      "Fjortonde kungen, nämnd i post 13",
+      null
+    ],
+    [
+      "person:kornuba",
+      "person",
+      "Kornuba",
+      "Förälder till Sverker den äldre",
+      null
+    ],
+    [
+      "person:koll_konung",
+      "person",
+      "Koll",
+      "Kung dödad av Knut enligt längden",
+      null
+    ],
+    [
+      "person:burislev_konung",
+      "person",
+      "Burislev",
+      "Kung dödad av Knut enligt längden",
+      null
+    ],
+    [
+      "person:sverkers_son_i_danmark",
+      "person",
+      "Namnlös son till Sverker",
+      "Född i Danmark enligt post 13",
+      null
+    ],
+    [
+      "plats:visingso",
+      "plats",
+      "Visingsö",
+      "Dödsplats",
+      null
+    ],
+    [
+      "plats:eriksberg_gasene",
+      "plats",
+      "Eriksberg i Gäsene",
+      "Dödsplats",
+      null
+    ],
+    [
+      "plats:kiltu",
+      "plats",
+      "Kiltu",
+      "Osäker födelseort",
+      null
+    ],
+    [
+      "person:lumber",
+      "person",
+      "Lumber",
+      "Lagman 1",
+      null
+    ],
+    [
+      "person:bjorn_kialki",
+      "person",
+      "Björn Kialki",
+      "Lagman 2",
+      null
+    ],
+    [
+      "person:tore_rav",
+      "person",
+      "Tore Räv",
+      "Lagman 3",
+      null
+    ],
+    [
+      "person:alli_kringalli",
+      "person",
+      "Alli Kringalli",
+      "Lagman 4",
+      null
+    ],
+    [
+      "person:tubbe_stallare",
+      "person",
+      "Tubbe Stallare",
+      "Lagman 5",
+      null
+    ],
+    [
+      "person:onder_essunga",
+      "person",
+      "Önder av Essunga",
+      "Lagman 6",
+      null
+    ],
+    [
+      "person:ulvar_tralghu",
+      "person",
+      "Ulvar av Trälghu",
+      "Lagman 7",
+      null
+    ],
+    [
+      "person:tyrner",
+      "person",
+      "Tyrner",
+      "Lagman 8",
+      null
+    ],
+    [
+      "person:ulvar_tyrners_son",
+      "person",
+      "Ulvar, Tyrners son",
+      "Lagman 9",
+      null
+    ],
+    [
+      "person:assur_haru",
+      "person",
+      "Assur av Häru",
+      "Lagman 10",
+      null
+    ],
+    [
+      "person:karle_ezvari",
+      "person",
+      "Karle av Ezvari",
+      "Lagman 11",
+      null
+    ],
+    [
+      "person:algut_karles_son",
+      "person",
+      "Algut, Karles son",
+      "Lagman 12",
+      null
+    ],
+    [
+      "person:onder_grolanda",
+      "person",
+      "Önder av Grolanda",
+      "Lagman 13",
+      null
+    ],
+    [
+      "person:nagli_onders_bror",
+      "person",
+      "Nagli, Önders bror",
+      "Lagman 14",
+      null
+    ],
+    [
+      "person:sittrygg_alguts_son",
+      "person",
+      "Sittrygg, Alguts son",
+      "Lagman 15",
+      null
+    ],
+    [
+      "person:algut_sittryggs_son",
+      "person",
+      "Algut, Sittryggs son",
+      "Lagman 16",
+      null
+    ],
+    [
+      "person:eskil_lagman",
+      "person",
+      "Eskil",
+      "Lagman 17",
+      null
+    ],
+    [
+      "person:gustav_lagman",
+      "person",
+      "Gustav",
+      "Lagman 18",
+      null
+    ],
+    [
+      "person:folke_lagman",
+      "person",
+      "Folke",
+      "Lagman 19",
+      null
+    ],
+    [
+      "person:magnus_minniskold",
+      "person",
+      "Magnus Minnisköld",
+      "Eskils far enligt längden",
+      null
+    ],
+    [
+      "plats:medalby",
+      "plats",
+      "Mädalby",
+      "Ort i lagmanslängden",
+      null
+    ],
+    [
+      "plats:siglislangem",
+      "plats",
+      "Siglislangem",
+      "Födelseort",
+      null
+    ],
+    [
+      "person:sigfrid_i_biskopslangden",
+      "person",
+      "Sigfrid",
+      "Biskop 1",
+      null
+    ],
+    [
+      "person:unni_arkebiskop",
+      "person",
+      "Unni",
+      "Andre kyrkomannen",
+      null
+    ],
+    [
+      "person:astmud_biskop",
+      "person",
+      "Astmuð",
+      "Biskop 3",
+      null
+    ],
+    [
+      "person:stenfind_biskop",
+      "person",
+      "Stenfind",
+      "Biskop 4",
+      null
+    ],
+    [
+      "person:storbjorn_i_biskopslangden",
+      "person",
+      "Storbjörn",
+      "Biskop 10",
+      null
+    ],
+    [
+      "person:benedikt_den_gode_i_langden",
+      "person",
+      "Benedikt den gode",
+      "Biskop 12",
+      null
+    ],
+    [
+      "person:vernard_i_biskopslangden",
+      "person",
+      "Vernard",
+      "Biskop 15",
+      null
+    ],
+    [
+      "person:benedikt_den_yngre_i_langden",
+      "person",
+      "Benedikt den yngre",
+      "Biskop 16",
+      null
+    ],
+    [
+      "plats:hvervi",
+      "plats",
+      "Hvervi",
+      "Födelseort",
+      null
+    ]
+  ],
+  "identifieringar": [
+    [
+      "person:sigfrid_i_biskopslangden",
+      "person:sigfrid_skara",
+      "mojlig",
+      "Namn och anknytning stämmer, men kandidatordning och längdens ordning skiljer sig."
+    ],
+    [
+      "person:astmud_biskop",
+      "person:osmund_skara",
+      "sannolik",
+      "Astmuð kan vara Osmund i Skara, men namnformen avviker."
+    ],
+    [
+      "person:storbjorn_i_biskopslangden",
+      "person:styrbjorn_skara",
+      "sannolik",
+      "Storbjörn liknar Styrbjörn och har Skara som säte."
+    ],
+    [
+      "person:benedikt_den_gode_i_langden",
+      "person:bengt_den_gode_skara",
+      "sannolik",
+      "Bændictær motsvarar sannolikt Bengt den gode i Skaras biskopsföljd."
+    ],
+    [
+      "person:vernard_i_biskopslangden",
+      "person:bernhard_skara",
+      "sannolik",
+      "Wærnarðær kan motsvara Bernhard, men namnformen avviker."
+    ],
+    [
+      "person:benedikt_den_yngre_i_langden",
+      "person:bengt_den_yngre_skara",
+      "sannolik",
+      "Bændikt vngi motsvarar sannolikt Bengt den yngre."
+    ]
+  ],
+  "pastaenden": [
+    [
+      "K1",
+      "person:olof_skotkonung",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Olawær skotkonongær. war fyrsti. konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K2",
+      "person:emund_kolbranna",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Annar konongær war. Æmunðær colbrænnæ",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K2",
+      "person:emund_kolbranna",
+      "eftertrader",
+      "person:olof_skotkonung",
+      null,
+      "Annar konongær war. Æmunðær colbrænnæ",
+      "Längdens numrering styr."
+    ],
+    [
+      "K3",
+      "person:emund_slemme",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Þriðhi war. Æmundær slemæ",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K3",
+      "person:emund_slemme",
+      "eftertrader",
+      "person:emund_kolbranna",
+      null,
+      "Þriðhi war. Æmundær slemæ",
+      "Längdens numrering styr."
+    ],
+    [
+      "K4",
+      "person:hakon_rodhe",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Fyarðþi. war hakun rödhe",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K4",
+      "person:hakon_rodhe",
+      "eftertrader",
+      "person:emund_slemme",
+      null,
+      "Fyarðþi. war hakun rödhe",
+      "Längdens numrering styr."
+    ],
+    [
+      "K5",
+      "person:stenkil",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Fæmti war. Stænkil konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K5",
+      "person:stenkil",
+      "eftertrader",
+      "person:hakon_rodhe",
+      null,
+      "Fæmti war. Stænkil konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K6",
+      "person:inge_den_aldre",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Sætti war. Ingi konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K6",
+      "person:inge_den_aldre",
+      "eftertrader",
+      "person:stenkil",
+      null,
+      "Sætti war. Ingi konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K7",
+      "person:halsten",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Syunði war. Halsten konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K7",
+      "person:halsten",
+      "eftertrader",
+      "person:inge_den_aldre",
+      null,
+      "Syunði war. Halsten konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K8",
+      "person:filip_halstensson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Atundi war. Philipus konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K8",
+      "person:filip_halstensson",
+      "eftertrader",
+      "person:halsten",
+      null,
+      "Atundi war. Philipus konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K9",
+      "person:inge_den_yngre",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Niunði war Ingi konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K9",
+      "person:inge_den_yngre",
+      "eftertrader",
+      "person:filip_halstensson",
+      null,
+      "Niunði war Ingi konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K10",
+      "person:ragnvald_konung",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Tiundi war Rangwaldær konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K10",
+      "person:ragnvald_konung",
+      "eftertrader",
+      "person:inge_den_yngre",
+      null,
+      "Tiundi war Rangwaldær konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K11",
+      "person:sverker_d_a",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Ælliufti war. Swærkir. konongær gambli",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K11",
+      "person:sverker_d_a",
+      "eftertrader",
+      "person:ragnvald_konung",
+      null,
+      "Ælliufti war. Swærkir. konongær gambli",
+      "Längdens numrering styr."
+    ],
+    [
+      "K12",
+      "person:erik_jedvardsson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Tolfte war Erekær konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K12",
+      "person:erik_jedvardsson",
+      "eftertrader",
+      "person:sverker_d_a",
+      null,
+      "Tolfte war Erekær konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Þrættandi war. karll konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "eftertrader",
+      "person:erik_jedvardsson",
+      null,
+      "Þrættandi war. karll konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K13",
+      "person:magnus_konung_fjortonde",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "magnus konongh fyurtandæ",
+      "Sverige följer av konungalängden. Magnus nämns bara i post 13."
+    ],
+    [
+      "K13",
+      "person:magnus_konung_fjortonde",
+      "eftertrader",
+      "person:karl_sverkersson",
+      null,
+      "magnus konongh fyurtandæ",
+      "Längdens numrering styr. Karl sägs samtidigt ha dödat Magnus."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Fæmtandi war knutar konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "eftertrader",
+      "person:magnus_konung_fjortonde",
+      null,
+      "Fæmtandi war knutar konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K16",
+      "person:sverker_d_y",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Sexstanði war swarkir konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K16",
+      "person:sverker_d_y",
+      "eftertrader",
+      "person:knut_eriksson",
+      null,
+      "Sexstanði war swarkir konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Syutandi war Erekær konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "eftertrader",
+      "person:sverker_d_y",
+      null,
+      "Syutandi war Erekær konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K18",
+      "person:johan_sverkersson",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "Attærtandi war. Ion. konongær",
+      "Sverige följer av konungalängden."
+    ],
+    [
+      "K18",
+      "person:johan_sverkersson",
+      "eftertrader",
+      "person:erik_knutsson",
+      null,
+      "Attærtandi war. Ion. konongær",
+      "Längdens numrering styr."
+    ],
+    [
+      "K4",
+      "person:hakon_rodhe",
+      "fodd",
+      "=född i Levene",
+      "plats:sdhk:levene",
+      "han war föððær .i. lifwini"
+    ],
+    [
+      "K4",
+      "person:hakon_rodhe",
+      "begravd_i",
+      "plats:sdhk:levene",
+      null,
+      "oc liggær .i. lifwini",
+      "”liggær” tolkas som begravning."
+    ],
+    [
+      "K6",
+      "person:inge_den_aldre",
+      "styr_over",
+      "plats:sdhk:sverige",
+      null,
+      "han styrdhi sweriki"
+    ],
+    [
+      "K7",
+      "person:halsten",
+      "syskon_till",
+      "person:inge_den_aldre",
+      null,
+      "broðher Inga konongs",
+      "Inge avser kung 6."
+    ],
+    [
+      "K7",
+      "person:halsten",
+      "dor",
+      "=dör",
+      null,
+      "aff hans ffrafallum oc ðöðhæ"
+    ],
+    [
+      "K8",
+      "person:halsten",
+      "foralder_till",
+      "person:filip_halstensson",
+      null,
+      "halstens sun"
+    ],
+    [
+      "K9",
+      "person:inge_den_yngre",
+      "syskon_till",
+      "person:filip_halstensson",
+      null,
+      "broðher. Philipusær konongs"
+    ],
+    [
+      "K9",
+      "person:inge_den_yngre",
+      "dor",
+      "=dör av förgiftad dryck",
+      "plats:sdhk:ostergotland",
+      "hanum war firi giort mæð ondom dryk .i. östrægötllanði. oc fek. aff þy banæ"
+    ],
+    [
+      "K10",
+      "person:ragnvald_konung",
+      "dor",
+      "=får en skymflig död",
+      null,
+      "þa fek han skiæmðær döðhæ"
+    ],
+    [
+      "K11",
+      "person:kornuba",
+      "foralder_till",
+      "person:sverker_d_a",
+      null,
+      "han war cornubæ sun",
+      "Förälderns namn och identitet är osäkra."
+    ],
+    [
+      "K11",
+      "person:sverker_d_a",
+      "dor",
+      "=mördas av sin hästdräng",
+      null,
+      "hans hæstæ swen myrði han iulæ otto"
+    ],
+    [
+      "K11",
+      "person:sverker_d_a",
+      "begravd_i",
+      "plats:sdhk:alvastra",
+      null,
+      "oc han ær iorðæðhær .i. alwastrum"
+    ],
+    [
+      "K12",
+      "person:erik_jedvardsson",
+      "dor",
+      "=dör hastigt",
+      null,
+      "han war vsini swa brat af ðaghum takin",
+      "Dödssättet är osäkert."
+    ],
+    [
+      "K12",
+      "person:erik_jedvardsson",
+      "begravd_i",
+      "plats:uppsala",
+      null,
+      "ben hans hwilæs .i. wpsalum",
+      "Benens viloplats tolkas som gravplats."
+    ],
+    [
+      "K13",
+      "person:sverker_d_a",
+      "foralder_till",
+      "person:karl_sverkersson",
+      null,
+      "swarkirs sun gamblæ"
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "styr_over",
+      "plats:sdhk:sverige",
+      null,
+      "han styrðhi sweriki"
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "dodar",
+      "person:magnus_konung_fjortonde",
+      null,
+      "han tok aff ðaghum magnus konongh fyurtandæ",
+      "Numreringen ger Magnus plats efter Karl, trots att Karl sägs ha dödat honom."
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "dor",
+      "=dör",
+      "plats:visingso",
+      "han sialwær fæl .i. wisingxs .ö"
+    ],
+    [
+      "K13",
+      "person:karl_sverkersson",
+      "begravd_i",
+      "plats:sdhk:alvastra",
+      null,
+      "han liggær .i. alwaftrum hos fædþur sinum"
+    ],
+    [
+      "K13",
+      "person:sverker_d_a",
+      "foralder_till",
+      "person:sverkers_son_i_danmark",
+      null,
+      "Æn sun swærkis war boren",
+      "Det är oklart om denne son avser Karl eller någon annan."
+    ],
+    [
+      "K13",
+      "person:sverkers_son_i_danmark",
+      "fodd",
+      "=född i Kiltu i Danmark",
+      "plats:kiltu",
+      "war boren .i. danmark .i. kiltu",
+      "Kiltu är svåridentifierat."
+    ],
+    [
+      "K15",
+      "person:koll_konung",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "koll konongh",
+      "Riket framgår av sammanhanget; ingen egen numrerad post."
+    ],
+    [
+      "K15",
+      "person:burislev_konung",
+      "innehar_ambete",
+      "begrepp:kung",
+      "plats:sdhk:sverige",
+      "byrisleph konongh",
+      "Riket framgår av sammanhanget; ingen egen numrerad post."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "dodar",
+      "person:karl_sverkersson",
+      null,
+      "karll konongh",
+      "Citatet hör till uppräkningen som börjar ”oc tok aff daghum”."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "dodar",
+      "person:koll_konung",
+      null,
+      "koll konongh",
+      "Citatet hör till uppräkningen som börjar ”oc tok aff daghum”."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "dodar",
+      "person:burislev_konung",
+      null,
+      "byrisleph konongh",
+      "Citatet hör till uppräkningen som börjar ”oc tok aff daghum”."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "styr_over",
+      "plats:sdhk:sverige",
+      null,
+      "fyr æn han fek sweriki mæð ro"
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "dor",
+      "=dör",
+      "plats:eriksberg_gasene",
+      "oc læt sit liff .i. Erexbærghi .i. giæsini"
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "begravd_i",
+      "plats:sdhk:varnhem",
+      null,
+      "oc han liggær .i. warnem"
+    ],
+    [
+      "K16",
+      "person:sverker_d_y",
+      "dor",
+      "=dödas av folkungar",
+      null,
+      "æn folkongær toko liff aff hanum"
+    ],
+    [
+      "K16",
+      "person:sverker_d_y",
+      "begravd_i",
+      "plats:sdhk:alvastra",
+      null,
+      "oc .i. alwastrum liggær han"
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "styr_over",
+      "plats:sdhk:sverige",
+      null,
+      "siðþæn wan han sweriki mæð swærði"
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "dor",
+      "=dör",
+      "plats:visingso",
+      "han stra ðoo .i. wisingxs .ö",
+      "Dödssättet är osäkert."
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "begravd_i",
+      "plats:sdhk:varnhem",
+      null,
+      "oc liggær i. warnem hos bröðrom sinum oc ffrænðum"
+    ],
+    [
+      "K18",
+      "person:sverker_d_y",
+      "foralder_till",
+      "person:johan_sverkersson",
+      null,
+      "Ion. konongær swærkirs sun"
+    ],
+    [
+      "K18",
+      "person:johan_sverkersson",
+      "dor",
+      "=dör",
+      "plats:visingso",
+      "oc stra ðo .i. wisingxs .ö",
+      "Dödssättet är osäkert."
+    ],
+    [
+      "K18",
+      "person:johan_sverkersson",
+      "begravd_i",
+      "plats:sdhk:alvastra",
+      null,
+      "oc .i. alwastrum liggær han"
+    ],
+    [
+      "L1",
+      "person:lumber",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Fyrsti war lumbær",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L2",
+      "person:bjorn_kialki",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Annar war. Biorn kialki",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L2",
+      "person:bjorn_kialki",
+      "eftertrader",
+      "person:lumber",
+      null,
+      "Annar war. Biorn kialki",
+      "Längdens numrering styr."
+    ],
+    [
+      "L3",
+      "person:tore_rav",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Þriði war Þorer ræfwær",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L3",
+      "person:tore_rav",
+      "eftertrader",
+      "person:bjorn_kialki",
+      null,
+      "Þriði war Þorer ræfwær",
+      "Längdens numrering styr."
+    ],
+    [
+      "L4",
+      "person:alli_kringalli",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Fyarðhi. war. Alli",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L4",
+      "person:alli_kringalli",
+      "eftertrader",
+      "person:tore_rav",
+      null,
+      "Fyarðhi. war. Alli",
+      "Längdens numrering styr."
+    ],
+    [
+      "L5",
+      "person:tubbe_stallare",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Fæmti war. Tubbi stallæri",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L5",
+      "person:tubbe_stallare",
+      "eftertrader",
+      "person:alli_kringalli",
+      null,
+      "Fæmti war. Tubbi stallæri",
+      "Längdens numrering styr."
+    ],
+    [
+      "L6",
+      "person:onder_essunga",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Sætti war. Öndær aff æssungi",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L6",
+      "person:onder_essunga",
+      "eftertrader",
+      "person:tubbe_stallare",
+      null,
+      "Sætti war. Öndær aff æssungi",
+      "Längdens numrering styr."
+    ],
+    [
+      "L7",
+      "person:ulvar_tralghu",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Syndi war. Wluar af Trælghu",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L7",
+      "person:ulvar_tralghu",
+      "eftertrader",
+      "person:onder_essunga",
+      null,
+      "Syndi war. Wluar af Trælghu",
+      "Längdens numrering styr."
+    ],
+    [
+      "L8",
+      "person:tyrner",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Attunði. war. Þyrnir",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L8",
+      "person:tyrner",
+      "eftertrader",
+      "person:ulvar_tralghu",
+      null,
+      "Attunði. war. Þyrnir",
+      "Längdens numrering styr."
+    ],
+    [
+      "L9",
+      "person:ulvar_tyrners_son",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Niundi war Wluar hans sun",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L9",
+      "person:ulvar_tyrners_son",
+      "eftertrader",
+      "person:tyrner",
+      null,
+      "Niundi war Wluar hans sun",
+      "Längdens numrering styr."
+    ],
+    [
+      "L10",
+      "person:assur_haru",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Tyiunði. war. Aszur af Hæru",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L10",
+      "person:assur_haru",
+      "eftertrader",
+      "person:ulvar_tyrners_son",
+      null,
+      "Tyiunði. war. Aszur af Hæru",
+      "Längdens numrering styr."
+    ],
+    [
+      "L11",
+      "person:karle_ezvari",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Æliupti war. Karlli. af Ezwæri",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L11",
+      "person:karle_ezvari",
+      "eftertrader",
+      "person:assur_haru",
+      null,
+      "Æliupti war. Karlli. af Ezwæri",
+      "Längdens numrering styr."
+    ],
+    [
+      "L12",
+      "person:algut_karles_son",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Tolfte war. Algutær hans sun",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L12",
+      "person:algut_karles_son",
+      "eftertrader",
+      "person:karle_ezvari",
+      null,
+      "Tolfte war. Algutær hans sun",
+      "Längdens numrering styr."
+    ],
+    [
+      "L13",
+      "person:onder_grolanda",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Oc þy tok Önðær aff grolandum. þrænttandi. wiðþær laghmanzðöme",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L13",
+      "person:onder_grolanda",
+      "eftertrader",
+      "person:algut_karles_son",
+      null,
+      "Oc þy tok Önðær aff grolandum. þrænttandi. wiðþær laghmanzðöme",
+      "Längdens numrering styr."
+    ],
+    [
+      "L14",
+      "person:nagli_onders_bror",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Naghlli bröþer hans. Fyghurtanði. wið samæ walði",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L14",
+      "person:nagli_onders_bror",
+      "eftertrader",
+      "person:onder_grolanda",
+      null,
+      "Naghlli bröþer hans. Fyghurtanði. wið samæ walði",
+      "Längdens numrering styr."
+    ],
+    [
+      "L15",
+      "person:sittrygg_alguts_son",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Sittryggær alguz sun. Fæmtanði wið laghmanzdöme",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L15",
+      "person:sittrygg_alguts_son",
+      "eftertrader",
+      "person:nagli_onders_bror",
+      null,
+      "Sittryggær alguz sun. Fæmtanði wið laghmanzdöme",
+      "Längdens numrering styr."
+    ],
+    [
+      "L16",
+      "person:algut_sittryggs_son",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Sexstandi. war. Allguttær hans sun",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L16",
+      "person:algut_sittryggs_son",
+      "eftertrader",
+      "person:sittrygg_alguts_son",
+      null,
+      "Sexstandi. war. Allguttær hans sun",
+      "Längdens numrering styr."
+    ],
+    [
+      "L17",
+      "person:eskil_lagman",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Syutanði war. Æskil laghmaðþær",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L17",
+      "person:eskil_lagman",
+      "eftertrader",
+      "person:algut_sittryggs_son",
+      null,
+      "Syutanði war. Æskil laghmaðþær",
+      "Längdens numrering styr."
+    ],
+    [
+      "L18",
+      "person:gustav_lagman",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Atærtandi war göstawær laghmaðþær",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L18",
+      "person:gustav_lagman",
+      "eftertrader",
+      "person:eskil_lagman",
+      null,
+      "Atærtandi war göstawær laghmaðþær",
+      "Längdens numrering styr."
+    ],
+    [
+      "L19",
+      "person:folke_lagman",
+      "innehar_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "Nitanði war folke laghman",
+      "Västergötland framgår av längdens inledning."
+    ],
+    [
+      "L19",
+      "person:folke_lagman",
+      "eftertrader",
+      "person:gustav_lagman",
+      null,
+      "Nitanði war folke laghman",
+      "Längdens numrering styr."
+    ],
+    [
+      "L1",
+      "person:lumber",
+      "fodd",
+      "=född i Vånga",
+      "plats:sdhk:vanga",
+      "han war föðær .i. wangum"
+    ],
+    [
+      "L1",
+      "person:lumber",
+      "begravd_i",
+      "plats:sdhk:vanga",
+      null,
+      "oc þær liggær han .i. enom collæ",
+      "”Där” syftar på Vånga; grav i en kulle."
+    ],
+    [
+      "L2",
+      "person:bjorn_kialki",
+      "begravd_i",
+      "plats:medalby",
+      null,
+      "þær war han iorðþæðþær .i. enom collæ",
+      "”Där” syftar på Mädalby; grav i en kulle."
+    ],
+    [
+      "L4",
+      "person:alli_kringalli",
+      "fodd",
+      "=född i Siglislangem",
+      "plats:siglislangem",
+      "han war födær .i. sighlislangem"
+    ],
+    [
+      "L8",
+      "person:tyrner",
+      "fodd",
+      "=född i Uppland",
+      "plats:sdhk:upland",
+      "han war föððær .i. wplandum"
+    ],
+    [
+      "L9",
+      "person:tyrner",
+      "foralder_till",
+      "person:ulvar_tyrners_son",
+      null,
+      "Niundi war Wluar hans sun",
+      "”Hans” syftar på Tyrner i post 8."
+    ],
+    [
+      "L10",
+      "person:assur_haru",
+      "dor",
+      "=dör kort därefter",
+      null,
+      "han do skamp þær æptir",
+      "”skamp” tolkas som kort tid."
+    ],
+    [
+      "L12",
+      "person:karle_ezvari",
+      "foralder_till",
+      "person:algut_karles_son",
+      null,
+      "Algutær hans sun",
+      "”Hans” syftar på Karle i post 11."
+    ],
+    [
+      "L13",
+      "person:algut_karles_son",
+      "foralder_till",
+      "person:sittrygg_alguts_son",
+      null,
+      "Sitruggær han sun",
+      "”Han” syftar på Algut i post 12."
+    ],
+    [
+      "L13",
+      "person:algut_karles_son",
+      "dor",
+      "=dör",
+      null,
+      "sins faðþurs döðþæ",
+      "Fadern är Algut i post 12; döden nämns indirekt."
+    ],
+    [
+      "L14",
+      "person:nagli_onders_bror",
+      "syskon_till",
+      "person:onder_grolanda",
+      null,
+      "Naghlli bröþer hans",
+      "”Hans” syftar på Önder av Grolanda."
+    ],
+    [
+      "L15",
+      "person:algut_karles_son",
+      "foralder_till",
+      "person:sittrygg_alguts_son",
+      null,
+      "Sittryggær alguz sun",
+      "Samma far–son-relation som i post 13, men nytt textbelägg."
+    ],
+    [
+      "L16",
+      "person:sittrygg_alguts_son",
+      "foralder_till",
+      "person:algut_sittryggs_son",
+      null,
+      "Allguttær hans sun",
+      "”Hans” syftar på Sittrygg i post 15."
+    ],
+    [
+      "L17",
+      "person:magnus_minniskold",
+      "foralder_till",
+      "person:eskil_lagman",
+      null,
+      "han war magnusær sun. minniskiolz aff bialbo",
+      "Magnus Minnisköld är en tolkning av namnet."
+    ],
+    [
+      "B1",
+      "person:sigfrid_i_biskopslangden",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Sighfriðær war fyrsti byskupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B2",
+      "person:unni_arkebiskop",
+      "innehar_ambete",
+      "begrepp:arkebiskop",
+      "plats:sdhk:skara",
+      "Annar war vnni ærchibiscupær",
+      "Skara är underförstått av längden. Unnis säte anges inte, men han kallas ärkebiskop."
+    ],
+    [
+      "B2",
+      "person:unni_arkebiskop",
+      "eftertrader",
+      "person:sigfrid_i_biskopslangden",
+      null,
+      "Annar war vnni ærchibiscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B3",
+      "person:astmud_biskop",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Þriðhi war astmuðær biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B3",
+      "person:astmud_biskop",
+      "eftertrader",
+      "person:unni_arkebiskop",
+      null,
+      "Þriðhi war astmuðær biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B4",
+      "person:stenfind_biskop",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Fyarðþi war. stenfindær biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B4",
+      "person:stenfind_biskop",
+      "eftertrader",
+      "person:astmud_biskop",
+      null,
+      "Fyarðþi war. stenfindær biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B5",
+      "person:adalvard_den_aldre_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Fæmti war. Adalwarðær. gambli",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B5",
+      "person:adalvard_den_aldre_skara",
+      "eftertrader",
+      "person:stenfind_biskop",
+      null,
+      "Fæmti war. Adalwarðær. gambli",
+      "Längdens numrering styr."
+    ],
+    [
+      "B6",
+      "person:adalvard_den_yngre_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Sætti war hin hælghi adalwarðþær vngi",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B6",
+      "person:adalvard_den_yngre_skara",
+      "eftertrader",
+      "person:adalvard_den_aldre_skara",
+      null,
+      "Sætti war hin hælghi adalwarðþær vngi",
+      "Längdens numrering styr."
+    ],
+    [
+      "B7",
+      "person:rodulvard_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Syundi war. Roðolwarðær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B7",
+      "person:rodulvard_skara",
+      "eftertrader",
+      "person:adalvard_den_yngre_skara",
+      null,
+      "Syundi war. Roðolwarðær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B8",
+      "person:rikulf_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Attunði war Rikulwær biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B8",
+      "person:rikulf_skara",
+      "eftertrader",
+      "person:rodulvard_skara",
+      null,
+      "Attunði war Rikulwær biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B9",
+      "person:hervard_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Niundi war hærwarðær biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B9",
+      "person:hervard_skara",
+      "eftertrader",
+      "person:rikulf_skara",
+      null,
+      "Niundi war hærwarðær biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B10",
+      "person:storbjorn_i_biskopslangden",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Tiundi war störbiorn biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B10",
+      "person:storbjorn_i_biskopslangden",
+      "eftertrader",
+      "person:hervard_skara",
+      null,
+      "Tiundi war störbiorn biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B11",
+      "person:odgrim_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Ælliuppti wær. öðgrimbær biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B11",
+      "person:odgrim_skara",
+      "eftertrader",
+      "person:storbjorn_i_biskopslangden",
+      null,
+      "Ælliuppti wær. öðgrimbær biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B12",
+      "person:benedikt_den_gode_i_langden",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Tofte war þæn goðhe biscupær bændictær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B12",
+      "person:benedikt_den_gode_i_langden",
+      "eftertrader",
+      "person:odgrim_skara",
+      null,
+      "Tofte war þæn goðhe biscupær bændictær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B13",
+      "person:jarpulf_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Þrættandi war biscupær iærppulwær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B13",
+      "person:jarpulf_skara",
+      "eftertrader",
+      "person:benedikt_den_gode_i_langden",
+      null,
+      "Þrættandi war biscupær iærppulwær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B14",
+      "person:jon_hyrne_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Fyurtandi war. Ion hyrnnæ",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B14",
+      "person:jon_hyrne_skara",
+      "eftertrader",
+      "person:jarpulf_skara",
+      null,
+      "Fyurtandi war. Ion hyrnnæ",
+      "Längdens numrering styr."
+    ],
+    [
+      "B15",
+      "person:vernard_i_biskopslangden",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Fæmtandi war wærnarðær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B15",
+      "person:vernard_i_biskopslangden",
+      "eftertrader",
+      "person:jon_hyrne_skara",
+      null,
+      "Fæmtandi war wærnarðær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B16",
+      "person:benedikt_den_yngre_i_langden",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Sexstandi war biscupær bændikt vngi",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B16",
+      "person:benedikt_den_yngre_i_langden",
+      "eftertrader",
+      "person:vernard_i_biskopslangden",
+      null,
+      "Sexstandi war biscupær bændikt vngi",
+      "Längdens numrering styr."
+    ],
+    [
+      "B17",
+      "person:stenar_skara",
+      "innehar_ambete",
+      "begrepp:biskop",
+      "plats:sdhk:skara",
+      "Syutandi war stenar biscupær",
+      "Skara är underförstått av längden."
+    ],
+    [
+      "B17",
+      "person:stenar_skara",
+      "eftertrader",
+      "person:benedikt_den_yngre_i_langden",
+      null,
+      "Syutandi war stenar biscupær",
+      "Längdens numrering styr."
+    ],
+    [
+      "B1",
+      "person:sigfrid_i_biskopslangden",
+      "dor",
+      "=dör en rätt död",
+      null,
+      "oc liff sit at rættum döðæ",
+      "Uttrycket är svårtolkat."
+    ],
+    [
+      "B1",
+      "person:sigfrid_i_biskopslangden",
+      "begravd_i",
+      "plats:sdhk:vaxjo",
+      null,
+      "oc .j. wæxyo hwilæs ben hans",
+      "Benens viloplats tolkas som gravplats."
+    ],
+    [
+      "B2",
+      "person:unni_arkebiskop",
+      "dor",
+      "=stenas till döds",
+      null,
+      "oc þer toko biscupin. oc tyrffðhu till banæ. mæð stenum"
+    ],
+    [
+      "B3",
+      "person:astmud_biskop",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "i. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B4",
+      "person:stenfind_biskop",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc .i. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B6",
+      "person:adalvard_den_yngre_skara",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc þær liggær han .i. guz friðhi",
+      "”Där” syftar på Mariakyrkan i Skara."
+    ],
+    [
+      "B7",
+      "person:rodulvard_skara",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc .j. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B8",
+      "person:rikulf_skara",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc .j. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B10",
+      "person:storbjorn_i_biskopslangden",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "i. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B11",
+      "person:odgrim_skara",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc i. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B12",
+      "person:benedikt_den_gode_i_langden",
+      "begravd_i",
+      "plats:sdhk:skara",
+      null,
+      "oc .i. mariu kyrkiu .i. skarum liggær han",
+      "Gravplatsen tolkas av ”liggær”."
+    ],
+    [
+      "B13",
+      "person:jarpulf_skara",
+      "fodd",
+      "=född i Hvervi",
+      "plats:hvervi",
+      "han war föddær .j. hwærwi"
+    ],
+    [
+      "B16",
+      "person:benedikt_den_yngre_i_langden",
+      "dor",
+      "=dör",
+      "plats:sdhk:upland",
+      "j. vpplandum do han"
+    ],
+    [
+      "B16",
+      "person:benedikt_den_yngre_i_langden",
+      "begravd_i",
+      "plats:sdhk:varnhem",
+      null,
+      "oc .j. warnemh liggær han"
+    ]
+  ]
+}

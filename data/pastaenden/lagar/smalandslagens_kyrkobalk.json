@@ -1,0 +1,81 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Smålandslagens kyrkobalk, extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/smalandslagens_kyrkobalk.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:namnd",
+   "utses_av",
+   "=prästen nämner tolv män av socknen som både biskopen och sockenmännen godtar",
+   "plats:sdhk:smaland",
+   "tha scal præster tolf mæn aaf sokn næfnæ. tha thær bathe quætha ia wither biscoper oc soknæmæn.",
+   "Biskopens nämnd, tillsatt när kyrkan är vigd; den ska utreda biskopens saker. Kravet att båda parter säger ja kan läsas som en oväldsregel."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:drap",
+   "paforljd",
+   "=ingen biskopssak om den huggne faller med fötterna ut och huvudet in på kyrktrappan",
+   "plats:sdhk:smaland",
+   "fallæ föter wt oc hwth in. tha scal buc æfte forum resæ. tha scal han wara saklös firi biscops sak.",
+   "Hugg på kyrktrappan (kirkiu stættu). Att den huggne faller tolkas som dråp, men texten säger bara 'hugger'. 'buc æfte forum resæ' är oklart."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sex öre i biskopssak om den huggne faller med fötterna in och huvudet ut på kyrktrappan",
+   "plats:sdhk:smaland",
+   "æn föter fallæ in oc huwth wt. wari sak biscops j siæx örom.",
+   "Räknas som kyrkogårdens och kyrkans vanhelgande (kirkiu gaarz oc kirkiu wskirlse), biskopens första bötesmål. Tolkningen som dråp är osäker."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|hela biskopssaken för hugg och blodvite vid och i kyrkan",
+   "plats:sdhk:smaland",
+   "uari thær biscops sak j threm markum.",
+   "Vad som utgår till målsäganden, kungen eller häradet sägs inte i kyrkobalken."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|biskopens nämnd, som friar eller fäller till böter",
+   "plats:sdhk:smaland",
+   "Thæssi fiuræ saki sculu till biscops næfnd koma hafui næfnd wald vm thæssæ skiæra eller fælla till fæ botæ",
+   "Gäller biskopens fyra bötesmål, bland dem vanhelgande av kyrka och kyrkogård genom hugg (§ 2)."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|biskopens nämnd, som friar eller hänskjuter till edgång",
+   "plats:sdhk:smaland",
+   "thet scal a næfnd koma. thættæ scal næfnd skiæra. eller till næs fællæ.",
+   "Mord (morth) är det första av biskopens tre värjomål, tillsammans med 'mthna hæfth' (oklart) och trolldom. Vad 'morth' avser i kyrkobalken är oklart; meningen om 'horn oc hari' gäller närmast trolldomen."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:mord",
+   "paforljd",
+   "=botgöring (skrift), inte böter, om nämnden fäller",
+   "plats:sdhk:smaland",
+   "æn thættæ næfnd fælle. tha scal till skrift fællæ oc ey till fæ botæ.",
+   "Gäller de tre värjomålen gemensamt; för trolldom utgår dessutom sex öre till bonden."
+  ],
+  [
+   "lag:smalandslagens_kyrkobalk:sml_kkb_13",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:edgard|med släkt och kända män, om nämnden hänskjuter till edgång",
+   "plats:sdhk:smaland",
+   "Nw æn till næs fælle. rætte sik meth kyni. oc kunnum mannum sinom.",
+   "Edgärden tas uttryckligen bland den anklagades släkt, alltså motsatsen till en jävsregel. Läsningen 'till næs fællæ' = hänskjuta till edgång är osäker."
+  ]
+ ]
+}

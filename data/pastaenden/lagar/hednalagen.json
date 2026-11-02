@@ -1,0 +1,85 @@
+{
+ "beskrivning": "Normpåståenden ur Hednalagen (Olavus Petris avskrift i Ängsökodexen) om ärekränkning, tvekamp och dråp, extraherade av språkmodell ur den fornsvenska texten. Lagen är bevarad bara i eftermedeltida avskrifter och tillskrivs en okänd västgötsk lag; platsen Västergötland följer verkbeskrivningen. Olavus Petris kommentar (1500-talet) är en senare tolkning och är inte uttagen. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/hednalagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "hednalagen:text",
+   "begrepp:arekrankning",
+   "definieras_som",
+   "=att säga till en man att han inte är en mans like och inte man i bröstet",
+   "plats:sdhk:vastergotland",
+   "Giuer ᛘ oquedins ord manni/ þu er ei manz maki och ei ᛘ j bryſti",
+   "Okvädinsord; den smädade svarar 'jag är man som du'"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:arekrankning",
+   "kraver",
+   "begrepp:tvekamp|parterna ska mötas vid tre vägars möte",
+   "plats:sdhk:vastergotland",
+   "þeir ſculu mötas a þriggia wäga motum"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:tvekamp",
+   "diskvalificerar",
+   "begrepp:vittne|den smädade som uteblir från tvekampen får varken gå ed eller bära vittne",
+   "plats:sdhk:vastergotland",
+   "Er ei eidganger oc ei witnes beer",
+   "Han 'blir som han hetes' och får inte heller föra talan för man eller kvinna (Er hwarti firi man eller kunu)"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:tvekamp",
+   "diskvalificerar",
+   "begrepp:ed|den smädade som uteblir från tvekampen får inte gå ed",
+   "plats:sdhk:vastergotland",
+   "Er ei eidganger"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:arekrankning",
+   "paforljd",
+   "=den som smädat och uteblir från tvekampen ropas ut som niding tre gånger och märks på jorden",
+   "plats:sdhk:vastergotland",
+   "þa öpar han þry nidings opp oc merkir han a jorþu"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|halv bot när den smädade faller i tvekampen",
+   "plats:sdhk:vastergotland",
+   "Falder þan ord hauer lutith/ gilde med haluum gieldum"
+  ],
+  [
+   "hednalagen:text",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när den som smädat faller i tvekampen; hans tunga var hans baneman",
+   "plats:sdhk:vastergotland",
+   "Falder þan ord hauer giuith/ Glöper orda werſter/ Tunga howudbani/ ligger han j ogildum acri"
+  ],
+  [
+   "hednalagen:olavus_petris_kommentar",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|halv mansbot för den som blev manad till tvekamp och föll",
+   "plats:sdhk:vastergotland",
+   "om han bleeff ſlaghen j kampen ſom bleeff manat ther til/ för honom gick halff mandzboot/",
+   "Olavus Petris kommentar till Hednalagen, inte själva lagtexten. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "hednalagen:olavus_petris_kommentar",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som manade till tvekamp och föll",
+   "plats:sdhk:vastergotland",
+   "men bleeff han ſlaghen ſom manade/ han lågh i ogillum åker/ thet är/ för honom gick jngen boot/",
+   "Olavus Petris kommentar till Hednalagen, inte själva lagtexten. Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

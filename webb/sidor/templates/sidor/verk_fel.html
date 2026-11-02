@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+{% block innehall %}
+<article class="text">
+  <p class="metadata"><a href="{% pageurl page %}">Källor</a></p>
+  <h1 class="fm-heading">Texten kan inte visas</h1>
+  <p>{{ fel }}</p>
+  <p>Försök igen om en stund, eller gå tillbaka till <a href="{% pageurl page %}">källförteckningen</a>.</p>
+</article>
+{% endblock %}

@@ -1,0 +1,2385 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Kristoffers landslag, extraherade av språkmodell ur den fornsvenska texten. Påståenden ur flockar som enligt utgåvans delverk är ändrade eller nyskrivna i förhållande till Magnus Erikssons landslag (MEL) är märkta i anmärkningen. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/kristoffers_landslag.json",
+ "passager": {},
+ "entiteter": [
+  [
+   "person:karl_ix",
+   "person",
+   "Karl IX",
+   "Svensk kung 1604–1611; lät trycka Kristoffers landslag 1608",
+   null
+  ]
+ ],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:kristoffers_landslag:krl_kgb_2",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|dulgadråp och sakörebrott över hela Sverige, som lag är",
+   "plats:sdhk:sverige",
+   "dwlga draap oc dana arff oc saköris bruth siin offuer alt swerike, som lagh och rættir ær"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=kungen väljs och ärver inte riket",
+   "plats:sdhk:sverige",
+   "Nu ær till konungs riket swerike konunger wæliande och ey ærffuande"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:kung",
+   "utses_av",
+   "begrepp:lagman|lagmännen, var och en med tolv visa och snälla män ur sin lagsaga med alla lagsagobornas samtycke, väljer kung vid Mora ting",
+   "plats:sdhk:sverige",
+   "fornempde lagmen, huar aff laghsagu sinne, sculu meth samtycke alla thera j lagsagu boande æru, XII men taka, withra oc snælla",
+   "Valet sker 'til mora tingh'."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:konungaval",
+   "handlaggs_vid",
+   "=Mora ting",
+   "plats:sdhk:sverige",
+   "til mora tingh koma, konung at wælia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:konungaval",
+   "kraver",
+   "=första rösten har lagmannen av Uppland, sedan Södermanlands, Östergötlands, Ölands, Tiohärads, Västergötlands, Värmlands, Närkes, Västmanlands och Finlands lagmän",
+   "plats:sdhk:sverige",
+   "Första röst ægher laghman aff vpland haua, oc the meth honom nempde æra, han til konungh wælia; ther næst hwar laghman epter androm, sudermanna, östgöta, ölandz, thiihæretz wesgöta, werma, nærike, wæsmanna oc finlandz",
+   "Jämfört med MEL tillkommer Öland, Värmland och Finland som egna röster; flocken är ändå inte upptagen bland de ändrade."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:konungaval",
+   "kraver",
+   "=den valde ska vara infödd, helst kungason, och väljas av alla eller flertalet lagmän",
+   "plats:sdhk:sverige",
+   "Huilkin een aff jnrikis föddom, oc helzt aff konunga synom æn the til æra, af allom tessa laghmanna röstom, eller aff flæstom laghmannom tilnempdom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_3",
+   "begrepp:konungaval",
+   "kraver",
+   "=den valde döms till Uppsala öd",
+   "plats:sdhk:sverige",
+   "tha scal han dömas till vpsala öde"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungen svär alla inrikes boende sina eder samma dag och på samma plats",
+   "plats:sdhk:sverige",
+   "Nu a sama dagh oc stadh ægher konunger allom jnrikis boandom tryggia eda sina swæria oc gaanga.",
+   "Edens sju artiklar följer i flocken."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens andra artikel: stärka all rättvisa och sanning och trycka ned all orätt",
+   "plats:sdhk:sverige",
+   "Annar articulus ær ath han scal alla ræthwiso oc sannind styrkia, ælsca oc göma, oc alla wrangwiso oc osannindh oc allan oræth nidher tryckia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens tredje artikel: ingen fattig eller rik fördärvas till liv eller lem utan att lagligen vara överbevisad och dömd efter Sveriges skrivna lag",
+   "plats:sdhk:sverige",
+   "swa at han scal engen fatighan eller rikan forderfua a liiff eller limi, wtan han ær laghlica forwnnen oc dömder epter suerikis scrifnom laghom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens sjunde artikel: ingen ny lag ges allmogen utan dess ja och godvilja",
+   "plats:sdhk:sverige",
+   "engen ny lagh gifuis almoganom wtan ja oc godwilia thera fangnom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|edgången: kungen svär på bok med helgedom i handen",
+   "plats:sdhk:sverige",
+   "Nw ægher konunger eedh siin swæria a book, oc helgodoma j handh sinne halda"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_4",
+   "begrepp:kung",
+   "definieras_som",
+   "=laglig kung över hela Sverige när han valts av lagmän och landsmän, dömts till kung och svurit sina eder",
+   "plats:sdhk:sverige",
+   "Tha han ær swa aff laghmannom oc landzmannom walder oc til konungs dömdher, oc hauir edha sina gaangit, som för ær sagt, tha ær han laghliker konunger offuer alt swerike"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|lagmannen i Uppland och var lagman med allmogen svär kungen eder när han tas till kung",
+   "plats:sdhk:sverige",
+   "Nu ægher laghman j vplandom, oc hwar aff laghsagu sinne, oc alder almogen meth them nærwarande tha konunger taks, tessa edha ganga.",
+   "Artiklarna: ha honom till kung, lydnad, trohet och härfärd till landamäret, skatt."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|folkets ed binder unga och gamla, ofödda och födda, frånvarande som närvarande",
+   "plats:sdhk:sverige",
+   "bindz bade wnger oc gamal, ofödder som födder, okær som kær, fraawarande som nærwarande"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_6",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|kungen lovar i varje land och lagsaga att hålla de eder han svor vid Mora sten",
+   "plats:sdhk:sverige",
+   "ægher konunger j lande oc laghsaghu hwarie lofua oc jetta ath han scal them alla eda sina halda, som han swor wiidh mora steen tha han först til konungs toks",
+   "Allmogen lovar att hålla det den svor 'j vpsalom'."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_6",
+   "begrepp:eriksgata",
+   "kraver",
+   "=landsmännen följer kungen, ställer gisslan och svär eder",
+   "plats:sdhk:sverige",
+   "landzmen ægha honom fölgia oc giisla sætia, the han feloger oc siker ær a, oc eda swæria tessa"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_6",
+   "begrepp:eriksgata",
+   "definieras_som",
+   "=kungens ritt kring landet: Uppsala–Strängnäs–Svintuna–Holaveden–Junabäck–Ramundaboda–Upphogs bro–Östens bro–Uppsala",
+   "plats:sdhk:sverige",
+   "Nu ægher han rætsyles om land ridha; tha ægha the j vplanda laghsagu boanda æru fölgia honom offuer laghsagu thera til strengenæs",
+   "Uppsvear, södermän, östgötar, smålänningar, västgötar, närkingar och västmän tar emot honom i tur och ordning."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_6",
+   "begrepp:eriksgata",
+   "kraver",
+   "=kan kungen inte komma till Finland, avlägger och tar drotsen eller annan av kungens råd med biskopen av Åbo emot ederna på kungens vägnar",
+   "plats:sdhk:sverige",
+   "Kan ey konunger til findland koma, tha scal drotzten, eller een annar aff konungs raade, meth biscopen aff aabo baade göra oc anama eedha"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_6",
+   "begrepp:kung",
+   "definieras_som",
+   "=lagligen kommen till land och rike när han ridit eriksgatan, valts enligt lag och utväxlat eder",
+   "plats:sdhk:sverige",
+   "Tha ær then konunger til landz oc rikis laghlica komen, oc erics gathu sina ridith hauer, walder som lagh sigia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_17",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna råder över hälften var av tolvmannanämnden av resan",
+   "plats:sdhk:sverige",
+   "ligge thet til XII manna nempd aff resone, oc raade halfua nempd hwar thera",
+   "Gäller när kungens man anklagar någon för att ha rymt från kungens baner."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|våldgästare som dräper vid gästning och tas på bar gärning: liv för liv, så många som lade dödshugg eller stygn",
+   "plats:sdhk:sverige",
+   "fangas the a ferske gerning, miste liiff fore liff swa mange som a then dödha hugh eller styngh laghdo",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldgästare som dräps eller såras av dem som försvarar sig",
+   "plats:sdhk:sverige",
+   "wari ogilt alt thet waaldgestara fingo aff them som fore waaro, hwat thet ær draap eller saar",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för allt de försvarande fick; ingen bot eller frid förrän målsäganden ber för gärningsmännen",
+   "plats:sdhk:sverige",
+   "oc i tweböte alt thet the fingo som fore waaro. Komme tha aldre til both eller frid för æn malsegenden for them bidher.",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_27",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:kung|våldsgäster som undkommer ska inställa sig inför kungen eller dennes domhavande",
+   "plats:sdhk:sverige",
+   "Faangas the ey, tha komme feloge fore konungh eller then hans doom hauer",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:kung|tolv i varje lagsaga, samtyckta, valda och nämnda av kungen och landsmännen",
+   "plats:sdhk:sverige",
+   "XII men tilskipade j hwarie laghsaghu, samtykte oc walde oc til nempde aff konunge och landzmannom",
+   "Kungsnämnden för brott mot konungabalken."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:landskap|landsmännen väljer och nämner de tolv med kungen",
+   "plats:sdhk:sverige",
+   "XII men tilskipade j hwarie laghsaghu, samtykte oc walde oc til nempde aff konunge och landzmannom",
+   "MEL-extraktionen anger kungen och lagmannen som de som väljer kungsnämnden."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "kraver",
+   "begrepp:ed|inte göra den saklöse saker eller den sakfällde saklös, inte för frändskap, mågskap, rädsla, vänskap eller annan väld",
+   "plats:sdhk:sverige",
+   "ath wy sculum engen then sakan göra som saklös ær, engen oc then saklösan göra som saker ær, epter thy samwiti och skælom som gudh hauer oss lænt, oc thet ey lata fore frænsæmio sculdh, maagsæmio, Rædde, weenscap eller nokra wild"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "definieras_som",
+   "=de tolv eller sju av dem fäller inför kungen själv eller den som har hans dom på räfst eller landsting",
+   "plats:sdhk:sverige",
+   "Hwem tesse tolff eller VII aff them fella fore konunge sielfuom, eller for them hans dom hauir a Ræffst eller landztingom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "definieras_som",
+   "=den kungsnämnden värjer är värjd, och mot den får ingen vädja",
+   "plats:sdhk:sverige",
+   "hwem the oc wæria, wari warde; oc moth them maa oc engen wædia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_35",
+   "begrepp:kungsnamnd",
+   "kraver",
+   "begrepp:ovald|inte ta hänsyn till släktskap, svågerskap, rädsla, vänskap eller partiskhet",
+   "plats:sdhk:sverige",
+   "oc thet ey lata fore frænsæmio sculdh, maagsæmio, Rædde, weenscap eller nokra wild;",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_36",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för skyldskap; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "rædis nokon aff them tolff wrætta wild haua mot sik, antiggia for skyldscap, maagsæmio, weenscap, feygd, awnd eller owilia",
+   "Jävet ska bevisas ('pröfuat oc fulkompnat'); ersättarna sitter bara i det målet."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_36",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för mågsämd; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "rædis nokon aff them tolff wrætta wild haua mot sik, antiggia for skyldscap, maagsæmio, weenscap, feygd, awnd eller owilia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_36",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|vänskap, avund eller ovilja; högst tre ledamöter byts ut",
+   "plats:sdhk:sverige",
+   "rædis nokon aff them tolff wrætta wild haua mot sik, antiggia for skyldscap, maagsæmio, weenscap, feygd, awnd eller owilia",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_36",
+   "begrepp:jav",
+   "kraver",
+   "=jävet ska bevisas tydligt och gäller högst tre av de tolv, som ersätts bara för det målet",
+   "plats:sdhk:sverige",
+   "oc gither thet mærkelica pröfuat oc fulkompnat jn till eens, tueggia eller triggia, tha ægher man them aff sætia, oc ey flere"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_kgb_36",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:kungsnamnd|bevisad fiendskap kan ge byte av högst tre av tolv",
+   "plats:sdhk:sverige",
+   "feygd, awnd eller owilia",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:biskop|biskopen kungör valet i lagsagan åtta veckor i förväg och deltar med två klerker",
+   "plats:sdhk:sverige",
+   "Tha laghman wælias scall, tha scal biscoper thet j laghsagu the kunnoga latha, oc VIII wikna dagh fore læggia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:allmoge|allmogen väljer sex hovmän och sex bönder, som med klerkerna väljer tre män ur lagsagan",
+   "plats:sdhk:sverige",
+   "sidan scal almoghen wælia sæx hoffmen oc sæx böndir, the XII meth clerkomen sculu thre men wælia aff them ther boa j laghsaghu"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:kung|kungen tar en av de tre",
+   "plats:sdhk:sverige",
+   "aff them threm ægher konunger een taka"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_1",
+   "begrepp:lagman",
+   "kraver",
+   "begrepp:ed|döma rätt mot fattig och rik och aldrig vränga lag för rädsla, väld, penninggirighet, avund, illvilja, frändskap eller vänskap",
+   "plats:sdhk:sverige",
+   "aldre lagh wrengia eller oræt styrkia for redde sculdh, wild eller penninga giri, ey for awndh eller iluilia, ey for frendscap eller weensæmio"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:harad|häradet nämner tolv män som med lagmannen som trettonde föreslår kungen tre",
+   "plats:sdhk:sverige",
+   "tha scal heradhe nempna XII men slika the wilia, oc laghman wari trættandhe; the XIII sculu konunge thre j wal leggia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:kung|kungen tar en av de tre; är kungen utrikes tar den han satt i sitt ställe",
+   "plats:sdhk:sverige",
+   "ther taki konunger een aff, then han wil oc weeth ther til fallen wara. Ær ey konunger jnlendis, tha taki then heretzhöffdingia som konunger thet j hender satte"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:lagman|lagmannen stämmer tinget en månad i förväg och sitter som trettonde",
+   "plats:sdhk:sverige",
+   "tha scal laghmadir tingh stempna een maanadh for een tingh scal haldas"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_2",
+   "begrepp:haradshovding",
+   "kraver",
+   "begrepp:ed|samma ed som lagmannen",
+   "plats:sdhk:sverige",
+   "Tha scal heretzhöfdinge sama eedh som laghman swæria"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_2",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|häradsdomaren svär samma ed som häradshövdingen, annars svarar och böter häradshövdingen för hans domar",
+   "plats:sdhk:sverige",
+   "Och swæri theredz domare sama eedh som heretzhöffdinge, eller swari oc böte heretzhöffdinge for alla doma hans som han thet sieluir dömpt haffde"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "paforljd",
+   "begrepp:boter|lagman som tar muta för sin dom ger mutan till kungen och böter fyrtio marker",
+   "plats:sdhk:sverige",
+   "Taker laghman muto for doom sin, gifui konunghe mwto oc böte XL marker"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:lagman|förlorar lagmansdömet för alltid",
+   "plats:sdhk:sverige",
+   "oc miste laghmanz döme siit, oc fae thet sidan aldre aather"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:haradshovding|samma lag som för lagmannen",
+   "plats:sdhk:sverige",
+   "Taker heredzhöfdinge muto, wari lagh samw"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:lansman|mister länet för alltid och böter fyrtio marker",
+   "plats:sdhk:sverige",
+   "Taker foghate eller lænsman muto, gifui konunge mutho oc miste læn siit, oc faae thet aldre aater, oc böte XL mark"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:fogde|mister länet för alltid och böter fyrtio marker",
+   "plats:sdhk:sverige",
+   "Taker foghate eller lænsman muto, gifui konunge mutho oc miste læn siit, oc faae thet aldre aater, oc böte XL mark"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:namnd|nämndeman som tar muta ger den till kungen, böter fyrtio marker och sätts aldrig mer i nämnd",
+   "plats:sdhk:sverige",
+   "Taker nempdaman mutho, gifui konunge muto oc böte XL marc, oc sætis aldre j nempd optare",
+   "MEL-extraktionen har för nämndemannen bara att han aldrig mer sätts i nämnd, inga böter."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "tillfaller",
+   "begrepp:kung|själva mutan",
+   "plats:sdhk:sverige",
+   "gifui konunghe mwto"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:boter",
+   "tillfaller",
+   "=angivaren som bevisar mutan: tretton marker och åtta örtugar av de fyrtio",
+   "plats:sdhk:sverige",
+   "taki han aff them XL markom som han böta scal, VIII örtuger oc XIII marc"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_3",
+   "begrepp:muta",
+   "kraver",
+   "begrepp:tylftered|den som misstänks för muta fri sig med tolv mäns ed",
+   "plats:sdhk:sverige",
+   "Vitis thet nokrom thera, wæri sik meth XII manna ede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_10",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:biskop|är kungen inte själv på räfsten dömer biskopen med två av kapitlet och lagmannen med två av riksrådet eller andra friborna män som de tar till",
+   "plats:sdhk:sverige",
+   "tha sculu biscopen oc twe aff hans capitulo, laghmannen oc twe aff rikesens raadh eller andre gode friborne men som biscopen oc laghmannen ther til taka j laghsaghu huarie, haua magt ath döma konungs doma",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_10",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:lagman|lagmannen tar med biskopen till två av riksrådet eller andra friborna män som dömer kungens domar på räfsten",
+   "plats:sdhk:sverige",
+   "tha sculu biscopen oc twe aff hans capitulo, laghmannen oc twe aff rikesens raadh eller andre gode friborne men som biscopen oc laghmannen ther til taka j laghsaghu huarie, haua magt ath döma konungs doma",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_10",
+   "begrepp:kungsnamnd",
+   "definieras_som",
+   "=på räfsten sitter de tolv som svurit enligt konungabalken i nämnden",
+   "plats:sdhk:sverige",
+   "Ther sculu the XII j nempdene sitia, som sworet hafua epter konungs balkenom",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_21",
+   "begrepp:vittne",
+   "kraver",
+   "begrepp:ed|vittnen inför kung, biskop, lagman, häradshövding och nämnd svär innan de vittnar att vittna rätt och sant och inte dölja något för rädsla, väld, avund, vänskap, mågskap eller frändskap",
+   "plats:sdhk:sverige",
+   "som the wilia witna ræth oc sant om thet maal, oc engte ther j dylia for redde, wild, awnd, weenscap, maagsæmio eller frensæmio sculdh",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_21",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|vittne vars vittnesmål lagligen underkänns blir aldrig mer tingsbär, vittnesbär eller edsbär",
+   "plats:sdhk:sverige",
+   "Gaanga tessen witne ather laghlica, böte huar thera IX marc til treskiptis, oc wardin aldre tings bæra, withnisbæra eller edhbæra",
+   "Böter nio marker till treskifte och tre marker till biskopen. Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_33",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:namnd|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allom witnom, edom och nempdom sculu bolfaste men wara."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_33",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:vittne|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allom witnom, edom och nempdom sculu bolfaste men wara."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_33",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:edgard|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allom witnom, edom och nempdom sculu bolfaste men wara."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_36",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|nämndeman som käranden eller svaranden jävar som partisk går av och ersätts för det målet; högst tre i en sak",
+   "plats:sdhk:sverige",
+   "Nu æn kærande eller swarande jefuar nokon j nempd wildugan wara, tha scal then bort gangha oc annar j hans stadh sætias swa lenge thet maaleth sliitz, oc haui ey wald ath wræka meer æn thre j ene sak."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:haradshovding|tolv män av häradet vid kungens rättareting, hälften hovmän och hälften bönder och landbor",
+   "plats:sdhk:sverige",
+   "J rættara tingom tessom scal heredzhöfdinge nempd nempna XII men aff heradheno, halfft hofmen oc halfft böndher oc landbo"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna och häradsmännen ska säga ja till de nämnda",
+   "plats:sdhk:sverige",
+   "goda bolfasta men them som widerdelomen oc heredzmen sigia ja widher"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|part i tvisten (widherdeelo men)",
+   "plats:sdhk:sverige",
+   "han scal sannindamen j nempd nempna oc ey osanninda men, ey widherdeelo men oc ey the wildoge æro"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|partisk (wildogher)",
+   "plats:sdhk:sverige",
+   "han scal sannindamen j nempd nempna oc ey osanninda men, ey widherdeelo men oc ey the wildoge æro"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|osanningsman",
+   "plats:sdhk:sverige",
+   "han scal sannindamen j nempd nempna oc ey osanninda men, ey widherdeelo men oc ey the wildoge æro"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_tgb_41",
+   "begrepp:namnd",
+   "kraver",
+   "=häradshövdingen sitter själv i nämnden, inte annan i hans ställe, om han inte har laga förfall",
+   "plats:sdhk:sverige",
+   "heredzhöfdinge scal sielfuir j the nempd wara, oc ey annar j hans stadh, wtan han lagha forfal haui"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn: att söka hem till annan för att skada honom, hans folk eller gäst och där dräpa, slå, hugga fullsår eller slå skena, blåmärke eller blodvite",
+   "plats:sdhk:sverige",
+   "Söker man heem ath andhrom thes wiliande, ath han wil bondan eller hans hion eller nokon then j hans gaarde ær eller gæst hauir, eller hans gard sökt hauir j traangom, tha han j gaarden komber, scada göra, dræper, slaar, hugger fullom saarom eller slaar skeno, blaanad eller blodwite"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att skada den som flyr till annans gård, sedan han kommit in på tomten eller i gården",
+   "plats:sdhk:sverige",
+   "taker thet han sidan han kom j hans tompt eller gaard som han til hielpa sökte, tha hauir han oc alle the meth honom waaro brutet edzöret"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_3",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=hemfriden gäller inom det bonden hägnat in med hus och gårdar på tomten där han bor",
+   "plats:sdhk:sverige",
+   "Swa mykit bonden hauir jntakit meth hwsom oc gardom a sinne tompt som han boor aa, ther æghir han heemfridh a sik oc allo sino"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_3",
+   "begrepp:edsore",
+   "definieras_som",
+   "=gärning i badstuga, smedja, hemlighus eller lada utanför gården, där samma frid gäller som på tomten",
+   "plats:sdhk:sverige",
+   "j tessom husom æger man sama fridh haua som a tompt eller j gaarde, hwar som ther gör gerning a annan haui forbrutith edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet om den flyende hinns upp innan han når tomten eller gården han flydde till",
+   "plats:sdhk:sverige",
+   "Nu kan thet taka hin som fore löper för æn han komber a hans tompt som han flydde til eller j hans gaard, tha ær ther ey brutit edzörit."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för hemgången även om de inte lyckas skada",
+   "plats:sdhk:sverige",
+   "Nu sökia the heem ath manne oc wilia scada göra, æn tho at the ey gita, böten XL mark fore heemgangona",
+   "MEL-extraktionen: hot utan gärning är utan böter, tre marker om hus bryts. Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_5",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed att de inte kom i avsikt att skada",
+   "plats:sdhk:sverige",
+   "eller wæri sik meth XII manna ede ath the ey thes wiliande komo, ath the scada wildo göra",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_5",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:namnd|bryter de dörr eller kommer med spända armborst eller dragna svärd får de ingen värjoed om häradsnämnden vittnar så",
+   "plats:sdhk:sverige",
+   "oc kommen engo dwli wiidh om swa witnar heredznempdhen",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och såras, dräps eller får blodvite under hemsöknen",
+   "plats:sdhk:sverige",
+   "Nu kan then man heemsökn gör, warda saar eller dræpin eller faar blodwite j thy ath han gör heemsokn, tha ær thet alt ogilt han faar"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|hemsökaren som faller med fötterna innanför grinden och huvudet utanför; omvänt är han gill",
+   "plats:sdhk:sverige",
+   "falla fötir jnnan gaardz liid och howdh wtan a them som heemsokn giorde, wari ogilder; falla föter wtan oc howd jnnan, wari gilder, thy ath tædhen full howdh som föter stodo",
+   "Motivering: han föll därifrån där fötterna stod."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|enligt landslag om den hemsökte löper ut ur sin gård och dräper där",
+   "plats:sdhk:sverige",
+   "Nu kan then löpa w gaarde sinom som the ridhu heem ath, oc dræper, slaar eller hugger siden the komo wtan hans gaard, böte epter landz laghum"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|husbonden dödas efter att angripare lämnat gården",
+   "plats:sdhk:sverige",
+   "faar oc han saar eller warder dræpin sidan han komber w sinom gaarde, tha böten the epter landzlaghum",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_8",
+   "begrepp:edsore",
+   "definieras_som",
+   "=när män som skilts osams i en gård går ut och återvänder med vapen eller hjälp och hugger, slår eller dräper",
+   "plats:sdhk:sverige",
+   "wtan han gaange wreder w gaarde, oc ganger swa ater j garden meth wapn eller hielp, hugger, slaar eller dræper, tha hauir han oc alle the meth honom waro brutet edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_9",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas efter förlikning och bot",
+   "plats:sdhk:sverige",
+   "Nu hempnis man a sæth maal oc böth, tha hauer han brutet edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_9",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|nämnden avgör om annan tvist kom emellan",
+   "plats:sdhk:sverige",
+   "tha scal thet nempden wita huat heldir annar skilnader kom thera j mellen eller ey"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_10",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas sedan böter fästs med borgen, eller sedan något av boten betalats, i stället för att kräva resten med lag",
+   "plats:sdhk:sverige",
+   "Engen maa hempnas epter bötir fæsta oc borgada, wtan han bryte edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_11",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på annan än den som gjorde gärningen",
+   "plats:sdhk:sverige",
+   "Nu maa man ey hempnas a annan, oc annar gör gerningena; hempnes man a annan, tha bryter han edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_11",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om rätt man drabbades och om annan tvist kom emellan",
+   "plats:sdhk:sverige",
+   "thet scal heredznempd wita huat helder then sami som han hempdis aa giorde gerningena a han eller annar"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldtäkt, också försök där kläderna rivits och blåmärken, blodvite eller rop och anrop finns",
+   "plats:sdhk:sverige",
+   "synis tha clæde rifuen a honom eller henne, oc ther meth blanadher eller bloduite, eller höris roop oc aakallan, thet scal heredz nempd wita oc ranzaka; fella the han, haui brutet edzöret"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|tas han på bar gärning och tolv män vittnar: häradshövdingen stämmer genast ting och dömer honom under svärd utan uppskov",
+   "plats:sdhk:sverige",
+   "Taker man quinno meth waaldh, warder gripen a ferske gerningh, witna swa XII men, tha scal heredzhöfdinge genast budkafla vpskæra oc tingh stempna, oc döma han wnder swerd"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "handlaggs_vid",
+   "begrepp:haradsting|häradshövdingen skär genast upp budkavle och stämmer ting",
+   "plats:sdhk:sverige",
+   "tha scal heredzhöfdinge genast budkafla vpskæra oc tingh stempna"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden ransakar när han inte tagits på bar gärning",
+   "plats:sdhk:sverige",
+   "thet scal heredz nempd wita oc ranzaka"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|tolv män vittnar att han tagits på bar gärning",
+   "plats:sdhk:sverige",
+   "warder gripen a ferske gerningh, witna swa XII men"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:boter|den som tar lösen för våldtäktsmannen böter fyrtio marker, kungens ensak, och lösen därtill",
+   "plats:sdhk:sverige",
+   "Taker oc nokor lösn for han, böte XL marc konungs eensak oc aater lösn"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:boter",
+   "tillfaller",
+   "=kvinnan: hälften av lösen som tagits för våldtäktsmannen",
+   "plats:sdhk:sverige",
+   "halfua taki quinnan oc halua konungen"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker som ensak och hälften av lösen",
+   "plats:sdhk:sverige",
+   "böte XL marc konungs eensak oc aater lösn, halfua taki quinnan oc halua konungen"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldtäktsman som kvinnan dräper under övergreppet, om tolv män vittnar",
+   "plats:sdhk:sverige",
+   "Taker man quinno meth wald, dræper hon han j thy, oc witna swa XII men, tha ligge ogilder"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_12",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|rymmer han ur landet med henne: ingen frid förrän hennes äkta man, eller hennes närmaste fränder om hon är ogift, ber för honom",
+   "plats:sdhk:sverige",
+   "tha æghir han aldre friidh faa för æn quinnone laghgipte bonde bider for honom om hon gipt ær, eller neste frendher henna om hon ogipt ær"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_13",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att ligga i försåt för annan på tings- eller kyrkväg och dräpa, såra eller slå honom",
+   "plats:sdhk:sverige",
+   "Nu sither man fore androm a tings wægh eller kirkio wægh til eller fraa, och wil han dræpa, sarga eller bæria; gör han nokot thera, tha hauir han brutit edzörit."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_13",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet när det sker i plötslig tvist på tings- eller kyrkväg",
+   "plats:sdhk:sverige",
+   "Nu komber thet aff braadom skilnadh, ther ær ey brutet edzörit."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_14",
+   "begrepp:edsore",
+   "definieras_som",
+   "=dråp, hugg, blodvite eller blåmärke på tinget eller i själva kyrkan, utom av våda, ty där ska alla ha frid",
+   "plats:sdhk:sverige",
+   "Nu dræper man annan, hugger eller slaar bloduite eller blanad a tinge eller j kirkio sielue, haui tha brutit edzörit, wtan thet see meth waada, for thy ther ægha alle frid haua."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_15",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet när den som rider från kyrka eller ting till ölgille eller annat ställe innan han kommit hem dräps eller såras där",
+   "plats:sdhk:sverige",
+   "Nu ridher man fraan kirkio eller tinge til pennings öll för æn han heem komber, eller annar stadh, sitia ther hans owiner for honom, dræpa han eller sarga, tha haua the ey brutet edzörith."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_16",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att dräpa, såra eller slå blodvite på väg till eller från stämma därför att han stämt eller ville söka",
+   "plats:sdhk:sverige",
+   "dræpir man han, sargar eller slaar bloduite a wæghenom til stempno eller fraan stempno ther fore ath han stemde eller han sökia wilde, tha hauir han brutet edzörith"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_16",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet när man jagar annan från laga tilltal utan hugg, blodvite eller blåmärke; boten är då fyrtio marker till treskifte",
+   "plats:sdhk:sverige",
+   "Nu æn man ælter annan aff lagha tilmælom, oc komber ey hwgh, bloduite eller blanader jnnan, böthe XL marker til treskiptis, oc haui ey brutet edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_17",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att leda annan till stock och med våld hugga av honom händer eller fötter",
+   "plats:sdhk:sverige",
+   "Nu ledir man annan til stok eller annar stadh, oc hugger aff honom hender eller föter meth wælde, tha hauir han och alle the meth honom waaro brutet edzöret"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_17",
+   "begrepp:fridsbon",
+   "tillfaller",
+   "begrepp:malsagande|fridsbönen tillfaller den som fick dråpet eller såret, eller hans arvingar",
+   "plats:sdhk:sverige",
+   "tha haui then bönena som draapet fik eller saaret, eller oc hans arfua"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_18",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på den som gav eller tog emot dom, på den som vittnat mot honom inför rätten eller på den som lagligen värjt sitt mot honom",
+   "plats:sdhk:sverige",
+   "Nu hempnes man a then som doom wtgaff eller anamade, dreper, hugger fulsære eller gör blaanad eller bloduite, eller hempnes a then som witnade moth honom for rættenom, eller thy ath han siith eghit laglica warde fore honom j rættenom, tha hauer han oc alle the meth honom waaro brutet edzöret",
+   "MEL-extraktionen talar om hämnd för kungens dom; här gäller det varje dom. Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_18",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om han hämnades därför eller om annan tvist kom emellan",
+   "plats:sdhk:sverige",
+   "tha scal thet heredznempd wita, huat han hempdis ther fore eller kom annar skilnader thera mellan",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_19",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att med våld föra annan ur hans gård, även utan husbrott eller blodvite, om det inte sker på kungens dom eller för sann stöld eller uppenbar livssak",
+   "plats:sdhk:sverige",
+   "Nu söker man heem ath androm, oc förer han meth wælde w sinom gaard, æn tho ath han ey bryte hws eller gör bloduite j gaardenom, tha hauir han brutet edzörit, wtan konungs domber"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_20",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att utan dom gripa, binda och pina någon som inte tagits på bar gärning, ty var man ska ha frid till gods och kropp",
+   "plats:sdhk:sverige",
+   "then swa gör, haui konungs edzöre brutet, oc takis ey XL marc som fordom giordes, thy ath huar man ægher friidh a sino gotze haua oc penningom, oc serlica a sielfsins liif och licama"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkar allt de äger utom jordagods",
+   "plats:sdhk:sverige",
+   "tha hafua the forgiort allo thy the ægha wtan iordagotz"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|biltog över hela Sveriges rike",
+   "plats:sdhk:sverige",
+   "oc ægha biltoge wara ofuer alt swerikis rike"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=jordägaren där hemsöknen skedde: en tredjedel av lösa godset",
+   "plats:sdhk:sverige",
+   "taki iordæganden then jordena ægher, ther heemsokn giordes, een lutt, annan konunger oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av lösa godset",
+   "plats:sdhk:sverige",
+   "taki iordæganden then jordena ægher, ther heemsokn giordes, een lutt, annan konunger oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av lösa godset",
+   "plats:sdhk:sverige",
+   "taki iordæganden then jordena ægher, ther heemsokn giordes, een lutt, annan konunger oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:edsore",
+   "tillfaller",
+   "begrepp:malsagande|målsägandens rätt betalas efter skulderna och före treskiftet",
+   "plats:sdhk:sverige",
+   "först geldens af oskiptho, oc sidhan malsegende rætten epter thy saken ær"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_21",
+   "begrepp:edsore",
+   "definieras_som",
+   "=brottslingen förverkar bara sin egen lott, inte barnens, hustruns eller andra delägares",
+   "plats:sdhk:sverige",
+   "swa scal hwar sina sak ensamen böta, oc engen annars lut foruerka"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_22",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:haradsting|målsäganden kungör gärningen för socken eller ting eller för kungen; häradshövdingen skär genast upp budkavle och kallar samman häradsting",
+   "plats:sdhk:sverige",
+   "tha scall heredzhöffdinge j thy herade genast budkafla wpskæra oc heredztingh saman kalla",
+   "MEL-extraktionen: edsöresmålen ska slitas på kungens räfst. Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_22",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden i samma härad utletar sanningen",
+   "plats:sdhk:sverige",
+   "Heredz nempd j sama herade scal wtleta oc wita hwat sannast ær om thet maal",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_22",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:vittne|vittnen går fram inför nämnden och svär, och häradshövdingen stavar eden",
+   "plats:sdhk:sverige",
+   "æru witne til, tha gangen the fore nempd, oc swærin hwar sins læstom, oc heredzhöfdinge staffui edhin",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_23",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|häradsnämnden ska på samma eller nästa ting först värja eller fälla den anklagade för edsöret; värjs han söker målsäganden honom för brottet efter lagboken",
+   "plats:sdhk:sverige",
+   "Nu ægher heredznemd a sama tinge, eller a nesta ther epter, antiggia wæria eller fella then sakin giffs, först om edzörit",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_24",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:haradshovding|häradshövdingen räknar upp alla i flock och följe, nämnden svär dem biltoga och häradshövdingen dömer dem fridlösa över hela riket",
+   "plats:sdhk:sverige",
+   "tha scal heredznempd swæria them alla bilthoga, oc heredzhöfdinge döme them fridlösa offuer alt rikit",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_24",
+   "begrepp:edsore",
+   "kraver",
+   "=den fällde har en månad från gärningen att förlikas med målsäganden, utan att kungens, jordägarens och häradets rätt försummas",
+   "plats:sdhk:sverige",
+   "haffui tho maanada dagh fraan thy gerningen giordhes ath forlica sik meth malsegandenom om han kan, konungs ræth, iordægenda oc heredz oforsymadom",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_24",
+   "begrepp:edsore",
+   "paforljd",
+   "=flyr han eller för undan gods sedan han anklagats har han förverkat både godset och sin frid",
+   "plats:sdhk:sverige",
+   "Flyter han eller förer gotz siith wndan sidan honom saken giffs, tha haui forbrutit baade gotzet thet han wndan förde oc fridh siin",
+   "Ändrad i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_24",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|häradshövdingen dömer den fällde och hans följe fredlösa över hela riket",
+   "plats:sdhk:sverige",
+   "oc heredzhöfdinge döme them fridlösa offuer alt rikit",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_25",
+   "begrepp:boter",
+   "tillfaller",
+   "=landbon som hemsöks: samma rätt som om han själv ägde jorden, utom boskiftet",
+   "plats:sdhk:sverige",
+   "tha haui sama ræt som han sielfuer iordena atte, for wtan boskiptit",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_26",
+   "begrepp:fridsbon",
+   "tillfaller",
+   "begrepp:malsagande|fridsbönen, och dessutom sårböterna, när annan än landbon skadas eller dräps i landbons gård",
+   "plats:sdhk:sverige",
+   "tha ægher malsegenden badhe fridbönena oc saara bötherna",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_26",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=jordägaren: en tredjedel av sköflingen",
+   "plats:sdhk:sverige",
+   "oc iordægenden taki tridiung aff skyflingene"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_27",
+   "begrepp:edsore",
+   "kraver",
+   "=ingen mans gods får sköflas innan han lagligen vunnits till biltogsmål",
+   "plats:sdhk:sverige",
+   "Nu maa engsens manz gotz sköflas för æn han laghwnnen ær til biltogs maals"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|den som dräps innan hans dag gått ut efter att han svurits biltog på tinget bötas och fastas som en oskyldig",
+   "plats:sdhk:sverige",
+   "Ey maa han oc dræpa jnnan then dagh honom lægs a tinge tha han biltoger swærs, wtan fore han fastis oc bötis som for annan saklösan man"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_28",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|tre marker för att hysa och föda biltog man ett mål sedan hans månadsdag gått ut; fyrtio marker för längre",
+   "plats:sdhk:sverige",
+   "Nu hwar som halder them oc föder eeth maall sidan thera maanada dagher ær wthe, böte III marc; halder lenger oc föder, böte XL marker",
+   "Subjektet avser brottet att hysa en biltog."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_28",
+   "begrepp:fredloshet",
+   "kraver",
+   "begrepp:tylftered|den som anklagas för att ha hyst biltog fri sig med tolv mäns ed",
+   "plats:sdhk:sverige",
+   "eller dyli meth XII manna edhe ath han ey biltogan man hyste eller födde"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_29",
+   "begrepp:fredloshet",
+   "paforljd",
+   "=den som håller biltog man till annans skada är lika saker som den biltoge",
+   "plats:sdhk:sverige",
+   "Nu hwar som halder biltogan man a annars manz scada, wari swa saker som biltoger man en han nokra gerning gör",
+   "Subjektet avser brottet att hysa en biltog."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_30",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|biltog man som dräps inom riket sedan hans lagadag gått ut, om han inte har dag av kungen",
+   "plats:sdhk:sverige",
+   "ligge ogilder baade for kirkio oc konunge, wtan han haui dagh laghlica aff konunge"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_31",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|biltog som dräps utom riket bötas som en oskyldig, ty han är fredlös bara i det land där gärningen skedde",
+   "plats:sdhk:sverige",
+   "tha scal fore han baade bötas oc fastas som fore annan saklösan man, oc liik hans j kirkio gaarde jordas, thy ath ey maatte han j flerom landom biltoger wara eller friidh sin mista, wtan j thy sama lande som gerningen giordes jnnan"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_31",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=hustruns hus på hennes tomt och allmänningsjord går inte i sköfling för edsöresbrott",
+   "plats:sdhk:sverige",
+   "Ey scal oc fore edzöris brut hustruna hws, som a henna tompt standa, j skyffling ganga",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_32",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:fridsbon|den biltoge får frid först när målsäganden eller hans arvinge ber för honom; sedan ger kungen frid",
+   "plats:sdhk:sverige",
+   "Nu ægha the biltoge wara ther til then bidher fore them som the brutu wider eller hans arfua; tha the bidia for them som the brutu wider, tha ægher konunger them fridh gifua"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_32",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för friden; kungens ensak",
+   "plats:sdhk:sverige",
+   "tha sculu the lösas widh konungh meth XL marc, thet wari konnungs eensak"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_32",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|lagliga böter för dråp eller sår, som arvingarna betalar om den biltoge dör före friden",
+   "plats:sdhk:sverige",
+   "gelden tha arfua hans aff godzse hans lagha böter, hwat thet ær helder drap eller saar, malsegendenom, konunge oc herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_33",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:lagman|förvaltar med häradshövdingen den biltoges jordagods genom ombudsman; skulder betalas, överskottet till fattiga, kyrka och kloster",
+   "plats:sdhk:sverige",
+   "Biltogs manz iorda gootz æghir laghmader och heredzhöfdinge haua meth swa skæl, ath the sculu sætia een wmbudzman",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_33",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:haradshovding|förvaltar med lagmannen den biltoges jordagods",
+   "plats:sdhk:sverige",
+   "Biltogs manz iorda gootz æghir laghmader och heredzhöfdinge haua meth swa skæl, ath the sculu sætia een wmbudzman",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_34",
+   "begrepp:edsore",
+   "paforljd",
+   "=rymmer biltog man med för lite lösöre och förliks inte inom natt och år mäts hans jordagods av tolv män: först skulder och målsägandens rätt, resten till sköfling och skifte",
+   "plats:sdhk:sverige",
+   "tha sculu XII men jordagotz hans mæta, oc först geld hans betalas oc malsegende ræt, oc huat ofuer ær gange til skyfling oc skipte som för ær sagt",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_35",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:dodsstraff|den som tas på färsk gärning inom dygnet och har dräpt i hemsökn döms av häradshövdingen under svärd, med alla som togs i samma gärning",
+   "plats:sdhk:sverige",
+   "Hauir han draap giort j heemsokn there, oc witnar swa heredznempdh, tha scal heredzhöffdinge han vndher swerdh döma, oc alla the meth honom fangne waaro oc i sama gerningh",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_35",
+   "begrepp:edsore",
+   "paforljd",
+   "=den som tas på färsk gärning och gjort blodvite, blåmärke eller annan åkomma som rör edsöret mister högra handen, liksom var och en som var med",
+   "plats:sdhk:sverige",
+   "Hauir han bloduite eller blaanad giort, eller andra akomo ther edzöret rörer, miste högra handh sina, oc hwar then ther met war",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_35",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:haradsting|häradshövdingen skär upp budkavle och kallar samman ting i gärningshäradet",
+   "plats:sdhk:sverige",
+   "tha ægher heredzhöfdinge budkafla vpskæra, oc tingh saman kalla j thy herade gerningen giordes",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_35",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör vad som är sant",
+   "plats:sdhk:sverige",
+   "heretznempd ægher wita huat ther om sant ær",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_35",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|lösa godset går i sköfling vare sig de mister livet eller ej",
+   "plats:sdhk:sverige",
+   "oc for edzöret, æ hwat the liiff mista eller ey, ægher löst gotz thera j sköffling gaa som för ær sagt",
+   "Nyskriven i förhållande till MEL."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_36",
+   "begrepp:edsore",
+   "definieras_som",
+   "=kan inte brytas av kvinna, ty hon kan inte vara biltog, och inte av omyndig",
+   "plats:sdhk:sverige",
+   "Nu maa ey kona edzöre bryta, thy ath hon maa ey biltogh waara. Ey maa oc ofuermagi edzöre bryta"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_36",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|nämnden svär att den anklagade inte är femton år",
+   "plats:sdhk:sverige",
+   "tha scal nempden han sweria ey wara fæmtan aara gamblan"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_37",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som går på annan på hans åker eller äng och skadas eller dräps där",
+   "plats:sdhk:sverige",
+   "tha ær han tuegilder oc al hans hion, och thet ogilt som han faar som til hans gaanger",
+   "Den angripne och hans folk är tvegilda. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_37",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp på annans åker eller äng",
+   "plats:sdhk:sverige",
+   "oc dræper, tha ær han tuegilder",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_38",
+   "begrepp:drap",
+   "paforljd",
+   "=den som olagligt halshugger, hänger eller steglar en oskyldig ska lida samma rätt",
+   "plats:sdhk:sverige",
+   "Nu warder man a sina saklöso olaghlica forderfuader, halshuggen, hengder eller steglder, then thet giorde stande tolken sama ræt som han honom giorde."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_39",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att med våld stympa annan: snöpa, bryta ut ögon eller tänder, skära av tunga, näsa eller öron, hugga av hand eller fot",
+   "plats:sdhk:sverige",
+   "Taker man annan oc legger a iordh nider met wælde, snöper han som annat fææ, bryter wt öghon eller tender w höse hans, eller skær aff tungo, næso eller öron, hugger hand eller foot eller oc baade aff honom; then tolkit gör, oc alle the meth honom waaro, haua brutit edzörit"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_39",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|sköflingen, och dessutom sårböterna och fridsbönen",
+   "plats:sdhk:sverige",
+   "han ægher baadhe skyfflingena oc saaraböterna oc j fridh bidia",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_39",
+   "begrepp:edsore",
+   "paforljd",
+   "=tas han på bar gärning väljer målsäganden lösen, lem för lem eller hans liv, och han ligger ogill",
+   "plats:sdhk:sverige",
+   "sidan haui malsegenden waald han til lösn lata æn han wil, eller oc limi for limi, tolka som han miste, mista lata, eller oc liiff aff honom taka, oc ligge ogilder for gerningh sina"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_39",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden, tre bofasta ur varje fjärding av gärningshäradet, värjer eller fäller",
+   "plats:sdhk:sverige",
+   "tha scal heredz nempd thre aff hwariom fierdungh bolfasta aff thy herade som gerningen war gör j, han wæria eller fella"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_42",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|stegling när kvettokarlar eller sjörövare dödat någon till lands eller vatten",
+   "plats:sdhk:sverige",
+   "Findz oc ath the haua nokon aflifuat til landh eller watn j tesso maale, warden tha stæglde",
+   "Ändrad i förhållande till MEL. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_43",
+   "begrepp:edsore",
+   "definieras_som",
+   "=bonden eller hans folk dräps, såras eller får blodvite när någon tar frukt med våld i hans inhägnade trädgård",
+   "plats:sdhk:sverige",
+   "faar bonde eller hans hion draap, saar eller bloduite, ther ær edzörit brutet"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_43",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som med våld tar frukt i annans inhägnade trädgård och dräps",
+   "plats:sdhk:sverige",
+   "faar then som tilkom draap, saar eller bloduite, wari ogilt"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_eb_44",
+   "begrepp:radsbane",
+   "paforljd",
+   "=den som ber eller leger annan att slå eller dräpa står samma rätt som om han själv gjort det",
+   "plats:sdhk:sverige",
+   "Huar som biuder adhrom manne eller legher til ath slaa, dræpa eller nokra gerning göra a annan man, han scal standa sama rett som han thet sieluir giorde"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när två dräper varandra ligger man mot man",
+   "plats:sdhk:sverige",
+   "dræper huar thera annan, ther ligger man geen manne"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_1",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar från vardera dråparens arvingar",
+   "plats:sdhk:sverige",
+   "oc böte beggia thera arfua konungs ræth VIII örtuger oc XIII marker, oc samuledh heradhe"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_1",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|lika mycket som kungen",
+   "plats:sdhk:sverige",
+   "oc böte beggia thera arfua konungs ræth VIII örtuger oc XIII marker, oc samuledh heradhe"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv om dråparen tas på bar gärning vid liket eller på flyende fot samma dag och dygn",
+   "plats:sdhk:sverige",
+   "Dræper man annan, oc faangas a ferske gerningh widher liket, eller a flyande foth a sama dagh oc dygne som han gerningena giordhe, tha gifui liiff fore liff",
+   "Frid bara i kyrka eller kloster."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp med vilja: gjort med lust och utan livsnöd",
+   "plats:sdhk:sverige",
+   "han giorde gerningena meth lust oc wtan alla lifs nödh"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_2",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden i gärningshäradet innan liv tas",
+   "plats:sdhk:sverige",
+   "oc ligge thet til heredz nempd ther som gerningen giordes jnnan, för æn man liiff aff honom taker"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_3",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|närmaste arvinge som inom dygnet i vrede dräper dråparen utan dom böter och fastar som annan dråpare men rymmer inte land och mister inte livet",
+   "plats:sdhk:sverige",
+   "tha böte han oc faste som annar drapare, oc ryme ey land oc ey liiff miste"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar, och häradet lika",
+   "plats:sdhk:sverige",
+   "wtan böte konunge VIII örtuger oc XIII marc, oc samaledhis hærade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som dräps i värjande hand när arvingen, annan man eller herrens ämbetsman vill hindra honom; ingen bot till kung, målsägande eller härad",
+   "plats:sdhk:sverige",
+   "warder draparen dræpin j wæriande hand, tha pröfuis hans maal swa dödz som qwiks, och dömes epter brutom sinom, oc ligge ogilder"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|dråpare som dräps på annat sätt bötas med full rätt till kungen, målsäganden och häradet",
+   "plats:sdhk:sverige",
+   "tha bötis for han fulder rætter konunge, maalsegende oc hærede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_5",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden",
+   "plats:sdhk:sverige",
+   "oc thet scall liggia til heredznempd"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_6",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:haradsting|häradshövdingen skär upp budkavle och stämmer ting om dråparen flytt",
+   "plats:sdhk:sverige",
+   "tha scal herezhöfdinge gensta budkafla vpsksæra oc ting stempna"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_6",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att göra gärning på dråparen under hans lejd (en månad till kungen, fjorton nätter därifrån)",
+   "plats:sdhk:sverige",
+   "Hwar som gör gerning a han jnnan forscrifnan tiidh, haui bruteth edzörit."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_9",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som försvarar dråparen mot dem som vill fånga honom; vad han gör är tvegillt",
+   "plats:sdhk:sverige",
+   "tha wari thet tuegilt som the göra som han wæria wilia, oc alt thet ogilt som the faa, hwat thet ær draap eller saar"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_10",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att röva dråparen från dem som fångat honom",
+   "plats:sdhk:sverige",
+   "Nu æn nokor ræner draparen aff them som j handom han hauer; then som thet gör, han hauer brutet konungs edzöre."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_11",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|lösen och fyrtio marker från den som tar lösen för en lagligen fångad dråpare, vare sig han är målsägande, länsman eller annan",
+   "plats:sdhk:sverige",
+   "huar som lösn taker for han, giwi konunge lösn oc a XL marker"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_12",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradshövdingen och häradsnämnden prövar målet i gärningshäradet med en man som kungen nämnt i sitt brev",
+   "plats:sdhk:sverige",
+   "och j the sama breffue nempna then ther scal nerwara a konungs wegna ath thet maal skælica pröuas, oc meth honom waren heredzhöffdinge oc heredznempd thet sama maal granlica skodha"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|om dråpet skett i nöd och rätt livsnöd sätter de böter till målsäganden, och dråparen är fri för kungens och häradets sak",
+   "plats:sdhk:sverige",
+   "Kan thet pröfuas ath han giorde thet draap trengder oc meth rætte liffs nödh, tha ægha the fornempde böter leggia maalsegendenom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|om dråpet skett otvunget: rymmer land och får aldrig frid förrän han ger målsäganden full bot",
+   "plats:sdhk:sverige",
+   "tha ægha the ey malsegendenom böther leggia, wtan ryme tha draaparen landh, oc fae aldre fridh for æn han biuder ræth fore sik"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar för friden, och häradet lika, sedan målsäganden fått bot och bett för honom",
+   "plats:sdhk:sverige",
+   "oc böte ther epter konunge VIII örtuger oc XIII mark, oc herade samuledh"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungens rätt sätts aldrig högre än tretton marker och åtta örtugar, och häradets lika",
+   "plats:sdhk:sverige",
+   "Nu ægher ey konungs rætter högre sætias æn VIII örtuger oc XIII mark, och sama ledis heredz"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_14",
+   "begrepp:drap",
+   "kraver",
+   "=dagsbrev löses hos kungens kansler för en halv mark och fridsbrev för en mark; breven skrivs på svenska",
+   "plats:sdhk:sverige",
+   "Dags breff löses aff konungs canceller fore halff mark, fridz breff fore marc; the breffuen sculu a swensko scrifuas"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som inte fått frid av kungen och dräps sedan hans dag gått ut; hans gods sköflas inte",
+   "plats:sdhk:sverige",
+   "oc warder han dræpin sidan dagher hans ær wte, tha ligge wgilder"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_15",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att dräpa far, mor, son, dotter, bror, syster eller omyndig under sju år, utom av våda, eller att dräpa sovande eller simmande eller trälbär man",
+   "plats:sdhk:sverige",
+   "dræper nokor fader eller modher, son eller dotter, broder eller syster, eller ouermagha minne æn VII aara, wtan thet see meth waada, eller dreper man sofwande eller a swnde simande, eller trælbær man at han faar aff bana",
+   "Innebörden av 'trælbær man' är osäker."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_15",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "=samma rätt som vid edsöre och högmål om han fångas",
+   "plats:sdhk:sverige",
+   "stande sama ræth som foreskils j edzöreno oc j högmælom, om han faangin warder"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_15",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:landsflykt|om han inte fångas rymmer han land och får mindre nåd",
+   "plats:sdhk:sverige",
+   "varder han ey faangin, tha ryme land som för ær sagth, oc fae thy minne nadh ath han minna wærdher ær"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|utländsk dråpare som flyr: skuld och bot tas ur hans gods; räcker det inte brister det för kungen och häradet och målsäganden tar sin rätt",
+   "plats:sdhk:sverige",
+   "rekker ey til fulla gelda oc bota, briste for konungenom oc herade, oc malsegende taki sin ræth",
+   "Subjektet avser den utländske dråparens gods."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_17",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|tre marker för att föda fridlös man ett mål eller låna honom hus en natt",
+   "plats:sdhk:sverige",
+   "Nu hwar som fridlösan man halder, swa ath han föder han om eeth maal, eller ena nath hws læner, sidan han fridlös ær gör oc hans dagher ær wte, böte III mark",
+   "Subjektet avser brottet att hysa en fridlös."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_17",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till treskifte för att hysa honom längre, så ofta det bevisas",
+   "plats:sdhk:sverige",
+   "Hwar som han halder eller födher leenger æn nw ær sakt, böte XL mark til treskiptis, oc ligge thet til heredznempdh"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_17",
+   "begrepp:fredloshet",
+   "kraver",
+   "begrepp:ed|sexmannaed att han inte visste att mannen var fridlös",
+   "plats:sdhk:sverige",
+   "eller dyli meth VI manna ede ath han ey wiste ath han fridlös war"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_18",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:haradshovding|tolv män ur häradet som båda parter säger ja till",
+   "plats:sdhk:sverige",
+   "tha scal heredzhöffdinge them XII men nempna aff heradeno, them som the sigia baade ja widher"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_18",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män avgör om den gripne som nekar var på vigvallen viljande och vållande till döden",
+   "plats:sdhk:sverige",
+   "hwat han a wigualle war thes wiliande oc wallande ath han dödh fik eller ey"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_18",
+   "begrepp:drap",
+   "definieras_som",
+   "=att på vigvallen vara viljande och vållande till att den andre fick döden",
+   "plats:sdhk:sverige",
+   "hwat han a wigualle war thes wiliande oc wallande ath han dödh fik eller ey"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_19",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att gripa en misstänkt dråpare som sedan värjs i hans eget eller annans hus och hem",
+   "plats:sdhk:sverige",
+   "Haua the oc taketh han j hwse hans eller heman eller annars manz, tha haua the brutet konungs edzöre"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_20",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör vem som var på vigvallen viljande och vållande när ogripen dråpare kommer till svars",
+   "plats:sdhk:sverige",
+   "tha scal heredz nempd thet wita, thön som the sigia baade ja widher, hwat han a wigwalle war thes wiliande oc wallande ath han dödh fik eller ey"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_20",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|målsäganden binder sanbane och halsbane med tolv mäns ed på tinget, av dem som var på vigvallen och inte undantagits av nämnden",
+   "plats:sdhk:sverige",
+   "oc sidan haui then waald som sin hauer mist ath bindha then til sanbana som han wil, och then til haldzbana som han wil, hwan thera meth ede XII manna a tinge",
+   "Målsäganden ('then ... som sin hauer mist') för talan."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_21",
+   "begrepp:hallbane",
+   "paforljd",
+   "begrepp:boter|halsbanebot nio marker",
+   "plats:sdhk:sverige",
+   "Nu ær haldzbana boot IX mark."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_21",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|den som anklagas som rådsbane fri sig med tolv mäns ed eller böter sex marker, målsägandens ensak",
+   "plats:sdhk:sverige",
+   "Giffs manne sculd for raadzbana, wæri sik meth XII mannom, eller böthe sex mark malsegendens eensak",
+   "MEL-extraktionen anger sex marker till treskifte."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till treskifte som arvingarna betalar ur hans gods om dråparen dör innan böter fästs",
+   "plats:sdhk:sverige",
+   "Dör draaparen för æn böter æru wtfæsta, tha böten arfua hans aff gotze hans XL marker til treskiptis"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_22",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden när arvingarna nekar till dråpet",
+   "plats:sdhk:sverige",
+   "Dylia the draapit, ligge thet til herez nempd"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tretton marker och åtta örtugar till målsäganden om dråparen dör sedan hans dag gått ut men före frid och fästa böter; arvingarna fria för kung och härad",
+   "plats:sdhk:sverige",
+   "böten tha arffua hans aff godze hans maalsegendenom VIII örtuger oc XIII marc, och warin frii for konunge oc hærede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_24",
+   "begrepp:drap",
+   "kraver",
+   "=dråparen ska bindas med lag inom natt och år efter dråpet",
+   "plats:sdhk:sverige",
+   "Æ huar man scal annan til draps binda, hawi waldh han ther til binda epter thet draapit war giort jnnan nat oc aar"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_24",
+   "begrepp:drap",
+   "kraver",
+   "=ingen kan bindas till dråp efter natt och år om han inte själv erkänner",
+   "plats:sdhk:sverige",
+   "haui sidhan engte wald nokon till thet draap binda, wtan haui then sak sik kennir om nokor ær then til"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_25",
+   "begrepp:dulgadrap",
+   "definieras_som",
+   "=dulgadråp: ingen erkänner dråpet och ingen vinns lagligen till det inom natt och år",
+   "plats:sdhk:sverige",
+   "Nu kennis engen widh drapith, oc engen warder laglica tilwnnen jnnan nath oc aar epter thet draapit war giort, tha ær heredit sakt ath XL markom, wtan herede sannan drapara wise; thet hetir dulga drap"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_25",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|häradet böter fyrtio marker för dulgadråp om det inte visar fram rätt dråpare",
+   "plats:sdhk:sverige",
+   "tha ær heredit sakt ath XL markom, wtan herede sannan drapara wise"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_25",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|hälften av dulgadråpsboten",
+   "plats:sdhk:sverige",
+   "aff them XL markom taki konungen halfft oc halfft thes arffua som dræpin warth æn the jnrikis æru",
+   "MEL-extraktionen: två tredjedelar till kungen och en tredjedel till arvingarna."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_25",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:arvinge|hälften av dulgadråpsboten till den dräptes arvingar, om de är inrikes",
+   "plats:sdhk:sverige",
+   "aff them XL markom taki konungen halfft oc halfft thes arffua som dræpin warth æn the jnrikis æru",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_26",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om den döde dog av sot och inte av människohand, eller om rätt dråpare visats",
+   "plats:sdhk:sverige",
+   "tha scal hæredznempd thet wita at han doo aff soot oc ey aff manz handauerkom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_26",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:mordgald|häradet böter fyrtio marker i mordgäld",
+   "plats:sdhk:sverige",
+   "tha scal thet hærede mordgeld böta XL mark, taki konunger XX marc oc malsegende XX mark",
+   "Mordgälden utbötas efter mantal av män från femton år."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_26",
+   "begrepp:mordgald",
+   "tillfaller",
+   "begrepp:kung|tjugo av mordgäldens fyrtio marker",
+   "plats:sdhk:sverige",
+   "tha scal thet hærede mordgeld böta XL mark, taki konunger XX marc oc malsegende XX mark",
+   "MEL-extraktionen: två tredjedelar till kungen och en tredjedel till målsäganden."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_26",
+   "begrepp:mordgald",
+   "tillfaller",
+   "begrepp:malsagande|tjugo av mordgäldens fyrtio marker",
+   "plats:sdhk:sverige",
+   "tha scal thet hærede mordgeld böta XL mark, taki konunger XX marc oc malsegende XX mark"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_26",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:mordgald|halv mordgäld när kvinna eller omyndig under femton år mördas",
+   "plats:sdhk:sverige",
+   "Myrdes oc nokor then ey bötir mordgeld, som æru qwinnor eller ouermagha yngre æn XV aara, wari boot haluo mindre"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_27",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|häradet böter fyrtio marker som för dulgadråp vid dråp på öar och skär, om dråparen inte hittas inom natt och år och det inte är uppenbart att utländsk här gjort det",
+   "plats:sdhk:sverige",
+   "ær ey swa, gelde ather herede thær fore dulga draap XL marc, oc ey meer"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_28",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|kvinna som dräper och tas på bar gärning eller inom dygnet: målsäganden väljer böter eller halshuggning",
+   "plats:sdhk:sverige",
+   "haui siden malsegenden waldh hwat han wil helder böter taka eller hona halshugga laata"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_28",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar, och häradet lika, när målsäganden tar böter för kvinnan",
+   "plats:sdhk:sverige",
+   "Taker malsegenden bötir for hona, tha böte oc konunge VIII örtuger oc XIII mark, oc samwledh heredeno"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_29",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|kvinna som inte tagits inom dygnet: fyrtio marker till målsäganden, tretton marker åtta örtugar till kungen och lika till häradet",
+   "plats:sdhk:sverige",
+   "tha scal hona til draaps binda a tinge som annan drapara, oc böte malsegendenom XL mark, konnunge VIII örtuger oc XIII marc, oc samu ledh herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_29",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|kvinna som inte förmår full bot; målsäganden väljer mindre böter eller hennes liv",
+   "plats:sdhk:sverige",
+   "Formaa hon ey botom, haui tha malsegenden wald hwat han wil heller minne bötir taka eller liiff henna, oc wari fridlös",
+   "Kvinna som kan böta får inte göras fridlös."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_30",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:fogde|den lagligen fångade dråparen överlämnas till kungens fogde, som håller honom i häkte och för honom till tinget",
+   "plats:sdhk:sverige",
+   "tha scal malsegenden han j hender faa konungs fogata; fogate ægher han j konungs hekto sætia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_30",
+   "begrepp:sakore",
+   "tillfaller",
+   "=bödeln: en svensk mark av häradets sakören",
+   "plats:sdhk:sverige",
+   "oc bödlenom giwis een mark swensk aff heredz saköre"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_31",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|kungens rätt när präst eller klerk dräper lekman",
+   "plats:sdhk:sverige",
+   "Dræper prester eller annar clerker leekman, ther taker biscoper konungs ræth"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_31",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kyrka|domkyrkan: häradets rätt när präst eller klerk dräper lekman",
+   "plats:sdhk:sverige",
+   "oc doomkirkian heretzrætten"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_32",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungens rätt när lekman dräper klerk",
+   "plats:sdhk:sverige",
+   "Dræper leekman klerk, taki ther konunger sin ræth"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_32",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kyrka|kyrkan: häradets rätt när lekman dräper klerk",
+   "plats:sdhk:sverige",
+   "oc heretz rætten kirkian som för"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_34",
+   "begrepp:drap",
+   "kraver",
+   "=tolv män avgör om dråpsboten är betald",
+   "plats:sdhk:sverige",
+   "thet sculu XII men wita huat thet guldet war eller ey"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_34",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|tolv män som avgör om den anklagade erkänt en livssak på tinget",
+   "plats:sdhk:sverige",
+   "the XII men ægher lensman nempna"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_35",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|lösker (ej bofast) man som dräper fångas och döms från livet på tinget; varken fastas eller böts för honom",
+   "plats:sdhk:sverige",
+   "tha ægher han til tingh föras, oc ther liff aff honom döma lata, oc hwarte fastes eller bötis for han"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_38",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som ligger i försåt och faller",
+   "plats:sdhk:sverige",
+   "falder then som fore ær, ligge ogilder",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_38",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till treskifte om försåtsmannen faller men hämnades den han var målsägande efter eller vaktade på en fridlös",
+   "plats:sdhk:sverige",
+   "ligge tha j lagha geldom XL. mark til treskiptis, maalsegendenom, konungenom oc hæradeno, ey warder the both högre; thy ath hwar ægher haua lagh oc ey slagh meth androm",
+   "Motivering: var och en ska ha lag och inte slag med andra."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_38",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:tvebot|tvebot åttio marker om den som kommer till faller; hämnades försåtsmannen en frände böter han fyrtio marker till treskifte och tar full skrift",
+   "plats:sdhk:sverige",
+   "Falder then som tilkomber, ligge han j tweböte LXXX markom, wtan then som fore sither hempnes som sagt ær, böte tha XL mark til treskiptis, oc taki fulla script"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_38",
+   "begrepp:forsat",
+   "definieras_som",
+   "=försåt kallas det bara om den som sitter före reser vapen eller gör åkomma",
+   "plats:sdhk:sverige",
+   "Ey maa forsaat heeta wtan then som fore siter reeser wapn ath hinom, eller gör akomo som j edzöreno skils"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_38",
+   "begrepp:forsat",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om försåt lagts",
+   "plats:sdhk:sverige",
+   "withi heredz nempd huat ther om sant ær"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_39",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot om man dräps på ledungsskepp i laga läge med skölden i stäven",
+   "plats:sdhk:sverige",
+   "Nu biuder konunger ledungh wth, oc skip ligger j lagha lææghe, oc skiölder j stampne; varder ther man dræpin, ligge j tweböte"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_39",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:malsagande|fyrtio marker av tveboten och en tredjedel av de andra fyrtio",
+   "plats:sdhk:sverige",
+   "Swa ægha tweböter skiptas, ath malsegenden taki XL marc, oc sidhan gange XL mark till treskiptis; taki een luth konunger, annan maalsegende oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_39",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av de andra fyrtio markerna av tveboten",
+   "plats:sdhk:sverige",
+   "Swa ægha tweböter skiptas, ath malsegenden taki XL marc, oc sidhan gange XL mark till treskiptis; taki een luth konunger, annan maalsegende oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dmv_39",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av de andra fyrtio markerna av tveboten",
+   "plats:sdhk:sverige",
+   "Swa ægha tweböter skiptas, ath malsegenden taki XL marc, oc sidhan gange XL mark till treskiptis; taki een luth konunger, annan maalsegende oc tridia herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_1",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=den som otvungen och onödd drar vapen mot annan och träffar en tredje får aldrig vådaed eller vådabot",
+   "plats:sdhk:sverige",
+   "Hwar som swerd eller kniff dragher, spænner armbörst, eller annor wapn reeser ath androm otrengder oc onödder, hugger, stinger eller skiuter ath honom, oc taker annan, hwat ther thimar draap eller saar aff, komi aldre waada eedh eller waada boot fore"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_1",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=den som i livsnöd eller vid gripande av fridlös hugger och träffar annan kan få det räknat som våda; bara ett hugg eller skott på en man räknas till våda",
+   "plats:sdhk:sverige",
+   "thet maa waade reknas om han waadha eedh meth XII mannom fylla kan; tho bör ey wtan eth hug eller skuth oppa een man til waada reknas"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_1",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|vådaed med tolv män",
+   "plats:sdhk:sverige",
+   "om han waadha eedh meth XII mannom fylla kan"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|tolv män av häradet ransakar med vittnen och svär om det var våda när ett hugg ger flera dödliga sår",
+   "plats:sdhk:sverige",
+   "thet sculu XII men aff sama herede meth witnom, om noker nær waaro, ranzaka, oc swæria huar sins læstom hwat thet helder waade war eller ey",
+   "MEL-extraktionen: dråparen själv fyller tolvmannaed."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker i vådabot, målsägandens ensak",
+   "plats:sdhk:sverige",
+   "var thet waade, bööte XX marc ath waadha botom malsegendens ensak"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:haradsting|eden går på nästa lagting inför häradshövdingen eller hans domare",
+   "plats:sdhk:sverige",
+   "Thenne edher scal a nesta lagtinge gangas ther epter"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "=dråparen ska i förväg låta säga till kungens länsman och målsäganden med två bofasta män",
+   "plats:sdhk:sverige",
+   "oc konungs lænsmanne oc malseghandenom lati then som draapet giorde meth twem bolfastom mannom förra tilsigia"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela vådaboten tjugo marker; dråparen är fri för kung och härad",
+   "plats:sdhk:sverige",
+   "legge genast fram eller forwisse malsegendenom XX marc, oc wari saklös for konunge oc herade"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_2",
+   "begrepp:vadadrap",
+   "paforljd",
+   "=den som fäller vid vådaeden räknas som viljegärning",
+   "plats:sdhk:sverige",
+   "Oc æ hwar man biuder sik til waada edh oc waada bot oc feldz at edenom, wari tha waade j wilia werkom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_3",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker, målsägandens ensak, med tolvmannaed när den som skjuter efter djur eller mål eller kastar träffar människa",
+   "plats:sdhk:sverige",
+   "kan han waada eedh fylla meth XII mannom, böte XX marc malsegandens eensak"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_4",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker om någon dör i en fälla som inte lysts",
+   "plats:sdhk:sverige",
+   "Faar nokor ther dödh aff ath olysto, wari boot XL marc",
+   "MEL-extraktionen anger tjugo marker."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_4",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker om fällan lagligen lysts",
+   "plats:sdhk:sverige",
+   "Ær laghlica lyst, oc thimar ther sidan döder aff, wari booth IX marc"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_4",
+   "begrepp:vadadrap",
+   "kraver",
+   "=tolv män av socknen avgör om fällan lysts",
+   "plats:sdhk:sverige",
+   "Sigher annar lyst wara oc annar ey, witi thet XII men aff soknene"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|två som fäller träd eller vältar sten och båda får bane",
+   "plats:sdhk:sverige",
+   "faa baade bana aff, ligge baade ogilde",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_5",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark som den överlevande betalar",
+   "plats:sdhk:sverige",
+   "faar annar bana aff, gelde then som lifuer han aater meth halfue fæmpta mark"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_6",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tio marker som brunnens ägare betalar när någon faller i en brunn i byn och dör; nyttjar flera brunnen betalar den som fäller",
+   "plats:sdhk:sverige",
+   "falder ther man j oc faar bana aff, böte tio mark then brunnen ægher",
+   "MEL-extraktionen anger fyra och en halv mark för brunn eller bro."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som klättrar i träd självvilligt och faller ihjäl",
+   "plats:sdhk:sverige",
+   "Klifuer man j træ sielf wiliandes, falder nider oc faar bana aff, ligge ogilder.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_7",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tio marker om han klättrat på begäran",
+   "plats:sdhk:sverige",
+   "Klifuer man j træ bidhin, faller nider oc faar bana aff, wari boot X marc."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_7",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker om han klättrat på befallning",
+   "plats:sdhk:sverige",
+   "Klifuer man j træ epter budi, faller nidher oc faar bana aff, wari gilder meth XX marc."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_7",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|den som nekar att ha bett eller befallt fri sig med tolv mäns ed",
+   "plats:sdhk:sverige",
+   "Nw siger arfue thes döda epter bön eller budi vpklifuen wara, oc hin nekar, dyli meth XII manna ede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som står under och skadas när annan faller ned från träd",
+   "plats:sdhk:sverige",
+   "Nu falder man aff træ nidher, oc faar han scada aff som wnder staander, wari ogilt.",
+   "Skada, inbegripet dödlig. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_9",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark när hus eller annat människoverk faller på man",
+   "plats:sdhk:sverige",
+   "Nu falder hws a man eller annwr handa wirke manna, oc faar aff bana, wari boot half fæmta mark."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när lass faller på man",
+   "plats:sdhk:sverige",
+   "Nu falder lass a man, wari ogilth, æ hwaria handha lass thet ær.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_11",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=omyndig mellan sju och femton år som dräper med vilja: hans vilja räknas som myndig mans våda",
+   "plats:sdhk:sverige",
+   "wari swa ouermagha wilia gerdh som moganda manz waade gerdh"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_11",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker för omyndig 7–15 år som dräper med vilja",
+   "plats:sdhk:sverige",
+   "böte han aater meth XX markom"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_11",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fjorton av tjugo marker",
+   "plats:sdhk:sverige",
+   "aff them XX markom taki malsegende XIIII mark, oc III mark konunger, oc samuledh herede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_11",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tre av tjugo marker",
+   "plats:sdhk:sverige",
+   "aff them XX markom taki malsegende XIIII mark, oc III mark konunger, oc samuledh herede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_11",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|tre av tjugo marker",
+   "plats:sdhk:sverige",
+   "aff them XX markom taki malsegende XIIII mark, oc III mark konunger, oc samuledh herede"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_12",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när omyndig dräper av våda, inget till kung eller härad",
+   "plats:sdhk:sverige",
+   "Dræper ouermagi man meth waada, böte IX marc, och tho hwarte konunge eller herade."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_12",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|barn sju år eller yngre: fyra och en halv mark med vilja, tre marker av våda, målsägandens ensak",
+   "plats:sdhk:sverige",
+   "Ær han siw aara eller minna, oc dræper meth wilia, böte halff fæmpta mark; dræper han meth waada, böte III mark ensak maalsegendens."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_13",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna råder hälften var av nämnden om tolv män av häradet när åldern är omtvistad",
+   "plats:sdhk:sverige",
+   "Nw sighir annar ouermaga wara oc annar ey, within thet XII men aff herade, raade halua nempd hwar thera."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_13",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=kvinna har samma lag som man i vådabot, vare sig hon dräper eller dräps",
+   "plats:sdhk:sverige",
+   "Vari kona j sama lagum som man j waadha botom, hwat hon dræper eller dræpin warder."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_14",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|boten ökas med fyra och en halv mark om den dräpta kvinnan var havande",
+   "plats:sdhk:sverige",
+   "oc ökes tha both henna ath halff fæmta mark"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_14",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|barnets arvinge visar med två kvinnors vittne och tolv mäns ed att hon var med barn",
+   "plats:sdhk:sverige",
+   "tha haui barnsens arfuinge then neste witzord ath wita meth tueggia quinno witnom oc XII manna ede ath hon meth barn war"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_15",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker i vådagäld när vansinnig som lysts och hålls i häkte kommer lös och dräper eller bränner by",
+   "plats:sdhk:sverige",
+   "kan then man eller kona dræpa, wari alt j waada botom IX marc"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_15",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|en och en halv gång större bot om vansinnet inte lysts med vittnen och arvingarna visste om det",
+   "plats:sdhk:sverige",
+   "Ær ey lysninga witne til, wari tha boot thera som lysa aatten haluo större",
+   "'haluo större' tolkat som en och en halv gång. MEL-extraktionen: olyst gärning räknas som viljeverk."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_16",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|förälder som av våda dräper sitt barn fyller vådaed och vådabot om den andre föräldern klagar",
+   "plats:sdhk:sverige",
+   "kærer annath thera til tess som dræpit hauer, tha fylle waada eedh oc waada boot"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_17",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker som ägaren betalar när fä dräper man",
+   "plats:sdhk:sverige",
+   "böte fore IX marker then som thet fæ ægher"
+  ],
+  [
+   "lag:kristoffers_landslag:krl_dva_17",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|arvingarna binder ägaren som nekar med två vittnen och tolv mäns ed",
+   "plats:sdhk:sverige",
+   "tha binden thes döda arfua han til meth twem witnom och XII manna edhe"
+  ],
+  [
+   "lag:kristoffers_landslag:b_flock_6",
+   "person:erik_av_pommern",
+   "stiftar_lag",
+   "=kung Erik och hela riksrådet stadgade och stadfäste i Stockholm 1407 en stadga om flock och samnad mot fogde, häradshövding och nämnd",
+   "plats:sdhk:sverige",
+   "Åårom effter Gudz byrd 1407, S: Katherina dag, stadhgade oc stadfeste then erlige konung Erich Månsson och altt riksens rådh församblatt i Stocholm",
+   "Tillägg utanför balkarna i utgåvan (stycke B 6), inte i den medeltida huvudtexten. Namnformen 'Erich Månsson' som i texten."
+  ],
+  [
+   "lag:kristoffers_landslag:b_flock_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|den som i flock angriper fogden, häradshövdingen eller årets nämndemän och dräper, sårar eller slår blodvite: mister liv och gods; kungen tar godset, målsäganden livet",
+   "plats:sdhk:sverige",
+   "Gör han dråp, såår eller blodwiite, blonat, klädereeff eller hwssbrott, miste liiff och godz, Konung tagi godzett, och målsägande liiffuett",
+   "Tillägg utanför balkarna i utgåvan (stycke B 6), inte i den medeltida huvudtexten. Redan flock och samnad mot dem utan gärning straffas med livet; sex mäns vittne eller tolvmannaed."
+  ],
+  [
+   "lag:kristoffers_landslag:b_flock_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|hela den dömdes gods vid sammansvärjning med dråp",
+   "plats:sdhk:sverige",
+   "Konung tagi godzett",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:d_flock_2",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att i förakt slå sönder eller hugga annans bohag: båt, not, nät, mjärde, vagn, släde eller annat i bondens bo",
+   "plats:sdhk:sverige",
+   "Huilcken som sönderslår eller hugger annars mans bohagh medh föracht, som är bååth, nooth, nääth, miärdre, wagn, släda, eller hwariohanda i bondans boo thet helst wara kan, thet kallas nidingzwärck",
+   "Tillägg utanför balkarna i utgåvan (stycke D 2), inte i den medeltida huvudtexten."
+  ],
+  [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:vadadrap",
+   "paforljd",
+   "=när oxe eller annat fä dräper människa stenas eller bränns fäet och ägaren är fri",
+   "plats:sdhk:sverige",
+   "thå skal thet fä stenas eller brennas, och then som thet fää åtte wara frij for ogerningen",
+   "Tillägg utanför balkarna i utgåvan (stycke M, i passagen H 2), inte i den medeltida huvudtexten. Jfr Dvå 17, där ägaren böter nio marker."
+  ],
+  [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|ägare som visste att fäet var otamt och farligt och inte vaktade det dör, men kan lösa sitt liv som om han själv dräpt",
+   "plats:sdhk:sverige",
+   "thå skall thet fä stenas, och mannen döö. Kan han til lösn komma, thå skall han sit liff lösa som han sielffuer dråpit giort haffuer",
+   "Tillägg utanför balkarna i utgåvan (stycke M, i passagen H 2), inte i den medeltida huvudtexten."
+  ],
+  [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "=omyndig mister inte livet för dråp",
+   "plats:sdhk:sverige",
+   "Ey må offuermagi liff för tiuffnat eller dråp låtta",
+   "Tillägg utanför balkarna i utgåvan (stycke L, i passagen H 2), inte i den medeltida huvudtexten."
+  ],
+  [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:kristofer_av_bayern",
+   "stiftar_lag",
+   "=kung Kristoffer konfirmerade och stadfäste 1442 lagboken sedan riksrådet sett över och förbättrat den; rikets ständer samtyckte",
+   "plats:sdhk:sverige",
+   "Sampt af Konung Christofer, Swerikes, Danmarks, Norikes, Göthes och Wändes Konung, Palatzgrefwe widh Reen, och Hertigh til Beiern etc. confirmeret och stadhfäst",
+   "Uppgiften står i Karl IX:s tryckningsedikt 1608 (efter tillägget P), inte i den medeltida texten."
+  ],
+  [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:karl_ix",
+   "stiftar_lag",
+   "=Karl IX lät 1608 trycka lagboken och påbjöd att den skulle följas i alla domar, utom kyrkobalken",
+   "plats:sdhk:sverige",
+   "j efter thenne daghen vthi alle Domar, rätte idher efter thenna Konung Christofers confirmerade och Prentadhe Laghbok",
+   "Ur Karl IX:s edikt, Stockholm 20 december 1608."
+  ],
+  [
+   "lag:kristoffers_landslag:o_flock_2",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=Karl IX:s edikt ändrar konungabalkens tredje kapitel så att kungen ärver och inte väljs, efter arvföreningarna",
+   "plats:sdhk:sverige",
+   "Til Swerikes Rijke är Konunger erfwande, och ey wäliande",
+   "Ur Karl IX:s edikt 1608; gäller den tryckta lagen, inte 1442 års text."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_hb_1",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|man steglas, kvinna bränns för hemligt mord",
+   "plats:sdhk:sverige",
+   "tha scal man stægla oc konu brenna",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:kristoffers_landslag:krl_hb_1",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|häradsnämnden där mordet begicks prövar skuld",
+   "plats:sdhk:sverige",
+   "tha scal heredz nempd aff thy hærade gerningen giordes j, wita han eller hona sanna eller osanna",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

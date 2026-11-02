@@ -1,0 +1,647 @@
+{
+  "beskrivning": "Gärningar extraherades post för post ur de 54 fornsvenska passagerna med korta ordagranna citat och utan uppgifter om ämbeten, släktskap, födelse, död eller grav.",
+  "extraherad_av": "språkmodell (GPT-6) – oberoende kontrollextraktion av gärningar",
+  "passager": {
+    "K": "vastgotalagens_konungalangd:",
+    "L": "vastgotalagens_lagmanslangd:",
+    "B": "vastgotalagens_biskopslangd:"
+  },
+  "entiteter": [
+    [
+      "institution:skara_biskopsstol",
+      "institution",
+      "Biskopsstolen i Skara",
+      "Biskopens stol och tillhörande gods i Skara enligt längderna",
+      null
+    ],
+    [
+      "institution:skara_mariakyrka",
+      "institution",
+      "Mariakyrkan i Skara",
+      "Sancta Maria-kyrkan i Skara",
+      null
+    ],
+    [
+      "institution:skara_peterskyrka",
+      "institution",
+      "Peterskyrkan i Skara",
+      "Sancta Petri-kyrkan i Skara",
+      null
+    ],
+    [
+      "institution:skara_nikolai_kyrka",
+      "institution",
+      "Nikolaikyrkan i Skara",
+      "Sancta Nicolai-kyrkan i Skara",
+      null
+    ],
+    [
+      "institution:kyrkogard_friggeraker",
+      "institution",
+      "Kyrkogården i Friggeråker",
+      "En av de tre kyrkogårdar som Sigfrid sägs ha vigt",
+      null
+    ],
+    [
+      "institution:kyrkogard_gerum",
+      "institution",
+      "Kyrkogården i Gerum",
+      "En av de tre kyrkogårdar som Sigfrid sägs ha vigt",
+      null
+    ],
+    [
+      "institution:kyrkogard_agnestad",
+      "institution",
+      "Kyrkogården i Agnestad",
+      "En av de tre kyrkogårdar som Sigfrid sägs ha vigt",
+      null
+    ],
+    [
+      "institution:kyrka_gotala",
+      "institution",
+      "Kyrkan i Götala",
+      "Kyrkan i götalum enligt biskopslängden",
+      null
+    ],
+    [
+      "institution:kyrka_agnestad",
+      "institution",
+      "Kyrkan i Agnestad",
+      "Kyrkan i agnistaðhum enligt biskopslängden",
+      null
+    ],
+    [
+      "institution:kyrka_dimbo",
+      "institution",
+      "Kyrkan i Dimbo",
+      "Kyrkan i dimum enligt biskopslängden",
+      null
+    ],
+    [
+      "institution:kyrka_ving",
+      "institution",
+      "Kyrkan i Ving",
+      "Kyrkan i wighni enligt biskopslängden",
+      null
+    ],
+    [
+      "plats:agnestad",
+      "plats",
+      "Agnestad",
+      "Platsen agnistaðhum i biskopslängden; modern identifiering inte säkerställd",
+      null
+    ],
+    [
+      "plats:gotala",
+      "plats",
+      "Götala",
+      "Platsen götalum i biskopslängden; modern identifiering inte säkerställd",
+      null
+    ],
+    [
+      "plats:dimbo",
+      "plats",
+      "Dimbo",
+      "Platsen dimum i biskopslängden",
+      null
+    ],
+    [
+      "plats:gokhem",
+      "plats",
+      "Gökhem",
+      "Platsen gökem i lagmanslängden",
+      null
+    ],
+    [
+      "plats:essunga",
+      "plats",
+      "Essunga",
+      "Platsen æssungi i lagmanslängden",
+      null
+    ],
+    [
+      "plats:tralghu",
+      "plats",
+      "Trälghu",
+      "Platsen Trælghu i lagmanslängden; modern identifiering inte säkerställd",
+      null
+    ],
+    [
+      "plats:edsvara",
+      "plats",
+      "Edsvära",
+      "Platsen Ezwæri i lagmanslängden",
+      null
+    ],
+    [
+      "plats:grolanda",
+      "plats",
+      "Grolanda",
+      "Platsen grolandum i lagmanslängden",
+      null
+    ],
+    [
+      "plats:bjalbo",
+      "plats",
+      "Bjälbo",
+      "Platsen bialbo i lagmanslängden",
+      null
+    ],
+    [
+      "plats:medeluppland",
+      "plats",
+      "Mellandelen av Uppland",
+      "Området mædal wplanðum i biskopslängden; närmare avgränsning osäker",
+      null
+    ],
+    [
+      "grupp:fattiga",
+      "grupp",
+      "Fattiga",
+      "De fattiga män som omtalas i biskopslängden",
+      null
+    ],
+    [
+      "grupp:rika_och_fattiga",
+      "grupp",
+      "Rika och fattiga",
+      "Mottagarna som tillsammans nämns i biskopslängden",
+      null
+    ],
+    [
+      "plats:byrgittakallan",
+      "plats",
+      "Byrgittakällan",
+      "Källan vid Husaby där Olof sägs ha blivit döpt",
+      null
+    ]
+  ],
+  "identifieringar": [],
+  "pastaenden": [
+    [
+      "K1",
+      "person:olof_skotkonung",
+      "dops_av",
+      "person:sigfrid_skara",
+      "plats:byrgittakallan",
+      "han war döptær .i. kyældu þerræ wið hosæby liggær. oc heter byrghittæ. af sighfriði biscupp.",
+      "Källan anger Byrgittakällan vid Husaby som dopplats."
+    ],
+    [
+      "K1",
+      "person:olof_skotkonung",
+      "skanker",
+      "institution:skara_biskopsstol",
+      null,
+      "oc han skötte þaghær allæn byn till staffs oc stols.",
+      "Gåvan är hela den i passagen inte namngivna byn."
+    ],
+    [
+      "K3",
+      "person:emund_den_gamle",
+      "faststaller_grans",
+      "plats:danmark",
+      null,
+      "oc han görðhe skiæl mællin swerikis oc danmark.",
+      "Gränsen mellan Sverige och Danmark."
+    ],
+    [
+      "K11",
+      "person:sverker_d_a",
+      "later_bygga",
+      "institution:sdhk:alvastra_kloster",
+      "plats:sdhk:alvastra",
+      "oc han byriæðþi fyrst oc ælfti han þæt clostær.",
+      "Han sägs ha påbörjat och färdigställt klostret; texten säger inte uttryckligen grundade."
+    ],
+    [
+      "K15",
+      "person:knut_eriksson",
+      "erovrar",
+      "plats:sdhk:sverige",
+      null,
+      "han wan sweriki mæð swærðhi."
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "flyr_till",
+      "plats:norge",
+      null,
+      "han flydði .i. noreghe."
+    ],
+    [
+      "K17",
+      "person:erik_knutsson",
+      "erovrar",
+      "plats:sdhk:sverige",
+      null,
+      "siðþæn wan han sweriki mæð swærði oc mæð sighær."
+    ],
+    [
+      "L1",
+      "person:lumber",
+      "stiftar_lag",
+      "=utformade en stor del av lagarna",
+      "plats:sdhk:vastergotland",
+      "at han sighs. hawæ huxæt. oc gört en mykin loth aff laghum warum.",
+      "Texten markerar detta som en uppgift som berättas om honom."
+    ],
+    [
+      "L2",
+      "person:bjorn_kialke",
+      "harkomst",
+      "plats:madalby",
+      null,
+      "han war haf mæðþalby."
+    ],
+    [
+      "L3",
+      "person:tore_rav",
+      "harkomst",
+      "plats:gokhem",
+      null,
+      "af gökem."
+    ],
+    [
+      "L4",
+      "person:kring_alle",
+      "stiftar_lag",
+      "=förkunnade lagen",
+      "plats:sdhk:vastergotland",
+      "oc han taldi lagh .a. lincornæ wallum.",
+      "Platsen för förkunnandet anges som lincornæ wallum; den är inte identifierad här."
+    ],
+    [
+      "L4",
+      "person:kring_alle",
+      "stiftar_lag",
+      "=förde in orättvisor och förvrängningar i lagen",
+      "plats:sdhk:vastergotland",
+      "castæðhi han .i. lagh war. marghæ wrætti. oc krokæ. oc ilh braghð."
+    ],
+    [
+      "L6",
+      "person:ond_fran_essunga",
+      "harkomst",
+      "plats:essunga",
+      null,
+      "aff æssungi."
+    ],
+    [
+      "L7",
+      "person:ulvar_fran_tralghu",
+      "harkomst",
+      "plats:tralghu",
+      null,
+      "af Trælghu."
+    ],
+    [
+      "L7",
+      "person:ulvar_fran_tralghu",
+      "mister_ambete",
+      "begrepp:lagman",
+      "plats:sdhk:vastergotland",
+      "han þolde bort wrækilsi swa at han baðhi tappæðhi walð oc laghmanz namn.",
+      "Förlorade både makten och lagmanstiteln enligt texten."
+    ],
+    [
+      "L10",
+      "person:asur_fran_haru",
+      "harkomst",
+      "plats:harv",
+      null,
+      "af Hæru.",
+      "Identifieringen Hæru–Härv följer kandidatlistan men är osäker."
+    ],
+    [
+      "L10",
+      "person:asur_fran_haru",
+      "stiftar_lag",
+      "=förkunnade hela västgötalagen på en dag",
+      "plats:sdhk:vastergotland",
+      "han taldi wæstgötæ lagh. al .a. enom ðagh."
+    ],
+    [
+      "L11",
+      "person:karle_fran_edsvara",
+      "harkomst",
+      "plats:edsvara",
+      null,
+      "af Ezwæri."
+    ],
+    [
+      "L11",
+      "person:karle_fran_edsvara",
+      "domer",
+      "=var och en efter hans gärning",
+      null,
+      "han ræfsti hwarium. æptir sinni giærð.",
+      "Generellt påstående om rättskipning; inga dömda namnges."
+    ],
+    [
+      "L13",
+      "person:ond_fran_grolanda",
+      "harkomst",
+      "plats:grolanda",
+      null,
+      "aff grolandum."
+    ],
+    [
+      "L13",
+      "person:ond_fran_grolanda",
+      "stiftar_lag",
+      "=förkunnade rätt lag",
+      "plats:sdhk:vastergotland",
+      "han taldi ræt lagh"
+    ],
+    [
+      "L17",
+      "person:magnus_minneskold",
+      "harkomst",
+      "plats:bjalbo",
+      null,
+      "magnusær sun. minniskiolz aff bialbo.",
+      "Från Bjälbo syftar grammatiskt på Magnus Minnesköld, inte säkert på Eskil."
+    ],
+    [
+      "B1",
+      "person:sigfrid_skara",
+      "viger",
+      "institution:kyrkogard_friggeraker",
+      "plats:sdhk:frigeraker",
+      "oc wighþi. þre kyrkyugarðþæ. En ær .i. friggiærone."
+    ],
+    [
+      "B1",
+      "person:sigfrid_skara",
+      "viger",
+      "institution:kyrkogard_gerum",
+      "plats:sdhk:gerum",
+      "oc wighþi. þre kyrkyugarðþæ. En ær .i. friggiærone. Annær .i. gyrem."
+    ],
+    [
+      "B1",
+      "person:sigfrid_skara",
+      "viger",
+      "institution:kyrkogard_agnestad",
+      "plats:agnestad",
+      "oc wighþi. þre kyrkyugarðþæ. En ær .i. friggiærone. Annær .i. gyrem. Þriði ær .i. agnistaðhum."
+    ],
+    [
+      "B3",
+      "person:astmund",
+      "grundar",
+      "institution:skara_biskopsstol",
+      "plats:sdhk:skara",
+      "han satti fyrst staff oc stoll .i. skarum.",
+      "Tolkning av att han först satte biskopens stav och stol i Skara som etablering av biskopssäte."
+    ],
+    [
+      "B6",
+      "person:adalvard_den_yngre_skara",
+      "later_bygga",
+      "institution:skara_mariakyrka",
+      "plats:sdhk:skara",
+      "han læth fyrst grawæ grunwal vndir sancta mariu kyrkyu .i. skarum",
+      "Lät gräva grunden, inte en uppgift om färdigbyggd kyrka."
+    ],
+    [
+      "B8",
+      "person:rikulf_skara",
+      "harkomst",
+      "plats:sdhk:england",
+      null,
+      "han war ænskær at ædllum."
+    ],
+    [
+      "B9",
+      "person:hervard_skara",
+      "harkomst",
+      "plats:sdhk:england",
+      null,
+      "oc ænskær han atti baði kono oc börn .i. ænglandi.",
+      "Engelskt ursprung; texten nämner även hans familj i England."
+    ],
+    [
+      "B10",
+      "person:styrbjorn_skara",
+      "later_bygga",
+      "institution:skara_mariakyrka",
+      "plats:sdhk:skara",
+      "oc han fullæðhi mykyt aff sancta mariu kyrkyu .i. skarum",
+      "Färdigställde en stor del, inte nödvändigtvis hela kyrkan."
+    ],
+    [
+      "B11",
+      "person:odgrim_skara",
+      "viger",
+      "institution:skara_mariakyrka",
+      "plats:sdhk:skara",
+      "oc han wighði hanæ til.",
+      "Pronomenet syftar på Sancta Maria-kyrkan i föregående mening."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=södra koret i Mariakyrkan i Skara",
+      "plats:sdhk:skara",
+      "oc syðri kowæn. oc göræ han allæn.",
+      "Korets byggande är en tolkning av göræ; föregående sats nämner Mariakyrkan."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "skanker",
+      "institution:skara_mariakyrka",
+      "plats:sdhk:skara",
+      "Bibliam lot han köppæ .i. ænglanði. oc gaf mariu kyrkiu .i. skarum.",
+      "Gåvan var en bibel inköpt i England."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "institution:skara_peterskyrka",
+      "plats:sdhk:skara",
+      "han lot göræ ffiærðhunghin. af sancta pætærs kyrkyu .i. skarum aff sinum kost.",
+      "Lät bygga en fjärdedel av kyrkan på egen bekostnad."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "skanker",
+      "institution:skara_nikolai_kyrka",
+      "plats:sdhk:skara",
+      "Flæstæ þe pænningæ sum kostæðþi sancta nicholaussæ kyrkyu .i. skarum. læt han till. oc han war þerræ gilbroðær. han gaff sancta nicholaousæ kyrkyu baðær clocconær.",
+      "Två uttryckliga gåvor till samma kyrka: merparten av byggnadspengarna och båda klockorna. De samlas i en rad eftersom kontrollen inte medger dubbla påståenden med samma subjekt, predikat och mottagare i en passage."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "skanker",
+      "plats:eriksberg",
+      "plats:eriksberg",
+      "han gaf baðær clocconær til Erexbiærghs.",
+      "Gåvan var två klockor; texten namnger orten men inte mottagande kyrka."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "institution:kyrka_gotala",
+      "plats:gotala",
+      "han læt göræ kyrkynæ .i. götalum."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "institution:kyrka_agnestad",
+      "plats:agnestad",
+      "han læt göræ. kyrkiunæ .i. agnistaðhum."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "institution:kyrka_dimbo",
+      "plats:dimbo",
+      "han læt göræ kyrkiunæ .i. dimum"
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "institution:kyrka_ving",
+      "plats:sdhk:ving",
+      "han læt göræ kyrkynæ .i. wighni"
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "viger",
+      "institution:kyrka_ving",
+      "plats:sdhk:ving",
+      "oc han wighþi hanæ.",
+      "Pronomenet syftar sannolikt på närmast föregående kyrka i Ving."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "skanker",
+      "plats:medeluppland",
+      "plats:medeluppland",
+      "I. mædal wplanðum gaf han baðhi cloccor oc bökær oc scruð.",
+      "Gåvan bestod av klockor, böcker och skrud; den enskilda mottagande kyrkan namnges inte."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=bron i Osee",
+      null,
+      "han læt göræ bronæ .i. osee.",
+      "Modern ortsidentifiering osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=bron i Offrud",
+      null,
+      "han læt göræ bronæ .i. osee. Adþræ .i. offruð.",
+      "Den andra bron i uppräkningen; handlingsverbet står i föregående sats."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=bron i Fraväde",
+      null,
+      "han læt göræ bronæ .i. osee. Adþræ .i. offruð. oc Þriðþiu .i. ffrawæðhi.",
+      "Den tredje bron i uppräkningen; handlingsverbet står i föregående sats."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=Bäcknäsbron",
+      null,
+      "han læt göræ bronæ .i. osee. Adþræ .i. offruð. oc Þriðþiu .i. ffrawæðhi. Fiærðhu biæcnæbro.",
+      "Den fjärde bron; modern namnform osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=Ullervibron",
+      null,
+      "han læt göræ bronæ .i. osee. Adþræ .i. offruð. oc Þriðþiu .i. ffrawæðhi. Fiærðhu biæcnæbro. oc Fæmtu. wllærwis bro.",
+      "Den femte bron; modern namnform osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=två raster brobyggd väg från Tiveden",
+      null,
+      "han læt broæ twar rastir aff tiwidhi.",
+      "Broæ kan avse brobeläggning/vägbyggnad; lokaliseringen är osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=en rast brobyggd väg från Vättersvid",
+      null,
+      "han læt broæ twar rastir aff tiwidhi. oc enæ rast aff wæturswidhi.",
+      "Handlingsverbet broæ står i föregående sats; orttolkningen är osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "later_bygga",
+      "=en rast brobyggd väg från Hökeås",
+      null,
+      "han læt broæ twar rastir aff tiwidhi. oc enæ rast aff wæturswidhi. oc enæ rast aff hökesasi.",
+      "Handlingsverbet broæ står i föregående sats; orttolkningen är osäker."
+    ],
+    [
+      "B12",
+      "person:bengt_den_gode_skara",
+      "skanker",
+      "grupp:fattiga",
+      null,
+      "þyt hwaru gaff han fatökum manum sit bröð vsparllikæ. oc clæði baðhi.",
+      "Gåvorna var bröd och kläder."
+    ],
+    [
+      "B13",
+      "person:jarpulf_skara",
+      "infor_palaga",
+      "=tionde från bönderna till biskopen",
+      null,
+      "han com fyrstæ sinni tyundæ aff bondom biscupi.",
+      "Tolkning: han införde tionde för biskopen."
+    ],
+    [
+      "B15",
+      "person:bernhard_skara",
+      "skanker",
+      "grupp:rika_och_fattiga",
+      null,
+      "gaff baðhi rikum oc fatökom.",
+      "Det som gavs anges inte."
+    ],
+    [
+      "B17",
+      "person:stenar_skara",
+      "harkomst",
+      "plats:sdhk:ostergotland",
+      null,
+      "östgözkær at æðlum."
+    ]
+  ]
+}

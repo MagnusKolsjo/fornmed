@@ -1,0 +1,747 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Skånelagen (Holm B 76), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/skanelagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|dråparen böter först en sal av sitt eget, sedan bötar fädernefränderna och därefter mödernefränderna med honom",
+   "plats:skane",
+   "Faldær annær man j mandrap. taki aldrigh ættæ bot af sinum frændum. för æn han hauir böt en sal af sinu eghno.",
+   "Fränderna lämnar inte ut sin andel förrän i samma stund som boten betalas; därefter tas trygd."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:kung",
+   "stiftar_lag",
+   "=kungen har stadgat ordningen för ättebot, så att dråparen inte ska ta ättebot av fränderna och förskingra den och fränderna tvingas böta en andra gång",
+   "plats:skane",
+   "þættæ hauir konung for þy swa skipæt. at hin ær man hauir dræpit sculi ey ættæ bötær taki af frændum sinum oc for hæghþæ.",
+   "Gäller en enskild bestämmelse, inte hela lagen. Kungen namnges inte."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:attebot",
+   "definieras_som",
+   "=fränderna är skyldiga att böta med en man bara i dråpsmål, inte i andra saker",
+   "plats:skane",
+   "Jnnan hwærskyns sac ær man cumbær utan j. mandraps mal þa æræ frændær ey skyldæ at böte mæþ hanum.",
+   "En frände som vägrar betala tvingas av de andra fränderna med kungens rätt, inte av dråparen med utmätning."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker till kungen och tre till fränderna för den som var i dråparens följe",
+   "plats:skane",
+   "böte kununge þre marc oc frændum þre marc.",
+   "Gäller om följeslagaren inte kan fria sig."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|för att fria sig från anklagelse om att ha varit i dråparens följe",
+   "plats:skane",
+   "hwat han ær hældær kundær man ællr ukundær man. wæri sic mæþ tyltær eþ.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:jarnbord|järnbörd om två mäns vittne säger att den anklagade sårade den dräpte, annars tre tylfters ed",
+   "plats:skane",
+   "oc ær twigiæ mannæ witni til þæs. skiæræ sic mæþ iarne. oc ær ey witni til þa skiæræ sic mæþ þrem tyltum.",
+   "Järnbörd saknas som begrepp."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tre marker när en man sårat den som dräptes",
+   "plats:skane",
+   "böte konunge þre marc. oc hinum ær sac sökær ni marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|nio marker när en man sårat den som dräptes",
+   "plats:skane",
+   "oc hinum ær sac sökær ni marc.",
+   "Talan förs av 'hin ær sac sökær'."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att i vrede angripa en man i hans hus, på hans åkrar eller där han satt sitt spjut, lagt sin sköld eller sadel och tagit härbärge; alla dessa fall har samma rätt",
+   "plats:skane",
+   "Far annær man mæþ wreþe. oc takær annar man j husæ",
+   "Lagen kallar brottet härverk (hærwirki), inte hemsökn."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:mansbot|hövdingen för färden böter full mansbot om en man dräps på något av dessa ställen",
+   "plats:skane",
+   "þa böte hin ær höfþing war j þe færþ fullæ man bötær.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|hövdingen fyrtio marker till kungen och fyrtio till fränderna för härverk",
+   "plats:skane",
+   "oc fore hærwirki böte han af sinu eghno konungi fiuritiughu marc. [oc frændum fyritiughu marc.]",
+   "Fyrtiomarksbrott; motsvarar edsöresbrott men ordet edsöre används inte. Fränders andel står i hakparentes i utgåvan."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för härverk",
+   "plats:skane",
+   "böte han af sinu eghno konungi fiuritiughu marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|fyrtio marker för härverk",
+   "plats:skane",
+   "[oc frændum fyritiughu marc.]",
+   "Utgivartillägg i hakparentes."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre marker till kungen och tre till fränderna för var och en i följet",
+   "plats:skane",
+   "oc hwær hin j fylghi war mæþ. böte kuningi þre marc. oc frændum þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_87",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen och fyrtio till saksökaren för att bryta upp en annans dörr med fem fullt beväpnade lagsmän och ta något därifrån",
+   "plats:skane",
+   "þa böte han konungi fyritiughu marc. oc hinum ær sac sökær fyritiughu marc.",
+   "Tolkat som hemsökn; lagen ger inget namn."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_87",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:jarnbord|järnbörd för att fria sig från husbrott",
+   "plats:skane",
+   "warþær han uskiær at iarne. ællr han gar wiþær.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|för den som dräper sedan böter betalats; han får aldrig frid",
+   "plats:skane",
+   "Dræpir man annar man ofnæ bötær böttæ. faræ friþlös oc fa aldrigh friþ.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:forverkat_gods|kungen tar allt den dråparen äger utom jorden, när han dräper sedan böter betalats",
+   "plats:skane",
+   "oc konung taki alt þæt han a utan hans iorþ.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|förlorar kungens frid vid dråp medan kungen är i landet; friden kan lösas som kungen och den dräptes fränder vill",
+   "plats:skane",
+   "æn warþær man dræpin þæn timæ ær konung ær inlændæs. þa {læggiæ} [liggi] wiþær hans friþ ær drap",
+   "Kungens närvarofrid ('Þæn timæ konung ær innan lanz scal hwær man hauæ friþ'); lagen säger inte edsöre. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen och fyrtio till den sårade för fridsbrott, utöver sårboten, om någon sårar medan kungen är i landet",
+   "plats:skane",
+   "böte foræ sar sum logh æræ. oc konungi fyritiughu marc oc hinum ær sar fic firitiughu marc fore friþ brut.",
+   "Skånelagens kungsfrid; lagen säger inte edsöre. Ändrat efter oberoende kontroll."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för fridsbrott medan kungen är i landet",
+   "plats:skane",
+   "oc konungi fyritiughu marc",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fyrtio marker för fridsbrott medan kungen är i landet",
+   "plats:skane",
+   "oc hinum ær sar fic firitiughu marc fore friþ brut.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "definieras_som",
+   "=brodern böter mest, brorsonen hälften, och för varje led längre bort halveras andelen ned till en örtug per man",
+   "plats:skane",
+   "broþær böte mæst. oc broþær sun halw minnæ. oc swa sum byrþin gar e. fiarmer.",
+   "Fädernefränder bötar först, sedan mödernefränder; dråparen själv böter först en sal."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|fränderna tar emot ättebot bara så långt ut som de själva bötar",
+   "plats:skane",
+   "æn at ættæ bot scal man ey længær faræ æn man ær atær böttær.",
+   "Osäker läsning."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|inte till barn som föds efter dråpet",
+   "plats:skane",
+   "ey scal oc ættæ bot kræuiæ fore þæt barn siþæn warþær föt ær man war dræpin.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_96",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|fränder som står lika nära den dräpte och dråparen bötar med dråparen och tar lika mycket på den dräptes sida, eller kvittar",
+   "plats:skane",
+   "bötæ mæþ hin ær drap. oc taki mæþ annar wagh swa mikit sum þe böte.",
+   "Står de närmare den dräpte bötar de inte med dråparen."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_96",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen ska undvika väg, kyrka och alla sammankomster sedan böterna fästs, tills boten är betald och trygd tagen",
+   "plats:skane",
+   "þa scal hin ær drap rymæ wægh oc kirkiu. oc alla samfyndær. e til böt warþær oc trygd warþær takin.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker till fränderna av dem som fällde trädet tillsammans, när det faller över en av dem",
+   "plats:skane",
+   "þa bötæ þe ær mæþ hanum hioggo frændum hans þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker till den dödes fränder av den som ensam äger en brunn där en man dör",
+   "plats:skane",
+   "þa böte þæn ær brunnæn attæ. oc grauæ lot frændum hins döþæ þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|tre marker vid dödsfall genom fällt träd eller i brunn",
+   "plats:skane",
+   "frændum hins döþæ þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|den som drunknar i en allmänningsbrunn som alla grannar äger",
+   "plats:skane",
+   "Druknær man j almænnings brunni. þæn ær alli grannæ ægho. þo at en groue þa bötæs ey hin döþæ atær.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av den som har lott i ler- eller rävgropen där en man dör",
+   "plats:skane",
+   "Dör man j lergrauum ællær ræfgrawm bötæ oc hin þre marc. ær graue lot.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|enligt kungen ska man inte böta för dödsfall i gropar",
+   "plats:skane",
+   "æn þo sighær konung at fore þæskyns mal ællær grauæ scal man ey böte.",
+   "Motsägelse mellan lagens äldre regel och kungens bestämmelse."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:kung",
+   "stiftar_lag",
+   "=kungen har bestämt att man inte ska böta för dödsfall i gropar",
+   "plats:skane",
+   "æn þo sighær konung at fore þæskyns mal ællær grauæ scal man ey böte.",
+   "Enskild bestämmelse; kungen namnges inte."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_100",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker eller tylftered för all handlös våda, genom horn, hov eller hundtand",
+   "plats:skane",
+   "Fore allæn handlösæn waþæ. scal man ællr bötæ þre marc ællær sæliæ tyltær eþ.",
+   "Gäller skada genom djur generellt, inte bara dödsfall."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_100",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten för handlös våda; ingen kungens eller ärkebiskopens rätt",
+   "plats:skane",
+   "oc fore þæs kyns waþa scal ey bötæ konungs ræt. oc ey archebiscops. utan hinum scal bötæ ær scathæn fik.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_101",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|full mansbot av ägaren när tama vilda djur eller fåglar dräper en man",
+   "plats:skane",
+   "Dræpæ þe man. bötæ oc þæn ær þæm a fullæ manbötær. swa sum han hafþi sialuær dræpit man.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio marker när ägarens djur av grym natur, björn eller varg, dräper en man",
+   "plats:skane",
+   "þe ær af grymmæ naturæ æræ. oc dræpæ þe man. bötæ han ær þem a ni marc.",
+   "Står i spänning med SkL 101 som kräver full mansbot."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker när ägarens djur av blid natur, hjort eller hök, dräper en man",
+   "plats:skane",
+   "swa sum hiort ællær hök oc dræpæ þe man. bötæ hin ær þæm a þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_104",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker eller tylftered för den som lånat ut vapen som en man dräps med",
+   "plats:skane",
+   "Lær man wapn sin. oc warþær man dræpin. bötæ þre marc. ællær dyli mæþ tyltir eþ.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:namnd",
+   "utses_av",
+   "=tio män utsedda genom lott (osäker läsning av 'lotæ wætte')",
+   "plats:skane",
+   "oc siþan gange til ti mæn lotæ wætte oc swæriæ æftir þem bathom.",
+   "När kungens ombudsman påstår att vådasåret var med vilja svär först gärningsmannen, sedan den sårade, sedan tio män."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:namnd",
+   "definieras_som",
+   "=nämnd kommer i fråga för kungens rätt bara i detta mål (vådasår som kungens ombudsman anser uppsåtligt)",
+   "plats:skane",
+   "þæt ær þæt enæ mal ær næfnd cumbær fore konungs ræt.",
+   "Talan förs av kungens ombudsman (konungs umbuzman); begrepp:fogde har inte använts."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_108",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|nio marker för rådsak, att ha rått till dråpet",
+   "plats:skane",
+   "böte hin ær sac ær giuin ni marc um han ær sandær fore.",
+   "Rådsak (raþæ sac) kan bara ges sedan mannen är död."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_108",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|tre tylfter för att neka rådsak",
+   "plats:skane",
+   "ællr han dyli mæþ þrem tyltum um han ær uskyldær.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_110",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|jämnadsed inför den dräptes arvingar med tolv nämnda män av dråparens egen släkt, svuren vid bok och inte vid helgedom",
+   "plats:skane",
+   "þa scal för hins dræpnæ arwm iafnaþæ eþ mæþ tolf næfndom mannum j kyni sinu. oc ey sculu þe swæria at hælaghdome. utan at bok.",
+   "Edgärden tas här uttryckligen ur dråparens egen släkt."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_110",
+   "begrepp:ed",
+   "definieras_som",
+   "=jämnadsed: dråparen svär att han själv skulle ha tagit samma böter om de hade gjort mot honom som han mot dem",
+   "plats:skane",
+   "þa wildæ han slikæ sammæ bötær take af þem um þe hafþæ",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_112",
+   "begrepp:drap",
+   "paforljd",
+   "=för en dräpt träl går man ingen jämnadsed, lika lite som för annat fä",
+   "plats:skane",
+   "Uarþær manz þræl dræpin. þa scal ey iafnaþæ eþ före fore hanum.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_115",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:landsting|andra män följer dråparen till landstinget och ber om frid för honom, och han bjuder böter",
+   "plats:skane",
+   "Thaghær man hauir man dræpit þa sculu andræ mæn faræ mæþ hanum til lanzþings. oc biþiæ hanum friþ a. þingi. oc han biuþe bötær fore giærningæ sinæ.",
+   "Är dråparen inte bofast svarar de som följde honom till tinget för boten."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_115",
+   "begrepp:drap",
+   "definieras_som",
+   "=när en fri man tagit på sig banesaken på landstinget kan andra bara ges följessak, sårsak eller rådsak",
+   "plats:skane",
+   "man takær wiþær bana sac ofna lanz þingi. þa ma ey siþan andrum manne giuæ bana sac.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_116",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tre tylfter för den som nekar banesak för egen del men vidgår att hans träl gav banesåret",
+   "plats:skane",
+   "sæliæ thrigia tyltær eþ fore sic sialuan. oc bötæ fore þræl sin sum logh æræ.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "handlaggs_vid",
+   "begrepp:landsting|närmaste arvinge efterfrågar den okände banemannen på tre landsting och ger sedan banesak på landstingen",
+   "plats:skane",
+   "þa standæ næstæ aruæ offna þrim lanz þingum. oc spöræ æftir sannum banæ frændæ sins.",
+   "Talan: närmaste arvinge."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne på tredje tinget: två om stämningen, två om att det är tredje tinget, två om att den sakförde är banemannen",
+   "plats:skane",
+   "swa at han scal hauæ þær siax mannæ witni til.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:jarnbord|skottjärn (scuz iarne) för den sakförde som säger emot på tredje tinget",
+   "plats:skane",
+   "Cumbær hin sæcti til þriþdæ þings. oc mælær j gen. skære sic mæþ scuz iarne.",
+   "Upp till nio män kan prövas med järn; den tionde förs till 'scra' (oklart)."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:edgard|tolv män svär med käranden att den sakförde är den sanne banemannen och att de inte gör det för gods, vänskap eller avund",
+   "plats:skane",
+   "þe göræ þæt ey fore fæ oc fore wild. ællær awnd. utan fore þæt at han ær sandær bane at þem dræpnæ.",
+   "Edens ordalydelse utesluter mutor, vänskap och fiendskap som grund."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:edgard|den som äger mindre än sex marker, eftersom var och en av de tolv ska böta tre marker om den anklagade blir fri",
+   "plats:skane",
+   "j þem tolf scal ey minni eghn hauæ æn til siæx marc fore þy at um han warþær skiær a skra.",
+   "Förmögenhetskrav med uttrycklig motivering."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:boter",
+   "tillfaller",
+   "=den frikände tre marker av var och en av de tolv edsmännen",
+   "plats:skane",
+   "þa scal hwær þeræ bötæ hanum þre marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:arkebiskop|tre marker av var och en av de tolv edsmännen om den anklagade blir fri",
+   "plats:skane",
+   "oc archibiscope þre marc.",
+   "Ärkebiskopen (i Lund). Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_119",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker och tylftered att trälen inte var mer värd, för en dräpt träl",
+   "plats:skane",
+   "Uarþær manz þræl dræpin. bötæ hin atær ær han drap mæþ þre marc oc a tylter eþ at han war ey bæþræ.",
+   "Alternativt lägger dråparen till så mycket som ägaren vill."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_120",
+   "begrepp:drap",
+   "paforljd",
+   "=när en träl dräper en fri man väljer ägaren att lämna ut trälen till den dräptes fränder och sex marker därtill, eller behålla honom och böta nio marker",
+   "plats:skane",
+   "hwat han wil hældær latæ ut sin þræl hins dræpna frændom j hændær oc til siax marc ællær haui sin þræl oc bötæ ni marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_120",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|den dräptes fränder får trälen och sex marker, eller nio marker",
+   "plats:skane",
+   "latæ ut sin þræl hins dræpna frændom j hændær oc til siax marc",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_123",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|halv mansbot av den som tagit en frigiven i ätt, när den frigivne dräper en man",
+   "plats:skane",
+   "bötæ foræ han haluæ mannæ bötær um han dræpir man.",
+   "Utan ättmottagare böter den frigivne själv lindebot i tre år eller flyr."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_124",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|med två mäns vittne, för den som för talan efter en dräpt frigiven, att han tog honom i ätt eller är närmaste frände",
+   "plats:skane",
+   "witi mæþ tyltær eþ. oc twigia manna witni. at han tok han j æt",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_124",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den som tagit den frigivne i ätt en tredjedel av alla böter, hans fränder två delar",
+   "plats:skane",
+   "swa scal oc han takæ af allum botum ær fore han warþæ böttæ.",
+   "Andelarna anges i föregående mening om böter för den frigivnes gärningar: 'þriþiung af allum botum. oc twa lotær hans frændær'."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_145",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|tingsmännen kan döma mördare och kyrkobrytare till hjul",
+   "plats:skane",
+   "ær han kirkiubrytare. ællær morþare þa mughu þe dömæ han j hiughl.",
+   "Står i flocken om tjuvar."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_145",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:ting|tingsmännen dömer",
+   "plats:skane",
+   "ær han kirkiubrytare. ællær morþare þa mughu þe dömæ han j hiughl.",
+   "'þe' syftar på tingsmännen (þingmen) i flocken."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_166",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att med spjut eller annat vapen sticka en annans fä så att inälvorna väller ut",
+   "plats:skane",
+   "Gör man gorniþings wærk ofna annars manz fæ mæþ spiuti ællær andru wapne. swa at ut wældær gor.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_166",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:boter|fäets värde och tre marker, eller tylftered, när fä värt minst en halv mark dräps",
+   "plats:skane",
+   "gialde atær fæ swa mæþ loghum sum wiþning ær ofnæ fæ. oc þre marc. ællær dyli mæþ tyltær eþ at han drap þæt ey",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_204",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|horkarl som bonden dräper i säng med sin hustru; han begravs utanför kyrkogården",
+   "plats:skane",
+   "liggi han utan kirkiu garþe ofna ugildum akre.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_204",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|två mäns vittne, och bolster och lakan förs till tinget, att horkarlen dräptes i sängen och inte annorstädes",
+   "plats:skane",
+   "þa scal han til þings föræ boþæ bulstær oc ble mæþ twigia manna witni.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_204",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|bonden för bevisen om dråpet på horkarlen till tinget",
+   "plats:skane",
+   "þa scal han til þings föræ boþæ bulstær oc ble",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_205",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|horkarl som såras i sängen och dör senare, fast han begravs på kyrkogården om han skriftat sig",
+   "plats:skane",
+   "þa grafs han j kirkiu garþe. oc waræ þo ugildær fore bondanum.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_207",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till saksökaren och fyrtio till kungen",
+   "plats:skane",
+   "böte sac sökiæræ firitiughu marc oc konungi firitiughu marc.",
+   "Lagen kallar våldtäkt härverk (hærwirki); fyrtiomarksbrott."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_207",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:jarnbord|tre tylfters ed om vittne saknas, järnbörd om vittne finns",
+   "plats:skane",
+   "dyl han oc ær [ey] witni til. skæræ sic mæþ þrim tyltum. ær witni til skæræ sic mæþ iarne.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_207",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för våldtäkt",
+   "plats:skane",
+   "oc konungi firitiughu marc.",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_207",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fyrtio marker för våldtäkt",
+   "plats:skane",
+   "böte sac sökiæræ firitiughu marc",
+   null
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_207",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:edgard|tre tolvmannaeder när vittnen saknas",
+   "plats:skane",
+   "dyl han oc ær [ey] witni til. skæræ sic mæþ þrim tyltum.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "utses_av",
+   "=tolv av de äldsta i bygden nämns i tvist om ägogränser mellan byar",
+   "plats:skane",
+   "þa scal næfnæ tolf mæn. þe ær aldungæ æræ j bygden.",
+   "Vem som nämner anges inte."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:ed|nämnden svär att den inte gör det för vänskap eller gods utan för att det är de rätta ägogränserna",
+   "plats:skane",
+   "biþiæ sic swa guþ hiælpæ. at þe göræ þæt ey fore wild. oc ey fore fæ.",
+   "Ed som binder nämnden till oväld."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:vite|tre marker till kungens rätt för de nämnda äldste som vägrar svära",
+   "plats:skane",
+   "wiliæ aldungæ þe ær til warþæ næfndæ ey swæriæ markæ skiæl. þa liggiæ þæm wiþær þre marc. at kunugs ræte",
+   "Påföljd för nämndemän som vägrar svära."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|saksökaren nämner tolv män efter eget val ur hela häradet när den sakförde bjuder nämnd",
+   "plats:skane",
+   "þa næfnæ hin ær sac sökær tolf mæn sliki sum han wil af allu hæraþe",
+   "Stöldmål."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:namnd|den sakförde kan undanta högst tre nämndemän som han kallar sina ovänner; saksökaren nämner andra i deras ställe",
+   "plats:skane",
+   "kallær hin sæcti nockræ uuini sinæ. þa ma han þre men undan takæ. oc ey flere.",
+   "Jävsgrund: fiendskap (ovänskap); begrepp för fiendskap saknas."
+  ],
+  [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:jarnbord|litar den sakförde inte på nämnden säger han upp den två eller tre nätter före tinget och får då bära järn",
+   "plats:skane",
+   "Tröstær hin sæcti ey sæ a næfndæn. þa sighi han atær næfnden twem natum ællær þrim fore þing.",
+   null
+  ]
+ ]
+}

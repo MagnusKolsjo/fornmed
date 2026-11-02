@@ -1,0 +1,74 @@
+/* fornmed.se, ovanpå grafisk_profil/profil.css */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; line-height: 1.6; font-size: 1.0625rem; }
+.ram { max-width: 48rem; margin: 0 auto; padding: 0 1rem; }
+a { color: var(--fm-manuscript); text-underline-offset: .17em; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--fm-gold); outline-offset: 2px; }
+.hoppa { position: absolute; left: -999px; }
+.hoppa:focus { left: 1rem; top: 1rem; background: var(--fm-surface); padding: .5rem; z-index: 2; }
+
+.sidhuvud { border-bottom: 1px solid var(--fm-stone); padding: 1.25rem 0 .75rem; margin-bottom: 2rem; }
+.sidhuvud .ram { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.5rem; }
+.logotyp img { display: block; max-width: 100%; height: auto; }
+.sidhuvud ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1.1rem; }
+.sidhuvud a { text-decoration: none; font-weight: 600; }
+.sidhuvud a:hover, .sidhuvud a[aria-current="page"] { text-decoration: underline; }
+
+main { padding-bottom: 4rem; }
+h1 { font-size: 2.3rem; margin: 0 0 1rem; }
+h2 { font-family: var(--fm-font-reading); color: var(--fm-manuscript); font-size: 1.6rem; line-height: 1.2; margin: 2.25rem 0 .5rem; }
+h3 { font-size: 1.15rem; margin: 1.5rem 0 .25rem; }
+.ingress { margin: 0 0 1.5rem; }
+.ingress.stor { font-size: 1.4rem; }
+code { background: var(--fm-surface); border: 1px solid var(--fm-stone); padding: .05rem .35rem; font-size: .95em; overflow-wrap: anywhere; }
+blockquote { margin: 1rem 0; padding: .25rem 1rem; border-left: 3px solid var(--fm-rune); background: var(--fm-surface); }
+.metadata, .antal { color: var(--fm-muted); font-size: .95rem; margin: 0; }
+
+.siffror { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: .75rem; }
+.siffror li { background: var(--fm-surface); border: 1px solid var(--fm-stone); padding: .75rem 1rem; }
+.siffror strong { display: block; font-family: var(--fm-font-reading); color: var(--fm-manuscript); font-size: 1.7rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+
+.bokstaver { display: flex; flex-wrap: wrap; gap: .25rem; margin: 1.5rem 0 .5rem; }
+.bokstaver a { display: inline-block; min-width: 2rem; text-align: center; padding: .2rem .35rem; border: 1px solid var(--fm-stone); background: var(--fm-surface); text-decoration: none; font-weight: 600; }
+.bokstav h2 { border-bottom: 1px solid var(--fm-stone); padding-bottom: .25rem; }
+.kallor, .versioner { list-style: none; padding: 0; margin: 0; }
+.kalla { padding: .5rem 0 .75rem; border-bottom: 1px solid var(--fm-stone); }
+.kalla h3 { margin: .25rem 0 .1rem; font-family: var(--fm-font-reading); font-size: 1.25rem; }
+.versioner li { padding-left: 1rem; text-indent: -1rem; }
+.versioner li::before { content: "– "; color: var(--fm-muted); }
+.ogranskad { display: inline-block; text-indent: 0; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--fm-rune); border: 1px solid var(--fm-rune); padding: 0 .35rem; line-height: 1.5; }
+
+.uppdateringar { list-style: none; padding: 0; }
+.uppdateringar > li { border-bottom: 1px solid var(--fm-stone); padding-bottom: 1rem; }
+.uppdateringar h2 { font-size: 1.25rem; }
+.leveranser { padding-left: 1.25rem; }
+
+.sidfot { border-top: 1px solid var(--fm-stone); padding: 1.5rem 0 3rem; color: var(--fm-muted); font-size: .95rem; }
+.sidfot p { margin: .25rem 0; }
+
+/* Uppåtpilen på långa sidor: följer med vid skrollning, utan skript */
+.upp { position: fixed; right: 1rem; bottom: 1rem; z-index: 3; display: flex; align-items: center; justify-content: center;
+       width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--fm-manuscript); color: var(--fm-surface);
+       font-size: 1.4rem; font-weight: 700; text-decoration: none; box-shadow: 0 2px 6px rgba(30, 44, 48, .3); }
+.upp:hover { background: var(--fm-ink); }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Källtexterna */
+.dold { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.verk-uppgifter { background: var(--fm-surface); border: 1px solid var(--fm-stone); padding: .75rem 1rem; margin: 1rem 0 1.5rem; }
+.versionsval { list-style: none; padding: 0; margin: 0 0 .5rem; }
+.versionsval li { margin: .15rem 0; }
+.anmarkning { border-left: 3px solid var(--fm-rune); padding: .25rem .75rem; margin: .5rem 0; }
+.innehall ol { columns: 2 14rem; padding-left: 1.5rem; }
+.passage { border-bottom: 1px solid var(--fm-stone); padding: .25rem 0 .75rem; }
+.passage h3 { font-size: 1rem; color: var(--fm-muted); font-weight: 600; margin: 1rem 0 .25rem; }
+.kalltext p { margin: 0 0 .6rem; }
+.verk .kalltext { font-size: 1.2rem; line-height: 1.6; }
+.parallell .kolumner { display: grid; grid-template-columns: 1fr; gap: .5rem 1.5rem; }
+@media (min-width: 52rem) {
+  .parallell .kolumner { grid-template-columns: 1fr 1fr; }
+  main:has(.parallell) { max-width: 72rem; }
+}
+.sprakrubrik { font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; color: var(--fm-muted); margin: 0 0 .25rem; }
+.bladdra { display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0; font-weight: 600; }

@@ -1,0 +1,550 @@
+[
+ {
+  "id": 1,
+  "beslut": "A_fel",
+  "motivering": "Mottagaren är arvingarna ('tilfalde Arvingerne'); begrepp:arv betyder egendom eller arvsrätt och kan inte ta emot bot. Rättat objekt.",
+  "ny_rad": [
+   "gragas:3:dan:95",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=arvingarna, män eller kvinnor, oavsett vem som för talan",
+   "plats:island",
+   "Alle Bøder for Drabssager tilfalde Arvingerne, hvad enten de ere Mandfolk eller Qvinder, hvem der saa anlægger Sagen eller er søgsmaalsberettiget",
+   "Endast den rätte käranden får ge fullmakt att föra saken. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 2,
+  "beslut": "B_lagg_till",
+  "motivering": "'er der 2 Drabssager' när en havande kvinna dräps; fostrets dråp behandlas som andra dråpsaker. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:95",
+   "begrepp:drap",
+   "definieras_som",
+   "=dräps en kvinna som bär ett levande foster är det två dråpsaker, och fostrets dråp behandlas som andra dråpsaker",
+   "plats:island",
+   "Dersom en Qvinde, som bliver dræbt, er frugtsommelig med et levende Foster, er der 2 Drabssager, og Sagen angaaende Fosterets Drab skal behandles som andre Drabssager.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 3,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 1 (böterna till arvingarna), som rättas.",
+  "ny_rad": null
+ },
+ {
+  "id": 4,
+  "beslut": "B_lagg_till",
+  "motivering": "Myndiga arvsberättigade söner har 'Halvdelen af Bøderne' sinsemellan när hustrun dräps. A saknar regeln om bötesdelningen.",
+  "ny_rad": [
+   "gragas:3:dan:95",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den dräpta hustruns myndiga arvsberättigade söner, som delar hälften av böterna sinsemellan",
+   "plats:island",
+   "ere de lige delagtige med Manden i Søgsmaalsretten, ligesom de ogsaa ere berettigede til Halvdelen af Bøderne i Forhold til hinanden.",
+   "Mannen är kärande när hustrun dräps och de har arvsberättigade barn; myndiga söner delar talerätten med honom. Utan söner delar fadern eller brodern på fädernet talan med mannen, och en arvsberättigad frände tar hälften av böterna. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 5,
+  "beslut": "B_fel",
+  "motivering": "Vem som för talan ska enligt PROMPT.md stå i anmärkningen, inte som eget påstående; talerätt är inte något av de uppräknade delämnena. Modellerat orimligt. Uppgiften tas med i anmärkningen till den nya raden i id 4.",
+  "ny_rad": null
+ },
+ {
+  "id": 6,
+  "beslut": "B_lagg_till",
+  "motivering": "Samma grannar ger kvid både om dråpet och om den dräptes ofrid när dråpet skett för en kvinna. A har bara rätten att dräpa.",
+  "ny_rad": [
+   "gragas:3:dan:90",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|samma grannbönder ger kvid både om dråpet eller såren och om den dräptes ofrid, när han dräpts för en kvinna och samlaget inte fullbordats",
+   "plats:island",
+   "skulle de samme Nabobønder afgive Kvidudsagn saa vel om Drabet eller Saarene, der ere blevne tilføiede, som ogsaa om det, hvorpaa man vil begrunde den dræbtes Ufredhellighed.",
+   "Var samlaget fullbordat ger grannarna till dråpsplatsen kvid om dråpet och grannarna till platsen för samlaget kvid om det. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 7,
+  "beslut": "samma_regel",
+  "motivering": "Båda: dråp på bar gärning av den som våldtar en av de sex kvinnorna är ogilt.",
+  "ny_rad": null
+ },
+ {
+  "id": 8,
+  "beslut": "B_lagg_till",
+  "motivering": "'Landsforvisning er Straffen' för otillåten förlikning. A har påföljden bara i en anmärkning. Subjektet är förlikningen (dagtingan), inte dråpet.",
+  "ny_rad": [
+   "gragas:3:dan:98",
+   "begrepp:dagtingan",
+   "paforljd",
+   "begrepp:landsflykt|förlikning i dråpsak eller om större sår utan alltingets tillstånd",
+   "plats:island",
+   "Landsforvisning er Straffen, hvis man indgaaer Forlig i de Sager, hvilke ikke kunne forliges uden Tilladelse.",
+   "Talan förs först av närmaste fränder, annars av vem som vill. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 9,
+  "beslut": "samma_regel",
+  "motivering": "Båda: förlikning i dråpsak kräver alltingets tillstånd.",
+  "ny_rad": null
+ },
+ {
+  "id": 10,
+  "beslut": "samma_regel",
+  "motivering": "A:s rad om fränderbot för dråpare under tolv år säger också 'ingen fredlöshet'.",
+  "ny_rad": null
+ },
+ {
+  "id": 11,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B:s rad i olika_varde id 22 (tolvöresringen till kusinerna).",
+  "ny_rad": null
+ },
+ {
+  "id": 12,
+  "beslut": "A_ratt",
+  "motivering": "Bodförökarna (oäkta son, styvson, tre svågrar) tar 'tolv Ører og fem veiede Penninge'. B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 13,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B id 15 (fredslöfte i gengäld för fränderbot).",
+  "ny_rad": null
+ },
+ {
+  "id": 14,
+  "beslut": "B_lagg_till",
+  "motivering": "Deltog flera i dråpet ska käranden utkora en av dem till dråpare; annars kan fränderbot inte krävas. A saknar.",
+  "ny_rad": [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "=käranden ska utkora en av dem som deltog i dråpet till dråpare och kräva fränderboten av hans ätt; gör han det inte kan fränderbot inte krävas",
+   "plats:island",
+   "Dersom flere end een have deltaget i et Drab, skal Sagsøgeren, for Retten eller, ved Voldgift, for Voldgiftsmændene, udvælge en Mand til Drabsmand",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 15,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 13.",
+  "ny_rad": null
+ },
+ {
+  "id": 16,
+  "beslut": "samma_regel",
+  "motivering": "Att dråparens fränder betalar ringarna står i A:s rader om ringarna ('betald av dråparens fader, son och broder'); utkorandet täcks av id 14.",
+  "ny_rad": null
+ },
+ {
+  "id": 17,
+  "beslut": "B_lagg_till",
+  "motivering": "Käranden ska för domstolen räkna upp släktskapet mellan den svarande och dråparen och mellan sig och den dräpte. Bevisregel; A saknar.",
+  "ny_rad": [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "=käranden ska för domstolen räkna upp släktskapet mellan den svarande och dråparen och mellan sig och den dräpte",
+   "plats:island",
+   "Sagsøgeren skal for Domstolen opregne Frændskabet mellem den sagsøgte og Drabsmanden, og mellem sig og den dræbte.",
+   "Kravet ska resas samma sommar som dråpsaken förlikas eller anhängiggörs. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 18,
+  "beslut": "B_lagg_till",
+  "motivering": "Två mededsmän intygar på sin ära att släktskapsuppräkningen är riktig. A saknar.",
+  "ny_rad": [
+   "gragas:4:dan:113",
+   "begrepp:attebot",
+   "kraver",
+   "begrepp:ed|två mededsmän intygar på sin ära att släktskapsuppräkningen är riktig",
+   "plats:island",
+   "Han skal og have to Mededsmænd, som erklære paa deres Ære, at de troe, at den Frændskabsopregning er rigtig",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 19,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A:s rad om de fyra ringarna (olika_varde id 23).",
+  "ny_rad": null
+ },
+ {
+  "id": 20,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A:s rad om de fyra ringarna.",
+  "ny_rad": null
+ },
+ {
+  "id": 21,
+  "beslut": "samma_regel",
+  "motivering": "Ingår i A:s rad om de fyra ringarna.",
+  "ny_rad": null
+ },
+ {
+  "id": 22,
+  "beslut": "samma_regel",
+  "motivering": "Raderna korsar: B:s rad (tolvöresringen till kusinerna) motsvarar A id 11. A:s rad (ett öre i femte led) är riktig.",
+  "ny_rad": null
+ },
+ {
+  "id": 23,
+  "beslut": "samma_regel",
+  "motivering": "A:s rad tar upp alla fyra ringarna, B delar upp dem på id 19–21 och 23.",
+  "ny_rad": null
+ },
+ {
+  "id": 24,
+  "beslut": "A_ratt",
+  "motivering": "Käranden kallar nio grannbönder ('Man skal tilkalde 9 Nabobønder'), och motparten har rensningsrätt. Hur kviden utses; B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 25,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B id 30 (nio grannbönder närmast stridsplatsen).",
+  "ny_rad": null
+ },
+ {
+  "id": 26,
+  "beslut": "A_ratt",
+  "motivering": "'da er Straffen Landsforvisning' för den som stämmer en man bara för att göra honom oduglig som kvidman. Jävsregel; B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 27,
+  "beslut": "samma_regel",
+  "motivering": "Samma jävsgrund (andligt släktskap) som B id 28; bara subjektet skiljer.",
+  "ny_rad": null
+ },
+ {
+  "id": 28,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 27.",
+  "ny_rad": null
+ },
+ {
+  "id": 29,
+  "beslut": "B_lagg_till",
+  "motivering": "'En Mand, der ikke er dygtig til Thingreise, skal ikke tilkaldes som Medlem af Kviden'. A har förmögenhetskravet men inte detta.",
+  "ny_rad": [
+   "gragas:3:dan:89",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|man som inte är duglig till tingsresa, t.ex. av sjukdom",
+   "plats:island",
+   "En Mand, der ikke er dygtig til Thingreise, skal ikke tilkaldes som Medlem af Kviden",
+   "Duglig är den som kan rida fulla dagsresor och själv fånga sin häst. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 30,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 25.",
+  "ny_rad": null
+ },
+ {
+  "id": 31,
+  "beslut": "samma_regel",
+  "motivering": "Båda: dråpsak mellan kvidmannens och partens ätter diskvalificerar (fiendskap).",
+  "ny_rad": null
+ },
+ {
+  "id": 32,
+  "beslut": "B_lagg_till",
+  "motivering": "Vansinnesgärning föreligger bara om grannbönder ger kvid om det. A har kravet bara i en anmärkning; bevisregeln bör stå som eget påstående.",
+  "ny_rad": [
+   "gragas:3:dan:93",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|grannbönder ska ge kvid om att den vansinnige tidigare tillfogat sig själv livsfarliga skador, för att dråpet ska räknas som vansinnesgärning",
+   "plats:island",
+   "ansees det dog kun som Vanvids-Gjerning, dersom Nabobønder ville give Kvidudsagn om at dette er Tilfældet.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 33,
+  "beslut": "samma_regel",
+  "motivering": "Båda: den vansinnige straffas som en man vid sina sinnen.",
+  "ny_rad": null
+ },
+ {
+  "id": 34,
+  "beslut": "samma_regel",
+  "motivering": "Ersättningen för trälens värde står i A:s rad (olika_varde id 39); B tillför bara värderingen av fem grannar.",
+  "ny_rad": null
+ },
+ {
+  "id": 35,
+  "beslut": "B_lagg_till",
+  "motivering": "'Dersom Herren dræber sin Træl, straffes han ikke derfor' – enligt konventionen en egen rad med begrepp:ogild. A har det bara som 'annars straffritt' i landsflyktsraden.",
+  "ny_rad": [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|herre som dräper sin egen träl, utom under helgtid eller långfastan",
+   "plats:island",
+   "Dersom Herren dræber sin Træl, straffes han ikke derfor, med mindre han gjør det paa hellige Tider eller i Langefasten",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 36,
+  "beslut": "B_lagg_till",
+  "motivering": "En frände som kan vara giltig tingman för herrens gård straffas inte för att dräpa trälen men ska betala hans värde. A saknar. Inte helt ogilt, eftersom värdet ska ersättas.",
+  "ny_rad": [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "=ingen straff men trälens värde ska ersättas, när en frände som kan vara giltig tingman för herrens gård dräper trälen",
+   "plats:island",
+   "Dersom en Mand, der paa Grund af sit Slægtskab til Herren, kan være gyldig Thingmand for hans Gaard (7), dræber hans Træl, da straffes han ikke derfor, men skal betale Trællens Værdi.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 37,
+  "beslut": "B_lagg_till",
+  "motivering": "Herren straffas inte för att dräpa trälen för förolämpningar som skulle göra en fri man ofridshelig, oavsett tid. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|herre som när som helst dräper sin träl för förolämpningar som skulle göra en fri man ofridshelig",
+   "plats:island",
+   "Ikke straffes han for Trællens Drab, til hvad Tid han saa dræber ham, dersom han udøver Drabet formedelst Fornærmelser, for hvilke en fri Mand vilde falde ufredhellig.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 38,
+  "beslut": "B_lagg_till",
+  "motivering": "'straffes hans Drab med Fredløshed' när trälen försvarar sin herre. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:111",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråp på träl som löper mot motståndarens vapen för att försvara sin herre",
+   "plats:island",
+   "Naar en Træl, for at forsvare sin Herre, løber imod Modstanderens Vaaben, straffes hans Drab med Fredløshed, ifald han derved faaer Bane.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 39,
+  "beslut": "samma_regel",
+  "motivering": "Båda: landsflykt för dråp på annans träl.",
+  "ny_rad": null
+ },
+ {
+  "id": 40,
+  "beslut": "A_ratt",
+  "motivering": "Försvarskviderna tas ut ur söksmålskviden, fem grannbönder. Bevisregel vid vådagärning; B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 41,
+  "beslut": "samma_regel",
+  "motivering": "Båda: vådagärning fritar i princip inte från straff.",
+  "ny_rad": null
+ },
+ {
+  "id": 42,
+  "beslut": "samma_regel",
+  "motivering": "Regeln är uppdelad på B id 43 och 44.",
+  "ny_rad": null
+ },
+ {
+  "id": 43,
+  "beslut": "samma_regel",
+  "motivering": "Finns i A id 42.",
+  "ny_rad": null
+ },
+ {
+  "id": 44,
+  "beslut": "samma_regel",
+  "motivering": "Finns i A id 42.",
+  "ny_rad": null
+ },
+ {
+  "id": 45,
+  "beslut": "A_utanfor",
+  "motivering": "Lejdebrott (griðrof) är inte kungens edsöre, och flocken nämner inte dråp. Lejdeformeln hör inte till något av ämnena.",
+  "ny_rad": null
+ },
+ {
+  "id": 46,
+  "beslut": "A_fel",
+  "motivering": "Böterna tillfaller den dräptes fränder och delas mellan släktlinjerna 'som Arv'. Begrepp:arv är egendom eller arvsrätt, inte en mottagare. Rättat objekt.",
+  "ny_rad": [
+   "gragas:3:dan:94",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den dräptes fränder, fördelat mellan släktlinjerna på samma sätt som arv",
+   "plats:island",
+   "Søgsmaalsret og Bøder for Drab deles paa samme Maade mellem Linierne i Slægtfølgen som Arv",
+   "Talan förs av den dräptes son (16 år, friboren, arvsberättigad), därefter fader, broder på fädernet, broder på mödernet, oäkta son, oäkta broder, sedan närmaste arvsberättigade frände. Bröder på fädernet tar lika delar. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 47,
+  "beslut": "samma_regel",
+  "motivering": "Talerättens ordning (son över 16 år först) står i anmärkningen till A id 46, där den enligt PROMPT.md hör hemma.",
+  "ny_rad": null
+ },
+ {
+  "id": 48,
+  "beslut": "A_ratt",
+  "motivering": "'tilkommer Prisen paa hans Hoved den, der først saarede ham' – rör dråp på fredlös. B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 49,
+  "beslut": "A_ratt",
+  "motivering": "'brænde de Folk ... inde, straffes de med Fredløshed' – innebränning dödar människor. B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 50,
+  "beslut": "B_lagg_till",
+  "motivering": "'dræbe de en fredløs paa et andet Sted end befalet er, straffes det med 3 Marks Bøder'. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:109",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre mark för att dräpa en fredlös på annan plats än den föreskrivna, mer än ett pilskott från där han greps",
+   "plats:island",
+   "Men dræbe de en fredløs paa et andet Sted end befalet er, straffes det med 3 Marks Bøder",
+   "Domstolen ålägger dem att föra bort den fredlöse inom fjorton nätter; markägaren för talan. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 51,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B id 54 (dubbel personlig bot på alltinget).",
+  "ny_rad": null
+ },
+ {
+  "id": 52,
+  "beslut": "samma_regel",
+  "motivering": "A:s rad tar både fredlöshet och halv förhöjning; B delar upp regeln på id 55 och 56.",
+  "ny_rad": null
+ },
+ {
+  "id": 53,
+  "beslut": "A_ratt",
+  "motivering": "Bodkvid från de tre närmaste bodarna, tre män från varje. B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 54,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 51.",
+  "ny_rad": null
+ },
+ {
+  "id": 55,
+  "beslut": "samma_regel",
+  "motivering": "Finns i A id 52.",
+  "ny_rad": null
+ },
+ {
+  "id": 56,
+  "beslut": "samma_regel",
+  "motivering": "Finns i A id 52.",
+  "ny_rad": null
+ },
+ {
+  "id": 57,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B id 58 (fjärdingsrätten för den fjärding där gärningen skedde).",
+  "ny_rad": null
+ },
+ {
+  "id": 58,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 57.",
+  "ny_rad": null
+ },
+ {
+  "id": 59,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som B id 60 (den som dräper efter givet fredslöfte jagas som varg).",
+  "ny_rad": null
+ },
+ {
+  "id": 60,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A id 59.",
+  "ny_rad": null
+ },
+ {
+  "id": 61,
+  "beslut": "A_ratt",
+  "motivering": "Lagsagomannen 'bør udnævnes i Lovretten'; han är den som säger lagen, alltså förkunnar den (jfr stiftar_lag). B saknar.",
+  "ny_rad": null
+ },
+ {
+  "id": 62,
+  "beslut": "B_lagg_till",
+  "motivering": "'ansees de ufredhellige, der laae i Bagholdet, hvis de blive dræbte' även om motparten angrep först. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:108",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som ligger i bakhåll och dräps, även om de han lade bakhållet för angrep först",
+   "plats:island",
+   "uagtet de, imod hvilke Bagholdet blev lagt, have begyndt Angrebet, ansees de ufredhellige, der laae i Bagholdet, hvis de blive dræbte.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 63,
+  "beslut": "B_fel",
+  "motivering": "Vem som för talan ska enligt PROMPT.md stå i anmärkningen, inte som eget påstående; talerätt är inte något av de uppräknade delämnena. Modellerat orimligt.",
+  "ny_rad": null
+ },
+ {
+  "id": 64,
+  "beslut": "B_lagg_till",
+  "motivering": "Den som dräper en fredlös ska lysa dråpet samma dygn, annars kan han inte kräva priset på hans huvud. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:110",
+   "begrepp:drap",
+   "kraver",
+   "=den som dräper en fredlös ska lysa dråpet samma dygn för en man med fast hem på gården, annars kan han inte kräva priset på den fredlöses huvud",
+   "plats:island",
+   "Naar man dræber en fredløs, skal man lyse Drabet i samme Etmaal og forkynde det for en Mand, som har fast Hjem [paa Gaarden].",
+   "Hakparentesen är översättarens. Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 65,
+  "beslut": "B_lagg_till",
+  "motivering": "Lagens definition: dråp på fredlös räknas som mord bara om kviden säger att han ville hemlighålla det. A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:110",
+   "begrepp:mord",
+   "definieras_som",
+   "=dråp på en fredlös räknas som mord bara när kviden intygar att dråparen ville hemlighålla det",
+   "plats:island",
+   "kun da skal Drabet af en fredløs ansees for Mord, naar Kviden giver Udsagn om, at han vilde holde det hemmeligt.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 66,
+  "beslut": "B_fel",
+  "motivering": "Vem som för talan ska enligt PROMPT.md stå i anmärkningen, inte som eget påstående; talerätt är inte något av de uppräknade delämnena. Modellerat orimligt. (Att gäldträlen får så mycket av böterna som hans skuld uppgår till har B inte tagit ut.)",
+  "ny_rad": null
+ }
+]

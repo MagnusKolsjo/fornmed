@@ -1,0 +1,740 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Hälsingelagen, extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/halsingelagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:halsingelagen:stycke_6",
+   "begrepp:kung",
+   "stiftar_lag",
+   "=lagen är satt först av Gud och sedan av vår konung, med samtycke av välborna män och hela allmogen",
+   "plats:sdhk:halsingland",
+   "konunge warom. mæþ samþykkæ wælbornæ mannom ok allan almoghanom.",
+   "Meningen börjar i stycke 5: 'for þy ær lagh skipæt. först af guþy ok swa af'. Kungen namnges inte."
+  ],
+  [
+   "lag:halsingelagen:stycke_6",
+   "begrepp:allmoge",
+   "stiftar_lag",
+   "=samtyckte till lagen tillsammans med välborna män",
+   "plats:sdhk:halsingland",
+   "mæþ samþykkæ wælbornæ mannom ok allan almoghanom."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på någon annan än den som gjorde gärningen",
+   "plats:sdhk:halsingland",
+   "hwar som hæmpnis aa annan. ok annar giorþe giærþunæ.",
+   "Edsöresmålen gäller 'wm alt sweriki'."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas efter gången ed eller laga åtal",
+   "plats:sdhk:halsingland",
+   "hwar sum hæmpnis a giorþ lagh ok gangin. aller lagha till mællæ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_1",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|tolv män prövar om hämnden drabbade annan än gärningsmannen",
+   "plats:sdhk:halsingland",
+   "þæt skulu XII. mæn vita. hwat hælder han hæmpdis aa aanan ok annar giorþi gærningunæ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att fara till annans hem med uppsåt att skada och såra, slå blodvite, dräpa eller binda någon saklös i gården",
+   "plats:sdhk:halsingland",
+   "far man hem ad aþrom. een aller fleræ. ok þæs wiliændæs hanom skaþa giöræ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:fredloshet|alla deltagare fredlösa och deras bo till skifte",
+   "plats:sdhk:halsingland",
+   "þer læggiæs allir biltughir. ok þerræ bo til skiftis.",
+   "Var och en är huvudman för sig."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|sex marker i tredelning om ingen skada skett utom att huset bröts och eden faller",
+   "plats:sdhk:halsingland",
+   "falder at eþæ. böta VI marker [i] þriþiung hwarn."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:ed|fjorton mäns ed för att neka när ingen skada skett",
+   "plats:sdhk:halsingland",
+   "dyli mæþ XIIII mannæ eþæ.",
+   "Dalalagen och Yngre Västmannalagen har tolv mäns ed."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den hemsökande som dräps innanför gård och grindstolpar",
+   "plats:sdhk:halsingland",
+   "warþer han {slaglin} [slaghin] sarghæþær. æller dræpin innæn garþ ok grindæ stolpæ liggi ogilder."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att gå ut ur gården, hämta vapen eller följe och gå åter för att angripa; men inte gräl mellan dem som kom sams",
+   "plats:sdhk:halsingland",
+   "vtan han ganger af þem garþæ. ok faar sik wakn [æller] fylghæ. ok ganger ater till hans ok gör fullæ gærþ. þæt ær hemsokn."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att rida till gården för sina ovänner och skjuta eller kasta så att någon i gården skadas",
+   "plats:sdhk:halsingland",
+   "Rinder man at garþa for ovinum sinum. skiuter till hans æller kastær. far þæn skaþæ i garþænom stander. þæt ær hemsokn."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn där man i gården sårar, slår blodvite, dräper eller binder den som är saklös",
+   "plats:sdhk:halsingland",
+   "sargha. sla till blooz. dræpa. bastæ. æller bindæ þæn saklöz ær.\nþe hawi allir brutit konungx ezöræ.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_3",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:namnd|tolv män prövar vad som är sant",
+   "plats:sdhk:halsingland",
+   "witi þæt XII. mæn. hwat þær ær sant wm."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_3",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|halshuggning om han tas på färsk gärning och tolv män vittnar",
+   "plats:sdhk:halsingland",
+   "Taker man kunu mæþ wald ok warþr han takin a færskö gæning. ok witnæ swa XII. mæn. þa a han wndir swærþ dömæs."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_3",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldtäktsmannen som kvinnan dräper under övergreppet",
+   "plats:sdhk:halsingland",
+   "dræper hon han i þy. ok witnæ swa XII. mæn ligiæ ogilder."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_3",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|rövar han kvinnan ur landet får han aldrig frid förrän hennes make ber för honom",
+   "plats:sdhk:halsingland",
+   "þa a han aldri friþ fa. för æn konunnæ giftæman biþer fori hanom"
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_3",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldtäkt mot kvinna",
+   "plats:sdhk:halsingland",
+   "Taker man kunu mæþ wald",
+   "Flocken står i edsöresbalken, som säger att dess mål är kungens edsöre. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att i försåt på kyrkväg eller tingsväg dräpa, såra eller slå blodvite",
+   "plats:sdhk:halsingland",
+   "Sitær man a kyrkiu wægh. æller a þing wæg fore manne. ok dræper han. sarghær æller bloþuitæ slaar. han hawr brutit konungx ezöre."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte edsöre när striden på kyrk- eller tingsväg kommer av plötslig gärning och inte av långvarigt agg",
+   "plats:sdhk:halsingland",
+   "ok æy aff langæ awnd. vtan aff braþum gærningum. þær ær ay konungx eþzöræ brutit."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_5",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att leda bort någon och hugga av händer eller fötter, utom i vapenskifte",
+   "plats:sdhk:halsingland",
+   "Taker man annan ok leþær til stok ok hugger af hænder. æller fötir. þær ær konungx eþzöra brutit. wtæn þæt koma ii waghnæ skifptæ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_5",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|lagliga böter när kvinna eller omyndig gör gärningen",
+   "plats:sdhk:halsingland",
+   "Gör kuna æller owrmaghi þylikæ gærnungær. bötæ mæþ laghabotum. æy ma kona æller owormaghi friþ fly"
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|fredlös över hela riket tills målsäganden ber för honom",
+   "plats:sdhk:halsingland",
+   "biltugher læggiæs wm alt rikit. ok aldri i friþ at koma. för æn þæn biþer fore hanom som han bröt till."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkar all egendom ovan jord och landsvist",
+   "plats:sdhk:halsingland",
+   "han hawer allæ þy forgiort. þy som han a owan aa iorþænnæ ok swa mangir som þer æru. ok swa landzuist."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=bara den brottsliges egen lott förverkas; ingen förverkar annans gods, inte far för son, son för far eller bror för bror",
+   "plats:sdhk:halsingland",
+   "Nu ma ængin annars for giöræ. æy faþur sönz. ok æy syn faþurs.\nok æi broþer broþærs.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av den brottsliges lott",
+   "plats:sdhk:halsingland",
+   "en luth taker malzeghandön. annan konunger. ok þriþiæ allir mæn.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av den brottsliges lott",
+   "plats:sdhk:halsingland",
+   "en luth taker malzeghandön. annan konunger. ok þriþiæ allir mæn.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:landskap|en tredjedel av den brottsliges lott",
+   "plats:sdhk:halsingland",
+   "en luth taker malzeghandön. annan konunger. ok þriþiæ allir mæn.",
+   "Det förverkade godset; 'allir mæn' tolkat som landet."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen för att lösa sig i frid",
+   "plats:sdhk:halsingland",
+   "þa aa konunger hanom giwi friþ. ok lösæ sik ii friþ wiþ konung mæþ XL markum"
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=båda parterna, kärande och svarande, samtycker till nämndemännen",
+   "plats:sdhk:halsingland",
+   "þa skulu þær baþir wiþ wæræ. ok ia wiþer sighiæ kiærændi ok swarænæ ok þær næmpnis a þe næmpd sum þer baþir sighiæ ia wiþer."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|tolv män ur samma skeppslag; den de värjer är värjd och den de fäller är fälld",
+   "plats:sdhk:halsingland",
+   "þæn þe XII wæriæ. han ær warþer. þæn ær ok fallin þer fællæ. mæþ synom eþæ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:ting|inför kungens are när han tingar i Hälsingland på kungens vägnar",
+   "plats:sdhk:halsingland",
+   "þæssær næmpdur agha giöræs fora konungx aræ þa han þingtær i hælsingiæ landi a. konungx vægna."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=kungens man nämner för den part som vägrar nämna",
+   "plats:sdhk:halsingland",
+   "Wil annar næmpna ok annær æy. þa næmpni konungx man foræ þæn som æy wil næmpnæ."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=nämnd ur samma skeppslag som gärningen skedde i",
+   "plats:sdhk:halsingland",
+   "ok þæssæ næmpd skal göræs af samæ skiplaghi sum giærningun ær giorþ ii."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|trehundra marker för hugg eller dråp på kungens are i hans frid",
+   "plats:sdhk:halsingland",
+   "aff hug æller dööz drap þryhundraþæ marker.",
+   "Kungens ares frid på tinget och där han tar gästning."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|halva gälder när omyndig under tolv år dräper eller sårar",
+   "plats:sdhk:halsingland",
+   "Dræper owormaghi man. þæn minnæ ær æn XII. ara. æller sarghær. gialdi halwm gialdum.",
+   "Dalalagen räknar omyndigs dråp som våda (sju marker) och sätter gränsen vid femton år."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|halva gälder när vansinnig som slipper lös ur häkte dräper",
+   "plats:sdhk:halsingland",
+   "slipper han löös ok dræper man. æller brænner by æller gör {annær} [annæn] skadha: Liggi i halwm giældum."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_2",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män avgör om gärningsmannen är vansinnig eller omyndig",
+   "plats:sdhk:halsingland",
+   "Nu sigher annar galin man wara, æller owormagha, ok annar æy: Witin thet tolf mæn, hwat hælder ær."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_3",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|sju marker",
+   "plats:sdhk:halsingland",
+   "Warder man dræpin medh wadha: Siu marker ær wadha both."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_3",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=handlös våda, att skjuta spjut, kasta sten eller skjuta med båge över hus utan att se var det slår ned",
+   "plats:sdhk:halsingland",
+   "Nu skiuter man spiuti, æller kastar stene, ællær skiutær af bogha iwer hws, ok seer ey hwar thet nidher komber, æller af nokru andru: Thet ær handlös wadhi."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_3",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|handlös våda kan styrkas med vittnen utan målsägandens vilja",
+   "plats:sdhk:halsingland",
+   "HAndlös wadhi ma fyllæs medh witnum vthan malsæghanda wilia, ok engin annær wadhi."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_3",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|halva gälder för olyst självskott i skogen",
+   "plats:sdhk:halsingland",
+   "Lysær han ey. ok æru ey treggiæ manna witni til: Liggi tha j halwm giældum, fore glömsko sinæ."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_3",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaeder ska gås på laga stämma",
+   "plats:sdhk:halsingland",
+   "Alle wadha edhe aghu\ngangas j lagha stæmnum.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|tolv mäns vådaed i laga stämnor",
+   "plats:sdhk:halsingland",
+   "tha a biudha wadha edh fore, tolf manna, ok fylli i lagha stempnum,",
+   "Eden bjuds vid gravbacken, inför socknen och på ett ting."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela vådaboten om sju marker",
+   "plats:sdhk:halsingland",
+   "Ok böte siu marker malsæghandi."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=dödande genom fall från mast, fallande hus, öppen brunn, sten, stock, skeppsdragning, trädfällning eller jaktskott",
+   "plats:sdhk:halsingland",
+   "Falder hws a man, æller widha kaster, far af bana: Liggi i wadha giældum."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaed när fader eller moder dräper sitt barn av våda",
+   "plats:sdhk:halsingland",
+   "Dræper fadher æller modher sitt barn medh wadha, ok æy medh wilia, qwæl sidhan annæt theræ annæt: Wæri sik medh wadha edhe,",
+   "Ingen annan får väcka saken; biskopen bestämmer skriftermålet."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som klättrar i masten för nöjes skull och störtar",
+   "plats:sdhk:halsingland",
+   "Kliwer fore kæti skyld: Wari o böter.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|två som fäller samma träd och båda dör",
+   "plats:sdhk:halsingland",
+   "Hogga twe træ ett, fa badhin bana:\nLiggin o bötter.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_4",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|halv bot när någon klättrar i masten på skepparens begäran och störtar",
+   "plats:sdhk:halsingland",
+   "Klywer man i siægl træ medh bön skipara, falder nidher, ok far af bana:\nLiggi i halwm giældum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_5",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker, kungens ensak, om skeppslaget inte finner banemannen inom natt och år",
+   "plats:sdhk:halsingland",
+   "Tær a skjpnöti bana finnæ innæn natt ok iamlanga, ællær botum vppi halda, fyratighi marker, Kunungx ensak.",
+   "Dulgadråp."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|hundra marker i tredelning när liket hittas i låst hus",
+   "plats:sdhk:halsingland",
+   "Hittis i læstum husum, Böte hundradha til treskiptis, then husit a: æn ey kan then finnæs bani ær."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_5",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|sex män avgör om handaverk syns på liket",
+   "plats:sdhk:halsingland",
+   "Sigher annær handawærk a wara, ok annær ey: Witin thet sex mæn,"
+  ],
+  [
+   "lag:halsingelagen:hl_mb_6",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|graderad efter hur långt in angreppet sker, högst tjugofyra bogar i var tredjedel i sängen",
+   "plats:sdhk:halsingland",
+   "Warder man slaghin i siæng sinni: Fiura ok tiughu boghar i tridhiung hwarn.",
+   "Bötesskalan börjar 'sum ytærst ganger horn ok howa i'."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_6",
+   "begrepp:boter",
+   "tillfaller",
+   "=målsägande, kung och alla män, oftast i tredelning",
+   "plats:sdhk:halsingland",
+   "Thær ær both halwer öræ malsatta, atta öræ konungi, ok atta öræ allum mannum.",
+   "Gäller hemsökningsboten i flocken."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tockabot|tockabot, tolv marker för kungens man, sex för biskopens, tre för riddares sven",
+   "plats:sdhk:halsingland",
+   "Warder Konungx man dræpin: Tolf marker tokka both at. Biskups man: Siæx marker. Riddara swenæ, trea marker."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_7",
+   "begrepp:tockabot",
+   "tillfaller",
+   "=den dräptes herre (tockaboten)",
+   "plats:sdhk:halsingland",
+   "Taki the both herra thes sum dræpin ær."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_10",
+   "begrepp:drap",
+   "definieras_som",
+   "=sår räknas som dödssår i dag och år",
+   "plats:sdhk:halsingland",
+   "SWa længi skal man sarum warda: Fore liflati, dagh ok iamlanga.",
+   "Den som tar sårbot inom året har förtagit sin dråpsbot."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_16",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|mördare steglas, rånare halshuggs",
+   "plats:sdhk:halsingland",
+   "þa skal raansman wndir swærþ. ok morþare a stæghl.",
+   "När han gripits på skog eller skepp på bar gärning; målsäganden kan välja lösen i stället."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_16",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|tolv män värjer eller fäller",
+   "plats:sdhk:halsingland",
+   "þæt skulu XII. mæn witæ. wæriæ þe han. wæri saklös."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_21",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|åttio marker till målsägande när omyndig under tolv år dräps med harms hand",
+   "plats:sdhk:halsingland",
+   "LXXX marker boot at malsattæ ok friþ bruth halfwæ höghræ æn foræ görin man",
+   "Fridsbrottsboten är hälften högre än för vuxen."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_22",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män avgör om maken dräpte hustrun av våda vid aga eller med vilja",
+   "plats:sdhk:halsingland",
+   "Faar bondæ dræpæ hustru sinæ. wildæ raþa hænnæ. ok æy dræpæ hona. þæt skulu XII mæn witæ."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv om maken fälls för viljaverk",
+   "plats:sdhk:halsingland",
+   "fællæ þe han till wiliæ wærks. gifwi liif foræ liif.",
+   "Samma lag när hustru dräper man."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|hundrafyrtio marker om hustruns arvingar vill ta bot",
+   "plats:sdhk:halsingland",
+   "wiliæ arfwr hænnæ böter taka. þee boot a wæræ hundræþæ marker ok XL."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|hundrafyrtio marker och skild från arv vid dråp på barn, förälder, bror eller syster",
+   "plats:sdhk:halsingland",
+   "bötæ hundræþæ marker ok XL. ok wæri skild viþer arff"
+  ],
+  [
+   "lag:halsingelagen:hl_mb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sextiofem marker av de hundrafyrtio",
+   "plats:sdhk:halsingland",
+   "Þæssæ giald skulu swa skiptis taker malsattæ.LXV marker."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtiofem marker genom kungens länsman till kungens bord",
+   "plats:sdhk:halsingland",
+   "konungx lænzman till konungx boorþ XLV marker."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:skeppslag|trettio marker av de hundrafyrtio",
+   "plats:sdhk:halsingland",
+   "ok XXX marker skiplaghit.",
+   "Skeppslaget motsvarar hundaret. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_24",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|den som dräper sin rätte herre förverkar liv och gods",
+   "plats:sdhk:halsingland",
+   "swa ok hwa sin rættæn hærræ dræper. giældæ bæþæ liik ok gooz foræ."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_25",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|biskopens rätt när präst eller klerk dräper bonde eller klerk",
+   "plats:sdhk:halsingland",
+   "Dræper præster bondæ. æller annan klarker. þa taki konunger biscups rætten."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_25",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|kungens rätt när bonde dräper präst eller klerk",
+   "plats:sdhk:halsingland",
+   "Dræper bonde præst æller annan klarker. taki þa biscuper konungx rættæn"
+  ],
+  [
+   "lag:halsingelagen:hl_mb_26",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|åtta fastar och förlikningsmän för att bevisa dråpsförlikning och bot",
+   "plats:sdhk:halsingland",
+   "Swa skal man witæ drap sææt ok bööt. mæþ atta fastum ok forskilæ {manni} [mannum].",
+   "Förlikningen ska ske vid kyrkan eller på tinget för att stå fast."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|högst fyrtio marker från skeppslaget om banemannen inte finns när någon dräps ute på öarna",
+   "plats:sdhk:halsingland",
+   "æy aa þe boot höghræ wæræ æn XL. marker"
+  ],
+  [
+   "lag:halsingelagen:hl_mb_30",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som dräps med stulet fä om tolv män fäller honom",
+   "plats:sdhk:halsingland",
+   "Dræpir man annan mæþ {þiufstolin} [þiufstolno] fæ. sighiæ arfwingæ þæs döþæ han saklösin dræpin wæræ. þæt skulu XII mæn witæ. fællæ þe han þæn sum dræpin ær. liggi ogilder."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:drap",
+   "paforljd",
+   "=målsäganden väljer mellan hämnd och bot",
+   "plats:sdhk:halsingland",
+   "hafwi maalseiande wald hfwat han wil hælder hæmpnæ æller {ællr} wiþ botum taka.",
+   "Gäller när dråpet lagligen erkänns."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:malsagande|sju marker vägnar",
+   "plats:sdhk:halsingland",
+   "þa skal han hafwa VII. marker wæghnær æller swa mykyt þe giældæ.",
+   "Osäker tolkning av 'wæghnær'."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:kung|fyra marker 'wærold'",
+   "plats:sdhk:halsingland",
+   "konunger wærold.IIII. marker.",
+   "Osäker tolkning av 'wærold'."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|femton marker vardera för haldbane och rådbane",
+   "plats:sdhk:halsingland",
+   "hald bani. ok raaþbani hwar þeræ giældi XV. marker. æller dyli mæþ XIIII mannæ eþe."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|fjorton mäns ed för haldbane eller rådbane som nekar",
+   "plats:sdhk:halsingland",
+   "æller dyli mæþ XIIII mannæ eþe."
+  ],
+  [
+   "lag:halsingelagen:hl_mb_38",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|fader eller moder sexton öre, bror åtta, hustru tolv, nedåt till fjärde led",
+   "plats:sdhk:halsingland",
+   "Faþur æller moþer taki æftir sun sin XVI. öræ broþer VIII. öræ. hustru XII. öræ.",
+   "Ättebot betalas en gång."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_10",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|vittne får bara bjudas i mål om dråp, sår och rån och i värjandes vitsord",
+   "plats:sdhk:halsingland",
+   "Uitni ma. ængin a annan byuþæ wtan for þæsssæ maal draap. saar. raan."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "=väljs; syslomännen sätter domen i hans händer, den som har kungens makt därtill",
+   "plats:sdhk:halsingland",
+   "skulu laghman wæliæ. ok syslæmæn skulu hanom domæ i hænder sætiæ. þæn konungx wald hafwr þær till.",
+   "Början av flocken saknas, så det framgår inte vem som väljer."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_10",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:vittne|fader, son eller bror för varandra",
+   "plats:sdhk:halsingland",
+   "Æi ma faþer æller son æller broþer witnj bæræ."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_10",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:edgard|fader, son eller bror i ed med varandra",
+   "plats:sdhk:halsingland",
+   "æller i eþum satandæ hwar þeræ mæþ aþrum."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_10",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|den som står i skrift utanför kyrkan",
+   "plats:sdhk:halsingland",
+   "ok æy þæn man i skriptum ær. mæþæn han vtan kyrkiu stander",
+   "Gäller även ed."
+  ],
+  [
+   "lag:halsingelagen:hl_tb_12",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|kvinna utom i mål om barnsbörd och om skada mellan fä och människa",
+   "plats:sdhk:halsingland",
+   "I þæma malum ma kuna swæriæ. ok witni bæræ. þæt ær þæt förstæ æn hun ær þa innæ barn föþæs.",
+   "Jävet framgår motsatsvis."
+  ],
+  [
+   "lag:halsingelagen:hl_kgb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "=halv nämnd som båda parter godtar, i mål om att hysa fredlös",
+   "plats:sdhk:halsingland",
+   "æller raþæ halfwre næmpd hwat\nhon wil hælder wæriæ æller fællæ. þe sum þe sighiæ baþir ia wiþer.",
+   "Rättat efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

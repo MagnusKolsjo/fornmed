@@ -1,0 +1,3848 @@
+[
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_119",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_119",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker och tylftered att trälen inte var mer värd, för en dräpt träl",
+   "plats:skane",
+   "Uarþær manz þræl dræpin. bötæ hin atær ær han drap mæþ þre marc oc a tylter eþ at han war ey bæþræ.",
+   "Alternativt lägger dråparen till så mycket som ägaren vill."
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_119",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre mark när träl dödas",
+   "plats:skane",
+   "Uarþær manz þræl dræpin. bötæ hin atær ær han drap mæþ þre marc"
+  ],
+  "id": 1
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_102",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker när ägarens djur av blid natur, hjort eller hök, dräper en man",
+   "plats:skane",
+   "swa sum hiort ællær hök oc dræpæ þe man. bötæ hin ær þæm a þre marc.",
+   null
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre mark när tamt djur dödar människa",
+   "plats:skane",
+   "oc dræpæ þe man. bötæ hin ær þæm a þre marc."
+  ],
+  "id": 2
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_102",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio marker när ägarens djur av grym natur, björn eller varg, dräper en man",
+   "plats:skane",
+   "þe ær af grymmæ naturæ æræ. oc dræpæ þe man. bötæ han ær þem a ni marc.",
+   "Står i spänning med SkL 101 som kräver full mansbot."
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_102",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio mark när hållet grymt djur dödar människa",
+   "plats:skane",
+   "oc dræpæ þe man. bötæ han ær þem a ni marc."
+  ],
+  "id": 3
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv rådmän när sex mäns vittne saknas",
+   "plats:sdhk:stockholm",
+   "æru eig sex mannæ vitni til. æller væri sik meþ XII. raþmannum"
+  ],
+  "id": 4
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|40 mark särskilt",
+   "plats:sdhk:stockholm",
+   "fyst firitighi markær kunuginum sundærlikæ.",
+   "Edsöresboten för hemsökn."
+  ],
+  "id": 5
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:boter",
+   "tillfaller",
+   "=40 mark till treskifte",
+   "plats:sdhk:stockholm",
+   "ok XL. markær til þræskiptis.",
+   "Edsöresboten för hemsökn; flocken anger inte vilka de tre delägarna är (jfr BjR 14 och 21: målsäganden, fogden och staden)."
+  ],
+  "id": 6
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna, vardera hälften av de tolv bymännen",
+   "plats:sdhk:stockholm",
+   "ok raþi halwi næmþ hwar þeræ.",
+   "Tolkning: 'vardera av dem råder över halva nämnden'. De tolv ska vara bymän."
+  ],
+  "id": 7
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne på vardera sidan av vägen, ovan och nedan gården",
+   "plats:sdhk:stockholm",
+   "æru þær til sex mannæ vitni hwarn wæghin. owæn hans garþ æller niþan.",
+   "Läsningen av 'hwarn wæghin' (åt vardera hållet) är osäker."
+  ],
+  "id": 8
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne, dråp i badstuga",
+   "plats:sdhk:stockholm",
+   "liggi i twæböte en sex manna vitni æru til."
+  ],
+  "id": 9
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|fullt kungens edsöre: 40 mark till kungen särskilt och 40 mark till treskifte",
+   "plats:sdhk:stockholm",
+   "böte fult kononx ezsöre. fyst firitighi markær kunuginum sundærlikæ. ok XL. markær til þræskiptis.",
+   "Gäller den som går hem till någon med vredes hand och gör honom blå och blodig."
+  ],
+  "id": 10
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:namnd|tolv bymän värjer eller fäller när vittnen saknas",
+   "plats:sdhk:stockholm",
+   "þa skulu tolf mæn wæriæ han. æller fellæ þe sum ware byæmæn æru.",
+   "När saken bara bygger på rop och åkallan."
+  ],
+  "id": 11
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|lagligen överbevisad med sex män",
+   "plats:sdhk:stockholm",
+   "warþær maþær laghlikæ til wnnin meþ sex mannum."
+  ],
+  "id": 12
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv rådmän när vittnen saknas, dråp i badstuga",
+   "plats:sdhk:stockholm",
+   "æru eig vitni til. væri sik meþ XII raþmannum. alt þæt i bastuwu giors sarum æller drapum."
+  ],
+  "id": 13
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|förverkat halsen eller 40 mark",
+   "plats:sdhk:stockholm",
+   "hawi fore giort halsinum æller XL. markum.",
+   "Våldtäkt av kvinna eller mö; inte kallat edsöre i Bjärköarätten."
+  ],
+  "id": 14
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:ed|tolv stadsmän för att fria sig när vittnen saknas, vardera parten utser halva nämnden",
+   "plats:sdhk:stockholm",
+   "þa skulu tolf mæn wæriæ han. æller fellæ þe sum ware byæmæn æru. ok raþi halwi næmþ hwar þeræ."
+  ],
+  "id": 15
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "rad": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldsamt angrepp i någons hem med blodsutgjutelse",
+   "plats:sdhk:stockholm",
+   "böte fult kononx ezsöre"
+  ],
+  "id": 16
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:bjarkoaratten:bjr_12",
+  "A": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|som för hemgång (hemsökn), vid våld i kyrka eller på kyrkogård",
+   "plats:sdhk:stockholm",
+   "bötis sum hemgangæ."
+  ],
+  "B": [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen och fyrtio marker till tredelning",
+   "plats:sdhk:stockholm",
+   "fyst firitighi markær kunuginum sundærlikæ. ok XL. markær til þræskiptis."
+  ],
+  "id": 17
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "=varken landsflykt eller förverkat gods",
+   "plats:sdhk:sverige",
+   "ok han skal eig rikit ryma, ok eig hans godz skyfflas",
+   "Skillnad mot landslagens edsöre, där den skyldige ska rymma riket."
+  ],
+  "id": 18
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "=förlust av högra handen om han inte förmår böta en fyrtiomarkerssak i balken",
+   "plats:sdhk:sverige",
+   "0rkar han eig botum som til XL. marka sak fælder ær i thæssum balkenum, tha skal han mista höghra hand sina."
+  ],
+  "id": 19
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+  "A": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|edsöresbot på 160 marker utöver boten enligt dråp- eller sårmålsbalken",
+   "plats:sdhk:sverige",
+   "thet skal alt bötas som vrskils i drapmala balkenum ella saramala balkenum, ok sidhan böte edzörit",
+   "Summan räknad ur delarna 60 + 60 + 40 marker."
+  ],
+  "B": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_26",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|sextio marker till målsäganden, sextio till kungen och fyrtio till staden utöver bot för brottet",
+   "plats:sdhk:sverige",
+   "sidhan böte edzörit, malsæghandenum LX marker, konungenum LX. marker ok stadhenum XL marker"
+  ],
+  "id": 20
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_31",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:lagman|tolv i varje lagsaga, valda och nämnda av kungen och lagmannen",
+   "plats:sdhk:sverige",
+   "til næmpde af kununge ok laghmanne"
+  ],
+  "id": 21
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_31",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "definieras_som",
+   "=de tolv eller sju av dem avgör om den anklagade värjs eller fälls",
+   "plats:sdhk:sverige",
+   "Huem þesse tolf ællæ siu af þem væriæ, varin varþe"
+  ],
+  "id": 22
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_31",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:kung|tolv i varje lagsaga, valda och nämnda av kungen och lagmannen",
+   "plats:sdhk:sverige",
+   "þa agha tolf vara til skipaþe i huarre laghsaghu, meþ samþykkio valde ok til næmpde af kununge ok laghmanne i huarre laghsaghu",
+   "Kungsnämnden för brott mot konungabalken."
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:kung|tillsammans med lagmannen och med samtycke i varje lagsaga",
+   "plats:sdhk:sverige",
+   "meþ samþykkio valde ok til næmpde af kununge ok laghmanne i huarre laghsaghu"
+  ],
+  "id": 23
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_89",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:edsore",
+   "paforljd",
+   "=den som dräper medan kungen är i landet har förbrutit kungens frid och får den åter bara om han löser den som kungen och den dräptes fränder vill",
+   "plats:skane",
+   "æn warþær man dræpin þæn timæ ær konung ær inlændæs.",
+   "Kungens närvarofrid ('Þæn timæ konung ær innan lanz scal hwær man hauæ friþ'); lagen säger inte edsöre."
+  ],
+  "id": 24
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_89",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|för den som dräper sedan böter betalats; han får aldrig frid",
+   "plats:skane",
+   "Dræpir man annar man ofnæ bötær böttæ. faræ friþlös oc fa aldrigh friþ.",
+   null
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_89",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråp efter betald bot ger fredlöshet utan återvunnen frid",
+   "plats:skane",
+   "Dræpir man annar man ofnæ bötær böttæ. faræ friþlös oc fa aldrigh friþ."
+  ],
+  "id": 25
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex män",
+   "plats:sdhk:sverige",
+   "æn til æru siex manna witne, ella wæri sik mædh tolff manna edhe; ok alle the mædh æru",
+   "Dråp under flock mot stadens ämbetsmän."
+  ],
+  "id": 26
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv och gods vid dråp under flock och samnad mot fogde, borgmästare eller rådmän; kungen tar godset och målsäganden livet",
+   "plats:sdhk:sverige",
+   "Gör han drap, saar, blodwite, blanadh, klædheriff ella husbrut, miste liiff ok godz; konungen taki godzet ok malsæghanden liffwit",
+   "Stadga 1357. Alla som deltar i flocken med samma vilja står samma rätt; den som hyser dem drabbas av kungens hämnd och vrede. Redan flocken utan gärning straffas med döden."
+  ],
+  "id": 27
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "definieras_som",
+   "=uppsåtligt dråp när påbjuden reparation försummas och någon dödas efter utsatt dag",
+   "plats:sdhk:sverige",
+   "Wardhr honum thet budhit som thet aa at bætra, ok dagher fore laghdir, ok timadhe epter daghen, wari tha drap i wilia wærkum ok botum"
+  ],
+  "id": 28
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|åttio marker om dråparen handlade i livsnöd",
+   "plats:sdhk:sverige",
+   "Ær han thrængder a liiffs nödh, tha miste eig liff, vtan böte LXXX marker"
+  ],
+  "id": 29
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sextio marker till målsäganden, trettio till kungen och trettio till staden om dråparen flyr",
+   "plats:sdhk:sverige",
+   "böte malsæghandenum LX marker, ok konungenum XXX marker, ok stadhenum XXX marker"
+  ],
+  "id": 30
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker när gärningsmannen är under femton år",
+   "plats:sdhk:sverige",
+   "Nw kan offwermaghi minna æn XV ara dræpa mædh wilia, böte XL marker"
+  ],
+  "id": 31
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|åtta marker när gärningsmannen är under sju år, våda eller uppsåt",
+   "plats:sdhk:sverige",
+   "Kan ok offwermaghi minna æn siu ara dræpa man, hwat thet ær wadhe ella wili, böte atta marker."
+  ],
+  "id": 32
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dräpt gravid kvinna",
+   "plats:sdhk:sverige",
+   "Uardher kona dræpen the mædh barne ær i hænna liiffue, tha bötes hon ater mædh twæböte."
+  ],
+  "id": 33
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp under angivna helgfrider eller då kungen är i staden",
+   "plats:sdhk:sverige",
+   "gör man drap, ella nokot aff them sakum hær skulu vptælias, mællom pinkinxdagha ok warfrw dagh then förra, ella vm iull ok pascha, ella swa længe then fridher lyses, ella swa længe konunger i stadhenum ær, ligge alt i tweböte."
+  ],
+  "id": 34
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp mot fogde, borgmästare, rådman eller stadsskrivare",
+   "plats:sdhk:sverige",
+   "Alt thet foghatenum, borghamæstarum, radhmannum ok stadzins scriwara görs i drapum ella saramalum, wari alt i twæböte."
+  ],
+  "id": 35
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tolv marker när hus faller på man och dödar honom",
+   "plats:sdhk:sverige",
+   "Nw falla hws a man ella annur handa wærke manna, ok faar bana aff, wari boot tolff marker"
+  ],
+  "id": 36
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tolv marker när omyndig dräper av våda",
+   "plats:sdhk:sverige",
+   "Dræpir offwermaghi man mædh wadha, böte XII. marker."
+  ],
+  "id": 37
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+  "A": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig",
+   "plats:sdhk:sverige",
+   "æn til æru siex manna witne, ella wæri sik mædh tolff manna edhe; ok alle the mædh æru",
+   "Dråp under flock mot stadens ämbetsmän."
+  ],
+  "B": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|två kvinnor vittnar om levande foster, annars sex mäns ed",
+   "plats:sdhk:sverige",
+   "twæggia godhra quinno som witne skulu bæra at thet barn war qwikt i hænna liiffue; æra eig the til, tha wæri sik mædh siæx manna edhe"
+  ],
+  "id": 38
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|20 mark för fostret när kvinnan dräpts",
+   "plats:sdhk:stockholm",
+   "ocböte barnit ater meþ XX markum."
+  ],
+  "id": 39
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|20 mark för barnet när kvinnan slagits så att hon föder dött barn",
+   "plats:sdhk:stockholm",
+   "böte XX markær fore barnit.",
+   "Tre kvinnors vittne att barnet levt, annars värjer han sig med sex män."
+  ],
+  "id": 40
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|14 mark som ägaren betalar när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "böte þen sum fæt æ siu markær maleghændanum oc siu markær foghotænum oc staþinum."
+  ],
+  "id": 41
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|arvingen fäller med sex män när ingen vidgår dråpet",
+   "plats:sdhk:stockholm",
+   "giwær ærfwingin nokrom manni sak. witni han wiþær meþ sex mannum.",
+   "Talan förs av arvingen."
+  ],
+  "id": 42
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|lagligen överbevisad med sex mäns vittne, när en gäst dräpt",
+   "plats:sdhk:stockholm",
+   "warþær laghlikæ til wnnin meþ sex mannæ vitnum."
+  ],
+  "id": 43
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre goda kvinnor vittnar att barnet levde",
+   "plats:sdhk:stockholm",
+   "ok þreæ goþæ konor skulu vitni bæræ. at barnit var quikt"
+  ],
+  "id": 44
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sju mark, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "böte maleghandanum siu markær."
+  ],
+  "id": 45
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sju mark, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær maleghændanum"
+  ],
+  "id": 46
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte), dråp i försåt",
+   "plats:sdhk:stockholm",
+   "Dræpær maþær man i forsati. han liggi i twæböte."
+  ],
+  "id": 47
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "=gärningsman som bjudit bot och betalat fogden och staden får vara i staden och bära vapen",
+   "plats:sdhk:stockholm",
+   "oc siþan lowæs i staþinum vara oc wapn bæræ. oc eig þem sum eig wildi wiþ botum taka.",
+   "Målsäganden som vägrade ta bot får inte samma rätt."
+  ],
+  "id": 48
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "=gäst som dräpt får inte lämna staden förrän han betalt dråpet",
+   "plats:sdhk:stockholm",
+   "komi eig fyr af staþinum en han þet drap böt hawær."
+  ],
+  "id": 49
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed när en gäst dräpt och vittnen saknas",
+   "plats:sdhk:stockholm",
+   "æru eig vitni til. væri sik meþ.XII. mannæ eþe."
+  ],
+  "id": 50
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|fogdens rätt efter brottet, när målsäganden vägrar ta emot bot",
+   "plats:sdhk:stockholm",
+   "malseghændin vil eig viþær takæ. böte þa foghotænum oc staþinum sin ræt.",
+   "Gäller bardaghe, sår eller dråp där gärningsmannen kommit undan och bjuder bot."
+  ],
+  "id": 51
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|sju mark gemensamt med staden, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "oc siu markær foghatænum oc staþinum."
+  ],
+  "id": 52
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|sju mark gemensamt med staden, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær foghotænum oc staþinum."
+  ],
+  "id": 53
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|stadens rätt efter brottet, när målsäganden vägrar ta emot bot",
+   "plats:sdhk:stockholm",
+   "malseghændin vil eig viþær takæ. böte þa foghotænum oc staþinum sin ræt.",
+   "Gäller bardaghe, sår eller dråp där gärningsmannen kommit undan och bjuder bot."
+  ],
+  "id": 54
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|sju mark gemensamt med fogden, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "oc siu markær foghatænum oc staþinum."
+  ],
+  "id": 55
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|sju mark gemensamt med fogden, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær foghotænum oc staþinum."
+  ],
+  "id": 56
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:ed|den utpekade kan fria sig med tolv mäns ed när dråpare är okänd",
+   "plats:sdhk:stockholm",
+   "warþær maþær dræpin oc kennis ængin viþ drapit. giwær ærfwingin nokrom manni sak. witni han wiþær meþ sex mannum. æller hin drapit witis. wæri sik meþ XII mannæ eþe."
+  ],
+  "id": 57
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=våda när båda parter säger att det var våda",
+   "plats:sdhk:stockholm",
+   "þæt ær waþi baþi sigiæ vaþæ"
+  ],
+  "id": 58
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "rad": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp i försåt",
+   "plats:sdhk:stockholm",
+   "Dræpær maþær man i forsati. han liggi i twæböte."
+  ],
+  "id": 59
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:bjarkoaratten:bjr_14",
+  "A": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte) när en kvinna dräps",
+   "plats:sdhk:stockholm",
+   "eig bötes konæ högfhri botum en maþær vtan i doz drapum. þa liggær hun i twæböte",
+   "Kvinnan bötas inte högre än en man utom vid dråp. 'doz drapum' är oklart, läst som dödsdråp."
+  ],
+  "B": [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dödad kvinna",
+   "plats:sdhk:stockholm",
+   "eig bötes konæ högfhri botum en maþær vtan i doz drapum. þa liggær hun i twæböte"
+  ],
+  "id": 60
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:att|fränder på kvinno- eller manssidan tar emot boten när arvingen är omyndig",
+   "plats:gotland",
+   "Þaun warþa oc vereldi upp taka en erfingi ir vngr",
+   "Samma fränder får hämnas för den omyndige; hämnden gäller som hans egen."
+  ],
+  "id": 61
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=när flera tillsammans dräper en man har de alla en gemensam fridskrets tills en tar på sig dråpet",
+   "plats:gotland",
+   "Uela tueir vm eþa flairin oc drepa ann mann. þa hafin þair allir aina bandu",
+   null
+  ],
+  "id": 62
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=en gute som dräper en icke-gute och kan bjuda mansbot behöver varken fristad eller fridskrets",
+   "plats:gotland",
+   "þa þarf hann huatki vegsl eþa bandur",
+   null
+  ],
+  "id": 63
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "=en icke-gute som dräper en gute skyddas inte av fridskrets om han inte kan bjuda mansbot",
+   "plats:gotland",
+   "þa haldir ai hanum banda. vtan þi at ains et hann vereldi vinnj buþit.",
+   null
+  ],
+  "id": 64
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|full mansbot för en havande kvinna och tolv marker silver för det ofödda barnet",
+   "plats:gotland",
+   "þa {bytis} [bytir] barnit at tolf marcum silfs oburit en hana at fullu vereldi",
+   null
+  ],
+  "id": 65
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|husbonden eller närmaste frände med tre bofasta gutar i samma socken, tolv jämbördiga, att barnet levde",
+   "plats:gotland",
+   "miþ þrim bolfastum mannum gutnjscum at samv socn. oc þar til so margum et tolf sein allir hennj iem burnir",
+   "Edgärden ska vara kvinnan jämbördig ('iem burnir')."
+  ],
+  "id": 66
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_14",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tolv mark silver för ofött barn jämte full bot för gravid kvinna",
+   "plats:gotland",
+   "þa {bytis} [bytir] barnit at tolf marcum silfs oburit en hana at fullu vereldi"
+  ],
+  "id": 67
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_30",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna och häradsmännen ska säga ja till de nämnda",
+   "plats:sdhk:sverige",
+   "þem sum viþer delomæn ok hæræzmæn sighia ia moot"
+  ],
+  "id": 68
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_30",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|partisk (vildogher)",
+   "plats:sdhk:sverige",
+   "ok ei viþer delo mæn, ok ei þe vildoghe æru"
+  ],
+  "id": 69
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_30",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|osanningsman",
+   "plats:sdhk:sverige",
+   "han skal sanninda mæn i næmd næmna ok ei osanninda mæn"
+  ],
+  "id": 70
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_30",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:namnd",
+   "kraver",
+   "=häradshövdingen sitter själv i nämnden, inte annan i hans ställe, om han inte har förfall",
+   "plats:sdhk:sverige",
+   "Hæræzhöfþonge skal siæluer i næmd vara, ok ei annar i hans staþ"
+  ],
+  "id": 71
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_30",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|part i tvisten (viþer delo mæn)",
+   "plats:sdhk:sverige",
+   "ok ei viþer delo mæn, ok ei þe vildoghe æru"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|part i tvist eller någon med partiskhet får inte utses",
+   "plats:sdhk:sverige",
+   "han skal sanninda mæn i næmd næmna ok ei osanninda mæn, ok ei viþer delo mæn, ok ei þe vildoghe æru."
+  ],
+  "id": 72
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "paforljd",
+   "=om han fälls vid eden väljer målsäganden mellan böter och att göra med honom vad han vill; kungen och staden får sin rätt",
+   "plats:sdhk:sverige",
+   "falz han at edhenum, wari fallin til sakinna, ok haffwi malsæghanden wald böter taka, eller göri mædh honum hwat han wil, tho swa at konungen ok stadhin fa sin ræth",
+   "Målsäganden för talan och bestämmer över påföljden."
+  ],
+  "id": 73
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex män",
+   "plats:sdhk:sverige",
+   "æn siæx manna witne æra til, eller wæri sik mædh tolff manna edhe"
+  ],
+  "id": 74
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+  "A": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv utan bot när någon dör av att ankartåget huggits av med vilja",
+   "plats:sdhk:sverige",
+   "komber ther i manna wækt, giffwi liff fore liff ok kome engom botum widher",
+   "'manna wækt' tolkat som dråp. Sker skeppsbrott eller skada utan dödsfall ersätts skadan, annars förlorar han livet."
+  ],
+  "B": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv när avsiktligt avhuggen ankarlina leder till dödsfall",
+   "plats:sdhk:sverige",
+   "komber ther i manna wækt, giffwi liff fore liff ok kome engom botum widher"
+  ],
+  "id": 75
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:bjarkoaratten:bjr_21",
+  "A": [
+   "lag:bjarkoaratten:bjr_21",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte) för dråp eller sår på den som fogden eller rådmännen sänt i stadens ärende",
+   "plats:sdhk:stockholm",
+   "hwar sum þem misfirmir meþ orþum. æller giærningum. þæt liggi alt i twæ böte. baþi i drapum ok sarum.",
+   "För ord gäller ingen förhöjning."
+  ],
+  "B": [
+   "lag:bjarkoaratten:bjr_21",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp på fogde eller rådsman under uppdrag i staden",
+   "plats:sdhk:stockholm",
+   "hwar sum þem misfirmir meþ orþum. æller giærningum. þæt liggi alt i twæ böte. baþi i drapum ok sarum."
+  ],
+  "id": 76
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|att fristtid alltid lämnades mellan budet",
+   "plats:gotland",
+   "Oc viti þet miþ tolf manna aiþi.",
+   null
+  ],
+  "id": 77
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:landskap|hela folket förfogar över boten om målsäganden vägrar ta emot den på tinget",
+   "plats:gotland",
+   "Þa en hann ai wil þa raþin allir lyþir firi fe",
+   "Dråparen blir då saklös."
+  ],
+  "id": 78
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen ska fly tillsammans med fader, son och broder, eller om de saknas med de närmaste fränderna",
+   "plats:gotland",
+   "þa scal flya miþ hanum faþir. oc sun. oc broþir.",
+   null
+  ],
+  "id": 79
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=fyrtio nätters fristad i kyrkorna i Fardhem, Tingstäde och Atlingbo",
+   "plats:gotland",
+   "netr til þairj kirchiur sum allir menn hafa helg. j takkit. þet ir farþeim. oc þingsteþj oc atlingabo.",
+   null
+  ],
+  "id": 80
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen drar därefter en fridskrets (bandu) kring tre gårdar och har frid inom den till fristtidens (atmeli) slut",
+   "plats:gotland",
+   "þa riþi þengat sum hann bandu will hafa dragit. oc dragj vm haim þorp þry.",
+   "Fridskretsen får inte omfatta ting, köping eller mer än en kyrka och kräver markägarnas lov."
+  ],
+  "id": 81
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen kan i stället göra pilgrimsfärd utomlands för att böta för sina synder, med åtta dagars frist till skepp",
+   "plats:gotland",
+   "eþa fara ut lendis til helgra manna sinar",
+   null
+  ],
+  "id": 82
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sex marker silver när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc hann sacan at siex marcum silfs viþr mals aiganda.",
+   null
+  ],
+  "id": 83
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp framställs som en olycka som kan drabba en man 'genom fiendens råd'",
+   "plats:gotland",
+   "en so illa cann bieras miþ fianda raþi et mandr hittr mann at drepa",
+   null
+  ],
+  "id": 84
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sex marker silver till målsäganden och sex till landet när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc hann sacan at siex marcum silfs viþr mals aiganda. oc aþrar siex landi.",
+   "Talan: målsäganden (mals aigandi)."
+  ],
+  "id": 85
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|inför hela folket (gutnaltinget) när boten inte tagits emot på tre år",
+   "plats:gotland",
+   "þa scal biera a þing firi alla lyþi",
+   "'a þing firi alla lyþi' tolkat som allmänna landstinget (gutnaltinget)."
+  ],
+  "id": 86
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|landet dömer dråparen fredlös",
+   "plats:gotland",
+   "þa scal land hann friþlausan dyma.",
+   "'land' tolkat som landstinget (gutnaltinget)."
+  ],
+  "id": 87
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre av de män som var med dråparen på gården när boten bjöds",
+   "plats:gotland",
+   "miþ þrim þaira manna schiellum sum miþ hanum at garþi waru",
+   "Vid tvist om fristen är förliden har den som bjudit boten vitsord."
+  ],
+  "id": 88
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|sex marker silver när dråparen vägrar bjuda bot",
+   "plats:gotland",
+   "oc aþrar siex landi.",
+   null
+  ],
+  "id": 89
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|bjuds tre gånger under tre år efter fristtiden",
+   "plats:gotland",
+   "biauþi þrysuar vm þry ar",
+   "Målsäganden behåller sin heder även om han tar boten första gången den bjuds."
+  ],
+  "id": 90
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|ska ändå utgöras inom en månad när dråparen döms fredlös",
+   "plats:gotland",
+   "oc til dags vm manaþa frest vereldi vtretta.",
+   null
+  ],
+  "id": 91
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "kraver",
+   "=dråparen ska bjuda ersättning tre gånger under tre år",
+   "plats:gotland",
+   "oc biauþi þrysuar vm þry ar."
+  ],
+  "id": 92
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_13",
+  "A": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|om dråparen inte vill bjuda mansbot när alla frister är förlidna",
+   "plats:gotland",
+   "þa scal land hann friþlausan dyma.",
+   "Samma påföljd för den som inte håller sig inom sin fridskrets."
+  ],
+  "B": [
+   "lag:gutalagen_enligt_holm_b_64:gl_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|fredlös om full ersättning inte erbjuds efter fristens slut",
+   "plats:gotland",
+   "þa scal land hann friþlausan dyma."
+  ],
+  "id": 93
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_98",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|tre marker vid dödsfall genom fällt träd eller i brunn",
+   "plats:skane",
+   "frændum hins döþæ þre marc.",
+   null
+  ],
+  "id": 94
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_98",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|den som drunknar i en allmänningsbrunn som alla grannar äger",
+   "plats:skane",
+   "Druknær man j almænnings brunni. þæn ær alli grannæ ægho. þo at en groue þa bötæs ey hin döþæ atær.",
+   null
+  ],
+  "id": 95
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_98",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|drunkning i allmän brunn ersätts inte",
+   "plats:skane",
+   "Druknær man j almænnings brunni. þæn ær alli grannæ ægho. þo at en groue þa bötæs ey hin döþæ atær."
+  ],
+  "id": 96
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_98",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker till den dödes fränder av den som ensam äger en brunn där en man dör",
+   "plats:skane",
+   "þa böte þæn ær brunnæn attæ. oc grauæ lot frændum hins döþæ þre marc.",
+   null
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre mark när någon dör i annans privata brunn",
+   "plats:skane",
+   "Dör man j brunnæ annærs manz. þæn ær han a ensamæn þa böte þæn ær brunnæn attæ. oc grauæ lot frændum hins döþæ þre marc."
+  ],
+  "id": 97
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_98",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker till fränderna av dem som fällde trädet tillsammans, när det faller över en av dem",
+   "plats:skane",
+   "þa bötæ þe ær mæþ hanum hioggo frændum hans þre marc.",
+   null
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_98",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre mark när medhuggare dödas av fallet träd",
+   "plats:skane",
+   "Höggiæ mæn træ sammæn oc faldær ofna annan þerræ swa at han dör af. þa bötæ þe ær mæþ hanum hioggo frændum hans þre marc."
+  ],
+  "id": 98
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_37",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_tgb_37",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden",
+   "plats:sdhk:sverige",
+   "all morþ ok morþgæld"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_tgb_37",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnd avgör mord och mordgäld",
+   "plats:sdhk:sverige",
+   "all morþ ok morþgæld"
+  ],
+  "id": 99
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_6",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_6",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|folkets ed binder unga och gamla, ofödda och födda, frånvarande som närvarande",
+   "plats:sdhk:sverige",
+   "binz baþe vnger ok gamall, ofödder ok födder"
+  ],
+  "id": 100
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:borgmastare|två bröder får inte vara borgmästare eller rådmän samtidigt",
+   "plats:sdhk:sverige",
+   "Aldrigh skulu ok twe brödher borghamestera wara eller radhmen i sændir, vtan eig ær annat wal til.",
+   "Undantag när annat val saknas."
+  ],
+  "id": 101
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:radman|högst fyra av samma släkt bland borgmästare och rådmän",
+   "plats:sdhk:sverige",
+   "Eig skulu eller ægha borghamestara eller radhmen i radheno aff enne slekt wara alz saman mera æn fyra, hwat thet ær maghsemia eller skylskaper.",
+   "'maghsemia' tolkat som svågerskap."
+  ],
+  "id": 102
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_4",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:borgmastare|fler än fyra med släktskap eller svågerskap i rådet",
+   "plats:sdhk:sverige",
+   "hwat thet ær maghsemia eller skylskaper."
+  ],
+  "id": 103
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_23",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|vad gästerna lider av bonden och hans hushåll på tomten vid angrepp",
+   "plats:sdhk:sverige",
+   "ok ogilt alt þet þe fingo a tomptinne af bondanum, hans husfru, barnum ælla hionum"
+  ],
+  "id": 104
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_23",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:kung|gäst som inte grips på färsk gärning skall inställas inför kungen eller dennes domhavande",
+   "plats:sdhk:sverige",
+   "Fangas han ei a færske gerning, kumi felogher fore kunung ællæ fore þen sum hans dom hauer"
+  ],
+  "id": 105
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_23",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som dräps av försvarare eller ägare när han med våld tar gästning",
+   "plats:sdhk:sverige",
+   "Varþer ok nakar af væriande ællæ æghænde i þy sama dræpin þe þolikt göra, ligge ogilde sum fore suerþe kunungx"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som med våld tar annans hus och dödas i försvar",
+   "plats:sdhk:sverige",
+   "Varþer ok nakar af væriande ællæ æghænde i þy sama dræpin þe þolikt göra, ligge ogilde"
+  ],
+  "id": 106
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_110",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_110",
+   "begrepp:ed",
+   "definieras_som",
+   "=jämnadsed: dråparen svär att han själv skulle ha tagit samma böter om de hade gjort mot honom som han mot dem",
+   "plats:skane",
+   "þa wildæ han slikæ sammæ bötær take af þem um þe hafþæ",
+   null
+  ],
+  "id": 107
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_110",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_110",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|jämnadsed inför den dräptes arvingar med tolv nämnda män av dråparens egen släkt, svuren vid bok och inte vid helgedom",
+   "plats:skane",
+   "þa scal för hins dræpnæ arwm iafnaþæ eþ mæþ tolf næfndom mannum j kyni sinu. oc ey sculu þe swæria at hælaghdome. utan at bok.",
+   "Edgärden tas här uttryckligen ur dråparens egen släkt."
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_110",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|tolv fränder på offersidan svär jämförelseed efter mansbot",
+   "plats:skane",
+   "þa scal för hins dræpnæ arwm iafnaþæ eþ mæþ tolf næfndom mannum j kyni sinu."
+  ],
+  "id": 108
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_7",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:kung",
+   "definieras_som",
+   "=lagligen kommen till land och rike när han ridit eriksgatan, valts enligt lag och utväxlat eder",
+   "plats:sdhk:sverige",
+   "Þa ær þen kununger laghlika til landz ok rikis kumin, ok erikx gatu sina riþit"
+  ],
+  "id": 109
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_7",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|kungen lovar i varje land och lagsaga att hålla de eder han svor i Uppsala",
+   "plats:sdhk:sverige",
+   "agher kununger i lande ok laghsaghu huarre loua ok iætta æt han skal þem alla eþa sina [halda] sum han suor i vpsalum"
+  ],
+  "id": 110
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_7",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "kraver",
+   "=landsmännen följer kungen, ställer gisslan och svär eder",
+   "plats:sdhk:sverige",
+   "lanzmæn agha honum fölghia ok gisla sætia"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "kraver",
+   "=kungen skall rida genom lagsagorna med ledsagare och gisslan och där lova hålla valeden",
+   "plats:sdhk:sverige",
+   "Nu agher kununger erikx gatu sina riþa, ok lanzmæn agha honum fölghia ok gisla sætia"
+  ],
+  "id": 111
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_7",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "definieras_som",
+   "=kungens ritt kring landet: Uppsala–Strängnäs–Svintuna–Holaveden–Junabäck–Ramundaboda–Upphogs bro–Östens bro–Uppsala, där varje land möter med gisslan och följer honom",
+   "plats:sdhk:sverige",
+   "Nu agher han rætsylis vm land sit riþa"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "definieras_som",
+   "=först efter lagligt val, ömsesidiga eder och fullgjord eriksgata är kungen lagligen kommen till riket",
+   "plats:sdhk:sverige",
+   "Þa ær þen kununger laghlika til landz ok rikis kumin, ok erikx gatu sina riþit {var} [hauer]"
+  ],
+  "id": 112
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_85",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|för att fria sig från anklagelse om att ha varit i dråparens följe",
+   "plats:skane",
+   "hwat han ær hældær kundær man ællr ukundær man. wæri sic mæþ tyltær eþ.",
+   null
+  ],
+  "id": 113
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_85",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:jarnbord|järnbörd om två mäns vittne säger att den anklagade sårade den dräpte, annars tre tylfters ed",
+   "plats:skane",
+   "oc ær twigiæ mannæ witni til þæs. skiæræ sic mæþ iarne. oc ær ey witni til þa skiæræ sic mæþ þrem tyltum.",
+   "Järnbörd saknas som begrepp."
+  ],
+  "id": 114
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_85",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|nio marker när en man sårat den som dräptes",
+   "plats:skane",
+   "oc hinum ær sac sökær ni marc.",
+   "Talan förs av 'hin ær sac sökær'."
+  ],
+  "id": 115
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_85",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_85",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tre marker när en man sårat den som dräptes",
+   "plats:skane",
+   "böte konunge þre marc. oc hinum ær sac sökær ni marc.",
+   null
+  ],
+  "id": 116
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_2",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:harad|häradet nämner tolv män som med lagmannen som trettonde föreslår kungen tre",
+   "plats:sdhk:sverige",
+   "þa skal hæræþe næmna tolf mæn þolika þe vilia, ok laghman siæluan þrættande"
+  ],
+  "id": 117
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_2",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:lagman|lagmannen stämmer tinget en månad i förväg och sitter som trettonde",
+   "plats:sdhk:sverige",
+   "þa skal laghman þing stæmna en manaþ for æn þing skal haldas"
+  ],
+  "id": 118
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_2",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:kung|kungen tar en av de tre",
+   "plats:sdhk:sverige",
+   "þer taki kununger en af, þen sum han vil ok veet þer fallnæn til var"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:kung|väljs av kungen bland tre föreslagna från häradet",
+   "plats:sdhk:sverige",
+   "þer taki kununger en af"
+  ],
+  "id": 119
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_204",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_204",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|bonden för bevisen om dråpet på horkarlen till tinget",
+   "plats:skane",
+   "þa scal han til þings föræ boþæ bulstær oc ble",
+   null
+  ],
+  "id": 120
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_204",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_204",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|två mäns vittne, och bolster och lakan förs till tinget, att horkarlen dräptes i sängen och inte annorstädes",
+   "plats:skane",
+   "þa scal han til þings föræ boþæ bulstær oc ble mæþ twigia manna witni.",
+   null
+  ],
+  "id": 121
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_17",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:drap",
+   "paforljd",
+   "=dödande genom oskäligt djur ska krävas som skuld och inte hämnas",
+   "plats:gotland",
+   "þet al creifia oc ai hemna",
+   null
+  ],
+  "id": 122
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_17",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:mansbot",
+   "definieras_som",
+   "=kravmansbot (crafar vereldi): när ett oskäligt djur dödar faller två delar av mansboten bort och ägaren böter en tredjedel",
+   "plats:gotland",
+   "þa falla e tueir lutir af vereldi hanns en þriþiung byti hiin sum soyþin a. þet calla menn crafar vereldi",
+   "Inledningen 'sueverþarj manni ... þan gutniscum' är oklar; maskinöversättningen tolkar det som en man av ringare värde än en gute."
+  ],
+  "id": 123
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_17",
+  "A": [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tolv marker silver i sak för ägaren när ett av de fyra oskäliga djuren dödar en man",
+   "plats:gotland",
+   "þaim fiaurum oqueþins vitum varþar huer maþr.i. garþi sinum viþr tolf marca silfs sac",
+   "Dödande genom djur (oxe, häst, galt, hund); lagen kallar det inte våda."
+  ],
+  "B": [
+   "lag:gutalagen_enligt_holm_b_64:gl_17",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|ägaren till otämjt djur betalar en tredjedel av mansboten",
+   "plats:gotland",
+   "þa falla e tueir lutir af vereldi hanns en þriþiung byti hiin sum soyþin a."
+  ],
+  "id": 124
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_1",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:biskop|biskopen kungör valet på landstinget och deltar med två klerker",
+   "plats:sdhk:sverige",
+   "þa skal biscoper þet a {landz þing} [landz þinge] konnogha læta"
+  ],
+  "id": 125
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_1",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:allmoge|allmogen väljer sex hovmän och sex bönder, som med klerkerna nämner tre män ur lagsagan",
+   "plats:sdhk:sverige",
+   "siþan skal almoghin vælia siæx hof mæn ok siæx bönder, þe tolf meþ klærkomin skulu þre mæn vælia"
+  ],
+  "id": 126
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_205",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_205",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|horkarl som såras i sängen och dör senare, fast han begravs på kyrkogården om han skriftat sig",
+   "plats:skane",
+   "þa grafs han j kirkiu garþe. oc waræ þo ugildær fore bondanum.",
+   null
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_205",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|horkarl som dör av sår från upptäckt i annans äktenskapssäng",
+   "plats:skane",
+   "oc waræ þo ugildær fore bondanum."
+  ],
+  "id": 127
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten, fyrtio marker",
+   "plats:sdhk:sverige",
+   "böte malsæghandanum XL marker enskylt",
+   "Skeppsbrott med dödsfall; osäker läsning av 'fordærffwas'."
+  ],
+  "id": 128
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+  "A": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|tolv mäns nämnd fäller eller värjer, vare sig det skett av våda eller vilja",
+   "plats:sdhk:sverige",
+   "ther skal a koma tolff manna næmpd at wita ther vm hwat sant ær; fælla the han, wari fælder; wæria the han, wari wardher, hwat thet ær hælder fore wadha eller wilia.",
+   "Osäker läsning av 'fordærffwas'."
+  ],
+  "B": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_9",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|tolv män utreder sanningen om dödsfall vid skeppsbrott",
+   "plats:sdhk:sverige",
+   "ther skal a koma tolff manna næmpd at wita ther vm hwat sant ær"
+  ],
+  "id": 129
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:radman|eden förbjuder att döma orätt av penninggirighet",
+   "plats:sdhk:sverige",
+   "wild eller peninga gyri",
+   "Edsförpliktelse, jfr KgB 5 om straffet för mutor."
+  ],
+  "id": 130
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:borgmastare",
+   "utses_av",
+   "begrepp:radman|borgmästare och rådmän väljer gemensamt varje år",
+   "plats:sdhk:sverige",
+   "Nw skal man borghamestara ok radhmen wælia, tha skulu alle borghamestara ok radhmen al aar fore sancte walborghe dagh atta daghum til radzstufw koma"
+  ],
+  "id": 131
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "utses_av",
+   "begrepp:fogde|fogden ska vara närvarande när rådmän väljs",
+   "plats:sdhk:sverige",
+   "Ok æ tha radmen skulu wælias, tha skal foghaten nær wara."
+  ],
+  "id": 132
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:radman|eden förbjuder att döma orätt för frändskaps eller vänskaps skull",
+   "plats:sdhk:sverige",
+   "eig fore rædde skuld, wild eller peninga gyri, eig fore awund eller iluilia, eig fore frændzæmio eller winskap",
+   "Ingen uttrycklig jävsregel utan en edsförpliktelse: inte av rädsla, ynnest, penninggirighet, avund, illvilja, frändskap eller vänskap."
+  ],
+  "id": 133
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "utses_av",
+   "begrepp:borgmastare|borgmästare och rådmän väljer årligen, åtta dagar före Valborgsmässodagen",
+   "plats:sdhk:sverige",
+   "Nw skal man borghamestara ok radhmen wælia, tha skulu alle borghamestara ok radhmen al aar fore sancte walborghe dagh atta daghum til radzstufw koma",
+   "De valda kungörs i rådstugan på Valborgsmässodagen. Frånvaro vid valet bötas med tre marker."
+  ],
+  "id": 134
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:borgmastare",
+   "kraver",
+   "begrepp:ed|samma rättvised som rådmannen",
+   "plats:sdhk:sverige",
+   "Then som borghamestare eller radhman skal wara, han egher thenna edh swæria"
+  ],
+  "id": 135
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+  "A": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "kraver",
+   "begrepp:ed|domared: vara kungen trogen, döma rätt mot fattig och rik, aldrig vränga lag",
+   "plats:sdhk:sverige",
+   "Then som borghamestare eller radhman skal wara, han egher thenna edh swæria",
+   "Eden gäller både borgmästare och rådmän; rådet är stadens domstol."
+  ],
+  "B": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_1",
+   "begrepp:radman",
+   "kraver",
+   "begrepp:ed|ska döma rätt utan rädsla, vild, pengar, avund, frändskap eller vänskap",
+   "plats:sdhk:sverige",
+   "eig fore rædde skuld, wild eller peninga gyri, eig fore awund eller iluilia, eig fore frændzæmio eller winskap"
+  ],
+  "id": 136
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_8",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|fyrtio marker som landssak vid dråp i kyrka",
+   "plats:gotland",
+   "þa liggia fiauratigi marcr viþr þet ir landa sac",
+   null
+  ],
+  "id": 137
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_8",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:boter|tre marker om dråpet sker under mansfriden (helgtiderna)",
+   "plats:gotland",
+   "Drepr þu mann a þaim firþi þa byt þriar marcr",
+   "Mansfriden (mannhelg) gäller helgdagar, jul, fasta, påsk-, gång- och pingstdagar. Boten är helgbrottsbot; att mansbot därtill utgår sägs inte här."
+  ],
+  "id": 138
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_8",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "=sockenmännen en tredjedel, kyrkan en tredjedel och prästen en tredjedel",
+   "plats:gotland",
+   "Socna menn aighu þriþiung i sac en annan kirchia Oc þriþia prestr",
+   "Gäller helgbrott där ingen landssak ingår. Talan: 'Allir aigu sac sykia saman' – alla för talan gemensamt."
+  ],
+  "id": 139
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_8",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:boter",
+   "tillfaller",
+   "=prosten tre marker för bannmålet vid dråp i kyrka",
+   "plats:gotland",
+   "þar a proastr þriar marcr af firi banz mall",
+   "Prost saknas som begrepp; begrepp:biskop har inte använts."
+  ],
+  "id": 140
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_8",
+  "A": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker om en sakfälld man dräps i fristaden (de tre heligaste kyrkogårdarna eller prästgården)",
+   "plats:gotland",
+   "Þar sculu sakir menn helg hafa jem wel.i. prest garþi sum.i. kirkiugarþi þar liggia wiþr fiaurtighi marcr",
+   "De tre kyrkogårdarna är enligt GL 13 Fardhem, Tingstäde och Atlingbo."
+  ],
+  "B": [
+   "lag:gutalagen_enligt_holm_b_64:gl_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker extra för dråp under angivna helgfrider",
+   "plats:gotland",
+   "Drepr þu mann a þaim firþi þa byt þriar marcr"
+  ],
+  "id": 141
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_26",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:vittne|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  "id": 142
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_26",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:edgard|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  "id": 143
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_26",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:namnd|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:namnd|endast bofasta män får ingå i nämnder, vittna och svära ed",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  "id": 144
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_18",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|barn som lämnats obevakat på golv, bänk eller säng",
+   "plats:gotland",
+   "þa ir barn o byt huat sum helzt can at cuma",
+   null
+  ],
+  "id": 145
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_18",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|barn som kvävs i en säng där druckna män ligger",
+   "plats:gotland",
+   "þa ir þau barn obyt. þau et han liggi sielf ner.",
+   null
+  ],
+  "id": 146
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_18",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_18",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|barn dödas efter att vårdare lämnat det obevakat enligt uppräknade fall",
+   "plats:gotland",
+   "þa ir barn o byt huat sum helzt can at cuma"
+  ],
+  "id": 147
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_100",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_100",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten för handlös våda; ingen kungens eller ärkebiskopens rätt",
+   "plats:skane",
+   "oc fore þæs kyns waþa scal ey bötæ konungs ræt. oc ey archebiscops. utan hinum scal bötæ ær scathæn fik.",
+   null
+  ],
+  "id": 148
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_100",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_100",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker eller tylftered för all handlös våda, genom horn, hov eller hundtand",
+   "plats:skane",
+   "Fore allæn handlösæn waþæ. scal man ællr bötæ þre marc ællær sæliæ tyltær eþ.",
+   "Gäller skada genom djur generellt, inte bara dödsfall."
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_100",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre mark för handlös våda till den skadade",
+   "plats:skane",
+   "Fore allæn handlösæn waþæ. scal man ællr bötæ þre marc ællær sæliæ tyltær eþ."
+  ],
+  "id": 149
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_31",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_31",
+   "begrepp:namnd",
+   "definieras_som",
+   "=den de tolv värjer eller fäller står fast; ingen ed eller nämnd får gå mot nämnden",
+   "plats:sdhk:sverige",
+   "Huem þesse tolf væria ællæ fælla, þet stande ok ei ater gange"
+  ],
+  "id": 150
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_31",
+  "A": [
+   "lag:magnus_erikssons_landslag:mel_tgb_31",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|nämndeman som käranden eller svaranden jävar som partisk går av och ersätts för det målet",
+   "plats:sdhk:sverige",
+   "iæuer nakan vildoghan vara af þem sum i næmd sitia, þa skal han bort af gangæ ok annar i hans staþ sætias"
+  ],
+  "B": [
+   "lag:magnus_erikssons_landslag:mel_tgb_31",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|part får invända mot partisk nämndeman som då byts ut under målet",
+   "plats:sdhk:sverige",
+   "iæuer nakan vildoghan vara af þem sum i næmd sitia, þa skal han bort af gangæ ok annar i hans staþ sætias"
+  ],
+  "id": 151
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_86",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för härverk",
+   "plats:skane",
+   "böte han af sinu eghno konungi fiuritiughu marc.",
+   null
+  ],
+  "id": 152
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_86",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:mansbot|hövdingen för färden böter full mansbot om en man dräps på något av dessa ställen",
+   "plats:skane",
+   "þa böte hin ær höfþing war j þe færþ fullæ man bötær.",
+   null
+  ],
+  "id": 153
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_86",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|fyrtio marker för härverk",
+   "plats:skane",
+   "[oc frændum fyritiughu marc.]",
+   "Utgivartillägg i hakparentes."
+  ],
+  "id": 154
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_86",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att i vrede angripa en man i hans hus, på hans åkrar eller där han satt sitt spjut, lagt sin sköld eller sadel och tagit härbärge; alla dessa fall har samma rätt",
+   "plats:skane",
+   "Far annær man mæþ wreþe. oc takær annar man j husæ",
+   "Lagen kallar brottet härverk (hærwirki), inte hemsökn."
+  ],
+  "id": 155
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_86",
+  "A": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|hövdingen fyrtio marker till kungen och fyrtio till fränderna för härverk",
+   "plats:skane",
+   "oc fore hærwirki böte han af sinu eghno konungi fiuritiughu marc. [oc frændum fyritiughu marc.]",
+   "Fyrtiomarksbrott; motsvarar edsöresbrott men ordet edsöre används inte. Fränders andel står i hakparentes i utgåvan."
+  ],
+  "B": [
+   "lag:skanelagen_enligt_holm_b_76:skl_86",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|anförare betalar full mansbot vid dråp och fyrtio mark för hemfridsbrottet",
+   "plats:skane",
+   "þa böte hin ær höfþing war j þe færþ fullæ man bötær. oc fore hærwirki böte han af sinu eghno konungi fiuritiughu marc."
+  ],
+  "id": 156
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_11",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_11",
+   "begrepp:fridsbrott",
+   "paforljd",
+   "begrepp:boter|sex marker för brott mot tingsfriden vid dråp eller hugg på tinget",
+   "plats:gotland",
+   "Drepr þu mann eþa hagg vaitr byt siex marcr. vtan þy at ains et mandr verþi at hemdum",
+   "Gäller inte när en man dräps som hämnd. Talan: tingsmännen ('þings menn aigu þingfriþ sykia'). En sakfälld man har inte tingsfrid utom under allas frid."
+  ],
+  "id": 157
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_11",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_11",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|sex marker vid dråp på ting",
+   "plats:gotland",
+   "Drepr þu mann eþa hagg vaitr byt siex marcr."
+  ],
+  "id": 158
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:edgard|tolv män svär med käranden att den sakförde är den sanne banemannen och att de inte gör det för gods, vänskap eller avund",
+   "plats:skane",
+   "þe göræ þæt ey fore fæ oc fore wild. ællær awnd. utan fore þæt at han ær sandær bane at þem dræpnæ.",
+   "Edens ordalydelse utesluter mutor, vänskap och fiendskap som grund."
+  ],
+  "id": 159
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne på tredje tinget: två om stämningen, två om att det är tredje tinget, två om att den sakförde är banemannen",
+   "plats:skane",
+   "swa at han scal hauæ þær siax mannæ witni til.",
+   null
+  ],
+  "id": 160
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|ärkebiskopen tre marker av var och en av de tolv edsmännen om den anklagade blir fri",
+   "plats:skane",
+   "oc archibiscope þre marc.",
+   "Ärkebiskopen (i Lund)."
+  ],
+  "id": 161
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:boter",
+   "tillfaller",
+   "=den frikände tre marker av var och en av de tolv edsmännen",
+   "plats:skane",
+   "þa scal hwær þeræ bötæ hanum þre marc.",
+   null
+  ],
+  "id": 162
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:jarnbord|skottjärn (scuz iarne) för den sakförde som säger emot på tredje tinget",
+   "plats:skane",
+   "Cumbær hin sæcti til þriþdæ þings. oc mælær j gen. skære sic mæþ scuz iarne.",
+   "Upp till nio män kan prövas med järn; den tionde förs till 'scra' (oklart)."
+  ],
+  "id": 163
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:edgard|den som äger mindre än sex marker, eftersom var och en av de tolv ska böta tre marker om den anklagade blir fri",
+   "plats:skane",
+   "j þem tolf scal ey minni eghn hauæ æn til siæx marc fore þy at um han warþær skiær a skra.",
+   "Förmögenhetskrav med uttrycklig motivering."
+  ],
+  "id": 164
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:dulgadrap",
+   "handlaggs_vid",
+   "begrepp:landsting|närmaste arvinge efterfrågar den okände banemannen på tre landsting och ger sedan banesak på landstingen",
+   "plats:skane",
+   "þa standæ næstæ aruæ offna þrim lanz þingum. oc spöræ æftir sannum banæ frændæ sins.",
+   "Talan: närmaste arvinge."
+  ],
+  "id": 165
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:vittne|sex vittnen för att binda utpekad baneman till målet",
+   "plats:skane",
+   "swa at han scal hauæ þær siax mannæ witni til."
+  ],
+  "id": 166
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_118",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_118",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:landsting|arvingen frågar efter okänd baneman på tre landsting",
+   "plats:skane",
+   "þa standæ næstæ aruæ offna þrim lanz þingum. oc spöræ æftir sannum banæ frændæ sins."
+  ],
+  "id": 167
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel",
+   "plats:sdhk:sverige",
+   "böte tiughu marker til thræskiptis malsæghandanum, konungenum ok stadhenum"
+  ],
+  "id": 168
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:boter|tjugo marker för rån till ett öre på allmän gata om dagen; annars förlust av handen",
+   "plats:sdhk:sverige",
+   "Röffwar nokor til en öre a almanna gatu vm siælffwan daghin, ok æra til twæggia manna witne, böte tiughu marker til thræskiptis malsæghandanum, konungenum ok stadhenum",
+   "Bevis: två mäns vittne, annars sex mäns ed."
+  ],
+  "id": 169
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|en tredjedel",
+   "plats:sdhk:sverige",
+   "böte tiughu marker til thræskiptis malsæghandanum, konungenum ok stadhenum"
+  ],
+  "id": 170
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|en tredjedel",
+   "plats:sdhk:sverige",
+   "böte tiughu marker til thræskiptis malsæghandanum, konungenum ok stadhenum"
+  ],
+  "id": 171
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:dodsstraff|halshuggning utan lösen för rån till ett öres värde i staden efter vårdklockan, vid bar gärning",
+   "plats:sdhk:sverige",
+   "Hwilkin som röffwar aff andrum i stadhenum til ens öris wærdhe, eller a sudhramalme eller nodhramalme, ella innan stadz mark, æpter thet i wardh ær ringht, ok wardher bar a taken mædh siæx manna witnum, miste huwt sit, ok gange engen lössn fore i thæsso male.",
+   "Rån nattetid; Södermalm och Norrmalm nämns."
+  ],
+  "id": 172
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:dodsstraff|livet utan bot för rån till en halv marks värde om dagen",
+   "plats:sdhk:sverige",
+   "Röffwar man til halff marka wærdhe vm daghin, ok æru witne til som for ær sakt, gange liiff hans fore, ok kome engum botum widher."
+  ],
+  "id": 173
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_23",
+   "begrepp:ran",
+   "kraver",
+   "begrepp:namnd|tolv män fäller eller värjer om vittnen saknas",
+   "plats:sdhk:sverige",
+   "Nw kan eig wara witne til, ligge thet til tolff manna; wæria the han, wari wardher; fælla the han, tha skal han hals hoggas.",
+   "Tolkat som nämnd; texten säger bara 'tolff manna'."
+  ],
+  "id": 174
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagens_additamenta_enligt_am_54:stycke_3",
+  "rad": [
+   "lag:gutalagens_additamenta_enligt_am_54:stycke_3",
+   "begrepp:drap",
+   "paforljd",
+   "=en olärd prästson som dräper får själv akta sig för hämnd så länge han lever, inom eller utom landet",
+   "plats:gotland",
+   "Tha en prest {som} [son] olerder hitter sakar at giera ella man at wegha, tha sijr han sieluir wider sakom e medan han liffuir, hwar som han {er} ier {inna} [innan] lands eller vtan",
+   "Tillägg till GL kap. 5. Den olärde prästsonen har bonderätt och inget prästerligt skydd mot hämnd."
+  ],
+  "id": 175
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_90",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för fridsbrott medan kungen är i landet",
+   "plats:skane",
+   "oc konungi fyritiughu marc",
+   null
+  ],
+  "id": 176
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_90",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen och fyrtio till den sårade för fridsbrott, utöver sårboten, om någon sårar medan kungen är i landet",
+   "plats:skane",
+   "böte foræ sar sum logh æræ. oc konungi fyritiughu marc oc hinum ær sar fic firitiughu marc fore friþ brut.",
+   null
+  ],
+  "id": 177
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_90",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_90",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fyrtio marker för fridsbrott medan kungen är i landet",
+   "plats:skane",
+   "oc hinum ær sar fic firitiughu marc fore friþ brut.",
+   null
+  ],
+  "id": 178
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|vänskap, fejd, avund eller ovilja; högst tre ledamöter byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  "id": 179
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:jav",
+   "kraver",
+   "=jävet ska bevisas och gäller högst tre av de tolv",
+   "plats:sdhk:sverige",
+   "giter þet {markelika} [mærkelika] pröuat ok fulkomnat in til eens, tuæggia ællæ þriggia"
+  ],
+  "id": 180
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för skyldskap; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia",
+   "Jävet ska bevisas ('pröuat ok fulkomnat'); de ersätts bara för det målet."
+  ],
+  "id": 181
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för mågsämd; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  "id": 182
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:kungsnamnd|bevisat släktskap till part ger rätt att byta högst tre av tolv",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  "id": 183
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:kungsnamnd|bevisat svågerskap till part ger rätt att byta högst tre av tolv",
+   "plats:sdhk:sverige",
+   "Nu æn þen sum sak gifs, iæua ællæ ræþis nakan af þem tolf orætta vild haua mote sik"
+  ],
+  "id": 184
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:kungsnamnd|bevisad ovilja mot part ger rätt att byta högst tre av tolv",
+   "plats:sdhk:sverige",
+   "vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  "id": 185
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_31",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_31",
+   "begrepp:ting",
+   "definieras_som",
+   "=sjättingstinget dömer saker upp till tre marker, tredingstinget upp till sex och hela landet upp till tolv",
+   "plats:gotland",
+   "Sacar engar ma siettungr sykia hoyrin þan til III marca. En þriþiungr til siex marca. oc land alt til tolf marca.",
+   "Rådmännen dömer på hundaretingen. Avser tingens behörighet allmänt, inte dråp särskilt."
+  ],
+  "id": 186
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_31",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_31",
+   "begrepp:domare",
+   "kraver",
+   "=domar och eder får inte fortsätta efter solnedgång",
+   "plats:gotland",
+   "En domar dymins ai lengr. oc aiþir lyptins ai lengr en sol setr."
+  ],
+  "id": 187
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_112",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_112",
+   "begrepp:drap",
+   "paforljd",
+   "=för en dräpt träl går man ingen jämnadsed, lika lite som för annat fä",
+   "plats:skane",
+   "Uarþær manz þræl dræpin. þa scal ey iafnaþæ eþ före fore hanum.",
+   null
+  ],
+  "id": 188
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_145",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_145",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:ting|tingsmännen dömer",
+   "plats:skane",
+   "ær han kirkiubrytare. ællær morþare þa mughu þe dömæ han j hiughl.",
+   "'þe' syftar på tingsmännen (þingmen) i flocken."
+  ],
+  "id": 189
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_145",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_145",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|tingsmännen kan döma mördare och kyrkobrytare till hjul",
+   "plats:skane",
+   "ær han kirkiubrytare. ællær morþare þa mughu þe dömæ han j hiughl.",
+   "Står i flocken om tjuvar."
+  ],
+  "id": 190
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:bjarkoaratten:bjr_15",
+  "rad": [
+   "lag:bjarkoaratten:bjr_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|äkta mannen har makt över horkarlens liv när denne lagligen överbevisas med hans hustru",
+   "plats:sdhk:stockholm",
+   "hawi bonden walþ vm lif hans.",
+   "Överbevisning med sex män. Alternativt löser horkarlen sig med 40 mark till treskifte."
+  ],
+  "id": 191
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_120",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_120",
+   "begrepp:drap",
+   "paforljd",
+   "=när en träl dräper en fri man väljer ägaren att lämna ut trälen till den dräptes fränder och sex marker därtill, eller behålla honom och böta nio marker",
+   "plats:skane",
+   "hwat han wil hældær latæ ut sin þræl hins dræpna frændom j hændær oc til siax marc ællær haui sin þræl oc bötæ ni marc.",
+   null
+  ],
+  "id": 192
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_120",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_120",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:att|den dräptes fränder får trälen och sex marker, eller nio marker",
+   "plats:skane",
+   "latæ ut sin þræl hins dræpna frændom j hændær oc til siax marc",
+   null
+  ],
+  "id": 193
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_120",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_120",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio mark eller utlämning av trälen jämte sex mark när träl dräper fri",
+   "plats:skane",
+   "ællær haui sin þræl oc bötæ ni marc."
+  ],
+  "id": 194
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig, om sex mäns vittne saknas",
+   "plats:sdhk:sverige",
+   "æn til æru siæx manna witne, ella wæri sik mædh tolff manna edhe"
+  ],
+  "id": 195
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|tjugo marker av fyrtio",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem."
+  ],
+  "id": 196
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för varje lem om målsäganden tar bot; edsöret är då inte brutet",
+   "plats:sdhk:sverige",
+   "Nw vm malsæghandin wil widh botum taka, böte fore hwart eet XL markir, malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker, ok ær eig brutit edzörit.",
+   "Målsäganden väljer mellan bot och lem för lem."
+  ],
+  "id": 197
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "begrepp:boter|fullt edsöre och ingen annan bot, eller livet, om offret mister två lemmar",
+   "plats:sdhk:sverige",
+   "Miste man tw aff thæssom, böte fult edzörit, ok andra boot eig, ella miste liiff sit."
+  ],
+  "id": 198
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tjugo marker gemensamt med staden",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem; delningen mellan kung och stad anges inte."
+  ],
+  "id": 199
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:sar",
+   "paforljd",
+   "=lem för lem vid lemlästning med våld, om gärningsmannen tas på färsk gärning",
+   "plats:sdhk:sverige",
+   "huggir aff honum ena hand mædh wald, en foot, eller stingir vt ögha, skær aff annat öra, skap ella næsa, ok wardher fangen widher færska gærning, giffwi lim fore lim",
+   "Bevis: sex mäns vittne, annars tolv mäns ed."
+  ],
+  "id": 200
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_eb_16",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|tjugo marker gemensamt med kungen",
+   "plats:sdhk:sverige",
+   "malsæghandanum tiughu marker, konungenum ok stadhenum tiughu marker",
+   "Bot för en lem; delningen mellan kung och stad anges inte."
+  ],
+  "id": 201
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_105",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten för vådasår; ingen kungens eller ärkebiskopens rätt",
+   "plats:skane",
+   "Fore waþa sar scal ey bötæ konungs ræt oc ey archebiscops ræt. æn hinum scal bötæ ær sar fic.",
+   null
+  ],
+  "id": 202
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_105",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=våda är gärning 'mæþ waþæ oc ey mæþ wilia', av våda och inte med vilja",
+   "plats:skane",
+   "at han giorþæ þæt mæþ waþæ oc ey mæþ wilia.",
+   "Sägs om vådasår (waþa sar), inte dråp."
+  ],
+  "id": 203
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_105",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:namnd",
+   "utses_av",
+   "=tio män utsedda genom lott (osäker läsning av 'lotæ wætte')",
+   "plats:skane",
+   "oc siþan gange til ti mæn lotæ wætte oc swæriæ æftir þem bathom.",
+   "När kungens ombudsman påstår att vådasåret var med vilja svär först gärningsmannen, sedan den sårade, sedan tio män."
+  ],
+  "id": 204
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_105",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_105",
+   "begrepp:namnd",
+   "definieras_som",
+   "=nämnd kommer i fråga för kungens rätt bara i detta mål (vådasår som kungens ombudsman anser uppsåtligt)",
+   "plats:skane",
+   "þæt ær þæt enæ mal ær næfnd cumbær fore konungs ræt.",
+   "Talan förs av kungens ombudsman (konungs umbuzman); begrepp:fogde har inte använts."
+  ],
+  "id": 205
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_141",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:jarnbord|litar den sakförde inte på nämnden säger han upp den två eller tre nätter före tinget och får då bära järn",
+   "plats:skane",
+   "Tröstær hin sæcti ey sæ a næfndæn. þa sighi han atær næfnden twem natum ællær þrim fore þing.",
+   null
+  ],
+  "id": 206
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_141",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|saksökaren nämner tolv män efter eget val ur hela häradet när den sakförde bjuder nämnd",
+   "plats:skane",
+   "þa næfnæ hin ær sac sökær tolf mæn sliki sum han wil af allu hæraþe",
+   "Stöldmål."
+  ],
+  "id": 207
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_141",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_141",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:namnd|den sakförde kan undanta högst tre nämndemän som han kallar sina ovänner; saksökaren nämner andra i deras ställe",
+   "plats:skane",
+   "kallær hin sæcti nockræ uuini sinæ. þa ma han þre men undan takæ. oc ey flere.",
+   "Jävsgrund: fiendskap (ovänskap); begrepp för fiendskap saknas."
+  ],
+  "id": 208
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:radman|den som inte äger ärvd egendom i staden",
+   "plats:sdhk:sverige",
+   "Aldre ma ok then radhman vara, sum æi hawer æghit arff i stadhenum.",
+   "Behörighetsvillkor snarare än jäv i snäv mening."
+  ],
+  "id": 209
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_2",
+   "begrepp:radman",
+   "definieras_som",
+   "=rådet består av sex borgmästare och trettio rådmän, hälften svenskar och hälften tyskar, räknat efter faderns börd",
+   "plats:sdhk:sverige",
+   "Borghamestara sculu vara alz siæx, thre swenske oc thre thyzske, oc twe skulu vara hvart arith. Radhmen sculu wara thretighi altz, halft aff hvario.",
+   "Två borgmästare och tio rådmän sitter varje år. Mindre städer får ha färre."
+  ],
+  "id": 210
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_124",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_124",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|med två mäns vittne, för den som för talan efter en dräpt frigiven, att han tog honom i ätt eller är närmaste frände",
+   "plats:skane",
+   "witi mæþ tyltær eþ. oc twigia manna witni. at han tok han j æt",
+   null
+  ],
+  "id": 211
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_124",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_124",
+   "begrepp:mansbot",
+   "tillfaller",
+   "=den som tagit den frigivne i ätt en tredjedel av alla böter, hans fränder två delar",
+   "plats:skane",
+   "swa scal oc han takæ af allum botum ær fore han warþæ böttæ.",
+   "Andelarna anges i föregående mening om böter för den frigivnes gärningar: 'þriþiung af allum botum. oc twa lotær hans frændær'."
+  ],
+  "id": 212
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|sex av tolv marker när nämnden förlorar en vädjan; tre av sex när målsäganden förlorar",
+   "plats:sdhk:sverige",
+   "Tappær næmdin þa böte tolf marker, taki siæx marker kununger ok siæx marker malsæghande. Tappær ok malsæghande, þa böte han siæx marker, taki þre marker næmdin ok þre marker kununger."
+  ],
+  "id": 213
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|den vars vittnesmål underkänns inför kungens dom blir aldrig mer tingsbär, vittnesbär eller edsbär",
+   "plats:sdhk:sverige",
+   "vari aldre þingxbæri, vitnis bæri ællæ eþz bæri, ok hetin skæmdæ mæn ok ei vitnis mæn",
+   "Böter nio marker till treskifte och tre marker till biskopen."
+  ],
+  "id": 214
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:vittne",
+   "kraver",
+   "begrepp:ed|vittnen svär att de vittnar rätt och sant",
+   "plats:sdhk:sverige",
+   "þe skulu suæria vm all þe vitne sum þe vitna, ok biþia sik sua guþ til hiælpæ æt þe vitna ræt ok sant vm þetta maal"
+  ],
+  "id": 215
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_32",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:ed",
+   "kraver",
+   "=vittnen inför kung, lagman, härad eller nämnd skall svära att vittna sant",
+   "plats:sdhk:sverige",
+   "Alle vitnis mæn fore kununge, laghmanne, hæræþe ællæ hæræz næmd, þe skulu suæria vm all þe vitne sum þe vitna"
+  ],
+  "id": 216
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_166",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_166",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:boter|fäets värde och tre marker, eller tylftered, när fä värt minst en halv mark dräps",
+   "plats:skane",
+   "gialde atær fæ swa mæþ loghum sum wiþning ær ofnæ fæ. oc þre marc. ællær dyli mæþ tyltær eþ at han drap þæt ey",
+   null
+  ],
+  "id": 217
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_166",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_166",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att med spjut eller annat vapen sticka en annans fä så att inälvorna väller ut",
+   "plats:skane",
+   "Gör man gorniþings wærk ofna annars manz fæ mæþ spiuti ællær andru wapne. swa at ut wældær gor.",
+   null
+  ],
+  "id": 218
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_7",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_kgb_7",
+   "begrepp:radman",
+   "utses_av",
+   "=vid oenighet om valet råder de som är flera, har bättre skäl och har fogden med sig",
+   "plats:sdhk:sverige",
+   "tha skulu the radha flere saman halda ok betre skæl haffua ok foghaten medh halder",
+   "Gäller val av både borgmästare och rådmän."
+  ],
+  "id": 219
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_71",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:ed|nämnden svär att den inte gör det för vänskap eller gods utan för att det är de rätta ägogränserna",
+   "plats:skane",
+   "biþiæ sic swa guþ hiælpæ. at þe göræ þæt ey fore wild. oc ey fore fæ.",
+   "Ed som binder nämnden till oväld."
+  ],
+  "id": 220
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_71",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "utses_av",
+   "=tolv av de äldsta i bygden nämns i tvist om ägogränser mellan byar",
+   "plats:skane",
+   "þa scal næfnæ tolf mæn. þe ær aldungæ æræ j bygden.",
+   "Vem som nämner anges inte."
+  ],
+  "id": 221
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_71",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_71",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:vite|tre marker till kungens rätt för de nämnda äldste som vägrar svära",
+   "plats:skane",
+   "wiliæ aldungæ þe ær til warþæ næfndæ ey swæriæ markæ skiæl. þa liggiæ þæm wiþær þre marc. at kunugs ræte",
+   "Påföljd för nämndemän som vägrar svära."
+  ],
+  "id": 222
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungen ger alla inbyggare sina eder samma dag och på samma plats",
+   "plats:sdhk:sverige",
+   "Nu a sama dagh ok staþ agher kununger allum inrikis boandum tryggia {eþe} [eþa] sina giua.",
+   "Edens sju artiklar följer i flocken."
+  ],
+  "id": 223
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens andra artikel: stärka all rättvisa och sanning och trycka ned all orätt",
+   "plats:sdhk:sverige",
+   "Annar articulus ær þæt, æt han skal alla rætuiso ok sannind styrkia"
+  ],
+  "id": 224
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens tredje artikel: ingen fördärvas till liv eller lem utan att lagligen vara överbevisad",
+   "plats:sdhk:sverige",
+   "ængin fatökan ællæ rikan nakarum lundum fordarua {af} [a] liif ællæ limi, vtan han se laghlika forwnnin"
+  ],
+  "id": 225
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|edgången: kungen svär på bok med helgedom i handen",
+   "plats:sdhk:sverige",
+   "Nu agher kununger eeþ sin suæria a bok ok helghodoma i hand sinne halda"
+  ],
+  "id": 226
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "definieras_som",
+   "=laglig kung över hela Sverige när han valts av lagmän och landsmän och svurit sina eder",
+   "plats:sdhk:sverige",
+   "Þaghar han ær af laghmannum ok landzmannum sua valder ok til kunungx {domder} [dömder], ok hauer eþa sina gangit sum för ær sakt, þa ær han laghliker kununger iuir alt suerike"
+  ],
+  "id": 227
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "definieras_som",
+   "=har högsta domen över alla domare",
+   "plats:sdhk:sverige",
+   "i rike sino af guþi höxstan dom haua iuir alla domara"
+  ],
+  "id": 228
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "kraver",
+   "=lagar för allmogen kräver dess samtycke och goda vilja",
+   "plats:sdhk:sverige",
+   "ængin ok þön lagh giuis almoghanum vtan ia ok goþ uilia þera."
+  ],
+  "id": 229
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "kraver",
+   "begrepp:ed|ska värna rättvisa, lag och folkets frid",
+   "plats:sdhk:sverige",
+   "Nu a sama dagh ok staþ agher kununger allum inrikis boandum tryggia {eþe} [eþa] sina giua."
+  ],
+  "id": 230
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_5",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "kraver",
+   "begrepp:ed|efter val och avlagd ed är han laglig kung",
+   "plats:sdhk:sverige",
+   "Þaghar han ær af laghmannum ok landzmannum sua valder ok til kunungx {domder} [dömder], ok hauer eþa sina gangit sum för ær sakt, þa ær han laghliker kununger iuir alt suerike."
+  ],
+  "id": 231
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|tolv marker vid dråp i hemfrid",
+   "plats:gotland",
+   "oc andrar tolf hanum",
+   "'hanum' = den drabbade; vid dråp rimligen hans arvingar (tolkning)."
+  ],
+  "id": 232
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=när husbonden eller flera av hushållet slås på gården räknas bara en hemsökn, för den som står högst; alla får dock laga böter",
+   "plats:gotland",
+   "verþr husbondi berþr.j. garþj sinum. haima eþa flaira fulc. þa tacr þann ann",
+   null
+  ],
+  "id": 233
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tolv marker till landet och tolv till den drabbade, därtill mansbot, om en man dräps eller huggs hemma på sin gård",
+   "plats:gotland",
+   "Drepr þu mann haima.j. garþi sinum eþa af hagg veitr. þa byt tolf marcr wiþr landa alla. oc andrar tolf hanum. Oc þau wereldi.",
+   "Hemfrid; lagen talar inte om kungens edsöre."
+  ],
+  "id": 234
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre marker till den drabbade och tre till menigheten jämte laga böter vid slag eller sår hemma",
+   "plats:gotland",
+   "þa byt þriar marcar hanum. oc andrar þriar mogha. oc þau laga bytr",
+   null
+  ],
+  "id": 235
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|tolv marker vid dråp i hemfrid",
+   "plats:gotland",
+   "þa byt tolf marcr wiþr landa alla",
+   null
+  ],
+  "id": 236
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_12",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tolv mark till landet och tolv till den drabbade utöver mansbot vid dråp hemma",
+   "plats:gotland",
+   "þa byt tolf marcr wiþr landa alla. oc andrar tolf hanum. Oc þau wereldi."
+  ],
+  "id": 237
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_87",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_87",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:jarnbord|järnbörd för att fria sig från husbrott",
+   "plats:skane",
+   "warþær han uskiær at iarne. ællr han gar wiþær.",
+   null
+  ],
+  "id": 238
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_87",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_87",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till kungen och fyrtio till saksökaren för att bryta upp en annans dörr med fem fullt beväpnade lagsmän och ta något därifrån",
+   "plats:skane",
+   "þa böte han konungi fyritiughu marc. oc hinum ær sac sökær fyritiughu marc.",
+   "Tolkat som hemsökn; lagen ger inget namn."
+  ],
+  "id": 239
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_12",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_12",
+   "begrepp:rannsakan",
+   "handlaggs_vid",
+   "=där gärningen begicks; böterna betalas där gärningsmannen bor",
+   "plats:sdhk:sverige",
+   "Ther skal gerningen ranzakas hon gör ær, ok bötes ther man bygger.",
+   "Allmän regel, inte särskild för dråp. §3: brott som gäller livet straffas med liv för liv om han inte förmår böta."
+  ],
+  "id": 240
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_99",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:kung",
+   "stiftar_lag",
+   "=kungen har bestämt att man inte ska böta för dödsfall i gropar",
+   "plats:skane",
+   "æn þo sighær konung at fore þæskyns mal ællær grauæ scal man ey böte.",
+   "Enskild bestämmelse; kungen namnges inte."
+  ],
+  "id": 241
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_99",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av den som har lott i ler- eller rävgropen där en man dör",
+   "plats:skane",
+   "Dör man j lergrauum ællær ræfgrawm bötæ oc hin þre marc. ær graue lot.",
+   null
+  ],
+  "id": 242
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_99",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_99",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|enligt kungen ska man inte böta för dödsfall i gropar",
+   "plats:skane",
+   "æn þo sighær konung at fore þæskyns mal ællær grauæ scal man ey böte.",
+   "Motsägelse mellan lagens äldre regel och kungens bestämmelse."
+  ],
+  "id": 243
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_91",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "definieras_som",
+   "=brodern böter mest, brorsonen hälften, och för varje led längre bort halveras andelen ned till en örtug per man",
+   "plats:skane",
+   "broþær böte mæst. oc broþær sun halw minnæ. oc swa sum byrþin gar e. fiarmer.",
+   "Fädernefränder bötar först, sedan mödernefränder; dråparen själv böter först en sal."
+  ],
+  "id": 244
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_91",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|fränderna tar emot ättebot bara så långt ut som de själva bötar",
+   "plats:skane",
+   "æn at ættæ bot scal man ey længær faræ æn man ær atær böttær.",
+   "Osäker läsning."
+  ],
+  "id": 245
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_91",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_91",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|inte till barn som föds efter dråpet",
+   "plats:skane",
+   "ey scal oc ættæ bot kræuiæ fore þæt barn siþæn warþær föt ær man war dræpin.",
+   null
+  ],
+  "id": 246
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_96",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_96",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|fränder som står lika nära den dräpte och dråparen bötar med dråparen och tar lika mycket på den dräptes sida, eller kvittar",
+   "plats:skane",
+   "bötæ mæþ hin ær drap. oc taki mæþ annar wagh swa mikit sum þe böte.",
+   "Står de närmare den dräpte bötar de inte med dråparen."
+  ],
+  "id": 247
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_96",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_96",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen ska undvika väg, kyrka och alla sammankomster sedan böterna fästs, tills boten är betald och trygd tagen",
+   "plats:skane",
+   "þa scal hin ær drap rymæ wægh oc kirkiu. oc alla samfyndær. e til böt warþær oc trygd warþær takin.",
+   null
+  ],
+  "id": 248
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_84",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:kung",
+   "stiftar_lag",
+   "=kungen har stadgat ordningen för ättebot, så att dråparen inte ska ta ättebot av fränderna och förskingra den och fränderna tvingas böta en andra gång",
+   "plats:skane",
+   "þættæ hauir konung for þy swa skipæt. at hin ær man hauir dræpit sculi ey ættæ bötær taki af frændum sinum oc for hæghþæ.",
+   "Gäller en enskild bestämmelse, inte hela lagen. Kungen namnges inte."
+  ],
+  "id": 249
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_84",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:attebot",
+   "definieras_som",
+   "=fränderna är skyldiga att böta med en man bara i dråpsmål, inte i andra saker",
+   "plats:skane",
+   "Jnnan hwærskyns sac ær man cumbær utan j. mandraps mal þa æræ frændær ey skyldæ at böte mæþ hanum.",
+   "En frände som vägrar betala tvingas av de andra fränderna med kungens rätt, inte av dråparen med utmätning."
+  ],
+  "id": 250
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_84",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|dråparen böter först en sal av sitt eget, sedan bötar fädernefränderna och därefter mödernefränderna med honom",
+   "plats:skane",
+   "Faldær annær man j mandrap. taki aldrigh ættæ bot af sinum frændum. för æn han hauir böt en sal af sinu eghno.",
+   "Fränderna lämnar inte ut sin andel förrän i samma stund som boten betalas; därefter tas trygd."
+  ],
+  "id": 251
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_84",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_84",
+   "begrepp:drap",
+   "kraver",
+   "=dråparen betalar först en del ur eget gods innan släktingarnas ättebot tas in",
+   "plats:skane",
+   "för æn han hauir böt en sal af sinu eghno."
+  ],
+  "id": 252
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_4",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_4",
+   "begrepp:sakore",
+   "tillfaller",
+   "begrepp:haradshovding|en tredjedel av häradets rätt i sakören",
+   "plats:sdhk:sverige",
+   "han agher haua þriþiung af allum hæræz ræt i sakörum af þy hæræþe"
+  ],
+  "id": 253
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_4",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_4",
+   "begrepp:sakore",
+   "tillfaller",
+   "begrepp:harad|två tredjedelar av häradets rätt",
+   "plats:sdhk:sverige",
+   "ok hæræþ {ræþe} [raþe] sialft þem tuem lutum"
+  ],
+  "id": 254
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:fogde|fogden sätter en ställföreträdare som sitter i rätten",
+   "plats:sdhk:sverige",
+   "Ok foghaten skal skipa en fore sik som rætten skal sitia",
+   "Borgmästare och rådmän får inte döma utan att fogden eller hans bud är närvarande."
+  ],
+  "id": 255
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_rb_2",
+   "begrepp:radman",
+   "kraver",
+   "begrepp:fogde|fogden eller dennes ombud måste vara närvarande vid dom",
+   "plats:sdhk:sverige",
+   "Enga doma magho borghamæstara ella radhmæn döma vtan foghaten ella hans budh ær ther næær."
+  ],
+  "id": 256
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_108",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_108",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|tre tylfter för att neka rådsak",
+   "plats:skane",
+   "ællr han dyli mæþ þrem tyltum um han ær uskyldær.",
+   null
+  ],
+  "id": 257
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_108",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_108",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|nio marker för rådsak, att ha rått till dråpet",
+   "plats:skane",
+   "böte hin ær sac ær giuin ni marc um han ær sandær fore.",
+   "Rådsak (raþæ sac) kan bara ges sedan mannen är död."
+  ],
+  "id": 258
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:gutalagen_enligt_holm_b_64:gl_28",
+  "rad": [
+   "lag:gutalagen_enligt_holm_b_64:gl_28",
+   "begrepp:drap",
+   "paforljd",
+   "=när bröder i oskiftat bo dräper svarar var och en för sina egna gärningar; den som dräpte böter",
+   "plats:gotland",
+   "oc drepr ann þaira mann þa varþar sinum vercum huer þann bytir sum drap",
+   null
+  ],
+  "id": 259
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_123",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_123",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|halv mansbot av den som tagit en frigiven i ätt, när den frigivne dräper en man",
+   "plats:skane",
+   "bötæ foræ han haluæ mannæ bötær um han dræpir man.",
+   "Utan ättmottagare böter den frigivne själv lindebot i tre år eller flyr."
+  ],
+  "id": 260
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_123",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_123",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|halv mansbot för frigiven som dödar under annans beskydd",
+   "plats:skane",
+   "bötæ foræ han haluæ mannæ bötær um han dræpir man."
+  ],
+  "id": 261
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_tgb_33",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_tgb_33",
+   "begrepp:namnd",
+   "definieras_som",
+   "=sju av tolv avgör om den anklagade värjs eller fälls",
+   "plats:sdhk:sverige",
+   "huem siu af næmdinne væria vare varþer, huem þe fælla vare fælder"
+  ],
+  "id": 262
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_2",
+  "rad": [
+   "lag:magnus_erikssons_stadslag_exklusiva_stadslagsflockar:mest_skb_2",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=man har lika mycket frid i sitt skepp som i sin gård",
+   "plats:sdhk:sverige",
+   "Swa mykin fridh haffwer man i sino skipi som i sinum gardhe",
+   "Tolkning: hemfriden, och därmed edsöresskyddet, omfattar skeppet. Dråp och sår där döms efter sakens art."
+  ],
+  "id": 263
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:magnus_erikssons_landslag:mel_kgb_17",
+  "rad": [
+   "lag:magnus_erikssons_landslag:mel_kgb_17",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna väljer hälften var av tolvmannanämnden",
+   "plats:sdhk:sverige",
+   "ligge til tolf manna næmd af resonne, ok raþe halue næmd huar þera",
+   "Gäller tvist om husbonde gett sin man skuld för rymning."
+  ],
+  "id": 264
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:skanelagen_enligt_holm_b_76:skl_116",
+  "rad": [
+   "lag:skanelagen_enligt_holm_b_76:skl_116",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tre tylfter för den som nekar banesak för egen del men vidgår att hans träl gav banesåret",
+   "plats:skane",
+   "sæliæ thrigia tyltær eþ fore sic sialuan. oc bötæ fore þræl sin sum logh æræ.",
+   null
+  ],
+  "id": 265
+ }
+]

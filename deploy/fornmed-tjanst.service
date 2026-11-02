@@ -1,0 +1,37 @@
+# Söktjänsten: REST-API:et och MCP-servern i samma process (tjanst.py).
+# Installeras av installera_server.sh till /etc/systemd/system/.
+#
+# Lyssnar på 127.0.0.1:8424; nginx skickar api.<domän> till roten och
+# mcp.<domän> till /mcp. Modellerna läses ur /srv/fornmed/modeller utan
+# nätåtkomst (HF_HUB_OFFLINE), eftersom de laddades ner vid installationen.
+
+[Unit]
+Description=Fornmed — söktjänst (API och MCP)
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/srv/fornmed/fornmed
+EnvironmentFile=/srv/fornmed/fornmed/.env
+Environment=HF_HOME=/srv/fornmed/modeller
+Environment=XDG_CACHE_HOME=/srv/fornmed/modeller/cache
+Environment=HF_HUB_OFFLINE=1
+Environment=TRANSFORMERS_OFFLINE=1
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStart=/srv/fornmed/venv/bin/python tjanst.py
+Restart=on-failure
+RestartSec=5
+# Modellerna tar en stund att ladda; tjänsten svarar först därefter
+TimeoutStartSec=180
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadOnlyPaths=/srv/fornmed
+# Modellbiblioteket kan vilja skriva låsfiler i sin cache även utan nätåtkomst
+ReadWritePaths=/srv/fornmed/modeller
+
+[Install]
+WantedBy=multi-user.target

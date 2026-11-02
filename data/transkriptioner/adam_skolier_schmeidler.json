@@ -1,0 +1,786 @@
+[
+ {
+  "nr": 1,
+  "lappenberg_i_rubrik": null,
+  "sidor": [
+   4
+  ],
+  "bildindex": [
+   73
+  ],
+  "text": "Einhardus ex capellanis Karoli imperatoris vitam eius descripsit et bella Saxonum (B 1b. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad med ankaret (I,1 'quae doctissimus vir Einhardus ...'), inte skoliet. Rubriken saknar Lappenbergnummer.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 4,
+  "lappenberg_i_rubrik": 5,
+  "sidor": [
+   18
+  ],
+  "bildindex": [
+   87
+  ],
+  "text": "Scriptum est in Gestis sancti Ansgarii et privilegiis Romanorum pontificum (B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten i arbetslistan är huvudtext (bok I kap. 14, rad 15 ff., där ankaret 'Schol. 4.' står i marginalen), inte skoliet. Själva skoliet är kort och står helt på s. 18. Arbetslistan har lappenberg null, men rubriken ger (5). I sigeln står 'a' upphöjt (B 1ª).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 11,
+  "lappenberg_i_rubrik": 12,
+  "sidor": [
+   72
+  ],
+  "bildindex": [
+   141
+  ],
+  "text": "Sturmarios alluit ab oriente Bilena fluvius, qui mergitur in Albiam fluvium, sicut ille superior (A 2. B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "OCR:en har hela texten men saknar den kursiva sigelparentesen, därför bedömdes den som ofullständig.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 12,
+  "lappenberg_i_rubrik": 13,
+  "sidor": [
+   74
+  ],
+  "bildindex": [
+   143
+  ],
+  "text": "Travenna flumen est, quod per Waigros currit in mare Barbarum, iuxta quem fluvium mons est unicus Alberc et civitas Liubice (A 2. B 1a. 2. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten i arbetslistan är huvudtexten vid ankaret 'Schol. 12.' (usque in Travena silvam ...), inte skoliet; rubriken 'Schol. 12 (13)' är otvetydig. Arbetslistan anger lappenberg null, rubriken har (13).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 15,
+  "lappenberg_i_rubrik": 16,
+  "sidor": [
+   76
+  ],
+  "bildindex": [
+   145
+  ],
+  "text": "Aldinburg civitas magna Sclavorum, qui Waigri dicuntur, sita est iuxta mare, quod Balticum vel Barbarum dicitur, itinere diei ab Hammaburg (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad vid ankaret 'Schol. 15.' i marginalen, inte skoliet; rätt skolion bekräftat via rubriken 'Schol. 15 (16)'. Schmeidlers not 6: samma skolion som n. 29 (29), av A 2 godtyckligt flyttat hit.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 17,
+  "lappenberg_i_rubrik": 18,
+  "sidor": [
+   80
+  ],
+  "bildindex": [
+   149
+  ],
+  "text": "Marahi sunt populi Sclavorum, qui sunt ab oriente Behemorum, habentque in circuitu hinc Pomeranos et Polanos, inde Ungros et crudelissimam gentem Pescinagos, qui humanis carnibus vescuntur (A 2. B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet; skoliet identifierat via rubriken.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 19,
+  "lappenberg_i_rubrik": 20,
+  "sidor": [
+   81
+  ],
+  "bildindex": [
+   150
+  ],
+  "text": "Beda. Brittannia oceani insula, cui quondam Albion nomen fuit, inter septentrionem et occidentem locata est, Germaniae, Galliae, Hispaniae, maximis Europae partibus, multo intervallo adversa. Habet a meridie Galliam Belgicam, cuius proximum litus transmeantibus apparet civitas, quae dicitur Rutubi portus. Hibernia insula omnium post Brittanniam maxima est, ad occidentem quidem Brittaniae sita; sicut contra aquilonem est brevior, ita in meridiem se trans illius fines plurimum pretendens usque contra Hispaniae septentrionalia (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Spärrade ord (apparet, est, pretendens) återgivna utan spärrning.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 20,
+  "lappenberg_i_rubrik": 21,
+  "sidor": [
+   83
+  ],
+  "bildindex": [
+   152
+  ],
+  "text": "Anno Domini DCCCC°LX°VI° Dani ad fidem sunt per Popponem quendam conversi, qui ferrum candens et ignitum in modum cyrotecae formatum coram populo sine lesione portavit, quod videns rex Haraldus abiecta ydolatria cum toto populo ad colendum verum Deum se convertit, Poppo autem in episcopum est promotus (C 1 von zweiter Hand. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "I årtalet står små upphöjda o efter DCCCC, LX och VI. De återges här som °.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 21,
+  "lappenberg_i_rubrik": 22,
+  "sidor": [
+   84,
+   85
+  ],
+  "bildindex": [
+   153,
+   154
+  ],
+  "text": "Anno Domini DCCCCoLXXIIIo Wencezlaus princeps Boemiae a fratre suo Bugezlao, qui principatum sibi usurpavit, martyrizatur, pro quo Deus urbem Pragam, ubi requiescit, multis miraculis illustrat (C 1 von zweiter Hand. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Upphöjt o i DCCCCoLXXIIIo är ordningstalsmarkering i talet (inte apparatbokstav) och har behållits som 'o'.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 27,
+  "lappenberg_i_rubrik": 30,
+  "sidor": [
+   102
+  ],
+  "bildindex": [
+   171
+  ],
+  "text": "Sermo est ducem Sclavanicum petisse filio suo neptem ducis Bernardi eumque promisisse. Tunc princeps Winulorum misit filium suum cum duce in Ytaliam cum mille equitibus, qui fere omnes ibi sunt interfecti. Cumque filius ducis Sclavanici pollicitam mulierem expeteret, Theodericus marchio intercepit consilium, consanguineam ducis proclamans non dandam esse cani (B 1a. 2; vgl. C S. 105, N. o).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad vid ankaret 'Schol. 27.' i marginalen, inte skoliet; rätt skolion bekräftat via rubriken 'Schol. 27 (30)'.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 32,
+  "lappenberg_i_rubrik": 33,
+  "sidor": [
+   104
+  ],
+  "bildindex": [
+   173
+  ],
+  "text": "Anno Domini MoXo. Gens Ungarie ad fidem convertitur per Gislam sororem imperatoris, que nupta regi Ungarie ipsum regem induxit, ut se et suos baptizari faceret, et in baptismo Stephanus est appellatus. Qui postea sanctus fieri meruit (C, von zweiter Hand nachgetragen in C 1).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "'MoXo' återger tryckets M°X° (upphöjda o). Skoliet är spärrat (sperrdruck) i trycket från 'Gens Ungarie'; spärrningen återges inte.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 40,
+  "lappenberg_i_rubrik": 41,
+  "sidor": [
+   114,
+   115
+  ],
+  "bildindex": [
+   183,
+   184
+  ],
+  "text": "Richardus enim dimissa Chnut regis sorore propter metum Danorum exulans a patria Ierusalem profectus ibique defunctus est. Cuius socii XL revertentes in Apulia remansisse narrantur, et ex illo tempore Nortmanni possederunt Apuliam (B 1a. 3a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad med ankaret (II,53). Arbetslistan anger lappenberg null, men rubriken har (41). Fortsätter från s. 114 ('so-') till s. 115 ('rore').",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 43,
+  "lappenberg_i_rubrik": 45,
+  "sidor": [
+   124
+  ],
+  "bildindex": [
+   193
+  ],
+  "text": "Ferunt Thorgotum simulque Odinkarum episcopum longe ante predixisse Hamburgensem et Bremensem ecclesiam propter peccata quandoque vastari debere. Quae prophetia nunc cernitur impleta (B 1a. 3a).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok II kap. 64, 'scopum. Illis namque diebus ... Thurgot'), inte skoliet. Ankaret 'Schol. 43.' står i marginalen. Arbetslistan har lappenberg null, men rubriken ger (45).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 44,
+  "lappenberg_i_rubrik": 44,
+  "sidor": [
+   124
+  ],
+  "bildindex": [
+   193
+  ],
+  "text": "Nam ipso tempore migravit celeberrimus Danorum episcopus Poppo, cui mox subrogatus Esico, cum ad Egdoram fluvium perveniret, ibidem aegritudine correptus obiit (B 1a. 3a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten i arbetslistan börjar med huvudtext ('45. Othingar et Poppo ...') och fortsätter med Schol. 43 (45) (Ferunt Thorgotum ...), inte Schol. 44. Rätt skolion är 'Schol. 44 (44)' på s. 124.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 47,
+  "lappenberg_i_rubrik": 48,
+  "sidor": [
+   126,
+   127
+  ],
+  "bildindex": [
+   195,
+   196
+  ],
+  "text": "Inclita senatrix Emma predicante Libentio archiepiscopo sanctae Bremensi ecclesiae duas cruces et tabulatam altaris et calicem, omnia ex auro et gemmis parata, in quibus erant auri marcae XX, optulit, etiam vestes sacras et paramenta multa et stolas aureas et dorsalia et libros (B1a. (2). C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad vid ankaret 'Schol. 47.' i marginalen, inte skoliet; rätt skolion bekräftat via rubriken 'Schol. 47 (48)'. 'tabu-/latam' sammanslaget till 'tabulatam' över sidbrytningen.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 52,
+  "lappenberg_i_rubrik": 53,
+  "sidor": [
+   130
+  ],
+  "bildindex": [
+   199
+  ],
+  "text": "Clericis ecclesiae suae, quos videbat auxilio indigos, largiebatur aliquibus absconse quaternos aut denos solidos argenti, multis et prebendam, aliis suas vestes; plerisque etiam compatiens, quod a laicis inhoneste tractarentur, percussores eorum fecit ante se et colaphis caedi et vapulare taureis (B 1a. (2). C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet; skoliet identifierat via rubriken.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 53,
+  "lappenberg_i_rubrik": 54,
+  "sidor": [
+   130,
+   131
+  ],
+  "bildindex": [
+   199,
+   200
+  ],
+  "text": "Videns autem pestiferum morbum de connubiis clericorum magis in dies crescere, statuit pedibus ire in sententiam decessoris Libentii, si tamen ecclesiam et claustrum ante perduceret ad suum statum (B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad med ankaret (II,69). Arbetslistan anger lappenberg null, men rubriken har (54). Fortsätter från s. 130 ('connu-') till s. 131.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 61,
+  "lappenberg_i_rubrik": 62,
+  "sidor": [
+   151,
+   152
+  ],
+  "bildindex": [
+   220,
+   221
+  ],
+  "text": "Suein a Magno victus cessit fortunae et factus est homo victoris, faciens ei sacramentum fidelitatis. Sed cum denuo rebellare cepisset consilio Danorum, nihilominus a Magno superatus est. Ita Suein fugiens ad Iacobum venit, adprime dolens pro fide pollicita, quam violavit (B 1a. 3a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Står på s. 151–152 (index 220–221), inte på s. 150 som arbetslistan angav.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 62,
+  "lappenberg_i_rubrik": 63,
+  "sidor": [
+   153
+  ],
+  "bildindex": [
+   222
+  ],
+  "text": "Haroldus a Grecia regressus filiam regis Ruziae Gerzlef uxorem accepit; alteram tulit Andreas, rex Ungrorum, de qua genitus est Salemon; terciam duxit rex Francorum Heinricus, quae peperit ei Philippum (B 1a. 2. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 64,
+  "lappenberg_i_rubrik": 65,
+  "sidor": [
+   154,
+   155
+  ],
+  "bildindex": [
+   223,
+   224
+  ],
+  "text": "Sicut enim prius diximus, Chnut rex Danorum sororem suam, quae a Richardo comite repudiata est, dedit Vlf duci suo, ex qua nati sunt Bern dux et Suein rex. Vlf dux sororem suam Gudvino duci Anglorum copulavit, ex qua nati sunt Suein, Tosti et Harold et ista Gude, quam rex Eduard in coniugio habuit. Deinde Suein, filius Gudvini, occidit Bern, filium avunculi sui. Harold autem cum esset vir fortissimus, Griphum, Hyberniae regem, decollavit, Suein regem Danorum ab Anglia propulit ipsumque cognatum et dominum suum Eduardum pro nihilo habuit. Sequitur vindicta Dei et plaga Nordmannorum et excidium Angliae (B1a. 2. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad vid ankaret 'Schol. 64.' i marginalen, inte skoliet; rätt skolion bekräftat via rubriken 'Schol. 64 (65)'.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 65,
+  "lappenberg_i_rubrik": 66,
+  "sidor": [
+   156
+  ],
+  "bildindex": [
+   225
+  ],
+  "text": "Illo egresso Bremense claustrum regula, disciplina fratrum et concordia defecit, acephalis omnia turbantibus (C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet; skoliet identifierat via rubriken.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 70,
+  "lappenberg_i_rubrik": 72,
+  "sidor": [
+   162
+  ],
+  "bildindex": [
+   231
+  ],
+  "text": "In ostio Peanis fluvii civitas maxima est, quae Dimine vocatur; ibi est terminus Hammaburgensis parrochiae (B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad med ankaret (III,20). Arbetslistan anger lappenberg null, men rubriken har (72).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 78,
+  "lappenberg_i_rubrik": 79,
+  "sidor": [
+   192
+  ],
+  "bildindex": [
+   261
+  ],
+  "text": "Ex omni victu et servitio episcopali decima capellano legaliter cotidie reddebatur ad sustentationem infirmorum et egentium peregrinorumque hospitium. Sed capellanus ad suum usum fraudulenter multa reservans nihil pauperibus impendebat (B 1. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok III kap. 49, 'nuit. Nam et cortes episcopi ...'), inte skoliet. Arbetslistan har lappenberg null, men rubriken ger (79).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 88,
+  "lappenberg_i_rubrik": 89,
+  "sidor": [
+   208
+  ],
+  "bildindex": [
+   277
+  ],
+  "text": "Nothebaldus vir maleficus, adulator et mendax apertissimus (B 1a. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": null,
+  "osakerheter": "Hittat efter genomgång av s. 200-208 (index 269-277); ankaret står i huvudtexten s. 208 rad 22.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 89,
+  "lappenberg_i_rubrik": 90,
+  "sidor": [
+   209
+  ],
+  "bildindex": [
+   278
+  ],
+  "text": "Ex illo tempore balneis, quibus fere cotidie solebat uti, sale recoctis abstinuit, et reliquis multis, quae gravia esse populo persensit (B1a. 2. C; vgl. Kap. 63, N. s).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Står på s. 209 (inte 208). 'N. s)' i slutparentesen är en hänvisning till variantnot s) och är tryckt så.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 98,
+  "lappenberg_i_rubrik": 102,
+  "sidor": [
+   228
+  ],
+  "bildindex": [
+   297
+  ],
+  "text": "Primus in Ripa episcopus Lyafdagus erat, secundus Othencarus, tertius Wal, quartus Odo (B 3a.a'.d–f).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Siglet trycks B 3 med upphöjt a.a'.d–f; återgivet som '3a.a'.d–f'.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 103,
+  "lappenberg_i_rubrik": 100,
+  "sidor": [
+   230
+  ],
+  "bildindex": [
+   299
+  ],
+  "text": "Inter . . Wen[dil] . . pro . . quod . . contra . . sula . . nal . . (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "Skoliet är självt ett fragment i utgåvan (A 2 avskuret); punkter och hakparenteser enligt utgåvan. OCR-texten är huvudtextens rad med ankaret (IV,1). Arbetslistan anger lappenberg null, men rubriken har (100). Apparaten anger Lappenbergs komplettering: 'Inter oceanum et Wendile mare promunctorium Skagen, quod respicit contra insulas aquilonales' (ej i texten).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 111,
+  "lappenberg_i_rubrik": 111,
+  "sidor": [
+   234
+  ],
+  "bildindex": [
+   303
+  ],
+  "text": "Ab hac insula primum egressi sunt Longobardi vel Gothi, et vocatur ab historicis Romanorum Scantia vel Gangavia sive Scandinavia. Cuius metropolis civitas Lundona, quam victor Angliae Chnud Britannicae Lundonae aemulam esse prece[pit] (A 2. 3).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok IV kap. 7, 'mus in Halsinpurg ... Sconia est pulcherrima'), inte skoliet. Hakparentesen i 'prece[pit]' är utgåvans egen. Arbetslistan har lappenberg null, men rubriken ger (111).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 116,
+  "lappenberg_i_rubrik": 115,
+  "sidor": [
+   237,
+   238
+  ],
+  "bildindex": [
+   306,
+   307
+  ],
+  "text": "Mare orientale seu mare Barbarum sive mare Scithicum vel mare Balticum unum et idem mare est, quod Marcianus et antiqui Romani Scithicas vel Meoticas paludes sive deserta Getharum aut Scithicum littus appellant. Hoc igitur mare ab occidentali occeano inter Daniam et Nordwegiam ingrediens versus orientem porrigitur longitudine incomperta (B 3a. a'. d–f).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Siglerna tryckta med upphöjda tecken: B 3^a. ^a'. ^d–f.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 118,
+  "lappenberg_i_rubrik": 3,
+  "sidor": [
+   239
+  ],
+  "bildindex": [
+   308
+  ],
+  "text": "Fresia regio est maritima, inviis inaccessa paludibus, habetque pagos XVII. Quorum pars tercia Bremensem respicit episcopatum, hiis distincti vocabulis: Ostraga, Rustri, Triesmeri, Wanga, Herloga, Nordi atque Morseti. Et hii VII pagi ecclesias tenent [circiter] L. Hanc Fresiae partem a Saxonia dirimit palus, quae Waplinga dicitur, et Wirrahae fluvii ostia. A reliqua Fresia palus Emisgoe terminat et mare occeanum (A 2. B 3a. a'. d-f).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Står på s. 239. Siglerna tryckta som 'B 3^a. a'. d–f' med upphöjda tecken; återgivna som 'B 3a. a'. d-f'.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 120,
+  "lappenberg_i_rubrik": 116,
+  "sidor": [
+   240
+  ],
+  "bildindex": [
+   309
+  ],
+  "text": "Ruzzia vocatur a barbaris Danis Ostrogard, eo quod in oriente posita quasi hortus irriguus abundat omnibus bonis. Haec etiam Chungard appellatur, eo quod ibi sedes Hunorum primo fuerit (A 2. 3).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "Står på s. 240 (index 309), inte 238/239. OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet; skoliet identifierat via rubriken.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 128,
+  "lappenberg_i_rubrik": 124,
+  "sidor": [
+   250
+  ],
+  "bildindex": [
+   319
+  ],
+  "text": "Tacitus Suecos hoc quoque Sueonum nomine appellat (B 3d).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad med ankaret (IV,21). Arbetslistan anger lappenberg null, men rubriken har (124).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 129,
+  "lappenberg_i_rubrik": 123,
+  "sidor": [
+   250
+  ],
+  "bildindex": [
+   319
+  ],
+  "text": "Paulus in Gestis Longobardorum de fecunditate gentium septentrionalium et VII viris, qui in litore occeani iacent in provincia Scritefingorum (A 2. B 1a. 3d. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok IV kap. 21, 'norum, quod Nortmannia vix queat transiri ...'), inte skoliet. Arbetslistan har lappenberg null, men rubriken ger (123).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 130,
+  "lappenberg_i_rubrik": 125,
+  "sidor": [
+   250
+  ],
+  "bildindex": [
+   319
+  ],
+  "text": "Dani, Sueones et Nordmanni et reliqui Scithiae populi a Romanis Yperborei vocantur, quos Marcianus extollit multis laudibus (A 2. B 1a. 3d. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten i arbetslistan är huvudtextraden vid ankaret 'Schol. 130.' (dicunt plurimam partem Germaniae Suevos tenere nec-), inte skoliet. Arbetslistan anger lappenberg null, rubriken har (125).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 132,
+  "lappenberg_i_rubrik": 127,
+  "sidor": [
+   251
+  ],
+  "bildindex": [
+   320
+  ],
+  "text": "Quo etiam morbo Sclavi laborant et Parthi et Mauri, sicut Lucanus testis est de Parthis, et de Mauris Salustius (A 2. B 1a. 3a. a'. C).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 137,
+  "lappenberg_i_rubrik": 132,
+  "sidor": [
+   255,
+   256
+  ],
+  "bildindex": [
+   324,
+   325
+  ],
+  "text": "Halsingland regio est Scritefingorum, sita in altissimis montibus, qui Riphei dicuntur, ubi nix perpetua durat. Homines ibi gelu decocti, tecta domorum non curant, carne ferarum pro cibo et pellibus earum pro indumento fruuntur (A 2. B 1a. 3a.a'. C 2). In Yperboreis montibus preter alia, quae ibi sunt, monstra leguntur etiam grifes nasci (A 2. B 1a. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Rubriken lyder 'Schol. 137 (132/33)', dvs. Lappenbergs nr 132 och 133 (skoliet består av två delar med var sin siglegrupp); lappenberg_i_rubrik satt till 132.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 141,
+  "lappenberg_i_rubrik": 137,
+  "sidor": [
+   260
+  ],
+  "bildindex": [
+   329
+  ],
+  "text": "Novem diebus commessationes et eiusmodi sacrificia celebrantur. Unaquaque die offerunt hominem unum cum ceteris animalibus, ita ut per IX dies LXXII fiant animalia, quae offeruntur. Hoc sacrificium fit circa aequinoctium vernale (A 2. 3. B 3a. a'. 4. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens stycke med ankaret (IV,27-28). Arbetslistan anger lappenberg null, men rubriken har (137). I sigelparentesen är a' upphöjt efter 3a.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 142,
+  "lappenberg_i_rubrik": 138,
+  "sidor": [
+   262
+  ],
+  "bildindex": [
+   331
+  ],
+  "text": "Relatum est nobis a quibusdam stipatoribus Adalwardi episcopi, cum primum Sictonam accessisset, ad unam missarum celebrationem oblatas sibi ad manum LXX marcas argenti. Tantae [enim] devotionis omnes populi sunt arcticae plagae. Tunc etiam occasione itineris divertit Bircam, quae nunc in solitudinem redacta est, ita ut vestigia civitatis vix appareant; quare nec tumulus sancti archiepiscopi Unni inveniri potuit (A 2. Im Texte B 1b. 3c—f. 4. 5. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok IV kap. 30, 'euangelii Suediam ingressus ...'), inte skoliet. Hakparentesen i '[enim]' är utgåvans egen. 'Im Texte' är kursiverad tysk text i sigelparentesen. Arbetslistan har lappenberg null, men rubriken ger (138).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 144,
+  "lappenberg_i_rubrik": 140,
+  "sidor": [
+   265
+  ],
+  "bildindex": [
+   334
+  ],
+  "text": "De sepultura paganorum, quanquam non credant resurrectionem carnis, hoc tamen est memoriale, quod more antiquorum Romanorum busta et exequias eorum omni veneratione colunt. Ceterum pecuniam hominis tumulant cum ipso et arma eius et cetera, quae ipse vivens habuit cariora. Quod etiam de Indis habetur scriptum. Quod tradunt ex antiquo ritu gentilium, in quorum mausoleis adhuc solent inveniri talia, cum aut in amphoris aut in aliis vasculis secum thesauros infodere iussissent (A 2. B 3a. a'. 4. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": null,
+  "osakerheter": "Siglerna tryckta som B 3^a. ^a'. 4.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 145,
+  "lappenberg_i_rubrik": 141,
+  "sidor": [
+   266
+  ],
+  "bildindex": [
+   335
+  ],
+  "text": "Paulus in Historia Longobardorum affirmat in ultimis partibus septentrionis inter Scritefingos in quadam spelunca oceani iacere VII viros quasi dormientes, de quibus est opinio diversa, et quod predicaturi sunt illis gentibus circa finem mundi. Dicunt alii ex XI milibus virginibus illuc pervenisse aliquas, quarum cetus et naves monte obrutae sunt, ibique fieri miracula. Ubi et ecclesiam construxit Olaph (A 2. B 3a. a'. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "OCR:en har hela texten men saknar sigelparentesen. Enligt apparaten (not *) inleds skoliet i B 3a.a' och C 2 med 'Eadem — altissimas nives' ur huvudtexten.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 147,
+  "lappenberg_i_rubrik": 142,
+  "sidor": [
+   268
+  ],
+  "bildindex": [
+   337
+  ],
+  "text": "Licet ante illum ex nostris Lifdag, Odinkar et Poppo gentem illam predicaverint. Possumus hoc dicere, quod nostri laboraverunt, Angli vero in labores eorum introierunt (A 2. B 3a. a'. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens rad vid ankaret 'Schol. 147.' i marginalen, inte skoliet; rätt skolion bekräftat via rubriken 'Schol. 147 (142)'. Står på s. 268. Lappenbergs skolion 142 omfattar även Schol. 148.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 148,
+  "lappenberg_i_rubrik": 142,
+  "sidor": [
+   268
+  ],
+  "bildindex": [
+   337
+  ],
+  "text": "Hunc, Meinhardum et Albertum alias ordinatos, cum ad se venirent, cum muneribus commendavit illis episcopus vicem suam tam per Nordmanniam quam per insulas oceani (A 2. B 3a.a'. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "Rubriken trycker '(142)', samma Lappenbergnummer som Schol. 147. Det är inget tryckfel: Lappenbergs skolion 142 omfattar både 'Licet ante illum …' och 'Hunc, Meinhardum …', som Schmeidler delar i 147 och 148. OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 149,
+  "lappenberg_i_rubrik": 143,
+  "sidor": [
+   269
+  ],
+  "bildindex": [
+   338
+  ],
+  "text": ". . . . is plen . . . calcitr . . ler . . (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "Fragment i utgåvan, återgivet med utgåvans punkter. Ankaret står vid IV,34 s. 269 (inte s. 267/270). Apparaten återger Lappenbergs läsning/komplettering: 'De Yper[bore]is Plin[ius] et oce[ano] calig[an]ti g . . lit.' (ej i texten). Ingen OCR-text att jämföra med.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 150,
+  "lappenberg_i_rubrik": 144,
+  "sidor": [
+   270
+  ],
+  "bildindex": [
+   339
+  ],
+  "text": "De occeano Britannico, qui Daniam tangit et Nordmanniam, magna recitantur a nautis miracula, quod circa Orchadas mare sit concretum et ita spissum a sale, ut vix moveri possint naves, nisi tempestatis auxilio. Unde etiam vulgariter idem salum lingua nostra Liberse vocatur (A 2. 3. B 3a. a'. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (bok IV kap. 35, Solinus-citatet 'A tergo Britanniae ...'), inte skoliet. Arbetslistan har lappenberg null, men rubriken ger (144).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 151,
+  "lappenberg_i_rubrik": 145,
+  "sidor": [
+   270
+  ],
+  "bildindex": [
+   339
+  ],
+  "text": "Hic apparet, quod scriptor huius libelli fuit ex Germania superiori, unde vocabula pleraque sive nomina propria, cum ad suam aptare voluit linguam, nobis corrupit (C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten i arbetslistan är huvudtexten vid ankaret 'Schol. 151.' (Igitur Orchades inter Nortmanniam ...), inte skoliet. Arbetslistan anger lappenberg null, rubriken har (145).",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 153,
+  "lappenberg_i_rubrik": null,
+  "sidor": [
+   271
+  ],
+  "bildindex": [
+   340
+  ],
+  "text": "Martianus, Solinus et . . . (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": true,
+  "osakerheter": "Skoliet är fragmentariskt redan i utgåvan (tryckt med '. . .'); transkriptionen är hela den tryckta texten. Schmeidlers tillägg, inget Lappenbergnummer.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 154,
+  "lappenberg_i_rubrik": 147,
+  "sidor": [
+   272
+  ],
+  "bildindex": [
+   341
+  ],
+  "text": "Brittannia est omnium maxima insularum. A qua novem dierum navigatione pervenitur ad Thile. De qua unius d[iei] navigatio est ad mare congelatum. Quod ideo congelatum, quia nunquam sole calefit (A 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtext (stället vid ankaret i högermarginalen), inte skoliet; skoliet identifierat via rubriken.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ },
+ {
+  "nr": 155,
+  "lappenberg_i_rubrik": 148,
+  "sidor": [
+   272
+  ],
+  "bildindex": [
+   341
+  ],
+  "text": "Egredientibus a promunctorio Danorum Alaburg narrant iter esse XXX dierum usque in Island, minus autem, si ventum habeant secundum (A 2. B 3a. a'. C 2).",
+  "fullstandig": true,
+  "placering": "under huvudtexten",
+  "stammer_med_ocr_borjan": false,
+  "osakerheter": "OCR-texten är huvudtextens stycke med ankaret (IV,36). Arbetslistan anger lappenberg null, men rubriken har (148). Apparaten till schol. 158 anger att schol. 158 i B 3a.a' bildar slutet av schol. 155; i utgåvan är de separata.",
+  "transkriberad_av": "språkmodell (Claude), från sidbild; ogranskad"
+ }
+]

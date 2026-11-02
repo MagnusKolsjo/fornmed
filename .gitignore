@@ -1,0 +1,25 @@
+# Hemligheter och lokal konfiguration
+.env
+*.env
+!config.example.env
+!deploy/server.example.env
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Databaser och databaskopior
+*.db
+*.sqlite3
+*.pgdump
+
+# Källmaterial som tolkarna hämtar själva
+data/raw/
+
+# Webbplatsens genererade filer
+webb/staticfiles/
+webb/media/
+
+# macOS
+.DS_Store

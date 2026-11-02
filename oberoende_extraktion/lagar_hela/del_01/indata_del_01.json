@@ -1,0 +1,1960 @@
+{
+ "kalla": "Del 1 av 9 av de medeltida nordiska lagarna: Hednalagen, ÄVgL, Vidhemsprästen, YVgL fragm./Lydekini, YVgL. Fornsvensk text efter Schlyters utgåvor via svenska Wikisource och Fornsvenska textbanken; Grágás i Finsens danska översättning.",
+ "passager": {
+  "hednalagen:olavus_petris_kommentar": {
+   "lag": "Hednalagen",
+   "adress": "Olavus Petris kommentar till avskriften",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "Aff thenna laghen kan man merkia at om han bleeff ſlaghen j kampen ſom bleeff manat ther til/ för honom gick halff mandzboot/ men bleeff han ſlaghen ſom manade/ han lågh i ogillum åker/ thet är/ för honom gick jngen boot/ hans eghen tunga war hans baneman."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_2": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 2 — Kirkiu bolkær, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "2. {... ræ æn} gengyærd þerra brinder vp. Byscupi scal gengyærd geræ twar næter oc til quels hins þridia. med tolf mannum. sialuer han hin þrættandi. oc han drikki myod oc allir klerkar hans."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_3": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 3 — Kirkiu bolkær, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "3. Uerder maþer.i. kyrkiu dræpin þet ær niþings værk. þa er kyrkia al vuighz. Er þet firi tiu vitrum þa scal gyuæ byscupe þrer marker firir vilx oc natter gengerd. En a tiu vittrum. er. at þer hovodtiundaþo. oc uilia kyrkiu vighiæ letæ þa sculu þer. houodtiundæ."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_4": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 4 — Kirkiu bolkær, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "4. Landbor sculu eigh. houodtiundæ gæræ mer en enu sinni. vten þer uili eller at þer falli.i. houod syndir."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_12": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 12 — Kirkiu bolkær, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "12. Værþer marder.i. kyrkiugardhi. dræpin ællær sargheþer. gialde biscupe þrer marcher. þa skal eighi tiþir uetæ. fyr æn hauir biscups lof til. num han hætti uid sinum þrim marchum. Biscuper skal viþ sopn mælæ. æn þær viþer þen vihit uan.§.1. Værþer maþer lustin.i. kyrkiugarþi. æller.i. har takin þa skal eigh prester mæssu sæghia fyr æn han hauir biscups lof til ællar hans lænsprests böte biscupi tolf öra. Æn þer mali. til þæs ær friþ bröt. §.2. Dylia sopnær mæn kalla eigh friþ brutin þa skal biscups lensprester se af sopnar mannum tylptar eþ biþia sær sva gud holl oc uatum sinum at þer eigh fridbrut giöt suat biscuper a sak. af."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_13": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 13 — Kirkiu bolkær, flock 13",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "13. kirkiu gard skal scipæ bolæ mælli slict a bol at gærþe. sum annat. Liggær kirkiugardær alþer open. þet er. þriggia marcha sak. þet a biscopér. Ligger þridiunger vpen. þæt ér siax oræ sak. þæt.a. biscopær. siþan a. hæræd firi balka han atta örtoghor. Oc e skal kirkiugarþær gilder varæ. baþi vinter oc somar."
+  },
+  "lag:aldre_vastgotalagen:avgl_kkb_22": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Kkb 22 — Kirkiu bolkær, flock 22",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "22. Præstær ma ængin man fra kiurkiu vrakæ. num þen biscopær havir forboþét. vrækæ. böndær fridlösæn man. æn þer uilia. Orsaker ær prester vm þat."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_1": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 1 — Af mandrapi, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. Uærþær maþer dræpin ok af daghum takin. þa skal uighi a þingi lysæ oc frafal aruingiæ sigiæ. ok.a. adru. Æn a þridia eftyr mælæ ællær ær mal hans spilt. þa skal væghændi til þings faræ ok vtæn vider þing standi mæn til þings gæræ. griþær at bezas. Þings mæn skulu hanum loua þings gangu han skal uider þy banorþi gangæ. §.1. þa skal arui banæ næmnæ þæt ær. vald hans at giua þem banorþ ær han vill. æn væghænder aru marghir til. þæn skal. mæþ barni bænæ næmpna. þy ær skyldastér a fæþærni Hauir kona barn.i. knæ. þa skal hun banæ mæmpnæ. þa skal haldsbenþ næmpnæ ok atuistær mæn. þer skulu fæm varæ ok en raþsbani. §.2. þa skal ændaghæ hem dömæ þæn sum allir mæn göræs afatir a þingi. þa skal a ænghæ þingshamna vittni bæræ lætæ. Iak var þa a þingi ok vir mæn siax. Sua kum dombær a mal þit. at þu skuldi hær standæ.i. dagh ok ritæ. a hændær hanum banorþ mæþ tvænni tylptum. Sva se mær gud hull. ok uattum minum at sva kum dombær.a. mal þit sum iak bær nu vitni til þa skal arui sværriæ. Sva se mær guþ hol ok uattum minum. at þu bart.a. han od ok æg. ok. þu ær sændær bani hans. ok sua gaf iak þær namni til a þingi. þa skal arui firi adræ tylft gangæ ok samulund sværiæ. Tolf mæn skulu.i. tylft standa ok et munhaf skal eptir tylpt huæria væræ. þyy mynhaf skulu æptir. tylptær eþ. hvænn. væræ guþ hylla at sær ok at græmya. §.3. Þa skal arui til sægnarþings fara lætæ dömæ sic af þingi ok uita meþ vmstaþumannum. Biþia sva sær guþ hull. ok uattum sinum. at han uan þat alt a endaghæ til fridær hans sum lagh til sæghiæ. þa skal han a þing ganga afptar latæ döma friþlösæn han firi arva ok æptimælændæ. ok vgilþan þa skal han friþ flyiæ. ætæ hema a daghurþi. a sægnærþingi ok i. skoghæ at natværþi. Liggiæ uiþ tolf marchær hæraþs hyfþingæ æn han sitær kuær ok værdhar han eigh ok fyuratighi mærkær hæræþi. ok þrer mærkar þæn ætær mæþ hanum. ok drikkær ok hauir mot mæþ hanum hætæ þrer ok æru tvar sæxtan örtoghor.i. þriþiungh. huærn ællær num han læti bötær biuþa æti han nathorþ at saklösu. §.4. Viliæ þer bötær takæ. þa skal bötæ niu markær arvæböt. oc tolf markær ættærbot. Sæx mærkær skal arui böta. sex mærkær skal ættin böta. þrer a fædrærnni ok þrer a mödærni. þa skal hin skyldasti öra tolf. þa þér ær næst öra sæx. þa þer ær næst. öra þrer. þæn þær ær næst half fæmtu örtöghr. §.5. Sva skulu allir bötæ. ok skulu sva alli taka. a huar halwu minna til sættæ mans. Bot skal skipta til sættæ mans. Iamnskildir allir þa skal slit kolder takæ sum koldr. Sæx mærkær skal arvi taka af ættærbot. ok sex. mærchær skal ættin takæ. þrer a fæþærni. ok þrer a möþærni."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_2": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 2 — Af mandrapi, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "2. Scal maþer ætlæddan man. aptær bötæ. þæn annöþoghær havir farit. han aptær bötæ mæþ niu marchum arvæ bot. ok sex. mærkum ættærbot. sva sum ættæþæn man. firi vtæn halvæ ættær bót. firir. þy at ætt hans ær half þrælær. ok frælsgiwar."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_3": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 3 — Af mandrapi, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "3. Æn hall bana uil sökia ællær atuisær mén. þa skal þing uisa ok talu a þingi. wetæ ok þem lata endaghæ döma. þa skal þingsmannæ. vittni a endaghæ latæ baræ. ok sva a hauarium ændaghæ. þa skal þings mannæ vittni fyrst latæ baræ. siþan skal arvi. sværiæ. Sua se mær guþ hull. ok uattum minum. at þu hælt hanum undir od. ok æg. ok sva gaf iac þer namni til. a þingi. §.1. Atvistær manni. skal þing uisa ok sva sværiæ a hændær hanum. Biþiæ sua sær gud holl ok uattum sinum at þu vært a vighuælli maþ vrassviliæ ok sua gaf iak þær næmpni til a þingi. §.2. Raszbana skal þing uisa vm sak þa. þu kallar han sannæn at væræ at han ræd han hælræþum. han skal uita firir a endaghæ mæþ tylpt at fæþerni ok halua at möþerni. Falss. han at baþum þa skal han böta haluæ fæmtu mark. falss. han at tylpt böte þrer mark. falss. han at halvri böte tolf öra. §.3. Nu skal halss bani bötæ halui fæmtu mærk. þær.a. akki konongær sak.a. eigh a razbænd. ok eigh a halss. bænd. Atvist a saksökæ örtogh ok oræ fæm. sva. a konongær sva. a hæræd. §.4. Mæþ þingi skal hælghis bot ok tacæ ok eigh. næmæ til."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_4": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 4 — Af mandrapi, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "4. þrel drapér man. ættæþen. han ma eigh. heta þés bani. Bonde skal böta aruæ. bot ok ættar bot. eigh friþ flyia. num han uili. eigh böta."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_5": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 5 — Af mandrapi, flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "5. Dræpær maþar svænskan man. eller smalenskæn innan kongsrikis. man eigh. væstgöskan böte firi atta örtogher. ok þrættan markær. ok ænga ætar bot. §.1. Niu markær. a konongær a mandrapi ok sva allir mæn. §.2. Dræpar kona man. þa skal mælæ. a man. þén skyldæstæ. han skal botum varþæ ællær frid flyia. §.3. Dræpar maþær danskan man. allæ noræn man böte niv markum. §.4. Dræpær maþær vtlændskan man. eigh ma frid flyia. or landi sinu. oc.j. æth. hans. §.5. Dræpær maþær vtlænskan prest. böte sæ mykit firi sum hærlænskan man. Præstær skal.i. bondalaghum væræ. §.6. Varþær suþærman dræpin allær ænskær maþær. þa skal böta firi marchum fiurum. þem sakinæ sökir. ok tvar. marchar konongi. bondæ hvar gaf. þer af aþrum sin. ræt. §.7. Dræpær maþær þrél manss. böte firi markum þrem. num han uiti han fiughurræ markæ værdan. þa skal sva bötæ ængin a. þær sak a vtæn saksökæn."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_6": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 6 — Af mandrapi, flock 6",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "6. Dræpær maþær man varþær han siþen dræpin a fotum hanum liggi a værkum sinum. böti huarti konongi allær hæræþi."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_7": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 7 — Af mandrapi, flock 7",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "7. Dræpær galin man man löpær or bandum bötæ han aptær mæd niv markum."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_8": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 8 — Af mandrapi, flock 8",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "8. Takær maþær alt sæman þiuf oc þiuft. hauir stolet til tvæggiæ oræ. ællær þrem örum. meræ. bindi handær a bak ok föri sva til þingss. lati tva mæn bæræ vittni a hændær hanum. at æn ær þiwær at þyft þeræ. ok uiti æptir mæþ tylptær eþe. lati siþæn dómæ. vgildæn han til vgs ok til hangæ. til torf ok til tyæru. vgildæn firi arvæ ok æptir mælændæ. Værþær maþær stolen fæér sins far eptir standær þiuvær mötæ gitær eighi sinu nait fyr æn han dræpær han. þa skal döþum sak giuæ döma vgildæn han a þingi."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_9": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 9 — Af mandrapi, flock 9",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "9. Far maþær hem at manni. væittar hanum hemsokn. dræpær han af sær a hyrnustokkæ sinum giui döþum sak dömi vgildæn han a þingi."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_10": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 10 — Af mandrapi, flock 10",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "10. Gærs maþær lösvittingær liggær a skoghum ok rænir. dræpær maþær man af sær. giui döþum sak dömi vgildæn han. a þingi."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_11": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 11 — Af mandrapi, flock 11",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "11. Dræpær maþær man. i siangu hos kono sinni. ællær annarstad laglika maþ vittnum takin taki. bulstær oc blæiur. föri til þings lati sea blod ok bænþ. giui döþum sak. ok uittni mæd tuanni tylftum. næmdar mans uittnum ok hærasshöfþingæ. ok læggi siþan vgildæn han a þingi."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_12": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 12 — Af mandrapi, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "12. Haldær maþær a uakni. sinu löpær maþær a. far af banæ. böti firi niv markum. §.1. Fællir maþær træ a man far af bana böti firi niv markum. §.2. Skiutær man vp a lopt kombær niþ i. hovoþ manni far af. bana. böta firi niv markum."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_14": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 14 — Af mandrapi, flock 14",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "14. Værþær maþær vtæn garzliþ. dræpin. þa skulu grænnæ bötæ firi.niv marchum. ællær banæ. fæ. þær skal bænæ til þings. föræ hanum griþær æftæ til þings ok fra. han skal viþ banorþi ganga æghi siþæn friþ dax ok nattær til skogs. §.1. Værþær maþær dræpin. þriggiæ by markum. kallær huar þærræ sik eig.i. mark. æghæ. þa skulu þer. værriæ sik mæþ. tvenni tylptum. Værþær en hvar full. þa skal þen aptær bötæ. Værþæ þær allir fulir. þa skulu þer allir aptær bötæ. niu markum. ællær ok banæn fa siþen skulu. þer allir marku mælli sin skiptæ. §.2. Værþær boræn a mark a byrd ma se bloþ ok bænd hinnugh sum dræpit var. þa skal. þen böta sum. þa mark.a. §.3. Værþær maþær dræpin.a. aldra götæ marku vita mæn eigh banæ. til giui sak. þem. by þer næstæ. Vil han igh uiþ banorþæ gangæ. þa giui sak. þem by þær ær næst. han skal væriæ sik mæþ. tvem tylptum sva skal ok hin. þriþi sik væriæ. þa þer æru allir værdir. þa skal hæræþ bötæ. þét næst ær. ok þingæt sökær fang. þæt skal bötæ niv markum. ællær banæ fa."
+  },
+  "lag:aldre_vastgotalagen:avgl_md_15": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Md 15 — Af mandrapi, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "15. Faldær maþær vndir mylnohivl. fær. þær banæ af. böte þrim markum. þæn ær. mylnu.a. §.1. Faldér maþær i. brun. ællær diki. ællær af. fiskigarþi. far bana af bötæ firi þrim markum. þen ær.a. §.2. Gangær maþær a. biorn spiut. ællær ok ælgspiut. far bana af. böte fyri markum III. þæn ær.a. §.3. Resir maþær træ. vp. fælder niþar. far maþær banæ af. böti. firi. markum III. þæn up resti. §.4. Stangær. þiur huggær runi. bitær. hundær far af. bænæ böte. firi III. markum."
+  },
+  "lag:aldre_vastgotalagen:avgl_mlb_1": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Mlb 1 — Malum bolkar, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. Uærþær maþær a manni sar. þa skal sarum lysa a þingi þy fyrstæ. væt eigh hvat hældr æptir mælir quikum ællær döþom. ok a adru þingi. æn.a. þriþiæ æptir mælæ. ællær. ær mal hans spilt. þa skal han sar synæ. þa skulu þingsmæn vittni vm bæræ. æn þét ær fulsæri. þorf viþ spik ok spiær. lin ok lækirsgæf. þa ær þæt. fulsæri. þa skal þem latæ. dömæ endaghæ ok vitæ.a. hændær hanum. mæd tvem tylptum. ok. þriþiæ þingsmannæ vittni. byþia sva sær gud hol ok vattum sinum at han ær sandær maþær hans ok sva gaf iak þar næmni til a þingi. þa skal þæn. ær farghaþi laghæ buþ firi sær hauæ. IX. markær a sægnærþingi. bötær fram bæræ. ok tækkiumæn kræfiæ. þa skal han sik frid lösæ dömæ bötæ. viþ hæræþ. IX. markær ok sva uiþ konong. Er han sændær at sak. þa skal hæræþ hanum vt. dömæ ællar skal han friþ fly."
+  },
+  "lag:aldre_vastgotalagen:avgl_mlb_2": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Mlb 2 — Malum bolkar, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "2. Værdær skroksak giuin saræ mal. þa skal a þingi. næmd gæræ. tryggiæ mannæ af fiarþungi þæs at sværiæ at han ær eigh sændær saræmaþær hans ok eigh var maþ væsviliæ. a vighualli."
+  },
+  "lag:aldre_vastgotalagen:avgl_mlb_3": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Mlb 3 — Malum bolkar, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "3. Innæn konongrikiss maþær iamgildær at sarum sum hærlænskær maþær. §.1. Danski ok norin æghu bötær a sarum sum hærlænskær maþær."
+  },
+  "lag:aldre_vastgotalagen:avgl_bd_5": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Bd 5 — Þættæ ær bardaghæ, flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "5. Far maþær uaþæ hug. værþær huarti blat ællær bloþukt. þæt kallær suartæ slagh. a. eki. ræt.a."
+  },
+  "lag:aldre_vastgotalagen:avgl_bd_6": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Bd 6 — Þættæ ær bardaghæ, flock 6",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "6. Varþær manni vrang banæ sak giuin. þa skal hæræþshöfþingi væriæ han med tvenni tylptum. næmdær mannæ af hæræþi."
+  },
+  "lag:aldre_vastgotalagen:avgl_bd_8": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Bd 8 — Þættæ ær bardaghæ, flock 8",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "8. Kona firigær manni. fællir hana lukt hærasznæmd. þa skal hun haua griþ til skogs. dax ok nattær. þa skal latæ dömæ hanæ. vgill. firi arva. ok eptimælændæ ok dræpæ þær næst."
+  },
+  "lag:aldre_vastgotalagen:avgl_bd_9": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Bd 9 — Þættæ ær bardaghæ, flock 9",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "9. Far maþær sarr liggær. i længi gangær i mælli. ok dör i þérri giuær arui sak þem ær sargæþi ok kallær han banæ væræ. þa skal han væriæ sik mæþ luctri hæræssnæmd æn han dör innan nath ok iamlangæ. gangær þær iuir. þa böti ængtæ falls han at sak bötæ manin aptær.\nOrbotæ mal.\nDræpær maþær man i kirkiu. þæt ær niþingsværk. orbötæ mal. §.1. Dræpær maþær man i þingi. þær ær niþingsvark. §.2. Gangær maþær a griþ a göræ sæt. hæmnir maþær þiufs. hæmnir maþær ræpsingær a þingi mæþ sarum ællær meþ drape allar mæþ brænnu. þæt ær niþingsværk firigiort landi ok lössum öræ. §.3. Hugger maþær baþær hændær af manni. Dræpær maþær souen man. þæt ær niþinsværk. §.4. Þæt ær niþingsværk at bæræ sculd iuir þangbréccu hæriær a sit eigh land firir giort iord lansuist ok lösum örum. §.5. Bindær maþær man i skoghæ viþ træ. þæt ér niþingsværk. §.6. Skytær maþær in at lyuræ ok dræpær man. Dræpær.i. löghu. ællær i. bastughu. dræpær. þa han nöte þarwa sinæ. Stingir vt bæþin öghun. a manni. Skiær tungu ör höfþi manni. Hoggær af baþa fötær af manni. Dræpær maþær kono. þæt ær niþingsværk alt. hun.a. e friþ til mot ok til mæssu aldrigh æru sva mykil uigh i mællum mannæ. §.7. Dræpær maþær lönær droten sin. þæt ær niþingsværk. §.8. Dræpærmaþær man i ölbenk mæþ knivi. sitir vm knif ok kötsticki. mæþ hanum þæt ær niþingsværk. §.9. Huggær man bu mans niþær gærs at goruarghær. þæt ær niþingsværk. §.10. Lopær maþær a harskip ok gyærs bunkabitær. maþær standær a halsi ok a höfþi ok hæriær man. þæt ær niþingsværk."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_1": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 1 — Ærfþær bolkær, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. Svn ær faþurs arvi. Ær eig svn. þa ær dottær. Ær eig dottær þa ær faþir. Ær eig faþir þa ær moþer. þa ær broþer. Ær eig broþér. þa er. systir. Ær eig systir. þa æru sunærbörn. Ær eig sunærbörn þa ær dottor börn. Ær eig dottor börn. þa æru broþor börn. Ær eig broþorbörn. þa æru systör börn. Ær eig. systor börn. þa ær faþurfaþir. Ær moþor moþær. ok faþur broþær. þa takar moþor moþer. ok faþur broþer gangær fra."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_10": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 10 — Ærfþær bolkær, flock 10",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "10. A dözsdæghi ma ikki fra aruæ giuæ at laghmæli. num arvi. quædær sialvær ia viþr. sva sigiæ. lærþir mæn at eig ma ne uid kvæþæ mæþ gusz ræt."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_11": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 11 — Ærfþær bolkær, flock 11",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "11. Dræpær maþær man wil hava arf hans. han skal iki arvi hans væræ. Sighir han at han drap han mæþ vaþæ værki. han skal væria sik mæþ luktri hæræsz namd. Varþær han varþær han skal arf takæ. Fals han at laghum þa skal annær þær arf takæ. þæn dræpæ ær skyldæstær."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_12": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 12 — Ærfþær bolkær, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "12. Far maþær af landi sætær brytiæ firi bo. sighir at han skal. gangæ til roms. þa skal bryti bo varþa til iamlangæ. siþan skal arvi varþæ. ok iki bryti længær num arvi uili. §.1. Far maþær af. landi. sytær huspreæ i bo. havir i knæ ok annat i kviþi. far cristindom vændir han hæl ok nakkæ at hemkynnum ok stighær fotum af fostær landi. þær skulu arvær væræ. er skyldasti. uaru hanum þa han heman for en han kombær eig aftær til hemkynnæ. §.2. Ingsinss manss arv takær hæn mæn i girklandi sitær."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_14": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 14 — Ærfþær bolkær, flock 14",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "14. Dör maþær anskær i landi ær eigh þæn skyldesti hos. þa skal harf hans standæ til iamlangæ. ær eigh þa arvi komen. þa skal konongær arf takæ biscupær æn prestær ær. §.1. Dör þydiskær maþær ær egh barn til. þa skal konongær arf takæ byskopær æn prestær ær. þæt kallær danæ arf. §.2. Dör maþær na egh arvæ hans. þa ér konongær. arvi hans"
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_15": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 15 — Ærfþær bolkær, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "15. Sva ær an kona firiger stiupbarni sinu. vill sinum barnum arf vnnæ. væri sik mæþ hærærs næmd falz hvn þa hauir hvn firigiort sær ok friþi sinum. Vill egh sun hænnar latæ hanæ friþ flya. þa skal han frændum bötæ sum þer uiliæ ær eghu þem allær taki hanæ þær han fa."
+  },
+  "lag:aldre_vastgotalagen:avgl_ab_16": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Äb 16 — Ærfþær bolkær, flock 16",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "16. Siþan ær hion tu komæ saman takkær annat þerræ arf. förer. i bo læx til brytstokss. far iki giald firi þæt sum liuær a þæt svm arf tok. þæt sum af födis æghu þæt bæþi. §.1. Stoþ hors i skoghum gangæ all. þy fyl. sum af föþæs æghv þer baþi. §.2. Takær maþær bo at arvi. ma eigh brity firi væræ ællær drghiæ skulu. baþi hion avaxt aghæ. Zy biþær maþær sær kono þærræ ær til arff standér. þy gipftær bondæ þæm manni. dottor sinæ ær til arfs standær. at þer viliæ baþi afvæxt æghæ."
+  },
+  "lag:aldre_vastgotalagen:avgl_rlb_2": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Rlb 2 — Rætlosæ bolkær, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "2. En biscup skal taka. þa skal konungær allandæ at spyriæ huarn þer uiliæ hava han skal bonþæ svn væræ. þa skal konongær hanum staf i hand sæliæ ok gullfingini siþan skal han i kirkiu leþæ. ok i biskups stol sættiæ. þa ær fulkomen til valdær vten uixlt."
+  },
+  "lag:aldre_vastgotalagen:avgl_rlb_4": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Rlb 4 — Rætlosæ bolkær, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "4. Takær maþær bo mansz vp at vsældu. þæt ær þrénni. IX. marka sak. a. IX. markær saksöki ok giald firi. bo. sit mæþ suornom eþe. IX. markær konongær ok. IX. markær allir. mæn. §.1. Huggær maþær hus vp manss at vsoktu. þæt ær. þrenni IX. markær. a. IX. markær saksökæ. ok sva konongær ok sva allir mæn."
+  },
+  "lag:aldre_vastgotalagen:avgl_tjb_5": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Tjb 5 — Þætta ær. þiuuæ bollkær, flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "5. Værþær maþær stolen vrækær fiæt æptir fællir.i. kæfti. fyrst skal by letæ. A grænnæ skal kallæ. þer skulu mæþ gangæ. Leþer eigh fiæt or by. þa skal ranssakæ. Eig mughv grænnær ranzsak syniæ. Grænnær skulu i garþ gangæ þæs fyrst ær næst ær grun a han skal rum kallæ ok beþez ransak. Bonþe skal eig ranssak syniæ æn han ær sialuær hemæ. han skal vpp latæ sin inuistær hus þæt ær kornskyæmmæ ok matskammæ ok symnskæmmæ þy þru æru inuistar hus. En annur hus bæþi laþa ok nöthus þæt heter vthus þo at las se firi. §.1. Nu skal bonde hus vpp lætæ. Nu skal bonde þæn sins hauir mist ok annar mæþ hanum ingangæ þæn ær þer troæ baþir. Baþir skulu þer iuirlösir uæræ ok lösgiurþir. ok barföttir bundit brökær uiþ knæ. ok sua ingangæ. Þer skulu letæ i þem hvsum hittir sit inni vndir las ok lykki. ær þet hult halmi. þæ ær sa þiuuær at. þa skal þiuf takæ þem saklöst firi þy. at han ær sanþær þiuuær ok hvarghin gitær han þerre sak mæþ laghum rundit. Vil han uiþ gangæ at han ær sandær þiuvær. þa skal bondin vald eghæ sa ær sak giuær at takæ bötær firi skaþæ sin. ok eighit aptær ok a þæt sum lagh sighiæ. þa ma bonde uiþ han sættæs at saklöso þo eigh fyr an firir hæraszhöfþingæ. utæn han far burghæn firir. böte sak sinæ uiþ land ok gonong sum lagh sighiæ. Vill han eigh uiþar gangæ. þa skal þiuf a bak bindæ ok til þingsz föræ eigh ma fyr lösæn latæ num viþ liggi fiuratighi mærkær. Takar maþær bundin þiuf mæþ rani. af manni. han skal skirskutæ firi næstu manni ok i næstæ by. at han ær þiufs sins ræntær ok þy ær hin sakær at. XL. markum. §.2. Nu æn hittir i luctu allær læstu kari. ark ællær kistu þær havir husprea likil til þa ær hvsprea þiuuær. Vill eigh bonde laghbötæ þa skal hvspreo takæ. ok a bak bindæ til þings föræ firi allær götæ ællær firi hæræþ. Vill þa bonde lösæ hospreo sinæ mæþ laghum rættum. þa skal kono lösæ latæ firi þy at konæ ær ovormaghi hvn a eigh hug ok eigh hangæ utæn firi trolskap."
+  },
+  "lag:aldre_vastgotalagen:avgl_tjb_6": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Tjb 6 — Þætta ær. þiuuæ bollkær, flock 6",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "6. Far bonde æftir sinv. sins hanum ranszsak. þa skal han mæþ vittnum beþæz firi þy at han ma eigh hanum syniæ ranszsak þa han ær sialvær hemæ. syns hanum ranzsak þa dragher han þiufsku a sik. þa skal skirkutæ firi grannum at nu ær ranzsak svnd. þa kallær bonde han þiuf sin. þy at han sundi ranzsak. Nu kuaþær han ne viþ. þa skal sa sighiæ til sinum hæræszhöfþingæ han skal þing til namnæ ok næmd sætiæ ok at spyria hvi han ranzsak sundi. en kallar sik eigh þiuf han ær sakær at þranni sæxtanörtoghom. §.1 Nu ær þæt böt at ranzsak. sundi. Nu standær sak open su at han ær þiuvær kallaþær. han skal væriæ sik mæþ tvæni tylptum ok. IIIIor. mannæ forræþe. falz han böte sum lagh sighiæ."
+  },
+  "lag:aldre_vastgotalagen:avgl_tjb_7": {
+   "lag": "ÄVgL",
+   "adress": "ÄVgL Tjb 7 — Þætta ær. þiuuæ bollkær, flock 7",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "7. Nu ær vtuistær hvs. giuær hin sak ær sins hauir mist. þu kom þær at. þu havir ualdit ællær hion þin ær þu at male at mælæ. þa sa bonde bundin viþ vitu suæri mæþ tuenni tylftum ok. IIIIor. mannæ forreþe. at þet kum þær hvarti mæþ uitu ællær valdi minu ællær þerræ iak a mæle at mælæ. þæt ær abryrþ ok eigh wlti iak þiufnæþe þem. §.1. Vitir bonde bondæ at han abyrd upp a han bar væri sik mæþ tuænni tylptum."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_1": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 1 — flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. Legher madþær man til at dræpæ man ællær sarghæ fullum sarum. þa skal þæn ær legho takær vgillær wæræ. Æn þæn ær legher wæri sic mæþ luctri hæræznæmpþ. falz han at. oc orkær igh wæriæ sic. þa scal han swaræ swa mykit firi sum han görþe þæt sialwær. Annittæggiæ böte swa mykit sum malseghændi quædþær sialwær ia widþær. ællær hæmniz vp a han.\n2.. Læggær lænsman almænninxgiald at vsældu mali ællær saklöso. hawi firigört lænum sinum.\n<10>\nHær byriæs danaholmber. Or. danaholme. oc i stæmnu sund. Or stæmnu sundi. oc i klyfiær. Or. klyfium. oc.i. slæt. as. Or slætasi. oc i flacbæc. Or flacbæc. oc. i samsio. Or. samsio. oc.i. aldræmannæ bræccu. Or aldræmannæ bræccu. oc.i. duærghæruþ. Or duærghæruþ. oc.i. gnipæ Or. gnipæ. oc.i. ænnu. os. Or ænnu ose. oc.i. clintærmosæ Or clintær mosæ. oc.i. sinuas. Or sinuasi. oc.i. diupædal. Or dyupæ dali oc i lygni. Or lygni oc.i. dyupædal. Or dyupædæli. oc.i. þægsluas. Or þægsluasi. oc.i. örnæbiærgh. Or örnæbiærghi oc.i. ganærör. Or ganæröre oc i mæþ alsnæs. Or mæþ alsnæsi. oc i. uisulangi. Or. uisulangi. oc i. unæbiærgh. Or unæbiærghi oc.i. iulas Or iulasi oc.i. scutruas. Or scutruasi oc.i. cloccobiærgh. Or cloccobærghi ic.i. miælkæ. Or miælkæ oc i mese. Or mese oc i. byur. Or byuri ö. oc i specuos. Or specuose. oc i astæbiærgh. Or astæbiærghi. oc.i. stræcu. Or stracu oc i hæstubughæ. O hæstubughæ oc i danabæch Or danabæc oc i scatusio. Or scatu sio oc.i. botn. Or b\notnne. oc.i. ör sio. Or örsio oc i rabæc Or rabæc oc i konungæuæþ. Or konongæuaþi oc i mioþyrtædal. Or mioþyrtædali. oc.i. boc sio Or boc sio. oc i bokæ bæc Or bokæbæk oc.i. fygþis uic. Hær hittis at vart lanþ oc finuiþ oc hallanþ nu or fygþis uic. oc.i. barn Or barn oc i öst fygþi. Or öst fygþi. oc i. spaþæ Or spaþæ. oc i spaþæbon. Or spaþæbonne oc i biærghsio. Or biærgsio oc i tolersio. Or toleressio oc i saxio Or saxsio oc i mæghins sio. Or mæghinsio. oc i skiærssio. Or skiærssio oc i. anæ ö. Or anni ö oc i. maal Or mal oc.i. sændu Or sændu oc i sampsio Or sampsio oc i scuasio Or scuasio oc i scuabæk. Or scuabæc oc i ekebæc Or ekebæc oc i anæ niz Or anæ niz oc i uatu. Or uatu oc i ualsio. Or ualsio oc.i. rasio. Or rasio oc i raþcalf. Or raþcalfui o i græni fal. Or græni fal oc i scaptæmosæ. Or scaptæmosæ oc i hiorþsas. Or hiorþasi oc.i. nizær quild. Or nizærquild oc i hinþ os. Or hinþær ose. oc i dumnæquild. Or dumnærquil oc i dumpnærmosæ. Or dumnærmosæ oc i dumn Or du\nmn. oc i uætur.\nNu byriæs a dali. I surtubærgh. Or surtubiærghi oc i hiarttursnæs mosæ. Or hiarttursnæs mosæ oc i diupudal. Or diupudal oc i hælluuaþ. Or hælluuaþi oc i foronæ fæmgreno. Or foronne fæmgreno oc i uitries fiælþ. Or uitries fielli. oc i. musren mio. Or musrenmio oc.i musren illu. Or musren illu oc i tranumosæ. Or tranumosæ oc i tranuquisllir. Or tranuquisslum oc.i anætranu. Or anætranu. oc i myclæmosæ. Or myclæmosæ oc i spetu. Or spetu oc i. öru. Or öru oc up at örs uatnni. oc sua i aggu. Or aggu oc. i hæþnu. Or hæþnu oc i almstars liþum. Or almstars liþum. oc i næshyl. Or næshyl oc i hiarttæhouoþ. Or hiættæhöfþe oc i þyuþmaræ sund. Or þyudmaræ sundi oc sua i. uæni.\nNu. byriæs.i. putu holme. Or putuholme. oc i tyærnaglæ. Or tyærunæglæ. oc i oþnem oc vp at oþnem ænlangum. oc i graþnæ. Or graþnæ. oc. sua.i. harþæ marsliþir. Haluær oþnemæ scogher oc alþær thiisllascoghær. alt uæstæn anæ frö. þæt ær vp um clöuenæ þa hæfs i uargs næsi. þa i fulæ bæc firi mosæ oc sua i stenen dighræ. sum liggær mællin mosænnæ. oc sua i hærbænc sunþ. oc sua i cleær mosæ. oc sua i rosenæ. uiþ hiorþshus. oc sua i lofnæs. oc sua i wæni.\n<11>\n1. almænnigs scoghær. Wrighuhæstær. hattas. gusuliþir. hasmærholt. stranþuiþær. brun. giælæruiþær. lygnisuiþær. artuscoghær. byrsuholt. sandæ holt. örscoghær. rön. östæruiþær. synþæruiþær. eþsuiþær. lærikyu scoghær. risuiþær. uætllufiæl. riþungsuiþær. kuluscoghær. roþke. hildi. gryti. kili. ællæmyr. alamar. granbröth. ormæscoghær. clittæmoe.tranuscoghær stipi. skipinþæ. holt. sueæmar. rislingi. langa skeþþe. affsæualdær. norþfalæ. synþærfalæ. östærfalæ. 2.. almænnigs biærgh... Geremæbiærgh. huarboæbiærgh. lenboabiærgh. aldubiærgh. myrsubiærgh. haal. hundæbiærgh. billingh. kindculle.\n3.. almænnigs uatn. scryutui. brangiri. tiþær. lygni. lyniendi. asundi. öcrer. langær. friski. sæsiusior. alti. uandryudæ uatn. miors. örsior. tolkær. þræhyrnnæ. wæni. wætur. loþne. ystær. ymsi scaþur."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_4": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 4 — flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "4. almænnigs ær liþæ. oc tiþæ. oc noss.\n<12>\nHwar rætær domæri wil wæræ. han skal hawæ þriggiæ handæ naþir aff gudþi. kunnæ skiæl mællum ræt oc wræt. ok williæ allt þæt ræt ær oc æncti annæt. ok gittæ rætin fulkomnæt. mæþ huxæn ok mæþ arwudþi. ok ordþænnæ framförelse. ok giærnningginnæ fulkomelse. Hwar sum rættæn dom skal vt giwæ. han skal höræ tiltalendæ ok swarendæ ok witni. Nu skal han pröwæ þessi þry. fyrst tiltalendæ. hwat þæt war man tiltaledþi. hwat han sik kiæræ kan. ællær han giær þæt mæþ lust ællær mæþ nöd. han skal ok pröwæ. hwat hanum ær gört. fore þy sumær sakir. æru höghre. ok sumær læghri. ok.i. hwilikum stad. þæt war hanum gört. fore þy. æn þyt giærninginær se likær. þa ær þö sakin högre i andrum stad. æn andrum. han skal oc pröwæ mangi giærninginæ gördþo. fore þy at giærningær. görærs stundum mæþ flerum. ok stundum mæþ færrum. han skal oc pröwæ þikllæ hanum ær þæt gört. fore þy þær höre hardþæri plikt til. þær þikllæ görs. æn þæt entimæ görs. þæt skal ok pröwæs. huru þæt gört war. vm þæt war gört mæþ bradþu\nm giærningum. han skal oc pröwæ.i. hwilikum timæ. þæt war gört. fore timæns skuld ökes manzsin sak. Nu ær saght huru tiltalendæ a pröwæs mæþ slikum samu skiælum skal suærende pröws. ok witni þön þry tiltalende. ok swarende. ok witni. hwilikin ær tiltalædþi swarædþi. ællær witnædþi. annæt ær þæt. hwat han tiltaledþi. swaredþi ællær witnædþi. þridiæ mæþ hwem han tiltaledþi swaredþi. ællær witnædþi. fiardþæ huru þikllæ han tiltaledþi. swareþi. ællær witnæþi. fæmtæ hwi han tiltaleþi swæræþi ællær witnæþi. sættæ huru han tiltaleþi. swæreþi. ællær witnæþi. æptir þem þrim skal han dömæ. Nu ær þe fiughur domæren ma hindræ. eit ær kiærlek. anæt ær hat. þridiæ ær gawur. fiærdþæ ær ræzl. Mot þem fyurum a domærin standæ ok hawæ ingin iurdrikiz man swa kiæræn. at han göre þæt æi vtæn alt hindær. æn þö at han wari hans faþurs bani. alt iurþriki skulþi þu æi köpæ þær til. at þu skuldi en vrætæn dom vt giuæ. fiærþæ ær ræzl. þu skalt ræt göræ. oc rædþes ingin. hwarrti a þit liff. ællær þit goz. vt\nen gud en. þu domæri. hyg at. huru sköt iurþrikiskiærllekær. hat. ællær gawur. ællær ræzl. huru sköt. þæt ær ænt Gud hawir þic til domæræ sat. fore sit folk. ok haff guz ræzl.i. allum þinum domum. þy at swa saghþi gud. dömen æi. þy. at.i. skulin dömæs þy at gud han skal dömæ. þæn æncti ær lönt fore. vtæn bidiæ þæn valdughæ domæræn. þær dom hawær.i. himiriki oc iurdriki. ok.i. hælwiti. þæt han giwi allum domarum. swa at dömæ.i. iorþriki. at þer matu þær mæþ þianæ sik. himiriki. amen.\n<13>\nVidhemmæ sokn skiptis.i. þre þridiungæ. hægguþorppæ. olafstorppæ oc honboræ. Sidþæn skiptis hægguþorppæ þridiungær.i. þre löte. innæn ingigærdþæ bol. siuidþæbol. oc sæx sætungxmannæ. sum æru. pulli. pikkæbol. guduastær ræuær. hællæbol. bænæ.i. ællikærri. oc bændi skallæssun. isti idem tenentur habere lidh apud curiam sacerdotis. per.I. annum sætungxmæn. et per alium annum. fiærdhungxmæn. et per.3. annum olaffærwæþridiungh. scilicet kazubol ion arnsten kassæbol et arnbiornæþorppær\nþridþi lotær ær sæmundæ bol. korsbol. kyrkubol. karlsbol. oc bærgxbol. sidþæn.a. pulli fiærdhungin aff hælmninginum.i. hidinzbole.i. vtskiptum. þö aff gunnuræloth. oc igh aff sæmundæ loth. firi þy at dotter faldi brodþore.i. by finzantæ fædþær. fiærdhungin aff hælmningginum.\nOlafstorppæ þridiungær skiptis.i. þre löte. fyrstum. bændict magnussun. bændict scallæsun. bæni.i. ællikær oc magnus skinnæri. annæn loten takæ þe sætungxmæn. sum vpp æru taldir.i. hægguþorppæ þridiugh.\nItem lidh apud curiam ödhers olafstorppær tenentur habere. quantum. ödher. laurencius dyakn. per quemlibet.3. annum et similiter gutti ræffwær semper ad medietatem ad nos omnes.\nAnno domini M0 CCC. XX. Vto. habuit ecclesia vidhem.XI. marcas cum.II. oris et cum parochianis restabant.XIII. ore\n<14>\nHær hittæs namn þerræ mannæ. ær wæstrægötlanz lagh görþho oc fram förþþo.\n. Fyrsti war lumbær. oc af hanum æru lums lagh callæþþ. fore þy. at han sighs. hawæ huxæt. oc gört en mykin loth aff laghum warum. han war föþær.i. wangum. oc þær liggær han.i. enom collæ. fore þy at han war heþþen.\n. Annar war. Biorn kialki. han war haf mæþþalby. þær war han iorþþæþþær.i. enom collæ. fore þy hanum war eygh kunugh hælægh crisnæ. æn.a. þem samæ. collæ. standær clocnæ hus þerræ nu.i. mædalby.\n. Þriþi war Þorer ræfwær. af gökem.\n. Fyarþhi. war. Alli. han war födær.i. sighlislangem. oc han taldi lagh.a. lincornæ wallum. æn war wrangwis. oc ffore sins wrangleks sakir. castæþhi han.i. lagh war. marghæ wrætti. oc krokæ. oc ilh braghþ. oc þy war han kallæþþær. kringalli.\n. Fæmti war. Tubbi stallæri. han war laghmaþþær. litlæ stunþ. oc war grimbær. oc wrangwis. þa stunþ han war.\nSætti war. Öndær af æssungi.\n. Syndi war. Wluar af Trælghu. han þolde bort wrækilsi swa at han baþhi tappæþhi walþ oc laghmanz namn. fore sinæ usiþhi. oc folsko.\n. Attunþi. war. Þyrnir. han war föþþær.i. wplandum.\n. Niundi war Wluar hans sun.\n. Tyiunþi. war. Aszur af Hæru. han taldi wæstgötæ lagh. al.a. enom þagh. þy. eno sinni. oc aldrigh mer. fore þy at han do skamp þær æptir.\n. Æliupti war. Karlli. af Ezwæri. han æflti eigh egn ællær alþræ costæ. swa mykit sum raslekær hans oc hyarttæ haweskæ. oc snilli hans högþhe han til þæs wælz. han spurþþi æptir þem mannum spaklikæ. ær læghæ spiæl görþo.i. landi waru. han ræfsti hwarium. æptir sinni giærþ. oc lanþ sith fore ondom mannum frælsæþhi han. oc vdömum. hwaþæn aff war han saghþær mæþ. myldri hyggiu laghæ styræri. oc þy war han saghþær kuæmilikæ faþþir at fostærlanþi.\nTolfte war. Algutær hans sun. æptir han. mykilhughæþær maþþær oc girughær.\n. Nu firi þy at. Sitruggær han sun wildi eygh ættir sins faþþurs döþþæ. þa byrþ.a. sic bindæ. at wæstgötæ. formæli for þy at war vngær. oc eygh at sær gior æn.i. allæ löte. Oc þy tok Önþær aff grolandum. þrænttandi. wiþþær laghmanzþöme. rætwis man oc staþþlikær. han taldi ræt lagh oc gömde þerræ.i. hwarn staþ.\nSiþþæn tok æptir han. Naghlli bröþer hans. Fyghurtanþi. wiþ samæ walþi. han fylghþi siþþum oc mæþfærþum broþþors sins. hafþi hoff.i. orþum at athawm allum. þyænædþi rætwisi oc laghlikæ wærn allum wæstgötum.\n. Æptir han. tok Sittryggær alguz sun. Fæmtanþi wiþ laghmanzdöme. þa fulkomen at walþi. oc witi sinu. mæþ guþz tröst.\n. Sexstandi. war. Allguttær hans sun.\nSyutanþi war. Æskil laghmaþþær. han spurþþi innurllikæ. oc lettæþþi all lums lagh. oc annarrær. at nytræ hæfþ lanzsins for ælþri. Siþþæn han fan lanszins lagh. þa. huxædþi han þem mæþ. myklli snilli. oc syalfsins forseo. han war marghæ wæghæ wæl ffallin til þæs walz. han hafþi þa giæff. af guþþi. at han atti snilli mykllæ. fore aþrum mannum. han hafþþi oc clærkdom ærlikæn. iæmth goþþom clærkum. oc iuir allæ lötte styrkti han wæstgötæ. oc þerræ hofdhengiæ. han war mangnusær sun. minniskiolz aff bialbo. han war mykin maþþær for sic. til aldræ raþþæ oc rætræ. swa at war iuir allæ rikissins höffþhengiæ. Swa sum han war mykin for sic till alþræ raþhæ. swa war oc han goþþær drængær till swærþh oc til alþræ takæ.i. striþ. hwat ma iæk nu meræ af hanum sighiæ. vtæn þættæ. at sent föþþes annar slikær maþþær.\n. Atærtandi war göstawær laghmaþþær. spakær maþþær oc rætwis\nNitanþi war folke laghman. warskær. oc milþær.i. daghum sinum. toko marghir hedþær af warum laghum. oc frillubörn gengu ffra arwi sinum..\n<15>\nOlawær skotkonongær. war fyrsti. konongær sum cristin war.i. sweriki. han war döptær.i. kyældu þerræ wiþ hosæby liggær. oc heter byrghittæ. af sighfriþi biscupp. oc han skötte þaghær allæn byn till staffs oc stols.\n. Annar konongær war. Æmunþær colbrænnæ. oc hæt þy colbrænnæ. at war riwar.i. ræfstum sinum. at brænnæ hus mannæ.\n. Þriþhi war. Æmundær slemæ. þy at war sliskær. oc eygh goþþær at þra.i. þy mali han wildi ffræmmiæ. oc han görþhe skiæl mællin swerikis oc danmark. swa sum sighx.i. landæmærum.\nFyarþþi. war hakun röþhe. han war föþþær.i. lifwini. wistæhærææþi. þrættan wintær war han kononggær. oc liggær.i. lifwini. sum han boren war.\n. Fæmti war. Stænkil konongær. han ælskæþhi wæstgötæ. vm. fram allæ þe mæn.i. hans riki waru. oc han war goþhær skyttæri oc starkær. swa sum æn stanþæ hans skotmark.i. lifwini. Callær eth konongsten. Annar stanþær wiþ konongs liþstolppæ. Þridhi.a. stanzbyærghi. oc.e. glæddus wæstgötær af hanum mæþhæns liffdaghær waru.\n. Sætti war. Ingi konongær. han styrdhi sweriki mæþ drænskapp. oc bröt aldrigh lagh. þy. talþ waru oc takin.i. hwariu lanzkappi.\n. Syunþi war. Halsten konongær. broþher Ingæ konongs. hofsambær oc goþlynþær hwart mal fore han kom. þa war han bötændi at. fore þy. wslæþhis sweriki. aff hans ffrafallum oc þöþhæ.\n. Atundi war. Philipus konongær. halstens sun. oc nöt at faþhurs oc faþhurbroþhors sins. at þer foro wæl mæþ sweriki. ingin matti oc hanum laghæ spiæl kyænnæ.\n. Niunþi war Ingi konongær. broþher. Philipusær konongs. oc heter æptir. Ingæ konongh. halstens konongs bröþhær. hanum war firi giort mæþ ondom dryk.i. östrægötllanþi. oc fek. aff þy banæ. Æn sweriki for.e. wæl mæþhæn þer frænlingær rædhu.\n. Tiundi war Rangwaldær konongær. baldær oc huxstor. reþ.a. karllæpitt at vgislædhu. oc fore þa sæwirþnigh han giorþhe allum wæstgötom. þa fek han skiæmþær döþhæ. styrþhi þa goþhær laghmaþþær. wæstrægötllandi. oc lanz höffhengiær. oc waru þa allir tryggir landi sinu.\n. Ælliufti war. Swærkir. konongær gambli. han war cornubæ sun.i. östrægötllanþi. hans hæstæ swen myrþi han iulæ otto. sum han skuldi till kyrkyu faræ. oc han ær iorþæþhær.i. alwastrum. oc han byriæþþi fyrst oc ælfti han þæt clostær. sum guþ læti fial nu hans þæt nyutæ.\n. Tolfte war Erekær konongær. han war vsini swa brat af þaghum takin. han giærþhi.e. goþ þöme mæþæn han liffþhi. oc guþ gaff hanum þær goþæ lön fore. Nu ær han sial.i. ro. mæþ guþhi oc hans hænglum. oc ben hans hwilæs.i. wpsalum. oc hawir þær teeth oc oppenbaræt margh faghær iærtingni mæþ gudz naþhum.\n. Þrættandi war. karll konongær. swarkirs sun gamblæ. nöt sins goþþæ faþþurs till. namns. han styrþhi sweriki mæþ spækth oc goþwiliæ. oc han tok aff þaghum magnus konongh fyurtandæ.i. öræbro. æn han sialwær fæl.i. wisingxs.ö. oc han liggær.i. alwastrum hos fædþur sinum. Æn sun swærkis war boren.i. danmark.i. kiltu. oc war ömblegh hans færþ.\n. Fæmtandi war knutær konongær. han wan sweriki mæþ swærþhi. oc tok aff daghum. karll konongh. oc koll konongh. oc byrisleph konongh. oc atti marghær orostær wiþ sweriki. oc fek.i. allum sighær. oc hafþhi mykith arwuþi. fyr æn han fek sweriki mæþ ro. Siþþæn war han goþhær konongær. ær han tok wiþþær waxæ. oc þre wintær oc tyghu war han konongær. oc læt sit liff.i. Erexbærghi.i. giæsini. oc han liggær.i. warnem.\nSexstanþi war swarkir konongær. sniællær man oc goþþær þrængær. röndes sinu riki wæl. æn folkongær toko liff aff hanum. hans sialfs maghær görþhe hanum þæt.i. gyæstilren. oc.i. alwastrum liggær han. oc ær hans.e. giættit. at goþþo.\n. Syutanþi war Erekær konongær. han flydþi.i. noreghe. þre iæmlangæ. siþþæn wan han sweriki mæþ swærþi oc mæþ sighær. oc war syu wintær konongær. oc war godþær. aar konongær. fore þy at.e. waru goþ aar vm alt hans riki. mæþþæn han liffþhi. han stra þoo.i. wisingxs.ö. oc liggær.i. warnem hos bröþrom sinum oc ffrænþum.\n. Attærtandi war. Ion konongær swærkirs sun. bærnskær at alþri oc mykit goþwiliæþær. þre wintær war han konongær. oc stra þo.i. wisingxs.ö. alt sweriki harmæþhi hans döþhæ. mykit. at han skuldi eygh liwæ længær oc.i. alwastrum liggær han. oc.e. göme guþ syal hans..\n<16>\n. Sighfriþær war fyrsti byskupær sum hær com cristnu.a. han ffor aff ænglandi. oc hingæt. oc mærhtti hær þre kyrkyustæþhi oc wighþi. þre kyrkyugarþþæ. En ær.i. friggiærone. Annær.i. gyrem. Þriþi ær.i. agnistaþhum. oc for siþþæn.i. wærænþ. oc com þær cristnu.a.. oc liff sit at rættum döþæ. oc.j. wæxyo hwilæs ben hans. Æn hælhir ænglær toko wiþ sial hans oc förþþo hanæ til paradis. oc ær þæn sæl. ær slikæ arwuþhis lön skal wp takæ sum han tok.\n. Annar war vnni ærchibiscupær. han wighis.i. ænglanþi. oc sændis swa hingat. þa wildi hær swa noþhoght folk wiþ cristnu takæ. oc þer toko biscupin. oc tyrffþhu till banæ. mæþ stenum. sidþæn tok guþ wiþ sial hans. oc hælghir mæn.\n. Þriþhi war astmuþær biscupær. han satti fyrst staff oc stoll.i. skarum. oc hanum sköttes bolstaþhir. hær aff almænnighi. vtæn prowæstu boll.a. mildu heþe. i. skarum liggær han.\n. Fyarþþi war. stenfindær biscupær. lætllatær man oc godhær drængær. oc han gat fyrst comet sit biscufsdöme till rættæ lyþnu. oc.i. skarum liggær han.\n. Fæmti war. Adalwarþær gambli.\n. Sætti war hin hælghi adalwarþþær vngi. han læth fyrst grawæ grunwal vndir sancta mariu kyrkyu.i. skarum oc þær liggær han.i. guz friþhi oc hælghræ mannæ.\n. Siunþi war Roþolwarþær. aldræ þæghnæ wærstær. þa waru.VII. boo till staffs oc stols. oc hwart sit bo afllæt. aff þæmmæ.VII. biscupum. oc.j. Skarum liggær han.\n. Attunþi war Rikulwær biskupær. Han war ænskær at ædllum. oc.j. Skarum liggær han.\n. Niundi war Hærwarþær biscupær oc ænskær han atti baþi kono oc börn.i. ænglandi. oc lopp fra þem oc hit till lanz. oc war hær biscuppær oc öcte hwartti staf ællær stoll. Han sankæþi gull oc sylwær oc stals swa hæþhæn oc attær.i. ænglanþ till sinnær kono oc till sinnæ barnæ.\n. Tiundi war störbiorn biscupær. han öcte myok staff oc stoll. oc han fullæþhi mykyt aff sancta mariu kyrkyu.i. skarum þer waru ffyrstu inföþer mæn. Adalwarþær vngi oc storbiorn. i. skarum liggær han.\nÆlliuppti wær. öþgrimbær biscupær. han war goþær maþær oc sniællær. þa war sanctæ mariæ kyrkyæ fulkomæþ.i. hans þaghum. oc han wighþi hanæ til. fæm pænningæ bla. af hwarium bonþæ. fore þy at þa gek erpænningær.i. alt götllanþi. ællær skuldi gialdæ syu skiæppur hafræ ællær. þrer bygs. oc i. skarum liggær han.\n. Tofte war þæn goþhe biscupær bændictær. slikær warþ aldrigh till godgiærningæ. hwartti fyr ællær siþhæn. han tok ælliuwu bo oc læt nitan. han tok hafthundræþ lanbo. oc læt hundræþ. han læt scriuæ sancta mariu kyrkyu korn. allæn. oc syþri kowæn. oc göræ han allæn. han gaff till half mark gulz. at listæ þen hoffoþ tekn sum þær æru.i. scriwæþ han læt oc boæ öþbönnen hælghæ. oc kowæn han stanþær nu.i. han læt oc giæræ taflunæ. fore höghæ altæræ. han læt bo baþi scrinin oc röktæþi hælghu domæ.i. þem. han lot göræ handinæ hælhu oc bo hanæ. oc læggiæ.i. hanæ hælhu domæ. han lot göræ bokinæ bono. Mæþ hans raþhum com cantæbonæ til skaræ. oc hanæ köpte han mæþ sinum panningum. Bibliam lot han köppæ.i. ænglanþi. oc gaf mariu kyrkiu.i. skarum. han lot göræ ffiærþhunghin. af sancta pætærs kyrkyu.i. skarum aff sinum kost. Flæstæ þe pænningæ sum kostæþþi sancta nicholaussæ kyrkyu.i. skarum. læt han till. oc han war þerræ gilbroþær. han gaff sancta nicholaousæ kyrkyu baþær clocconær. h\nan gaf baþær clocconær til Erexbiærghs. han læt göræ kyrkynæ.i. götalum. oc bo hanæ. han læt göræ. kyrkiunæ.i. agnistaþhum. oc bo hanæ. han læt göræ kyrkiunæ.i. dimum oc bo hanæ. han læt göræ kyrkynæ.i. wighni oc bo hanæ. oc han wighþi hanæ. vtæn hwan pænnigh. hwar sum han for vm sit biscups döme. oc sa nokot affat þæs guþi skuldi mæþ þiænæ. þa halpp han mæþ sinum pænningum. mannillikæ oc ærllikæ. I. mædal wplanþum gaf han baþhi cloccor oc bökær oc scruþ. han læt oc bror göræ. han læt göræ bronæ.i. osee. Adþræ.i. offruþ. oc Þriþþiu.i. ffrawæþhi. Fiærþhu biæcnæbro. oc Fæmtu. wllærwis bro. han læt broæ twar rastir aff tiwidhi. oc enæ rast aff wæturswidhi. oc enæ rast aff hökesasi. eigh tok han meræ æn. fæm pænningæ bla. aff hwarium bondæ ællær fæm skyæppur haffræ. ællær þrer bygx. Æn ingin. man þæssæ hems. ffar hans goþgiærningær allær tallt. vtæn guþ syalwær. sum han styrþhi þær till. þy. hwaru leffþhe han æptir sic ffæ oc pænningæ. stor silfkar oc margh þyurshorn. klæþi oc g\nraskin swa margh sum tyghu hæstær gatu mæst droghet.i. goþho fore. Æn fylhþy þy fæm lifspunþ sylfs. þyt hwaru gaff han fatökum manum sit bröþ usparllikæ. oc clæþi baþhi. swa sum guþ löne syal hans hallær sinær godgiærningær. oc.i. mariu kyrkiu.i. skarum liggær han.\n. Þrættandi war biscupær iærppulwær. han war föddær.j. hwærwi. han com fyrstæ sinni tyundæ aff bondom biscupi. þa fek han domæ til a þingi. fyrst þa þing haffþþis oc hiolz widþ askubæk.\n. Fyurtandi war. Ion hyrnnæ warskær man oc þærfflikær allum mannum.\n. Fæmtandi war wærnarþær mykin þægn gaff baþhi rikum oc fatökom.\n. Sexstandi war biscupær bændikt vngi. han samnæþhi hærwapn brynniur. oc skyoldæ. oc skippæþhi swa stafwi oc stole. harþær oc braþær war han baþhi wiþ lekæ oc lærþæ. myok ödþes eghn baþhi stafs oc stols.i. hans daghum. j. vpplandum do han oc.j. warnemh liggær han.\n. Syutandi war stenar biscupær. östgözkær at æþlum. godwiliæþþær. man. Æn lærþir mæn. æghu goz biþiæ syal hans. fore þy at han ffrælsæþhi þem wæl. mæþ allum ærllikum lottom.\n<17> [latin]\n<18>\n1.. Giwær madær manni þyuffsak. ær eigh.i. handum takit. eyg or husum dræghit. oc engin laghæ lezn.a. wæri sik mæþ twæni tylftum. oc.II. forredhum. oc swæri hwar sinlæstum. Ær.i. handum takit. or husum dræghit. laghæ lezn.a. komen. wæri witulös. þæt skal.VII. mæn aff næmpþinni. swæriæ. at þæt war eig.i. handum takit. eygh or husum dræghit engin laghæ lezn.a. komen. oc þy.a. han eig witulös at wæræ. Siþþæn wæri han sic sialwær mæþ twæni tylfttum.\n2.. Næmpdæ madær.a. hwat han hældær wil þæt mal wæriæ ællær ffællæ. Wil han hwartti þæt. þa swæri en witulösæn eþ. biþi swa sær guþ hol. oc syu mænnum aff nempþ. at han weth hwartti þyugg ællær orþþyff. Siþþæn þa wæri sik sialwær. mæþ twæni tylfftum. oc.II. forredhum. oc swæri hwar sinlæstum. sum lagh sighiæ.\n3.. Fuldær þyuwffnæþþær. þæt ær.II. öræ. ællær.II. meræ.\n4. Hwar sum stiæl.II. öræ. ællær.II. örum. meræ. þa wæri sik mæþ samu laghum. sum ffyr war saght.\n5.. stiæl til halff mark. ællær halff mark meræ. Wærþær.i. hanþum. or husum dræghit. ællær laghæ lezn.a. comen. þa hængin þær ffore. oc eig ma ffor minnæ hængiæ æn halff mark. Æghi malseghændi walþ lösn at takæ ællær hængiæ.\n6.. Eig ma liff latæ þaghær til laghæ lægs. vtæn böte sum lagh sighiæ.VIII. örtoghom minnæ æn.IIIIor. markær.i. þre staþi.\n7.. stiællæ flere samæn til halff mark ællær halff mark meræ oc wærþæ allir ffanghnir. þa hængi oc allir. Æn þe sum eyg ær.i. handum takit. þa wæri sic mæþ.II. tylfftum. ællær böte.III. IX. markær.\n8.. hwar sum lætær fullæn þyuff lösæn. böte [...] markær.\n9.. stiæll maþþær combær eyg hem vndir lass oc lykki. wærþþær fyrræ fangin. þa gialdi sinæ pænningæ fore. oc husffru wæri saclös þær aff.\n10.. Bo hans skal swa skiptæs. æn hans husffru ær saklös. þa skal konæ hans takæ skipti sit sum lagh sighiæ. Siþæn bondæns lot skiptæ i. tu. hawi halft hans arwær. oc halft skiptis.i. þry. takær en lot malseghænþin. annæn. hærææþ. oc þriþiæ konongær.\n11.. I. allum þyufnæþi baþþi.i. huinzku. oc allu. þa gialdi.e. malseghændænum fyrst attær skaþæn mæþ sornum eþþe aff vskiptu.\n12.. eig æru flere malseghændær þær at. Æn þæn sum han far mæþ sinu. oc han wærþær grippin mæþ. kyænnæ flere mæn sit þær inni mæþ þem ær grippin ær. þa winni til sins mæþ.XII. mannæ eþþe. oc eig flere malseghænþær. Æn þæn sum mæþ sinu hawir takit.\n13.. Nu bær husffru sak. at hun stal mæþ bonþæ sinum. þa skulu hænnær malsmæn þer skyllæster æru. hanæ wæriæ mæþ.II. tylftom. biþiæ swa sær guþ hol. at hun eig stal. oc eig stolet nöte.\n<19>\nMagnus sweæ konongær ok götæ mæþ guz naþum. sændir allum þem mannum ær þættæ breff se ok horæ. guþz kwæþiu ok sinæ naþ. Vir kyænnums þær vidþær. at aff þæt walþ guþ hawir hos.i. skippæt. hörer hos þæt at huxæ oc stadwæ. ær guz vari heþþær. oc þerræ mannæ þærwir sum rikit byggiæ."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_1_2": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 1 — flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. En hær hawir wærit.i. wart riki en vsiþþær længi. at allir þer mæn vm rikit faræ. aldrigh æru þer swa rikir. at þer williæ eigh gistæ fatökræ mannæ hus. oc allæn sin cost hawæ vtæn pæningæ. oc nötæ þæt vp enæ littlæ stunþ. ær hin fatöke hawir længi arwuþþæt fore. Oc mæþ þy at aff slicum vsiþ. combær baþi oft mykil lifsins wadþi. oc swa siallinær. þæ hawm wir þæt sua skippæt mæþ sniælræ mannæ raþþi. baþi biskuppæ. oc swa annaræ ærllika mannæ. At allir wæghfarændæ mæn skulu sialwir sær kost radþæ. oc ingin skal þær skullughær wæræ till þem nokot at giwæ. Oc þær till at þættæ matti hældær haldæs. þa wilium wir at en maþær skippis til.i. hwarium by. þæn sæliæ skal wæghfarendæ mannum. þæt þer wiþþær þurwu. ællær oc till annaræ mannæ rættæ. þerræ þær þem ffar þæt þer wiþþær þuruu fore þerræ pæningæ. En væghfarande man wærþær rættær til manz. oc wil þæn eigh ær han ær rættær til. hanum sæliæ þærwir sinær. böte.III. markær.I. konongi oc.I. væghfarændæ manni þem eigh fek sinær þarui\nr. Æn. þridiæ skipttis.i. twa löte. taki.XVI. örtoghær. hæræþ. oc.VIII. örtoghær rættærin. Hwar hæræzhöfþenge skipi rætæræ.i. sinu hæræþi ællær böte konongi.III. markær. Viliæ eigh böndær wiþær takæ. böte hwar.VIII. örtoghær. Rætti eigh meræ.a. en bondæ æn twa hæstæ. ok sæli baþþi höö oc korn oc allær sinær þærwir for sinæ pænningæ. Æn þa rættærin wil hwarti wæghfarændæ manni af sinu sæliæ oc eig til annars rættæ mæþ þy at han ær waldughæri æn annar. þa böte oc swa mykllu meræ fore brut sin. oc wæri þæt sæx markær. II. konongi. II. hæræþi. oc.II. wæghfarændæ. manni. Æn þa æn þer þrættæ sin.i. mællum. rættærin. wæghfarendi mannin oc þæn sum til ær rættær. oc sighær hwar annæn eig hawæ ræth görth adrum. þa sætium wir þem allæ til fiærþhuns nempþ aff hæræþinu til wærn. mæþ þem skiælum. at. wæghfarændi mannin lysti fore grannum. ællær for skiælicum mannum af hærædþinu. þa han bort ffoor. at han fek eigh sinær þarwir at kiöpæ.i. slikum. by. for sinæ pænningæ. Æn þæt ær ok swa\nstundum. at mæn williæ off dyrt sit gooz sæliæ wæghfarændæ mannum. oc þy. wilium wir at wæghfarændæ manni sælis sinær þærwir. swa sum almænnilik köpp ær.i. landenu. oc þa æn nokor ær þæn. ær þæt wil hemulikæ takæ til sin. at köppæ þæt in. ær han hawir eig sialwær. oc han matti wæghfarændæ mannum vtt sæliæ. þa sæli han sum dyræst gitær han. swa þyt hwaru at fylghæ ma. Nu fore þy. at þæt ær ingti at sættiæ rættin. vtæn at han haldis æptir. þa wilium wir þæssæ waræ skippæn swa wiþær lagh festæ. at hwar sum takær nokot wtæn þæss wiliæ sum.a. þa wilium wir. at þæn takis linlikæ. vtæn barþaghæ. oc fores os. swa þyt hwaru. at han hawi dagh. vm sæx vkur. at bötæ.XL. markær fore ranith. þæt han giærþi. oc þa æn han böter eigh.XL. markær i. þem sæx vikum þa wilium wir at han fores os. Þæssæ.XL. markær skulu skiptæs.i. þre löte. takær en lot konongær. annæn. hæræþ. oc þriþiæ þæn sum ranit war wiþ gört. Wærdhær þæt swa. at þæn sum rænt hawir flyr vndan. oc skiærs up buþkaflli. buþþæs hær\næþinu. at takæ þæn man. hwar sum eig combær till böte.III. markær. Wærþar þæt oc swa at nokor skiær vp budkafllæ. vskiælikæ. oc faræ mæn æptir hans orþom wiliæ takæ man saklösæn. böte.III. markær þæn vp skar. æn þyt hwaru at þer fangæ eigh mannin. þa æn han wærþær fangin. oc faar han siþæn fiærþungs nemþ for sik. at han ær saklös. þa böte þæn ær buþkafllæ vp skar. ællær þæn fyrst förþe.XII. markær. taki.IIII. konongær. IIIIor. hæræþ. oc.IIII. þæn vskiælikæ warþ takin. Æn þem allæ ær fulghdu af hæræþinu til at takæ han. þa gifwm wir saklösæ. Flyr þæn bort undæn sum slik sak wærdær giuin. þa scal hanum en rumæn dagh giwæ. til answaræ. at comæ. af þem daghi. scal han hawæ manæþæ fræst at bötæ swa mykith. sum fyr ær saght. æn han falz. ællær wæri siþæn vtlæghær. Wærdær oc swa at nokor þæn ær sandær at slikri gærningh. hörer nokrum hærræ til.i. landinu. oc haldær þæn hærræn hanum siþæn han far wart bref. at han scal þæn samæ bort latæ. vm fiughrtan nættær. böte.XL. markær. Ællær\nwæri sic mæþ sinum en eþ. Æn þa æn nokor annar madþær haldær hanum. æn þyt hwaru. at han eigh wart breff far. þa böte þyt hwaru.XL. markær. Þæt wærdær oc swa oft. at þæn sum giarþinæ gior. at han callær sik adþru nampni. æn han heter. oc slæppær swa vndæn. oc annar madþær wærþær takin for han. þæn eygh til görþe. þæn sum swa wærþær takin. han skal wæriæ sic mæþ.XII. mannum þem han war þa mæþ. ær giarninggin six görþ wæræ. Far madær eigh födþo hwarti mæþ bön ællær mæþ pænninghum. ærw þær til witni. þa lofwm wir hanum at takæ swa mykit. sum han ma sær fyrstum hiælppæ mæþ. ok giældi swa mykit fore. sum almænnilik köpp ær.a. Mæþ þy. at þæt ær oc wæl wærþhughut. at þer hawi meræ frælsi sum wærdhughir æru. swa oc þer sum meræ ærwþæ for os. þa takum wir vndæn þæssi gistnigh. fyrst allæ varæ garþæ. swa biskupæ. oc riddæræ. oc swenæ til wapn. swa at þer skulu ingæ skulþ bæræ. þær til. æntiggiæ giwæ ællær sæliæ. vtæn þer sialwer wiliæ."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_3": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 3 — flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "3. Ellighær mæþær þy at þæt ær wæl wærþuct. at þer sum os fylghiæ frammarmer baþþi mæþ raþdhum oc hialpp. at þer hawi mere æru. þa giwm wir allæ waræ mæn. oc wars kyæræ broþþors bænþigs. oc allæ þerræ bryttiæ. oc lanbo. oc allæ þa.i. þerræ goz æru liþughæ. af allum konongslicum ræt. swa oc allæ ærkibiscupsins swenæ oc allæ biscupænnæ swenæ. Wiir wilium oc at allir þer mæn ær mæþ örs þiænæ. at þer hawi þæt samæ frælsi. hwem sum þer þianæ hælst."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_4_2": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 4 — flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "4. Wir hawm oc swa skippæt. at ingin þæn. ær læn hawir. læggi nokor alagh.a. böndær. ællær þunggæ. swa wist han vil eygh sin læn mistæ. vtæn þæt se þerræ goþwili. Wir firibiuþum oc þæt at böndær giæri eigh gengiærþ. lænsmannum. vtæn þer sialwer wili. eigh hællær þa þingæs æn vtæn þingh. Wir wilium oc at ingin man taki sær skyuth af bondom. vtæn han hawi wart breff þær til. hwar ællighæs takær skyut af bondom. oc faar han nokræ acomo af eghændænum. þa se hun vgilþ. oc wærþær han fangin. þa löse sik. swa sum eghændæns dombær ær til. oc þæs ær æmni ær fangin ær. Læggium þy hær harþæ ræffst wiþær. at flæstir þer swa takæ. æru swa hærþis löser. at þer vandæ eigh hwat bonden faar sit attær. ællær eigh. æn þer gittæ syst mæþ sinær þarwir oc syslur."
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_5": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 5 — flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "5. Wiþ þæssæ waræ skippæn waru wiþær mangir ærllikir mæn. oc gawu þær ia til. oc sworo at þer sculþu hanæ haldæ. oc stærkiæ mæþ alt þæt þer gatu. þær waru wiþær biscupær. Iacuppær ærchibiscupær af vpsalum. Biscupp anundær af strængiænæs. Biskup kyætil af finlanþi. Biscup aszur af wæxsio. þær waru oc wiþ ridþærær. ffyrst war brodþer. Bændictær. hærra vlwar karlssun. hærræ bændict laghman. Magnus ionssun. Swantæpulkær. Vlwar hungerssun. Anundær harals sun. Knutær mattiossun. Rörikær alguzssun. Karl haralssun. Thorsten hunwizssun. Bændict Ionssun. Rangwaldær ræwær. Ranwaldær Ingæssun. Bryniulwær botillærssun. þær war oc wiþ hæræ pætær. war kanceler. hærræ bændict ærchidiakn af vpsalum. Prowæst andres. oc Prowæst Ion. Nu þær till at þæssi mal ær wir hawm nu vp talt. mattu hawæ fullæ fæstu. þa lætum wir wart insighlli fore þættæ bref sættiæ. Oc war þættæ skippæt.oc scriwæt.i. alnu æptir wars hærræ fözllo þagh. þusæn arum. oc tu hundræþ. arum oc attatighi. oc fæm arum.\n<20>"
+  },
+  "lag:vidhemsprastens_anteckningar:vidhemspr_1_3": {
+   "lag": "Vidhemsprästen",
+   "adress": "Vidhemspr. 1 — flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "1. Sittær nokkædrumbær ællær nokkæ konæ williæ igh a legho gangæ. giær igh sæþ eigh skath oc skuldir. kræffwær bonde han til legho manz ællær hanæ til leghokono. hwar þem hysir sidþen ællær oc hallær þer æru krawder. hæti sinum.III. XVI. örtughum.\n2.. þær sum rættir ældærær æru. wærþæ þer bardþer fa aldrigh ræt a sær. hællær huzstrukin huskonæ.\n3.. Ser madþær fulkomæn ældæræ. calli til sic sinæ grannæ. twa ællær þre. sum han vitnæ at væræ sannæn ældæræ. före han sidþæn sinum hæræzhöfþingæ at saklöso. oc han pröwe hans skyal. sidþen skiæri hæræzhöfþingi þing vp. oc höre vitni hans. Ær han siælikær wæri saklös. Ær han eigh saklös. þa hustryki han. oc se þæn saklös ær han förþe.\n4.. laghmadþær ægher lanzkylþ aff mohæræþ þæt ær fæm tyugh nöt hwær fiardþæ ar..\n<21> [latin]"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_51": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Kb 51 — Kb, flock 51",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Kb 51]\nbryter. ᛘ. iulä frid fran iulä aftin ok til attundädagh äftir tolfdä dagh eller paschä friþ fra klocnä odensdagh oc til paschä dagh at quälle. böte. biscupi.. xij. örä"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_52": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Kb 52 — Kb, flock 52",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Kb 52]\nþettä a. biscuper at gamblum lagum varum. verder. ᛘ. i. kyrkiu dräpin þer a. biscuper. firi ix. marker. verder i kirkiu sar. þa a. biscuper iij. marker. Firi hwart bansmal a. biscuper. iij. marker.\nhwar scriptä brot gör böte. biscupi. iij. marker.\nfiri twäfalt hor iij. marker. firi enfalt. xij. örä. firi frencimä spiäl a þridiä man eller fiärþä. a. biscuper. xij. örä. är þet scyllere. biscupi. iij. marker. oc sua firi all annur firnäwerc oc gange til rom oc giui biscups. caplane {di} [dimidiam] mark firi bref.\n183\nskiliäs hion tu. eller riuwä fäst firi fränzsim böte. biscupi. badþe. iij. marker. skilias firi gudziwälagh böte þen sum gipti. biscupi. iij. marker.\ngiptir. ᛘ. dottor sinä eller frencono nödghä. böte þen sum retter giftär mader en þer skiliäs at. iij. marker. en han giftir. firi xij. mannä eþer a. biskuper. iij. marker oc swa firi tuenne tylftir oc eig meer.\nhwar sum helghädaghä bryter paschädagh hälghä þors dagh pinkyzdagh midsumars dagh laurencij ällä vara fru dagh michaelis omnium sanctorum natiuitatis {circumsioninis} [circumcisionis} epiphanie domini kyrcmessu dagh oc allä apostolä daghä sum for hälghþ oc fastä är firi allä sunnudaghä hwar sum biärgs nocon thwärä wercnäd a nocrom þessum daghum böte biscupi. viij. artoger elle dyle mz. Xij. ᛘ. biärgi in korn oc hö vm höst äftir midiän aftän at saclöso\nhwar sum frid bryter. i. skarum sialwum vm skerþorzdagh böte biscupi iij. marker. eller wäri sik sum lagh sigiä"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_53": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Kb 53 — Kb, flock 53",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Kb 53]\nhwar sum gör fullä gengiärþ giui. ij. örtogh presti firi vixlä lius oc inlezlo lius äftir barn oc {offe} [offre] en hun vill. hwar eig gör fullä gengiarþ giui artogh firi {fyxl} [vyxl] oc so inlezlo. hwarte lius eller penningä a bonde presti firi inlezlo äftir giftu vtän bonde will"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_32": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 32 — Forn, flock 32",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 32]\nfiri þessä wäghä böte bonþe laghä bote. lanzwägh. almannäwägh kyrkiu wägh quärnä wägh En makä wägh. oc makä broär / þet eig aru almännix wägher eller broär liegä vgiller wäri saclöst vtän nokor kiäri äftir af grannum þa böte öre oc taki sialwir grannär\n[Forn 33, 34]\nwitiz manni scoghä bräne at han hawer bränt til tiughu lassä böte. iij. ix. markers eller wäri sic mz siu nempdämannum. brännir minnä böte. iij. xvj. örtogh eller wäri sik mz. xij. ᛘ. brännä flere män col. i. scoghä samän äru skylder vm mal oc metti oc werder elder lös oc brännis til fullä brännv sum wart sact böte hwar for sik. iij. ix marker eller wäri sik mz siu man af nempdänä\n191"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_36": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 36 — Forn, flock 36",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 36]\nligger husalös tomp. i. by acrä oc ängiär fran salt oc gardä ater til tomp liegiä þa taki hwar þärrä ior › hawer cöpt swa mykit af tomptenne oc garþenom sum þer häwä fingit af ior › enä äftir nat oc iamlanghä siegiä þer ne wi › garþenom þa böte swa sum lagh siegiä.\n[Tillägg 2: 3 - 5, 7 - 9]\n46. Thässi eþär ligiä. a. siu män af nempdine twäsörez eþer / swär man barn af handom sik hemföþo eþer swär. ᛘ. eþ. a. mot nempdine þem hun laglica {...} wär. ᛘ. sik for þiuf sac oc hittiz siþän mz hanum wär. ᛘ. sik for sac oc böter siþän viþ {saclöckiä} [saksökiä] þessi eþer sculu allir atir gangä / eller nempd firi gangä hwar sum leogir flere eþä til nempd böte. iij. xvi. örtogh\n[Tillägg 2: 10]\nsöker. ᛘ. til scul › sinnär. oc kennez baþer sculdinä huru mykin hon är / {lä} [lägger] hin fram oc swär mz. xij. ᛘ. at fulwirþi är. hin sighir ne wider före {häräz...} [häräzþing] oc late þär mätä en fulwirþi\nær / sambir þem eig þer / före til lanzþingh. [sighiä] þä metenzmän eig fulwirþä wärä. läegi til þät. a. fat är oc lagman döme [eþen vp.]\n[Tillägg 2 pr 1, 2; 13: 1]\nAllir. xij. mannä eþer sculu mz withnum gangäz twe. ᛘ. withni bärä oc swa atir. i. eþe stanþä þer mughu eig atir gangä eig ma ovormaghi þrel elle friþlös man. i. eþe stanþä star nocor þer. i. eþenom / wäri af laghä eþer aller twenner tylftir. mz withnum oc häräzdom gangnär sculu standä oc eig atir gangä vtan aþra twenner gangä moth samä malet þa liegi þät til. vij. ᛘ. af nempdinä\n[Forn 37; Tillägg 2: 4]\nfiri all maläruf gange. xij. ᛘ. eþer mz withnum oc eig nempd eller böte. iij. xvj. örtogh. Hemföþo eþer gange for ängti vtän þät a föte gangher"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_38": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 38 — Forn, flock 38",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 38]\nfiri bol özlö bötez firi. xvj. örtogher. þät är bol özlä sitir. ᛘ.. a. annars ior › sar [oc] göder sinä ior › oc eig bondens takir guþ hus oc röter oc sum brännir bäträr en [gin] oc engin wiþ gör þät är ful bol özlä.\n193"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_jb_46": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Jb 46 — Jb, flock 46",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Jb 46]\nwil. ᛘ. nocrom giua ior › giui þrigþiung af cöpo ior › mz vmfärþ oc hälfmingin af lösom {öram} [örom] han hawir aflät en siukir lieger. oc eig fäþerne eller mäþerne vtan arui wili\n[Forn 48 fin]\nEngin döme vm nocon vtän han se laghkalþer til swärä."
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_46": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 46 — Forn, flock 46",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 46]\nAllir þer. i. landeno boä sculu hawä warghä garþä þär sum til är fallit eller þer sum eig hawä scoghä hawi warghä nät / oc þet scal härazhöfþingen scuþä oc wärki a laghä. stemnudaghum. laghä stemnudaghir äru þessir. fyrsti fiärþe dagh\npaschä. anner. iiij. dagh pencoster / þriþi annän dagh mikaelis fiärþe. v. dagh iulä. hwar sum eig wärkir. i. þännä stemnuþaghum böte bonde eller bryte öre legoman eller innisina örtugh. oc hwar eig hawir nät eller garþä bygdä böte. ij. örä. oc. i. hwarre scallä wärt sculu twer män wärä þer at gömä þem mannum sum eig göre rät oc sökiä þem þelä þer socnenä wäri þen malseigende sum sökir oc þäs. i. mellum e hwarn timä þe twer kräfiä þem til þa wräkin eller böte sum sakt är"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_48": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 48 — Forn, flock 48",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 48]\nstämnir. ᛘ. manni tu lanzþing mz withnum oc combir eig til. a aþru þerrä þa ma laghmaþer han friþlösän leogiä mellin alwer oc tiwiþ e til han swärä combir samulund oc þen stemnir en han combir eig til"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_dr_7": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Dr 7 — Dr, flock 7",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Dr 7]\nBröþer samän söcter til ätter both allir firi eno garþliþi. böte allir. xij. örä. bröþrä synir samen söcter böte allir. vj. örä / sökäz hwar þerra sinz staþ böte hwar þärre. vj. örä bröþerlongä barn samän {soc} [söct] böte al. iij. örä / scyld at / hwar\n. iij. örä / þär näst halffemtä örtogh / þär näst. iiij. penningä oc twa örtogh / þär näst atertan penningä eller en örnäwingä systra synir samen söcter böte allir. vj. örä / oc scylþer at böte hwar þärrä iam mykit þar näst halffemtä örtogh / oc swa e. hwar haluu minnä swa a fäþerni [sum] mäþerni til sätä manz"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_12": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Gb 12 — Gb, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Gb 12]\nWil man leghers bot vt sökiä þa skal til häräzþingh farä eller lanzþingh oc sär endaghä hem latä dömä at sökiä han mz. xij. män / þa han sökir a endaghe þa weri hin sik mz. xij. eþ ok. vij. man af nämpdinne äftir eller böte laghä böte / gör han eig rät hwarte mz laghum eller botom innän þryþä lanzþingh / þa scal lagman han friþlösen leogiä mellin alwer ok tiwiþ e til han rät gör"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_63": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Kb 63 — Kb, flock 63",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Kb 63]\n. J. byä bygninghum scal prestir. i. bonþä laghum wära þät är liþ / garþär oc broär ihalþ fiar aslätor apleior tiälrubyr › akirnam / firi al tessi mal scal nämdämam [!] prest fällä eller wäriä / fälz {an} [han] til. iij.. xvj. solidos / taki. biskupir. konongs. rät /. falz til minnä taki häräzhöfþinge alt /\n[Jfr IV 21: 78]\nPena violencium emunitatem ecclesiasticam est duplex [ex] communicatio hominis siue mulieris /\nNam vio [lans] est [ex] communicandus videlicet e xvij. q. iiii. nullus & ut siquis deinceps eo saluo qui [...] aliter sacrilegus est excommunicatus ipso iure vt incendarius ecclesie & effract [or] vt. xi. q. iii canonica. xvij. q iiij. omnes ecclesie intra de raptoribus in literis intra de sen [tentia] [con] questi alij autem sacrilegi qui alio modo ecclesias violant seu pecunias vel res [...] rapiunt violenter vel bona ipsorum vsurpant & per hoc sacrilegium in currunt non sunt cum ipso iure excommunicati vt. s. de fo [ro] com [petenti] conquestus"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Gb 2 — Gb, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Gb 2]\nFar rättir eghende sär ior › af handom hwat þat är heldir giäf eller cöp / þat är fult fang iordär e hwat han stanþer a sialwi iorden eller annärstaþ þa han far / gitir eig sialwir eghanþe wiþ wärit seter aþrum i. hant mz bref eller fullum vitnum þa är þät gilt swa sum han sialwir wiþ warä. forer. ᛘ. {uingru} [uingäu] eller engin forneghä fä þät är annat þaþghär þät ar. i. hanþer fingit oc henner arwä aftir henni alt þät sum gifs at hindrädax giäf oc lysis a gifter quäldi þät är fult fang iorþär än vmfärþ kombir a. {sindrädagh} [hindrädagh] eller fyr oc eig annät för en þe\nkomä vndir enä bleo skilias at siþän haui hun morghengäf / en eig eru anit forskial firi gör\nTax dagher mannä mellin oc ganger anner. i. borghen firi daghin hwärt nokä gärnneng {görä} [gör a] þät malit innän daghin þa þen garnegä gör rymi land en byrhären böte. iij. niu marker / þa þän gärnneg {gökre} [görþe] wärdir in länder / göre borgherän skaþälösän innä manaþ af þän dagh han. in. kom eller döme lagman han friþlösän a lanzþingh vm allä lagsäghu þär til han rät gör Nu giuir annär maþer dagh en rättir malsmaþer vbiþin / oc görs nokor gärningh a þät mal innän þän dagh / þa rymi þen daghen gaf / oc þän böte laghe böte sum gärþine görþe Wil maþer aþrum vmbuþ i hant sätiä dagh at giuä af sinä wäcnä. i. lagmalum swa sum är drap eller sarä mall þat scal han göre a lanzþingh häräzþingh fiarþiunxþingh eller mz vpnum brewum skiallicrä mannä eller är þät eig laghgilt\ngiuir rettir malseghändä dagh oc gör siden gärnongh a hans wegnä innän dagh a samä malet swen eller frändi hans / rymi baþe þän dagh gaf [oc] swa þän gärnneng görþe\nenghin man ma fangä bofastän man for nocora gärneng oc sätiä. i. nocor {haftisi} [haftilsi] vtän mordarä tiuuä röuarä oc biltughä män\n200\nNw skal engin skiut takä af nocrom olouenþäs vtän han hawi lans härens bref til / gör þet nocor wärþer fanghen wiþ / þa före han til nästu by. oc vinni han. mz. xij. mannum oc hange vp siþen at saclöso\nRöuär man sins härrä goz oc wärþer fanghin wiþ färskä gärneng late lif sith wärþer han eig fanghin wiþ wäri sik mz [... lakun...] häräznempd eller böte firi tiughi marker in. iij. stadhi oc gialdi fyrst maleghandenom [... lakun...] l firi skadhä sin"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Ab 8 — Ab, flock 8",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Ab 8]\nhawir conä flere collä täki slict coller sum coller [slict] þän älsti sum þän vngsti af mäþernä oc skifti. äftir mantale {ba...... r ›} [baþi ior ›] oc lösä örä oc gialdi aller skuldir samän.. ᛘ. mans lot oc conä\ntakir maþir dom a warþingum {ar} [at] wäriä sinä iorþ mz. ij. xij þa þän mote wil swäriä hwar han boor hälz hawi sworeth firi hösthþing han eller hans wist vmbuz man än han är vtan laghä forfal siþän þä hawä sworeth baþä þa liggi þät til siu män af nempdine / þän wäriä eller fellä hun will oc þän sum fyrrä wärþe awärke iorþonä mz häräzhöfþingä dome swar hin siþan a mote oc windir delo. tha hin sum fyrrä warþä giui {vm} hinum sum þelo wan swa myclä skyld. mz grannä witnum sum iorþen matti skyldä {mz} [mäþan] hun. i. delonne war.\nläggir häräzhöfþinge þät til nempdinä / eig agher til nempd legiä böte. vj. marker. i. þrea staþi. en malsheghendä annän lagmani þriþia [konongi]\n[Kb 52 Tillägg 13: 2]\nBiuþer häräznempd sic til sialuilliande at wäriä nokot mal þa ma eig häräzhöfþingi þem fragangä gangir þe nempd atir þa böte hun hwar nempdämaþir. iij. marker. oc. þer takir. biscupir. af. iij. marker kusker häräzhöfþingi nempdenä at wäriä nokot mal oc finz þät mz fullum witnum. þa böte häräzhöfþingi. xij. marker. oc. {bär} [þär] a. biscupir. af. iij. marker aff allum atergangx eþom a. biscupir. iij. marker aff hufuzmanni konongir enä mark af hwarum istadhä manni wise maþir läogoman sin. i. eþ böte bonden oc leoghäþrengir fasti oc samuled a. biscupir. af twenne tylftyr. iij. marker. af hufuzmanni oc konongir mark af hwarum istadhä manni. wil nempdämaþir þät wäriä han fälle fyrrä vel e conuerso wäri sic. mz. xij. ᛘ. eþ oc tweggiä mannä witnum oc þe. i. eþ stanþe oc gange laghen a þinge\nEngin þianosto man ma nempdaman wärä vtän þät se baþe mz bondänä oc häräzhöfþingä wiliä. hwar sik drängir til at wärä nempdäman a mot häräzhöfþingä oc bondom böte. iij. xvj.\nörtogh oc misty nempdinä / enä konongi. ena häräz oc enä bondonom [Tillägg 2: 14] {war...} [warþir] häräznempdä vskiallicä gangen / äller gangir häräznempd mz annare häräznempd þa skal lagman nempnä tolf skiallicä mz af landeno a lanzþing skudþä. hwat þär är sant vm. oc þi sum þer {falle} [fälle]. oc swäriä aftir hanä skal {... man} [lagman] vp dömä þer en nempdin er fall þär är annuruarþ & e conuerso. oc i häraþä scal nempd gangä sum iord liggir eller þär {gänneng} [gärning] görs"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Rb 15 — Rb, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Rb 15]\nBrytir. ᛘ. hus mans oc takir engti bort böte. iij. marker / takir han nokot bort böte. iij. niu. marker oc gialdi alt atir þät pröuäz til hans at han {bort...} [borttok] eller wärä sic mz {siaþurnx} [fiarþunx nempd]\nSlar maþir huggär eller dräper eller bryter aþruuisu in cöpstaþ wärþir fangin innän tacmarkänä böte konong rät i {... staþ} [cöpstaþ] häraz rät þär han bor. werþer han eig fangin böte baþä {rätte...} [rättenä] þär han bor oc. e. malseghendä sin rät. vtän þät se þiuft minnä en til {hafmark} [halfmark] böte bynum konong rät oc hemä baþä häraz rät oc konongs rät\n203\nFalz. ᛘ. a þingi for sac oc är malseghendän {sw} [swa] vanför eller þor eig sokiä sialwir sic rät. vt / oc biþer han häräzhöfþingä görä sic rät þa scal häräzhöfþingi hanum dagh giuä til annärs þings gör han [eig] malseghendä rät þa läegi häräzhöfþingi han friþlösän iui {särät} [härät] til han rat gör\nhwlgin iarnbläsäre onth iarn säl. böte. iij. xvj. örtogir oc hawir han eig särlect mark böte oc. iij. xvj. örtoghir\nGär. ᛘ. aslator eller ayrkiu wilþir giuir vt at fyrstä käro wäri saclös\nEn bondä sun vgiftir af garþe oc takit hwarte faþerne eller möþerne bryter ezörä eig ma firi faþer hans skyflä vtän han sum {gärþerte} [gärþerne] görþe flyi land. brytir han annur laghä bruth böte faþir firi han laghä böte\nWärþer. ᛘ. saar oc sätiz sialuir mz tryigiä manni witni. oc dör af samu sarum aruin liti at þe bot sum hin sialuer tok / krauir aruin aþra bot wäri sic þän {sargsaþe} [sargaþe] mz. xij. eþe oc tiuogä mannä witnum af þem sum wiþ waro þa han sätte oc böte wiþ hin.\n204\nBindir. ᛘ. staþwä mz manni oc leogiä wiþer läghe mz witnum eller vpnum breuum þän sum þät brytir gialdi vt wiþerleghet oc a. iij. xvj örtoghir\nGör nempdäman {frangä} [vrangä] framsaghu böte. iij. marker oc þär taki malsäghendi enä af. aþra. kononger. oc þriþia häraþ nu sigher bonden eig sik rätlikä fällen wärä nempdäman sighir sic rätlika fält hafha haui þen þärra witzorþ märä far af grannum til withnis mz. xii. mannä eþe\nGangir. ᛘ. a aker eller äng manz vm war eller höst mz vrezviliä. hoggir slar eller {drä...} [dräper] wari alt vgilt þät han faar oc þät twegilt bonden faar oc hans hion firi allum þem þär a saac a. skil þem vm vrezviliä liggi þät til fiarþunx nempdenä. lagher vtlänzkir man in länzken man vp a sät mal oc böt alt þät han faar wäri vgilt oc þät liggi til häräz nempd hwat han laghä han eller com annar skialnaþer þerrä mellum\nFar bryti fra bondä siþän in är burghit vm hösten eller giui bonde hanum orlof är brytin saclös oc haller bonden hans penningum siþen böte. iij. marker malseghendä oc swa konongi oc swa häräþi oc vt penningäna Far brytin fra bondä vtän rättan stämpnu dagh vtän bondä wiliä hättä wiþ sliku samu\n205\nWisar. ᛘ. sin suen {... gä} [huggä] eller sla eller takä vhemmolth swari þen sum gör tali til þän sum {... um} [hanum] böd. wil han dyliä dyli met xij. ᛘ Eig ma häräzhöfþingi biuþä {abon...} [a bondä] eller prest cost eller {hastäfoþer} [hästäfoþer] þa han þinger eller þässi mellum vtän cöpe sik cost giästir han bondä eller prest mz val › giui þem fult firi sin cost oc a. iij. niu marker. enä malseghändi. aþrä lagman þriþiä konongher.\nHwar sum gangir bort fra sinni kyrkiu vm paschä dagh þan sum a at giäldä biscupi. kyrkiu eller presti oc takir þianesto. i. annärre kyrkiu böte mark biscupi aþrä häraþi. þriþiä. konongi.\negher prestir legmanni sculd at giällä han scal. a. prestastampnu kräfiä han. länsprestir scal hanum manäþä dagh leggiä gör han eig þa rät oc siungir han siþän. bote. biscupi. iij. marker. oc enä af þem taki malseghändä oc swa mykit giui malseghändi af {siþnum} [sinum] þriþiung sum. biscupir. af hwarum sinum loot\nhwar sum niþir fällir dax wärki. i. kyrkiu garþ stapul eller {kloncnä} [klocnä] hus gerneng böte öre firi oc twa örä firi accer en quär sitär. ma kyrkiudrotnä sokiä til at v dömdo\nHwar sum röuär nocors {maz} [manz] goz vt af kyrkiu eller kyrkiu garþi böte iij. niu marker\noc atir þät han röuär oc wäri. i. banni. Dör i banni liogi vtän kyrkiugarþ. Er man i banni nath oc iamlangä for þryzku scyld. þa skal konox {suär} [suærþ] iui han gangä oc liogi utän kyrkiugarþ.\ngör man {främzimä} [fränzimä] spial hor oc scriptä brot alt mz enne cono taki sinslästum scrift firi hwar þärrä oc böte samuleþ sinslästum.\nhwar sum eig will wigiäs wiþ sinä frillu eller viþ hanä skiliäs siþän han är þryswar mintir til. þa ma prestir hanum synniä þiänesto til han gör annettiggiä wil eig prester {þärn} [þäm] forbuþä bote. biscupi. iij. marker.\ngör man nocrä þe sac sum. biscupir. a rät. a. oc wägis lönlekä vnþän. viþ. biscups. vmbuzmanni oc falz opänbarlicä siþän for samu sakenä böte laghä böte oc taki openbarlikä script swa böte löskä conä sum man firi fränzimä spial oc scriptabrot\nJatter prestir firi pänningä at biþiä firi bondä sial til iamlangä oc dör prestir firi iamlangä þa þo hware äru pänningä annaþer / agher ouormaghi kyrkiu sculd at giälþä forbuþi þem sum panningä þärrä hauir. i. hanþom hwat þät är hälder malsman bryti eller lanboe þerrä\nSitär. ᛘ. a frälsis bole clärkir eller legman oc saar aþra iorþ vtän viþ / är mere þe iorþ han\nsaar vtän wiþ göre fullä gengiarþ. är frälsis iorþen mere göre engti af / aru þär iamnär göre halft.\närwir. ᛘ. nokon vtän {biscupsosmet} [biscupsdomet] oc förer hijt hem göre þär eig houoþtiundä af. af allum þem pänningum bonden. a. þa han dör oc eig äru wingaþer eller fangner fyr han dör þär scal houoþtiunþä görä af\nGiuir. ᛘ. cono sinni garþ til hindrädax iäff mz allum pänningum þem þär. i. [äru] dör bonden þa haui husfrun garþen mz swa marghum pänningum sum i waro {... þenom} [garþenom] þa han war henni giuin. är mere göz siþän. i. fört. skipti þet husfrun oc bonþäns aruä äftir lanz laghum\ngiuir. ᛘ. vhemmolth goz fore sinä sial oc gitir eig hämuläth. giäldi arwin swa mykit sum þet goz är wärt en han gaf eig merä en han mate mz laghum giuä\nlamb oc kyt före bonden presti hem vm mizumär / vtän bonde vili {läggär} [längär] hemä hawä. oc kalf oc gris niu nättä\nhäfþär man guþmoþir sinä eller guþdotor eller guþsystir sinä eller guþziwä sinä böte. biscupi. iij. marker eller dyli mz. xij. ᛘ\nhion tu þe sum fäst äru oc wiliä eig wigiäs þät þerrä þy walder misti þianosto vm paschär þer til þe wigiäs\n208\naf þy prestir dyakn eller subdiakn brytir a kyrkiu goz {bo} [bote] häräz oc. konongs. rät. biscupi. brytir annarstaþ böte. biscupi. konons rät oc häradä sin rät af allum aþrum {clerrum} [clerkum] taky lanzdomärä baþä rätti oc {slercer} [clerker] skal clarcir swa ezöre sum aþru\nGör man sik malsman vskylra cono oc sighir sik hänni skyllän wärä. sighir nocor ne gän winni sik til mz. xii. ᛘ eþe at han er hanni swa skyllir at han ma hännä malsman wärä är hun vt länzk oc hawir eig här fränder tiki slikän malsman hun will\nkiärer. ᛘ. a annän vm þät þe waro fyr sate vm. witi mz xij. ᛘ. oc twem af þem withnum sum wiþ waro at þär sätoz\nWil. ᛘ. nocrom iorþ giuä giui þriþiung af köpo iorþ mz vmfärþ oc þe han hawir aflat oc eig ärfþä iorþ vtän arui vili / oc hälfning af lösom örom en siukir liggär oc allä en häl är swa conä sum man\ngifs manni sac at han leghir man til at dräpä eller sarghä wäri sic mz häräznempd. þän sum lägonä gaf. swari sum han sialwär gört hafþi oc legho oxe liggi vgil › r\nDör þän sum giuin är þolic iorþ / vtän barn þa scal iorþen atir gangä til þän sum hun\ngik vt af eller {han} [hans] aruä vtän þet se gört mz aþrum skialum breuum eller withnum\nbiltugher liggir. i. kyrkiu garþ Fangär. ᛘ. biltugän man siþän han combir vtän kononx riki oc wald förer han atir in i rikit böte. xl. marker in þrea staþi / hwar han dräpir innän þem fangilssum fasti oc böte han atir igen oc han liggi i kyrkiugarþe hwar biltughä män eller þiuuä latir iarþe i kyrkiugarþe böte [iij]. niu. marker. enä. biscupi. aþrä {hä} [häraþi]. oc þriþia malseghändä / hulkin timä. ᛘ. fangir þiuf mz fulli þiuft / late winna han mz. xij. ᛘ. oc döme oc hänge vp siþän / hwat þät är häldir vm {... tu} [fastu] häläct eller {synct} [sycnt]\nDelä män vm iorþ hulkälund hun är hälzt til comen / oc är hin innän {... z} [lanz] oc laghsaggu sum a kiärer oc hawir þolt at hin häfþäþe þrim arum [eller] þrim {lägger} [länger] at {vilt} [vilto] oc vclandaþo þa [är] han wiþ wizorþ commen sum {häf...} [häfþät] hawir vtän hun se läth / är han vtän lanz combir in oc kyarer eig. i. {... tu} [nästu] þry aar han in combir hawi wizorþ þän. i. hanþom hawir swa oc ouormaghi þighir han þry aar siþän maghande är misti oc wizorþ\nRänär man alt bols bryþi af manni böte iij. niu marker räner enkä {ökär} [akär] eller encä\neng böte. iij. xvj. örtogher Engin ma ikurnä takä i byaskogh / eig a häräz almenning / eig a lanz almenning längir än fra dyonisij. oc til {annunciat} [annunciationis] hwar þät gör fyr eller siþän böte. iij. xvj. ötogher\nHulkin vt länzkir man þän eig är här bofastir eller legoman mz aþrum nytiär nokot af lanzalmenningum / warþer takin wiþ / taky af hanum þät han far mz at saclöso oc hawi þän þät takir\nlegher man skip warþe þy swa sum aþru þy man leghir / släppir. ᛘ. huinsku þiuui böte engti firi\ntaker maþer in til sin gengiarþ eller almennizöre vtän rättän umbuzman oc leogir eig lön a böte. iij. xvj. örtogher oc eig scal man fangä han oc eig i fangelse sätiä leggir lön a hete þiuuir firi oc böte äfti þy sum gengiärþ wirþis til hwat heller til huuinzku eller til {fullet} [fuller] þiuft oc böte þiufs böter oc hänge eig släppir maþir {hwinku kiuui} [hwinsku þiuui] swari engu firi hwar sum bönþer göra biscupi gengiärþ\nÄn flere byiär äghu {fryogiärþ} [fryþgiärþ] sämän / halder man a sinu oc sinnä grannä. i. by {byä} [boä] mz hanum wari saclös en engin kiärer a af hans grannum kiärä vt biämän / at. han.\nhawir halþet iuir ramerki oc vt a þärrä. wäri sik mz. vij. män af nämpdine eller böte. iij. xvj. örtogher kiärer mz alþrä þärrä sämiu hawi allir en malseghändä rät / Nu kiärer en oc eig flere hawi þän malseghändä rätän ensämin þär til at han säki sinä grannä Latir. ᛘ. stanþä enkä akir eller äng vskoren elder vsläghnä siunattum aftir at allir män hawä in burghit läte þa. i. fä at saclöso\nsitär bonde quar vm skiutä giard þa fyrstu herrä riþä vm land & c\nOgnär bot taki vp ensämin arwin oc eignti ätten vtän arwi wili giuä hännä af\nbiltugum manni ma engin dagh giuä siþän han är vt soren / vtän {malseghen...} [malseghendi] han ma siunattä dagh hanum giuä oc böte engin firi han af þem sum samwistäz mz hanum fyr en. han. är lystir biltughir a lanzþingh\naff enfallo {öre} [hor] a konongir. xij. örä oc biscupir. xij. örä aff twäfal hoor aghir biscupir. iij. marker af kononx rät. oc. sex. kononger oc niu. marker häräþ oc niu marker malseghände\nFor alt kononxs ezöre scal skirä fiarþung nempd firi häraz nempd oc {siþä...} [siþän] häräzhöfþinge swäriä ensämin firi häräz nempdene eller þän i. stad hans är\nstial. ᛘ. äpli or treägar annars / {örter} [ärter] bönor rouor kal {ell...} [eller] lökä böte. iij. xvj.\nörtogher / brytir nokot fryct trä i. treagar böte. iij. [marker] i. þre staþi eller wäri sik mz. xiiij. mannum\nSamwistäz man mz friþlösom manni / þa a þän malseghändä rätten af hanum sum hin warþ friþlös firi\nEngin ma riuuä vp kyrkiugarþ oc hus i sätiä vtän. biscups. orlof oc socnämännä wiliä oc raþe þe sum flere äru.\nTakir man ennä nattä foþer korn eller hö a garþe vti böte. iij. xvj. örtogher oc fult for þät han tok en han wärþer takin wiþ\nhwar sum söker mere firi enä sac än þre siunättingä þät hetir ofsocn þän sum swa söker böte. iij. xvj. örtogher\n. J. hwarþiu häraþe scal en þing staþer wärä a vti. i. hwarium fiarþiung oc en þer häraz þing scal wärä"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Gb 2 — Gb, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Gb 2]\när eig faþir sun eller bröþir taki arwir vingiäf\nSitir gränd quar oc hawir eig nempdäman oc gör eig framsängu a fiarþungx þing eller härazþing þe nesto böte al gränden. iij. marker / gör en framseng af grannum wari alli saclöser\nältir broþir bort systur sinä frän bosloth sinum böte. niu. marker. i þre staþi oc henni atir bosloth sin\nMyrþir conä barn sith heþet eller cristith / wärþir fangin wiþ misti lif sith / witiz hun þät. wäris mz häraz nempdone oc böte. xl. marker. än hun fälz at. i. þrea staþi oc [af] konongs. rät. taki. biscupir. iij. marker oc þe conä misti arf sit\nGör man presti nocrä akomo þa han hawir guz likamä böte laghä böte swa sum akomo är til. oc iuir laghä böte. böte iii niu marker enä. biscupi. aþre {härä...} [häraþi] oc þriþia {malseghädonom} [malseghändonom]\nsitiä syskini. i. bo ärft faþur elle moþor far nokot þerra at dräpä ellder nocrä höghä gerning görä böte af sinum enpenningum firi oc [eig] sinnä syzkinä\n[Tillägg 11: 11]\nSkiftir. ᛘ. iorþ. i. iorþ oc gör til penningä är mere iorþen en agerþ þa scal eig lagbiuþä. är agerþen mere eller oc iamn þa skal lagbiuþä\näru iamskylli män sum arwä stanþer til oc far en þärrä vtän lanz dör þen þe aghu at ärwä / skifti þagher þer sum hemä äru sin. i. mällin oc göre af hans loth swa goþän sum hwars þerrä. oc fa. i. {händ} [händer] þem frender {craþä} [raþä] oc hawi han i. handom til vti. x. winter. är han eig þa atir comen eller full wissä af hanum / skifti hans loth þe sum þa äru skylläster combir han\nsiþän atir / giui hwar hanum swa mykit atir sum han vp bar af hans loth.\nGör. ᛘ. hiorþähog heogir {miþir} [niþir] firi männi þry nöt eller þrym flere. böte. iij. niu. marker. oc atir skaþän mz swornom eþe eller wari sik mz fiarþiung nempd þer sum han gör gärnengh.\nSiter. ᛘ. quar vm scyld iuir iulä aftän wäri twäskylder\nän en deler vm oþol iorþ innän gärþes wiþ allen byn Far han eig wiþin innä byär taki sär wiþin. i. samu sokn\nTil iorþä skipti oc til kornscyld oc til daxwärcä ma man sökiä baþe war oc höst\n[Jb 46, slutet]\nWil. ᛘ. illä iorþ þät skal görä firi hözunnudagh eller är illän vgil\nSkifti börn äftir faþur eller moþor eller annän arf. combir eig lotir. i. þa är þät eig {laghilth} [laghgilt] kiärer nocor a siþän þa skulu huuudlotene stanþä quarri oc iamkyrnis män iamni siþän mellum þärrä sighir nocor at eig com loter eller laghä skifti. i. viti. mz. xij. ᛘ. eþe oc. ii. withnum wiþ waro at þar com lotir oc laghä skipti. i.\när alt. i. eno drape. ᛘ. oc conä þa scal {ma} [man] til draps takä oc eig cono.\nEngin ma nocot takä ellder vt giuä af häraz almenning vtän als häraz sämiu oc härazhöfdingä. kärer þär nokor a nempni til asyn af lanzþingi oc wari þät gilt hun gör Engin man {nokot} [ma af?] lanzalmenningi intakä vtän alz lanz wilia oc lagmanz dom. gör nokor här imot böte firi sum firi annät iorþä rän.\nStial man til half mark löses ardrigh stialä twer þiuuär eller twem flere til fuldrä þiuft oc wärþä allir sänder fangnir hängi allir än þer sum eig är. i. handom takit / wäri sik mz. ij. tylfttum hwar eller böte fullä þiufs bötir hwlkin man latir fullän tiuf til lösnär böte. iij. niu marker.\nSarghir. ᛘ. husfru sinä ful sari eller ben brytir böte hänni. xij. marker oc þär a engin annär rät. a. hwar sum leggir mz {enäggiäþem} [enäggiäþom] kniui böte. iij. niu marker. swa firi sar sum oc skeno firi drap\nbär leogoþrängir almenninx bönþer eller þärrä synir / brytiär. myllärer eller fantir stikämäz / böte. iij. xvj. örtogher"
+  },
+  "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_49": {
+   "lag": "YVgL fragm./Lydekini",
+   "adress": "Lydek. Forn 49 — Forn, flock 49",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "[Forn 49]\nFlar man bast. brytir quästi eller pors. i. þem scoghe sum han a incti. i. böte. iij. xvj. örtogher.\ntakir man fang manz. i. skoghe / ellir brennir böte. iij. xvj. örtogher\nsäl man vhemulä iorþ böte. iij. niu marker säl han annur þing vhemol böte. iij. xvj. örtogher\nLeghir man boskap manz / faldir fä niþer / gialdi atir half gildi eller fa ater hold oc huþ Explicit liber laurencij quem scripsit lydekinus"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning": {
+   "lag": "YVgL",
+   "adress": "innehållsförteckning",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "I. Um barn skal kristna\nII. Um bönder uilia kirkyu göra\nIII. Vm biscuper bryter stæmpnu dagh uither bönder\nIIII. Vm bönder bryta uid biscup stæmpnu dagh\nV. Vm mather uærther i kirkyu dræpin\nVI. Vm landboa houothtinda\nVII. Vm almænnix landboa\nVIII. Vm altara sten uærther lös\nIX. Um kirkia taker at fyrnas\nX. Um kirkia ökes\nXI. Um kirkia uærther brutin oc ur stolet\nXII. Um ingans at öpnom dorom\nXIII. Um grafs under kirkyu syl\nXIIII. Um kirkia up brænder\nXV. Um mæssufat inne brænna\nXVI. Um præster bær mæssufat hem\nXVII. Vm klocka falder i kirkyu nither oc mather faar bana aff\nXVIII. Vm klocka falder rumi. nither\nXIX. Vm klocka falder i houoth præsti ælla klockara\nXX. Vm annar fælli klocko nither oc brister hun\nXXI. Vm sokn skil um præst\nXXII. Vm mather uærther i kirkyugarthe dræpin ælla sargather\nXXIII. Vm mather vil i kirkyu ligiæ\nXXIIII. Um kirky gifs nokot ælla præsti\nXXV. Um mather uærther i kirkyugarthe drapin\nXXVI. Um kirkyugarth\nXXVII. Um barn thors kristnu. mather husl ælla olnengh\nXXVIII. Um barn far ey kristindom mather ey husl ælla olneng\nXXIX. Um kalla præst forfallalösan uæra\nXXX. Um huat præster a fora olnengh\nXXXI. Um huat præster a fore lægher stath\nXXXII. Um gæster dör at bonda\nXXXIII. Um stafkarl dör at bonda\nXXXIIII. Um bither bonde biscup olia innan sokna fik.\nXXXV. Um præster bær bok oc stool innan sokn annars præst\nXXXVI. Um huru tinda skal skipta oc aflatha\nXXXVII. Um hua siter iuer kyndylsmæssu dagh mæth allum tinda.\nXXXVIII. Um hua siter quar til pascha bathe mæth tiunda ok mæth sæcht\nXXXIX. Um prouasta gift oc faluköpunx skæppu\nXL. Um quictinda oc offer. vm langafredagh\nXLI. Um maskuz fredagh\nXLII. Um bonde dör i sokn oc uil i annare ligia.\nXLIII. Um tithaköp skal göra\nXLIIII. Um mather sa bool aff sæthom ælla enka aker\nXLV. Um bonde bor a öthmarkum\nXLVI. Um uatha blooth komber i kirkyu garth\nXLVII. Um forbuthather mather uræker sokn fra mæssu\nXLVIII. Um mather gör skriptabroot\nXLIX. Um mather ganger lagh a them dagh ey ær ethfört\nL. Um mather bryter kirkmæssu frith\nLI. Um mather bryter iula frith ælla pascha.\nLII. Um biscups ræt at gamblum laghum\nLIII. Um samuigilse ælla inlezlo æptir barn\nLIIII. Um offordagha\nLV. Um huat præster a. at vtfærtha dagh\nLVI. Um mather bryter rætta fastodagha\nLVII. Um mather uither sigher frillu sina vm pascha dagh\nLVIII. Um openbart hoor\nLIX. Um hyonalagh banz mall. oc tæstament\nLX. Um mather uil gifua fore siæl sina\nLXI. Um kirkia dele uither kirkyu ælla præst\nLXII. Um præster bryter nokot a kirkyubole boande\nLXIII. Um byar bygning. skal præster i bonda laghum uæra\nLXIIII. Um præster bryter nokot oc ær ey a kirkyu bole\nLXV. Um kirkyuuærianda. oc kirkyu pænninga\nLXVI. Um præstins hioon bryta nokot a kirkyu bole\nLXVII. Um nokor uil kirkyu iorth sælia\nLXVIII. Um mather uil buz iorth sina ater lösa aff kirkyu\nLXIX. Huru præster a hyonalagh lysa\nLXX. Um mather ægher biskupi ælla præsti nokot giælda\nLXXI. Um nokor forbuthar utan biscups breff\nLXXII, LXXIII. Um hofuothtinda oc præsta arff\nXXXII. Um gæster dör at bonda. taki öre mun aff fatum hans. oc gifui præsti at leghorstaþ oc örtogh at natuaku. Præster ær skuldugher gæst at husla sum bonda\nXLII. Um bonde dör i sokn oc uil i annare ligia. þa skal præster hans lik uigia oc til garz lijth fylia. oc ey længra utan han uili. þa skal præster allan sijn ræt vp hafua. bathe fore olneng oc sua fore læghorstaþ oc natuaku. oc gifui them præsti han til faar sua mykit han uil. ælla thorff han ey iortha han vtan han uili præstin\nXLIII. Æn tithaköp skal gifua löska man. gifui fira pænninga suenska. ær han gifter gifue örtogh. ey þy mera at hion se flere a kost hans. Faar mather akerlas alla handa korn. göre tiunda. faar ey fult akerlas göre tiþaköp.\nI. vm maþer varþer barþer ok friþer abrutin.\nII. um suþer maþer barþer varþer æller ænker.\nIII. vm frælsgiui varþer barþer æller þræl.\nIIII. vm maghanþæ man bær oghormaghæ.\nV. vm bærriæs tuer oghmaghæ.\nVI. vm bonþe slar kono sinæ.j. ölbænk.\nVII. vm bonþe slar kono sinæ i kirkiu.\nVIII. vm bonþe slar kono sinæ a torghe.\nIX. vm maþer far svartæ slagh.\nX. vm manni gifs vrang banæ sak.\nXI. vm friþer manz ær vt böter.\nXII. vm konæ firi gör manni.\nXIII. vm maþer far sar ok ligger.i. lengi ok ganger i mællum.\nXIIII. vm broþer raþer systor sinni æller bröþer.\nXV. vm bonþe raþer hirþingiæ sinum.\nI. vm maþer varþer þræpin ok af þaghum takin.\nII. vm barn ær eig siælst til æptir mælæ fört.\nIII. vm maþer friþ böte man.\nIIII. vm þræpæræ ligger a wiþer stokhyrno.\nV. vm aruabot.\nVI. vm ættærbot.\nVII. vm aruabot skal skiptæ.\nVIII. vm giuær sak firi halbanæ.\nIX. vm þrel þræper ættaþan man.\nX. vm innan rikis maþer varþer þræpin ok eig væsgösker\nXI. vm konæ þræper man.\nXII. vm þrap vtan rikis manz.\nXIII. vm maþer þræper þanskan æller noren.\nXIIII. vm mæþer þræper prest vtlænkan.\nXV vm fuþerman ænskan alzsman ymumæn varþæ þræpnæ.\nXVI. vm maþer þræper þræl.\nXVII. vm maþer þræper man a þræp.\nXVIII. vm galin man þræper man.\nXIX. vm maþer far ei þiuf sin för æn han þræper han.\nXX. vm þræper maþer man af sær a hyrnustoke sinum.\nXXI. vm maþer görs löfuirkinger.\nXXII. vm maþer þræper man.i. siængo hos kono sinnæ.\nXXIII. vm maþer halþer a wapni sinu löper maþer.\nXXIIII. vm maþer þræper man.i. ölstuuu.\nXXV. vm maþer felle træ niþer a man far bana af.\nXXVI. vm maþer skiuter vp a lopt ok far maþer bana af.\nXXVII. vm maþer varþer þræpin.i. æruis öl.\nXXVIII. vm maþer varþer vtan garþzliþ þræpin.\nXXIX. vm maþer varþer þræpin þrigiæ byær mællin.\nXXX. vm maþer bær abyrþ a mark manz.\nXXXI. vm maþer varþer þræpin a alþræ götæ mark.\nXXXII. vm maþer falþer vnþir mölno hiul far bana af.\nXXXIII. vm maþer falþer.i. brun far bana af.\nXXXIIII. vm maþer falþer af spangu far bana af.\nXXXV. vm maþer falþer af fiske garþe far bana af.\nXXXVI. vm maþer ganger a biorn spiut far bana af.\nXXXVII. vm maþer ganger a ælgstokt far bana af.\nXXXVIII. vm maþer reser træ vp far bana af.\nXXXIX. vm hester lyfter man far bana af.\nXL. vm vt rikis maþer þræper men.\nXLI. vm maþer nöghar til sva at han vp læter kono sinæ.\nVIII. Æn halfbana vil sökiæ æller atuistær man. þa skal þing visa. ok atalo a þinge vetæ. ok enþaghæ lata. hem þömæ. þa skal þings mannæ vitne fyrst bæræ lata. Siþan skal arui swæriæ. s. s. m. g. h. ok. v. m. at þu est hanum swa skilþer. at þu at þettæ nempni bæræ. ok swa gaf iak nempni þik a þinge. atuistarmani skal þing visæ. ok endaghæ hem lata þömæ. siþan skal han swæriæ a henþer hanum swa sum a halbanæ. ok swa gaf iak þer nempni til a þinge. Razbanæ skal þing visa. vm sak þa ær þu giuir hanum. ok þu kallær han sannan at vara. at han ræþ han hælraþum. þa skal han vita firi a enþaghæ meþ tylft a fæþerne ok halfre tylft a möþerne. falz han at baþum. böte halfemte mark. falz han at tylft. böte. III. marker. falz han at halfre. böte tolf öræ. þær a kononger ikki sak a. Falz razbani han böte halfemte mark. eig a kononger sak af halbenþ æller razbenþ. af atuistæ manni a saksöke örtugh ok fem öræ. ok swa a kononger ok swa hærætþ. Meþ þinge skal manhæliæs bot vt taka. ok eig næmæ til.\nI. vm moþer taker sonar arf\nII. vm moþer hafuer tua collæ.\nIII. vm huru collom skal arf skiptæ.\nIIII. vm konæ sitir i bo ok þör bonde.\nV. vm bonþe a sun ok konæ ær meþ barne þigher.\nVI. vm ænkiæ giptez ok giæz eig barnæ fæþernis frændum at.\nVII. vm maþer far sær adalkono.\nVIII. vm konæ giftez annat sinne.\nIX. vm konæ giptez far eig barn.\nX. vm bonde gipter þottor sinæ meþ munþ ok malæ.\nXI. vm maþer ganger fran kono sinni laghgiptri.\nXII. vm konæ agher frillu sun oc annan aþalkono sun.\nXIII. vm maþer giuir sik i kloster.\nXIIII. vm maþer þræper man vil haua arf hans.\nXV. vm maþer far af lanþæ ok sitir bryti i bo.\nXVI. vm maþer far af lanþe sitir husfru i bo.\nXVII. vm ænsker maþer þör æller þiþisker.\nXVIII. vm maþer þör wet ingin aruæ hans.\nXIX. vm konæ firi giær styp barnom synum firi arf.\nXX. vm hion tu comæ saman före annat arf i bo.\nXXI. vm bak arf maþer taker.\nXXII. vm bryti sitir firi bo manz han ær miskunnæ maþer hans.\nXXIII. vm bryti sitir i bo manz köpe iorþ æller görsimar.\nXXIIII. vm bryti sitir i bo ægher ingti i köpe iorþ æller gör\nXXV. vm bonde þör ok husfru liuir bor a iorþ hans.\nXXVI. vm man giuer frillu barnum sinum iorþ. frædæ.\nXXVII. vm broþer far at köpfærdþum ok annar hemæ sitir.\nXXVIII. vm bonþæ sun þör vgipter vr garþe hans.\nXXIX. vm inlægt fæ varþer bort stolit.\nXXX. vm faþer hauer giort hemfylgþ syni sinum.\nXXXI. vm maþer vil man or annöþoghum þom lösæ.\nXXXII. vm maþer ætleþer þrel ællr ambut.\nXXXIII. vm landboe þör firi fardaghæ.\nXXXIIII. vm landroten þör firi farþaghæ.\nXXXV. vm fræsgiui þör.\nX. Æn bonde giptir dottor meþ munþ ok meþ malæ. börn hannær mughu eig horbörn hetæ. skil þem a. þa skal biskupær at vitnum letæ. vm hionælagh. ok laghmaþer vm arf dömæ.\nI. vm kononger vil sær kono byþiæ.\nII. vm bonþæ sun vil ser kono biþiæ.\nIII. vm ætboren man sær frælsgiui fæster.\nIIII. vm bonde giuer manni sak at han hauer huscono hans.\nV. vm konæ hauer hor giort ok ær hun san at.\nVI. vm man giuer kon sinne hor sak.\nVII. vm maþer fæste ænkiu ok flyter hem.\nVIII. vm maþer fæste mö giör viþ legher firi bröllöp\nIX. vm maþer ligger viþ löskæ cono.\nX. vm maþer liger meþ frælse fostro.\nXI. vm anoght fostræ bær nyclæ bonþæ.\nXII. vm maþer vil leghers bot ut sokiæ.\nXIII. vm hauande cono man abyrghe manni.\nXIIII. vm frænzim deles hionæ mællum.\nXV vm konæ miþer barn sit.\nXVI. vm bonde hæstir fæstir cono manz.\nXI. Æn annöþof fostræ bær niclæ bondæns. liggær maþer meþ henni. böte. III. marker. firi ambut. sæx öræ. Firi ætbörnna kono. VI. marker. Æn ambut skal varþæ. þen ær barn a viþer. þer til hon giter kuern dræghit ok ko molkat. þör hon af barne. böte. III. marker. enlöpræ cono legher skal væriæ meþ tylftæ eþe. baþe ætbornæ ok annoghre.\nI. vm huru konongh skal væliæ.\nII. vm biscup skal takæ.\nIII. vm huru laghman skal takæ.\nIIII. vm maþer taker bo manz at vselþo\nV. vm maþer hugger hus manz vp at vsæktæ.\nVI. vm maþer callar man vquæþins orþ.\nVII. vm maþer callar ættaþan man frælsgiuæ.\nVIII. vm maþer sigher man haua fæ æller hors æller nöt\nIX. vm quæþins orþ kono.\nX. vm konæ firi giær ko æller cono bo æller bondæ.\nXI. vm kona far meþ wiþskiplum.\nXII. vm maþer ræni man handrani.\nXIII. vm maþer værþer ræntir meþ fullum walzuerkum.\nXIIII. vm maþer ranir man a vægh klæþa sinnæ.\nXV. vm maþer bryter hus manz vreþer.\nXVI. vm maþer kræwer skulþ af manni.\nXVII. vm maþer dæper nöt ællr hors firi manni\nXVIII. vm maþer dræper nöt æller hors a byar mark annars\nXIX. vm fæ wæþer dræpit fa a in iorþ.\nXX. vm fæ þræper annars manz fæ.\nXXI. vm fæ þör i manz hand værkum.\nXXII. vm fæ flögher sælft i giærþe ok far bana af.\nXXIII. vm maþer æltir fæ vr giærþe ok far bana af.\nXXIIII. vm fæ warþer læst.\nXXV. vm maþer taker lan at lane.\nXXVI. vm þrel æller ambut löper brut.\nXXVII. vm lær manni þrel sin.\nXXVIII. vm maþer leghe hest æller uksæ æller ko af manni.\nXXIX. vm maþer legger fæ sit in til giæzlu at annars.\nXXX. vm maþer wil swene æller frændæ iorþ giua.\nII. Æn biscup skal takæ. þa skal kononger alla lanþa spiriæ. hwen þe haua viliæ. han skal bondæ sun varæ. þa skal kononger hanum staf i hand fa oc gul fingrine. siþan skal han i kirkiu leþæ ok a biscups stol sætiæ. þa ær han til comen wals vtan til wixll.\nXXII. Vm fæ flögher.i. giærþi sva at ingin æltir. liggi vgilt. Æn vr giærþi flogher far bana af. giælde þen ater garþ a.\nXXIIII. Æn lestir hest æller oksa æller ko. hugger af horn æller rumpu æller stinger öghæ vt. giælde half gildi firi. æller væri sik meþ tolf mannæ eþe.\nI. vm maþer giuer manni þiufsak oc er ei i handum takit.\nII. vm þiuft ær i handum takin.\nIII. vm fullæ þiuft.\nIIII. vm maþer fanger man firi þiufs sak oc er eig sander at\nV. vm maþer stiæl til half mark æller meræ.\nVI. vm flere þiufuer stiæl saman enæ þiuft.\nVII. vm maþer later fullan þyf til lösnær.\nVIII vm þiufs lagha böte.\nIX. vm maþer stiæl oc far vndan meþ oc fangas fyr en han comber hem\nX. vm maþer stiæl giælde æ skaþan ater meþ fornom eþe.\nXI. vm husfru bær þiufsak meþ bondæ.\nXII. vm husfru stiæl oc bonde bær sak firi.\nXIII. vm man stiæl minnæ æn til tua öræ.\nXIIII. vm stafkarl stiæl.\nXV. vm man stiæl fæ þet minnæ ær æn tua öræ vært.\nXVI. vm man stiæl fæ þet meræ ær æn tua öræ vert.\nXVII. vm huru bonde skal þiuf sin gömæ.\nXVIII. vm griper faas ater spilter æller sprender.\nXIX. vm faþer ok sun stiælæ saman.\nXX. vm bonde ok þrel stiælæ saman.\nXXI. vm bryti æller annar fræls man oc þrel stiælæ saman\nXXII. vm þræl stiæl ensammin.\nXXIII. vm þræl stiæl til þrigiæ markæ.\nXXIIII. vm maþer taker þiuf sin oc þiuft meþ.\nXXV. vm maþer taker annats manz þiuf.\nXXVI. vm maþer taker annats manz þiuf oc later lösæn\nXXVII. vm þen sum stolin ær callar sik eig þiuf aghæ.\nXXVIII. vm lottækaræ þiufnaz.\nXXIX. vm þiufs vitur oc vitulösö.\nXXX. vm maþer varþer stolin vræker fiæt æptir.\nXXXI. vm annan man slæpir þiufue en þen stolin var.\nXXXII. vm maþer rænir þiuf af manni.\nXXXIII. vm þiuft hittis meþ husfru.\nXXXIIII. vm ransak syns\nXXXV. vm vt vistæ hus.\nXXXVI vm bryti æller legho sven stiælæ oc i bondens hus bæræ.\nXXXVII vm æn bonde vitir annan abyrþ.\nXXXVIII. vm maþer vitir man vm þiuft.\nXXXIX. vm maþer hittir grip sin þiufstolin oc beþez tak firi.\nXL. vm maþer hittir grip sin a farnom vegh þiufstolin.\nXLI vm maþer taksætter firi ran.\nXLII vm maþer kiænnir grip sin i annars manz handum.\nXLIII vm lagha tak.\nXLIIII vm maþer taksæter grip sin af vtlænzkum köpten.\nXLV. vm varir men oc hinuægh kiæglu mæn köpes viþ.\nXLVI vm maþer tapær grip oc köper ater oc kiænnir eig.\nXLVII vm varir men kiænnæ grip sin i adru landæ\nXLVIII vm maþer hittir grip sin i þiufs handum æller ælter af.\nXLIX. vm maþer callar grip æi lagh lystan varæ.\nL. vm hors warþer stolit oc ær eig i folæ.\nLI. vm maþer stiæl þræl manz æller ambut.\nLII. vm maþer stæþer þræl sin ran takin.\nLIII. vm maþer taker þræl æller ambut i löpstighum.\nLIIII. vm maþer stiæl þræl sin æller ambut.\nLV. vm lagha vin oc köpæ vin.\nLVI. vm köp hornfæ ok hoffæ.\nLVII. vm torgh cöp.\nLVIII. vm agnæbaku oc fullæn görþiuf.\nII. Æn i handum takit vr husum dræhir æller laghæ lezl a. þaghar ær han vitulös. þet agho siu men af nempdinni sværiæ. at þet ær eig i handum takit eig vr husum drahit æller laghlekæ leet a han. for þy a han eig vitulös at varæ. þa væri sik meþ tuenni tyltom. oc tuenni foreþum ok sværi sva sum sakt ær. Nempdæman a at væriæ þiuf æller fællæ. vær han han. þa ær han værþer. fæller han han. þa ær han fælder. vil han huarte göræ. þa sværi at han vet han huarte sannan æller vsannan. ok þy a han synæ værn væri sik siþan mel tuenni tylftom ok tuenni foreþum. hvar sum stiæl til tuægiæ öræ æller meræ. væri sik meþ slikum laghum sum ær sakt.\nXXVI. Æn þen sum stolin er callar þiuft eig sinæ vara. eig þiuft firi þet takin varæ.\nXLVII. Æn varir men æller lænder kiænnæ grip sin.i. adru landi. þa skal þrenætting til giæræ. ok lösæ grip sin meþ þrim mannum. een skal þæn varæ ær grip illir. annar hans lande meþ hanum. þriþi af þy lande sum han hauer grip sin kiænt.i. löst skal hin latæ sum.i. handum hauer. meþ þessi vitnum. num væriæ vil firi hemæ för meþ tylftar eþe. ok meþ tuegiæ mannæ vitnum. swæriæ at i hans garþi var griper þæn hemæ föþer. ok þy a iak han oc þu ikki.i. þor eig han þæt swæriæ. þa skal hin vita meþ þrim mannum at han a grip þæn. ok hin ikki.i. ok leþe sum lagh sighiæ. æller böte sum lagh sighiæ.\nI. vm lagha fang iorþær.\nII. vm maþer illir arftaknæ iorþ.\nIII. vm maþer illir köpo iorþ.\nIIII. vm maþer vil iorþ sinæ sæliæ æller konæ.\nV. mv a flat fara.\nVI. vm maþer æller kona sæl iorþ firi þrangæ skyld\nVII. vm vægiæ köp.\nVIII. vm maþer köpe iorþ lösom örom oc vil samulund siæliæ\nIX. vm maþer æller konæ sæl iorþ sinæ leegs eig verþ til boo.\nX. vm bonþe cöpe iorþ i iorþ giær til fæ bæggiæ þerræ.\nXI. vm köpe iorþ æn hion tu skiliæs at.\nXII. vm kononger sköiter manni iorþ firi cost sin.\nXIII. vm vitu mællin konongs oc biscops oc bondæ.\nXIIII. vm væþsættæ iorþ oc annur væþ gull æller siluer.\nXV. vm köper sær bol æru akrær af köpter.\nXVI. vm maþer callar sik skipt haua arft oc annar cöpt.\nXVII. vm delez at bool oc vt skipter.\nXVIII. vm skiptir oc garþar skulu til tompt ligiæ.\nXIX. vm attunþæ lut attungs oc lagha tompt.\nXX. vm attungum skal by byggiæ all bus laghæ.\nXXI. vm kirkiu garþ oc tompt garþ oc adra garþa.\nXXII. vm tiældru stenæ oc vpsadrup.\nXXIII. vm maþer flyter hus sin af tompt oc yrkir tompt.\nXXIIII. vm vægh tomptæ mellin.\nXXV. vm vægh iuir tompt manz.\nXXVI. vm likh vægh oc græs vægh.\nXXVII. vm maþer far a aker sin æller ængh at boæ\nXXVIII. vm maþer vil samu bygþ ater af flytiæ.\nXXIX. vm maþer gör klöstorþ iuir aker manz.\nXXX. vm bröþer skiptæ iorþ sinnæ oc husær annar a garþs iæþri\nXXXI. vm maþer bygger a byiar marku.\nXXXII. vm maþer bygger a fæ marku.\nXXXIII. vm maþer vil in taku takæ.\nXXXIIII. vm maþer callar sik fæ mark aghæ.\nXXXV. vm skil a þorp oc by vm almenningh.\nXXXVI vm bys vitu till full byær.\nXXXVII. vm markæ skiæl byiæ mellum.\nXXXVIII. vm skyl a land oc hæræt æller by oc hæræþ.\nXXXIX. vm by vill mark intakæ gen byær mark adræ.\nXL. vm man vill træþe vp takæ æller ankæ aker.\nXLI. vm maþer vil fæ löt hagnæ.\nXLII. vm vatn rinder byær mellin.\nXLIII. vm vitulösæ iorþ.\nXLIIII. vm callar tiældru vrarngæ ligiæ.\nXLV vm ormylio oc æn maþer slar æng manz.\nXLVI. vm maþer vil suene æller frænþæ sinum iorþ giuæ.\nIIII. Æn siæliæ vil sinæ iorþ. þa skal siunættingh firi aruæ giæræ. oc buiþæ hanum a þinge iorþ at köpæ oc manæþa stæmpnu til legiæ. comber han til a manæþa stempno iorþ at cöpæ. þæt er vell. komber han eig. þa sæli siþan þem ær han vil oc mest biuþer værþ firi. þaghær enon er buþit. þa ær allum. swa skal kona laghbiuþæ. sum karmaþer.\nXXXIIII. Æn maþer callær sok aghæ egho a fæ marko. ær eig garþ vm. quæþæ grænnær ne viþ. oc callæ allæ þem aghæ. þa aghæ þer vitu. þær allum þem vitnæ viliæ til egnær. væriæ meþ tuænni tylftom oc tuenni vitnum. b. s. s. g. (h.) oc v. s. at iorþ þessi oos skil vm ær almenninger alþræ grannæ oc eig en engh þin.\nXLIIII. Æn tiælþru vil flytiæ oc callar [vrangh] (vranct) ligiæ. þa skal siunettingh til lætæ giæræ. oc þinng visæ. oc enþaghæ latæ hem þomæ. þor þen væriæ ær viþ han deler meþ tueni tylftom oc tueni vitnum. at tiældræ þessi ligger ræt oc eighe wrang.\nI vm maþer taker hest manz æller hors at vlouanþis\nII vm maþer taker öknöte manz vlouanþis.\nIII vm maþer klander læs manz firi hanum.\nIIII vm syn adrum til stufs faræ.\nV vm maþer taker i skoghe sinum þrel æller leghoman\nVI vm taker viþ stuf bonþæ æller bonþæ sun.\nVII vm skogher ær i hæræz ræfst takin\nVIII vm maþer hugger i scoghe manz vnþir viþu minnæ (æn til) sæx lessæ\nIX vm maþer hugger i scoghe manz vnþir viþu meþ valz værkum\nX vm storþahugh.\nXI vm maþer hugger scogh up tiældræ i mellum\nXII vm hug i byar skoghæ manz vskiptum.\nXIII vm maþer hugger i skoghe a minnæ æn en lagha lot i\nXIIII vm [hugher maþer gonom] (hugh æn maþer aker gönom) skogh manz.\nXV vm maþer taker anuærk manz anuærkdaghi.\nXVI vm maþer aker iuir engh manz æller aker vprunnin\nXVII vm maþer taker garþ manz vp.\nXVIII vm maþer taker huggin fangh manz i skoghe.\nXIX vm maþer före graþ sin af akrum för æn burhit ær\nXX vm maþr brytir annars garþ oc ganger fæ gönom.\nXXI vm fæ ingiærþis löper at helum garþe.\nXXII vm maþer callær skaþa mere varæ æn aker las.\nXXIII vm hirþinge brytir garþ oc far i friþgiærþi.\nXXIIII vm maþer taker aker naam fran manni æller cono.\nXXV vm maþer hittir grip manz i akre.\nXXVI vm maþer later hest æller annan grip i tuiþer i aker\nXXVII vm maþer [helder] (halder) fæ sit i annaræ friþgiærþi.\nXXVIII vm þrim gifs sak æller flerum.\nXXIX vm maþer later hest sin i tiuþer oc vaþer lös\nXXX vm maþer taker in fæ manz i friþ giærþi.\nXXXI vm bool ligger i by öþe oc giuir grannum sak firi.\nXXXII vm þessæ væghæ æn vgilder lighiæ.\nXXXIII vm skoghæ brenno.\nXXXIIII vm mæn brennæ col i skoghe\nXXXV vm maþer taker in fæ at garþælöso.\nXXXVI vm ligger husæ lös i tompt i by.\nXXXVII vm all malæ ruf\nXXXVIII vm bool öþzlo\nXXXIX vm bonde deler sin vnþir lanz þingh\nXL vm maþer siter quar vm gengiærþ\nXLI vm maþer siter quar vm almenningx öræ.\nXLII vm nempþæmaþer fylgher eig gengiærþ sinni.\nXLIII vm huru margh þing skulu vara vm aret\nXLIIII vm maþer flar alþin viþu a lanz almenningge\nXLV vm ræt skiæppæ skal varæ oc rætter bismare\nXLVI vm varghæ garþ oc vargha næt.\nXLVII vm maþer ær sökter oc stanþer meþ reþo vetti\nXLVIII vm maþer stæmpnir man til lanzþins oc comber eig\nXLIX vm maþer flar bast æller bork (bryter) pors (æller) quæsti i annars skoghe\nL vm annær bær stikæmæz æn þiænistu mæn\nLI vm lanboe förer eig skulþ hem firi iulæ aptæn.\nI vm liþ vgilt ligger.\nII. vm ængkæ gap a vt garþum.\nIII. vm [bolgarþ] (bolgarþer) vgilder ligger.\nIIII. vm gap vgilt ligger alt aret.\nV. vm bolkæ tiældru mellin.\nVI. vm alt boolbrygþi.\nVII. vm valtran oc rotan a akre vp [saþum] (runnum).\nVIII. vm fæ græssætæ.\nIX. vm maþer tiuþræ a sino vlouandis.\nX. vm maþer eng manz æller bys almenningh tiuþrær\nXI. vm tiuþer hest præstens.\nXII. vm maþer köper fæ af falz by.\nXIII. vm legho fæ. tækiu fæ. oc nam fæ.\nXIIII. vm cöpo fund.\nXV. vm veþe værk.\nXVI. vm hökæ fund.\nXVII. vm maþer flar enæ ek aldinbæru.\nXVIII. vm maþer flar þrer æller þrim flere.\nXIX. vm maþer flar las af vndir viþu.\nXX. vm flar þry læs æller þrim flere.\nXXI. (vm) viliæ brænno.\nXXII. vm vaþæ branno.\nXXIII. vm dyur taker fæ fran hirþingæ.\nXXIIII. vm fæ ligger i dy döt.\nXXV. vm bonde luker leghomanni sæþi\nXXVI. vm lagha stempnu dagha.\nXXVII. vm festir laghoman oc gar a vist hans\nXXVIII. vmmaþer klænder leghoman firi adrum\nXXIX. vm nockædrumb oc ældæræ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:stycke_1": {
+   "lag": "YVgL",
+   "adress": "stycke 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "JURIS VESTROGOTICI CODEX RECENTIOR DEN YNGRE CODEX AF WESTGOTA-LAGEN"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_4": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 4 — Kirkyu balker, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "IIII. Halda bönder ey at biskupe stæmpnu dagh. böte hanom thre mark. Forfal thera ær æn gengærth up brænder. ælla lanz hærra hauer them buth sænt land at uæriæ. Biskupi skal gengærth göra vm tua næter oc til quæls thriþia daghin mæth tolff mannum oc siælfuer han thrættande."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_5": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 5 — Kirkyu balker, flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "V. Uærther mather i kirkyu dræpin. thæt ær nithinxsuærk tha ær hun all vskijr. oc kirkyugarther samulund. tha skal gifua biskupe thre mark fore skirsl. oc natta gengærth oc ey houothtinda."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_6": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 6 — Kirkyu balker, flock 6",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "VI. Landboar skula ey optare houothtinda göra wt. meer æn entima vtan tha uilia. ælla the falla i houoth synd i thry are kirkia uighis a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_21": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 21 — Kirkyu balker, flock 21",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXI. Skil sokn vm præst. rathe þe sum flere æra. ok biskuper gifui kirkyu tha ute æra thre vikur."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_22": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 22 — Kirkyu balker, flock 22",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXII. Wærther mather i kirkyugarþe dræpin ælla sarghather. göre sokn natta gengærþ. oc þæn gærningena gyorthe giælde ater soknamannum fult fore kosten oc a þre marker. oc skal biscuper forbutha. ee til han ræt gör ok præster syunge i kirkyu inne. iorthe oc ey i kirkyugarthe för æn han skijr ær"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_23": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 23 — Kirkyu balker, flock 23",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXIII. Hua inne uill ligia i kirkyu. gifui hænni þre mark oc præstinum sijn læghorstath oc spöre ey lænspræstin at"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_51": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 51 — Kirkyu balker, flock 51",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "LI. Bryter mather iulafirth. fraa iula aptne til attunda dags æptir tolfta dagh. ælla paskafridh fra klocna othensdagh. oc til paska dagh at quælde. böte biscupi tolf öra. oc tolff hæræthe"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_52": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 52 — Kirkyu balker, flock 52",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "LII. Thætta ægher biskuper at gamblum laghum. værþer maþer i kirkyu dræpin. thær a biskuper. IX. mark fore. Uærþer maþer i kirkyu saar. þa a biskuper þre mark. fore all banzmall thre mark. Hua skripta brot gör böte biscupi thre marker. fore tuæfalt hoor þre mark. fore enfalt hoor. XII. öra. Fore fræncimma spial. a thrithia man. ælla fiærþa. XII. öra. ær þæt skyldare. böte þre mark. oc sua fore all annur fyrnuuærk. oc gange til room. Skilias hion tu aat. ælla ryua fæst fore fræncima böten baþe biscupi thre marker Skilias þe fore guzciua lagh. böte thæn sum fæste. ællar gifte. böte biscupi thre marker Gifter maþer dottor. ælla frænkono nöthga. oc skilias the aat. böte biskupi thre mark thæn rætter giftomaþer ær. æn han gifter. Fore. XII. manna eth ægher biskuper thre mark. sua oc fore tuænne tylfter oc ey mera. Hua sum bryter hælgha dagha. paska dagh hælghathorsdagh. pingizdagha dagh. mizsummars dagh. sancta lafrinzsa dagh. hælghuna mæsso dagh. ælla uarra fru dagha. sancta mikiæls dagh iula dagh. aattunda dagh. tolfta dagh. kirkmæssu dagh. apostlamæssu dagha. þe sum fasta oc forhælgþ ær fore. oc alla syndagha. huilkin sum biærgs storan uærknath nokon. a nocrom thæna dagh. böte biskupi. VIII. örtogher ælla uæri sik mæth tolff manna ethe. Hiælpe hö oc korne at saklöso æptir mithaptan. Huar sum bryter frith i skarum vm skærdagh. böte biskupe III. mark. ælla uæri sik sum lagh sigiæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_53": {
+   "lag": "YVgL",
+   "adress": "YVgL Kkb 53 — Kirkyu balker, flock 53",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "LIII. Hua sum gör fulla gengærþ gifui præsti tua örtogher fore inlezlu lyuus. oc uixla lyus. oc ofre incte vtan hun vili. Hua minna gör æn fulla gengærth. gifui örtogh fore huart. huarte luys ælla pænninga. agher bonde præsti fore inlezlu æptir gift. utan bonde vili."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_9": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 9 — Friþ balkær, flock 9",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "IX. Far maþer vaþa hug. varþer huarte blat æller bloþugher. þæt kallær suartæ slagh a ikki ræt æ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_10": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 10 — Friþ balkær, flock 10",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "X. Warþer manni vrang banæ sak giuin. þa skal hæræzhöþinge hans væriæ han meþ tuænni tylftom næmpþæmannæ af hæræþe"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_11": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 11 — Friþ balkær, flock 11",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XI. Ær friþer manz ut bötter. þa skal boskipti kræuiæ. ok skylþer lukæ ingum meræ æn til þrigiæ marka. þa skal konæ takæ þriþing sin af. ok þre marker at hinþrædaghs giaf. þa skal arui taka halft þet æptir ær. þa skal þæn halftning sum æptir ær.j. þri skiptæ. taker en lot saksöki annan kononger. þriþiæ hæræþ. æn eig var ezöret brutit"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_12": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 12 — Friþ balkær, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XII. Konæ firi giær manni. fællir hana luct hæræznæmpþin. þa skal hun friþ hauæ til skoghs. þaghs ok nater. þa skal hanæ vgilþæ þömæ firi aruum ok æptir mælænþdum. þræpi þær sum naa. siþan."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_13": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 13 — Friþ balkær, flock 13",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIII. Far maþer far. likgir.i. længi. ganger i mællum ok þör i þerre. giui arui þem sak sum sarghaþ i. kallær han bana varæ. þa skal han værriæ sik meþ lucte hæræznæmpþinni. æn han þör innan nat ok iamlængæ. falz han ater. böte ater mannin ok gangi til skriptæ sum skötest. ganger iuir nat ok iamlægæ. þa svari ingu fori siþan."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_14": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 14 — Friþ balkær, flock 14",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIIII. Sitiæ syzkini.i. bo saman æptir faþer þoþæn. far broþer raþæ systur sinni. æller broþer oghormaghæ væri sæklöst."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_15": {
+   "lag": "YVgL",
+   "adress": "YVgL Frb 15 — Friþ balkær, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XV. Raþer bonþe hirþingiæ sinum. sva at eig ær lestir æller lyter af. ok ær eig blat ællær bloþhugt. væri saklöst. huþstriker ok han væri ok saklöst."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1": {
+   "lag": "YVgL",
+   "adress": "YVgL Ob 1 — Orbotæ mal, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "I. Dræpir man sin rætte hærræ sum han hauir tro giuit. þet ær orbotæ mal. han hauir firi giort lanþæ ok lösum örum allum. han ær vnþen sagher þrigiæ konongæ stæmpnum. §. 1. Brennir maþer man inni. þet ær orbotæ mal. §. 2. Gar a griþ ok göræ sæt. þet ær orbotæ mal. §. 3. Dræper maþer.i. kyrkiu. þet ær orbotæ mal. §. 4. Dræper maþer a þinge. þet ær orbotæ mal. kallær bræþæ vitni at laghum varum. §. 5. Miþir maþer man saklösan for pæningæ skylþ. þæt ær orbotæ mal. §. 6. Giær maþer manni hemsokn. þet ær orbotæ mal. ok allir þer hanum fylgiæ. er huar houozman firi sik. ok þer fan alþrigh friþ. for æn þæn biþer for þem sum þeer haua brutit viþ. §. 7. Taker maþer kono meþ valþ. þet ær orbotæ mal. §. 8. Bær maþer skiolþ iuir þengbrækku. ok hærriæ sit lanþ. þet ær orbotæ mal. ok sua allum þem hanum fylghiæ þær til. §. 9. Hæmnir maþer a annan. æn þen sum giærþe giorþe. þet ær orbotæ mal. §. 10. Löper maþer a hær skip giörs bunkkæ brytæri. ok rænir man fæiær sins. þet ær orbotæ mal. §. 11. Hæmnis maþer þiufs æller rættæ refstæ. þet ær orbotæ mal. §. 12. Taker maþer legho til at þræpæ man æller saghær fullum sarum. þet ær orbotæ mal. ok þæn sum legho gaf. svari allum vanþræþum firi. swa sum siæluer giort hafþi. §. 13. All þæssi mal æru ezöre konongs. losæ sik huar af skoghe viþ konong meþ firitighi markum. þaghær han biþer firi hanum sum han hauir brutit viþ. Firi all þessi mal skal boo skiptæ. taker husfru æ först sin þriþiung ok þre marker æn hun ær vbrutlik. ok siþan taki æn lot malseghanþin. annan kononger ok þriþiæ hæraþe. §. 14. Löper maþer a tompt sum giært ær vm. ok hus stanþ a. þet ær hemfriþer. ær eig hus a tompt. þa ær eig hemfriþ brutin. ær eig garþer vm. ok komber þo.i. hus in. þæt ær hemfriler. §. 15. Legger lensmaþer almenings giælþ æller þen sum lænit a. at vfelþu æller saklöso. haui firi giort lænum sinum."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2": {
+   "lag": "YVgL",
+   "adress": "YVgL Ob 2 — Orbotæ mal, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "2. Thæt ær niþings værk at þræpe faþur æller moþer sun æller þotter broþer æller systur. ma eig innan lanz bötæ. bæri niþings nampn vtan lanz ok böte synþ sinæ. §. 1. Þet ær niþings værk at þræpæ man.i. ölbenk. §. 2. Þet ær niþings værk at skiutæ in at liuræ ok þræpæ man swa sowen. §. 3. Þet ær niþings verk þræpæ man.i. kirkyu ællær ee huar han nöter þarua sinnæ. §. 4. Þet ær niþings værk at þræpæ man a sunþæ. §. 5. Þæt ær niþings værk at þræpæ kono. §. 6. Þet ær niþings værk at brytiæ kirkyu. §. 7. Þet ær niþings værk at giælþæ man. §. 8. Þet ær niþings værk at huggæ af manni baþæ henþer ok föter. æller ok hanþ ok fot. §. 9. Þet ær niþings værk at for gioræ kono æller manni. §. 10. Þet ær niþings værk at stingæ vt baþin öghon a manni. §. 11. Þet ær niþings værk at skæræ af tungu af manni. §. 12. Þet ær niþings værk at binþæ man.i. skoghe viþ træ firi froste æller flughum. §. 13. Þet ær niþings værk at benbæriæ man til banæ. §. 14. þet ær niþings værk at þræpæ oghormaghæ meþ viliæ værkum. §. 15. Þet ær niþiings værk at þyungæ faþur æller moþer. §. 16. Firi all þessi niþings værk skal bötæ sæx sinnum. IX. marker. æller væri sik meþ fiærþungs nempþinni."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_3": {
+   "lag": "YVgL",
+   "adress": "YVgL Ob 3 — Orbotæ mal, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "3. Thæt ær firnæ værk at aghæ likamæns listæ viþ moþer sinæ æller þotter sinæ æller syster sinæ æller þottor þottor sinni. æller sunæquærn synnæ. æller systor þottor synæ. æller faþur moþer sinæ. faþur syster sinæ. moþer systur sinæ. broþerquærn sina. broþer þottor sinæ. bröþlungö sinæ. systlungö sinæ. æller aghæ bröþlungær tuer. enæ kono. æller bröþlungær tuer en man. æller syster tuer en man. æller spillir maþer sær viþ hors æller nöt. Þessu mall æru all fyrnæværk ok banz mall. þem skal allum af lanþum skriptæ ok til room. ok skal bötæ þrenni. IX. marker af allum fyrnæuærkum."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_1": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 1 — Dræpare bolkær, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "Uærþer maþer þræpin ok af þaghum takin. þa skal vighi lysæ. ok forfal æruingiæ ok a aþro þinge. æn a þriþia þinge. skal han æptir mælæ. ok lysæ ok næmpnæ ællæ þa ær a vigh valle varo ok sak giuer allær næmpnæ þa ær han vil. þa skal væghanþe til þings fara. vtan viþ þing stanþæ. ok mæn til þings göræ griþer at beþas. þings mæn skulu hanum þingango louæ. han skal viþ banæ orþe gangæ. þa skal arui bana nempnæ. þæt ær valþ hans at giua þem banorþ ær han vil. æn manger æru væghanþa til. ok þæn han först sak giuer gange ekke þær af."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_2": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 2 — Dræpare bolkær, flock 2",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "II. Hauer konæ barn.i. kmæ. þa skal þen skylþæste meþ barneno a feþerne nempne giuæ æn eig er barn sialft til. æptir mælæ fört. ok væri gilt þet han gör."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_3": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 3 — Dræpare bolkær, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "III. Þa skal halfbænþ næmpnæ ok ater uistæ mæn. þör skulu fæm varæ ok en razbanæ. þa skal endaghæ hem þomæ. þer sum allir mæn giæræs asatir vm a þinge. þa skal a edahgæ þings mannæ vitne latæ bæræ. Iak var a þinge ok vir sæx mæn. sva kom þomber a man þit. N at þu skulþe stanþe hær i þagh. N. ok vinnæ a hænþer hanum. N. bana orþ meþ tuenni tölftom swa. se. m. g. h. ok. u. m. at swa kom þomber a þit mal. sum nu bær iak vitni til. þa skal arui swæriæ. s. s. m. g. h. u. m. at þu röt hanum oþ ok æg. ok þu æst sanþer bani hans. ok swa gaf iak þer nempne til a þinge. þa skal arui firi aþre tölft gangæ ok samulunþ swæriæ. Tolf mæn alz skulu.j. tylft stanþæ. et munhaft skal æptir huariæ tylft varæ. Siþan skal arui til segnær þings faræ latæ þömæ sik af þinge. ok swæriæ meþ vmstaþu mannum. b. s. s. g. h. ok. v. s. at han van alt þet a eþaghæ til friþær hans. ær lagh sighiæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_4": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 4 — Dræpare bolkær, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "IIII. Siþan skal han a þinge gangæ. Latæ þömæ han friþlösan. ok vgilþan firi aruæ ok æptir mælænþæ. þa skal hin friþ flyæ. æti hemæ at þaghurþe a segnær þinge. ok.i. skoghe at natorþe. ligiæ viþ tolf marker hæræzhöfþingiænom æn han siter quar. ok han wræker han eig. ok. XL. marker hæraþeno. ok. III. marker manni huarium sum æter ok þriker meþ hanum. æller mot ok samuist hauir meþ hanum. æller num han late böter biuþæ. þa æti han natorþ ok þaghur at saklöso. biuþer han eig böter ok samuistas han meþ nokrom manni. böte þen sum han samuistas meþ. III. marker. hete þre æru tuar."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_5": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 5 — Dræpare bolkær, flock 5",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "V. Wiliæ þer böter takæ. þa skal bötæ niu marker aruabot. ok tolf marker ættærbot."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_6": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 6 — Dræpare bolkær, flock 6",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "VI. Sæx marker skal arue at ættærbot takæ. ok sæx marker ætin."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_7": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 7 — Dræpare bolkær, flock 7",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "VII. Þremarker a fæþerne ok þre a möþerne. ok taki ingin ættæerstuþi vtan en timæ. æn þo at han flere mæn þræpi æn en. þa skal þæn skilþaste bötæ tolf öræ. þa þen þer ær nest sæx öræ. þen þær ær nest þre öræ. þen þær ær nest halfemte örtugh. þen þær ær nest fiuræ pæningæ ok tuar örtugher. swa skulu allir bötæ. ok swa skulu allir takæ. ee huar haluo minnæ til sættæ manz. Bröþer saman sök til ættærbot allir firi eno garzliþi. böten allir tolf öræ. sökes huar þerræ sin staþ. böte huar þerræ tolf öræ Bröþræ synir sökis huar sin staþ. böte huar saman söktir. böte allir VI öræ. æru at skilþ böte huart þerræ æmmykit. þer nest halfemto ortugh. þer nest fiuræ pæningæ æller en örnæuingæ. Systræ syni saman. sökter. böte huar þerræ sæx öræ. atskilþir böte huar þerræ æmmykit. Systrungæ brörn saman sökt böte þre öræ. at skilþ huar þerre æmmykit. þer nest halfemto örtugh. swa ee huar halwu minnæ. swa a möþrene sum a fæþrene til sættæ manz. Slikt skal kolþer takæ sum annar. ok skilt kolþer bötæ sum annar. Prester skal eig takæ ættærstuþa. ok eig vt göræ. Sæx marker skal arui takæ af ættærbot. ok sæx marker ætin. þre a feþrene. ok þre a moþrene. Æn ætleþæn man skal ater bötæ þen ær anögher hauir varit. han skal ater bötæ meþ niu markum aruabot. ok sæx markum ættærbot. han heter skunkufalz maþer ær þræl hauir varit. Samuleþ frælzgiuæ. han skal allum botum ater botæ swa sum frælsan man. firi vtan haluæ ættærbot. firi þy at æt hans hælf æru þrælar ok frælsgiuær."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_9": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 9 — Dræpare bolkær, flock 9",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "IX. Þrel þræper man ættaþan. han ma eig hetæ þengsbane. bonþe skal sak bötæ. baþe arua bot ok ættærbot. en eig friþ flyæ num han uili eig bötæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_10": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 10 — Dræpare bolkær, flock 10",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "X. Warþer innan konongs rikis man þræpin. ok eig wæsgösker. böte firi atta örtugher ok þrættan marker. ok eig ættærbot. ok taki eig ættærstuþi. Niu marker aghu alle mæn af mandrape. ok IX marker kononger"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_11": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 11 — Dræpare bolkær, flock 11",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XI. Dræper konæ man. þa skal mælæ a mannen þen skylþæster ær hænnir. han skal botom wærþæ æller friþ flyæ. ær eig faþer til son æller broþer. þa taki þen skilþæstæ. þy taker broþer vingiæf. at han skal före moþer æller systor sakum svaræ. ok lanþ flyæ æn sva komber til."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_12": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 12 — Dræpare bolkær, flock 12",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XII. Firi þrap vtan rikismanz ma eig friþ flyæ or sinu fosterlanþe ok.i. æt hins þræpnæ"
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_13": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 13 — Dræpare bolkær, flock 13",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIII. Dræper maþer dankan man böte niu marker. Dræper norenen böte firi niu marker."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_14": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 14 — Dræpare bolkær, flock 14",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIIII. Dræper maþer vt rikis prest. æmmykit firi præst sum hærlenskan man. æn þo at han vt lænskær se."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_15": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 15 — Dræpare bolkær, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XV. Dræper maþer suþerman ællær ænskæn alzman. ok yumuman. böte niu marker þem sak söke. tuar kononge. bonde gaf hvar þer aþrum sin ræt af alzmanni ok ymu."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_16": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 16 — Dræpare bolkær, flock 16",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVI. Dræper maþer þræl manz. böte firi þre marker. num han þore swæriæ han fiughræ markæ værþan varæ. þa böte swa. þær a huarte sak a bonþe æller bryti vtan sak sköe en."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_17": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 17 — Dræpare bolkær, flock 17",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVII. Dræper maþer man. ok varþer siþan han þræpin a fotom hans a sama vighualli ok i samu stunþ. liggi a værkum sinum þær a eig ræt a. eig karl ok eig kononger."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_18": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 18 — Dræpare bolkær, flock 18",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVIII. Dræper galin maþer man. löper vr bandum. böte han ater meþ niu markum."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_19": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 19 — Dræpare bolkær, flock 19",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIX. Taker maþer alt saman þiuf ok þiuft hauir stulit til half mark ællær meræ. binþæ henþer a bak ok föræ sua til þings. læte tua mæn vitnæ bæræ a henþer hanum. at han ær sander at þiuft þerre. ok viti æptir meþ tylftar eþe. biþi sik. s. s. g. h. ok. v. s. at han stal til fulþræ þiuft. ok han ær sanþer at sak þerre. late siþan þömæ vgilþan han firi aruæ til thors ok tiæru ok æptir mælanþæ. sva firi kirkyu sum kononge. Warþer maþer stulin fæiar sins. ok far æptir. stanþer þiufuer.i. mote. giter hin eig sinu nat fyr han þræper han. þa skal þöþum sak kiuæ. ok latæ vgildan dömæ a þinge."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_20": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 20 — Dræpare bolkær, flock 20",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XX. Far maþer hem at manni. ok vetær hanum hemsokn. dræper han hemæ af sik a hyrnustokke sinum. giui ok þöþum sak ok late þömæ vgilþan siþan a þinge."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_21": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 21 — Dræpare bolkær, flock 21",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXI. Giærs maþer löfuirkinger. ligger i. skoghum. giors grimu maþer. dræper maþer han af sær. giui doþum sak ok late þömæ vgildan a þinge."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_22": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 22 — Dræpare bolkær, flock 22",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXII. Dræper maþer man.i. siængo hos kono sinni æller annar staþ laglikæ meþ vitnum takin. före til þings. ok læti se bloþ bæn. giui þöþum sak. ok viti meþ tuenni tylftom nempþæmannæ. ok hæræzhöþinge hofþe eþin. lati þömæ vgildan siþan."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_23": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 23 — Dræpare bolkær, flock 23",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXIII. Halder maþer a vapne sinu. löper maþer a. far bana af. böte firi niu marker. þær a ingin sak a flere en sak söke."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_25": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 25 — Dræpare bolkær, flock 25",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXV. Fællir maþer træ niþer a man. far banæ af. böte firi niu marker."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_26": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 26 — Dræpare bolkær, flock 26",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXVI. Skiuter maþer vp a lopt. komber niþer ok.i. houoþ manni. far far. han bana af. böte firi. IX. marker. slikt maþer sum maþer ok eig kona."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_27": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 27 — Dræpare bolkær, flock 27",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXVII. Þön æru þry öll sum æmmykit skal böte þrel sum aghu æn dræpir værþer. et ær æruis öll. annat ær brölöp. þriþiæ ær giptar öll."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_28": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 28 — Dræpare bolkær, flock 28",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXVIII. Warþer vtan garþsliþ þræpin. þa skulu grannar. bötæ niu marker. æller bana fa. þer skulu bana til þings föræ. ok hanum friþ beþæs til ok fra. han skal viþer bana orþe gange. æghi siþan þags friþ ok natær til skogs."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_29": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 29 — Dræpare bolkær, flock 29",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXIX. Warþer maþer þræpin þrigiæ byær mellin. ok kallær hwar þerre sik eig þa mark agha. þa skulu þer værria sik meþ tuenni tylftom. Falþer nokor þerræ at. þa skal þen ater bötæ. Fallær þer allir æller væriæs allir. þa böten alle mannin ater. meþ IX. markum. Siþan skulu þer allir. þa mark mellin sin skiptæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_30": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 30 — Dræpare bolkær, flock 30",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXX. Warþer abyrþ boren a mark manz. ok ma se bloþ ok bæn hinnugh sum þræpin var. þa skal þæn bötæ mark a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_31": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 31 — Dræpare bolkær, flock 31",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXI. Warþer maþer dræpin a aldræ götæ mark. vitæ mæn eig bana til. giui sak by þem næstæ. vil han eig bana orþe viþer gangæ. þa skal han væriæ sik meþ tuenni tylftom. þa skal þem by sak giuæ þer ligger nest. þa skal þæn by væriæ ok sik meþ tylftom. Swa skal þen þriþiæ byr væriæ ok sik. siþan þer æru allir varþer. þa skal þet hærætþ þer ligger nest. ok þingat söker fang ok fiær gant han ater bötæ meþ. IX. markum. æller bana fa."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_32": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 32 — Dræpare bolkær, flock 32",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXII. Falþer maþer vndir mölno hiul. far bana af. böte firi. III. þen ær a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_33": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 33 — Dræpare bolkær, flock 33",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXIII. Falþer maþer i brun far bana af. böte firi. III. marker þen ær a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_34": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 34 — Dræpare bolkær, flock 34",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXIIII. Falþer maþer af spango fan bana af. böte firi. III. marker."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_35": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 35 — Dræpare bolkær, flock 35",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXV. Falþer maþer af fiske garþe. ok far bana af. böte firi III. marker þen sum a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_36": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 36 — Dræpare bolkær, flock 36",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXVI. Gangen maþer a biorn spiut. far bana af. böte firi. III. marker þen ær a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_37": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 37 — Dræpare bolkær, flock 37",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXVII. Ganger a ælghstokt far bana af. böte firi. III. marker þen ær a."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_38": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 38 — Dræpare bolkær, flock 38",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXVIII. Reser maþer træ vp ok falþer niþir i houoþ manni. far bana af. böte firi. III marker þen ær a. ok vp reste."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_39": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 39 — Dræpare bolkær, flock 39",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XXXIX. Lyfter hæster stanger þiur hugger runi. biter hunder. far bana af. böte firi. III. marker. ok swa firi annur hemæföþ diur. æn þo at þön vilþ haua uærit."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_40": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 40 — Dræpare bolkær, flock 40",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XL. Wm löskæ mæn vt rikis gengæ hem at manni ok þræpæ æller sarghær han. æller hans kono æller hans hion firi at han syn þem nokot þet þe beþæs.þa skulu þe mæn þylikæ giærningæ göræ fangæs at saklöso. ok gömæs til þes hæræznæmpþ.i. þy hæræþi sum giærningin var gör innan. vær þem æller fællir. þer firi þa sak. þa skulu þe lif lata ok eig biltoghe læggiæs."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_41": {
+   "lag": "YVgL",
+   "adress": "YVgL Db 41 — Dræpare bolkær, flock 41",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XLI. Huilkin man sum ganger hem at manni. ok hugger han æller slar æller nöghær han til meþ nokrom valzuærkum sva at han later vp hanum kono sinæ til at han misfirmæ henne. þa þen þylikæ gerningæ gör skal fangas at saklöso ok gömæs til þes hæræznemþ. i þy hæraþe sum giærnin ær giorþæs innan. vær han æller fællir. fellis han firi þa sak. þa skal han lif latæ. ok eig biltugher lægiæs."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_1": {
+   "lag": "YVgL",
+   "adress": "YVgL Äb 1 — Aruæ bolkær, flock 1",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "Svn ok dotter æru faþurs aruar. taki sun tua lote ok dotter þriþiung. ær eig sun æller dotter. þa taki faþer ok moþer. faþer tua lote ok moþer þriþiungh. ær eig faþer æller moþer. þa æru bröþer ok syster. taker broþer tua lote ok [sister] þriþiungh. ær eig broþer æller syster til. þa taki suna börn ok dottor börn. sunæ börn tua lote ok dottor börn þriþiung. ær eig suna born æller dottor börn. þa taka broþer börn ok syster börn. broþer bærn tua löte ok syster börn þriþiung. æru eig bröþer börn æller syster börn. þa ær faþur faþir ok moþer faþir. taker faþur faþir tua lote ok moþor faþir þriþiung. ær moþor moþer. ok faþur broþer. þa taker moþer moþer ok faþur broþer gar fran. E huar staþ delæl uiþer maþer af manni ok konæ af kono vt komin ok æru iæmpn kynnum gange ee maþer til tuigiæ lotæ ok konæ til þriþiungs."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_13": {
+   "lag": "YVgL",
+   "adress": "YVgL Äb 13 — Aruæ bolkær, flock 13",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIII. Giuer maþer sik i kloster. han skal fæ skiptæ. giuis han meþ sinum lot. Dör han i klostre. þa ær kloster aruæ hans. Wil ok fara firi iamlangæ þagh. þet ær vald hans. ær han enæ nat ok iamplangæ. þa ma han eig or faræ. ok ingsins manz arf takæ. ok eig skulu frænder hans wærkum hans værþæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_14": {
+   "lag": "YVgL",
+   "adress": "YVgL Äb 14 — Aruæ bolkær, flock 14",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XIIII. Dræper maþer man. vil haua arf hans. han skal eig arue hans varæ. Sigher han at han drap han meþ vaþa værki. þet skal luct hæræz nempdin væriæ æller fællæ. Warþer han eig varþer. þa skal han arf taka. ær skyldæster ær þem dræpnæ."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_15": {
+   "lag": "YVgL",
+   "adress": "YVgL Äb 15 — Aruæ bolkær, flock 15",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XV. Far maþer af lanþe. ok sætir brytiæ firi bo. sigher at han skal fara til roms. þa skal bryti firi bo raþæ til iamplangæ. siþan skal arue raþæ eig bryti længer num arui vili."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:retlosae_bolker_stycke_9": {
+   "lag": "YVgL",
+   "adress": "Retlosæ bolker, stycke 9",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "Swear agho konongh at taka ok swa at wrækæ. han skal meþ gislum owan fara ok.i. östræ götlanþ. þa skal han sænþæ mæn sinæ. higat gioræ til alþræ götæ þings. þa skal laghmaþer gislæ skipa. tua sunnan af lande. ok tua norþan af lanþe. siþan skal aþræ fiura mæn af lanþe giöræ. meþ þem skulu til iuna bæckar i gen riþa. ösgötæ gislæ skulu þingat fylgiæ ok witnæ bæræ at han ær sua walþer sum lagh sigiæ. þa skal alþræ götæ þing.i. gen hannum nempnæ. þa ær han til þings komber. þa skal han eþ allum götum trolekan swæriæ. at han skal eig ræt a lanþe varo brytæ. þa skal laghmaþer han fyrst til konongs þömæ. siþan aþræ þe han biþer til. kononger han skal þa þrim mannum friþ giuæ. þem sum eig haua gört nilings værk."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_rlb_3": {
+   "lag": "YVgL",
+   "adress": "YVgL Rlb 3 — Retlosæ bolker, flock 3",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "III. Bonþæ sun skal laghmaþer varæ. þy skulu alle bönder raþa meþ guz miscunþ. kononger skal nempþ firi sik sætiæ. ok laghmaþer a þingæ. þæt hete ee aldræ götæ þing ær laghmaþer ær a. þer ma folk ætleþæ ok sættum lysæ. æn buþkafle ær firi gangen. Ingen man ma hus manz brænnæ vtan han kasnæ vargher hete. han hauir firi giort lande ok lösum örum."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_rlb_4": {
+   "lag": "YVgL",
+   "adress": "YVgL Rlb 4 — Retlosæ bolker, flock 4",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "IIII. Taker maþer bo manz up. þet ær. III. niu marka sak a IX. marker saksökin ok ater giælþ firi bo sit meþ fornum eþe. ok kononger a. IX. marker. ok sua hæraþe."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_tjb_16": {
+   "lag": "YVgL",
+   "adress": "YVgL Tjb 16 — Þiufua bolker, flock 16",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVI. Stiæl þet fæ er tua öræ er vært æller meræ at enne stilþ. böte fullæ þiufsböter. oc hete gör þiufuer."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_tjb_17": {
+   "lag": "YVgL",
+   "adress": "YVgL Tjb 17 — Þiufua bolker, flock 17",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVII. I allum þiuftum skal bonden saklös vara. at han gömer sin þiuf. æn þo at han eig för. æn han dræper han æller saghær. væri þet vgilt en han faar han meþ fulþre þiuft. Eig ma þiuf hengiæ æller hustrykæ vtan han ær dömder a þinge meþ herezhöfþinge lofue. vil eig hæræzhöfþinge þing haua. þa före han til hans garz. æller til þes hans vmbuþ hauir.i. hæræþyno. oc late þær lösen han at saklösö. ok abyrghe hanum han þær. vil han eig viþ þiufue takæ æller þing haua. svari sliku firi sum bonden skulde svara. þre nætær skal bonþæ þiuf gömæ. fir æn han ma sva han bort andvæghþæ sum nu ær sakt."
+  },
+  "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_tjb_18": {
+   "lag": "YVgL",
+   "adress": "YVgL Tjb 18 — Þiufua bolker, flock 18",
+   "plats": "plats:sdhk:vastergotland",
+   "sprak": "fornsvenska",
+   "text": "XVIII. Faar ater griper spilter æller sprængder. gælde ater meþ suornom eþe. at griper hans ær eig værri fæiær nu æn han var. þa ær han mysti hans ok ouan fullar þiufs böter."
+  }
+ },
+ "kandidater": {
+  "begrepp": [
+   {
+    "id": "begrepp:abbedissa",
+    "namn": "Abbedissa",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:abbot",
+    "namn": "Abbot",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:agodel",
+    "namn": "ägodel",
+    "beskrivning": "Jordstycke eller andel i en ägovidd som hör till en gård."
+   },
+   {
+    "id": "begrepp:allmanning",
+    "namn": "allmänning",
+    "beskrivning": "Mark som ägs eller brukas gemensamt av en by, ett härad eller ett land."
+   },
+   {
+    "id": "begrepp:allmoge",
+    "namn": "allmoge",
+    "beskrivning": "Den breda befolkningen i en bygd, särskilt bönderna."
+   },
+   {
+    "id": "begrepp:arekrankning",
+    "namn": "ärekränkning",
+    "beskrivning": "Smädelse eller nid som angriper någons heder."
+   },
+   {
+    "id": "begrepp:arkebiskop",
+    "namn": "Ärkebiskop",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:arkedjakne",
+    "namn": "Ärkedjäkne",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:arv",
+    "namn": "arv",
+    "beskrivning": "Egendom som går i arv; rätten att ärva."
+   },
+   {
+    "id": "begrepp:asyna_man",
+    "namn": "åsyna man",
+    "beskrivning": "Den som var närvarande vid ett dråp med ond vilja."
+   },
+   {
+    "id": "begrepp:att",
+    "namn": "ätt",
+    "beskrivning": "Släkt; grupp med gemensam härstamning."
+   },
+   {
+    "id": "begrepp:attebot",
+    "namn": "ättebot",
+    "beskrivning": "Den del av mansboten som tillföll den dödades släkt utöver arvingarna."
+   },
+   {
+    "id": "begrepp:avlat",
+    "namn": "avlat",
+    "beskrivning": "Efterskänkning av kyrkligt straff för synd, ofta mot fromt verk eller gåva."
+   },
+   {
+    "id": "begrepp:biskop",
+    "namn": "biskop",
+    "beskrivning": "Föreståndare för ett stift."
+   },
+   {
+    "id": "begrepp:bonde",
+    "namn": "bonde",
+    "beskrivning": "Fri jordbrukare och husbonde; i lagarna den rättsliga huvudpersonen."
+   },
+   {
+    "id": "begrepp:borgare",
+    "namn": "borgare",
+    "beskrivning": "Stadsbo med burskap och del i stadens rätt."
+   },
+   {
+    "id": "begrepp:borgesman",
+    "namn": "borgesman",
+    "beskrivning": "Den som går i borgen för en annans betalning eller inställelse."
+   },
+   {
+    "id": "begrepp:borgmastare",
+    "namn": "Borgmästare",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:boter",
+    "namn": "böter",
+    "beskrivning": "Penningersättning eller straffavgift för brott."
+   },
+   {
+    "id": "begrepp:bryte",
+    "namn": "bryte",
+    "beskrivning": "Förvaltare av en gård åt ägaren."
+   },
+   {
+    "id": "begrepp:by",
+    "namn": "by",
+    "beskrivning": "Samling gårdar med gemensam inägo- och utmark."
+   },
+   {
+    "id": "begrepp:dagtingan",
+    "namn": "dagtingan",
+    "beskrivning": "Förhandling om villkor, t.ex. vid förlikning eller kapitulation."
+   },
+   {
+    "id": "begrepp:dekan",
+    "namn": "Dekan",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:dodsstraff",
+    "namn": "dödsstraff",
+    "beskrivning": "Straff till livet, t.ex. hängning, halshuggning eller stegling."
+   },
+   {
+    "id": "begrepp:domare",
+    "namn": "domare",
+    "beskrivning": "Den som dömer i ett mål."
+   },
+   {
+    "id": "begrepp:domprost",
+    "namn": "Domprost",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:drap",
+    "namn": "dråp",
+    "beskrivning": "Uppsåtligt dödande av en människa."
+   },
+   {
+    "id": "begrepp:drots",
+    "namn": "drots",
+    "beskrivning": "Rikets främste världslige ämbetsman."
+   },
+   {
+    "id": "begrepp:drottning",
+    "namn": "Drottning",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:dulgadrap",
+    "namn": "dulgadråp",
+    "beskrivning": "Dråp där gärningsmannen är okänd eller döljs; ansvaret kunde läggas på bygden eller häradet."
+   },
+   {
+    "id": "begrepp:ed",
+    "namn": "ed",
+    "beskrivning": "Högtidlig försäkran inför Gud; i processen medlet att fria sig eller fälla någon."
+   },
+   {
+    "id": "begrepp:edgard",
+    "namn": "edgärd",
+    "beskrivning": "Ed som avläggs av flera edgärdsmän som stöder parten."
+   },
+   {
+    "id": "begrepp:edsore",
+    "namn": "edsöre",
+    "beskrivning": "Den av kungen och stormännen edsvurna friden för hem, kyrka, ting och kvinnor; brott mot den straffades särskilt hårt."
+   },
+   {
+    "id": "begrepp:eriksgata",
+    "namn": "eriksgata",
+    "beskrivning": "Den nyvalde kungens färd genom landskapen för att erkännas och svära att hålla lagen."
+   },
+   {
+    "id": "begrepp:fastar",
+    "namn": "fastar",
+    "beskrivning": "Gode män som var närvarande vid köp, byte, gåva eller pantsättning av jord och bekräftade rättshandlingen."
+   },
+   {
+    "id": "begrepp:fiendskap",
+    "namn": "fiendskap",
+    "beskrivning": "Ovänskap mellan personer; grund för jäv."
+   },
+   {
+    "id": "begrepp:fjarding",
+    "namn": "fjärding",
+    "beskrivning": "Fjärdedel; som indelning en fjärdedel av ett större område, t.ex. ett hundare."
+   },
+   {
+    "id": "begrepp:fogde",
+    "namn": "fogde",
+    "beskrivning": "Förvaltare för kungen eller en annan herre med ansvar för uppbörd, ordning och rättsskipning inom ett område."
+   },
+   {
+    "id": "begrepp:forsat",
+    "namn": "försåt",
+    "beskrivning": "Bakhåll; dråp eller angrepp ur försåt räknades som särskilt grovt."
+   },
+   {
+    "id": "begrepp:forverkat_gods",
+    "namn": "förverkat gods",
+    "beskrivning": "Egendom som den dömde förlorar, ofta delad mellan målsäganden, kungen och häradet."
+   },
+   {
+    "id": "begrepp:fralse",
+    "namn": "frälse",
+    "beskrivning": "Frihet från skatt mot tjänst åt kungen eller kyrkan; även de grupper som hade den friheten."
+   },
+   {
+    "id": "begrepp:frandskap",
+    "namn": "frändskap",
+    "beskrivning": "Släktskap genom härstamning; grund för arv, mansbot och jäv."
+   },
+   {
+    "id": "begrepp:fredloshet",
+    "namn": "fredlöshet",
+    "beskrivning": "Förlust av lagens skydd; den fredlöse fick dödas ostraffat."
+   },
+   {
+    "id": "begrepp:fridsbon",
+    "namn": "fridsbön",
+    "beskrivning": "Begäran om frid för den som dräpt, för att få bjuda böter."
+   },
+   {
+    "id": "begrepp:fridsbrott",
+    "namn": "fridsbrott",
+    "beskrivning": "Brott mot en lagstadgad frid, t.ex. kyrko-, tings-, hem- eller kvinnofrid."
+   },
+   {
+    "id": "begrepp:gardian",
+    "namn": "Gardian",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:gastning",
+    "namn": "gästning",
+    "beskrivning": "Skyldighet att ta emot och underhålla kungen och hans följe; blev senare en avgift."
+   },
+   {
+    "id": "begrepp:generalkonfessor",
+    "namn": "Generalkonfessor",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:gengard",
+    "namn": "gengärd",
+    "beskrivning": "Avgift i natura eller pengar som ersatte skyldigheten att ta emot kungen och hans följe."
+   },
+   {
+    "id": "begrepp:gods",
+    "namn": "gods",
+    "beskrivning": "Egendom, särskilt jordegendom med gårdar."
+   },
+   {
+    "id": "begrepp:hagn",
+    "namn": "hägn",
+    "beskrivning": "Beskydd, särskilt kungens beskydd över en person eller institution ('ta i sitt hägn')."
+   },
+   {
+    "id": "begrepp:hallbane",
+    "namn": "hållbane",
+    "beskrivning": "Den som höll fast offret vid ett dråp."
+   },
+   {
+    "id": "begrepp:harad",
+    "namn": "härad",
+    "beskrivning": "Indelning av ett landskap med eget ting, främst i Götaland; motsvaras i Svealand av hundare."
+   },
+   {
+    "id": "begrepp:haradsdomhavande",
+    "namn": "Häradsdomhavande",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:haradshovding",
+    "namn": "häradshövding",
+    "beskrivning": "Ledare för häradstinget."
+   },
+   {
+    "id": "begrepp:haradsting",
+    "namn": "häradsting",
+    "beskrivning": "Ting för ett härad."
+   },
+   {
+    "id": "begrepp:hemgift",
+    "namn": "hemgift",
+    "beskrivning": "Det en brud fick med sig från sin släkt vid giftermålet."
+   },
+   {
+    "id": "begrepp:hemman",
+    "namn": "hemman",
+    "beskrivning": "Gård med tillhörande jord."
+   },
+   {
+    "id": "begrepp:hemsokn",
+    "namn": "hemsökn",
+    "beskrivning": "Angrepp på någon i hans eget hem; räknades till de grövsta fridsbrotten."
+   },
+   {
+    "id": "begrepp:hertig",
+    "namn": "Hertig",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:hertiginna",
+    "namn": "Hertiginna",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:hor",
+    "namn": "hor",
+    "beskrivning": "Äktenskapsbrott."
+   },
+   {
+    "id": "begrepp:hovitsman",
+    "namn": "Hövitsman",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:hundare",
+    "namn": "hundare",
+    "beskrivning": "Indelning i Uppland, Södermanland, Västmanland och på Gotland som motsvarar häradet i andra landskap."
+   },
+   {
+    "id": "begrepp:husaby",
+    "namn": "husaby",
+    "beskrivning": "Kungsgård där kungens länsman eller en annan tjänsteman bodde."
+   },
+   {
+    "id": "begrepp:hustru",
+    "namn": "hustru",
+    "beskrivning": "Gift kvinna; i bötes- och godsdelningar mottagare av en egen lott."
+   },
+   {
+    "id": "begrepp:jarl",
+    "namn": "jarl",
+    "beskrivning": "Kungens främste man och ledare för ledungen; ämbetet försvann i Sverige efter Birger jarl."
+   },
+   {
+    "id": "begrepp:jarnbord",
+    "namn": "järnbörd",
+    "beskrivning": "Gudsdom genom att bära glödgat järn."
+   },
+   {
+    "id": "begrepp:jav",
+    "namn": "jäv",
+    "beskrivning": "Omständighet som gör att någon inte får vara domare, nämndeman eller vittne i en sak."
+   },
+   {
+    "id": "begrepp:jord",
+    "namn": "jord",
+    "beskrivning": "Mark och jordegendom; i breven ofta den jord som överlåts, pantsätts eller testamenteras."
+   },
+   {
+    "id": "begrepp:kanik",
+    "namn": "kanik",
+    "beskrivning": "Medlem av ett domkapitel."
+   },
+   {
+    "id": "begrepp:kardinal",
+    "namn": "Kardinal",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:kejsare",
+    "namn": "Kejsare",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:klerk",
+    "namn": "klerk",
+    "beskrivning": "Person i kyrkans tjänst, ofta med lägre vigning; även skrivkunnig ämbetsman."
+   },
+   {
+    "id": "begrepp:kloster",
+    "namn": "kloster",
+    "beskrivning": "Gemenskap av munkar eller nunnor och deras byggnader."
+   },
+   {
+    "id": "begrepp:konungaval",
+    "namn": "konungaval",
+    "beskrivning": "Valet av kung, i Svealand enligt lagarna vid Mora äng."
+   },
+   {
+    "id": "begrepp:kung",
+    "namn": "kung",
+    "beskrivning": "Rikets härskare."
+   },
+   {
+    "id": "begrepp:kungsdomhavande",
+    "namn": "Kungens domhavande",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:kungsnamnd",
+    "namn": "kungsnämnd",
+    "beskrivning": "Den nämnd av tolv män i varje lagsaga som dömde i brott mot kungens fridslagar."
+   },
+   {
+    "id": "begrepp:kyrka",
+    "namn": "kyrka",
+    "beskrivning": "Kyrkan som rättssubjekt, mottagare av böter och gods."
+   },
+   {
+    "id": "begrepp:kyrkoherde",
+    "namn": "Kyrkoherde",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:lagman",
+    "namn": "lagman",
+    "beskrivning": "Den som ledde landstinget och tolkade lagen inom en lagsaga."
+   },
+   {
+    "id": "begrepp:lagmansdomhavande",
+    "namn": "Lagmansdomhavande",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:lagsaga",
+    "namn": "lagsaga",
+    "beskrivning": "En lagmans domsområde."
+   },
+   {
+    "id": "begrepp:landbo",
+    "namn": "landbo",
+    "beskrivning": "Bonde som brukar jord som ägs av någon annan mot årlig avgift (landgille)."
+   },
+   {
+    "id": "begrepp:landsdomare",
+    "namn": "Landsdomare",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:landsflykt",
+    "namn": "landsflykt",
+    "beskrivning": "Skyldighet att lämna landet; förlust av rätten att vistas där."
+   },
+   {
+    "id": "begrepp:landskap",
+    "namn": "landskap",
+    "beskrivning": "Ett av de äldre lagområdena (land) med eget ting och egen lag."
+   },
+   {
+    "id": "begrepp:landssyn",
+    "namn": "landssyn",
+    "beskrivning": "Syn och utredning i ett mål, förrättad av en nämnd på landstingets eller lagmannens uppdrag."
+   },
+   {
+    "id": "begrepp:landsting",
+    "namn": "landsting",
+    "beskrivning": "Ting för ett helt landskap, lett av lagmannen."
+   },
+   {
+    "id": "begrepp:lansman",
+    "namn": "länsman",
+    "beskrivning": "Kungens ombudsman i ett mindre område."
+   },
+   {
+    "id": "begrepp:ledung",
+    "namn": "ledung",
+    "beskrivning": "Skyldighet att delta i eller bekosta kungens sjöburna krigsuppbåd; blev under medeltiden en fast skatt."
+   },
+   {
+    "id": "begrepp:lekman",
+    "namn": "lekman",
+    "beskrivning": "Person som inte tillhör prästerskapet."
+   },
+   {
+    "id": "begrepp:losker_man",
+    "namn": "lösker man",
+    "beskrivning": "Person utan fast bostad; behandlades i lagarna strängare som vittne och gärningsman."
+   },
+   {
+    "id": "begrepp:losore",
+    "namn": "lösöre",
+    "beskrivning": "Lös egendom, i motsats till jord."
+   },
+   {
+    "id": "begrepp:malsagande",
+    "namn": "målsägande",
+    "beskrivning": "Den som har rätt att föra talan om ett brott, oftast den skadade eller den dödades arvinge."
+   },
+   {
+    "id": "begrepp:manhelgd",
+    "namn": "manhelgd",
+    "beskrivning": "Människans rättsliga frid och okränkbarhet; manhelgdsbalken reglerade brott mot den."
+   },
+   {
+    "id": "begrepp:mansbot",
+    "namn": "mansbot",
+    "beskrivning": "Böter för dråp, betalda till den dödades släkt."
+   },
+   {
+    "id": "begrepp:mark",
+    "namn": "mark",
+    "beskrivning": "Vikt- och myntenhet om åtta öre; även grund för jordvärdering (markland)."
+   },
+   {
+    "id": "begrepp:markland",
+    "namn": "markland",
+    "beskrivning": "Enhet för jordvärdering, indelad i öresland och örtugland."
+   },
+   {
+    "id": "begrepp:marsk",
+    "namn": "marsk",
+    "beskrivning": "Rikets högste militäre ämbetsman."
+   },
+   {
+    "id": "begrepp:menighet",
+    "namn": "menighet",
+    "beskrivning": "Gemenskap av invånare, t.ex. en socken- eller tingsmenighet."
+   },
+   {
+    "id": "begrepp:mord",
+    "namn": "mord",
+    "beskrivning": "Hemligt eller förrädiskt dråp, i lagarna skilt från öppet dråp."
+   },
+   {
+    "id": "begrepp:mordbrand",
+    "namn": "mordbrand",
+    "beskrivning": "Uppsåtlig brand i annans hus."
+   },
+   {
+    "id": "begrepp:mordgald",
+    "namn": "mordgäld",
+    "beskrivning": "Böter för mord, det vill säga hemligt dråp."
+   },
+   {
+    "id": "begrepp:morgongava",
+    "namn": "morgongåva",
+    "beskrivning": "Gåva från mannen till hustrun efter bröllopet."
+   },
+   {
+    "id": "begrepp:muta",
+    "namn": "muta",
+    "beskrivning": "Gåva för att påverka en dom eller ett vittnesmål."
+   },
+   {
+    "id": "begrepp:namnd",
+    "namn": "nämnd",
+    "beskrivning": "Grupp edsvurna män som inför tinget avgjorde eller intygade sakförhållanden i ett mål."
+   },
+   {
+    "id": "begrepp:nidingsverk",
+    "namn": "nidingsverk",
+    "beskrivning": "Brott som ansågs så nedrigt att det inte kunde sonas med böter."
+   },
+   {
+    "id": "begrepp:notarie",
+    "namn": "Notarie",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:official",
+    "namn": "Official",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:ogild",
+    "namn": "ogild",
+    "beskrivning": "Utan rätt till böter: den som dödas ogild har ingen mansbot."
+   },
+   {
+    "id": "begrepp:orbotamal",
+    "namn": "orbotamål",
+    "beskrivning": "Brott som inte kan sonas med böter."
+   },
+   {
+    "id": "begrepp:ore",
+    "namn": "öre",
+    "beskrivning": "Vikt- och myntenhet, en åttondel av en mark."
+   },
+   {
+    "id": "begrepp:ortug",
+    "namn": "örtug",
+    "beskrivning": "Vikt- och myntenhet, en tredjedel av ett öre."
+   },
+   {
+    "id": "begrepp:ovald",
+    "namn": "oväld",
+    "beskrivning": "Opartiskhet; att döma eller vittna utan vild, alltså utan att gynna någon part."
+   },
+   {
+    "id": "begrepp:pant",
+    "namn": "pant",
+    "beskrivning": "Egendom som ställs som säkerhet för en skuld."
+   },
+   {
+    "id": "begrepp:pave",
+    "namn": "Påve",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:penning",
+    "namn": "penning",
+    "beskrivning": "Mynt, den minsta myntenheten; i plural ofta om pengar i allmänhet."
+   },
+   {
+    "id": "begrepp:prast",
+    "namn": "präst",
+    "beskrivning": "Prästvigd man, särskilt sockenpräst."
+   },
+   {
+    "id": "begrepp:prebendat",
+    "namn": "Prebendat",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:prior",
+    "namn": "Prior",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:priorinna",
+    "namn": "Priorinna",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:prost",
+    "namn": "Prost",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:radman",
+    "namn": "Rådman",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:radsbane",
+    "namn": "rådsbane",
+    "beskrivning": "Den som rådde till eller planerade ett dråp utan att själv utföra det."
+   },
+   {
+    "id": "begrepp:rafst",
+    "namn": "räfst",
+    "beskrivning": "Undersökning och bestraffning av brott, särskilt kungens räfsteting."
+   },
+   {
+    "id": "begrepp:ran",
+    "namn": "rån",
+    "beskrivning": "Öppet tillgrepp av annans egendom med våld."
+   },
+   {
+    "id": "begrepp:rannsakan",
+    "namn": "rannsakan",
+    "beskrivning": "Utredning eller förhör i ett rättsärende."
+   },
+   {
+    "id": "begrepp:ranta",
+    "namn": "ränta",
+    "beskrivning": "Årlig avgift eller avkastning av jord, t.ex. landbons avgift till jordägaren."
+   },
+   {
+    "id": "begrepp:riddare",
+    "namn": "Riddare",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:rike",
+    "namn": "rike",
+    "beskrivning": "Konungariket som politisk enhet."
+   },
+   {
+    "id": "begrepp:riksforestandare",
+    "namn": "Riksföreståndare",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:sagnarting",
+    "namn": "sägnarting",
+    "beskrivning": "Det ting där fredlöshet förkunnades."
+   },
+   {
+    "id": "begrepp:sakore",
+    "namn": "saköre",
+    "beskrivning": "Böter till målsäganden, kungen eller häradet för ett brott; i lagarna ofta delade i tre lotter."
+   },
+   {
+    "id": "begrepp:samtycke",
+    "namn": "samtycke",
+    "beskrivning": "Medgivande, särskilt arvingarnas medgivande till att jord säljs eller ges bort."
+   },
+   {
+    "id": "begrepp:sar",
+    "namn": "sår",
+    "beskrivning": "Kroppsskada genom våld; böterna varierade med skadans art."
+   },
+   {
+    "id": "begrepp:sigill",
+    "namn": "sigill",
+    "beskrivning": "Stämpel vars avtryck bestyrker ett brev."
+   },
+   {
+    "id": "begrepp:skatt",
+    "namn": "skatt",
+    "beskrivning": "Pålaga till kungen eller riket."
+   },
+   {
+    "id": "begrepp:skeppslag",
+    "namn": "skeppslag",
+    "beskrivning": "Indelning i Svealand för uttaget av skepp och manskap till ledungen."
+   },
+   {
+    "id": "begrepp:skotning",
+    "namn": "skötning",
+    "beskrivning": "Rättslig överlåtelse av jord genom en symbolisk handling."
+   },
+   {
+    "id": "begrepp:skuld",
+    "namn": "skuld",
+    "beskrivning": "Gäld; det någon är skyldig en annan."
+   },
+   {
+    "id": "begrepp:slott",
+    "namn": "slott",
+    "beskrivning": "Befäst borg, ofta säte för en fogde eller länsherre."
+   },
+   {
+    "id": "begrepp:socken",
+    "namn": "socken",
+    "beskrivning": "Kyrklig församling och det område som hörde till en sockenkyrka."
+   },
+   {
+    "id": "begrepp:sporgald",
+    "namn": "spårgäld",
+    "beskrivning": "Böter som tillföll den dödades arvinge när dråparen spårats men inte gripits."
+   },
+   {
+    "id": "begrepp:stad",
+    "namn": "stad",
+    "beskrivning": "Köpstad med egen rätt (stadslag) och eget styre av borgmästare och råd."
+   },
+   {
+    "id": "begrepp:stadga",
+    "namn": "stadga",
+    "beskrivning": "Förordning eller beslut med bindande verkan, utfärdad av kung, kyrka eller stad."
+   },
+   {
+    "id": "begrepp:stold",
+    "namn": "stöld",
+    "beskrivning": "Hemligt tillgrepp av annans egendom."
+   },
+   {
+    "id": "begrepp:svagerskap",
+    "namn": "svågerskap",
+    "beskrivning": "Släktskap genom gifte."
+   },
+   {
+    "id": "begrepp:syn",
+    "namn": "syn",
+    "beskrivning": "Besiktning genom utsedda män av en skada, ett gränsmärke eller en brottsplats."
+   },
+   {
+    "id": "begrepp:tempel",
+    "namn": "tempel",
+    "beskrivning": "Hednisk kultbyggnad, som templet i Uppsala hos Adam av Bremen."
+   },
+   {
+    "id": "begrepp:ting",
+    "namn": "ting",
+    "beskrivning": "Sammankomst för en bygd där mål avgjordes och gemensamma angelägenheter behandlades."
+   },
+   {
+    "id": "begrepp:tionde",
+    "namn": "tionde",
+    "beskrivning": "Avgift till kyrkan av en tiondel av årets avkastning."
+   },
+   {
+    "id": "begrepp:tockabot",
+    "namn": "tockabot",
+    "beskrivning": "Böter som tillföll den dräptes herre eller beskyddare."
+   },
+   {
+    "id": "begrepp:torp",
+    "namn": "torp",
+    "beskrivning": "Mindre bosättning eller gård, ofta upptagen på en bys utmark."
+   },
+   {
+    "id": "begrepp:tral",
+    "namn": "träl",
+    "beskrivning": "Ofri person som ägdes av en annan."
+   },
+   {
+    "id": "begrepp:trebot",
+    "namn": "trebot",
+    "beskrivning": "Trefaldig bot."
+   },
+   {
+    "id": "begrepp:trolldom",
+    "namn": "trolldom",
+    "beskrivning": "Skadlig magi."
+   },
+   {
+    "id": "begrepp:trygd",
+    "namn": "trygd",
+    "beskrivning": "Edlig försäkran om fred mellan parter efter förlikning."
+   },
+   {
+    "id": "begrepp:tvebot",
+    "namn": "tvebot",
+    "beskrivning": "Dubbel bot, för grövre fall av ett brott."
+   },
+   {
+    "id": "begrepp:tvekamp",
+    "namn": "tvekamp",
+    "beskrivning": "Rättslig strid mellan två parter som avgör en tvist om heder."
+   },
+   {
+    "id": "begrepp:tylftered",
+    "namn": "tylftered",
+    "beskrivning": "Ed av tolv män."
+   },
+   {
+    "id": "begrepp:underfogde",
+    "namn": "Underfogde",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:underharadshovding",
+    "namn": "Underhäradshövding",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:underlagman",
+    "namn": "Underlagman",
+    "beskrivning": "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret"
+   },
+   {
+    "id": "begrepp:utjord",
+    "namn": "utjord",
+    "beskrivning": "Jord som ligger utanför byns ägor eller brukas från en annan gård."
+   },
+   {
+    "id": "begrepp:vadadrap",
+    "namn": "vådadråp",
+    "beskrivning": "Dödande av en människa av våda, utan uppsåt."
+   },
+   {
+    "id": "begrepp:valdtakt",
+    "namn": "våldtäkt",
+    "beskrivning": "Tvångsmässigt samlag eller bortförande av en kvinna; brott mot kvinnofriden."
+   },
+   {
+    "id": "begrepp:vapnare",
+    "namn": "väpnare",
+    "beskrivning": "Frälseman av lägre rang än riddare."
+   },
+   {
+    "id": "begrepp:vite",
+    "namn": "vite",
+    "beskrivning": "Straffavgift, ofta förelagd för att tvinga fram en handling."
+   },
+   {
+    "id": "begrepp:vittne",
+    "namn": "vittne",
+    "beskrivning": "Person som intygar en rättshandling eller ett sakförhållande."
+   }
+  ],
+  "personer": [
+   {
+    "id": "person:birger_jarl",
+    "namn": "Birger jarl",
+    "beskrivning": "Hertig (Sverige) 1248–1266; levde 1210–1266"
+   },
+   {
+    "id": "person:birger_magnusson",
+    "namn": "Birger Magnusson",
+    "beskrivning": "Kung (Sverige) 1290–1318; levde 1280–1321"
+   },
+   {
+    "id": "person:erik_av_pommern",
+    "namn": "Erik av Pommern",
+    "beskrivning": "Kung (Norge) 1389–1442; Kung (Danmark) 1396–1439; Kung (Sverige) 1396–1439; levde 1382–1459"
+   },
+   {
+    "id": "person:erik_jedvardsson",
+    "namn": "Erik den helige",
+    "beskrivning": "Kung (Sverige) 1156–1160; levde 1120–1160"
+   },
+   {
+    "id": "person:erik_magnusson_1339",
+    "namn": "Erik Magnusson (kung 1356–1359)",
+    "beskrivning": "Kung (Sverige) 1356–1359; levde 1339–1359"
+   },
+   {
+    "id": "person:karl_ix",
+    "namn": "Karl IX",
+    "beskrivning": "Svensk kung 1604–1611; lät trycka Kristoffers landslag 1608"
+   },
+   {
+    "id": "person:kristofer_av_bayern",
+    "namn": "Kristofer av Bayern",
+    "beskrivning": "Hertig (Bayern) 1416–1448; Kung (Danmark) 1440–1448; Kung (Sverige) 1441–1448; Kung (Norge) 1442–1448; levde 1416–1448"
+   },
+   {
+    "id": "person:magnus_eriksson",
+    "namn": "Magnus Eriksson",
+    "beskrivning": "Kung (Sverige) 1319–1364; Kung (Norge) 1319–1355; levde 1316–1374"
+   },
+   {
+    "id": "person:magnus_ladulas",
+    "namn": "Magnus Ladulås",
+    "beskrivning": "Hertig (Sverige) 1266–1275; Kung (Sverige) 1275–1290; levde 1240–1290"
+   },
+   {
+    "id": "person:sdhk:birger_person:2626",
+    "namn": "Birger Persson",
+    "beskrivning": "I SDHK 1314–1327; lagman, lagman i Uppland"
+   },
+   {
+    "id": "person:sdhk:lars_ulfson:2934",
+    "namn": "Lars Ulfsson",
+    "beskrivning": "I SDHK 1319–1345; lagman i Södermanland, lagman, riddare"
+   },
+   {
+    "id": "person:viger_spa",
+    "namn": "Viger spa",
+    "beskrivning": "Lagsättare i hednisk tid enligt Upplandslagens prolog"
+   }
+  ],
+  "platser": [
+   {
+    "id": "plats:gotland",
+    "namn": "Gotland"
+   },
+   {
+    "id": "plats:island",
+    "namn": "Island"
+   },
+   {
+    "id": "plats:sdhk:dalarna",
+    "namn": "Dalarna"
+   },
+   {
+    "id": "plats:sdhk:halsingland",
+    "namn": "Hälsingland"
+   },
+   {
+    "id": "plats:sdhk:ostergotland",
+    "namn": "Östergötland"
+   },
+   {
+    "id": "plats:sdhk:smaland",
+    "namn": "Småland"
+   },
+   {
+    "id": "plats:sdhk:sodermanland",
+    "namn": "Södermanland"
+   },
+   {
+    "id": "plats:sdhk:stockholm",
+    "namn": "Stockholm"
+   },
+   {
+    "id": "plats:sdhk:sverige",
+    "namn": "Sverige"
+   },
+   {
+    "id": "plats:sdhk:upland",
+    "namn": "Uppland"
+   },
+   {
+    "id": "plats:sdhk:vastergotland",
+    "namn": "Västergötland"
+   },
+   {
+    "id": "plats:sdhk:vastmanland",
+    "namn": "Västmanland"
+   },
+   {
+    "id": "plats:skane",
+    "namn": "Skåne"
+   }
+  ]
+ },
+ "predikat": [
+  {
+   "kod": "paforljd",
+   "betydelse": "har påföljden",
+   "anm": "Subjektet är brottet, objektet påföljden, värdet belopp eller villkor"
+  },
+  {
+   "kod": "tillfaller",
+   "betydelse": "tillfaller",
+   "anm": "Subjektet är boten eller egendomen, objektet mottagaren, värdet andelen"
+  },
+  {
+   "kod": "handlaggs_vid",
+   "betydelse": "handläggs vid",
+   "anm": "Subjektet är målet eller brottet, objektet tinget eller domaren"
+  },
+  {
+   "kod": "kraver",
+   "betydelse": "kräver",
+   "anm": "Subjektet är målet eller avgörandet, objektet bevismedlet eller förfarandet"
+  },
+  {
+   "kod": "diskvalificerar",
+   "betydelse": "diskvalificerar",
+   "anm": "Jäv: subjektet är grunden (frändskap, muta), objektet rollen (nämndeman, vittne, domare)"
+  },
+  {
+   "kod": "utses_av",
+   "betydelse": "utses av",
+   "anm": "Subjektet är ämbetet eller uppdraget, objektet den som utser"
+  },
+  {
+   "kod": "definieras_som",
+   "betydelse": "definieras som",
+   "anm": "Lagens egen definition av begreppet; värdet sammanfattar den"
+  },
+  {
+   "kod": "stiftar_lag",
+   "betydelse": "stiftar lag",
+   "anm": "Gör, ändrar eller förkunnar lag"
+  }
+ ]
+}

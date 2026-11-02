@@ -1,0 +1,1877 @@
+{
+ "beskrivning": "Våra påståenden för del_01, ur data/pastaenden/lagar/.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5)",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|dråpet lyses på tinget och efterkravet tas upp på det tredje tinget",
+   "plats:sdhk:vastergotland",
+   "þa skal uighi a þingi lysæ oc frafal aruingiæ sigiæ. ok.a. adru. Æn a þridia eftyr mælæ ællær ær mal hans spilt.",
+   "Arvingen för talan; försummas efterkravet på tredje tinget är målet förspillt."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:sagnarting|sägnartinget, där dråparen döms fredlös",
+   "plats:sdhk:vastergotland",
+   "Þa skal arui til sægnarþings fara lætæ dömæ sic af þingi",
+   "Arvingen (arui) för talan."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|arvingen fäster banemålet på dråparen med två tolfter",
+   "plats:sdhk:vastergotland",
+   "a hændær hanum banorþ mæþ tvænni tylptum",
+   "Tolv män i varje tolft; arvingen väljer fritt vem han ger banorðet."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tingsvittne av sex män om att laga dag dömts",
+   "plats:sdhk:vastergotland",
+   "Iak var þa a þingi ok vir mæn siax.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråparen döms fredlös och ogild inför arvingar och efterkärande",
+   "plats:sdhk:vastergotland",
+   "döma friþlösæn han firi arva ok æptimælændæ. ok vgilþan",
+   "Om bot inte bjuds eller tas."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|nio marker arvebot",
+   "plats:sdhk:vastergotland",
+   "þa skal bötæ niu markær arvæböt.",
+   "Om målsägandesidan vill ta bot."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|tolv marker ättebot",
+   "plats:sdhk:vastergotland",
+   "oc tolf markær ættærbot.",
+   "Ätteboten betalas till hälften av dråparens arvinge, till hälften av hans ätt (tre marker på fädernet, tre på mödernet), graderat efter släktskap ned till sjätte man."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:arv|sex marker",
+   "plats:sdhk:vastergotland",
+   "Sæx mærkær skal arvi taka af ættærbot.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_1",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|sex marker, tre på fädernet och tre på mödernet",
+   "plats:sdhk:vastergotland",
+   "ok sex. mærchær skal ættin takæ. þrer a fæþærni. ok þrer a möþærni.",
+   "Fördelas till sjätte man på var sida."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|sex marker (halv ättebot) för ättledd man av trälsläkt",
+   "plats:sdhk:vastergotland",
+   "mæþ niu marchum arvæ bot. ok sex. mærkum ættærbot.",
+   "Lagen motiverar: hans ätt är till hälften trälar och frigivare."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|rådsbane värjer sig med en tolft på fädernet och en halv på mödernet",
+   "plats:sdhk:vastergotland",
+   "han skal uita firir a endaghæ mæþ tylpt at fæþerni ok halua at möþerni.",
+   "Gäller den som anklagas för att ha rått till dråpet (raszbani)."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark för rådsbane som faller på båda edgärderna",
+   "plats:sdhk:vastergotland",
+   "Falss. han at baþum þa skal han böta haluæ fæmtu mark.",
+   "Faller han på tolften tre marker, på halvtolften tolv öre."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:hallbane",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark för hållbane",
+   "plats:sdhk:vastergotland",
+   "Nu skal halss bani bötæ halui fæmtu mærk.",
+   "Kungen har ingen sak i hållbanes eller rådsbanes böter."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fem öre och en örtug för åsyna man",
+   "plats:sdhk:vastergotland",
+   "Atvist a saksökæ örtogh ok oræ fæm.",
+   "Gäller den som var närvarande vid dråpet (atvistarmaþer)."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fem öre och en örtug för åsyna man",
+   "plats:sdhk:vastergotland",
+   "sva. a konongær",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|fem öre och en örtug för åsyna man",
+   "plats:sdhk:vastergotland",
+   "sva. a hæræd.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_4",
+   "begrepp:drap",
+   "definieras_som",
+   "=en träl som dräper en ättad man kan inte heta hans bane",
+   "plats:sdhk:vastergotland",
+   "þrel drapér man. ættæþen. han ma eigh. heta þés bani.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|trälens ägare betalar arvebot och ättebot",
+   "plats:sdhk:vastergotland",
+   "Bonde skal böta aruæ. bot ok ættar bot.",
+   "Ägaren behöver inte fly friden om han inte vägrar böta."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tretton marker och åtta örtugar utan ättebot för svensk eller smålänning",
+   "plats:sdhk:vastergotland",
+   "böte firi atta örtogher. ok þrættan markær. ok ænga ætar bot.",
+   "Gäller den dräpte som är från kungariket men inte västgöte."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:kung|nio marker",
+   "plats:sdhk:vastergotland",
+   "Niu markær. a konongær a mandrapi ok sva allir mæn.",
+   "'ok sva allir mæn' tolkas som att även alla män (landet) får nio marker."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:landskap|nio marker",
+   "plats:sdhk:vastergotland",
+   "Niu markær. a konongær a mandrapi ok sva allir mæn.",
+   "Tolkning av 'ok sva allir mæn'; kan också läsas som att regeln gäller dråp på alla män."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|om en kvinna dräpt svarar hennes närmaste frände för bot eller flyr friden",
+   "plats:sdhk:vastergotland",
+   "han skal botum varþæ ællær frid flyia.",
+   "Talan förs mot kvinnans närmaste manlige frände."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio marker för dansk eller norsk man",
+   "plats:sdhk:vastergotland",
+   "Dræpar maþær danskan man. allæ noræn man böte niv markum.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen behöver inte fly friden ur sitt land och sin ätt när den dräpte är utlänning",
+   "plats:sdhk:vastergotland",
+   "eigh ma frid flyia. or landi sinu. oc.j. æth. hans.",
+   "Läsningen 'eigh ma' är osäker; kan betyda att han inte får fly."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|lika mycket för utländsk präst som för inhemsk man",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær vtlænskan prest. böte sæ mykit firi sum hærlænskan man.",
+   "Prästen ska vara i bondalag."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fyra marker för tysk eller engelsman",
+   "plats:sdhk:vastergotland",
+   "þa skal böta firi marchum fiurum. þem sakinæ sökir.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|två marker för tysk eller engelsman",
+   "plats:sdhk:vastergotland",
+   "ok tvar. marchar konongi.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker för annans träl, eller fyra om trälen bevisas vara värd så",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær þrél manss. böte firi markum þrem.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_5",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|ensam, vid dråp på träl",
+   "plats:sdhk:vastergotland",
+   "ængin a. þær sak a vtæn saksökæn.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som själv dräps vid den dräptes fötter",
+   "plats:sdhk:vastergotland",
+   "liggi a værkum sinum. böti huarti konongi allær hæræþi.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio marker när en galen man som lösgjort sig dräper",
+   "plats:sdhk:vastergotland",
+   "Dræpær galin man man löpær or bandum bötæ han aptær mæd niv markum.",
+   "Oklart vem som betalar; troligen den som skulle hålla honom bunden."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_8",
+   "begrepp:stold",
+   "paforljd",
+   "begrepp:ogild|tjuv som gör motstånd och dräps av den bestulne",
+   "plats:sdhk:vastergotland",
+   "þa skal döþum sak giuæ döma vgildæn han a þingi.",
+   "Den bestulne följer efter tjuven och kan inte få sitt utan att dräpa honom."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_8",
+   "begrepp:ogild",
+   "handlaggs_vid",
+   "begrepp:ting|den dräpte tjuven döms ogild på tinget",
+   "plats:sdhk:vastergotland",
+   "döma vgildæn han a þingi.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_9",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och dräps på tröskeln",
+   "plats:sdhk:vastergotland",
+   "væittar hanum hemsokn. dræpær han af sær a hyrnustokkæ sinum giui döþum sak dömi vgildæn han a þingi.",
+   "'hyrnustokkæ' tolkas som tröskel eller hörnstock; osäkert."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_10",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:ogild|lösdrivare som ligger i skogen och rövar och dräps",
+   "plats:sdhk:vastergotland",
+   "Gærs maþær lösvittingær liggær a skoghum ok rænir. dræpær maþær man af sær. giui döþum sak dömi vgildæn han.",
+   "'lösvittingær' osäker betydelse."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_11",
+   "begrepp:hor",
+   "paforljd",
+   "begrepp:ogild|man som dräps i säng hos dråparens hustru",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær man. i siangu hos kono sinni.",
+   "Dråparen tar bolster och lakan till tinget och låter se blod och sår."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_11",
+   "begrepp:ogild",
+   "kraver",
+   "begrepp:tylftered|två tolfter med nämndemäns och häradshövdingens vittne för att lägga den dräpte ogild",
+   "plats:sdhk:vastergotland",
+   "uittni mæd tuanni tylftum. næmdar mans uittnum ok hærasshöfþingæ.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_12",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker",
+   "plats:sdhk:vastergotland",
+   "Fællir maþær træ a man far af bana böti firi niv markum.",
+   "Ordet våda står inte i flocken; att det gäller vådadråp är en tolkning."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_12",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=dödande utan avsikt: någon löper på en annans spjut, ett fällt träd träffar, ett skott uppåt faller ned i huvudet",
+   "plats:sdhk:vastergotland",
+   "Skiutær man vp a lopt kombær niþ i. hovoþ manni far af. bana.",
+   "Lagens exempel; tolkning att flocken gäller våda."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_14",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|nio marker av grannarna vid dråp utanför grinden om banemannen inte fås fram",
+   "plats:sdhk:vastergotland",
+   "þa skulu grænnæ bötæ firi.niv marchum. ællær banæ. fæ.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_14",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:tylftered|var by värjer sig med två tolfter när dråp skett i tre byars mark",
+   "plats:sdhk:vastergotland",
+   "þa skulu þer. værriæ sik mæþ. tvenni tylptum.",
+   "Den by som fälls betalar nio marker eller skaffar banemannen."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_14",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|nio marker av närmaste härad vid okänd dråpare på allmänning",
+   "plats:sdhk:vastergotland",
+   "þa skal hæræþ bötæ. þét næst ær.",
+   "Om alla närmaste byar värjt sig med två tolfter."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_md_15",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren till kvarn, brunn, dike, fiskegård, jaktspjut eller djur som vållat döden",
+   "plats:sdhk:vastergotland",
+   "Faldær maþær vndir mylnohivl. fær. þær banæ af. böte þrim markum. þæn ær. mylnu.a.",
+   "Tolkning: dödsfall genom anläggning eller djur, utan gärningsman."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_6",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|häradshövdingen värjer den oskyldigt anklagade med två tolfter nämndemän ur häradet",
+   "plats:sdhk:vastergotland",
+   "þa skal hæræþshöfþingi væriæ han med tvenni tylptum. næmdær mannæ af hæræþi.",
+   "Gäller orätt given banesak (vrang banæ sak)."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_8",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|sluten häradsnämnd fäller kvinna som dödat en man",
+   "plats:sdhk:vastergotland",
+   "fællir hana lukt hærasznæmd.",
+   "'firigær' kan också avse förgörande genom trolldom eller gift."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_8",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|kvinna som dödat döms ogild och dräps efter en dags och natts grid",
+   "plats:sdhk:vastergotland",
+   "þa skal latæ dömæ hanæ. vgill. firi arva. ok eptimælændæ ok dræpæ þær næst.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:drap",
+   "definieras_som",
+   "=den som sårats och dör inom natt och år räknas som dräpt av den som sårade honom",
+   "plats:sdhk:vastergotland",
+   "æn han dör innan nath ok iamlangæ. gangær þær iuir. þa böti ængtæ",
+   "Dör han senare böter ingen för dråp."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|sluten häradsnämnd när den sårade dör senare",
+   "plats:sdhk:vastergotland",
+   "þa skal han væriæ sik mæþ luctri hæræssnæmd",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp i kyrka",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær man i kirkiu. þæt ær niþingsværk. orbötæ mal.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "=orbotamål, kan inte sonas med böter",
+   "plats:sdhk:vastergotland",
+   "þæt ær niþingsværk. orbötæ mal.",
+   "Rubriken 'Orbotæ mal' omfattar hela uppräkningen."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp på tinget",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær man i þingi. þær ær niþingsvark.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=hämnd med sår, dråp eller bränning efter grid och förlikning, på tjuv eller på tinget",
+   "plats:sdhk:vastergotland",
+   "Gangær maþær a griþ a göræ sæt. hæmnir maþær þiufs. hæmnir maþær ræpsingær a þingi mæþ sarum ællær meþ drape allar mæþ brænnu. þæt ær niþingsværk",
+   "'ræpsingær' osäker betydelse."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkat land och lösöre",
+   "plats:sdhk:vastergotland",
+   "firigiort landi ok lössum öræ.",
+   "Gäller hämnd efter grid och förlikning m.m."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp på sovande man",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær souen man. þæt ær niþinsværk.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp genom rököppningen, i bad eller badstuga, eller när mannen förrättar sina behov",
+   "plats:sdhk:vastergotland",
+   "Skytær maþær in at lyuræ ok dræpær man. Dræpær.i. löghu. ællær i. bastughu. dræpær. þa han nöte þarwa sinæ.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp på kvinna",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær kono. þæt ær niþingsværk alt.",
+   "Motivering: kvinnan har alltid frid till möte och mässa, hur stor fejden än är."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att lönnligen dräpa sin herre",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær lönær droten sin. þæt ær niþingsværk.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_bd_9",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp med kniv på ölbänken på bordsgranne",
+   "plats:sdhk:vastergotland",
+   "Dræpærmaþær man i ölbenk mæþ knivi. sitir vm knif ok kötsticki. mæþ hanum þæt ær niþingsværk.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_kkb_3",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=dråp i kyrka; kyrkan blir ovigd",
+   "plats:sdhk:vastergotland",
+   "Uerder maþer.i. kyrkiu dræpin þet ær niþings værk. þa er kyrkia al vuighz.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_kkb_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tre marker för ny vigning och nattgästning efter dråp i kyrka",
+   "plats:sdhk:vastergotland",
+   "þa scal gyuæ byscupe þrer marker firir vilx oc natter gengerd.",
+   "Gäller om kyrkan är vigd före tionde vintrarna; annars huvudtionde. Osäker läsning."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_kkb_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker till biskopen för dråp eller sår på kyrkogården",
+   "plats:sdhk:vastergotland",
+   "Værþer marder.i. kyrkiugardhi. dræpin ællær sargheþer. gialde biscupe þrer marcher.",
+   "Gudstjänst får inte hållas förrän biskopen gett lov."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_kkb_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tre marker vid dråp på kyrkogården",
+   "plats:sdhk:vastergotland",
+   "gialde biscupe þrer marcher.",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_ab_11",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen förlorar arvet efter den dräpte",
+   "plats:sdhk:vastergotland",
+   "Dræpær maþær man wil hava arf hans. han skal iki arvi hans væræ.",
+   "Arvet går till den dräptes närmaste frände."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_ab_11",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|sluten häradsnämnd när arvtagande dråpare påstår våda",
+   "plats:sdhk:vastergotland",
+   "han skal væria sik mæþ luktri hæræsz namd.",
+   "Blir han värjd tar han arvet."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_ab_15",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|häradsnämnd när kvinna anklagas för att ha dödat sitt styvbarn",
+   "plats:sdhk:vastergotland",
+   "væri sik mæþ hærærs næmd",
+   ""
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_ab_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|kvinna som dödat styvbarn förverkar sig själv och sin frid",
+   "plats:sdhk:vastergotland",
+   "falz hvn þa hauir hvn firigiort sær ok friþi sinum.",
+   "Hennes son kan i stället böta till fränderna."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_tjb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:haradshovding|häradshövdingen utlyser ting och sätter nämnd",
+   "plats:sdhk:vastergotland",
+   "han skal þing til namnæ ok næmd sætiæ",
+   "Gäller vägrad ransakan; flocken tas med för regeln om hur nämnd sätts."
+  ],
+  [
+   "lag:aldre_vastgotalagen:avgl_mlb_2",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:ting|nämnd av trygga män ur fjärdingen",
+   "plats:sdhk:vastergotland",
+   "þa skal a þingi. næmd gæræ. tryggiæ mannæ af fiarþungi",
+   "Gäller sårmål där oskyldig sak givits; 'tryggiæ' tolkas som pålitliga."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som tagit lega för att dräpa eller såra",
+   "plats:sdhk:vastergotland",
+   "þa skal þæn ær legho takær vgillær wæræ.",
+   "'vgillær' tolkat som ogill (saklös att dräpa, utan bot); osäker läsning. Gäller också fulla sår."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|den som lejt dråparen värjer sig med sluten häradsnämnd",
+   "plats:sdhk:vastergotland",
+   "Æn þæn ær legher wæri sic mæþ luctri hæræznæmpþ.",
+   "'luctri' = sluten (lykt) nämnd."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "=den som lejt dråparen och fälls svarar som om han själv gjort det",
+   "plats:sdhk:vastergotland",
+   "þa scal han swaræ swa mykit firi sum han görþe þæt sialwær."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|så mycket som målsäganden själv begär, annars hämnd",
+   "plats:sdhk:vastergotland",
+   "Annittæggiæ böte swa mykit sum malseghændi quædþær sialwær ia widþær. ællær hæmniz vp a han.",
+   "Gäller den som lejt dråparen; målsäganden för talan."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:ovald",
+   "definieras_som",
+   "=domaren ska stå emot de fyra ting som kan hindra honom: kärlek, hat, gåvor och rädsla",
+   "plats:sdhk:vastergotland",
+   "Nu ær þe fiughur domæren ma hindræ. eit ær kiærlek. anæt ær hat. þridiæ ær gawur. fiærdþæ ær ræzl.",
+   "Ur den s.k. domarregeln, en moralisk förmaning snarare än en jävsregel."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:domare|gåvor; inte för hela jordens rike får domaren köpas till en orätt dom",
+   "plats:sdhk:vastergotland",
+   "alt iurþriki skulþi þu æi köpæ þær til. at þu skuldi en vrætæn dom vt giuæ.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|kärlek till någon",
+   "plats:sdhk:vastergotland",
+   "ok hawæ ingin iurdrikiz man swa kiæræn. at han göre þæt æi vtæn alt hindær.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:fiendskap",
+   "diskvalificerar",
+   "begrepp:domare|hat, även mot faderns baneman",
+   "plats:sdhk:vastergotland",
+   "æn þö at han wari hans faþurs bani.",
+   "Tolkning: domaren ska döma rätt även om parten vore hans faders baneman. Förmaning."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_4",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|rädsla för liv eller gods",
+   "plats:sdhk:vastergotland",
+   "þu skalt ræt göræ. oc rædþes ingin. hwarrti a þit liff. ællær þit goz.",
+   "Domarregeln; förmaning, ingen formell jävsgrund."
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_5",
+   "person:magnus_ladulas",
+   "stiftar_lag",
+   "=kung Magnus lät sätta sitt sigill för brevet; stadgan gjord och skriven på Alnö 1285",
+   "plats:sdhk:vastergotland",
+   "Oc war þættæ skippæt.oc scriwæt.i. alnu æptir wars hærræ fözllo þagh. þusæn arum. oc tu hundræþ. arum oc attatighi. oc fæm arum.",
+   "Alsnö stadga; kung Magnus är Magnus Ladulås"
+  ],
+  [
+   "lag:vidhemsprastens_anteckningar:vidhemspr_5",
+   "begrepp:biskop",
+   "stiftar_lag",
+   "=ärkebiskop Jakob av Uppsala och biskoparna Anund av Strängnäs, Kettil av Finland och Asser av Växjö var med, sade ja och svor att hålla stadgan",
+   "plats:sdhk:vastergotland",
+   "Wiþ þæssæ waræ skippæn waru wiþær mangir ærllikir mæn. oc gawu þær ia til. oc sworo at þer sculþu hanæ haldæ.",
+   "Biskoparna räknas upp i nästa mening; där nämns också riddare och andra som inte har tagits ut.; Biskoparna är inte kopplade till personer: ärkebiskop Jakob dog 1281, så dateringen 1285 och identiteterna behöver prövas"
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_52",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|nio marker till biskopen om en man dräps i kyrkan",
+   "plats:sdhk:vastergotland",
+   "verder. ᛘ. i. kyrkiu dräpin þer a. biscuper. firi ix. marker.",
+   "Biskopens rätt 'at gamblum lagum varum'; övriga böter för dråpet sägs inte här."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_kb_52",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|nio marker vid dråp i kyrka",
+   "plats:sdhk:vastergotland",
+   "verder. ᛘ. i. kyrkiu dräpin þer a. biscuper. firi ix. marker.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|tre marker för varje nämndeman om nämnden går åter från sin ed, varav biskopen tar tre marker",
+   "plats:sdhk:vastergotland",
+   "gangir þe nempd atir þa böte hun hwar nempdämaþir. iij. marker. oc. þer takir. biscupir. af. iij. marker",
+   "Kb 52, Tillägg 13:2. Häradsnämnden får självmant erbjuda sig att fria, och häradshövdingen får inte avvisa den."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:ovald",
+   "paforljd",
+   "begrepp:boter|tolv marker för häradshövding som tvingar nämnden att fria i ett mål, varav biskopen tre marker",
+   "plats:sdhk:vastergotland",
+   "kusker häräzhöfþingi nempdenä at wäriä nokot mal oc finz þät mz fullum witnum. þa böte häräzhöfþingi. xij. marker.",
+   "Skyddar nämndens oväld mot domaren."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:ovald",
+   "kraver",
+   "begrepp:vittne|fulla vittnen för att fälla häradshövding som tvingat nämnden",
+   "plats:sdhk:vastergotland",
+   "kusker häräzhöfþingi nempdenä at wäriä nokot mal oc finz þät mz fullum witnum.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:namnd",
+   "utses_av",
+   "=bönderna och häradshövdingen gemensamt; en tjänsteman får bli nämndeman bara med bådas vilja",
+   "plats:sdhk:vastergotland",
+   "Engin þianosto man ma nempdaman wärä vtän þät se baþe mz bondänä oc häräzhöfþingä wiliä.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|tjänsteman (þianosto man) utan böndernas och häradshövdingens vilja",
+   "plats:sdhk:vastergotland",
+   "Engin þianosto man ma nempdaman wärä vtän þät se baþe mz bondänä oc häräzhöfþingä wiliä.",
+   "Jävsgrunden är tjänsteställningen, sannolikt hos en herre; motivering anges inte."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|tre gånger sexton örtugar och förlust av nämndplatsen för den som tränger sig in som nämndeman mot häradshövdingen och bönderna",
+   "plats:sdhk:vastergotland",
+   "hwar sik drängir til at wärä nempdäman a mot häräzhöfþingä oc bondom böte. iij. xvj.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:boter",
+   "tillfaller",
+   "=kungen, häradet och bönderna en tredjedel var, när någon trängt sig in i nämnden",
+   "plats:sdhk:vastergotland",
+   "örtogh oc misty nempdinä / enä konongi. ena häräz oc enä bondonom",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_ab_8",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lagman|tolv skäliga män av landet på landstinget, när häradsnämnden gått oskäligt",
+   "plats:sdhk:vastergotland",
+   "þa skal lagman nempnä tolf skiallicä mz af landeno a lanzþing skudþä.",
+   "Tillägg 2:14. Gäller också när en häradsnämnd gått med en annan häradsnämnd."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|tre marker för nämndeman som ger orätt framsägen",
+   "plats:sdhk:vastergotland",
+   "Gör nempdäman {frangä} [vrangä] framsaghu böte. iij. marker",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:boter",
+   "tillfaller",
+   "=målsäganden, kungen och häradet en mark var, när en nämndeman gett orätt framsägen",
+   "plats:sdhk:vastergotland",
+   "oc þär taki malsäghendi enä af. aþra. kononger. oc þriþia häraþ",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:vittne|den av bonden och nämndemannen som får flest grannar till vittne med tolvmannaed har vitsord om fällningen var rätt",
+   "plats:sdhk:vastergotland",
+   "haui þen þärra witzorþ märä far af grannum til withnis mz. xii. mannä eþe",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:landsflykt|gärningsmannen själv flyr landet; skulden får inte läggas på fadern, även om sonen är ogift och oskiftad",
+   "plats:sdhk:vastergotland",
+   "bryter ezörä eig ma firi faþer hans skyflä vtän han sum {gärþerte} [gärþerne] görþe flyi land.",
+   "För andra lagabrott böter fadern för sonen."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungens rätt i köpstaden, om den som dräper eller slår i köpstad tas inom stadsgränsen",
+   "plats:sdhk:vastergotland",
+   "wärþir fangin innän tacmarkänä böte konong rät i {... staþ} [cöpstaþ] häraz rät þär han bor.",
+   "Gäller slag, hugg, dråp och andra brott i köpstad. Tas han inte, böter han båda rätterna hemma. Målsäganden får alltid sin rätt."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|häradets rätt i det härad där gärningsmannen bor, vid dråp eller slag i köpstad",
+   "plats:sdhk:vastergotland",
+   "wärþir fangin innän tacmarkänä böte konong rät i {... staþ} [cöpstaþ] häraz rät þär han bor.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "paforljd",
+   "=arvingen nöjer sig med den bot den sårade själv tog, om han förlikts med tre mäns vittne och sedan dör av samma sår",
+   "plats:sdhk:vastergotland",
+   "Wärþer. ᛘ. saar oc sätiz sialuir mz tryigiä manni witni. oc dör af samu sarum aruin liti at þe bot sum hin sialuer tok",
+   "Talan: arvingen."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|med två mäns vittne av dem som var med vid förlikningen, om arvingen kräver ny bot för den som dog av förlikta sår",
+   "plats:sdhk:vastergotland",
+   "krauir aruin aþra bot wäri sic þän {sargsaþe} [sargaþe] mz. xij. eþe oc tiuogä mannä witnum",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som går på annans åker eller äng med vredesvilja och hugger, slår eller dräper ligger ogill; det han själv gör är tvegillt",
+   "plats:sdhk:vastergotland",
+   "Gangir. ᛘ. a aker eller äng manz vm war eller höst mz vrezviliä. hoggir slar eller {drä...} [dräper] wari alt vgilt þät han faar oc þät twegilt bonden faar",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|fjärdingsnämnden, om parterna tvistar om vredesviljan",
+   "plats:sdhk:vastergotland",
+   "skil þem vm vrezviliä liggi þät til fiarþunx nempdenä.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|häradsnämnden värjer eller fäller den som anklagas för att ha lejt någon att dräpa eller såra",
+   "plats:sdhk:vastergotland",
+   "gifs manni sac at han leghir man til at dräpä eller sarghä wäri sic mz häräznempd. þän sum lägonä gaf.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:drap",
+   "paforljd",
+   "=den som lejt dråparen svarar som om han själv gjort det; legooxen ligger ogill",
+   "plats:sdhk:vastergotland",
+   "swari sum han sialwär gört hafþi oc legho oxe liggi vgil › r",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|fjärdingsnämnden utreder alla kungens edsöresmål inför häradsnämnden",
+   "plats:sdhk:vastergotland",
+   "For alt kononxs ezöre scal skirä fiarþung nempd firi häraz nempd",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:ed|häradshövdingen, eller den som är i hans ställe, svär ensam inför häradsnämnden",
+   "plats:sdhk:vastergotland",
+   "häräzhöfþinge swäriä ensämin firi häräz nempdene eller þän i. stad hans är",
+   "Vad eden gäller sägs inte; möjligen att målet är rätt utrett."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_rb_15",
+   "begrepp:edsore",
+   "definieras_som",
+   "=edsöret gäller klerker lika som andra",
+   "plats:sdhk:vastergotland",
+   "skal clarcir swa ezöre sum aþru",
+   "Andra brott av präster på kyrkans gods böts till biskopen."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|för den som gör gärning i målet under en frist (dagh) som borgen gått för; borgensmannen böter tre gånger nio marker",
+   "plats:sdhk:vastergotland",
+   "þa þen garnegä gör rymi land en byrhären böte. iij. niu marker",
+   "Gäller fristbrott i lagmål som dråps- och sårmål. Tas gärningsmannen och gör inte borgensmannen skadeslös, dömer lagmannen honom fridlös på landstinget."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "=frist genom ombud i dråpsmål ges på landsting, häradsting eller fjärdingsting, eller med öppna brev från skäliga män",
+   "plats:sdhk:vastergotland",
+   "i. lagmalum swa sum är drap eller sarä mall þat scal han göre a lanzþingh häräzþingh fiarþiunxþingh eller mz vpnum brewum skiallicrä mannä",
+   "Annars är fristen inte laggill."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|kvinna som mördar sitt barn, hednat eller kristnat, och tas på bar gärning",
+   "plats:sdhk:vastergotland",
+   "Myrþir conä barn sith heþet eller cristith / wärþir fangin wiþ misti lif sith",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|häradsnämnden värjer eller fäller kvinna som anklagas för barnamord",
+   "plats:sdhk:vastergotland",
+   "witiz hun þät. wäris mz häraz nempdone oc böte. xl. marker.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:boter|fyrtio marker, delat på tre ställen, om hon fälls för barnamord; hon mister också sitt arv",
+   "plats:sdhk:vastergotland",
+   "witiz hun þät. wäris mz häraz nempdone oc böte. xl. marker.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tre marker av kungens rätt vid barnamord",
+   "plats:sdhk:vastergotland",
+   "[af] konongs. rät. taki. biscupir. iij. marker",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "=syskon i oskiftat bo som dräper böter av sina egna penningar, inte syskonens",
+   "plats:sdhk:vastergotland",
+   "far nokot þerra at dräpä ellder nocrä höghä gerning görä böte af sinum enpenningum firi oc [eig] sinnä syzkinä",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_gb_2_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=deltar både man och kvinna i samma dråp tas mannen till dråpet, inte kvinnan",
+   "plats:sdhk:vastergotland",
+   "är alt. i. eno drape. ᛘ. oc conä þa scal {ma} [man] til draps takä oc eig cono.",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_dr_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|tolv öre tillsammans för bröder som söks för ett gårdsfölje",
+   "plats:sdhk:vastergotland",
+   "Bröþer samän söcter til ätter both allir firi eno garþliþi. böte allir. xij. örä.",
+   "Ätteboten som dråparens fränder betalar, utdrag ur Dr 7. Fortsättningen av tabellen är svårläst."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_dr_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|sex öre tillsammans för brorssöner",
+   "plats:sdhk:vastergotland",
+   "bröþrä synir samen söcter böte allir. vj. örä",
+   "Söks var och en på sitt ställe, böter var och en sex öre."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_dr_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|tre öre tillsammans för bröders barn",
+   "plats:sdhk:vastergotland",
+   "bröþerlongä barn samän {soc} [söct] böte al. iij. örä",
+   null
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_dr_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:attebot|sex öre tillsammans för systersöner",
+   "plats:sdhk:vastergotland",
+   "systra synir samen söcter böte allir. vj. örä",
+   "Därefter hälften mindre för varje led, på fädernet som mödernet."
+  ],
+  [
+   "lag:yngre_vastgotalagens_aldsta_fragment_lydekini_excerpter_och_:lydek_forn_36",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:edgard|omyndig, träl och fridlös man får inte stå i ed; står någon sådan i eden är den laga eden förverkad",
+   "plats:sdhk:vastergotland",
+   "eig ma ovormaghi þrel elle friþlös man. i. eþe stanþä",
+   "Tillägg 2."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_1",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|dråpet lyses och på tredje tinget kärar arvingen och nämner banemannen",
+   "plats:sdhk:vastergotland",
+   "þa skal vighi lysæ. ok forfal æruingiæ ok a aþro þinge. æn a þriþia þinge. skal han æptir mælæ.",
+   "talan förs av arvingen (arui), som själv väljer vem han ger banesak"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_3",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|arvingen vinner banesaken med två tolfter",
+   "plats:sdhk:vastergotland",
+   "bana orþ meþ tuenni tölftom",
+   "tingsmännen vittnar först om domen; vid dråp kan även halvbane, fem åtvistarmän och en rådsbane nämnas"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_3",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tingsmännens vittne om att banesaken nämnts på tinget",
+   "plats:sdhk:vastergotland",
+   "þa skal a edahgæ þings mannæ vitne latæ bæræ"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråparen döms fridlös och ogill inför arvingar och målsägande",
+   "plats:sdhk:vastergotland",
+   "Latæ þömæ han friþlösan. ok vgilþan firi aruæ ok æptir mælænþæ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_4",
+   "begrepp:drap",
+   "paforljd",
+   "=den som umgås med den fridlöse dråparen böter tre marker",
+   "plats:sdhk:vastergotland",
+   "böte þen sum han samuistas meþ. III. marker.",
+   "gäller om dråparen inte bjudit böter; även tolv marker (häradshövdingen) och fyrtio marker (häradet) nämns om han får sitta kvar, läsningen osäker"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|nio marker arvabot och tolv marker ättebot",
+   "plats:sdhk:vastergotland",
+   "þa skal bötæ niu marker aruabot. ok tolf marker ættærbot.",
+   "om målsägandena vill ta böter"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_6",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:arv|sex marker",
+   "plats:sdhk:vastergotland",
+   "Sæx marker skal arue at ættærbot takæ. ok sæx marker ætin."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_6",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|sex marker",
+   "plats:sdhk:vastergotland",
+   "Sæx marker skal arue at ættærbot takæ. ok sæx marker ætin."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_7",
+   "begrepp:attebot",
+   "tillfaller",
+   "begrepp:att|tre marker på fädernet och tre på mödernet",
+   "plats:sdhk:vastergotland",
+   "Þremarker a fæþerne ok þre a möþerne.",
+   "därefter en fallande skala per led, hälften mindre för varje led ut till sjätte man"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_7",
+   "begrepp:attebot",
+   "definieras_som",
+   "=präst varken tar eller ger ättestöd",
+   "plats:sdhk:vastergotland",
+   "Prester skal eig takæ ættærstuþa. ok eig vt göræ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|ätteledd f.d. träl böter nio marker arvabot och sex marker ättebot",
+   "plats:sdhk:vastergotland",
+   "han skal ater bötæ meþ niu markum aruabot. ok sæx markum ættærbot.",
+   "frigiven böter allt utom halva ättebot, ty hans ätt är till hälften trälar"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|rådsbane värjer sig med tolft på fädernet och halv tolft på mödernet",
+   "plats:sdhk:vastergotland",
+   "þa skal han vita firi a enþaghæ meþ tylft a fæþerne ok halfre tylft a möþerne.",
+   "texten (Db 8) står i passagen för innehållsförteckningen"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|rådsbane som fälls böter fyra och en halv mark",
+   "plats:sdhk:vastergotland",
+   "Falz razbani han böte halfemte mark.",
+   "Db 8"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|ingen andel av halvbanes och rådsbanes bot",
+   "plats:sdhk:vastergotland",
+   "eig a kononger sak af halbenþ æller razbenþ.",
+   "Db 8"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|en örtug och fem öre av åtvistarman",
+   "plats:sdhk:vastergotland",
+   "af atuistæ manni a saksöke örtugh ok fem öræ. ok swa a kononger ok swa hærætþ.",
+   "Db 8"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|en örtug och fem öre av åtvistarman",
+   "plats:sdhk:vastergotland",
+   "af atuistæ manni a saksöke örtugh ok fem öræ. ok swa a kononger ok swa hærætþ.",
+   "Db 8"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:innehallsforteckning",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|en örtug och fem öre av åtvistarman",
+   "plats:sdhk:vastergotland",
+   "af atuistæ manni a saksöke örtugh ok fem öræ. ok swa a kononger ok swa hærætþ.",
+   "Db 8"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_9",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|bonden böter arvabot och ättebot när hans träl dräper en ättboren man",
+   "plats:sdhk:vastergotland",
+   "bonþe skal sak bötæ. baþe arua bot ok ættærbot."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tretton marker och åtta örtugar, ingen ättebot, för man från riket som inte är västgöte",
+   "plats:sdhk:vastergotland",
+   "böte firi atta örtugher ok þrættan marker. ok eig ættærbot."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:landskap|nio marker av mandråp",
+   "plats:sdhk:vastergotland",
+   "Niu marker aghu alle mæn af mandrape. ok IX marker kononger",
+   "alle mæn tolkat som landet; osäkert om det gäller bara denna flock"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|nio marker av mandråp",
+   "plats:sdhk:vastergotland",
+   "Niu marker aghu alle mæn af mandrape. ok IX marker kononger"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_11",
+   "begrepp:drap",
+   "paforljd",
+   "=kvinnans närmaste frände ska böta eller fly fridlös när kvinna dräper man",
+   "plats:sdhk:vastergotland",
+   "han skal botom wærþæ æller friþ flyæ.",
+   "talan riktas mot kvinnans närmaste frände; brodern tar vängåva och svarar därför för moder och syster"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_12",
+   "begrepp:drap",
+   "paforljd",
+   "=för dråp på utrikes man behöver dråparen inte fly ur sitt fosterland",
+   "plats:sdhk:vastergotland",
+   "Firi þrap vtan rikismanz ma eig friþ flyæ or sinu fosterlanþe"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|nio marker för dansk eller norsk man",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer dankan man böte niu marker."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_14",
+   "begrepp:drap",
+   "paforljd",
+   "=för utrikes präst lika mycket som för inhemsk man",
+   "plats:sdhk:vastergotland",
+   "æmmykit firi præst sum hærlenskan man"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|nio marker för sydlänning, engelsman eller ymuman",
+   "plats:sdhk:vastergotland",
+   "böte niu marker þem sak söke. tuar kononge."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_15",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:malsagande|nio marker",
+   "plats:sdhk:vastergotland",
+   "böte niu marker þem sak söke. tuar kononge.",
+   "gäller dråp på sydlänning eller engelsman"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_15",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:kung|två marker",
+   "plats:sdhk:vastergotland",
+   "böte niu marker þem sak söke. tuar kononge.",
+   "tuar tolkat som två marker; osäkert"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_16",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker för träl, fyra om ägaren svär att han var så mycket värd",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer þræl manz. böte firi þre marker.",
+   "ingen kungs- eller häradsandel, bara målsäganden"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_17",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som dräps på samma vigvall i samma stund",
+   "plats:sdhk:vastergotland",
+   "liggi a værkum sinum þær a eig ræt a. eig karl ok eig kononger."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_18",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|nio marker när galen man som lupit ur banden dräper",
+   "plats:sdhk:vastergotland",
+   "Dræper galin maþer man. löper vr bandum. böte han ater meþ niu markum."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_19",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|tjuv som dräps när han möts med det stulna",
+   "plats:sdhk:vastergotland",
+   "þa skal þöþum sak kiuæ. ok latæ vgildan dömæ a þinge.",
+   "om ägaren inte kan få fast honom innan han dräper honom"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_19",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|den döde tjuven ges sak och döms ogill på tinget",
+   "plats:sdhk:vastergotland",
+   "þa skal þöþum sak kiuæ. ok latæ vgildan dömæ a þinge."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_20",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och dräps på husbondens tröskel",
+   "plats:sdhk:vastergotland",
+   "dræper han hemæ af sik a hyrnustokke sinum. giui ok þöþum sak ok late þömæ vgilþan siþan a þinge."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_21",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|lövvirking eller grimman som ligger i skogen",
+   "plats:sdhk:vastergotland",
+   "Giærs maþer löfuirkinger. ligger i. skoghum. giors grimu maþer. dræper maþer han af sær. giui doþum sak ok late þömæ vgildan a þinge."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|man som dräps i säng hos ens hustru",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer man.i. siængo hos kono sinni æller annar staþ laglikæ meþ vitnum takin.",
+   "den döde förs till tinget och blodet visas"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_22",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|två tolfter nämndemän, häradshövdingen leder eden",
+   "plats:sdhk:vastergotland",
+   "viti meþ tuenni tylftom nempþæmannæ. ok hæræzhöþinge hofþe eþin.",
+   "för att få den dräpte förklarad ogill"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_23",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när någon löper på vapen som en man håller",
+   "plats:sdhk:vastergotland",
+   "Halder maþer a vapne sinu. löper maþer a. far bana af. böte firi niu marker.",
+   "lagen använder inte ordet våda här; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|hela boten, ingen annan har sak",
+   "plats:sdhk:vastergotland",
+   "þær a ingin sak a flere en sak söke."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_25",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när fällt träd dödar",
+   "plats:sdhk:vastergotland",
+   "Fællir maþer træ niþer a man. far banæ af. böte firi niu marker."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_26",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när pil skjuten i luften dödar",
+   "plats:sdhk:vastergotland",
+   "böte firi. IX. marker."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_28",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "=grannarna böter nio marker eller skaffar banemannen vid dråp utanför grind",
+   "plats:sdhk:vastergotland",
+   "þa skulu grannar. bötæ niu marker. æller bana fa."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_29",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:tylftered|byarna värjer sig var med två tolfter när dråp sker mellan tre byar",
+   "plats:sdhk:vastergotland",
+   "þa skulu þer værria sik meþ tuenni tylftom.",
+   "faller ingen eller alla böter alla gemensamt nio marker"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_31",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:tylftered|närmaste by värjer sig med två tolfter vid okänd bane på allmänning",
+   "plats:sdhk:vastergotland",
+   "þa skal han væriæ sik meþ tuenni tylftom."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_31",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "=närmaste härad böter nio marker eller skaffar banemannen när byarna värjt sig",
+   "plats:sdhk:vastergotland",
+   "ok þingat söker fang ok fiær gant han ater bötæ meþ. IX. markum. æller bana fa."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_32",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (kvarnhjul)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. þen ær a.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_33",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (brunn)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. marker þen ær a.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_34",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (spång)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. marker.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_35",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (fiskgård)",
+   "plats:sdhk:vastergotland",
+   "böte firi III. marker þen sum a.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_36",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (björnspjut)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. marker þen ær a.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_37",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (älgstock)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. marker þen ær a.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_38",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (rest träd)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III marker þen ær a. ok vp reste.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_39",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tre marker av ägaren (husdjur)",
+   "plats:sdhk:vastergotland",
+   "böte firi. III. marker. ok swa firi annur hemæföþ diur.",
+   "lagen använder inte ordet våda; klassificeringen är tolkning"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_40",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|lösa män från utrikes som dräper vid hemgång, inte biltoga",
+   "plats:sdhk:vastergotland",
+   "þa skulu þe lif lata ok eig biltoghe læggiæs."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_40",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|häradsnämnden i det härad där gärningen skedde",
+   "plats:sdhk:vastergotland",
+   "ok gömæs til þes hæræznæmpþ.i. þy hæræþi sum giærningin var gör innan."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_41",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|den som med våld tvingar man att lämna ut sin hustru, inte biltog",
+   "plats:sdhk:vastergotland",
+   "fellis han firi þa sak. þa skal han lif latæ. ok eig biltugher lægiæs.",
+   "hemgång med våld för att skända hustrun"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_db_41",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:namnd|häradsnämnden i det härad där gärningen skedde",
+   "plats:sdhk:vastergotland",
+   "gömæs til þes hæræznemþ. i þy hæraþe sum giærnin ær giorþæs innan."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_10",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|häradshövdingen värjer den oskyldigt anklagade med två tolfter nämndemän av häradet",
+   "plats:sdhk:vastergotland",
+   "þa skal hæræzhöþinge hans væriæ han meþ tuænni tylftom næmpþæmannæ af hæræþe",
+   "vid orätt banesak"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_11",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av det som delas vid boskifte",
+   "plats:sdhk:vastergotland",
+   "taker en lot saksöki annan kononger. þriþiæ hæræþ.",
+   "när fridlös löser sin frid och edsöret inte brutits; hustrun tar först sin tredjedel och tre marker, arvingen hälften av resten"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_11",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av det som delas vid boskifte",
+   "plats:sdhk:vastergotland",
+   "taker en lot saksöki annan kononger. þriþiæ hæræþ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_11",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av det som delas vid boskifte",
+   "plats:sdhk:vastergotland",
+   "taker en lot saksöki annan kononger. þriþiæ hæræþ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|kvinna som förgjort en man och fälls av lukt häradsnämnd",
+   "plats:sdhk:vastergotland",
+   "fællir hana luct hæræznæmpþin. þa skal hun friþ hauæ til skoghs.",
+   "firi giæra tolkat som att döda genom trolldom eller gift; hon döms ogill inför arvingarna"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_12",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|lukt häradsnämnd",
+   "plats:sdhk:vastergotland",
+   "fællir hana luct hæræznæmpþin."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_13",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|den som sårat värjer sig med lukt häradsnämnd när den sårade dör senare",
+   "plats:sdhk:vastergotland",
+   "þa skal han værriæ sik meþ lucte hæræznæmpþinni."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_frb_13",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|om den sårade dör inom natt och år och den anklagade fälls",
+   "plats:sdhk:vastergotland",
+   "æn han þör innan nat ok iamlængæ. falz han ater. böte ater mannin",
+   "dör han senare svarar sårgöraren inte för dråp"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:forverkat_gods|den som dräper sin rätte herre förverkar land och alla lösören",
+   "plats:sdhk:vastergotland",
+   "han hauir firi giort lanþæ ok lösum örum allum.",
+   "orbotamål"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp i kyrka är orbotamål",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer.i. kyrkiu. þet ær orbotæ mal."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp på ting är orbotamål",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer a þinge. þet ær orbotæ mal."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:mordbrand",
+   "definieras_som",
+   "=att bränna man inne är orbotamål",
+   "plats:sdhk:vastergotland",
+   "Brennir maþer man inni. þet ær orbotæ mal."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:mord",
+   "definieras_som",
+   "=att mörda en saklös man för pengars skull är orbotamål",
+   "plats:sdhk:vastergotland",
+   "Miþir maþer man saklösan for pæningæ skylþ. þæt ær orbotæ mal."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=orbotamål, även för alla som följer gärningsmannen, var och en huvudman",
+   "plats:sdhk:vastergotland",
+   "Giær maþer manni hemsokn. þet ær orbotæ mal. ok allir þer hanum fylgiæ. er huar houozman firi sik."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=hemfrid bryts när man löper på inhägnad tomt där hus står, eller in i hus",
+   "plats:sdhk:vastergotland",
+   "Löper maþer a tompt sum giært ær vm. ok hus stanþ a. þet ær hemfriþer."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:valdtakt",
+   "definieras_som",
+   "=att ta kvinna med våld är orbotamål",
+   "plats:sdhk:vastergotland",
+   "Taker maþer kono meþ valþ. þet ær orbotæ mal."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=orbotamålen (dråp på herre, inbränning, gridsbrott, dråp i kyrka och på ting, mord, hemsökn, våldtäkt, härjning, hämnd på annan, sjöröveri, hämnd för räfst, lejt dråp) är kungens edsöre",
+   "plats:sdhk:vastergotland",
+   "All þæssi mal æru ezöre konongs."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|gärningsmannen löser sig ur skogen hos kungen med fyrtio marker när målsäganden ber för honom",
+   "plats:sdhk:vastergotland",
+   "losæ sik huar af skoghe viþ konong meþ firitighi markum. þaghær han biþer firi hanum sum han hauir brutit viþ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|boskifte",
+   "plats:sdhk:vastergotland",
+   "Firi all þessi mal skal boo skiptæ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:hustru|hustrun först sin tredjedel och tre marker om hon är oskyldig",
+   "plats:sdhk:vastergotland",
+   "taker husfru æ först sin þriþiung ok þre marker æn hun ær vbrutlik."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel",
+   "plats:sdhk:vastergotland",
+   "taki æn lot malseghanþin. annan kononger ok þriþiæ hæraþe."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel",
+   "plats:sdhk:vastergotland",
+   "taki æn lot malseghanþin. annan kononger ok þriþiæ hæraþe."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_1",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|en tredjedel",
+   "plats:sdhk:vastergotland",
+   "taki æn lot malseghanþin. annan kononger ok þriþiæ hæraþe."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att dräpa fader, moder, son, dotter, broder eller syster",
+   "plats:sdhk:vastergotland",
+   "Thæt ær niþings værk at þræpe faþur æller moþer sun æller þotter broþer æller systur."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:landsflykt|fränddråp kan inte bötas inom landet; dråparen bär nidingsnamn utom landet",
+   "plats:sdhk:vastergotland",
+   "ma eig innan lanz bötæ. bæri niþings nampn vtan lanz ok böte synþ sinæ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=att dräpa man på ölbänk är nidingsverk",
+   "plats:sdhk:vastergotland",
+   "Þet ær niþings værk at þræpæ man.i. ölbenk."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=att dräpa en sovande man är nidingsverk",
+   "plats:sdhk:vastergotland",
+   "Þet ær niþings værk at skiutæ in at liuræ ok þræpæ man swa sowen."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=att dräpa man i kyrka eller när han förrättar sina behov är nidingsverk",
+   "plats:sdhk:vastergotland",
+   "Þet ær niþings verk þræpæ man.i. kirkyu ællær ee huar han nöter þarua sinnæ.",
+   "dråp i kyrka kallas i Ob 1 orbotamål och här nidingsverk"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=att dräpa kvinna är nidingsverk",
+   "plats:sdhk:vastergotland",
+   "Þæt ær niþings værk at þræpæ kono."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:boter|sex gånger nio marker",
+   "plats:sdhk:vastergotland",
+   "Firi all þessi niþings værk skal bötæ sæx sinnum. IX. marker."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ob_2",
+   "begrepp:nidingsverk",
+   "kraver",
+   "begrepp:namnd|fjärdingsnämnden för att värja sig",
+   "plats:sdhk:vastergotland",
+   "æller væri sik meþ fiærþungs nempþinni."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_rlb_3",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:bonde|alla bönder väljer lagmannen, som ska vara bondeson",
+   "plats:sdhk:vastergotland",
+   "Bonþæ sun skal laghmaþer varæ. þy skulu alle bönder raþa meþ guz miscunþ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_rlb_3",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:kung|kungen sätter nämnd för sig, lagmannen på tinget",
+   "plats:sdhk:vastergotland",
+   "kononger skal nempþ firi sik sætiæ. ok laghmaþer a þingæ.",
+   "osäker läsning; kan också betyda att kungen sätter nämnd och lagmannen sitter på tinget"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_5",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp i kyrka är nidingsverk och gör kyrka och kyrkogård oren",
+   "plats:sdhk:vastergotland",
+   "Uærther mather i kirkyu dræpin. thæt ær nithinxsuærk tha ær hun all vskijr."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker till biskopen för kyrkans återinvigning",
+   "plats:sdhk:vastergotland",
+   "tha skal gifua biskupe thre mark fore skirsl."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_22",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|tre marker och full ersättning till sockenmännen för dråp eller sår på kyrkogården",
+   "plats:sdhk:vastergotland",
+   "þæn gærningena gyorthe giælde ater soknamannum fult fore kosten oc a þre marker.",
+   "biskopen bannlyser honom tills han gör rätt"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_kkb_52",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|nio marker för dråp i kyrka",
+   "plats:sdhk:vastergotland",
+   "værþer maþer i kirkyu dræpin. thær a biskuper. IX. mark fore."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_14",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen får inte ärva den dräpte",
+   "plats:sdhk:vastergotland",
+   "Dræper maþer man. vil haua arf hans. han skal eig arue hans varæ."
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_ab_14",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:namnd|lukt häradsnämnd avgör om dråpet var vådaverk",
+   "plats:sdhk:vastergotland",
+   "Sigher han at han drap han meþ vaþa værki. þet skal luct hæræz nempdin væriæ æller fællæ.",
+   "värjs han ärver han"
+  ],
+  [
+   "lag:yngre_vastgotalagen_enligt_holm_b_58:yvgl_tjb_17",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|tjuv som dräps eller såras när han tas med full tjuvnad",
+   "plats:sdhk:vastergotland",
+   "æn han dræper han æller saghær. væri þet vgilt en han faar han meþ fulþre þiuft."
+  ]
+ ]
+}

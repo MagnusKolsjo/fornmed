@@ -1,0 +1,2148 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Magnus Erikssons landslag, extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/magnus_erikssons_landslag.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_4",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=kungen väljs och ärver inte riket",
+   "plats:sdhk:sverige",
+   "Nu ær til kunungx rikit suerike kununger væliande ok ey æruande"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_4",
+   "begrepp:kung",
+   "utses_av",
+   "begrepp:lagman|lagmännen, var och en med tolv kloka män ur sin lagsaga, väljer kung vid Mora ting",
+   "plats:sdhk:sverige",
+   "æt fornæmde laghmæn, huar af laghsaghu sinne, skal, meþ samþykkio aldra þera i laghsaghu boande æru, tolf mæn taka, vitra ok snialla",
+   "Valet sker 'til moroþingx'."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_4",
+   "begrepp:konungaval",
+   "handlaggs_vid",
+   "=Mora ting",
+   "plats:sdhk:sverige",
+   "til moroþingx koma kunung æt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "=första rösten har lagmannen av Uppland, sedan Södermanlands, Östergötlands, Tiohärads, Västergötlands, Närkes och Västmanlands lagmän",
+   "plats:sdhk:sverige",
+   "Försto röst agher laghmannin af vplandum haua, ok þe meþ honum næmde æru, han til kunungx döma; þær næst huar laghmaþer æfte aþrum, suþermanna, ösgöta, tij heræþ, vesgöta, nærikis ok vestmanna"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_4",
+   "begrepp:konungaval",
+   "kraver",
+   "=den valde ska vara infödd, helst kungason, och väljas av alla eller flertalet lagmän",
+   "plats:sdhk:sverige",
+   "Huilikin en af inrikis föddum, ok hælzt af kunungæ sunum æn þe til æru"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungen ger alla inbyggare sina eder samma dag och på samma plats",
+   "plats:sdhk:sverige",
+   "Nu a sama dagh ok staþ agher kununger allum inrikis boandum tryggia {eþe} [eþa] sina giua.",
+   "Edens sju artiklar följer i flocken."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens andra artikel: stärka all rättvisa och sanning och trycka ned all orätt",
+   "plats:sdhk:sverige",
+   "Annar articulus ær þæt, æt han skal alla rætuiso ok sannind styrkia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungens tredje artikel: ingen fördärvas till liv eller lem utan att lagligen vara överbevisad",
+   "plats:sdhk:sverige",
+   "ængin fatökan ællæ rikan nakarum lundum fordarua {af} [a] liif ællæ limi, vtan han se laghlika forwnnin"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|edgången: kungen svär på bok med helgedom i handen",
+   "plats:sdhk:sverige",
+   "Nu agher kununger eeþ sin suæria a bok ok helghodoma i hand sinne halda"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "definieras_som",
+   "=laglig kung över hela Sverige när han valts av lagmän och landsmän och svurit sina eder",
+   "plats:sdhk:sverige",
+   "Þaghar han ær af laghmannum ok landzmannum sua valder ok til kunungx {domder} [dömder], ok hauer eþa sina gangit sum för ær sakt, þa ær han laghliker kununger iuir alt suerike"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_5",
+   "begrepp:kung",
+   "kraver",
+   "begrepp:samtycke|ingen ny lag ges allmogen utan dess ja och goda vilja",
+   "plats:sdhk:sverige",
+   "ængin ok þön lagh giuis almoghanum vtan ia ok goþ uilia þera.",
+   "Sjunde artikeln i kungens ed. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_6",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|lagmannen av Uppland och var lagman med allmogen svär kungen eder när han tas till kung",
+   "plats:sdhk:sverige",
+   "Nu agher laghmaþer af vplandum, ok huar af laghsaghu sinne, ok alder almoghe meþ þem næruarande þa kununger takx, þessa eþa gangæ.",
+   "Artiklarna: ha honom till kung, lydnad, trohet och härfärd till landamäret, skatt."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_6",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|folkets ed binder unga och gamla, ofödda och födda, frånvarande som närvarande",
+   "plats:sdhk:sverige",
+   "binz baþe vnger ok gamall, ofödder ok födder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|kungen lovar i varje land och lagsaga att hålla de eder han svor i Uppsala",
+   "plats:sdhk:sverige",
+   "agher kununger i lande ok laghsaghu huarre loua ok iætta æt han skal þem alla eþa sina [halda] sum han suor i vpsalum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "kraver",
+   "=landsmännen följer kungen, ställer gisslan och svär eder",
+   "plats:sdhk:sverige",
+   "lanzmæn agha honum fölghia ok gisla sætia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:eriksgata",
+   "definieras_som",
+   "=kungens ritt kring landet: Uppsala–Strängnäs–Svintuna–Holaveden–Junabäck–Ramundaboda–Upphogs bro–Östens bro–Uppsala, där varje land möter med gisslan och följer honom",
+   "plats:sdhk:sverige",
+   "Nu agher han rætsylis vm land sit riþa"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_7",
+   "begrepp:kung",
+   "definieras_som",
+   "=lagligen kommen till land och rike när han ridit eriksgatan, valts enligt lag och utväxlat eder",
+   "plats:sdhk:sverige",
+   "Þa ær þen kununger laghlika til landz ok rikis kumin, ok erikx gatu sina riþit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_17",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna väljer hälften var av tolvmannanämnden",
+   "plats:sdhk:sverige",
+   "ligge til tolf manna næmd af resonne, ok raþe halue næmd huar þera",
+   "Gäller tvist om husbonde gett sin man skuld för rymning."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som dräps av försvarare eller ägare när han med våld tar gästning",
+   "plats:sdhk:sverige",
+   "Varþer ok nakar af væriande ællæ æghænde i þy sama dræpin þe þolikt göra, ligge ogilde sum fore suerþe kunungx"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|gäst som dräper vid gästning och tas på bar gärning: liv för liv",
+   "plats:sdhk:sverige",
+   "fangas þe a færske gærning, miste liif fore liif"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|gäster som dräper eller sårar på gästningsgården; allt de själva lider av bonden, hans hustru, barn eller husfolk på tomten är ogilt",
+   "plats:sdhk:sverige",
+   "ok ogilt alt þet þe fingo a tomptinne af bondanum, hans husfru, barnum ælla hionum",
+   "MEL KgB 23 § 7. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_23",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:kung|eller den som har kungens dom, när gäst som dräpt inte tas på färsk gärning",
+   "plats:sdhk:sverige",
+   "Fangas han ei a færske gerning, kumi felogher fore kunung ællæ fore þen sum hans dom hauer",
+   "MEL KgB 23 § 7. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:kung|tolv i varje lagsaga, valda och nämnda av kungen och lagmannen",
+   "plats:sdhk:sverige",
+   "þa agha tolf vara til skipaþe i huarre laghsaghu, meþ samþykkio valde ok til næmpde af kununge ok laghmanne i huarre laghsaghu",
+   "Kungsnämnden för brott mot konungabalken."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "begrepp:lagman|tolv i varje lagsaga, valda och nämnda av kungen och lagmannen",
+   "plats:sdhk:sverige",
+   "til næmpde af kununge ok laghmanne"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "kraver",
+   "begrepp:ed|inte fälla den skuldlöse eller fria den skyldige, inte för frändskap, svågerskap, rädsla, vänskap eller annan väld",
+   "plats:sdhk:sverige",
+   "ok þet ei lata for frændsæmio, maxsæmio ællæ {redde} [rædde] skuld, vinskap ællæ nakra vild"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_31",
+   "begrepp:kungsnamnd",
+   "definieras_som",
+   "=de tolv eller sju av dem avgör om den anklagade värjs eller fälls",
+   "plats:sdhk:sverige",
+   "Huem þesse tolf ællæ siu af þem væriæ, varin varþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för skyldskap; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia",
+   "Jävet ska bevisas ('pröuat ok fulkomnat'); de ersätts bara för det målet."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|part kan jäva kungsnämndens ledamöter för mågsämd; högst tre byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|vänskap, fejd, avund eller ovilja; högst tre ledamöter byts ut",
+   "plats:sdhk:sverige",
+   "æntiggia for skyldskap, maghxæmd, vinskap, feeghþ, auund ællæ ouilia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_kgb_32",
+   "begrepp:jav",
+   "kraver",
+   "=jävet ska bevisas och gäller högst tre av de tolv",
+   "plats:sdhk:sverige",
+   "giter þet {markelika} [mærkelika] pröuat ok fulkomnat in til eens, tuæggia ællæ þriggia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_1",
+   "begrepp:edsore",
+   "definieras_som",
+   "=hemsökn: att rida hem till annan för att skada honom, hans folk eller gäst och där dräpa, slå, hugga fullsår eller ge blodvite eller blåmärke; alla i flocken bryter edsöret",
+   "plats:sdhk:sverige",
+   "Riþer man heem at aþrum þes værkis, æt han vil bondæn ællæ hans hion"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_2",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att skada den som flyr till annans gård, sedan han kommit in på tomten eller i gården",
+   "plats:sdhk:sverige",
+   "taker þet han siþan han komber i hans tompt ællæ gard hans sum han til hiælpæ sökir, þa hauer han ok alle [þe] meþ honum varo brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_3",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att göra gärning på annan i badstuga, smedja, hemlighus eller lada utanför gården, där samma frid gäller som på tomt och i gård",
+   "plats:sdhk:sverige",
+   "i þessum husum agher man sama friþ haua sum a tompt ællæ garþe; huar sum þer gör gerning a annan, haui brutit eþzörit",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet om den flyende hinns upp innan han når tomten eller gården han flydde till",
+   "plats:sdhk:sverige",
+   "Nu kan þet taka hin sum firi löper för æn han komber a hans tompt sum han flyþe til ællæ hans garþ, þa haua þe ei brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "=hot utan gärning (ingen slagen till blod, huggen eller dräpt) är utan böter",
+   "plats:sdhk:sverige",
+   "þa ær hötter meþ ængo bötter"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre marker om hus bryts eller man eller kvinna knuffas utan blodvite",
+   "plats:sdhk:sverige",
+   "bryta þe hus ællæ skena, [ællæ] skiuua man ællæ kunu, ok komber ei bloþuite innan, þa böte þre marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_5",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:ed|sexmannaed för att fria sig, men först sedan nämnden frikänt honom för edsöret",
+   "plats:sdhk:sverige",
+   "ællæ dyli meþ siæx manna eþe, [ok gange ei siæx manna eþin] för æn næmdin hauer han vart fore eþzöreno"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och såras eller dräps under hemsöknen",
+   "plats:sdhk:sverige",
+   "Nu kan þen man hemsokn gör, varþa saar ællæ dræpin ællæ fa bloþuite i þy æt han gör heemsokn, þa ær þet alt ogilt sum han faar."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|hemsökaren som faller med fötterna innanför grinden och huvudet utanför; omvänt är han gill",
+   "plats:sdhk:sverige",
+   "falla föter {i garþzliþi} [innan garþzliþ] ok huwþ vtan [a] þem sum heemsokn giorþe, vare ogilder; falla föter vtan ok huwþ innan, vari gilder, þy æt þæþan fiull sum föter stoþo",
+   "Motivering: han föll därifrån där fötterna stod."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|enligt landslag om den hemsökte löper ut ur sin gård och dräper där",
+   "plats:sdhk:sverige",
+   "Nu kan þen löpa v garþe sinum, sum þe riþu heem aat, ok dræper, {ok} slar ællæ hugger siþæn þe v hans garþe koma, böte æfte landz laghum",
+   "Står under rubriken VI. i samma passage (flock 7)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_8",
+   "begrepp:edsore",
+   "definieras_som",
+   "=när män som skilts osams i en gård går ut, hämtar vapen eller hjälp och återvänder och hugger, slår eller dräper",
+   "plats:sdhk:sverige",
+   "vtan han gange v garþe {ok vreþer varþer} [siþan han vreþer varþ], ok hænte sik vapn ællæ hiælp, ok ganger sua ater i garþin, hugger, slaar ællæ dræper, þa hauer han ok alle meþ honum varo brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_8",
+   "begrepp:fridsbon",
+   "tillfaller",
+   "begrepp:malsagande|fridsbönen (rätten att bedja för brottslingen)",
+   "plats:sdhk:sverige",
+   "Nu {ægha malsæghanda} [agher malsæghandin] friþbönena ok iorþæghandin þriþiung af sköflingenne"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_8",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=jordägaren: en tredjedel av sköflingen",
+   "plats:sdhk:sverige",
+   "Nu {ægha malsæghanda} [agher malsæghandin] friþbönena ok iorþæghandin þriþiung af sköflingenne"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_8",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för inlänningen, sedan målsäganden fått bot och bett för brottslingen",
+   "plats:sdhk:sverige",
+   "þa taki kununger fyritighi marker for inlænningin"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_8",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|lagliga böter för drap eller sår, som arvingarna betalar om den biltoge dör före friden",
+   "plats:sdhk:sverige",
+   "geldin þa ater aruæ hans lagha böter, huat þet ær hælder drap ællæ saar, malsæghandænum ok ængum aþrum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=landbon som hemsöks: boskiftet, och dessutom sårböterna",
+   "plats:sdhk:sverige",
+   "þa ægher han baþe boskipte ok saraböter ok {ei} i friþ biþia",
+   "Utgåvans {ei} gör det osäkert om landbon också har fridsbönen. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_10",
+   "begrepp:fridsbon",
+   "tillfaller",
+   "begrepp:malsagande|fridsbönen, och dessutom sårböterna, när annan än landbon skadas eller dräps i landbons gård",
+   "plats:sdhk:sverige",
+   "þa agher malsæghandin baþe friþbönena ok sua sarabötrena",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_10",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=jordägaren: en tredjedel av sköflingen",
+   "plats:sdhk:sverige",
+   "ok iorþæghandin taki þriþiung af {sköflingena} [sköflinginne]"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_11",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas efter förlikning och bot",
+   "plats:sdhk:sverige",
+   "Nu hæmnis man a sæt maal ok böt, þa hauer han brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_11",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|nämnden avgör om annan tvist kom emellan",
+   "plats:sdhk:sverige",
+   "þa skal þet næmdin vita, huat hælder annar skælnaþer kom þera mællum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_12",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas sedan böter fästs med borgen, i stället för att kräva dem med lag",
+   "plats:sdhk:sverige",
+   "hæmnas man siþan böter æru borþæþæ, þa hauer han brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_13",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på annan än den som gjorde gärningen",
+   "plats:sdhk:sverige",
+   "hæmnis a annan, þa bryter han eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_13",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om rätt man drabbades",
+   "plats:sdhk:sverige",
+   "þa skal hæræz næmd vita huat hælder þen sami han hæmdis a giorþe gerningena a han"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldtäkt, också försök där han sliter hennes kläder och rop och anrop hörs",
+   "plats:sdhk:sverige",
+   "Nu taker man kunu meþ vald, þa hauer han brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:valdtakt",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör vad som är sant utifrån märken och rop",
+   "plats:sdhk:sverige",
+   "þet ska hæræznæmd vita huat þer ær sant vm"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|halshuggning om han tas på bar gärning och tolv män vittnar",
+   "plats:sdhk:sverige",
+   "þa ægher [han] vndi suærþ dömas ok halshuggin varþæ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|tolv män vittnar att han tagits på bar gärning",
+   "plats:sdhk:sverige",
+   "ok fangin a færske gerning, ok vitna han tolf mæn þer til"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldtäktsman som kvinnan dräper under övergreppet, om tolv män vittnar",
+   "plats:sdhk:sverige",
+   "dreæper hon han i þy, ok vitna sua tolf mæn, ligge ogilder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_14",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|om han rymmer ur landet med henne: ingen frid förrän kvinnans giftoman ber för honom",
+   "plats:sdhk:sverige",
+   "þa ægher han aldre friþ fa för æn kununna giftoman biþer for honum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_15",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att ligga i försåt för annan på tingsväg eller kyrkväg och dräpa, såra eller slå honom",
+   "plats:sdhk:sverige",
+   "Nu siter man fore andrum a þings vægh ællæ a kirkio vægh, ok vil han dræpa, sargha ællæ bæria för æn han komber til þings ællæ kirkio, gör nakat hær af, han hauer brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_16",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte brutet när dråp sker i plötslig tvist på tings- eller kyrkväg som inte kommer av gammal ovänskap",
+   "plats:sdhk:sverige",
+   "Nu komber {skalnaþer} [skælnaþer] manna mællum a þings vægh ællæ a kirkio vægh, ok ei af lange awnd, faar annar drap af aþrum, þer ær ei brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_17",
+   "begrepp:edsore",
+   "definieras_som",
+   "=dråp, blodvite eller blåmärke på tinget eller i kyrkan, utom av våda, ty där ska alla ha frid; den drabbade har bönen",
+   "plats:sdhk:sverige",
+   "a þinge ællæ i kirkio siælfre, þa haui þen bönena sum drapit fik ællæ sarit, vtan þet se meþ vaþæ, for þy þe þer ægho alle friþ haua",
+   "Flocken säger inte uttryckligen 'brutit eþzörit'; tolkat som edsöre efter balken och bönerätten."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_18",
+   "begrepp:edsore",
+   "definieras_som",
+   "=gärning mot den som är på väg hem från kyrka eller ting, om den inte kommer av plötslig tvist",
+   "plats:sdhk:sverige",
+   "huar sum gerning a annan gör för æn han hem komber til siin, þa huer han brutit eþzörit, vtan þet se af braþum skælnaþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_20",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att dräpa, såra eller slå blodvite på väg till eller från stämma därför att han stämt eller ville söka",
+   "plats:sdhk:sverige",
+   "dræper meþer han ællæ sarghar ællæ salr bloþuite a væghenum til stæmpno ællæ fran stæmno, þer fore æt han stæmde ællæ sökia vilde, þa haui han brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_21",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att leda annan till stock och med våld hugga av honom händer eller fötter",
+   "plats:sdhk:sverige",
+   "Nu leþir man annan til stoks ællæ annar staþ, ok hugger af honum hænder ællæ föter meþ valde, þa hauer han ok alle þe meþ honum varo brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_22",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att hämnas på kungens dom, på vittne inför kungens dom eller på den som lagligen vunnit sin sak mot honom",
+   "plats:sdhk:sverige",
+   "Nu hæmnis man a kunungs dom, dræper ællæ hugger fulsære"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_22",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om han hämnades därför eller annan tvist kom emellan",
+   "plats:sdhk:sverige",
+   "þa skal þet hæræz næmd vita"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_23",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att med våld föra annan ur hans gård, binda, dräpa, hugga eller stocka honom, om det inte sker på kungens dom eller mot tjuv",
+   "plats:sdhk:sverige",
+   "binder han meþ fullum bandum, dræper, hugger {fullsare} [fullsære] ællæ stokkar ællæ huat hæftilsum han hælzt i sæter, haui han brutit eþzörit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:forverkat_gods|förverkar allt de har ovan jord",
+   "plats:sdhk:sverige",
+   "þa haua þe allo forgiort þy sum þe haua ouan iorþena"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|biltog i hela riket",
+   "plats:sdhk:sverige",
+   "biltoghe vara vm alt rikit"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "=jordägaren: en tredjedel av godset",
+   "plats:sdhk:sverige",
+   "lut taki iorþæghande, annan kununger, þriþia hæræþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av godset",
+   "plats:sdhk:sverige",
+   "lut taki iorþæghande, annan kununger, þriþia hæræþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av godset",
+   "plats:sdhk:sverige",
+   "lut taki iorþæghande, annan kununger, þriþia hæræþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_24",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=brottslingen förverkar bara sin egen lott, inte hustruns, barnens eller andra delägares, ty ingen förverkar annans lott",
+   "plats:sdhk:sverige",
+   "for þy æt ængin a annars lut foruærka; sua skal huar sina sak eensamin böta",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_25",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för den som hyser och föder biltog man mer än ett mål sedan hans månadsdag gått ut",
+   "plats:sdhk:sverige",
+   "böte firi fyritighi marker sua ofta han varþer þer laghwnnin til",
+   "Subjektet avser brottet att hysa en biltog."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_25",
+   "begrepp:fredloshet",
+   "kraver",
+   "begrepp:tylftered|den som anklagas för att ha hyst biltog fri sig med tolv mäns ed",
+   "plats:sdhk:sverige",
+   "ællæ dyli meþ tolf manna eþe æt han ei biltoghan man hyste ællæ födde"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_27",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:fridsbon|den biltoge får frid först när målsäganden eller hans arvinge ber för honom; sedan ger kungen frid",
+   "plats:sdhk:sverige",
+   "Nu æghæ biltoghe vara þer til þen biþer for þem sum þe brutu viþer ællæ hans arua"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_27",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|fyrtio marker för friden; kungens ensak",
+   "plats:sdhk:sverige",
+   "þa skulu þe lösas viþer kunungin meþ fyritighi markum, þet ær hans eensak"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_28",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden i det härad där gärningen skedde",
+   "plats:sdhk:sverige",
+   "Nu skal vm all eþzöris maal hæræznæmdin vita huat þer ær sant vm, af þy hæræþe gerningin {varþ} [var] giorþ innan."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_29",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:haradshovding|lägger de skyldiga biltoga på tinget och räknar upp dem inför nämnden",
+   "plats:sdhk:sverige",
+   "Nu skal hæræzhöfþonge þem a þinge biltogha læggia ok allæ þem vp tæliæ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_29",
+   "begrepp:edsore",
+   "kraver",
+   "=ingen värjoed får gås mot mål som ligger under häradsnämnd",
+   "plats:sdhk:sverige",
+   "Haui ængin vald nokra værn gangæ mote þem malum sum vndir hæræz næmpd liggia."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_30",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:rafst|kungens räfst",
+   "plats:sdhk:sverige",
+   "ok all þesse maal sum kunungs edzöre æru, skulu slitas a kunungs ræfst",
+   "Den skadade får inte stämma förrän nämnden fällt eller frikänt."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_30",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|målsäganden får väcka talan om dråp först när nämnden friat från edsöre",
+   "plats:sdhk:sverige",
+   "Nu æn næmpdin vær han, þa ma han siþan sökia, huat þet ær hælder saar, drap ællæ bloþuite ællæ skena.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_31",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=kan nu begås av en ensam man; förr kunde en man inte göra hemsökn innan edsöret gavs",
+   "plats:sdhk:sverige",
+   "Nu ma een man heem sokn göra ok eþzöre bryta, æn förra matte ei een man heemsokn göra æn {eþzöris} [eþzörit] gafs."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_32",
+   "begrepp:edsore",
+   "definieras_som",
+   "=kan inte brytas av kvinna, ty hon kan inte vara biltog, och inte av omyndig under femton år",
+   "plats:sdhk:sverige",
+   "Nu ma ei kona eþzöre bryta, þa æt hon ma ei biltogh vara, Ei ma ok ouormaghi eþzöre bryta"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_32",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|nämnden svär att den anklagade inte är femton år",
+   "plats:sdhk:sverige",
+   "þa skal næmpdin suæriæ han ei fæmtan ara gamblan [vara]"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_33",
+   "begrepp:drap",
+   "paforljd",
+   "=husbonde som av hård behandling dödar sin hustru söks som för dråp men steglas inte, och förverkar sin rätt i hennes gods",
+   "plats:sdhk:sverige",
+   "sökia sum framleþis skils for drap, ok ei stæghla"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_33",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen ärver inte den han dräper",
+   "plats:sdhk:sverige",
+   "þy æt ængin ægher þen ærua sum han dræper",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_33",
+   "begrepp:vadadrap",
+   "paforljd",
+   "=make som dräper make av våda böter som i vådamål och förverkar det de skulle ta av varandra",
+   "plats:sdhk:sverige",
+   "Nu dræper annat þera annat meþ vaþa, þa skal bötas sum i vaþa botum skils"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_34",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|barn som dör av hård behandling: böter, inte liv",
+   "plats:sdhk:sverige",
+   "þa skal þer fore bötas sum skils i botum, ok ei liif fore giua"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_34",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|modern fri sig med tolv mäns ed av sina fränder att hon inte med vilja lade barnet ihjäl; annars häradsnämnd",
+   "plats:sdhk:sverige",
+   "þa værin hona henna frender meþ tolf manna eþe æt hon la aldre þet i hæl meþ vilia sinum",
+   "Fädernefränderna för talan."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_35",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som går på annan på hans åker om våren eller äng om hösten och skadas eller dräps där",
+   "plats:sdhk:sverige",
+   "þa ær han tuægilder ok all hans hion, ok alt þet ogilt hin fa sum til hans ganger",
+   "Den angripne och hans folk är tvegilda. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_35",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dråp när man går mot annan på dennes åker eller äng",
+   "plats:sdhk:sverige",
+   "Nu ganger ma aat aþrum a aker hans vm vaar ællæ æng vm höst ok dræper, þa ær han tuægilder",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_36",
+   "begrepp:drap",
+   "paforljd",
+   "=den som olagligt halshugger, hänger eller steglar en oskyldig ska lida samma rätt",
+   "plats:sdhk:sverige",
+   "Nu varþer man a sina saklöso olaghlika hals huggin, hængder ællæ stæghlder, þen þet giorþe stande slikan ræt sum han honum giorþe."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_36",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att utan dom gripa, binda och pina någon som inte tagits på bar gärning, ty var man ska ha frid till gods och pengar och särskilt till kropp och liv",
+   "plats:sdhk:sverige",
+   "þy æt huar man ægher friþ a sino goze haua ok pæningum, ok særlika a siælf {siælf} sins likama ok liue",
+   "Under rubriken [XXXVII] i samma passage; 'takis ei fyritighi marker sum forþum' visar att det tidigare var en böteshandling."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_38",
+   "begrepp:radsbane",
+   "paforljd",
+   "=den som leger eller ber annan att slå eller dräpa står samma rätt som om han själv gjort det",
+   "plats:sdhk:sverige",
+   "Huar sum biurþer aþrum ællæ leghir til æt sla, dræpa ællæ nakra gerning göra a annan man, han skal standa sama ræt sum han þet sialuer giorþe."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_39",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att stympa annan: snöpa, bryta ut ögon eller tänder, skära tunga, näsa eller öron, hugga av hand eller fot",
+   "plats:sdhk:sverige",
+   "Taker man annan, legger a iorþ niþer, snöpir sum annat fæ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_39",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|boskiftet, och dessutom sårböterna och fridsbönen",
+   "plats:sdhk:sverige",
+   "han a baþe boskipte ok saræ bötrena ok i friþ æt biþia",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_39",
+   "begrepp:edsore",
+   "paforljd",
+   "=tas han på bar gärning väljer målsäganden lösen, lem för lem eller hans liv, och han ligger ogill",
+   "plats:sdhk:sverige",
+   "siþan haui malsæghande vald han til lösn læta æn han vill, ællæ ok limi for limi þolika sum han miste, ællæ ok liif af honum taka"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_39",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden, som avgör alla högmål, i gärningshäradet",
+   "plats:sdhk:sverige",
+   "þa skal hæræz næmpd, sum all höghmæle {þet} skal slita, af þy hæraþeno gerningin var giorþ i, han væria ællæ fella"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_40",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|den som dräps innan han svurits biltog på tinget bötas som en oskyldig",
+   "plats:sdhk:sverige",
+   "vtan fore han fastis ok bötis sum för annan saklösan man"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_40",
+   "begrepp:edsore",
+   "kraver",
+   "=gods får förverkas först efter laglig dom för fredlöshetsmål",
+   "plats:sdhk:sverige",
+   "Nu ma ængsins manz goz sköflas för æn han ær laghwnnin til biltoghs mals.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_41",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|biltog man som dräps inom riket sedan hans lagadag gått ut, om han inte har dag av kungen",
+   "plats:sdhk:sverige",
+   "ligge ogilder baþe for kirkio ok kununge, vtan han haui dagh af kununge sinum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_42",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|biltog som dräps utom riket bötas som en oskyldig, ty han är fredlös bara i det land där gärningen skedde",
+   "plats:sdhk:sverige",
+   "þy æt ei matte han i flerum landum biltogher vara ok friþ sin mista vtan i þy landeno gerningin giorþis"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_42",
+   "begrepp:forverkat_gods",
+   "definieras_som",
+   "=hustruns hus på hennes tomt och jord och allmänningsjord går inte i sköfling för edsöresbrott",
+   "plats:sdhk:sverige",
+   "Ei skal ok fore eþzöris brut husfrunna hus, sum a hænna tompt ok iorþ standa, i sköfling ganga",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_43",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:lagman|förvaltar med häradshövdingen den biltoges gods genom ombudsman; skulder betalas, överskottet till fattiga, kyrka och kloster",
+   "plats:sdhk:sverige",
+   "Biltoghs manz goz ægher {laghman} [laghmaþer] ok hæræz höfþonge haua",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_43",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:haradshovding|förvaltar med lagmannen den biltoges gods",
+   "plats:sdhk:sverige",
+   "Biltoghs manz goz ægher {laghman} [laghmaþer] ok hæræz höfþonge haua",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_45",
+   "begrepp:edsore",
+   "definieras_som",
+   "=bonden eller hans folk dräps, såras eller får blodvite när någon tar frukt med våld i hans inhägnade trädgård",
+   "plats:sdhk:sverige",
+   "faar bondin ællæ hans hion drap, saar ællæ bloþuite, þer ær eþzörit brutit",
+   "Under rubriken XLV. i samma passage."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_eb_45",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som med våld tar frukt i annans inhägnade trädgård och dräps",
+   "plats:sdhk:sverige",
+   "faar {han} [þen] sum til komber drap, saar ællæ bloþuite, vari ogilt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:biskop|biskopen kungör valet på landstinget och deltar med två klerker",
+   "plats:sdhk:sverige",
+   "þa skal biscoper þet a {landz þing} [landz þinge] konnogha læta"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:allmoge|allmogen väljer sex hovmän och sex bönder, som med klerkerna nämner tre män ur lagsagan",
+   "plats:sdhk:sverige",
+   "siþan skal almoghin vælia siæx hof mæn ok siæx bönder, þe tolf meþ klærkomin skulu þre mæn vælia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "utses_av",
+   "begrepp:kung|kungen tar en av de tre",
+   "plats:sdhk:sverige",
+   "af þem þrim ægher kununger en taka"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_1",
+   "begrepp:lagman",
+   "kraver",
+   "begrepp:ed|döma rätt mot fattig och rik och aldrig vränga lag för rädsla, väld, penninggirighet, avund, illvilja, frändskap eller vänskap",
+   "plats:sdhk:sverige",
+   "lagh aldre vrængia ællæ ræt styrkia for rædde skuld, vild ællæ pæninga giri, ei for awnd ællæ illuilia, ei for frænskap ællæ vinsæmio"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:harad|häradet nämner tolv män som med lagmannen som trettonde föreslår kungen tre",
+   "plats:sdhk:sverige",
+   "þa skal hæræþe næmna tolf mæn þolika þe vilia, ok laghman siæluan þrættande"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:kung|kungen tar en av de tre",
+   "plats:sdhk:sverige",
+   "þer taki kununger en af, þen sum han vil ok veet þer fallnæn til var"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "utses_av",
+   "begrepp:lagman|lagmannen stämmer tinget en månad i förväg och sitter som trettonde",
+   "plats:sdhk:sverige",
+   "þa skal laghman þing stæmna en manaþ for æn þing skal haldas"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_2",
+   "begrepp:haradshovding",
+   "kraver",
+   "begrepp:ed|samma ed som lagmannen",
+   "plats:sdhk:sverige",
+   "þa skal hæræzhöfþonge sama eeþ sum laghman suæriæ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "paforljd",
+   "begrepp:boter|lagman som tar muta för sin dom ger mutan till kungen och böter fyrtio marker",
+   "plats:sdhk:sverige",
+   "Taker laghmaþer muto for dom sin, giui kununge muto ok böte fyritighi marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:lagman|förlorar lagmansdömet för alltid",
+   "plats:sdhk:sverige",
+   "ok misto laghmanzdöme sit ok fæ þet aldre siþan ater"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:haradshovding|samma lag som för lagmannen",
+   "plats:sdhk:sverige",
+   "Taker hæræzhöfþonge motu, vari lagh samu."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:lansman|mister länet för alltid och böter fyrtio marker",
+   "plats:sdhk:sverige",
+   "miste læn sit ok fa þet aldre ater, ok böte fyritighi marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "diskvalificerar",
+   "begrepp:namnd|nämndeman som tar muta sätts aldrig mer i nämnd",
+   "plats:sdhk:sverige",
+   "ok sætis aldre i næmd oftare"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "tillfaller",
+   "begrepp:kung|själva mutan",
+   "plats:sdhk:sverige",
+   "giui kununge muto"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:boter",
+   "tillfaller",
+   "=angivaren som bevisar mutan: tretton marker och åtta örtugar av de fyrtio",
+   "plats:sdhk:sverige",
+   "taki han af þem fyritighi markum sum han böta skal, attæ örtoghar ok þrættan marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för länsman",
+   "plats:sdhk:sverige",
+   "ok böte fyritighi marker. Taker næmda man muto",
+   "Föregående sats avser länsman. Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_3",
+   "begrepp:muta",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för nämndeman",
+   "plats:sdhk:sverige",
+   "giui kununge muto ok böte fyritighi marker, ok sætis aldre i næmd oftare.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:namnd|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:vittne|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_26",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:edgard|den som inte är bofast",
+   "plats:sdhk:sverige",
+   "J allum vitnum, næmdum ok eþum skulu bolfaste mæn varæ."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:haradshovding|tolv män ur häradet, hälften hovmän och hälften bönder, när kungen vill se sina nämnder",
+   "plats:sdhk:sverige",
+   "þa skal hæræzhöfþonge næmd næmna tolf mæn af hæræþeno, halft hofmæn ok halft bönder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna och häradsmännen ska säga ja till de nämnda",
+   "plats:sdhk:sverige",
+   "þem sum viþer delomæn ok hæræzmæn sighia ia moot"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|part i tvisten (viþer delo mæn)",
+   "plats:sdhk:sverige",
+   "ok ei viþer delo mæn, ok ei þe vildoghe æru"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|partisk (vildogher)",
+   "plats:sdhk:sverige",
+   "ok ei viþer delo mæn, ok ei þe vildoghe æru"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|osanningsman",
+   "plats:sdhk:sverige",
+   "han skal sanninda mæn i næmd næmna ok ei osanninda mæn"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_30",
+   "begrepp:namnd",
+   "kraver",
+   "=häradshövdingen sitter själv i nämnden, inte annan i hans ställe, om han inte har förfall",
+   "plats:sdhk:sverige",
+   "Hæræzhöfþonge skal siæluer i næmd vara, ok ei annar i hans staþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_31",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|nämndeman som käranden eller svaranden jävar som partisk går av och ersätts för det målet",
+   "plats:sdhk:sverige",
+   "iæuer nakan vildoghan vara af þem sum i næmd sitia, þa skal han bort af gangæ ok annar i hans staþ sætias"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_31",
+   "begrepp:namnd",
+   "definieras_som",
+   "=den de tolv värjer eller fäller står fast; ingen ed eller nämnd får gå mot nämnden",
+   "plats:sdhk:sverige",
+   "Huem þesse tolf væria ællæ fælla, þet stande ok ei ater gange"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:vittne",
+   "kraver",
+   "begrepp:ed|vittnen svär att de vittnar rätt och sant",
+   "plats:sdhk:sverige",
+   "þe skulu suæria vm all þe vitne sum þe vitna, ok biþia sik sua guþ til hiælpæ æt þe vitna ræt ok sant vm þetta maal"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_32",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|den vars vittnesmål underkänns inför kungens dom blir aldrig mer tingsbär, vittnesbär eller edsbär",
+   "plats:sdhk:sverige",
+   "vari aldre þingxbæri, vitnis bæri ællæ eþz bæri, ok hetin skæmdæ mæn ok ei vitnis mæn",
+   "Böter nio marker till treskifte och tre marker till biskopen."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_33",
+   "begrepp:namnd",
+   "definieras_som",
+   "=sju av tolv avgör om den anklagade värjs eller fälls",
+   "plats:sdhk:sverige",
+   "huem siu af næmdinne væria vare varþer, huem þe fælla vare fælder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_37",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden",
+   "plats:sdhk:sverige",
+   "þessin maal ægho a hæræznæmd slitas: all eþzöre"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_tgb_37",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden",
+   "plats:sdhk:sverige",
+   "all morþ ok morþgæld"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_1",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när två dräper varandra ligger man mot man",
+   "plats:sdhk:sverige",
+   "þer ligger maþer geen manne"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_1",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar från vardera dråparens arvingar",
+   "plats:sdhk:sverige",
+   "bötin bæggia þera arua kunungs ræt atta örtoghær ok {þrattan} [þrættan] marker, ok samuleþ hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_1",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|lika mycket som kungen",
+   "plats:sdhk:sverige",
+   "ok samuleþ hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv mot liv om dråparen tas på bar gärning vid liket eller på färskt spår samma dag och dygn",
+   "plats:sdhk:sverige",
+   "giui liif moot liue",
+   "Frid bara i kyrka eller kloster."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_2",
+   "begrepp:drap",
+   "definieras_som",
+   "=dråp med vilja: gjort med lust och utan livsnöd",
+   "plats:sdhk:sverige",
+   "æt han giorþe gerningena meþ lost ok vtan {allan} [alla] lifs nöþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_2",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden i gärningshäradet innan liv tas",
+   "plats:sdhk:sverige",
+   "ok ligge þet til {hæræznamdinna} [hæræznæmdinna] þer sum gerningin giorþis i, for æn man liif af honum taker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_3",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|närmaste arvinge som inom dygnet i vrede dräper dråparen utan dom böter och fastar som annan dråpare men mister varken land eller liv",
+   "plats:sdhk:sverige",
+   "þa böte han ok faste sum annar drapære, ryme ei land ok ei liif miste"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_3",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar, och häradet lika",
+   "plats:sdhk:sverige",
+   "böte kununge attæ örtoghar ok þrættan marker, ok samuleþ hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som dräps i värjande hand när han ska hindras",
+   "plats:sdhk:sverige",
+   "ok varþer [draparin] dræpin i væriande hand"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|dråpare som dräps på annat sätt bötas med full rätt till målsäganden, kungen och häradet",
+   "plats:sdhk:sverige",
+   "þa bötis fore han fulder ræter mals æghanda, kununge ok hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_5",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|en häradsnämnd",
+   "plats:sdhk:sverige",
+   "ok þet skal liggia til ena hæræz næmd"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_6",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:haradsting|häradshövdingen skär upp budkavle och stämmer ting om dråparen flytt",
+   "plats:sdhk:sverige",
+   "þa skal hæræzhöfþonge ginstan buþkafla vp skæra ok þing stæmna"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_6",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att göra gärning på dråparen under hans lejd (en månad till kungen, fjorton nätter därifrån)",
+   "plats:sdhk:sverige",
+   "Huar sum gerning gör a han innan þen daghin, haui brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_9",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som försvarar dråparen mot dem som vill fånga honom; vad han gör är tvegillt",
+   "plats:sdhk:sverige",
+   "þa vare þet tuægilt þe göra sum han væria vilia, ok alt þet ogilt þa fa"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_10",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att röva dråparen från dem som fångat honom",
+   "plats:sdhk:sverige",
+   "Nu æn nakar rænir drapæran af þem han hauer fangit, {huar} þen þolikt gör han hauer brutit eþzörit."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_12",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradshövdingen och häradsnämnden prövar målet i gärningshäradet med en man som kungen nämnt",
+   "plats:sdhk:sverige",
+   "hæræzhöfþonge ok hæræz næmd ægher þet sama maal görlika skuþa"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|om dråpet skett i nöd och rätt livsnöd sätter nämnden böter till målsäganden",
+   "plats:sdhk:sverige",
+   "Kan þet pröuas æt han giorþe þet drap nödder ok meþ {rættum} [rætte] lifs nöþ, þa ægha þe sum för æru næmde böter læggia malsæghanda"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|om dråpet skett otvunget: rymmer land och får aldrig frid förrän han ger full bot som målsäganden nöjer sig med",
+   "plats:sdhk:sverige",
+   "vtan ryme þa drapæren land ok fa aldre friþ för æn han biuþer ok giuer sua fulla böter sum malsæghanda nöghir a"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar för friden, sedan målsäganden fått bot och bett för honom",
+   "plats:sdhk:sverige",
+   "ok böte þer æfter kununge attæ örtoghær ok þrættan marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|om dråparen inte vill böta: rymma riket tills han bött efter häradshövdingens och nämndens dom",
+   "plats:sdhk:sverige",
+   "þa ægher han ryma rikit ok ei friþ fa för æn han hauer böt viþer malsæghadæ, æfter þy sum hæræzhöfþonge ok hæræz næmd honum dömt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|åtta örtugar och tretton marker vardera till kung och härad efter kunglig frid",
+   "plats:sdhk:sverige",
+   "böte kununge attæ örtoghar ok trhættan marker ok samu leþ hæræþe",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_15",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungens rätt sätts aldrig högre än tretton marker och åtta örtugar, och häradets lika",
+   "plats:sdhk:sverige",
+   "Nu ægher ei kunungx ræter höghre sætias æn attæ örtoghær ok þrættæn marker, ok samuleþ hæræþz."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som inte fått frid av kungen och dräps sedan hans dag gått ut",
+   "plats:sdhk:sverige",
+   "varþer han dræpin siþan daghrin ær vte, þa ligge ogilder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_16",
+   "begrepp:nidingsverk",
+   "definieras_som",
+   "=att dräpa far, mor, son, dotter, bror, syster eller barn under sju år, utom av våda, eller att dräpa sovande eller simmande i sund",
+   "plats:sdhk:sverige",
+   "þæssin maal æru niþings værk: dræper faþer ællæ moþer, son ællæ dottor, broþor ællæ systor, ællæ ouormaghæ minna æn siu ara, vtan þet se meþ vaþa; ællæ dræper man souande ællæ a sunde simande",
+   "Därefter 'ællæ {þrælkær} [þrælbær] man æt han faar bana', osäker läsning."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_16",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:forverkat_gods|lösöret går till treskifte som vid edsöre",
+   "plats:sdhk:sverige",
+   "[ok hans lösöra gangin til þræskiptis sum skils] i eþzöreno"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_16",
+   "begrepp:nidingsverk",
+   "paforljd",
+   "begrepp:landsflykt|om han inte fångas rymmer han land och får mindre nåd",
+   "plats:sdhk:sverige",
+   "ok ær han ei fangin, þa ryme land {sit} su förra var sakt, ok fa þy minne naþ æt han ær minne værhder"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_17",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|utländsk dråpares lösöre delas mellan målsäganden, kungen och häradet",
+   "plats:sdhk:sverige",
+   "vtan lösöra hans skiptas malsæghanda, kununge ok hæræþe",
+   "Subjektet avser den utländske dråparens lösöre."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_17",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|del av utländsk dråpares lösöre",
+   "plats:sdhk:sverige",
+   "vtan lösöra hans skiptas malsæghanda, kununge ok hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_17",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:harad|del av utländsk dråpares lösöre",
+   "plats:sdhk:sverige",
+   "vtan lösöra hans skiptas malsæghanda, kununge ok hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_18",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|tre marker för att föda fridlös man ett mål eller låna honom hus en natt, fyrtio marker till treskifte om längre",
+   "plats:sdhk:sverige",
+   "böte þre marker, ællæ dyli meþ siæx manna eþe æt han viste ei æt han friþlös var",
+   "Subjektet avser brottet att hysa en fridlös."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_19",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:haradshovding|tolv män ur häradet som båda parter nöjer sig med",
+   "plats:sdhk:sverige",
+   "þa skal hæræzhöfþonge þem tolf mæn af hæræþeno næmpna, þee sum þem nöghir baþum a"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_19",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män avgör om den gripne som nekar var på vigvallen viljande och vållande till döden",
+   "plats:sdhk:sverige",
+   "þe skulu þer sannind vm {lætæ} [letæ], sum þe vilia for guþi suara ok sinum kununge"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_19",
+   "begrepp:drap",
+   "definieras_som",
+   "=att på vigvallen vara viljande och vållande till att den andre fick döden",
+   "plats:sdhk:sverige",
+   "han a vighualle var þes viliænde ok valdande æt han döþ fik ællæ ei"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_20",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att gripa en misstänkt dråpare som sedan frikänns i hans eget eller annans hus och hem",
+   "plats:sdhk:sverige",
+   "Haua þe ok takit han i huse hans ok heme, ællæ annars manz, þa haua þe brutit kunungx eþzöre."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_21",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör vem som var på vigvallen viljande och vållande när ogripen dråpare kommer till svars",
+   "plats:sdhk:sverige",
+   "þa skal hæræz næmd vita þet"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_21",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|målsäganden binder sanbane och halsbane med tolv mäns ed på tinget, bland dem nämnden inte undantagit",
+   "plats:sdhk:sverige",
+   "huarn þera meþ tolf manna eþe a þinge, af þem samu a vighualle varo ok ei varo vndan takne af næmpdinne",
+   "Målsäganden ('þen ... sum [sin] hauer mist') för talan."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_22",
+   "begrepp:hallbane",
+   "paforljd",
+   "begrepp:boter|halsbanebot nio marker",
+   "plats:sdhk:sverige",
+   "Nu ær halzbana bot nio marker."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_22",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:tylftered|den som anklagas som rådsbane fri sig med tolv mäns ed eller böter sex marker till treskifte",
+   "plats:sdhk:sverige",
+   "Gifs manne skuld firi raþzbana, væri sik meþ tolf manna eþe böte ællæ siæx marker til þræskiptis."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_22",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|sex marker till tredelning om eden brister",
+   "plats:sdhk:sverige",
+   "böte ællæ siæx marker til þræskiptis.",
+   "Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio marker till treskifte som arvingarna betalar om dråparen dör innan han fällts",
+   "plats:sdhk:sverige",
+   "þa bötin lagha böter fyritighi marker til þræskiptis"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_23",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna väljer hälften var av häradsnämnden när arvingarna nekar",
+   "plats:sdhk:sverige",
+   "ok raþe halue næmpd huar þera"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_25",
+   "begrepp:drap",
+   "kraver",
+   "=dråparen ska bindas med lag inom natt och år efter dråpet",
+   "plats:sdhk:sverige",
+   "haui vald han þer til binda innan naat ok aar {after} [æfter] þet drapit var giort"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_25",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|dör dråparen efter fristens slut före frid eller förlikning, arvingar betalar åtta örtugar och tretton marker till målsäganden",
+   "plats:sdhk:sverige",
+   "bötin þa arua hans malsæghanda attæ örtoghar ok þrættan marker",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_27",
+   "begrepp:drap",
+   "kraver",
+   "=ingen kan bindas till dråp efter natt och år om han inte själv erkänner",
+   "plats:sdhk:sverige",
+   "haui siþan ængin vald nakan til drap binda vtan [haui] þen sak sik kennir"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_28",
+   "begrepp:dulgadrap",
+   "definieras_som",
+   "=dulgadråp: ingen erkänner dråpet och ingen binds lagligen till det inom natt och år",
+   "plats:sdhk:sverige",
+   "Nu kænnis ængin viþer drapit ok ængin varþer ok laghlika til bundin innan naat ok aar æfter þet drapit var giort"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_28",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|häradet böter fyrtio marker för dulgadråp om det inte visar fram rätt dråpare",
+   "plats:sdhk:sverige",
+   "þa ær hæræþe sakt aat fyritighi markum vtan hæræþe sannan drapæræ vise, þet heter dulgha drap"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_28",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|två tredjedelar av dulgadråpsboten",
+   "plats:sdhk:sverige",
+   "af þem fyritighi markum taki kununger tua lyti ok [þriþiung] þes aruæ sum dræpin varþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_28",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:arvinge|en tredjedel av dulgadråpsboten till den dräptes arvingar, om de är inrikes",
+   "plats:sdhk:sverige",
+   "af þem fyritighi markum taki kununger tua lyti ok [þriþiung] þes aruæ sum dræpin varþ",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_29",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden avgör om den döde dog av sot och inte av människohand",
+   "plats:sdhk:sverige",
+   "þa skal hæræz næmpd vita þet æt han do af soot ok ei af manz handuærkum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_29",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:mordgald|häradet böter fyrtio marker i mordgäld, utbötat efter mantal av män från femton år",
+   "plats:sdhk:sverige",
+   "þa skal þet hæræþe morþgæld böte fyritighi marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_29",
+   "begrepp:mordgald",
+   "tillfaller",
+   "begrepp:kung|två tredjedelar av mordgälden",
+   "plats:sdhk:sverige",
+   "taki kununger tua lyti ok malsæghande þriþiung sum for var sakt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_29",
+   "begrepp:mordgald",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av mordgälden",
+   "plats:sdhk:sverige",
+   "taki kununger tua lyti ok malsæghande þriþiung sum for var sakt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_30",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|kvinna som dräper och tas på bar gärning eller inom dygnet: målsäganden väljer böter eller halshuggning",
+   "plats:sdhk:sverige",
+   "haui siþan malsæghande vald huat han vil helder böter {tæka} [taka] ællæ hona halshugga læta",
+   "Under rubriken [XXXI] i samma passage."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_30",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker och åtta örtugar, och häradet lika, när målsäganden tar böter för kvinnan",
+   "plats:sdhk:sverige",
+   "Taker malsæghande böter for honæ, þa böte ok kununge attæ örtoghær ok þrættan marker, ok samuleþ hæræþe."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_30",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|dråp på ö eller skär, häradet betalar högst fyrtio marker om dråparen inte visas fram",
+   "plats:sdhk:sverige",
+   "gelde ater hæræþe þer [firi] dulgha drap fyritighi marker ok ei mera",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_32",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|kvinna som inte tagits inom dygnet: fyrtio marker till målsäganden, tretton marker åtta örtugar till kungen och lika till häradet",
+   "plats:sdhk:sverige",
+   "ok böte malsæghandæ fyritighi marker, kununge attæ örtoghær ok þrættan marker ok samuleþ hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_32",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|kvinna som inte förmår full bot; målsäganden väljer mindre böter eller hennes liv",
+   "plats:sdhk:sverige",
+   "ok vari friþlös firi malsæghandæ, kununge ok hæræþe sum annar drapære",
+   "Kvinna som kan böta får inte göras fridlös."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_34",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|kungens rätt när präst eller klerk dräper lekman",
+   "plats:sdhk:sverige",
+   "þa taker biskoper kunungs ræt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_34",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|den dödades arvinge får målsägandens andel",
+   "plats:sdhk:sverige",
+   "arue þes döþa mals æghandæ lut af botum",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|kungens rätt när lekman dräper klerk",
+   "plats:sdhk:sverige",
+   "taki þer kununger sin ræt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|klerkens arvingar får sin andel",
+   "plats:sdhk:sverige",
+   "arua hans sin lut af botum",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_37",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|tolv män som vet om den anklagade erkänt en livssak på tinget",
+   "plats:sdhk:sverige",
+   "þa tolf ægher lænsman næmpna"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_37",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män prövar om dråpsbot betalats",
+   "plats:sdhk:sverige",
+   "þet ægha tolf mæn vita huat þet guldit var ællæ ei.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_38",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|lösker (ej bofast) man som dräper döms från livet på tinget; varken fastas eller bötes för honom",
+   "plats:sdhk:sverige",
+   "þa a han til þings föra ok þer döma læta liif af honum, ok huarte fastis ællæ bötis for han"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_41",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:boter|försåt: fyrtio marker till målsäganden och tretton marker åtta örtugar till kungen och lika till häradet om 'þen firi ær' faller",
+   "plats:sdhk:sverige",
+   "falder þen firi ær, ligge han i lagha gældum fyritighi marker malsæghandæ, attæ örtoghar ok þrættan marker kununge ok sua hæræþe",
+   "Osäkert vem 'þen firi ær' (den som är före) och 'han til komber' avser."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_41",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:tvebot|tvebot åttio marker om den som kommer till faller, om försåtet inte hämnar fader, broder eller frände",
+   "plats:sdhk:sverige",
+   "falder han til komber, ligge han i tuæbotum attætighi markum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_41",
+   "begrepp:forsat",
+   "definieras_som",
+   "=försåt kallas det bara om dråp sker",
+   "plats:sdhk:sverige",
+   "ei {kalla} [kallas] forsat þer ei komber drap i"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_41",
+   "begrepp:forsat",
+   "kraver",
+   "=tolv män avgör om försåt lagts",
+   "plats:sdhk:sverige",
+   "þa vitin þet tolf mæn huat forsat var giort ællæ ei"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_42",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot om man dräps på ledungsskepp i laga läge med skölden i stäven",
+   "plats:sdhk:sverige",
+   "varþer þer man dræpin, ligge i tuæbotum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_42",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:malsagande|fyrtio marker av tveboten och en tredjedel av de andra fyrtio",
+   "plats:sdhk:sverige",
+   "Sua ægha tuæböter skiptas, ær malsæghande taki fyritighi marker, ok fyritighi marker til þræskiptis, taki en lut malsæghande, annan kununger, þriþia hæræþ."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_42",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av de andra fyrtio markerna av tveboten",
+   "plats:sdhk:sverige",
+   "taki en lut malsæghande, annan kununger, þriþia hæræþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_42",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av de andra fyrtio markerna av tveboten",
+   "plats:sdhk:sverige",
+   "taki en lut malsæghande, annan kununger, þriþia hæræþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_1",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=bara ett hugg kan räknas till våda när annan kommer emellan och får bane",
+   "plats:sdhk:sverige",
+   "þa man ei flere hug til vaþa {læta} [taka] æn et"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=högsta våda: när ett hugg ger två sår, i hand och huvud",
+   "plats:sdhk:sverige",
+   "Nu kunno af eno hugge tu saar varþa, taker hand ok huwþ, þet ær höxte vaþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker för högsta våda",
+   "plats:sdhk:sverige",
+   "þet ær tiughu marka boot ok tolf manna eþer sua æt þet var meþ vaþa ok ei meþ vilia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed att det skedde av våda och inte med vilja; alla ska svära",
+   "plats:sdhk:sverige",
+   "þet ær tiughu marka boot ok tolf manna eþer sua æt þet var meþ vaþa ok ei meþ vilia"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "=dråpet tas som våda bara om både dråparen och den dödes arvingar vill det",
+   "plats:sdhk:sverige",
+   "þa tax ei til vaþa vtan baþe vilia, þen sum drap ok þes arua sum dræpin varþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:haradsting|eden fästs vid kyrkan och gås inom natt och år på tinget i gärningshäradet",
+   "plats:sdhk:sverige",
+   "ok gange han innan nat ok aar a þinge i þy hæræþe gerningin var giorþ i"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_2",
+   "begrepp:vadadrap",
+   "kraver",
+   "=kungens sysloman ska vara närvarande vid eden, annars är den olagligt gången",
+   "plats:sdhk:sverige",
+   "þa ægher kunungs sysloman nær vara"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_3",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker med vådaed när den som skjuter efter djur träffar man",
+   "plats:sdhk:sverige",
+   "böte tiughu marker meþ vaþa eþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_3",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker om skottet först tar i stock eller sten",
+   "plats:sdhk:sverige",
+   "böte fyri nio marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_4",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=handlös våda: när något annat tar först än det som gav skadan",
+   "plats:sdhk:sverige",
+   "Nu kan þet annat förra taka æn þet sum skaþa fik, þa ær þet handlös vaþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_4",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker för handlös våda",
+   "plats:sdhk:sverige",
+   "vari þe boot [nio marker] ok eþer sum [för] var sakt"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_5",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när sten eller annat kastas över hus",
+   "plats:sdhk:sverige",
+   "vari nio {marker} [marka] sak ok eþer sami"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_6",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker om någon dör i en fälla som inte lysts",
+   "plats:sdhk:sverige",
+   "faar nakar þer döþ af aat olysto, vari boot tiughu marker"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_6",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker om fällan lagligen lysts",
+   "plats:sdhk:sverige",
+   "Ær laghlika lyst, timar þer döþer af, vari boot nio marker."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_6",
+   "begrepp:vadadrap",
+   "kraver",
+   "=tolv män av socknen avgör om fällan lysts",
+   "plats:sdhk:sverige",
+   "viti þet tolf mæn af sokninne"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_7",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|två som fäller träd eller vältar sten och båda får bane",
+   "plats:sdhk:sverige",
+   "fa baþe bana af, liggin baþe ogilde",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_7",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark som den överlevande betalar",
+   "plats:sdhk:sverige",
+   "gelde þen sum liuer han ater meþ half fæmte mark"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_8",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark för den som faller i brunn eller från bro och dör; betalas av dem som fäller",
+   "plats:sdhk:sverige",
+   "böte half [fæmte] mark þen brunnin ægher"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_9",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som klättrar i träd självvilligt och faller ihjäl",
+   "plats:sdhk:sverige",
+   "Kliuer man i træ siælfuiliandis, falder niþer, faar bana af, vari ogilder",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_9",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark om han klättrat på begäran",
+   "plats:sdhk:sverige",
+   "kliuer man i træ biþin, falder niþer faar bana af, vari boot half fæmte mark"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_9",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker om han klättrat på befallning",
+   "plats:sdhk:sverige",
+   "kliuer man i træ æfter buþi, falder niþer ok faar bana af, vari gilder aat tiughu markum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_9",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|den som nekar att ha bett eller befallt fri sig med tolv mäns ed",
+   "plats:sdhk:sverige",
+   "dyli meþ tolf manna eþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som står under och skadas när annan faller ned från träd",
+   "plats:sdhk:sverige",
+   "Nu falder man af træ niþer, ok faar þen skaþa sum niþre stander, vari {ogilder} [ogilt].",
+   "Skada, inbegripet dödlig. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_11",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyra och en halv mark när hus eller annat människoverk faller på man",
+   "plats:sdhk:sverige",
+   "vari boot half femte mark"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när lass faller på man",
+   "plats:sdhk:sverige",
+   "Nu falder las a man, vari ogilt",
+   "Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_13",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=omyndig mellan sju och femton år som dräper med vilja: hans vilja räknas som myndig mans våda",
+   "plats:sdhk:sverige",
+   "vari sua ouormagha vilia gærþ sum maghandæ manz vaþa gærþ"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_13",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|tjugo marker för omyndig 7–15 år som dräper med vilja",
+   "plats:sdhk:sverige",
+   "böte han ater meþ tiughu markum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|fjorton av tjugo marker",
+   "plats:sdhk:sverige",
+   "af þem tiughu markum taki malsæghande fiughurtan, kununger þre ok þre hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tre av tjugo marker",
+   "plats:sdhk:sverige",
+   "af þem tiughu markum taki malsæghande fiughurtan, kununger þre ok þre hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_13",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|tre av tjugo marker",
+   "plats:sdhk:sverige",
+   "af þem tiughu markum taki malsæghande fiughurtan, kununger þre ok þre hæræþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_14",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker när omyndig dräper av våda, inget till kung eller härad",
+   "plats:sdhk:sverige",
+   "{Draper} [Dræper] ouormaghi meþ vaþa, böte nio marker, þo huarte kununge ællæ hæræþe."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_14",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|barn under sju år: fyra och en halv mark med vilja, tre marker av våda till målsäganden ensam",
+   "plats:sdhk:sverige",
+   "Ær han siu ara ællæ minna, ok dræper meþ vilia, böte half fæmte mark; dræper meþ vaþa, böte þre marker mals æghanda eensamnum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_15",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna väljer hälften var av nämnden om tolv män av häradet när åldern är omtvistad",
+   "plats:sdhk:sverige",
+   "vitin þet tolf mæn af hæræþeno, ok raþe halui næmpd huar þera"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_15",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=kvinna har samma lag som man i vådabot, vare sig hon dräper eller dräps",
+   "plats:sdhk:sverige",
+   "Vari kona i samu laghum sum man i vaþa botum, huat hon dræper ællæ dræpin varþer."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_16",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|boten ökas med fyra och en halv mark om den dräpta kvinnan var havande",
+   "plats:sdhk:sverige",
+   "þa ökis boot hennæ aat half femte mark"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_16",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|barnets arvinge visar med två kvinnors vittne och tolv mäns ed att hon var med barn",
+   "plats:sdhk:sverige",
+   "meþ tuæggia {quinno} [quinna] vitnum ok tolf manna eþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_17",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker i vådagäld när vansinnig som lysts dräper eller bränner by",
+   "plats:sdhk:sverige",
+   "ligge þer by i vaþa gældum nio markum",
+   "Lyses han inte räknas gärningen som viljeverk."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_18",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|förälder som av våda dräper sitt barn fyller vådaed och vådabot om den andre föräldern klagar",
+   "plats:sdhk:sverige",
+   "þa fylle vaþa eeþ ok vaþa boot"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_18",
+   "begrepp:vadadrap",
+   "paforljd",
+   "=den som fäller vid vådaeden räknas som viljegärning",
+   "plats:sdhk:sverige",
+   "falz at eþenum, vari þa {baþi} [vaþi] i vilia værkum"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_19",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|nio marker som ägaren betalar när fä dräper man",
+   "plats:sdhk:sverige",
+   "böte firi nio marker þen sum þet fæ ægher"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dva_19",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|arvingarna binder ägaren som nekar med två vittnen och tolv mäns ed",
+   "plats:sdhk:sverige",
+   "þa bindin þes döþa arua han til meþ tuem vitnum ok tolf manna eþe"
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_hb_1",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|häradsnämnden där mordet skedde prövar skuld",
+   "plats:sdhk:sverige",
+   "þet skal hæræz næmd, sum morþit giorþis i, han ællæ hona vita sanna ællæ osanna",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_hb_1",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|man steglas och kvinna stenas vid dolt mord",
+   "plats:sdhk:sverige",
+   "þa skal man stæghla ok kunu {stænka} [steenka]",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_dmv_24",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|dör dråparen efter dom men före fristens slut, arvingarna betalar fyrtio marker till tredelning",
+   "plats:sdhk:sverige",
+   "þa bötin {ærua} [arua] hans lagha böter fyritighi marker til þræskiptis.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_hb_12",
+   "begrepp:trolldom",
+   "kraver",
+   "begrepp:namnd|tolv män prövar om någon dött av förgörning",
+   "plats:sdhk:sverige",
+   "viti þet tolf mæn; væria þe hona, vari saklös: fælla þa hona",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:magnus_erikssons_landslag:mel_hb_12",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:dodsstraff|bränning på bål när någon dött av förgörningen",
+   "plats:sdhk:sverige",
+   "fælla þa hona, þa a hon i bale brinna",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

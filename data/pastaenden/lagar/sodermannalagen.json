@@ -1,0 +1,1547 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Södermannalagen (Codex iuris Sudermannici med stadfästelsen och tilläggen efter NKS 2237), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/sodermannalagen.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:stycke_3",
+   "person:magnus_eriksson",
+   "stiftar_lag",
+   "=konung Magnus, son till hertig Erik, påbjuder södermanningarna att leva efter lagen och sänder dem lagboken",
+   "plats:sdhk:sodermanland",
+   "ok swa biuþer ok een wældughær kununger swea ok götæ ok normanna magnus sun hærtugh eriks allum suþermannum wiþer rætwisi ok lagh byggiæ. ok sænder book þæssæ",
+   "Prologen: boken sammanställd ur forn rätt och gamla landslagar, delad i tio balkar."
+  ],
+  [
+   "lag:sodermannalagen_stadsfastelse_confirmatio_enligt_nks_2237:stycke_2",
+   "person:magnus_eriksson",
+   "stiftar_lag",
+   "=konung Magnus Eriksson gav de nya lagarna full lagrätt och stadfäste dem",
+   "plats:sdhk:sodermanland",
+   "tha af konunglico ualde giuum ui fullan lagha ræt oc krapt them smu nya laghum",
+   "Magnus sun hærtugh eriks, konung över Sverige, Norge och Skåne."
+  ],
+  [
+   "lag:sodermannalagen_stadsfastelse_confirmatio_enligt_nks_2237:stycke_2",
+   "person:magnus_eriksson",
+   "stiftar_lag",
+   "=konung Magnus gav lagboken i Söderköping på Laurentius dag 1327",
+   "plats:sdhk:sodermanland",
+   "Giuin uar thæsse book i suþerköpinge. eptir uars hærra byrþ. thusand arom. thry hundraþa arom tiughu arom. ok siunda areno a sancta lafrinza dagh"
+  ],
+  [
+   "lag:sodermannalagen_stadsfastelse_confirmatio_enligt_nks_2237:stycke_2",
+   "person:sdhk:lars_ulfson:2934",
+   "stiftar_lag",
+   "=lagman Laurens Ulfsson bad kungen på södermanningarnas vägnar om bättring av de spridda och oklara gamla lagarna",
+   "plats:sdhk:sodermanland",
+   "Nu hauer uar troen thiænisto man hæraa laufrinz ulphson suþermanna laghman. os tryglica kunnughat",
+   "Laurens Ulfsson identifieras med Lars Ulfsson, lagman i Södermanland"
+  ],
+  [
+   "lag:sodermannalagen_stadsfastelse_confirmatio_enligt_nks_2237:stycke_2",
+   "person:sdhk:lars_ulfson:2934",
+   "stiftar_lag",
+   "=lagman Laurens Ulfsson fullföljde kungens bud och valde tolv riddare med sig för att utröna gammal lag och sätta samman den nya",
+   "plats:sdhk:sodermanland",
+   "han fulförþe uart buþ meþ uærþskyldoghom skunda. ok ualde meþ sic tolf uara ærlica riddara",
+   "Riddarna: Knut Magnusson (lagman i Västergötland), Niklis och Ulf Abjörnsson, Eringisl och Karl Näskonungsson, Erik Turesson, Staffan Röriksson, Torkel Andresson, Tord Bonde, Anund Röriksson, Magnus Niklisson, Ingevald Estridsson.; Laurens Ulfsson identifieras med Lars Ulfsson, lagman i Södermanland"
+  ],
+  [
+   "lag:sodermannalagen_stadsfastelse_confirmatio_enligt_nks_2237:stycke_2",
+   "begrepp:allmoge",
+   "stiftar_lag",
+   "=lagen lystes på många landsting och antogs av alla utan invändning, utom två punkter om kyrkogåva och testamente",
+   "plats:sdhk:sodermanland",
+   "alle meþ samsæt ok utan genmæle uiþer them laghum glaþlica takit hafþo. undantaknum at enosto tuem punctum",
+   "Subjektet tolkat som landsmännen; biskopen och klerkerna var oense med dem om de två punkterna."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "person:magnus_eriksson",
+   "stiftar_lag",
+   "=konung Magnus lät vid sitt tillträde (vald 1319) skriva in reglerna om konungaval och eder i lagböckerna och gav dem till efterdöme",
+   "plats:sdhk:sodermanland",
+   "sum han nu siæluer i sinne till kömd giorþe ok gaff til goþra eptir döma"
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|kungen svär trygdared till alla bönder i riket på valdagen",
+   "plats:sdhk:sodermanland",
+   "a sama dagh ok staþ agher konunger allum innan ridhis boandum trygdar eþe sina ganga.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "kraver",
+   "begrepp:ed|lagmannen och allmogen svär kungen sin ed på bok och helgedom",
+   "plats:sdhk:sodermanland",
+   "Siþan scal laghmaþer ok almoghe alder eþa thera suæria a book ok hælgha domum",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=kungen väljs och ärver inte riket",
+   "plats:sdhk:sodermanland",
+   "Nu ær til konunghs rikit i suearichi konunger uæliande. ok æi æruande",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:konungaval",
+   "utses_av",
+   "begrepp:lagman|varje lagman med tolv kloka män ur lagsagan, med böndernas samtycke, vid Mora ting; Upplands lagman har första rösten",
+   "plats:sdhk:sodermanland",
+   "laghmæn huar af laghsaghu sinne scal meþ samthyukiu aldra thera i laghsaghu boander æru. tolf mæn taca uitra ok sniælla meþ them a næmdom dagh ok tima til moro thinghs koma konung at uælia.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_1",
+   "begrepp:eriksgata",
+   "kraver",
+   "begrepp:ed|kungen och bönderna i varje lagsaga svär varandra eder, med början i Uppsala",
+   "plats:sdhk:sodermanland",
+   "Scal han eriks gatu sina riþa rætsöles um land sin. byriande i upsalum eþa at suæria allum them i uplanda laghsaghu boandes æru. ok the hanum.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_12",
+   "begrepp:lagman",
+   "stiftar_lag",
+   "=tilläggen stadfästes och skrevs in i Södermannalagboken 1325 i närvaro av biskopen och hans kapitel, lagmannen och herrarna Staffan Röriksson och Magnus Niklisson",
+   "plats:sdhk:sodermanland",
+   "Waro thesse maal stadh j sudhermanna laghbok. oc scriffuat. nærwarande biscopenum oc hans capitulo. laghmannenom",
+   "Vem som stadfäste anges inte; lagmannen och biskopen nämns som närvarande. Daterat lördagen före Simon och Judas dag 1325."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_6",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|vardera parten råder över halva hundaressynen",
+   "plats:sdhk:sodermanland",
+   "raþe halui næmd huar thera",
+   "Gäller syn i ägotvister; samma regel för båda parter."
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_6",
+   "begrepp:namnd",
+   "definieras_som",
+   "=folklandsnämnd: tolv nämndemän från Södermanland; finns de inte tas goda sanningsmän av landsmännen",
+   "plats:sdhk:sodermanland",
+   "Thætta ær folklanz næmd. tolf næmninga mæn af suþermanna lande. Ær the æi til. tha scal man taka goþa sanninda mæn af lanz mannumen"
+  ],
+  [
+   "lag:sodermannalagens_additamenta_efter_nks_2237:sdml_add_6",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:ed|vad de tolv gör med sin ed får ingen bryta, varken kungen eller någon annan",
+   "plats:sdhk:sodermanland",
+   "Huat the tolf giöra meþ sinum eþe. uæri fult ok fast sua at þæn eþ ma ængin atter bryta. æi konunger. æn siþer annar"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=kungens edsöre; första målet: att hämnas på annan man än den som gjorde gärningen",
+   "plats:sdhk:sodermanland",
+   "Hær byries ezöre kununx. oc aldra högstæ hærra i sweariki. Fyrstæ ær þet. Hwar sum hæmnis a annæn man æn a þen sama gierning giorþi."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_4",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:vittne|tolv mäns vittnen i det hundare där gärningen gjordes",
+   "plats:sdhk:sodermanland",
+   "þet wari a XII. manna witnum. i þy hundare þet giort war"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_4",
+   "begrepp:edsore",
+   "definieras_som",
+   "=andra målet: att hämnas efter grid och förlikning, efter gången lag eller lagligt tilltal",
+   "plats:sdhk:sodermanland",
+   "Annæt ær þættæ. hwar sum hæmnis a gruþ oc göræ sæt. eller a gangin lagh. eller a lagha til mæli."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_4",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|hundarets nämnd avgör om förlikning var gjord",
+   "plats:sdhk:sodermanland",
+   "þet scal hundaris næmþ wita hwat sæt war gör eller ei"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=att rida eller gå hem till annan i avsikt att skada honom eller någon på hans gård",
+   "plats:sdhk:sodermanland",
+   "Riþær man hem at andrum eller ganger oc gör hanum hemsokn. hwat þe æru en eller flere þes wiliandis hanum scaþa göræ."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:fredloshet|alla i flocken och följet fredlösa, var och en huvudman för sig, och deras gods går till skifte",
+   "plats:sdhk:sodermanland",
+   "oc ær hwar þeræ hovz man fore sic. þe aghu allir biltugha læggiæs. oc þeræ goz til skiptis ganga",
+   "Om de på gården slår till blods, sårar, dräper, slår eller binder någon saklös; då har de brutit kungens edsöre."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|tre mark för husbrott, om ingen annan skada skett",
+   "plats:sdhk:sodermanland",
+   "þa wærin sic meþ.XII. manna eþe oc bötin.III. marker firi husbrutit",
+   "När de bara bryter hus; motivering: hot bötas med liten bot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed för att värja sig mot hemsökn när bara hus brutits",
+   "plats:sdhk:sodermanland",
+   "þa wærin sic meþ.XII. manna eþe oc bötin.III. marker firi husbrutit"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som gör hemsökn och slås, såras eller dräps innanför gård och grindstolpar",
+   "plats:sdhk:sodermanland",
+   "Warþer han slaghin. sar gör ellær dræpin innæn garþ oc grindastolpa. liggi ogilder awerkum sinum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=inte hemsökn om män möts förlikta på en gård och skiljs oförlikta; men hemsökn om han går till annan gård, skaffar vapen eller följe och kommer tillbaka och fullbordar gärningen",
+   "plats:sdhk:sodermanland",
+   "vtan han gangi af þem garþe oc i annæn faar sic wapn eller fölghi. oc ganger swa ater oc gör til þen fulla gierning. þa ær þet hemsokn"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_5",
+   "begrepp:hemsokn",
+   "definieras_som",
+   "=också när man skjuter eller kastar efter en som flytt in på en gård och den som är på gården skadas",
+   "plats:sdhk:sodermanland",
+   "Rymir man at garþe firi owinum sinum. skiuter til hans eller caster. faar þen scaþa af i garþe ær i stadder þet ær hamsokn"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:namnd|hundarets nämnd avgör vad som är sant, om det syns eller rop hörts och hjälp lagligen ropats",
+   "plats:sdhk:sodermanland",
+   "warþer þet laghlica skierscutat þa a hundaris næmþ þet wita hwat þær ær sant vm"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|dömd under svärdet",
+   "plats:sdhk:sodermanland",
+   "þa a han vndi swerþ dömes",
+   "Om han grips på färsk gärning och tolv män vittnar."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|tolv män vittnar när han gripits på färsk gärning",
+   "plats:sdhk:sodermanland",
+   "a ferski gerning oc witna han þer til.XII. mæn"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|våldtäktsman som dräps av kvinnan",
+   "plats:sdhk:sodermanland",
+   "Dræper kuna han i þy. oc witnæ swa XII. mæn. Liggi ogilder.",
+   "Kräver att tolv män vittnar."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:fredloshet|får aldrig frid förrän kvinnans giftoman ber för honom",
+   "plats:sdhk:sodermanland",
+   "þa a han aldri friþ fa. fyr æn kununne gipter maþer biþer fir hanum",
+   "Om han flyr ur landet med henne och lagligen överbevisas."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_6",
+   "begrepp:edsore",
+   "definieras_som",
+   "=våldtäkt mot kvinna",
+   "plats:sdhk:sodermanland",
+   "TAker man kunu meþ walþ.",
+   "Flocken står i edsöresbalken, som säger att dess mål är kungens edsöre. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_7",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att lägga sig i försåt på kyrkväg eller tingsväg och dräpa, såra eller slå till blods",
+   "plats:sdhk:sodermanland",
+   "Siter man a kirkiu wæg eller a þinx wæg fore andrum. dræper. sarghar. eller til bloz slar. han hawer brutit kununx ezöre."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_7",
+   "begrepp:edsore",
+   "definieras_som",
+   "=inte edsöre om de kommer i strid på kyrk- eller tingsväg av plötslig gärning och inte av gammalt agg",
+   "plats:sdhk:sodermanland",
+   "ei af langri awnþ vtan af braþom gierningum. þet ær ei kununx ezöre"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_8",
+   "begrepp:edsore",
+   "definieras_som",
+   "=att leda annan till stock och hugga av händer eller fötter, utom i vapenskifte",
+   "plats:sdhk:sodermanland",
+   "TAker man annæn oc leþir til stok. hogger af hænder eller föter. þet ær kununx ezöre. vtan þet come i wapna skipti."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_8",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|kvinna eller omyndig böter laga böter och kan inte bli fredlös",
+   "plats:sdhk:sodermanland",
+   "bötin meþ lagha botum. ei ma kuna eller owormaghi friþ lös warþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:fredloshet|förverkar allt han äger ovan jord och landsvisten och blir biltog i hela riket tills den han bröt mot ber för honom",
+   "plats:sdhk:sodermanland",
+   "han hawer forgiort allu þy han a owan iorþena. swa mangi sum þe æru. oc swa lanzwist. oc biltugher læggies vm alt rikit"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av den brottsliges lott i boet",
+   "plats:sdhk:sodermanland",
+   "Siþan hans luter sum brutliker ær skiptis i þry. en lot taki malseghanden. annæn kununger. þriþiæ hundare.",
+   "Det förverkade godset; de saklösas lotter skiftas först ut, och ingen förverkar en annans del."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av den brottsliges lott i boet",
+   "plats:sdhk:sodermanland",
+   "Siþan hans luter sum brutliker ær skiptis i þry. en lot taki malseghanden. annæn kununger. þriþiæ hundare.",
+   "Det förverkade godset; de saklösas lotter skiftas först ut, och ingen förverkar en annans del."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:hundare|en tredjedel av den brottsliges lott i boet",
+   "plats:sdhk:sodermanland",
+   "Siþan hans luter sum brutliker ær skiptis i þry. en lot taki malseghanden. annæn kununger. þriþiæ hundare.",
+   "Det förverkade godset; de saklösas lotter skiftas först ut, och ingen förverkar en annans del."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|fyrtio mark till kungen för att lösa sig i frid, sedan målsäganden eller hans arvingar bett för honom",
+   "plats:sdhk:sodermanland",
+   "Biþer malseghanden firi hanum. eller hans arwar. þa ma kununger hanum friþ giwa. Löse sic i friþ wiþ kunungin meþ.XL. markum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|nämnd där både klaganden och den anklagade är närvarande",
+   "plats:sdhk:sodermanland",
+   "Þa næmdir sculu göræs vm ezöris brut. þær aghu wiþer wara baþe þen sum kiærir. oc swa þen sum sakin gifs"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|halva nämnden",
+   "plats:sdhk:sodermanland",
+   "oc raþe halwi næmþ hwar þeræ",
+   "I edsöresmål; den anklagade råder över andra halvan."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:namnd",
+   "utses_av",
+   "=den anklagade|halva nämnden",
+   "plats:sdhk:sodermanland",
+   "oc raþe halwi næmþ hwar þeræ",
+   "I edsöresmål."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|tre mark för att hysa en svuren och dömd fredlös en natt",
+   "plats:sdhk:sodermanland",
+   "Hwar sum hysir oc hemir vm enæ nat. þen sum biltugher ær sworin oc dömder. böte III. marker.",
+   "Gäller den som hyser en fredlös."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:fredloshet",
+   "paforljd",
+   "begrepp:boter|fyrtio mark för att hysa en fredlös flera nätter",
+   "plats:sdhk:sodermanland",
+   "Hysir han flere nætter. böte XL. marker. eller wæri sic meþ eþe þrætyltum.",
+   "Gäller den som hyser en fredlös."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:fredloshet",
+   "kraver",
+   "begrepp:ed|tretolftsed för att värja sig mot anklagelse om att ha hyst fredlös flera nätter",
+   "plats:sdhk:sodermanland",
+   "eller wæri sic meþ eþe þrætyltum"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_9",
+   "begrepp:edsore",
+   "kraver",
+   "begrepp:namnd|nämnden friar eller fäller med sin ed",
+   "plats:sdhk:sodermanland",
+   "Hulikin þe næmþ wær meþ sinum eþe. wari han warþer. þen þe fællæ wari han fælder.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_11",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|fyrtio mark till kungen för fridsbrott, när kungen eller hans ombud är ute",
+   "plats:sdhk:sodermanland",
+   "mæn kununger ær vti eller hans fult vm buþ. þær bötis kunungi firi friþ brutit.XL. marker",
+   "Dråp eller fullsår på ledungsfärden."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_11",
+   "begrepp:drap",
+   "paforljd",
+   "=gärningar på ledungsfärden böts hälften dyrare än hemma; boten skiftas mellan styrman, målsägande och hasätarna",
+   "plats:sdhk:sodermanland",
+   "Gierningæ þeræ liggin i gildi sinu æ halw dyrræ æn þa þet hema wari giort. skiptin þe bot. styriman. malseghande oc hasæter aller."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_4",
+   "begrepp:drap",
+   "paforljd",
+   "=dör den sårade inom natt och år räknas sårboten som påbörjad dråpsbot, och arvingarna får inte hämnas utan kräva ut resten",
+   "plats:sdhk:sodermanland",
+   "Dör han siþan af þem sarum. wari þa bot i dözdrapeno byriæþ. oc hawin ærwingiæ þæs döþæ ei wald a þen hæmpnæs sum sar giorþe"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_6",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|fyrtio mark när en man dör av sår efter avhuggen lem (lemmen därtill tjugo mark)",
+   "plats:sdhk:sodermanland",
+   "þær ær limber hans gilder mæþ.XX. markum. oc siælwer han mæþ XL. markum"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_7",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=skada eller död på folk eller fä av kast eller skott över hus",
+   "plats:sdhk:sodermanland",
+   "KAster man iwir huus æller skiuter. Far scaþa af folk eller fæ."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_7",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:vittne|gärningsmannen styrker våda med två mäns vittnen och tolv mäns ed",
+   "plats:sdhk:sodermanland",
+   "witi þæt werkande til waþa mæþ.II. manna witnum. oc.XII. manna eþe",
+   "Gäller även om någon dräpts."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_7",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=kast eller skott framåt räknas som våda bara om båda parter säger att det var våda",
+   "plats:sdhk:sodermanland",
+   "wari þy ens waþe. at baþen sighiæ waþa wara"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_7",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|när länsmannen hävdar att förlikningen gällde viljeverk värjs den med att båda svär på laga ting att det var våda",
+   "plats:sdhk:sodermanland",
+   "wilia þe baþe i laghþingum swæriæ til waþa þen scaþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|fyrtio mark när mannen dräps efter att tungan skurits av",
+   "plats:sdhk:sodermanland",
+   "Dræper siþan mæþ allu. wari drap gilþ mæþ.XL. markum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_10",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre mäns vittnen och arton mäns ed, när den döende har nämnt sin baneman för biktfadern och grannarna",
+   "plats:sdhk:sodermanland",
+   "Hawin þa ærwingæ wald oc wizorþ sökiæ a sama man mæþ witnum.III. manna. oc XVIII. manna eþe.",
+   "Arvingarna för talan."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_10",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|svaranden värjer sig med tretolftsed om vittnen saknas",
+   "plats:sdhk:sodermanland",
+   "Aghe þa wæriænde wizorþ. wæriæ sic mæþ þrætylptum eþe."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot när en man dör av blåslag",
+   "plats:sdhk:sodermanland",
+   "Dör man af blok hoggum. ligge i twæböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_10",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|liv för liv om dråparen inte bjuder eller förmår böta eller ställa borgen",
+   "plats:sdhk:sodermanland",
+   "giælde þa lim firi lim. oc lif firi lif. æn han dræpit hawer"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_11",
+   "begrepp:drap",
+   "paforljd",
+   "=dråp på kvinna böts hälften högre än på man, utom där mannen gills med hundra mark",
+   "plats:sdhk:sodermanland",
+   "Warþer kuna barþ sarghat æller dræpin. wari halw höghre at botum æn maþer. vtan þær man gildis mæþ hundraþa markum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_13",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:ting|den som grips för mord eller rån förs till tinget",
+   "plats:sdhk:sodermanland",
+   "þa scal han til þinx föræs"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_13",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:namnd|tolv män värjer eller fäller honom på tinget",
+   "plats:sdhk:sodermanland",
+   "XII. mæn sculu han þær wæriæ"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_13",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|mördaren döms till stegel (rånaren till svärd)",
+   "plats:sdhk:sodermanland",
+   "dömis þa morþare a stægl. oc ransmaþer vndi swerþ"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_16",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|en fjärdedel av full bot till arvingarna när ett djur dödar en man",
+   "plats:sdhk:sodermanland",
+   "oc bot mæþ arwm þæs sum sin hawa mist. þæt ær fiarþunger af fuldre bot",
+   "Ägaren bjuder ut djuret; vill arvingarna inte ta emot, släpps djuret lös vid fjärde tinget."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_16",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:ting|ägaren för djuret till tinget och bjuder ut det vid tre laga ting",
+   "plats:sdhk:sodermanland",
+   "han scal mæþ þy fæ til þinx fara. laglica þæt i þrim lagþingum vt biuþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_16",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:tylftered|ägaren värjer sig med tolv mäns ed, av dem som var på tinget, om arvingen säger att djuret och boten inte bjöds ut lagligen",
+   "plats:sdhk:sodermanland",
+   "wæri þa han sic mæþ eþe.XII.manna þær a þinge waru"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_16",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:boter|fyrtio mark om ägaren fälls",
+   "plats:sdhk:sodermanland",
+   "Falz at eþe. böte XL. marker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_18",
+   "begrepp:drap",
+   "paforljd",
+   "=dråp av omyndig böts med vådaböter",
+   "plats:sdhk:sodermanland",
+   "Dræper owormaghi man hwarium lundum han dræpæ kan. bötis þæt drap ater mæþ waþa botum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_18",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre mäns vittnen och arton mäns ed om den omyndiges målsman nekar dråpet",
+   "plats:sdhk:sodermanland",
+   "Söke þa hin in til hans. mæþ.III. manna witnum. oc.XVIII. manna eþe."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_18",
+   "begrepp:drap",
+   "definieras_som",
+   "=omyndig är den som är yngre än femton år; vid tvist ransakar tolv män åldern med ed",
+   "plats:sdhk:sodermanland",
+   "Owormaghi heter þen yngre ær æn.XV. ara."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_18",
+   "begrepp:drap",
+   "paforljd",
+   "=dråp av lagligen lyst vansinnig man böts med vådabot sju mark; var han inte lyst, viljeverksböter",
+   "plats:sdhk:sodermanland",
+   "giælde by ater mæþ waþa botum.VII. markum. oc man drap samuleþ.",
+   "Släktingarna ska förvara honom och svarar för boten."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_19",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|sju mark vådabot för död i fällor som lagligen lysts; halv bot om de inte lysts",
+   "plats:sdhk:sodermanland",
+   "Æru þe laghlyst fyrræ. wari gilder at.VII. markum waþa bot. Ær ei lyst firi. wari gilder at halwre bot.",
+   "Halv bot tolkad som halv mansbot (högre än vådaboten)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|en fjärdedel av full bot när hus eller annat handaverk faller och dödar",
+   "plats:sdhk:sodermanland",
+   "bötis ater mæþ fiarþunge af fulde bot"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaed med arton män när ett fällt träd dödar en man",
+   "plats:sdhk:sodermanland",
+   "Fylle þær waþa eþ a hanum.XVIII. manna. oc waþa bot.VII.marker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|vådabot sju mark när ett fällt träd dödar en man",
+   "plats:sdhk:sodermanland",
+   "Fylle þær waþa eþ a hanum.XVIII. manna. oc waþa bot.VII.marker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:ogild|den som obedd klättrar i träd och faller ihjäl",
+   "plats:sdhk:sodermanland",
+   "mæþ siælfs wilia falder niþer oc dör af. liggi ogilder"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=ingen ed följer vådaböterna för vedtrave, rest sten eller stolpe och skepp som dras på land",
+   "plats:sdhk:sodermanland",
+   "þæssum waþa botum fölgher eþer engin"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_20",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|när två män fäller samma träd och båda dör av det",
+   "plats:sdhk:sodermanland",
+   "Hogga twe mæn træ eth. lytæ baþe döþ af. liggin ogilde.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_21",
+   "begrepp:vadadrap",
+   "paforljd",
+   "begrepp:mansbot|sju mark när en man skjuts ihjäl av den som sitter på jakt",
+   "plats:sdhk:sodermanland",
+   "Han bötis ater mæþ.VII. markum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_21",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaed av arton män fästs, och boten ställs i borgesmäns händer",
+   "plats:sdhk:sodermanland",
+   "þær scal waþa eþer firi festes.XVIII. manna. oc bot takum i hænder sætiæs"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_21",
+   "begrepp:vadadrap",
+   "handlaggs_vid",
+   "begrepp:ting|boten bjuds vid griftebacken, inför socknen och vid tre hundaresting",
+   "plats:sdhk:sodermanland",
+   "oc til biuþæs a griptar bakca. swa oc firi sokn. oc a hundaris þingum þrim"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_21",
+   "begrepp:vadadrap",
+   "definieras_som",
+   "=den som faller vid vådaeden får vådan räknad som viljeverk",
+   "plats:sdhk:sodermanland",
+   "Hwar sum falder at waþa eþe. þa comber þær waþe i wiliawerk."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_21",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|vådaed och vådabot när fader eller moder av våda dräper sitt barn och den ena klagar på den andra; sedan kan ingen kräva mer",
+   "plats:sdhk:sodermanland",
+   "Dræper faþer æller moþer barn sit. mæþ waþa oc ei mæþ wilia. oc liwa þön baþin. kiære annæt þæræ til þæs sum dræpit hawer. þa scal þæt fæstæ waþa eþ. oc waþa bot biuþa sum sagt ær.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:dulgadrap",
+   "definieras_som",
+   "=dulgadråp: lik hittas sårat i skog, på löt eller väg mellan kyrkor eller köpstäder och ingen hittas som dräpt",
+   "plats:sdhk:sodermanland",
+   "oc hittis engin þen dræpit hawer. þæt heter dula drap"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "begrepp:boter|hundaret ska finna banemannen eller betala fyrtio mark (dulgadråp)",
+   "plats:sdhk:sodermanland",
+   "þær scal hundare banaman finnæ. æller botum vppe halda.XL. markum"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:mordgald|mordgäld hundra och tjugo mark när liket hittas i låst hus",
+   "plats:sdhk:sodermanland",
+   "hittis i læstum husum. bötis ater mæþ morþgiældum.XX. markum oc hundraþa",
+   "Vem som betalar framgår inte uttryckligen (hundaret?)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:syn|tolv män nämns att skåda och syna om handaverk syns på liket",
+   "plats:sdhk:sodermanland",
+   "oc.XII. mæn til næmnæ sum scuþa sculu oc synæ"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tvist mellan länsman och bönder om handaverk avgörs på tolv mäns vittnen som såg liket",
+   "plats:sdhk:sodermanland",
+   "Nu sigher lænsman handwerke a like wara. oc bönder ei. wari þæt a.XII. manna witnum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:arvinge|halva boten, tjugo mark, till den dräpte utlänningens rätte arvinge om han kommer inom natt och år",
+   "plats:sdhk:sodermanland",
+   "þa agher han arf vptaka. oc halwa bot.XX. marker. oc.XX. marker kununger oc hundare.",
+   "Bot för dräpt utlänning; arvingen tar också arvet. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:kung|tjugo mark tillsammans med hundaret",
+   "plats:sdhk:sodermanland",
+   "þa agher han arf vptaka. oc halwa bot.XX. marker. oc.XX. marker kununger oc hundare.",
+   "Bot för dräpt utlänning."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:hundare|tjugo mark tillsammans med kungen",
+   "plats:sdhk:sodermanland",
+   "þa agher han arf vptaka. oc halwa bot.XX. marker. oc.XX. marker kununger oc hundare.",
+   "Bot för dräpt utlänning."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_22",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:kung|hela boten för dräpt utlänning om ingen arvinge kommer inom natt och år",
+   "plats:sdhk:sodermanland",
+   "Taki kununger baþe bot oc arf.",
+   "Om den dräpte är lekman; är han klerk tar biskopen arvet och kungen boten."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "paforljd",
+   "=när två dräper varandra ligger man mot man; arvingarna böter vardera kungen och hundaret åtta örtugar och tretton mark",
+   "plats:sdhk:sodermanland",
+   "ligge þær man gen manne i arwa botum. oc arwa þeræ bæggiæ. böte hwar þeræ kunungi oc hundare VIII. örtugha oc.XIII. marker"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|tretolftsed och sex mäns vittnen inom natt och år, när dråparen nekar",
+   "plats:sdhk:sodermanland",
+   "sökiæ sac til banamanz mæþ eþe þrætölptum. oc.VI. manna witnum. innan nat oc iamlanga",
+   "Den dräptes arvinge för talan."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "kraver",
+   "=dråparen ska bjuda full bot med tingsvittnen inom tre månader och ställa borgen",
+   "plats:sdhk:sodermanland",
+   "fulla böter firi sic biuþa. mæþ þinx witnum i manaþum þrim"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare som inte bjudit bot och sedan dräps",
+   "plats:sdhk:sodermanland",
+   "Hawer ei böter buþit sum sagt ær. warþer siþan dræpin. ligge ogilder."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "paforljd",
+   "=målsäganden väljer mellan hämnd och bot när dråparen vidgår gärningen på tinget",
+   "plats:sdhk:sodermanland",
+   "Hawi þa malsæghande wald hwat han hæller will hæmnæ æller wiþ botum taka."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|dråparen kommer till tinget och vidgår gärningen",
+   "plats:sdhk:sodermanland",
+   "Dræper man annæn. comber til þinx. oc kænnis wiþer gerningæ sinæ."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:mansbot",
+   "definieras_som",
+   "=sporgäld: åtta örtugar och tretton mark till målsäganden, lika mycket till kungen och hundaret",
+   "plats:sdhk:sodermanland",
+   "þa agher han hawa.VIII. örtugha oc XIII. marker. swa oc kununger oc hundare. þæsse bot heter sporgiælþ."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:sporgald",
+   "tillfaller",
+   "begrepp:malsagande|åtta örtugar och tretton mark (sporgäld)",
+   "plats:sdhk:sodermanland",
+   "þa agher han hawa.VIII. örtugha oc XIII. marker. swa oc kununger oc hundare"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:sporgald",
+   "tillfaller",
+   "begrepp:kung|åtta örtugar och tretton mark (sporgäld)",
+   "plats:sdhk:sodermanland",
+   "þa agher han hawa.VIII. örtugha oc XIII. marker. swa oc kununger oc hundare",
+   "Oklart om kungen och hundaret får var sin sporgäld eller en gemensam."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_23",
+   "begrepp:sporgald",
+   "tillfaller",
+   "begrepp:hundare|åtta örtugar och tretton mark (sporgäld)",
+   "plats:sdhk:sodermanland",
+   "þa agher han hawa.VIII. örtugha oc XIII. marker. swa oc kununger oc hundare",
+   "Oklart om kungen och hundaret får var sin sporgäld eller en gemensam."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:drap",
+   "definieras_som",
+   "=när flera dräper en heter tre av dem banemän: rådsbane, hållbane och sanne dråpare",
+   "plats:sdhk:sodermanland",
+   "en raþ bani. annær. halþ bani. oc [þrþi] (þriþi) sander drapara",
+   "Arvingarna väljer vilka tre de vill söka."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:radsbane",
+   "paforljd",
+   "begrepp:boter|rådsbane tre mark",
+   "plats:sdhk:sodermanland",
+   "Raþ bani sökis mæþ.II. oc.XII. bot hans.III. marker"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:hallbane",
+   "paforljd",
+   "begrepp:boter|hållbane nio mark",
+   "plats:sdhk:sodermanland",
+   "Hald bani mæþ.III. oc.XVIII. bot hans.IX. marker"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|sanne dråparen fyrtio mark",
+   "plats:sdhk:sodermanland",
+   "Sander drapare. mæþ.VI. oc þrim sinnum tolf. bot hans.XL. marker"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|vid nekande värjer sig dråparen med tretolftsed, hållbanen med arton mäns och rådsbanen med tolv mäns ed",
+   "plats:sdhk:sodermanland",
+   "wæri þa banaman sic mæþ eþe þrætölptum. Hald bani mæþ eþe.XVIII. manna. Raþbani eþe.XII. manna."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:radsbane",
+   "kraver",
+   "begrepp:ed|två vittnen och tolv mäns ed för att söka rådsbanen",
+   "plats:sdhk:sodermanland",
+   "Raþ bani sökis mæþ.II. oc.XII.",
+   "Gäller när flera dräpt en man. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:hallbane",
+   "kraver",
+   "begrepp:ed|tre vittnen och arton mäns ed för att söka hållbanen",
+   "plats:sdhk:sodermanland",
+   "Hald bani mæþ.III. oc.XVIII.",
+   "Gäller när flera dräpt en man. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_24",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|sex vittnen och tre tolfter för att söka den sanne dråparen",
+   "plats:sdhk:sodermanland",
+   "Sander drapare. mæþ.VI. oc þrim sinnum tolf.",
+   "Gäller när flera dräpt en man. Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:drap",
+   "paforljd",
+   "=flyr dråparen söks böterna ur hans bo efter domar och skäl",
+   "plats:sdhk:sodermanland",
+   "Dærper man annæn oc rymir siþan vndan. will ærwinge böter taka. þa sökis bo hans æpte domum oc skiælum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|dråparen bjuder bot vid griftebacken, inför socknen och vid tre hundaresting; böterna fästs på tinget",
+   "plats:sdhk:sodermanland",
+   "han agher tilbiuþæ a griptær backa. firi sokn. oc a hundaris þingum þrim"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:drap",
+   "paforljd",
+   "=vill målsäganden hämnas fästs ändå kungens och hundarets böter, och målsägandens rätt står kvar",
+   "plats:sdhk:sodermanland",
+   "Will han hæmnæ oc ei böter taka. fæastins kununge oc hundare böter æpte brutum"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:biskop|tre mark i varje dråp, utom vid våda eller ovitagärning",
+   "plats:sdhk:sodermanland",
+   "Biscuper agher i hwariu drape.III. marker. vta þær waþe fölghe æller owita gerning."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:sporgald",
+   "tillfaller",
+   "=all sporgäld tredelas",
+   "plats:sdhk:sodermanland",
+   "All sporgiælþ sculu þræskiptæs."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_25",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|dråpet ska gäldas men såret är ogilt när två män hugger varandra så att den ene dör och den andre blir sårad",
+   "plats:sdhk:sodermanland",
+   "Hoggas.II. mæn swa at annær lyter döþ af. oc annær sar. wari drap gilt. oc sar ogilt.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:tvebot|tvebot, åttio mark, för dråp i försåt",
+   "plats:sdhk:sodermanland",
+   "Ligge þen i twæböte til comber i attatighi markum.",
+   "Den som gjorde försåtet ligger själv i enböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:forsat",
+   "kraver",
+   "begrepp:ed|tretolftsed för att värja sig mot att ha dräpt i försåt",
+   "plats:sdhk:sodermanland",
+   "wæri sic mæþ eþe þrætylptum. at han ei i forsate drap"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot när en man dräps hos sin syster eller dotter",
+   "plats:sdhk:sodermanland",
+   "Warþer man dræpin at systur æller at dottor sinnæ. ligge i twæböte.",
+   "Motivering: han gick då inte med vapen."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för dråp med mordvapen",
+   "plats:sdhk:sodermanland",
+   "Warþer man dræpin af morþwapnum. ligge i twæböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "definieras_som",
+   "=mordvapen är täljkniv, matkniv och pil av båge (i motsats till folkvapen)",
+   "plats:sdhk:sodermanland",
+   "þættæ æru morþwapn tælghekniwer matkniwer. arf af bogha."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för dråp vid gemensam måltid (maltmæle)",
+   "plats:sdhk:sodermanland",
+   "warþer nocor dræpin af þem æller sar gör. ligge i twæböte.",
+   "Läsningen av maltmælæ är osäker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|enböte fyrtio mark för den som kommer objuden och dräps",
+   "plats:sdhk:sodermanland",
+   "Comber nocor obuþin. oc warþer dræpin. ligge i enböte.XL. markum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tvebot för dråp på barn yngre än tolv år, enböte om äldre",
+   "plats:sdhk:sodermanland",
+   "Warþer yngri barn [dræpin] (dræpit) æn.XII. ara. ligge i twæböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|en fjärdedel av full bot när omyndig dräper (ovitagärning); kungen och biskopen får inget",
+   "plats:sdhk:sodermanland",
+   "Kan owormaghi man dræpæ. þæt ær owita gerning. wari bot þæs fiarþunger af fuldre bot. Aghe þær i hwarte. kununger æller biscuper.",
+   "Jfr Mb 18, där dråp av omyndig böts med vådaböter."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för den som dräps hemma, fri eller ofri",
+   "plats:sdhk:sodermanland",
+   "Hwar sum hema dræpin warþer. ær han fræls æller ofræls. ligge i twæböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för den som dräps när han med lagdömt ting kräver ut sin sak och möts med våld",
+   "plats:sdhk:sodermanland",
+   "warþer þen dræpin til comber. ligge i twæböte. oc þe i enböte firi æru."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|tvebot för dråp på ledungsskepp som gått ut och lagt till",
+   "plats:sdhk:sodermanland",
+   "warþer þæt siþan nocor dræpin. innæn firi borþe. æller vtan (firi) bryggiosporþe. ligge i twæböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|tvebot för dråp på kvinna; enböte när kvinna dräper man",
+   "plats:sdhk:sodermanland",
+   "Warþer kuna dræpin. liggi i twæböte. Dræper kuna man. ligge i enböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:malsagande|först halva boten, sedan en tredjedel av andra halvan",
+   "plats:sdhk:sodermanland",
+   "taki malsæghande fyrst halwa bot. Half bot skiptis i þry. taki oc en lot. malsæghande. twa kununger oc hundare.",
+   "Delning av tvebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:kung|två tredjedelar av andra halvan tillsammans med hundaret",
+   "plats:sdhk:sodermanland",
+   "taki malsæghande fyrst halwa bot. Half bot skiptis i þry. taki oc en lot. malsæghande. twa kununger oc hundare.",
+   "Delning av tvebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:tvebot",
+   "tillfaller",
+   "begrepp:hundare|två tredjedelar av andra halvan tillsammans med kungen",
+   "plats:sdhk:sodermanland",
+   "taki malsæghande fyrst halwa bot. Half bot skiptis i þry. taki oc en lot. malsæghande. twa kununger oc hundare.",
+   "Delning av tvebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|högst fyrtio mark för odöpt barn",
+   "plats:sdhk:sodermanland",
+   "Kan heþit barn dræpas. þær warþer ei bot mera æn.XL. marker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_26",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:mansbot|enböte för den som själv lagt försåtet och dräps",
+   "plats:sdhk:sodermanland",
+   "oc þen i enböte forsat giorþe.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot, hundra och tjugo mark, för dråp i egen stuga",
+   "plats:sdhk:sodermanland",
+   "ligge þen i þræböte.XX. markum oc hundraþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot för dråp i egen säng; hustrun i samma gälde",
+   "plats:sdhk:sodermanland",
+   "Warþer man dræpin i siang sinne. ligge i þræböter. wari kuna i sama gilde."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:mansbot|hundra mark för dråp i annat hus inom gården, på gården eller inom spjutskafts skott från den",
+   "plats:sdhk:sodermanland",
+   "wari gilder at hundraþa markum"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot för dråp på omyndig yngre än sju år",
+   "plats:sdhk:sodermanland",
+   "Warþer owormaghi dræpin þen yngre ær æn siu ara. ligge i þræböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot för dråp i kyrka, på kyrkogård eller inom spjutskafts räckvidd från den",
+   "plats:sdhk:sodermanland",
+   "Warþer man dræpin i kirkiu æller i kirkiugarþe."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot för dråp på rätt tingsplats vid satt ting",
+   "plats:sdhk:sodermanland",
+   "Warþer man dræpin i rættum þinx staþ i sattu þinge. ligge i þræböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot för smed som dräps i smedjan vid sitt arbete",
+   "plats:sdhk:sodermanland",
+   "Warþer smiþer i smiþio dræpin. þær han stander a giærning sinne. ligge i þræböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_27",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:ed|den som hittat ett lik utan att kungöra det i närmaste by håller upp böterna eller värjer sig med tretolftsed",
+   "plats:sdhk:sodermanland",
+   "haldin þa botum vppe. æller eþe þrætölptum",
+   "Fälls de och syns handaverk på liket böter de hundra och tjugo mark."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv mäns ed avgör om mannens dråp på hustrun skedde med vilja eller våda",
+   "plats:sdhk:sodermanland",
+   "wari þæt a.XII. manna eþe. hwat hælder þæt war giort mæþ wilia æller waþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|stegel för man som med vilja dräper sin hustru",
+   "plats:sdhk:sodermanland",
+   "þa dömis man a stægl firi gerning sinæ",
+   "Värjer nämnden honom böter han dråpet med laga böter."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:drap",
+   "paforljd",
+   "=om hustruns fränder unnar honom livet: skrift utomlands och hundra och tjugo mark",
+   "plats:sdhk:sodermanland",
+   "wilia frænder hænnæ hanum lif vnna inne script sinæ vtlændis. oc böte bot inlændis.XX. marker oc hundraþa"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|stening för hustru som med vilja dräper sin man",
+   "plats:sdhk:sodermanland",
+   "dömis þa kuna vndi sten"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:trebot|trebot när föräldrar, barn eller syskon dräper varandra",
+   "plats:sdhk:sodermanland",
+   "þæssin liggin all i þræböte"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:trebot",
+   "tillfaller",
+   "begrepp:malsagande|hälften",
+   "plats:sdhk:sodermanland",
+   "taki halft malsæghande. oc halft kununger oc hundare",
+   "Delning av trebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:trebot",
+   "tillfaller",
+   "begrepp:kung|hälften tillsammans med hundaret",
+   "plats:sdhk:sodermanland",
+   "taki halft malsæghande. oc halft kununger oc hundare",
+   "Delning av trebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_28",
+   "begrepp:trebot",
+   "tillfaller",
+   "begrepp:hundare|hälften tillsammans med kungen",
+   "plats:sdhk:sodermanland",
+   "taki halft malsæghande. oc halft kununger oc hundare",
+   "Delning av trebot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_29",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|skeppslaget som ön hör till ska finna banemannen inom natt och år eller betala fyrtio mark",
+   "plats:sdhk:sodermanland",
+   "agher banaman finnæ innan nat (oc) iamlanga. æller botum vppe halda.XL. markum",
+   "Dråp innanför vård och vaka i skärgården; utanför svarar bara dråparen."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_31",
+   "begrepp:mansbot",
+   "tillfaller",
+   "begrepp:biskop|kungens rätt när präst eller klerk dräper lekman",
+   "plats:sdhk:sodermanland",
+   "DRæper prester æller annær clærker. lekman. þær agher biscuper kununx ræt.",
+   "Arvingarna tar målsägandens rätt."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_31",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|fredlös som dräps",
+   "plats:sdhk:sodermanland",
+   "warþer friþlös dræpin. ligge ogilder."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_32",
+   "begrepp:trolldom",
+   "kraver",
+   "begrepp:namnd|tolv män värjer eller fäller kvinnan med sin ed på tinget",
+   "plats:sdhk:sodermanland",
+   "Tolf mæn sculu hona þær wæriæ æller fællæ mæþ eþe sinum."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_32",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:boter|fyrtio mark för försök att dräpa med trolldom",
+   "plats:sdhk:sodermanland",
+   "Falz han. böte XL. marker."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_32",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:dodsstraff|bål om hon dräper med trolldom",
+   "plats:sdhk:sodermanland",
+   "Dræper mæþ allu. oc warþer sanþ. þa dömis hon til ball."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_32",
+   "begrepp:trolldom",
+   "paforljd",
+   "begrepp:trebot|hundra och tjugo mark om målsägandena unnar henne livet; skiftas som trebot",
+   "plats:sdhk:sodermanland",
+   "þa böte.XX. marker oc hundraþa. Skiptins sum annur þræböte."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_33",
+   "begrepp:vadadrap",
+   "kraver",
+   "begrepp:ed|den som av våda knuffar annan i eld eller vatten bjuder vådaed och vådabot",
+   "plats:sdhk:sodermanland",
+   "biuþe firi sic þen sköf. waþa eþ oc waþa bot",
+   "Faller han vid eden böter han för viljeverk."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_35",
+   "begrepp:tockabot",
+   "tillfaller",
+   "begrepp:kung|fyrtio mark i tackebot när kungens man dräps",
+   "plats:sdhk:sodermanland",
+   "UArþer kununx man dræpin. taki kununger.XL.marker at þocka bot."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_35",
+   "begrepp:tockabot",
+   "tillfaller",
+   "begrepp:biskop|tolv mark i tackebot när biskopens man dräps",
+   "plats:sdhk:sodermanland",
+   "warþer iarls eller biscups man dræpin. taki hwar þeræ.XII. marker at þocca botum.",
+   "Jarlen får lika mycket för sin man."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:kung|sex av kungens råd nämner tolv män i mål om uppror mot kungen",
+   "plats:sdhk:sodermanland",
+   "þa sculu.VI.af kununx raþ.XII. mæn til næmnæ"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|stegel för den som dräper sin husbonde",
+   "plats:sdhk:sodermanland",
+   "Hulikin man sin husbonda dræper. æller forraþer rikan æller fatökan. warþer þær mæþ fangin. þa scal han dömæs til stægl.",
+   "Kvinna som dräper sin husbonde döms under sten."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av husbondedråparens jord och gods",
+   "plats:sdhk:sodermanland",
+   "iorþ oc goz hans til þræskiptis. kununge. hundare. oc malsæghanda.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:hundare|en tredjedel av husbondedråparens jord och gods",
+   "plats:sdhk:sodermanland",
+   "iorþ oc goz hans til þræskiptis. kununge. hundare. oc malsæghanda.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:forverkat_gods",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av husbondedråparens jord och gods",
+   "plats:sdhk:sodermanland",
+   "iorþ oc goz hans til þræskiptis. kununge. hundare. oc malsæghanda.",
+   "Det förverkade godset."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_mb_36",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:namnd|tolv män på tinget värjer eller fäller den som anklagas för husbondedråp",
+   "plats:sdhk:sodermanland",
+   "þa sculu.XII. mæn a þinge þem wæriæ eller fællæ mæþ sinum eþe"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_1",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|länsmannen nämner tolv män av hundaret på tinget",
+   "plats:sdhk:sodermanland",
+   "Lænsmaþer scal a þinge vpstanda. oc.XII. mæn af hundare næmnæ."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_1",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:namnd|de tolv väljer två domare som är nyttiga både för kungen och menigheten",
+   "plats:sdhk:sodermanland",
+   "þe sculu twa mæn til doms wæliæ. oc þem næmnæ sum nytlike æru. baþe kununge oc almænne"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_1",
+   "begrepp:domare",
+   "utses_av",
+   "begrepp:kung|kungen eller den som har hans fullmakt sätter domen i deras händer",
+   "plats:sdhk:sodermanland",
+   "Kununger agher þem dom i hænder sætiæ. æller oc þen hans walþ þær til hawer."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_2",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:ting|vid dråp, våldtäkt eller annan våldsgärning mot bonde får bonden saklöst skära upp budkavle och kalla till ting",
+   "plats:sdhk:sodermanland",
+   "Warþa walzgerninga til bonda göræ. kuna mæþ walþ takin. æller drap giort. þær ma bonde at saclösu buþcafla vpskæra."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_2",
+   "begrepp:valdtakt",
+   "handlaggs_vid",
+   "begrepp:ting|bonden får saklöst skära upp budkavle och kalla till ting",
+   "plats:sdhk:sodermanland",
+   "Warþa walzgerninga til bonda göræ. kuna mæþ walþ takin. æller drap giort. þær ma bonde at saclösu buþcafla vpskæra."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_2",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|halva nämnden när bonde klagar på domarna",
+   "plats:sdhk:sodermanland",
+   "Raþe halwe næmd hwar þeræ.",
+   "Domarna råder över andra halvan."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_2",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|tre mark och domen går åter, om han dömer där en annan rätteligen är tagen till domare för hundaret",
+   "plats:sdhk:sodermanland",
+   "Hwar sum annær rætlica takin ær hundare. gange ater domber hans. oc wari saker at.III. markum.",
+   "Osäker läsning."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_2",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:boter|tre mark om domaren inte vill döma bönderna rätt, avgjort av tolv män",
+   "plats:sdhk:sodermanland",
+   "Ær domare a þinge will ei bondum ræt dömæ. stande oc þæt til.XII. manna.",
+   "Den av parterna som nämnden fäller böter tre mark."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_6",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|halva nämnden i mål om tvetal",
+   "plats:sdhk:sodermanland",
+   "raþe halwe næmd hwar þeræ"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_7",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:lansman|den som har kungens sak nämner tre män av varje fjärding till ransakningsnämnd",
+   "plats:sdhk:sodermanland",
+   "han scal næmnæ af fiarþunge hwarium.III. mæn.",
+   "Gäller nämnd över brottsliga män (tjuvar); kungens ombud, troligen länsmannen."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_9",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|i mål om dråp, sår, rån och tjuvnad utan bar gärning ska vittnena vara fria och fridvita män",
+   "plats:sdhk:sodermanland",
+   "þæt scal han göræ mæþ frælsum mannum oc friþwitum",
+   "Ofria och fredlösa utesluts."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_9",
+   "begrepp:losker_man",
+   "diskvalificerar",
+   "begrepp:vittne|icke bygdefasta män i vittnesmål om inlagsfä, bygdeskäl, köp, hemul, lysning och vadslagning",
+   "plats:sdhk:sodermanland",
+   "þæssen witnen sculu bygþfast wara"
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_tb_10",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:malsagande|halva nämnden när borgesman förnekar borgen",
+   "plats:sdhk:sodermanland",
+   "Raþe halwe næmþ hwar þeræ sum wiþer delæs."
+  ],
+  [
+   "lag:sodermannalagen_enligt_codex_iuris_sudermannici:sdml_kgb_3",
+   "begrepp:konungaval",
+   "kraver",
+   "=kungen ska vigas till krona av ärkebiskopen och lydbiskoparna",
+   "plats:sdhk:sodermanland",
+   "Kvnunger scal af ærkebiscupi ok lydbiscupum til cronu wighiæs.",
+   "Tillagt efter oberoende kontroll (Codex)."
+  ]
+ ]
+}

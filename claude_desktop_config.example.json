@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fornmed": {
+      "command": "/<SOKVAG_TILL_PROJEKTET>/.venv/bin/python",
+      "args": ["/<SOKVAG_TILL_PROJEKTET>/mcp_server.py"]
+    }
+  }
+}

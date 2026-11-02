@@ -1,0 +1,638 @@
+[
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:41",
+  "rad": [
+   "gragas:2:dan:41",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:landsflykt|domare som vägrar döma i saken",
+   "plats:island",
+   "da gjælder det Fjørbaugsgaard for dem, der ikke ville paadømme Sagen",
+   "Fjørbaugsgaard = mindre fredlöshet. Sex domare räcker då för giltig dom. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 1
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:kristoffers_landslag:o_flock_2",
+  "rad": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:karl_ix",
+   "stiftar_lag",
+   "=lät trycka Kristoffers landslag och befallde domarna att tillämpa den, edikt 1608",
+   "plats:sdhk:sverige",
+   "Hafwe wij och then laghbok, Swerikes Krono och idher til myckin wälferd, och rättwijsan til merkeligh förkofring, j lijke måtto welet af Trycket lata vthgå."
+  ],
+  "id": 2
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:kristoffers_landslag:o_flock_2",
+  "rad": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:karl_ix",
+   "stiftar_lag",
+   "=ändrade kungabalkens regel om vald kung till arvkung enligt ediktet",
+   "plats:sdhk:sverige",
+   "Til Swerikes Rijke är Konunger erfwande, och ey wäliande"
+  ],
+  "id": 3
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:kristoffers_landslag:o_flock_2",
+  "A": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=Karl IX:s edikt ändrar konungabalkens tredje kapitel så att kungen ärver och inte väljs, efter arvföreningarna",
+   "plats:sdhk:sverige",
+   "Til Swerikes Rijke är Konunger erfwande, och ey wäliande",
+   "Ur Karl IX:s edikt 1608; gäller den tryckta lagen, inte 1442 års text."
+  ],
+  "B": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "begrepp:konungaval",
+   "definieras_som",
+   "=kungadömet är enligt ediktets ändring ärftligt och inte valt",
+   "plats:sdhk:sverige",
+   "Til Swerikes Rijke är Konunger erfwande, och ey wäliande"
+  ],
+  "id": 4
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:kristoffers_landslag:o_flock_2",
+  "A": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:kristofer_av_bayern",
+   "stiftar_lag",
+   "=kung Kristoffer konfirmerade och stadfäste 1442 lagboken sedan riksrådet sett över och förbättrat den; rikets ständer samtyckte",
+   "plats:sdhk:sverige",
+   "Sampt af Konung Christofer, Swerikes, Danmarks, Norikes, Göthes och Wändes Konung, Palatzgrefwe widh Reen, och Hertigh til Beiern etc. confirmeret och stadhfäst",
+   "Uppgiften står i Karl IX:s tryckningsedikt 1608 (efter tillägget P), inte i den medeltida texten."
+  ],
+  "B": [
+   "lag:kristoffers_landslag:o_flock_2",
+   "person:kristofer_av_bayern",
+   "stiftar_lag",
+   "=stadfäste Kristoffers landslag år 1442 enligt Karl IX:s edikt",
+   "plats:sdhk:sverige",
+   "Sampt af Konung Christofer, Swerikes, Danmarks, Norikes, Göthes och Wändes Konung, Palatzgrefwe widh Reen, och Hertigh til Beiern etc. confirmeret och stadhfäst"
+  ],
+  "id": 5
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:jav",
+   "kraver",
+   "begrepp:ed|den som rensar domstolen svär laged på korset",
+   "plats:island",
+   "Sagsøgere og Sagvoldere kunne rydde Domstol om de ville, og skulle sværge Eder derved",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 6
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:domare|andligt släktskap (fadderskap vid primsigning, dop eller konfirmation) med parten",
+   "plats:island",
+   "Tre aandelig beslægtede skulle reise sig fra Domstolen",
+   "Andligt släktskap saknar eget begrepp. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 7
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:domare",
+   "paforljd",
+   "begrepp:landsflykt|domare som inte lämnar domstolen efter laglig rensning (tingskränkning)",
+   "plats:island",
+   "Dersom han ikke vil reise sig fra Domstolen, men vil ligefuldt blive siddende, da er det Thingkrænkelse, og gjælder det Fjørbaugsgaard",
+   "Fjørbaugsgaard = mindre fredlöshet (landsflykt i tre år). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 8
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:vittne",
+   "paforljd",
+   "begrepp:fredloshet|skogsgång för oriktig släktskapsräkning eller falskt vittnesbörd på alltinget",
+   "plats:island",
+   "Dersom man anfører Frændskabet urigtig, eller afgiver falsk Vidnesbyrd paa Althinget, da gjælder det Skovgang",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 9
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:domare",
+   "utses_av",
+   "=goden utser ny domare efter jäv",
+   "plats:island",
+   "er Goden da pligtig at udnævne en anden Dommer strax"
+  ],
+  "id": 10
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:25",
+  "rad": [
+   "gragas:2:dan:25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|andligt släktskap genom primsigning, dop eller konfirmation",
+   "plats:island",
+   "Tre aandelig beslægtede skulle reise sig fra Domstolen"
+  ],
+  "id": 11
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:88",
+  "rad": [
+   "gragas:3:dan:88",
+   "begrepp:drap",
+   "kraver",
+   "=vid dödande utan synlig yttre skada kan högst tre utpekas vid lysningen",
+   "plats:island",
+   "da kan saadant Drab ikke med den Virkning, at det hindrer de Vedkommende fra Thingreise, paalyses flere end 3"
+  ],
+  "id": 12
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:45",
+  "rad": [
+   "gragas:2:dan:45",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|goden svär att den utsedde är den bästa möjliga att råda för lagarna",
+   "plats:island",
+   "Slig Ed skal hver Gode aflægge, der udnævner Dommere i Femterretten."
+  ],
+  "id": 13
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "gragas:2:dan:45",
+  "A": [
+   "gragas:2:dan:45",
+   "begrepp:domare",
+   "utses_av",
+   "=goden|domare i femtedomstolen; goden svär att ingen bättre lagkunnig fanns bland hans tingmän",
+   "plats:island",
+   "jeg sværger Ed med Bog i Haanden, Femterrets-Ed; hjælpe mig saa vist Gud i dette og det andet Lys, som jeg troer, at jeg har udnævnet en saadan Mand til Dommer, at ei vil nogen anden Mand eller Indbygger her i Landet raade bedre for vore Love end den Mand",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "B": [
+   "gragas:2:dan:45",
+   "begrepp:domare",
+   "utses_av",
+   "=goden utser domare till Femterretten",
+   "plats:island",
+   "at jeg udnævner Dommer i Femterretten"
+  ],
+  "id": 14
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:kristoffers_landslag:h_flock_2_2",
+  "rad": [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:vadadrap",
+   "paforljd",
+   "=när oxe eller annat fä dräper människa stenas eller bränns fäet och ägaren är fri",
+   "plats:sdhk:sverige",
+   "thå skal thet fä stenas eller brennas, och then som thet fää åtte wara frij for ogerningen",
+   "Tillägg utanför balkarna i utgåvan (stycke M, i passagen H 2), inte i den medeltida huvudtexten. Jfr Dvå 17, där ägaren böter nio marker."
+  ],
+  "id": 15
+ },
+ {
+  "typ": "bara_A",
+  "passage": "lag:kristoffers_landslag:h_flock_2_2",
+  "rad": [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "=omyndig mister inte livet för dråp",
+   "plats:sdhk:sverige",
+   "Ey må offuermagi liff för tiuffnat eller dråp låtta",
+   "Tillägg utanför balkarna i utgåvan (stycke L, i passagen H 2), inte i den medeltida huvudtexten."
+  ],
+  "id": 16
+ },
+ {
+  "typ": "bara_B",
+  "passage": "lag:kristoffers_landslag:h_flock_2_2",
+  "rad": [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|djurägaren kan lösa sitt liv som om han själv hade dräpt",
+   "plats:sdhk:sverige",
+   "thå skall han sit liff lösa som han sielffuer dråpit giort haffuer."
+  ],
+  "id": 17
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "lag:kristoffers_landslag:h_flock_2_2",
+  "A": [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|ägare som visste att fäet var otamt och farligt och inte vaktade det dör, men kan lösa sitt liv som om han själv dräpt",
+   "plats:sdhk:sverige",
+   "thå skall thet fä stenas, och mannen döö. Kan han til lösn komma, thå skall han sit liff lösa som han sielffuer dråpit giort haffuer",
+   "Tillägg utanför balkarna i utgåvan (stycke M, i passagen H 2), inte i den medeltida huvudtexten."
+  ],
+  "B": [
+   "lag:kristoffers_landslag:h_flock_2_2",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:dodsstraff|ägare till otamt djur som inte avvärjt fara och vars djur dödat människa",
+   "plats:sdhk:sverige",
+   "thå skall thet fä stenas, och mannen döö."
+  ],
+  "id": 18
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:3:dan:87",
+  "rad": [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|vittnen kallas till varje banesår",
+   "plats:island",
+   "han bør tilkalde Vidner ved hvert af Banesaarene og vise dem Saarene",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 19
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:3:dan:87",
+  "rad": [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|om dråparen inte täcker liget mot fåglar och djur",
+   "plats:island",
+   "hvis han ikke saaledes dækker Liget, straffes han med Landsforvisning",
+   "Landsforvisning = fjörbaugsgarðr (mindre fredlöshet). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 20
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:3:dan:87",
+  "rad": [
+   "gragas:3:dan:87",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:vittne|vittnen om banesår måste uppfylla samma släktskapskrav som ledamöter av grannkvid",
+   "plats:island",
+   "Vidner angaaende Banesaar skulle have saadanne Egenskaber, at de i Henseende til Slægtskab med den søgsmaalsberettigede gyldigen kunde være Medlemmer af en Nabokvid",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 21
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:87",
+  "rad": [
+   "gragas:3:dan:87",
+   "begrepp:drap",
+   "kraver",
+   "=rätt målsägande som är närvarande lyser dråpet och visar dödliga sår för vittnen",
+   "plats:island",
+   "da skal han lyse Drabet og fuldføre Lysningen inden trende Solemærker"
+  ],
+  "id": 22
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "gragas:3:dan:87",
+  "A": [
+   "gragas:3:dan:87",
+   "begrepp:mord",
+   "definieras_som",
+   "=dråp som dråparen inte själv lyser på föreskrivet sätt; den dräpte anses då inte ha fallit på sina gärningar",
+   "plats:island",
+   "dersom han lyser anderledes end nu er sagt, da regnes det for Mord, saa at den dræbte ansees ikke at være faldet paa sine Gjerninger",
+   "Dråparen ska samma dygn lysa dråpet på närmaste gård där han är säker. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "B": [
+   "gragas:3:dan:87",
+   "begrepp:mord",
+   "definieras_som",
+   "=dråp som gärningsmannen inte kungör enligt den föreskrivna ordningen räknas som mord",
+   "plats:island",
+   "dersom han lyser anderledes end nu er sagt, da regnes det for Mord"
+  ],
+  "id": 23
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:35",
+  "rad": [
+   "gragas:2:dan:35",
+   "begrepp:vittne",
+   "kraver",
+   "begrepp:ed|alla som för talan, vittnar eller avger kvidutsaga vid alltingets domstolar svär ed",
+   "plats:island",
+   "Alle de Mænd, som have noget Lov-Anliggende at fremføre for Domstolene paa Althinget, være sig at forfølge Sag eller værge Sag, eller afgive Vidnesbyrd eller Kvidudsagn, de skulle sværge Eder",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 24
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:35",
+  "rad": [
+   "gragas:2:dan:35",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|gift med partens moder, dotter eller syster",
+   "plats:island",
+   "naar den ene er gift med den andens Moder eller Datter eller Søster"
+  ],
+  "id": 25
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:35",
+  "rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|andligt släktskap genom dop, primsigning eller konfirmation",
+   "plats:island",
+   "Han kan rydde paa Grund af de 3 Slags aandeligt Slægtskab"
+  ],
+  "id": 26
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:35",
+  "rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|kvidman som inte har föreskriven förmögenhet eller tjänstekarl kan avlägsnas",
+   "plats:island",
+   "Dersom en Mand har Sæde i Kviden, som har mindre Formue, end som saa, at han er pligtig til at betale Thingreiselønsafgiften"
+  ],
+  "id": 27
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:35",
+  "rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|sjuk kvidman som inte hade varit skyldig att resa till tinget kan avlägsnas",
+   "plats:island",
+   "Dersom en Kvidmand er saa svag, at han ikke vilde have været pligtig til Thingreise"
+  ],
+  "id": 28
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "gragas:2:dan:35",
+  "A": [
+   "gragas:2:dan:35",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|tremänning eller närmare",
+   "plats:island",
+   "skulle Næstsødskendebørn og nærmere Slægtninge vige Sæde af Kviden",
+   "Gäller rensning av kvid vid alltinget; släktskap med den rensande själv räknas också. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "B": [
+   "gragas:2:dan:35",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|nästsydskendebarn och närmare släktingar lämnar kviden",
+   "plats:island",
+   "Næstsødskendebørn og nærmere Slægtninge vige Sæde af Kviden"
+  ],
+  "id": 29
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:ogild",
+   "definieras_som",
+   "=den som sårat eller dräpt faller ofridshelig ('ufredhellig') för den skadade och dem som har rätt att hämnas dråpet, fram till alltinget där saken ska väckas",
+   "plats:island",
+   "Den som har tilføiet Manden Saar eller dræbt ham, falder ufredhellig for denne og for alle dem, der ere i Ledtog med ham",
+   "Hämndrätten tillkommer dem som har rätt att föra dråpsaken: 'de ere berettigede til at udøve Hævn for Drab, som ere berettigede til Søgsmaal'. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 30
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet",
+   "plats:island",
+   "Dersom man dræber en Mand, gjælder det Fredløshed",
+   "Fredløshed = skovgang (full fredlöshet). Dråpsaken förs av den som har rätt att hämnas dråpet (se kap. 94). Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 31
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "kraver",
+   "=kvidutsaga om vilket parti som började angreppet när båda parter skadats eller dödats",
+   "plats:island",
+   "da skal der gives Kvidudsagn om, at Angrebet er skeet fra det Partis Side, hvorfra det i Virkeligheden er skeet."
+  ],
+  "id": 32
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som begav sig till plats för att dräpa och dödas vid sammanstötningen",
+   "plats:island",
+   "de, der først begive sig hjemme fra i saadan Hensigt til et Møde, hvor Drab eller Saar finde Sted, ere ufredhellige"
+  ],
+  "id": 33
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|den som försvarar dråpare på kampplatsen dödas där",
+   "plats:island",
+   "han da ogsaa ansees ufredhellig"
+  ],
+  "id": 34
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:3:dan:86",
+  "rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dråpare kan bli föremål för dråphämnd fram till nästa allting",
+   "plats:island",
+   "den Mand, som er blevet saaret, er berettiget til, dersom han vil, at udøve Drabshævn i Mellemtiden"
+  ],
+  "id": 35
+ },
+ {
+  "typ": "olika_varde",
+  "passage": "gragas:3:dan:86",
+  "A": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|för den som går hemifrån i avsikt att dräpa eller såra, om det fullbordas",
+   "plats:island",
+   "Naarsomhelst man begiver sig etsteds hen i den Hensigt at dræbe eller saare Mennesker, gjælder det Fredløshed, hvis det bliver fuldført",
+   "Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "B": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:fredloshet|dråp medför fredlöshet",
+   "plats:island",
+   "Dersom man dræber en Mand, gjælder det Fredløshed."
+  ],
+  "id": 36
+ },
+ {
+  "typ": "bara_A",
+  "passage": "gragas:2:dan:59",
+  "rad": [
+   "gragas:2:dan:59",
+   "begrepp:vittne",
+   "paforljd",
+   "begrepp:landsflykt|falskt bevis (ärebetygelse, kvidutsaga eller vittnesbörd) på vårting eller bygdedomstol",
+   "plats:island",
+   "For alle falske Beviser, der blive afgivne paa Vaarthinget eller ved Domstole hjemme i Bøigden (19), være sig Bevidnelse paa sin Ære eller Kvidudsagn eller Vidnesbyrd, — er Straffen Fjørbaugsgaard",
+   "'(19)' är översättningens fotnotshänvisning. Citatet är ur Finsens danska översättning (1870)."
+  ],
+  "id": 37
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:36",
+  "rad": [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=goden utser elva kvidmän utöver sig själv",
+   "plats:island",
+   "han skal udnævne 11 Mænd foruden sig selv."
+  ],
+  "id": 38
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:36",
+  "rad": [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=en annan gode, fjärmast släkt med den tilltalade, framför kviden när goden själv är part",
+   "plats:island",
+   "den af dem, som han vil, dersom de begge ere i lige nært Slægtskab med den sagsøgte, men ellers den af dem, som er fjernest beslægtet med denne"
+  ],
+  "id": 39
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:42",
+  "rad": [
+   "gragas:2:dan:42",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|vid motdom svär domaren att döma efter vad han tror överensstämmer med lagen",
+   "plats:island",
+   "jeg vil afsige den Moddom, som jeg troer er stemmende med Loven"
+  ],
+  "id": 40
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:24",
+  "rad": [
+   "gragas:2:dan:24",
+   "begrepp:domare",
+   "utses_av",
+   "=goden utser domaren till domstolen",
+   "plats:island",
+   "Derpaa skal Goden nedsætte sin Dommer"
+  ],
+  "id": 41
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:40",
+  "rad": [
+   "gragas:2:dan:40",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|domarens röst räknas inte i dennes egen sak, även om han sitter kvar",
+   "plats:island",
+   "Ei skal hans Stemme gjælde i den Sag"
+  ],
+  "id": 42
+ },
+ {
+  "typ": "bara_B",
+  "passage": "gragas:2:dan:44",
+  "rad": [
+   "gragas:2:dan:44",
+   "begrepp:muta",
+   "handlaggs_vid",
+   "=Femterretten dömer mål om mutor på tinget",
+   "plats:island",
+   "naar man tilbyder, modtager eller betinger sig Bestikkelse her paa Thinget"
+  ],
+  "id": 43
+ }
+]

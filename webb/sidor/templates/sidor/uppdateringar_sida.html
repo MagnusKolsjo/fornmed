@@ -1,0 +1,20 @@
+{% extends "sidor/text_sida.html" %}
+{% load wagtailcore_tags %}
+{% block efter_text %}
+<ol class="uppdateringar">
+{% for p in poster %}
+  <li>
+    <h2><time datetime="{{ p.datum|date:'c' }}">{{ p.datum|date:"j F Y" }}</time></h2>
+    {% if p.slag == "leverans" %}
+      <p>{{ p.anmarkning|default:"Ny version av databasen." }}</p>
+      {% if p.andringar %}<ul>{% for rad in p.andringar %}<li>{{ rad }}</li>{% endfor %}</ul>{% endif %}
+    {% else %}
+      <h3><a href="{% pageurl p.sida %}">{{ p.sida.title }}</a></h3>
+      {{ p.sida.brodtext|richtext|truncatewords_html:60 }}
+    {% endif %}
+  </li>
+{% empty %}
+  <li>Inga uppdateringar ännu.</li>
+{% endfor %}
+</ol>
+{% endblock %}

@@ -1,0 +1,514 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Östgötalagens fragment C, D, E, H, M och N (andra handskrifter av Östgötalagen), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/ostgotalagen_fragment.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_25",
+   "begrepp:namnd",
+   "utses_av",
+   "begrepp:prast|prästen gör biskopsnämnden och sätter sanningsmän i den",
+   "plats:sdhk:ostergotland",
+   "Præster ægher næmpd gøra sanninda mæn J næmpd siætia.",
+   "Biskopsnämnden vid biskopens visitation. Samma regel i A (Kkb)."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|parterna i målet (viþerdelomän) i biskopsnämnden",
+   "plats:sdhk:ostergotland",
+   "ey widher delo mæn.",
+   "Jäv på grund av egen sak."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|den som stått i eden i målet (biskopsnämnden)",
+   "plats:sdhk:ostergotland",
+   "Ey thøm J edhom stodho.",
+   "Edgärdsmän i saken får inte sitta i nämnden."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|biskopens soknare (åklagaren) i biskopsnämnden",
+   "plats:sdhk:ostergotland",
+   "oc ey soknara."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_25",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna ska säga ja till dem som sitter i biskopsnämnden",
+   "plats:sdhk:ostergotland",
+   "oc the skulu J næmpdene sittia. som the sighia iaa widher. som widher delomænnene æru.",
+   "Parterna godkänner nämndemännen."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_27",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "begrepp:namnd|biskopsnämnden, när dråpet är oskriftat",
+   "plats:sdhk:ostergotland",
+   "Thæssen maal ægha a biskops næmpd koma hoor menedher. Skrok witne. Oskriptat mandrap.",
+   "Gäller mandråp som gärningsmannen inte tagit skrift (bot) för."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_27",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|del av böterna när biskopsnämnden fäller eden",
+   "plats:sdhk:ostergotland",
+   "Thæssa edha tha fællir biskops næmpden. Swa at ther bøte badhe biskope oc konunge.",
+   "Gäller bl.a. oskriftat mandråp; andelarnas storlek anges inte."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_27",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|del av böterna när biskopsnämnden fäller eden",
+   "plats:sdhk:ostergotland",
+   "Swa at ther bøte badhe biskope oc konunge.",
+   "Gäller bl.a. oskriftat mandråp; andelarnas storlek anges inte."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_28",
+   "begrepp:drap",
+   "handlaggs_vid",
+   "=inte biskopsnämnden när man vittnar annan till dråp",
+   "plats:sdhk:ostergotland",
+   "vitnar madher man til draps. ællir til haldz. til fulsæris. ællir til skeno.",
+   "Eder där man vittnar annan till dråp hör inte till biskopsnämnden; tvesöre slits av häradsnämnden enligt samma flock."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_33",
+   "begrepp:namnd",
+   "utses_av",
+   "=män där gärningen skedde, som kan vittna sanningen",
+   "plats:sdhk:ostergotland",
+   "biscops næmpdh skal J allom malom ther sannan vitna leta. ther som gerden var gør.",
+   "Gäller både häradsnämnd och biskopsnämnd."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_33",
+   "begrepp:namnd",
+   "handlaggs_vid",
+   "begrepp:kung|kungens eller lagmannens dom driver tillbaka en orätt nämnd",
+   "plats:sdhk:ostergotland",
+   "Nw maa ængin edh ganga a mote biskops næmpd. ællir konungx. gør hon wrangt. tha skal konungx dombir ællir laghmanz. medh openbarom vitnom hona atter drifwa.",
+   "Ingen ed får gå mot biskopsnämnd eller kungsnämnd."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_33",
+   "begrepp:namnd",
+   "kraver",
+   "begrepp:vittne|uppenbara vittnen för att driva tillbaka en orätt nämnd",
+   "plats:sdhk:ostergotland",
+   "medh openbarom vitnom hona atter drifwa."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_35",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|sex marker för var och en som svurit i en nämnd som döms tillbaka",
+   "plats:sdhk:ostergotland",
+   "Nw vardher næmpdh atter dømpdh. ællir the J henne sworo the æru saki at siex markom.",
+   "Oavsett om nämnden gick tillbaka för osanning eller olag. Samma belopp och delning i A."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|en mark av sexmarksboten för tillbakadömd nämnd",
+   "plats:sdhk:ostergotland",
+   "ena mark konunge adhra malsæghiande thridhio hæradhe. Oc thre mark biskope."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|en mark av sexmarksboten för tillbakadömd nämnd",
+   "plats:sdhk:ostergotland",
+   "ena mark konunge adhra malsæghiande thridhio hæradhe."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|en mark av sexmarksboten för tillbakadömd nämnd",
+   "plats:sdhk:ostergotland",
+   "adhra malsæghiande thridhio hæradhe."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_35",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tre marker av sexmarksboten för tillbakadömd nämnd",
+   "plats:sdhk:ostergotland",
+   "Oc thre mark biskope."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_42",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|saken ökas med fyrtio marker vid helgerna i Linköping, Skänninge och Söderköping",
+   "plats:sdhk:ostergotland",
+   "Huar som tha hugger. slaar. dræpir. nakan. thædhan farande. ællir thiit farande. ællir oc ther warande. han økir sina sak. ath firitighi markom.",
+   "Gäller den som hugger, slår eller dräper någon på väg till, från eller under skärdags- och Petersmässohelgen i Linköping, Olofsmässan i Skänninge och Larsmässan i Söderköping. Jag har inte hittat motsvarigheten i A."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_42",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tjugo marker av höjningen vid helgerna i Linköping, Skänninge och Söderköping",
+   "plats:sdhk:ostergotland",
+   "ther skal thiwghu marker hafwa af konunger. oc thiwghu marker biskoper."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_42",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tjugo marker av höjningen vid helgerna i Linköping, Skänninge och Söderköping",
+   "plats:sdhk:ostergotland",
+   "oc thiwghu marker biskoper."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_44",
+   "begrepp:drap",
+   "paforljd",
+   "=kyrkan blir ovigd; den som vållat det ska låta viga om kyrkan",
+   "plats:sdhk:ostergotland",
+   "Nw dræpis mæn J kirkio æller gørs hoor J kirkio. tha ær vigxl af kirkio. Then ther vixla spiællom walder. han skal kirkio wigha læta.",
+   "Dråp i kyrkan. Jag har inte hittat motsvarigheten i A."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:boter|fyrtio marker för moder som mördar sitt odöpta barn",
+   "plats:sdhk:ostergotland",
+   "Nw myrdher modher barn sith hedit. tha ær hon sak ath xlum markom.",
+   "\"Hedit mord\". Kvinnans fränder betalar av hennes pengar."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tretton marker åtta örtugar om barnets fader kärar (hedit mord)",
+   "plats:sdhk:ostergotland",
+   "Ok atta ørtuger oc thrættan markir konunge.",
+   "Faderns del: lika mycket som kungens och biskopens."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tretton marker åtta örtugar om barnets fader kärar (hedit mord)",
+   "plats:sdhk:ostergotland",
+   "oc atta ørtuger oc thrættan markir biscope bøta."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:boter",
+   "tillfaller",
+   "=barnets fader: tretton marker åtta örtugar om han kärar (hedit mord)",
+   "plats:sdhk:ostergotland",
+   "tha skal konan gifua hanom atta ørtuger oc thrættan markar."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|tjugo marker om barnets fader inte kärar (hedit mord)",
+   "plats:sdhk:ostergotland",
+   "tha skal konunger hafua af kunune thiwghu marker. oc tiwghu marker biscoper."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|tjugo marker om barnets fader inte kärar (hedit mord)",
+   "plats:sdhk:ostergotland",
+   "oc tiwghu marker biscoper."
+  ],
+  [
+   "lag:ostgotalagen_fragment_h_ur_kyrkobalken_ur_skokloster_avdl_i_:kirkio_balkir_stycke_46",
+   "begrepp:mord",
+   "handlaggs_vid",
+   "begrepp:namnd|häradsnämnden letar, soknaren stämmer inte",
+   "plats:sdhk:ostergotland",
+   "Kænnes kona hedit mordh. ther skal ey soknare æpter stæmpna. thet skal hæradznampd leta.",
+   "Häradsnämnden ska fria eller fälla henne om hon inte tagits på bar gärning."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:kungsnamnd",
+   "utses_av",
+   "=häradsnämnden nämns i båda parternas närvaro, och de ska godta dem som nämns",
+   "plats:sdhk:ostergotland",
+   "þa scal hæræz næmd næmna baþe þe viþer vara som uiþer delas. oc iaka þøm mannom som næmnas i næmdenna",
+   "När kungen vill hålla sin räfst. Samma i A (Rb 1)."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:namnd",
+   "utses_av",
+   "=sanningsmän sätts i nämnden vid kungens räfst",
+   "plats:sdhk:ostergotland",
+   "þa scal sannindamæn i næmdena sættia."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|parterna själva (viþerdelomän) vid kungens räfst",
+   "plats:sdhk:ostergotland",
+   "oc eg uiþerdelomæn.",
+   "Egen sak."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|parternas vänner (vilda män) vid kungens räfst",
+   "plats:sdhk:ostergotland",
+   "oc eg þera vilda mæn",
+   "\"Vilda män\" tolkat som parternas gunstlingar."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:frandskap",
+   "diskvalificerar",
+   "begrepp:namnd|parternas fränder vid kungens räfst",
+   "plats:sdhk:ostergotland",
+   "oc eg þera vilda mæn ællas frænder þera.",
+   "Ingen gradgräns anges."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_7",
+   "begrepp:namnd",
+   "paforljd",
+   "begrepp:boter|tre marker för den som nämns i nämnd eller syn och inte vill gå in",
+   "plats:sdhk:ostergotland",
+   "Nu næmnis man i næmd. syn oc vil eg i ganga. hætte uiþer þrim marcom."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_8",
+   "begrepp:edsore",
+   "handlaggs_vid",
+   "begrepp:kungsnamnd",
+   "plats:sdhk:ostergotland",
+   "Tæssin mal agho a kunungx næmd. slitas. al edzørø.",
+   "Även tvesöre, olaga eder, kungsdomsbrott, jorddelor, fyrtiomarksmål, mordgäld, ran och olaga nämnder."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_8",
+   "begrepp:mordgald",
+   "handlaggs_vid",
+   "begrepp:kungsnamnd",
+   "plats:sdhk:ostergotland",
+   "al fiæþertiug mal. al morþgiald. oc ran."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_8",
+   "begrepp:namnd",
+   "handlaggs_vid",
+   "begrepp:kungsnamnd|olaga nämnder",
+   "plats:sdhk:ostergotland",
+   "oc olagha næmder.",
+   "Klagan över olaga nämnd slits av kungsnämnden."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_8",
+   "begrepp:namnd",
+   "utses_av",
+   "=fjärdingshövdingen gör fjärdingsnämnd när kungens soknare begär det",
+   "plats:sdhk:ostergotland",
+   "Nu vil kunungx soknare fiarþungx næmd sea. þa scal fiarþungs høfþinge næmd giæra."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|en tredjedel, med sin soknare, av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "siþan taki en lut kununger oc s (ok) nare hans.",
+   "Böter som fälls vid kungens räfst (rafst), där bl.a. edsöresmål slits (stycke 8). Samma delning i A."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|en tredjedel, med sin soknare, av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "annan lut biscuper oc soknare hans.",
+   "Räfstböter."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|en niondel av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "þ (riþ) i luter skiptes i þry. æn lut malsæghande.",
+   "Räfstböter: sista tredjedelen delas i tre."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:lagman|en niondel av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "an (nan) lag manne.",
+   "Räfstböter."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:haradshovding|en niondel av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "þriþia hæræzhøfþinga.",
+   "Räfstböter."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|en tredjedel av räfstböter i Småland",
+   "plats:sdhk:ostergotland",
+   "Nu i sma (landom) þa skiptes ræfst i þry. en lut malsæghan (da).",
+   "Räfstböter."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|en tredjedel av räfstböter i Småland, som han tar som sin ensak; för andra mål än dem som fälls vid räfsten får han inte ta",
+   "plats:sdhk:ostergotland",
+   "annan kununge. þriþia hæraþe. en þæn lut (tak) er kununger firi ensac sina.",
+   "Räfstböter. Rättat efter oberoende kontroll (Codex)."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:harad|en tredjedel av räfstböter i Småland",
+   "plats:sdhk:ostergotland",
+   "þriþia hæraþe.",
+   "Räfstböter."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:edgard",
+   "utses_av",
+   "=den som fäster eden låter tre stå i val och motparten tar den han vill till edtagare",
+   "plats:sdhk:ostergotland",
+   "Nu fæster man androm eþa þa scal han taka vælia som eþen fæster þrea scal han i val lata. oc hin siþan af taka þæn som han vil.",
+   "Gäller valet av \"take\" (edtagare). Läsningen av vem som väljer är osäker."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_10",
+   "begrepp:edgard",
+   "utses_av",
+   "=hälften nämnd och hälften onämnd i tjugofyra- och trettiosexmannaeder",
+   "plats:sdhk:ostergotland",
+   "Nu alt þæt þrætølftar ælla tuætølftar eþa sculu vara. þa scal half næmt. oc half onæmt vara.",
+   "Nämnd hälft tolkad som utsedd av motparten."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_11",
+   "begrepp:edgard",
+   "utses_av",
+   "=i fjortonmannaeder ska två nämnas som bär vittne",
+   "plats:sdhk:ostergotland",
+   "Nu i allom fiughurtan manna eþom. þa scal tuaa næmna þem | som vitne sculu biæra."
+  ],
+  [
+   "lag:ostgotalagen_fragment_c_ur_holm_b_1709:stycke_4",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|som i dråpmål, och saken ökas med fyrtio marker, när någon dör av olaga stockning",
+   "plats:sdhk:ostergotland",
+   "dør han af. þa bøte som før var skilt i drapa malom. oc hans sac økes at fiuritighi markom.",
+   "Den som stockas olagligt så att fötterna ruttnar av och dör av det."
+  ],
+  [
+   "lag:ostgotalagen_fragment_c_ur_holm_b_1709:stycke_5",
+   "begrepp:edgard",
+   "utses_av",
+   "=i alla trettiosexmannaeder nämns hälften; han nämner vem han vill, känd eller okänd",
+   "plats:sdhk:ostergotland",
+   "Nv i allom þrætølftom eþom. þa a halft næmnas. næmne æ huat han vil cunna. ællar valincunna.",
+   "\"valincunna\" osäker läsning (jfr \"ocunna\" längre ned i samma flock)."
+  ],
+  [
+   "lag:ostgotalagen_fragment_c_ur_holm_b_1709:stycke_22",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|parterna (viþerdelomän) vid kungens räfst",
+   "plats:sdhk:ostergotland",
+   "þa scal sannin [damæn]... egh viþerdelo [mæn]...",
+   "Fragmentariskt; motsvarar M stycke 7."
+  ],
+  [
+   "lag:ostgotalagen_fragment_c_ur_holm_b_1709:stycke_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:biskop|en tredjedel av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "annan lut bisc [oper]...",
+   "Fragmentariskt; motsvarar M stycke 10."
+  ],
+  [
+   "lag:ostgotalagen_fragment_c_ur_holm_b_1709:stycke_23",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:lagman|en niondel av räfstböter i Götaland",
+   "plats:sdhk:ostergotland",
+   "[malsæghan] da annan lagm [anne]...",
+   "Fragmentariskt; motsvarar M stycke 10."
+  ],
+  [
+   "lag:ostgotalagen_fragment_e_ur_ups_b_22:innehallsforteckning",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:edgard|kvinna eller omyndig får inte gå ed",
+   "plats:sdhk:ostergotland",
+   "egh kuna eþ gangæ ælla vghurmaghi",
+   "Ur innehållsförteckningen (kapitel XII); själva texten saknas."
+  ],
+  [
+   "lag:ostgotalagen_fragment_n_ur_kopenhamn_am_1056:stycke_2",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:vittne|kvinnor och trälar (annøþoghor) utom i mål om kolsvarf",
+   "plats:sdhk:ostergotland",
+   "Nu i þøm malom. þa ma kona ok annøþoghor vitne bæra ok eþ suæria. ok i ængom androm",
+   "Gäller arvsfrågor när en familj brunnit inne; endast där får kvinna och ofri bära vittne och gå ed."
+  ],
+  [
+   "lag:ostgotalagen_fragment_n_ur_kopenhamn_am_1056:stycke_2",
+   "begrepp:drap",
+   "paforljd",
+   "=dråparen förlorar arvet; ingen får dräpa annan till arv",
+   "plats:sdhk:ostergotland",
+   "þær takar døþør ok heþen arf. quiker ok kristin gar fran. þy æt ængin ma annan til arfs dræpa",
+   "Arvinge som dräper en havande änka för att få arvet."
+  ],
+  [
+   "lag:ostgotalagen_fragment_m_ur_holm_b_196:stycke_9",
+   "person:birger_jarl",
+   "stiftar_lag",
+   "=föreskrev tidsfrist för bot efter kungens räfst",
+   "plats:sdhk:ostergotland",
+   "Nu gaf þæt sua birghe iarl. æt siþan ræf (s) t hauer lagwnnet malet. þa scal læggia stæmno d (a) gh.",
+   "Texten har redaktionella klamrar och spridd stavning; avser de mål flocken beskriver. Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ]
+ ]
+}

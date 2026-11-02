@@ -1,0 +1,396 @@
+[
+ {
+  "id": 1,
+  "beslut": "osaker",
+  "motivering": "Texten stöder Fjørbaugsgaard för domare som vägrar döma, men det gäller domarens tjänsteplikt (tingskränkning), inte jäv eller domared. Principfråga: ska domares ansvar för att döma räknas till ämnet jäv och oväld?",
+  "ny_rad": null
+ },
+ {
+  "id": 2,
+  "beslut": "samma_regel",
+  "motivering": "A har redan person:karl_ix stiftar_lag om tryckningen 1608 och påbudet att döma efter lagboken.",
+  "ny_rad": null
+ },
+ {
+  "id": 3,
+  "beslut": "samma_regel",
+  "motivering": "A har ändringen till arvkungadöme som begrepp:konungaval definieras_som med samma citat och Karl IX:s edikt i värdet.",
+  "ny_rad": null
+ },
+ {
+  "id": 4,
+  "beslut": "samma_regel",
+  "motivering": "Samma innehåll: kungen 'erfwande, och ey wäliande' enligt ediktet.",
+  "ny_rad": null
+ },
+ {
+  "id": 5,
+  "beslut": "samma_regel",
+  "motivering": "Båda säger att Kristoffer 'confirmeret och stadhfäst' lagboken 1442; A tar med riksrådets översyn och ständernas samtycke.",
+  "ny_rad": null
+ },
+ {
+  "id": 6,
+  "beslut": "A_ratt",
+  "motivering": "Den som rensar domstolen svär ed ('sværger Ed paa Korset, Lov-Ed'); hör till jävsförfarandet. Saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 7,
+  "beslut": "A_fel",
+  "motivering": "Andligt släktskap (fadderskap) är inte frändskap genom härstamning och finns inte som begrepp; enligt konventionen ska subjektet då vara begrepp:jav.",
+  "ny_rad": [
+   "gragas:2:dan:25",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|andligt släktskap (fadderskap vid primsigning, dop eller konfirmation) med parten",
+   "plats:island",
+   "Tre aandelig beslægtede skulle reise sig fra Domstolen",
+   "Andligt släktskap saknar eget begrepp. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 8,
+  "beslut": "A_ratt",
+  "motivering": "Domare som inte reser sig efter laglig rensning: 'Thingkrænkelse, og gjælder det Fjørbaugsgaard'. Påföljd knuten till jävsregeln.",
+  "ny_rad": null
+ },
+ {
+  "id": 9,
+  "beslut": "A_ratt",
+  "motivering": "Oriktig frändskapsräkning vid rensning eller falskt vittnesbörd på alltinget ger 'Skovgang' (full fredlöshet); del av jävsförfarandet.",
+  "ny_rad": null
+ },
+ {
+  "id": 10,
+  "beslut": "B_lagg_till",
+  "motivering": "Efter rensning är goden skyldig att genast utse en ny domare; A saknar regeln i kap. 25.",
+  "ny_rad": [
+   "gragas:2:dan:25",
+   "begrepp:domare",
+   "utses_av",
+   "=goden, som genast ska utse en ny domare i stället för den som rensats bort",
+   "plats:island",
+   "er Goden da pligtig at udnævne en anden Dommer strax",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 11,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A:s rad om andligt släktskap (id 7), som rättas till B:s modellering med begrepp:jav.",
+  "ny_rad": null
+ },
+ {
+  "id": 12,
+  "beslut": "B_lagg_till",
+  "motivering": "Vid dråp utan synligt våld eller banesår får högst tre lysas skyldiga; A saknar regeln.",
+  "ny_rad": [
+   "gragas:3:dan:88",
+   "begrepp:drap",
+   "kraver",
+   "=vid dråp utan synligt yttre våld eller banesår får högst tre lysas skyldiga med verkan att de hindras från tingsresa",
+   "plats:island",
+   "da kan saadant Drab ikke med den Virkning, at det hindrer de Vedkommende fra Thingreise, paalyses flere end 3",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 13,
+  "beslut": "samma_regel",
+  "motivering": "A:s utses_av-rad i kap. 45 (id 14) har godens femtedomsed i värdet och citerar själva eden.",
+  "ny_rad": null
+ },
+ {
+  "id": 14,
+  "beslut": "samma_regel",
+  "motivering": "Båda: goden utser domare i femtedomstolen; A lägger till eden. Ingen saklig skillnad.",
+  "ny_rad": null
+ },
+ {
+  "id": 15,
+  "beslut": "A_ratt",
+  "motivering": "Tillägg M: 'thet fä stenas eller brennas, och then som thet fää åtte wara frij'; dödande utan ägarens skuld. B saknar det.",
+  "ny_rad": null
+ },
+ {
+  "id": 16,
+  "beslut": "A_ratt",
+  "motivering": "Tillägg L: 'Ey må offuermagi liff för tiuffnat eller dråp låtta' – omyndig mister inte livet för dråp. B saknar det.",
+  "ny_rad": null
+ },
+ {
+  "id": 17,
+  "beslut": "samma_regel",
+  "motivering": "A:s dödsstraffsrad (id 18) har redan att ägaren kan lösa sitt liv som om han själv dräpt.",
+  "ny_rad": null
+ },
+ {
+  "id": 18,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel; A:s värde är fullständigare (ägaren visste att djuret var otamt och vaktade det inte) och citatet täcker lösen.",
+  "ny_rad": null
+ },
+ {
+  "id": 19,
+  "beslut": "samma_regel",
+  "motivering": "B:s rad (id 22) har att målsäganden visar banesåren för vittnen.",
+  "ny_rad": null
+ },
+ {
+  "id": 20,
+  "beslut": "A_ratt",
+  "motivering": "'hvis han ikke saaledes dækker Liget, straffes han med Landsforvisning'. Saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 21,
+  "beslut": "A_ratt",
+  "motivering": "Vittnen om banesår ska i fråga om släktskap kunna sitta i grannkvid; jävsregel för vittnen. Saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 22,
+  "beslut": "samma_regel",
+  "motivering": "A har lysningen inför fem grannbönder inom tre solmärken och vittnen vid banesåren (id 19).",
+  "ny_rad": null
+ },
+ {
+  "id": 23,
+  "beslut": "samma_regel",
+  "motivering": "Samma definition av mord ('regnes det for Mord'); A lägger till följden att den dräpte inte anses fallen på sina gärningar.",
+  "ny_rad": null
+ },
+ {
+  "id": 24,
+  "beslut": "A_ratt",
+  "motivering": "Alla som för talan, vittnar eller avger kvidutsaga på alltinget ska svära ed; text och ämne stöder. Saknas i B.",
+  "ny_rad": null
+ },
+ {
+  "id": 25,
+  "beslut": "B_lagg_till",
+  "motivering": "Svågerskap (gift med moder, dotter eller syster) jävar kvidman; A har bara frändskap i kap. 35.",
+  "ny_rad": [
+   "gragas:2:dan:35",
+   "begrepp:svagerskap",
+   "diskvalificerar",
+   "begrepp:namnd|gift med den andres moder, dotter eller syster",
+   "plats:island",
+   "naar den ene er gift med den andens Moder eller Datter eller Søster",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 26,
+  "beslut": "B_lagg_till",
+  "motivering": "Andligt släktskap genom dop, primsigning eller konfirmation jävar kvidman; saknas i A för kap. 35.",
+  "ny_rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|andligt släktskap genom dop, primsigning eller konfirmation (inte med den rensande själv)",
+   "plats:island",
+   "Han kan rydde paa Grund af de 3 Slags aandeligt Slægtskab",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 27,
+  "beslut": "B_lagg_till",
+  "motivering": "Kvidman med för liten förmögenhet för tingfärdsavgiften, eller bonde utan tjänstekarl, kan rensas bort; saknas i A.",
+  "ny_rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|för liten förmögenhet för att betala tingfärdsavgiften, eller bonde utan tjänstekarl",
+   "plats:island",
+   "Dersom en Mand har Sæde i Kviden, som har mindre Formue, end som saa, at han er pligtig til at betale Thingreiselønsafgiften",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 28,
+  "beslut": "B_lagg_till",
+  "motivering": "Kvidman så svag att han inte hade varit skyldig till tingsresa kan rensas bort; saknas i A.",
+  "ny_rad": [
+   "gragas:2:dan:35",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:namnd|så svag att han inte hade varit skyldig att resa till tinget",
+   "plats:island",
+   "Dersom en Kvidmand er saa svag, at han ikke vilde have været pligtig til Thingreise",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 29,
+  "beslut": "samma_regel",
+  "motivering": "Næstsødskendebørn är tremänningar; samma regel.",
+  "ny_rad": null
+ },
+ {
+  "id": 30,
+  "beslut": "A_fel",
+  "motivering": "Innehållet stämmer, men begrepp:ogild definieras_som bryter mot konventionen: ogilt dödande skrivs begrepp:drap paforljd begrepp:ogild med villkoret i värdet (så som B gör).",
+  "ny_rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande av den som sårat eller dräpt, utfört av den sårade eller av dem som har rätt att hämnas dråpet, fram till alltinget där saken ska väckas",
+   "plats:island",
+   "Den som har tilføiet Manden Saar eller dræbt ham, falder ufredhellig for denne og for alle dem, der ere i Ledtog med ham",
+   "Texten: 'ufredhellig'. Hämndrätten tillkommer dem som har rätt att föra dråpsaken. Citatet är ur Finsens danska översättning (1870). Rättat efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 31,
+  "beslut": "samma_regel",
+  "motivering": "B har samma regel ('dråp medför fredlöshet') med samma citat.",
+  "ny_rad": null
+ },
+ {
+  "id": 32,
+  "beslut": "B_lagg_till",
+  "motivering": "Kvidutsaga om vilken sida som började angreppet när någon på båda sidor sårats eller dräpts och minst tre sårats; bevisregel som A saknar.",
+  "ny_rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "kraver",
+   "=kvidutsaga om vilken sida som började angreppet, när någon på båda sidor sårats eller dräpts och minst tre sårats på kampplatsen",
+   "plats:island",
+   "da skal der gives Kvidudsagn om, at Angrebet er skeet fra det Partis Side, hvorfra det i Virkeligheden er skeet.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 33,
+  "beslut": "B_lagg_till",
+  "motivering": "Den som gått hemifrån i avsikt att dräpa är 'ufredhellig' vilka skador han än får, även om motparten börjar; A har bara fredlösheten.",
+  "ny_rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande av den som först begett sig hemifrån i avsikt att dräpa eller såra till ett möte där dråp eller sår sker, även om motparten börjar angreppet",
+   "plats:island",
+   "de, der først begive sig hjemme fra i saadan Hensigt til et Møde, hvor Drab eller Saar finde Sted, ere ufredhellige",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 34,
+  "beslut": "B_lagg_till",
+  "motivering": "Den som på kampplatsen försvarar eller hjälper dråparen är 'ufredhellig' för skador han får där; saknas i A.",
+  "ny_rad": [
+   "gragas:3:dan:86",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|dödande på kampplatsen av den som ställt sig till försvar för eller hjälper den som dräpt eller sårat, om han inte rätteligen velat skilja dem åt",
+   "plats:island",
+   "ligesom han da ogsaa ansees ufredhellig, hvilkesomhelst Legemsbeskadigelser der tilføies ham af dem, som ville yde Modstanderen Hjælp paa samme Kampplads",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 35,
+  "beslut": "samma_regel",
+  "motivering": "Samma regel som A:s ofridshelighet till alltinget (id 30), som rättas till B:s modellering.",
+  "ny_rad": null
+ },
+ {
+  "id": 36,
+  "beslut": "samma_regel",
+  "motivering": "Olika regler har parats ihop: B:s värde motsvarar A:s rad id 31. A:s värde (fredlöshet för den som går ut i avsikt att dräpa, om det fullbordas) stöds av texten och står kvar.",
+  "ny_rad": null
+ },
+ {
+  "id": 37,
+  "beslut": "A_utanfor",
+  "motivering": "Fjørbaugsgaard för falskt bevis på vårting eller bygdedomstol gäller falskt vittnesmål i allmänhet, inte jäv, dråp eller edsöre.",
+  "ny_rad": null
+ },
+ {
+  "id": 38,
+  "beslut": "B_lagg_till",
+  "motivering": "Goden utser elva män jämte sig själv till tylftarkviden; regel om hur nämnden utses som A saknar.",
+  "ny_rad": [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=goden, som utser elva män av sitt godord jämte sig själv till tylftarkvid, bönder eller tjänstekarlar",
+   "plats:island",
+   "han skal udnævne 11 Mænd foruden sig selv.",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 39,
+  "beslut": "B_lagg_till",
+  "motivering": "Är goden själv part ska käranden låta en annan gode i tinglaget, den som är fjärmast släkt med svaranden, framföra kviden; oväldsregel som A saknar.",
+  "ny_rad": [
+   "gragas:2:dan:36",
+   "begrepp:namnd",
+   "utses_av",
+   "=en annan gode i samma tinglag, den som är fjärmast släkt med svaranden, när saken gäller goden själv",
+   "plats:island",
+   "den af dem, som han vil, dersom de begge ere i lige nært Slægtskab med den sagsøgte, men ellers den af dem, som er fjernest beslægtet med denne",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 40,
+  "beslut": "B_lagg_till",
+  "motivering": "Moddomseden ('jeg vil afsige den Moddom, som jeg troer er stemmende med Loven') binder domaren att döma rätt; A har bara domareden i kap. 41.",
+  "ny_rad": [
+   "gragas:2:dan:42",
+   "begrepp:domare",
+   "kraver",
+   "begrepp:ed|moddomsed på kors eller bok att avge den motdom han tror stämmer med lagen",
+   "plats:island",
+   "jeg vil afsige den Moddom, som jeg troer er stemmende med Loven",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 41,
+  "beslut": "B_lagg_till",
+  "motivering": "'Derpaa skal Goden nedsætte sin Dommer': goden utser domaren; A saknar raden i kap. 24.",
+  "ny_rad": [
+   "gragas:2:dan:24",
+   "begrepp:domare",
+   "utses_av",
+   "=goden, som sätter sin domare i domstolen",
+   "plats:island",
+   "Derpaa skal Goden nedsætte sin Dommer",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 42,
+  "beslut": "B_lagg_till",
+  "motivering": "Domare som själv har en sak i domstolen får sitta kvar men 'Ei skal hans Stemme gjælde i den Sag'; jäv för egen sak som A saknar.",
+  "ny_rad": [
+   "gragas:2:dan:40",
+   "begrepp:jav",
+   "diskvalificerar",
+   "begrepp:domare|egen sak: han får sitta kvar men hans röst gäller inte och han deltar inte i motdomar",
+   "plats:island",
+   "Ei skal hans Stemme gjælde i den Sag",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ },
+ {
+  "id": 43,
+  "beslut": "B_lagg_till",
+  "motivering": "Motdomar där muta erbjuds, tas emot eller betingas på tinget hör till femtedomstolen; regel om muta som A saknar.",
+  "ny_rad": [
+   "gragas:2:dan:44",
+   "begrepp:muta",
+   "handlaggs_vid",
+   "=femtedomstolen (Femterretten), för motdomar då muta erbjuds, tas emot eller betingas på tinget",
+   "plats:island",
+   "naar man tilbyder, modtager eller betinger sig Bestikkelse her paa Thinget",
+   "Citatet är ur Finsens danska översättning (1870). Tillagt efter oberoende kontroll (Codex)."
+  ]
+ }
+]

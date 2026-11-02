@@ -1,0 +1,10 @@
+# Bygger statistikrapporterna under https://<domän>/statistik/ ur nginx
+# loggar, där IP-adresserna redan är anonymiserade (se nginx-fornmed.conf).
+# En rapport per namn, så att webb, API och MCP syns för sig.
+
+[Unit]
+Description=Fornmed — statistikrapporter med GoAccess
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'for namn in webb api mcp; do logg=/var/log/nginx/fornmed-$namn.access.log; test -s $logg || continue; zcat -f $logg* | goaccess - --log-format=COMBINED --no-global-config -o /var/www/goaccess-fornmed/$namn.html; done'

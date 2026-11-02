@@ -1,0 +1,72 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Tillägg till Upplandslagen i hskr A (Ups B 12), extraherade av språkmodell ur den fornsvenska texten. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/upplandslagen_tillagg.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_3",
+   "begrepp:edsore",
+   "paforljd",
+   "=en enda bot, eller värjomål med en enda lag, för den som hyser flera fredlösa för samma gärning",
+   "plats:sdhk:upland",
+   "hwa sum husær biltughæ mæn swa mangi þe æru.j. enni giærning. böte enongæ bot. ællr wæri mæþ enongæ laghum.",
+   "Rubrik 'Vm eþsöre', tillägg till UL Kgb 9: att hysa fredlösa (biltughæ mæn) är edsöresbrott."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_3",
+   "begrepp:edsore",
+   "paforljd",
+   "=en ny bot för varje fredlös som hysts för en annan gärning",
+   "plats:sdhk:upland",
+   "husær sami man. biltughæ man aff andri giærning. böte andræ bot.",
+   "Botens storlek anges inte här."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_8",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "=dolda dråp (dulghæ drap) ska tredelas",
+   "plats:sdhk:upland",
+   "dulghæ drap skulu þræskiptæs.",
+   "Tillägg till UL Mb 8. Oklart om boten eller ansvaret tredelas."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_8",
+   "begrepp:dulgadrap",
+   "definieras_som",
+   "=som dråpare i dolt dråp räknas den som kommer till tinget och fäster, eller har tagit skrift av prosten eller hans ställföreträdare",
+   "plats:sdhk:upland",
+   "huru man [skal] drapæræ witæ. þæn til þinx kombær. ok fæstir. ællr hawär skript takit aff prouæsti. ællr þem.i. [hans] staþ ær.",
+   "Vad som fästs (boten) står inte uttryckligen."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_8",
+   "begrepp:dulgadrap",
+   "paforljd",
+   "=hundaret är saklöst om dråparen är känd på detta sätt; annars gäller inte reglerna om dolt dråp",
+   "plats:sdhk:upland",
+   "æru þe til. wæri hundæri saklöst. ællr æi um dulghæ drap.",
+   "Förutsätter UL:s regel att hundaret ansvarar för dolt dråp."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_8",
+   "begrepp:dulgadrap",
+   "kraver",
+   "begrepp:ting|dråparen ska träda fram eller ha tagit bikt",
+   "plats:sdhk:upland",
+   "þæn til þinx kombær. ok fæstir. ællr hawär skript takit aff prouæsti.",
+   "Läsningen av villkoret för hundarets ansvar är osäker. Tillagt efter oberoende kontrollextraktion (GPT-6)."
+  ],
+  [
+   "lag:tillagg_till_upplandslagen_hskr_a_ups_b_12:ul_add_9",
+   "begrepp:ran",
+   "paforljd",
+   "begrepp:boter|fyrtio marker och dråparens brott för den som rövar en dråpare, tjuv eller avhuggare från en annan, om denne är lagligen överbevisad",
+   "plats:sdhk:upland",
+   "rænir man drapæræ aff aþrum. ællr þiuff. ællr þæn affhug hawær giört. böte fiuretighi markær. ok brut hans. æn han ær laghwnnin.",
+   "Tillägg till UL Mb 32. Är den fångne inte lagligen överbevisad har den anklagade vitsord."
+  ]
+ ]
+}

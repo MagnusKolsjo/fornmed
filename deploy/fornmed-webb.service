@@ -1,0 +1,25 @@
+# Webbplatsen: Django och Wagtail i gunicorn, på en unix-socket
+# som nginx skickar trafiken till. Installeras av installera_webb.sh.
+
+[Unit]
+Description=Fornmed — webbplatsen (gunicorn)
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/srv/fornmed/fornmed/webb
+EnvironmentFile=/srv/fornmed/fornmed/webb/.env
+ExecStart=/srv/fornmed/webb-venv/bin/gunicorn -c gunicorn.conf.py
+Restart=on-failure
+RestartSec=5
+RuntimeDirectory=fornmed-webb
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/srv/fornmed/webb-media
+
+[Install]
+WantedBy=multi-user.target

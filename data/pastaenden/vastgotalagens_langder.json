@@ -1,0 +1,278 @@
+{
+ "beskrivning": "Påståenden ur Västgötalagens konunga-, lagmans- och biskopslängd (Holm B 59, 1320–1335), extraherade av språkmodell ur den fornsvenska texten i Collin & Schlyters utgåva. Varje citat är ordagrant ur originaltexten; den svenska maskinöversättningen har bara använts som läshjälp. Ogranskade mot utgåvan, men jämförda med en oberoende extraktion (ChatGPT, november 2026): de båda var överens om 157 av 162 påståenden, och skillnaderna avgjordes av användaren (oberoende_extraktion/jamforelse.md). Längderna räknar upp innehavarna i ordning, så 'efterträder' följer längdens numrering och säger inget om att ämbetet övergick direkt. Kungarna, lagmännen och biskoparna får som plats det rike, landskap eller säte som längden avser, också där posten inte nämner det.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/vastgotalagens_langder.json",
+ "passager": {"K": "vastgotalagens_konungalangd:", "L": "vastgotalagens_lagmanslangd:", "B": "vastgotalagens_biskopslangd:"},
+ "entiteter": [
+  ["person:olof_skotkonung", "person", "Olof skötkonung", "Svensk kung omkring 995–1022; den förste kristne kungen enligt Västgötalagens konungalängd", "Q313436"],
+  ["person:emund_kolbranna", "person", "Emund Kolbränna", "Den andre kungen i Västgötalagens konungalängd", null],
+  ["person:anund_jakob", "person", "Anund Jakob", "Svensk kung omkring 1022–1050, son till Olof skötkonung", "Q352133"],
+  ["person:emund_den_gamle", "person", "Emund den gamle (Emund Slemme)", "Svensk kung omkring 1050–1060", "Q382156"],
+  ["person:hakan_rode", "person", "Håkan Röde", "Svensk kung på 1000-talet", "Q537489"],
+  ["person:stenkil", "person", "Stenkil", "Svensk kung omkring 1060–1066", "Q362163"],
+  ["person:inge_den_aldre", "person", "Inge den äldre", "Svensk kung på 1080- och 1100-talet", "Q375309"],
+  ["person:halsten", "person", "Halsten", "Svensk kung, bror till Inge den äldre", null],
+  ["person:filip_halstensson", "person", "Filip Halstensson", "Svensk kung, död 1118", "Q247223"],
+  ["person:inge_den_yngre", "person", "Inge den yngre", "Svensk kung, död omkring 1125", "Q471475"],
+  ["person:ragnvald_knaphovde", "person", "Ragnvald Knaphövde", "Svensk kung på 1120-talet", "Q1342231"],
+  ["person:kornube", "person", "Kornube", "Fader till Sverker den äldre enligt Västgötalagens konungalängd", null],
+  ["person:magnus_henriksson", "person", "Magnus Henriksson", "Svensk kung 1160–1161", "Q856159"],
+  ["person:kol_kung", "person", "Kol", "Svensk tronpretendent eller kung på 1170-talet", "Q642319"],
+  ["person:burislev", "person", "Burislev", "Svensk tronpretendent eller kung på 1170-talet", "Q127279"],
+  ["person:lumber", "person", "Lumber", "Den förste lagmannen i Västgötalagens lagmanslängd", null],
+  ["person:bjorn_kialke", "person", "Björn Kialke", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:tore_rav", "person", "Tore Räv", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:kring_alle", "person", "Alle (Kring-Alle)", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:tubbe_stallare", "person", "Tubbe Stallare", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:ond_fran_essunga", "person", "Önd från Essunga", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:ulvar_fran_tralghu", "person", "Ulvar från Trälghu", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:tyrne", "person", "Törne", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:ulvar_tyrnesson", "person", "Ulvar Törnesson", "Lagman i Västergötland enligt lagmanslängden, son till Törne", null],
+  ["person:asur_fran_haru", "person", "Asur från Häru", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:karle_fran_edsvara", "person", "Karle från Edsvära", "Lagman i Västergötland enligt lagmanslängden", "Q10543750"],
+  ["person:algot_karlesson", "person", "Algot Karlesson", "Lagman i Västergötland enligt lagmanslängden, son till Karle", null],
+  ["person:sigtrygg_algotsson", "person", "Sigtrygg Algotsson", "Lagman i Västergötland enligt lagmanslängden, son till Algot Karlesson", null],
+  ["person:ond_fran_grolanda", "person", "Önd från Grolanda", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:naghle", "person", "Naghle", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:algot_sigtryggsson", "person", "Algot Sigtryggsson", "Lagman i Västergötland enligt lagmanslängden, son till Sigtrygg", null],
+  ["person:eskil_magnusson", "person", "Eskil Magnusson", "Lagman i Västergötland, död omkring 1227, son till Magnus Minnesköld", "Q3312279"],
+  ["person:magnus_minneskold", "person", "Magnus Minnesköld", "Storman av Bjälboätten, död omkring 1208", "Q971142"],
+  ["person:gustav_lagman", "person", "Gustav", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:folke_lagman", "person", "Folke", "Lagman i Västergötland enligt lagmanslängden", null],
+  ["person:unni", "person", "Unni", "Ärkebiskop av Hamburg-Bremen, död 936", "Q6979664"],
+  ["person:astmund", "person", "Astmund", "Den tredje biskopen i Västgötalagens biskopslängd", null],
+  ["person:stenfinn", "person", "Stenfinn", "Den fjärde biskopen i Västgötalagens biskopslängd", "Q10678482"],
+  ["plats:viste_harad", "indelning", "Viste härad", null, null],
+  ["plats:soderbro", "plats", "Söderbro", "Platsen där Magnus Henriksson dödades", null],
+  ["plats:visingso", "plats", "Visingsö", null, null],
+  ["plats:eriksberg", "plats", "Eriksberg i Gäsene", null, null],
+  ["plats:gestilren", "plats", "Gestilren", "Slagfältet 1210", null],
+  ["plats:karlepitt", "plats", "Karlepitt", "Plats i Västergötland där Ragnvald Knaphövde dödades", null],
+  ["plats:madalby", "plats", "Mædalby", "Ort i Västergötland i lagmanslängden; identifieringen är osäker", null],
+  ["plats:sighlislanga", "plats", "Sighlislanga", "Ort i Västergötland i lagmanslängden; identifieringen är osäker", null],
+  ["plats:harv", "plats", "Härv", "Ort i Västergötland i biskopslängden (hwærwi); identifieringen är osäker", null]
+ ],
+ "identifieringar": [
+  ["person:emund_kolbranna", "person:anund_jakob", "sannolik", "Den gängse identifieringen; svenska Wikipedia leder Emund Kolbränna till Anund Jakob. Längden ger honom bara tillnamnet. Inte kontrollerad mot forskningslitteraturen."],
+  ["person:astmund", "person:osmund_skara", "sannolik", "Astmund i biskopslängden brukar identifieras med Adam av Bremens Osmundus. Inte kontrollerad mot forskningslitteraturen."]
+ ],
+ "pastaenden": [
+  ["K1", "person:olof_skotkonung", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Olawær skotkonongær. war fyrsti. konongær sum cristin war .i. sweriki"],
+
+  ["K2", "person:emund_kolbranna", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Annar konongær war. Æmunðær colbrænnæ"],
+  ["K2", "person:emund_kolbranna", "eftertrader", "person:olof_skotkonung", null, "Annar konongær war. Æmunðær colbrænnæ"],
+
+  ["K3", "person:emund_den_gamle", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Þriðhi war. Æmundær slemæ"],
+  ["K3", "person:emund_den_gamle", "eftertrader", "person:emund_kolbranna", null, "Þriðhi war. Æmundær slemæ"],
+
+  ["K4", "person:hakan_rode", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "þrættan wintær war han kononggær", "Längden anger tretton vintrar som kung"],
+  ["K4", "person:hakan_rode", "eftertrader", "person:emund_den_gamle", null, "Fyarðþi. war hakun rödhe"],
+  ["K4", "person:hakan_rode", "fodd", "=född i Levene i Viste härad", "plats:sdhk:levene", "han war föððær .i. lifwini. wistæhæræði"],
+  ["K4", "person:hakan_rode", "begravd_i", "plats:sdhk:levene", null, "liggær .i. lifwini. sum han boren war"],
+
+  ["K5", "person:stenkil", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Fæmti war. Stænkil konongær"],
+  ["K5", "person:stenkil", "eftertrader", "person:hakan_rode", null, "Fæmti war. Stænkil konongær"],
+
+  ["K6", "person:inge_den_aldre", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Sætti war. Ingi konongær"],
+  ["K6", "person:inge_den_aldre", "eftertrader", "person:stenkil", null, "Sætti war. Ingi konongær"],
+  ["K6", "person:inge_den_aldre", "styr_over", "plats:sdhk:sverige", null, "han styrdhi sweriki mæð drænskapp"],
+
+  ["K7", "person:halsten", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Syunði war. Halsten konongær"],
+  ["K7", "person:halsten", "eftertrader", "person:inge_den_aldre", null, "Syunði war. Halsten konongær"],
+  ["K7", "person:halsten", "syskon_till", "person:inge_den_aldre", null, "Halsten konongær. broðher Inga konongs"],
+  ["K7", "person:halsten", "dor", "=dör", null, "aff hans ffrafallum oc ðöðhæ", "Längden säger bara att Sverige led skada av hans frånfälle och död"],
+
+  ["K8", "person:filip_halstensson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Atundi war. Philipus konongær"],
+  ["K8", "person:filip_halstensson", "eftertrader", "person:halsten", null, "Atundi war. Philipus konongær"],
+  ["K8", "person:halsten", "foralder_till", "person:filip_halstensson", null, "Philipus konongær. halstens sun"],
+
+  ["K9", "person:inge_den_yngre", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Niunði war Ingi konongær"],
+  ["K9", "person:inge_den_yngre", "eftertrader", "person:filip_halstensson", null, "Niunði war Ingi konongær"],
+  ["K9", "person:inge_den_yngre", "syskon_till", "person:filip_halstensson", null, "Ingi konongær. broðher. Philipusær konongs"],
+  ["K9", "person:inge_den_yngre", "dor", "=förgiftad med en ond dryck", "plats:sdhk:ostergotland", "hanum war firi giort mæð ondom dryk .i. östrægötllanði. oc fek. aff þy banæ"],
+
+  ["K10", "person:ragnvald_knaphovde", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Tiundi war Rangwaldær konongær"],
+  ["K10", "person:ragnvald_knaphovde", "eftertrader", "person:inge_den_yngre", null, "Tiundi war Rangwaldær konongær"],
+  ["K10", "person:ragnvald_knaphovde", "dor", "=får en skamlig död sedan han ridit till Karlepitt utan gisslan", "plats:karlepitt", "reð .a. karllæpitt at vgisllædhu. oc fore þa sæwirðnigh han giorðhe allum wæstgötom. þa fek han skiæmðær döðhæ", "Dödsplatsen är underförstådd: han rider till Karlepitt och får sin död för det"],
+
+  ["K11", "person:sverker_d_a", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Ælliufti war. Swærkir. konongær gambli"],
+  ["K11", "person:sverker_d_a", "eftertrader", "person:ragnvald_knaphovde", null, "Ælliufti war. Swærkir. konongær gambli"],
+  ["K11", "person:kornube", "foralder_till", "person:sverker_d_a", "plats:sdhk:ostergotland", "han war cornubæ sun .i. öſtrægötllanði"],
+  ["K11", "person:sverker_d_a", "dor", "=mördad av sin stalldräng på väg till julottan", null, "hans hæstæ swen myrði han iulæ otto. sum han skuldi till kyrkyu fare"],
+  ["K11", "person:sverker_d_a", "begravd_i", "plats:sdhk:alvastra", null, "han ær iorðæðhær .i. alwastrum"],
+
+  ["K12", "person:erik_jedvardsson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Tolfte war Erekær konongær", "Längden ger inget tillnamn; identifieringen med Erik den helige följer av benen i Uppsala och järteckenen"],
+  ["K12", "person:erik_jedvardsson", "eftertrader", "person:sverker_d_a", null, "Tolfte war Erekær konongær"],
+  ["K12", "person:erik_jedvardsson", "dor", "=oförmodat och brått tagen av daga", null, "han war vsini swa brat af ðaghum takin"],
+  ["K12", "person:erik_jedvardsson", "begravd_i", "plats:uppsala", null, "ben hans hwilæs .i. wpsalum"],
+
+  ["K13", "person:karl_sverkersson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Þrættandi war. karll konongær"],
+  ["K13", "person:karl_sverkersson", "eftertrader", "person:erik_jedvardsson", null, "Þrættandi war. karll konongær"],
+  ["K13", "person:sverker_d_a", "foralder_till", "person:karl_sverkersson", null, "karll konongær. swarkirs sun gamblæ"],
+  ["K13", "person:karl_sverkersson", "styr_over", "plats:sdhk:sverige", null, "han styrðhi sweriki mæð spækth oc goðwiliæ"],
+  ["K13", "person:karl_sverkersson", "dodar", "person:magnus_henriksson", "plats:soderbro", "han tok aff ðaghum magnus konongh fyurtandæ .i. söræbro"],
+  ["K13", "person:magnus_henriksson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "magnus konongh fyurtandæ", "Längden räknar Magnus som den fjortonde kungen utan egen post"],
+  ["K13", "person:magnus_henriksson", "eftertrader", "person:karl_sverkersson", null, "magnus konongh fyurtandæ", "Följer längdens numrering, som sätter Magnus efter Karl"],
+  ["K13", "person:karl_sverkersson", "dor", "=faller", "plats:visingso", "han sialwær fæl .i. wisingxs .ö."],
+  ["K13", "person:karl_sverkersson", "begravd_i", "plats:sdhk:alvastra", null, "han liggær .i. alwaftrum hos fædþur sinum"],
+
+  ["K15", "person:knut_eriksson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "þre wintær oc tyghu war han konongær", "Längden anger tjugotre vintrar som kung"],
+  ["K15", "person:knut_eriksson", "eftertrader", "person:magnus_henriksson", null, "Fæmtandi war knutar konongær", "Följer längdens numrering; den fjortonde är Magnus"],
+  ["K15", "person:knut_eriksson", "dodar", "person:karl_sverkersson", null, "tok aff daghum. karll konongh"],
+  ["K15", "person:knut_eriksson", "dodar", "person:kol_kung", null, "oc koll konongh"],
+  ["K15", "person:knut_eriksson", "dodar", "person:burislev", null, "oc byrisleph konongh"],
+  ["K15", "person:kol_kung", "innehar_ambete", "begrepp:kung", null, "oc koll konongh"],
+  ["K15", "person:burislev", "innehar_ambete", "begrepp:kung", null, "oc byrisleph konongh"],
+  ["K15", "person:knut_eriksson", "dor", "=mister livet", "plats:eriksberg", "læt sit liff .i. Erexbærghi .i. giæsini"],
+  ["K15", "person:knut_eriksson", "begravd_i", "plats:sdhk:varnhem", null, "han liggær .i. warnem"],
+
+  ["K16", "person:sverker_d_y", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "Sexstanði war swarkir konongær"],
+  ["K16", "person:sverker_d_y", "eftertrader", "person:knut_eriksson", null, "Sexstanði war swarkir konongær"],
+  ["K16", "person:sverker_d_y", "dor", "=dödad av folkungar, av sin egen svåger", "plats:gestilren", "folkongær toko liff aff hanum. hans sialfs maghær görðhe hanum þæt .i. gyæstilren"],
+  ["K16", "person:sverker_d_y", "begravd_i", "plats:sdhk:alvastra", null, ".i. alwastrum liggær han"],
+
+  ["K17", "person:erik_knutsson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "war syu wintær konongær", "Längden anger sju vintrar som kung"],
+  ["K17", "person:erik_knutsson", "eftertrader", "person:sverker_d_y", null, "Syutandi war Erekær konongær"],
+  ["K17", "person:erik_knutsson", "dor", "=dör sotdöden", "plats:visingso", "han stra ðoo .i. wisingxs .ö."],
+  ["K17", "person:erik_knutsson", "begravd_i", "plats:sdhk:varnhem", null, "liggær i. warnem hos bröðrom sinum oc ffrænðum"],
+
+  ["K18", "person:johan_sverkersson", "innehar_ambete", "begrepp:kung", "plats:sdhk:sverige", "þre wintær war han konongær", "Längden anger tre vintrar som kung"],
+  ["K18", "person:johan_sverkersson", "eftertrader", "person:erik_knutsson", null, "Attærtandi war. Ion. konongær"],
+  ["K18", "person:sverker_d_y", "foralder_till", "person:johan_sverkersson", null, "Ion. konongær swærkirs sun", "Längden säger bara 'Sverkers son'; fadern är Sverker den yngre"],
+  ["K18", "person:johan_sverkersson", "dor", "=dör sotdöden", "plats:visingso", "stra ðo .i. wisingxs .ö."],
+  ["K18", "person:johan_sverkersson", "begravd_i", "plats:sdhk:alvastra", null, ".i. alwastrum liggær han"],
+
+  ["L1", "person:lumber", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Fyrsti war lumbær. oc af hanum æru lums lagh callæðþ"],
+  ["L1", "person:lumber", "fodd", "=född i Vånga", "plats:sdhk:vanga", "han war föðær .i. wangum"],
+  ["L1", "person:lumber", "begravd_i", "plats:sdhk:vanga", null, "þær liggær han .i. enom collæ fore þy at han war heðþen", "Begravd i en hög eftersom han var hedning"],
+
+  ["L2", "person:bjorn_kialke", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Annar war. Biorn kialki"],
+  ["L2", "person:bjorn_kialke", "eftertrader", "person:lumber", null, "Annar war. Biorn kialki"],
+  ["L2", "person:bjorn_kialke", "begravd_i", "plats:madalby", null, "þær war han iorðþæðþær .i. enom collæ", "Platsen följer av 'han war haf mæðþalby' före citatet"],
+
+  ["L3", "person:tore_rav", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Þriði war Þorer ræfwær"],
+  ["L3", "person:tore_rav", "eftertrader", "person:bjorn_kialke", null, "Þriði war Þorer ræfwær"],
+
+  ["L4", "person:kring_alle", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "han taldi lagh .a. lincornæ wallum"],
+  ["L4", "person:kring_alle", "eftertrader", "person:tore_rav", null, "Fyarðhi. war. Alli"],
+  ["L4", "person:kring_alle", "fodd", "=född i Sighlislanga", "plats:sighlislanga", "han war födær .i. sighlislangem"],
+
+  ["L5", "person:tubbe_stallare", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "han war laghmaðþær. litlæ stunð", "Lagman en kort tid"],
+  ["L5", "person:tubbe_stallare", "eftertrader", "person:kring_alle", null, "Fæmti war. Tubbi stallæri"],
+
+  ["L6", "person:ond_fran_essunga", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Sætti war. Öndær aff æssungi"],
+  ["L6", "person:ond_fran_essunga", "eftertrader", "person:tubbe_stallare", null, "Sætti war. Öndær aff æssungi"],
+
+  ["L7", "person:ulvar_fran_tralghu", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Syndi war. Wluar af Trælghu", "Miste ämbetet genom landsförvisning (tappæðhi walð oc laghmanz namn)"],
+  ["L7", "person:ulvar_fran_tralghu", "eftertrader", "person:ond_fran_essunga", null, "Syndi war. Wluar af Trælghu"],
+
+  ["L8", "person:tyrne", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Attunði. war. Þyrnir"],
+  ["L8", "person:tyrne", "eftertrader", "person:ulvar_fran_tralghu", null, "Attunði. war. Þyrnir"],
+  ["L8", "person:tyrne", "fodd", "=född i Uppland", "plats:sdhk:upland", "han war föððær .i. wplandum"],
+
+  ["L9", "person:ulvar_tyrnesson", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Niundi war Wluar hans sun"],
+  ["L9", "person:ulvar_tyrnesson", "eftertrader", "person:tyrne", null, "Niundi war Wluar hans sun"],
+  ["L9", "person:tyrne", "foralder_till", "person:ulvar_tyrnesson", null, "Wluar hans sun"],
+
+  ["L10", "person:asur_fran_haru", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "han taldi wæstgötæ lagh. al .a. enom ðagh"],
+  ["L10", "person:asur_fran_haru", "eftertrader", "person:ulvar_tyrnesson", null, "Tyiunði. war. Aszur af Hæru"],
+  ["L10", "person:asur_fran_haru", "dor", "=dör kort efter att ha förkunnat lagen", null, "han do skamp þær æptir"],
+
+  ["L11", "person:karle_fran_edsvara", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Æliupti war. Karlli. af Ezwæri"],
+  ["L11", "person:karle_fran_edsvara", "eftertrader", "person:asur_fran_haru", null, "Æliupti war. Karlli. af Ezwæri"],
+
+  ["L12", "person:algot_karlesson", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Tolfte war. Algutær hans sun. æptir han"],
+  ["L12", "person:algot_karlesson", "eftertrader", "person:karle_fran_edsvara", null, "Tolfte war. Algutær hans sun. æptir han"],
+  ["L12", "person:karle_fran_edsvara", "foralder_till", "person:algot_karlesson", null, "Algutær hans sun"],
+
+  ["L13", "person:algot_karlesson", "foralder_till", "person:sigtrygg_algotsson", null, "Sitruggær han sun", "Sigtrygg avstod från ämbetet efter faderns död eftersom han var ung"],
+  ["L13", "person:algot_karlesson", "dor", "=dör", null, "ættir sins faðþurs döðþæ", "Faderns död omnämns i posten om Önd från Grolanda"],
+  ["L13", "person:ond_fran_grolanda", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "tok Önðær aff grolandum. þrænttandi. wiðþær laghmanzðöme"],
+  ["L13", "person:ond_fran_grolanda", "eftertrader", "person:algot_karlesson", null, "tok Önðær aff grolandum. þrænttandi. wiðþær laghmanzðöme"],
+
+  ["L14", "person:naghle", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Naghlli bröþer hans. Fyghurtanði. wið samæ walði"],
+  ["L14", "person:naghle", "eftertrader", "person:ond_fran_grolanda", null, "Siðþæn tok æptir han. Naghlli bröþer hans"],
+  ["L14", "person:naghle", "syskon_till", "person:ond_fran_grolanda", null, "Naghlli bröþer hans", "'Hans' syftar troligen på Önd från Grolanda, den närmast föregående"],
+
+  ["L15", "person:sigtrygg_algotsson", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "tok Sittryggær alguz sun. Fæmtanði wið laghmanzdöme"],
+  ["L15", "person:sigtrygg_algotsson", "eftertrader", "person:naghle", null, "Æptir han. tok Sittryggær alguz sun"],
+  ["L15", "person:algot_karlesson", "foralder_till", "person:sigtrygg_algotsson", null, "Sittryggær alguz sun"],
+
+  ["L16", "person:algot_sigtryggsson", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Sexstandi. war. Allguttær hans sun"],
+  ["L16", "person:algot_sigtryggsson", "eftertrader", "person:sigtrygg_algotsson", null, "Sexstandi. war. Allguttær hans sun"],
+  ["L16", "person:sigtrygg_algotsson", "foralder_till", "person:algot_sigtryggsson", null, "Allguttær hans sun"],
+
+  ["L17", "person:eskil_magnusson", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Syutanði war. Æskil laghmaðþær"],
+  ["L17", "person:eskil_magnusson", "eftertrader", "person:algot_sigtryggsson", null, "Syutanði war. Æskil laghmaðþær"],
+  ["L17", "person:magnus_minneskold", "foralder_till", "person:eskil_magnusson", null, "han war magnusær sun. minniskiolz aff bialbo"],
+
+  ["L18", "person:gustav_lagman", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Atærtandi war göstawær laghmaðþær"],
+  ["L18", "person:gustav_lagman", "eftertrader", "person:eskil_magnusson", null, "Atærtandi war göstawær laghmaðþær"],
+
+  ["L19", "person:folke_lagman", "innehar_ambete", "begrepp:lagman", "plats:sdhk:vastergotland", "Nitanði war folke laghman"],
+  ["L19", "person:folke_lagman", "eftertrader", "person:gustav_lagman", null, "Nitanði war folke laghman"],
+
+  ["B1", "person:sigfrid_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:vastergotland", "Sighfriðær war fyrsti byskupær sum hær com criftnu .a."],
+  ["B1", "person:sigfrid_skara", "dor", "=dör en naturlig död sedan han kristnat Värend", "plats:sdhk:varend", "oc liff sit at rættum döðæ"],
+  ["B1", "person:sigfrid_skara", "begravd_i", "plats:sdhk:vaxjo", null, ".j. wæxyo hwilæs ben hans"],
+
+  ["B2", "person:unni", "innehar_ambete", "begrepp:arkebiskop", null, "Annar war vnni ærchibiscupær"],
+  ["B2", "person:unni", "eftertrader", "person:sigfrid_skara", null, "Annar war vnni ærchibiscupær", "Följer längdens numrering; Unni dog 936, långt före Sigfrid"],
+  ["B2", "person:unni", "dor", "=stenad till döds av folket som inte ville ta emot kristendomen", null, "þer toko biscupin. oc tyrffðhu till banæ. mæð stenum"],
+
+  ["B3", "person:astmund", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Þriðhi war astmuðær biscupær. han satti fyrst staff oc stoll .i. skarum"],
+  ["B3", "person:astmund", "eftertrader", "person:unni", null, "Þriðhi war astmuðær biscupær"],
+  ["B3", "person:astmund", "begravd_i", "plats:sdhk:skara", null, "i. skarum liggær han"],
+
+  ["B4", "person:stenfinn", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Fyarðþi war. stenfindær biscupær"],
+  ["B4", "person:stenfinn", "eftertrader", "person:astmund", null, "Fyarðþi war. stenfindær biscupær"],
+  ["B4", "person:stenfinn", "begravd_i", "plats:sdhk:skara", null, ".i. skarum liggær han"],
+
+  ["B5", "person:adalvard_den_aldre_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Fæmti war. Adalwarðær. gambli."],
+  ["B5", "person:adalvard_den_aldre_skara", "eftertrader", "person:stenfinn", null, "Fæmti war. Adalwarðær. gambli."],
+
+  ["B6", "person:adalvard_den_yngre_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Sætti war hin hælghi adalwarðþær vngi"],
+  ["B6", "person:adalvard_den_yngre_skara", "eftertrader", "person:adalvard_den_aldre_skara", null, "Sætti war hin hælghi adalwarðþær vngi"],
+  ["B6", "person:adalvard_den_yngre_skara", "begravd_i", "plats:sdhk:skara", null, "þær liggær han .i. guz friðhi oc hælghræ manna", "'Þær' avser Sankta Marias kyrka i Skara"],
+
+  ["B7", "person:rodulvard_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Syundi war. Roðolwarðær"],
+  ["B7", "person:rodulvard_skara", "eftertrader", "person:adalvard_den_yngre_skara", null, "Syundi war. Roðolwarðær"],
+  ["B7", "person:rodulvard_skara", "begravd_i", "plats:sdhk:skara", null, ".j. skarum liggær han"],
+
+  ["B8", "person:rikulf_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Attunði war Rikulwær biscupær"],
+  ["B8", "person:rikulf_skara", "eftertrader", "person:rodulvard_skara", null, "Attunði war Rikulwær biscupær"],
+  ["B8", "person:rikulf_skara", "begravd_i", "plats:sdhk:skara", null, ".j. skarum liggær han"],
+
+  ["B9", "person:hervard_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Niundi war hærwarðær biscupær"],
+  ["B9", "person:hervard_skara", "eftertrader", "person:rikulf_skara", null, "Niundi war hærwarðær biscupær"],
+
+  ["B10", "person:styrbjorn_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Tiundi war störbiorn biscupær"],
+  ["B10", "person:styrbjorn_skara", "eftertrader", "person:hervard_skara", null, "Tiundi war störbiorn biscupær"],
+  ["B10", "person:styrbjorn_skara", "begravd_i", "plats:sdhk:skara", null, "i. skarum liggær han"],
+
+  ["B11", "person:odgrim_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Ælliuppti wær. öðgrimbær biscupær"],
+  ["B11", "person:odgrim_skara", "eftertrader", "person:styrbjorn_skara", null, "Ælliuppti wær. öðgrimbær biscupær"],
+  ["B11", "person:odgrim_skara", "begravd_i", "plats:sdhk:skara", null, "oc i. skarum liggær han"],
+
+  ["B12", "person:bengt_den_gode_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Tofte war þæn goðhe biscupær bændictær"],
+  ["B12", "person:bengt_den_gode_skara", "eftertrader", "person:odgrim_skara", null, "Tofte war þæn goðhe biscupær bændictær"],
+  ["B12", "person:bengt_den_gode_skara", "begravd_i", "plats:sdhk:skara", null, ".i. mariu kyrkiu .i. skarum liggær han"],
+
+  ["B13", "person:jarpulf_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Þrættandi war biscupær iærppulwær"],
+  ["B13", "person:jarpulf_skara", "eftertrader", "person:bengt_den_gode_skara", null, "Þrættandi war biscupær iærppulwær"],
+  ["B13", "person:jarpulf_skara", "fodd", "=född i Härv", "plats:harv", "han war föddær .j. hwærwi"],
+
+  ["B14", "person:jon_hyrne_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Fyurtandi war. Ion hyrnnæ"],
+  ["B14", "person:jon_hyrne_skara", "eftertrader", "person:jarpulf_skara", null, "Fyurtandi war. Ion hyrnnæ"],
+
+  ["B15", "person:bernhard_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Fæmtandi war wærnarðær"],
+  ["B15", "person:bernhard_skara", "eftertrader", "person:jon_hyrne_skara", null, "Fæmtandi war wærnarðær"],
+
+  ["B16", "person:bengt_den_yngre_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Sexstandi war biscupær bændikt vngi"],
+  ["B16", "person:bengt_den_yngre_skara", "eftertrader", "person:bernhard_skara", null, "Sexstandi war biscupær bændikt vngi"],
+  ["B16", "person:bengt_den_yngre_skara", "dor", "=dör i Uppland", "plats:sdhk:upland", "j. vpplandum do han"],
+  ["B16", "person:bengt_den_yngre_skara", "begravd_i", "plats:sdhk:varnhem", null, ".j. warnemh liggær han"],
+
+  ["B17", "person:stenar_skara", "innehar_ambete", "begrepp:biskop", "plats:sdhk:skara", "Syutandi war stenar biscupær"],
+  ["B17", "person:stenar_skara", "eftertrader", "person:bengt_den_yngre_skara", null, "Syutandi war stenar biscupær"]
+ ]
+}

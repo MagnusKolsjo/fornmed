@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags humanize %}
+{% block innehall %}
+<article class="text">
+  <h1 class="fm-heading">{{ page.title }}</h1>
+  {% if page.ingress %}<p class="ingress fm-reading">{{ page.ingress }}</p>{% endif %}
+  {{ page.brodtext|richtext }}
+  {% if page.visa_omfang and omfang %}
+  <section class="omfang">
+    <h2>Databasens omfång</h2>
+    <ul class="siffror" aria-label="Databasens omfång">
+      <li><strong>{{ omfang.verk|intcomma }}</strong> verk</li>
+      <li><strong>{{ omfang.passager|intcomma }}</strong> passager</li>
+      <li><strong>{{ omfang.pastaenden|intcomma }}</strong> påståenden</li>
+      <li><strong>{{ omfang.kallsamlingar|intcomma }}</strong> källsamlingar</li>
+    </ul>
+    <p>Ett verk är en text: varje medeltidsbrev ({{ omfang.brev|intcomma }}) och varje runinskrift ({{ omfang.runinskrifter|intcomma }}) räknas för sig, liksom var och en av de {{ omfang.ovriga_verk|intcomma }} lagarna, sagorna, krönikorna och övriga verken. En passage är en citerbar textenhet i en utgåva: en regest, en flock i en lag, ett kapitel i en saga, i original eller översättning. En källsamling är det material som texterna har lästs in ur, till exempel SDHK, Rundata eller Fornsvenska textbanken, med sin licens.</p>
+  </section>
+  {% endif %}
+  {% block efter_text %}{% endblock %}
+</article>
+{% endblock %}

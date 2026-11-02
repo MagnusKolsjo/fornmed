@@ -1,0 +1,407 @@
+{
+ "beskrivning": "Normpåståenden om dråp, edsöre och jäv ur Bjärköarätten, extraherade av språkmodell ur den fornsvenska texten. Texten är bevarad som Stockholms stadsrätt, därför plats Stockholm. Ogranskade.",
+ "extraherad_av": "språkmodell (Claude Opus 5.5) via data/pastaenden/lagar/bjarkoaratten.json",
+ "passager": {},
+ "entiteter": [],
+ "identifieringar": [],
+ "pastaenden": [
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "paforljd",
+   "begrepp:boter|fullt kungens edsöre: 40 mark till kungen särskilt och 40 mark till treskifte",
+   "plats:sdhk:stockholm",
+   "böte fult kononx ezsöre. fyst firitighi markær kunuginum sundærlikæ. ok XL. markær til þræskiptis.",
+   "Gäller den som går hem till någon med vredes hand och gör honom blå och blodig."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:kung|40 mark särskilt",
+   "plats:sdhk:stockholm",
+   "fyst firitighi markær kunuginum sundærlikæ.",
+   "Edsöresboten för hemsökn."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:boter",
+   "tillfaller",
+   "=40 mark till treskifte",
+   "plats:sdhk:stockholm",
+   "ok XL. markær til þræskiptis.",
+   "Edsöresboten för hemsökn; flocken anger inte vilka de tre delägarna är (jfr BjR 14 och 21: målsäganden, fogden och staden)."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne på vardera sidan av vägen, ovan och nedan gården",
+   "plats:sdhk:stockholm",
+   "æru þær til sex mannæ vitni hwarn wæghin. owæn hans garþ æller niþan.",
+   "Läsningen av 'hwarn wæghin' (åt vardera hållet) är osäker."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:hemsokn",
+   "kraver",
+   "begrepp:namnd|tolv bymän värjer eller fäller när vittnen saknas",
+   "plats:sdhk:stockholm",
+   "þa skulu tolf mæn wæriæ han. æller fellæ þe sum ware byæmæn æru.",
+   "När saken bara bygger på rop och åkallan."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:namnd",
+   "utses_av",
+   "=parterna, vardera hälften av de tolv bymännen",
+   "plats:sdhk:stockholm",
+   "ok raþi halwi næmþ hwar þeræ.",
+   "Tolkning: 'vardera av dem råder över halva nämnden'. De tolv ska vara bymän."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|80 mark till treskifte, när den som flytt in i annans hus dräps där",
+   "plats:sdhk:stockholm",
+   "Dræpær han. han þa böte attætighi. markær til þræskiptis.",
+   "Gäller den som flyr undan en vred man på gatan in i annans hus."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "definieras_som",
+   "=vålds- eller vredesverk i kyrka eller på kyrkogård bryter kungens edsöre",
+   "plats:sdhk:stockholm",
+   "Hwar sum gör aþrum valz æller wræz værki i kirkiu æller i kirkiu garþi. han havær brutit kononx eþsöre."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:edsore",
+   "paforljd",
+   "begrepp:boter|som för hemgång (hemsökn), vid våld i kyrka eller på kyrkogård",
+   "plats:sdhk:stockholm",
+   "bötis sum hemgangæ."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|80 mark, dråp på allmänt torg före middag",
+   "plats:sdhk:stockholm",
+   "Dræpær maþær annan a aldra mannæ torghe. fore miþiændagh. böte attætighi markær.",
+   "Efter middag nämns 'dræpær ... fullum sarum' med 24 mark; det gäller troligen sår, inte dråp, och har inte tagits ut."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte), dråp i badstuga eller avträde",
+   "plats:sdhk:stockholm",
+   "Hwar sum annan dræpæer i bastuwu. liggi i twæböte en sex manna vitni æru til.",
+   "'samu lagh æru vm hæmilik hus' utsträcker regeln till avträdet."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|sex mäns vittne, dråp i badstuga",
+   "plats:sdhk:stockholm",
+   "liggi i twæböte en sex manna vitni æru til."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv rådmän när vittnen saknas, dråp i badstuga",
+   "plats:sdhk:stockholm",
+   "æru eig vitni til. væri sik meþ XII raþmannum. alt þæt i bastuwu giors sarum æller drapum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "paforljd",
+   "begrepp:dodsstraff|förverkat halsen eller 40 mark",
+   "plats:sdhk:stockholm",
+   "hawi fore giort halsinum æller XL. markum.",
+   "Våldtäkt av kvinna eller mö; inte kallat edsöre i Bjärköarätten."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:vittne|lagligen överbevisad med sex män",
+   "plats:sdhk:stockholm",
+   "warþær maþær laghlikæ til wnnin meþ sex mannum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_12",
+   "begrepp:valdtakt",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv rådmän när sex mäns vittne saknas",
+   "plats:sdhk:stockholm",
+   "æru eig sex mannæ vitni til. æller væri sik meþ XII. raþmannum"
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|arvingen fäller med sex män när ingen vidgår dråpet",
+   "plats:sdhk:stockholm",
+   "giwær ærfwingin nokrom manni sak. witni han wiþær meþ sex mannum.",
+   "Talan förs av arvingen."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv mäns ed när ingen vidgår dråpet",
+   "plats:sdhk:stockholm",
+   "æller hin drapit witis. wæri sik meþ XII mannæ eþe."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|fogdens rätt efter brottet, när målsäganden vägrar ta emot bot",
+   "plats:sdhk:stockholm",
+   "malseghændin vil eig viþær takæ. böte þa foghotænum oc staþinum sin ræt.",
+   "Gäller bardaghe, sår eller dråp där gärningsmannen kommit undan och bjuder bot."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|stadens rätt efter brottet, när målsäganden vägrar ta emot bot",
+   "plats:sdhk:stockholm",
+   "malseghændin vil eig viþær takæ. böte þa foghotænum oc staþinum sin ræt.",
+   "Gäller bardaghe, sår eller dråp där gärningsmannen kommit undan och bjuder bot."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "=gärningsman som bjudit bot och betalat fogden och staden får vara i staden och bära vapen",
+   "plats:sdhk:stockholm",
+   "oc siþan lowæs i staþinum vara oc wapn bæræ. oc eig þem sum eig wildi wiþ botum taka.",
+   "Målsäganden som vägrade ta bot får inte samma rätt."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:landsflykt|bybo som dräper bybo ska rymma staden i 40 nätter",
+   "plats:sdhk:stockholm",
+   "Dræpær bymaþær byman. han skal rymæ staþin.XL. nætær þær innæn.",
+   "Under tiden bjuder han böter; målsäganden tar emot dem om han vill."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "=gäst som dräpt får inte lämna staden förrän han betalt dråpet",
+   "plats:sdhk:stockholm",
+   "komi eig fyr af staþinum en han þet drap böt hawær."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|lagligen överbevisad med sex mäns vittne, när en gäst dräpt",
+   "plats:sdhk:stockholm",
+   "warþær laghlikæ til wnnin meþ sex mannæ vitnum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:tylftered|tolv mäns ed när en gäst dräpt och vittnen saknas",
+   "plats:sdhk:stockholm",
+   "æru eig vitni til. væri sik meþ.XII. mannæ eþe."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:forsat",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte), dråp i försåt",
+   "plats:sdhk:stockholm",
+   "Dræpær maþær man i forsati. han liggi i twæböte."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte) när en kvinna dräps",
+   "plats:sdhk:stockholm",
+   "eig bötes konæ högfhri botum en maþær vtan i doz drapum. þa liggær hun i twæböte",
+   "Kvinnan bötas inte högre än en man utom vid dråp. 'doz drapum' är oklart, läst som dödsdråp."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte) när en kvinna dräps med levande foster",
+   "plats:sdhk:stockholm",
+   "Warþær konæ dræpin meþ barni þy quikt var. i hænnæ liui. þa bötes hun meþ twæ böte.",
+   "Sex mäns vittne, annars tolv mäns ed."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|20 mark för fostret när kvinnan dräpts",
+   "plats:sdhk:stockholm",
+   "ocböte barnit ater meþ XX markum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "kraver",
+   "begrepp:vittne|tre goda kvinnor vittnar att barnet levde",
+   "plats:sdhk:stockholm",
+   "ok þreæ goþæ konor skulu vitni bæræ. at barnit var quikt"
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|20 mark för barnet när kvinnan slagits så att hon föder dött barn",
+   "plats:sdhk:stockholm",
+   "böte XX markær fore barnit.",
+   "Tre kvinnors vittne att barnet levt, annars värjer han sig med sex män."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|14 mark när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "Dræpær owormaghi man. böte maleghandanum siu markær. oc siu markær foghatænum oc staþinum.",
+   "Lagen definierar owormaghi som yngre än femton år ('owormaghi yngri ær æn fæmtan ara')."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sju mark, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "böte maleghandanum siu markær."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|sju mark gemensamt med staden, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "oc siu markær foghatænum oc staþinum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|sju mark gemensamt med fogden, när gärningsmannen är under femton år",
+   "plats:sdhk:stockholm",
+   "oc siu markær foghatænum oc staþinum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:boter|14 mark som ägaren betalar när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "böte þen sum fæt æ siu markær maleghændanum oc siu markær foghotænum oc staþinum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:malsagande|sju mark, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær maleghændanum"
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:fogde|sju mark gemensamt med staden, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær foghotænum oc staþinum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_14",
+   "begrepp:boter",
+   "tillfaller",
+   "begrepp:stad|sju mark gemensamt med fogden, när fä dödar en man",
+   "plats:sdhk:stockholm",
+   "siu markær foghotænum oc staþinum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_15",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:ogild|äkta mannen har makt över horkarlens liv när denne lagligen överbevisas med hans hustru",
+   "plats:sdhk:stockholm",
+   "hawi bonden walþ vm lif hans.",
+   "Överbevisning med sex män. Alternativt löser horkarlen sig med 40 mark till treskifte."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_21",
+   "begrepp:drap",
+   "paforljd",
+   "begrepp:tvebot|dubbel bot (tvåböte) för dråp eller sår på den som fogden eller rådmännen sänt i stadens ärende",
+   "plats:sdhk:stockholm",
+   "hwar sum þem misfirmir meþ orþum. æller giærningum. þæt liggi alt i twæ böte. baþi i drapum ok sarum.",
+   "För ord gäller ingen förhöjning."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|stegel",
+   "plats:sdhk:stockholm",
+   "Hwilikin maþær annæn myrþir. warþær til wnnin meþ sex mannum. han skal stælles."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:vittne|överbevisad med sex män",
+   "plats:sdhk:stockholm",
+   "warþær til wnnin meþ sex mannum."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mord",
+   "kraver",
+   "begrepp:tylftered|den anklagade värjer sig med tolv mäns ed",
+   "plats:sdhk:stockholm",
+   "æller væri sik meþ tolf mannæ eþe."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mordbrand",
+   "paforljd",
+   "begrepp:dodsstraff|samma rätt som mördare (stegel)",
+   "plats:sdhk:stockholm",
+   "havin morþbrærnaræ sama ræt."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|kvinna som mördar begravs levande",
+   "plats:sdhk:stockholm",
+   "Miiþir konæ nokon. hon skal quik i iorþ grawæs."
+  ],
+  [
+   "lag:bjarkoaratten:bjr_36",
+   "begrepp:mord",
+   "paforljd",
+   "begrepp:dodsstraff|bränning på bål för den som ger någon gift",
+   "plats:sdhk:stockholm",
+   "hwar sum giwær adrum forgauor maþær æller konæ. þæm ma i bali brænnæ.",
+   "'forgauor' tolkat som gift; att föra förgiftning under mord är en tolkning."
+  ]
+ ]
+}

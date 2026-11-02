@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags fornmed %}
+{% block titel %}{{ verk.titel }}{% if del %} – {{ del }}{% endif %} – Fornmed{% endblock %}
+{% block innehall %}
+<article class="verk">
+  <p class="metadata"><a href="{% pageurl page %}">Källor</a></p>
+  <h1 class="fm-heading">{{ verk.titel }}</h1>
+  <p class="metadata">
+    {% if verk.upphov %}{{ verk.upphov }}{% endif %}{% if verk.upphov and verk.datering_edtf %} · {% endif %}{% if verk.datering_edtf %}{{ verk.datering_edtf|datering }}{% endif %}{% if verk.kallsamling %} · {{ verk.kallsamling }}{% endif %}
+  </p>
+
+  <section class="verk-uppgifter" aria-label="Version och källhänvisning">
+    <h2 class="dold">Version</h2>
+    <ul class="versionsval">
+      {% for v in versioner %}
+      <li>{% if v.utgava == vald.utgava %}<strong aria-current="true">{{ v|versionsnamn }}</strong>{% else %}<a href="?utgava={{ v.utgava|urlencode }}">{{ v|versionsnamn }}</a>{% endif %}{% if v.ogranskad %} <span class="ogranskad">ogranskad</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+    {% if parallell %}
+      {% for kod, v in parallell.versioner.items %}{% if v.anmarkning %}<p class="anmarkning"><strong>Ogranskad ({{ kod|sprakord }}).</strong> {{ v.anmarkning }}</p>{% endif %}{% endfor %}
+    {% elif version.anmarkning %}<p class="anmarkning"><strong>Ogranskad.</strong> {{ version.anmarkning }}</p>{% endif %}
+    <p class="metadata">
+      {% if version.referens %}Utgåva: {{ version.referens }}{% endif %}
+      {% if version.licens %}<br>Licens: {{ version.licens }}{% endif %}
+    </p>
+    <p class="metadata">Hämta texten:
+      <a href="{{ api_url }}/v1/verk/{{ verk.id }}/text?format=md&amp;utgava={{ vald.utgava|urlencode }}">Markdown</a> ·
+      <a href="{{ api_url }}/v1/verk/{{ verk.id }}/text?format=txt&amp;utgava={{ vald.utgava|urlencode }}">text</a> ·
+      <a href="{{ api_url }}/v1/verk/{{ verk.id }}/text?utgava={{ vald.utgava|urlencode }}">JSON</a>
+    </p>
+    {% if parallella_versioner %}
+    <p class="metadata">Sida vid sida med:
+      {% for v in parallella_versioner %}<a href="?utgava={{ vald.utgava|urlencode }}&amp;parallellt={{ v.utgava|urlencode }}{% if del %}&amp;del={{ del|urlencode }}{% endif %}"{% if v.utgava == parallellt %} aria-current="true"{% endif %}>{{ v|versionsnamn }}</a>{% if not forloop.last %} · {% endif %}{% endfor %}
+      {% if parallellt %} · <a href="?utgava={{ vald.utgava|urlencode }}{% if del %}&amp;del={{ del|urlencode }}{% endif %}">bara en version</a>{% endif %}
+    </p>
+    {% endif %}
+  </section>
+
+  {% if delar %}
+  <nav class="innehall" aria-label="Delar">
+    <h2>Innehåll</h2>
+    {% if del_for_del %}<p class="metadata">Verket är stort och visas en del i taget.</p>{% endif %}
+    <ol>
+      {% for d in delar %}
+      <li>{% if del_for_del %}{% if d.del == del %}<strong aria-current="true">{{ d.del }}</strong>{% else %}<a href="?utgava={{ vald.utgava|urlencode }}&amp;del={{ d.del|urlencode }}{% if parallellt %}&amp;parallellt={{ parallellt|urlencode }}{% endif %}">{{ d.del }}</a>{% endif %}{% else %}<a href="#del-{{ d.del|slugify }}">{{ d.del }}</a>{% endif %}</li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {% endif %}
+
+  {% if parallell %}
+  <div class="passager parallell">
+    {% for p in parallell.passager %}
+      {% ifchanged p.del %}{% if p.del and not del_for_del %}<h2 id="del-{{ p.del|slugify }}">{{ p.del }}</h2>{% endif %}{% endifchanged %}
+      <section class="passage">
+        <h3>{{ p.adress }}</h3>
+        <div class="kolumner">
+          {% for kod in parallell.sprak %}
+          {% with t=p|get_item:kod v=parallell.versioner|get_item:kod %}
+          <div lang="{{ kod }}"><p class="sprakrubrik">{{ kod|sprakord|capfirst }}{% if v.ogranskad %} <span class="ogranskad">ogranskad</span>{% endif %}</p><div class="kalltext fm-reading">{% if t %}{{ t.text|linebreaks }}{% else %}<p>—</p>{% endif %}</div></div>
+          {% endwith %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="passager">
+    {% for p in text.passager %}
+      {% ifchanged p.del %}{% if p.del and not del_for_del %}<h2 id="del-{{ p.del|slugify }}">{{ p.del }}</h2>{% endif %}{% endifchanged %}
+      <section class="passage" id="{{ p.id|slugify }}">
+        <h3>{{ p.adress|default:p.id }}</h3>
+        <div class="kalltext fm-reading">{{ p.text|linebreaks }}</div>
+        {% if p.underlag_url %}<p class="metadata"><a href="{{ p.underlag_url }}">Underlag</a></p>{% endif %}
+      </section>
+    {% empty %}
+      <p>Versionen har inga passager.</p>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if del_for_del %}
+  <nav class="bladdra" aria-label="Föregående och nästa del">
+    {% if foregaende %}<a href="?utgava={{ vald.utgava|urlencode }}&amp;del={{ foregaende|urlencode }}{% if parallellt %}&amp;parallellt={{ parallellt|urlencode }}{% endif %}">← {{ foregaende }}</a>{% endif %}
+    {% if nasta %}<a href="?utgava={{ vald.utgava|urlencode }}&amp;del={{ nasta|urlencode }}{% if parallellt %}&amp;parallellt={{ parallellt|urlencode }}{% endif %}">{{ nasta }} →</a>{% endif %}
+  </nav>
+  {% endif %}
+</article>
+{% endblock %}
+{% block upp %}<a class="upp" href="#sidhuvud" aria-label="Till början av sidan" title="Till början av sidan">↑</a>{% endblock %}

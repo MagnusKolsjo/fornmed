@@ -1,0 +1,26 @@
+# Umami: kakfri besöksstatistik för webbplatsen, på stat.<domän>.
+# Installeras av installera_umami.sh. Lyssnar på 127.0.0.1:3000 bakom nginx.
+
+[Unit]
+Description=Fornmed — Umami, besöksstatistik
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/srv/fornmed/umami
+EnvironmentFile=/srv/fornmed/umami/.env
+Environment=PORT=3000
+Environment=HOSTNAME=127.0.0.1
+Environment=NODE_ENV=production
+ExecStart=/srv/fornmed/umami/node_modules/.bin/next start
+Restart=on-failure
+RestartSec=5
+# Statistiken får lägre företräde än söktjänsten
+CPUWeight=50
+MemoryMax=1G
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

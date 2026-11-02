@@ -1,0 +1,39 @@
+{% load static wagtailcore_tags %}<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block titel %}{% if page and page.depth > 2 %}{{ page.title }} – {% endif %}Fornmed{% endblock %}</title>
+{% if page.search_description %}<meta name="description" content="{{ page.search_description }}">{% endif %}
+<link rel="stylesheet" href="{% static 'grafisk_profil/profil.css' %}">
+<link rel="stylesheet" href="{% static 'sidor/webb.css' %}">
+<link rel="icon" href="{% static 'grafisk_profil/fornmed-logo-enfarg.svg' %}" type="image/svg+xml">
+{% if statistik_url and statistik_id %}<script defer src="{{ statistik_url }}/script.js" data-website-id="{{ statistik_id }}"></script>{% endif %}
+</head>
+<body class="fm-body">
+<a class="hoppa" href="#innehall">Till innehållet</a>
+<header class="sidhuvud" id="sidhuvud">
+  <div class="ram">
+    <a class="logotyp" href="{% if startsida %}{% pageurl startsida %}{% else %}/{% endif %}"><img src="{% static 'grafisk_profil/fornmed-logo.svg' %}" alt="Fornmed" width="220" height="64"></a>
+    <nav aria-label="Huvudmeny">
+      <ul>
+        {% if startsida %}<li><a href="{% pageurl startsida %}"{% if page and page.id == startsida.id %} aria-current="page"{% endif %}>Sammanfattning</a></li>{% endif %}
+        {% for sida in meny %}
+        <li><a href="{% pageurl sida %}"{% if page and page.id == sida.id %} aria-current="page"{% endif %}>{{ sida.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="innehall" class="ram">
+{% block innehall %}{% endblock %}
+</main>
+{% block upp %}{% endblock %}
+<footer class="sidfot">
+  <div class="ram">
+    <p>Fornmed: källor till Sveriges och Nordens forntid och medeltid. MCP: <code>{{ mcp_url }}</code> · <a href="{{ api_url }}/docs">API</a></p>
+    <p>Varje källa har sin egen licens, som anges med texten. Utvecklat av <a href="https://linkedin.com/in/magnuskolsjo">Magnus Kolsjö</a> med hjälp av AI.</p>
+  </div>
+</footer>
+</body>
+</html>
