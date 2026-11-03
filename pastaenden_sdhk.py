@@ -1374,7 +1374,10 @@ def ladda_pastaenden(resultat: dict) -> None:
                             f"(SELECT subjekt_id FROM {p}pastaende UNION SELECT objekt_id FROM {p}pastaende "
                             f"WHERE objekt_id IS NOT NULL UNION SELECT plats_id FROM {p}pastaende "
                             f"WHERE plats_id IS NOT NULL UNION SELECT entitet_id FROM {p}identifiering "
-                            f"UNION SELECT identifierad_med FROM {p}identifiering)", (prefix,))
+                            f"UNION SELECT identifierad_med FROM {p}identifiering "
+                            f"UNION SELECT plats_id FROM {p}verk_plats "
+                            f"UNION SELECT entitet_id FROM {p}plats_uppgift "
+                            f"UNION SELECT sate_id FROM {p}auktoritet_titel WHERE sate_id IS NOT NULL)", (prefix,))
         db.upsert(conn, "entitet", ["id", "typ", "namn", "beskrivning", "wikidata_id"], ["id"],
                   [e if len(e) == 5 else (*e, None) for e in r["entitet"]])
         db.upsert(conn, "entitet_namnform", ["entitet_id", "namnform", "sprak", "passage_id"],

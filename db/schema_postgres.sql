@@ -456,7 +456,49 @@ CREATE TABLE IF NOT EXISTS fornmed.leverans (
 -- 2. Migrationer (varje schemaändring efter v1.0, i kronologisk ordning)
 -- =============================================================================
 
--- — tomt vid v1.0 —
+-- 2026-11-03: geografiska platser kopplade till entiteter. Ett verk kan ha
+-- flera platser med olika roller (utfärdandeort, fyndplats, socken) och
+-- samma roll flera gånger ("Visby eller Riga"). Källans ordalydelse behålls i
+-- namnform. Tabellerna fylls av platser.py. plats_id tar inte bort sig självt
+-- med entiteten: en plats som något pekar på ska inte kunna försvinna.
+CREATE TABLE IF NOT EXISTS fornmed.verk_plats (
+    verk_id          TEXT NOT NULL REFERENCES fornmed.verk (id) ON DELETE CASCADE,
+    plats_id         TEXT NOT NULL REFERENCES fornmed.entitet (id),
+    roll             TEXT NOT NULL,   -- vokabular 'platsroll'
+    namnform         TEXT NOT NULL,
+    osaker           BOOLEAN NOT NULL DEFAULT FALSE,
+    harledd          BOOLEAN NOT NULL DEFAULT FALSE,
+    PRIMARY KEY (verk_id, roll, plats_id)
+);
+CREATE INDEX IF NOT EXISTS verk_plats_plats_idx ON fornmed.verk_plats (plats_id, roll);
+
+ALTER TABLE fornmed.auktoritet_titel ADD COLUMN IF NOT EXISTS sate_id TEXT REFERENCES fornmed.entitet (id);
+CREATE INDEX IF NOT EXISTS auktoritet_titel_sate_id_idx ON fornmed.auktoritet_titel (sate_id);
+
+-- Platsregistret: var en plats ligger i dag. Uppgifterna är en bedömning och står
+-- därför skilda från entiteten och källans namnform. metod säger hur kopplingen
+-- gjordes (auktoritet, regel eller sprakmodell) och granskad om en människa har
+-- kontrollerat den. Tabellen fylls av platsregister.py och platser.py.
+CREATE TABLE IF NOT EXISTS fornmed.plats_uppgift (
+    entitet_id       TEXT PRIMARY KEY REFERENCES fornmed.entitet (id) ON DELETE CASCADE,
+    slag             TEXT,            -- vokabular 'platsslag'
+    nutida_namn      TEXT,
+    land_id          TEXT REFERENCES fornmed.entitet (id),
+    landskap_id      TEXT REFERENCES fornmed.entitet (id),
+    lan_id           TEXT REFERENCES fornmed.entitet (id),
+    kommun_id        TEXT REFERENCES fornmed.entitet (id),
+    socken_id        TEXT REFERENCES fornmed.entitet (id),
+    ingar_i_id       TEXT REFERENCES fornmed.entitet (id),
+    latitud          DOUBLE PRECISION,
+    longitud         DOUBLE PRECISION,
+    kalla            TEXT,
+    metod            TEXT NOT NULL,
+    granskad         BOOLEAN NOT NULL DEFAULT FALSE,
+    anm              TEXT
+);
+CREATE INDEX IF NOT EXISTS plats_uppgift_kommun_idx ON fornmed.plats_uppgift (kommun_id);
+CREATE INDEX IF NOT EXISTS plats_uppgift_socken_idx ON fornmed.plats_uppgift (socken_id);
+CREATE INDEX IF NOT EXISTS plats_uppgift_land_idx ON fornmed.plats_uppgift (land_id);
 
 -- =============================================================================
 -- 3. Vyer (skapas om vid varje uppstart)

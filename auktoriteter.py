@@ -12,6 +12,7 @@ av utfärdarfältet också använder.
 
 Inläsningen ersätter hela längden varje gång och kan köras om när filerna
 har ändrats.
+Kör platser.py efteråt, så att sätena kopplas till sina platser igen.
 
 Användning:
     python auktoriteter.py

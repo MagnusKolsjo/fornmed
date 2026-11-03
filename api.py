@@ -220,12 +220,16 @@ def lista_verk(
     ar_fran: int | None = None,
     ar_till: int | None = None,
     titel: Annotated[str | None, Query(description="Del av titeln")] = None,
+    plats: Annotated[str | None, Query(description="Platsens entitets-id, t.ex. plats:sdhk:lund. "
+                                                         "En kommun, ett landskap eller ett land omfattar platserna där, t.ex. plats:kommun:1281")] = None,
+    plats_roll: Annotated[str | None, Query(
+        description="utfardandeort, fyndplats, socken, harad, kommun, omrade eller forvaring")] = None,
     sida: Annotated[int, Query(ge=1)] = 1,
     per_sida: Annotated[int, Query(ge=1, le=MAX_PER_SIDA)] = 100,
     _format: FormatParam = None,
 ) -> Response:
     rader, total = dokument.lista_verk(kallsamling, genre, sprak, ar_fran, ar_till, titel,
-                                       sida, per_sida)
+                                       sida, per_sida, plats, plats_roll)
     return _svar(request, rader, "lista", titel="Verk", total=total, sida=sida, per_sida=per_sida)
 
 

@@ -263,7 +263,7 @@ def auktoritet(langd_id: str, titel: str | None = None, sate: str | None = None,
         ("t.till >= ?", ar),
     ])
     sql = f"""
-        SELECT a.person_id, a.namn, a.ordningstal, t.titel, t.sate, t.fran, t.till, t.ar_text,
+        SELECT a.person_id, a.namn, a.ordningstal, t.titel, t.sate, t.sate_id, t.fran, t.till, t.ar_text,
                a.fodd, a.dod, a.anm, a.wikidata_id, a.wikipedia
         FROM {p}auktoritet_titel t
         JOIN {p}auktoritet a ON a.langd_id = t.langd_id AND a.person_id = t.person_id
@@ -285,7 +285,7 @@ def hamta_auktoritet(langd_id: str, person_id: str) -> dict:
     if person is None:
         raise DokumentFel(404, f"'{person_id}' finns inte i längden '{langd_id}'.")
     person["titlar"] = _rader(
-        f"SELECT titel, sate, fran, till, ar_text FROM {p}auktoritet_titel "
+        f"SELECT titel, sate, sate_id, fran, till, ar_text FROM {p}auktoritet_titel "
         f"WHERE langd_id = {ph} AND person_id = {ph} ORDER BY nr",
         (langd_id, person_id),
     )

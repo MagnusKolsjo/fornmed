@@ -25,10 +25,10 @@ from fragor import _rader
 GRUPPER = [
     ("Källor", "Texterna i fyra nivåer: verket, dess bevarade vittnen, utgåvorna och de citerbara passagerna, "
                "med källsamlingen de lästs in ur och sökningens chunkar och vektorer.",
-     ["kallsamling", "verk", "vittne", "utgava", "passage", "chunk", "embedding", "sdhk_brev"]),
+     ["kallsamling", "verk", "verk_plats", "vittne", "utgava", "passage", "chunk", "embedding", "sdhk_brev"]),
     ("Entiteter och begrepp", "Personer, platser, folk, institutioner, ämbeten och begrepp som delas mellan "
                               "källorna, med namnformer, identifieringar, termer och ordböcker.",
-     ["entitet", "entitet_namnform", "identifiering", "term", "begreppsrelation", "ordboksartikel"]),
+     ["entitet", "entitet_namnform", "plats_uppgift", "identifiering", "term", "begreppsrelation", "ordboksartikel"]),
     ("Påståenden och bedömningar", "Vad en passage hävdar, hur påståenden hänger ihop och forskningens "
                                    "omdömen om påståenden, verk, vittnen och identifieringar.",
      ["pastaende", "pastaende_relation", "bedomning"]),
@@ -43,6 +43,8 @@ GRUPPER = [
 TABELLER = {
     "kallsamling": "Ett dataset som materialet har lästs in ur, till exempel SDHK, Rundata eller Fornsvenska textbanken, med utgivare, licens och version.",
     "verk": "Texten som intellektuell enhet: ett brev, en runinskrift, en lag, en saga, en krönika. Verkets datering är textens tillkomst, skild från handskrifternas och händelsernas.",
+    "plats_uppgift": "Var en plats ligger i dag: nutida namn, land, län, kommun, socken och koordinater. Bedömningar med metod och granskningsstatus, skilda från källans namnform. Fylls av platsregister.py och platser.py.",
+    "verk_plats": "Verkets geografiska platser som entiteter: brevens utfärdandeort och runinskrifternas fyndplats, socken, härad, kommun, område och förvaring. Ett verk kan ha flera platser. Fylls av platser.py.",
     "vittne": "En fysisk eller registrerad överlevnad av verket: original, avskrift, registratur eller tryck, med egen datering.",
     "utgava": "En tryckt eller digital utgåva av verket, och därmed en språkversion: original, översättning, maskinöversättning eller maskintranskription.",
     "passage": "Den citerbara textenheten: en regest, en flock i en lag, ett kapitel, en strof eller en inskrifts translitterering. Sökningens fulltextindex ligger här.",
@@ -77,6 +79,13 @@ KOLUMNER = {
              "sprak": "Verkets språk, ISO 639-3", "utfardandeort": "Var ett brev utfärdades", "datering_edtf": "Datering i EDTF, t.ex. 1276-05-23 eller 1375/1378?",
              "datering_fran": "Tidigaste möjliga datum, ÅÅÅÅMMDD", "datering_till": "Senaste möjliga datum, ÅÅÅÅMMDD", "datering_anm": "Anmärkning om dateringen",
              "beskrivning": "Kort beskrivning", "extern_url": "Länk till verket hos källan", "extra": "Övriga uppgifter, t.ex. runinskrifters fyndort och bildlänkar"},
+    "verk_plats": {"verk_id": "Verket", "plats_id": "Platsen", "roll": "utfardandeort, fyndplats, socken, harad, kommun, omrade eller forvaring (vokabulär platsroll)",
+                   "namnform": "Platsen som den står i källan", "osaker": "Källan anger orten med frågetecken eller som ett alternativ",
+                   "harledd": "Orten står inom parentes eller hakparentes i källan, eller läget anges i förhållande till platsen"},
+    "plats_uppgift": {"entitet_id": "Platsen", "slag": "Stad, by, gård, slott, kloster, socken m.m. (vokabulär platsslag)", "nutida_namn": "Platsens nutida namn",
+                      "land_id": "Nutida land", "landskap_id": "Landskap", "lan_id": "Nutida län", "kommun_id": "Nutida kommun", "socken_id": "Socken",
+                      "ingar_i_id": "Större plats som platsen är en del av", "latitud": "Latitud, WGS84", "longitud": "Longitud, WGS84",
+                      "kalla": "Varifrån uppgifterna kommer", "metod": "auktoritet, regel eller sprakmodell", "granskad": "En människa har kontrollerat kopplingen", "anm": "Anmärkning, t.ex. om namnbyte"},
     "vittne": {"id": "Vittnets id", "verk_id": "Verket", "typ": "Original, avskrift, registratur, tryck m.m. (vokabulär vittnestyp)",
                "beskrivning": "Beskrivning ur källan", "signum": "Arkiv- eller handskriftssignum", "datering_edtf": "Vittnets datering i EDTF",
                "datering_fran": "Tidigaste datum, ÅÅÅÅMMDD", "datering_till": "Senaste datum, ÅÅÅÅMMDD", "iiif_manifest": "Länk till digitaliserade sidbilder"},
@@ -130,7 +139,7 @@ KOLUMNER = {
                    "ordningstal": "Ordningstal, t.ex. för påvar", "anm": "Anmärkning, t.ex. motpåve", "wikidata_id": "Wikidata-id",
                    "wikipedia": "Artikel på svenska Wikipedia"},
     "auktoritet_titel": {"langd_id": "Längden", "person_id": "Personen", "nr": "Titelns nummer för personen", "titel": "kung, biskop, arkebiskop, pave m.m.",
-                         "sate": "Rike eller stift", "fran": "Första år", "till": "Sista år", "ar_text": "Längdens ursprungliga årsuttryck"},
+                         "sate": "Rike eller stift som i längden", "sate_id": "Platsen som entitet", "fran": "Första år", "till": "Sista år", "ar_text": "Längdens ursprungliga årsuttryck"},
     "vokabular": {"schema": "Klassificeringen värdet hör till, t.ex. genre", "kod": "Värdets kod", "etikett": "Värdets namn",
                   "beskrivning": "Förklaring", "ordning": "Ordning i listor"},
     "leverans": {"id": "Tidpunkt som ÅÅÅÅMMDD-TTMMSS", "tidpunkt": "När leveransen registrerades", "anmarkning": "Vad leveransen innehåller",
@@ -221,10 +230,10 @@ def las_schema() -> dict:
 
 # Rutornas läge i diagrammet (x, y); bredd och höjd är gemensamma
 PLATSER = {
-    "kallsamling": (20, 30), "verk": (210, 30), "vittne": (400, 0), "utgava": (400, 75), "passage": (590, 30),
+    "kallsamling": (20, 30), "verk": (210, 30), "verk_plats": (20, 170), "vittne": (400, 0), "utgava": (400, 75), "passage": (590, 30),
     "chunk": (780, 30), "embedding": (960, 30), "sdhk_brev": (210, 130),
     "bedomning": (400, 200), "pastaende": (590, 200), "pastaende_relation": (780, 150),
-    "entitet_namnform": (780, 260), "identifiering": (400, 340), "entitet": (590, 340),
+    "entitet_namnform": (780, 260), "identifiering": (400, 340), "entitet": (590, 340), "plats_uppgift": (590, 430),
     "begreppsrelation": (780, 360), "ordboksartikel": (20, 300), "term": (210, 400),
     "auktoritetslangd": (20, 490), "auktoritet": (210, 490), "auktoritet_titel": (400, 490),
     "vokabular": (960, 470), "leverans": (960, 540),

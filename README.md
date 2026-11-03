@@ -54,7 +54,7 @@ ovan; API:et är alltid öppet.
 | Resurs | Innehåll |
 |---|---|
 | `/v1/oversikt`, `/v1/kallsamlingar` | Antal poster och källsamlingar med licens |
-| `/v1/verk` | Verk med filter på källsamling, genre, språk, datering och titel |
+| `/v1/verk` | Verk med filter på källsamling, genre, språk, datering, titel och plats |
 | `/v1/verk/{id}` | Ett verk med vittnen, utgåvor, passager (utan text) och bedömningar |
 | `/v1/verk/{id}/versioner` | Språkversionerna |
 | `/v1/verk/{id}/text` | Hela verket i ett svar, eller ett avsnitt med `fran` och `till` |
@@ -903,6 +903,61 @@ publikationer, men ståndpunkterna är sammanfattade och ska kontrolleras mot
 publikationerna innan de används som belägg. Beowulf citeras efter Harrison
 & Sharp och Ynglinga saga efter Linder & Haggson (kap. 33 där är kap. 29 hos
 Olson).
+
+## Geografiska platser
+
+```bash
+.venv/bin/python platsregister.py hamta             # hämtar auktoriteter och Wikidata till data/platser
+.venv/bin/python platsregister.py                   # läser in stommen
+.venv/bin/python platser.py
+.venv/bin/python platser.py --rapport rapport.txt   # orter som blev nya platser
+```
+
+Alla geografiska platser ska vara entiteter, från rike och landskap till socken,
+gård och kloster. Källans ordalydelse behålls alltid. Kör `platser.py` efter varje
+import av SDHK, runinskrifter eller auktoriteter.
+
+Stommen är Riksantikvarieämbetets geografiska auktoriteter i K-samsök (CC0): 2 500
+socknar, 290 kommuner, 21 län, 25 landskap och 250 länder, med koordinater från
+Wikidata (CC0). Var en plats ligger i dag står i `plats_uppgift`, skilt från
+källans namnform. Fältet `metod` säger hur uppgiften kom till och `granskad` om en
+människa har kontrollerat den.
+
+| Metod | Betydelse |
+|---|---|
+| `auktoritet` | Direkt ur RAÄ:s auktoriteter |
+| `regel` | Härledd, t.ex. "Bredgatan i Lund", som ligger inne i Lund och får ortens läge som närmevärde. I "Klinteholm på Gotland" är Klinteholm platsen, och landskapet ger inget läge |
+| `sprakmodell` | Två oberoende språkmodeller är överens; inte kontrollerad av människa |
+
+Besluten om brevorterna står i `data/platser`: `orter.tsv` (överens),
+`orter_att_avgora.tsv` (oense, kopplas inte), `x_uppslag.tsv` (platser i "X i Y" med
+eget läge från Wikidata) och `delade_orter.json` (namn som är
+fördelade brev för brev, som Viborg i Jylland och Karelen). Ett namn som flera
+platser delar, och som inte är fördelat, står kvar på en allmän entitet med
+platserna som möjliga identifieringar.
+
+Ortfältets parenteser (`harledd`) tolkas som att orten är tillagd av utgivaren och
+inte står i brevet. SDHK:s dokumentation förklarar inte tecknen; tolkningen bygger
+på brevens kommentarer och texter.
+
+| Källa | Koppling |
+|---|---|
+| Brevens ort (`verk.utfardandeort`) | `verk_plats` med rollen `utfardandeort` |
+| Runinskrifternas plats (`verk.extra`) | `verk_plats` med rollerna `fyndplats`, `socken`, `harad`, `kommun`, `omrade` och `forvaring` |
+| Sätet i auktoritetslängderna (`auktoritet_titel.sate`) | `auktoritet_titel.sate_id` |
+| Plats i ett påstående | `pastaende.plats_id` |
+
+SDHK:s ortfält tolkas med regler. `(Lübeck.)` och `[Stockholm]` markeras som
+härledda och `Rom?` som osäkert. `Tälje (= Södertälje)` blir Södertälje med Tälje
+som namnform. `Visby eller Riga` blir två osäkra kopplingar och `Skanör och
+Falsterbo` två säkra. `Rom, Peterskyrkan` och `Peterskyrkan, Rom` blir samma plats.
+
+Kopplingen går på namnet. Den avgör inte vilken plats ett vanligt namn avser, så alla
+brev från en ort som heter Vik hamnar på samma entitet, och Viborg avser både orten i
+Danmark och den i Finland. Runinskrifternas socknar, härader och fyndplatser har
+däremot område i id:t: Tuna sn i tre landskap är tre entiteter, och de slås aldrig upp
+på namn. Fyndplatserna har Rundatas koordinater i `extra`. Koppling till nutida
+orter och uppdelning av samma namn på flera platser återstår.
 
 ## Licens, proveniens och underlag
 

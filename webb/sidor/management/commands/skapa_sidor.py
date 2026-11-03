@@ -152,6 +152,7 @@ API_TEXT = """
 <li><code>/v1/sok?q=…</code>: sökning, som MCP-verktyget</li>
 <li><code>/v1/verk</code>, <code>/v1/pastaenden</code>, <code>/v1/bedomningar</code>: listor med filter</li>
 <li><code>/v1/auktoriteter/biskopar?sate=Uppsala&amp;format=csv</code>: ärkebiskoparna i Uppsala</li>
+<li><code>/v1/verk?plats=plats:kommun:1281</code>: källor från platser i Lunds kommun</li>
 <li><code>/v1/leveranser</code>: databasens uppdateringar</li>
 </ul>
 <p>Listor delas upp i sidor med <code>sida</code> och <code>per_sida</code>. Hela databasen går inte att hämta i ett anrop; hämta de dokument och listor du behöver.</p>
@@ -177,6 +178,9 @@ METOD_TEXT = """
 <p>Där det finns fria äldre översättningar används de. Övriga texter har svenska översättningar gjorda av en språkmodell. De gör texterna sökbara på svenska, men de är ogranskade och får inte citeras som översättning. Markeringen [osäker tolkning] anger att översättningen är osäker på det stället.</p>
 <h2>Begrepp och ordböcker</h2>
 <p>Begreppsregistret förklarar medeltida begrepp som ledung, frälse och härad, med termer på fornsvenska, fornvästnordiska och latin. Registrets definitioner är ett ogranskat utkast. Den citerbara källan är ordböckernas egna artiklar: Schlyters ordbok till lagarna och Söderwalls ordbok över medeltidsspråket.</p>
+<h2>Geografiska platser</h2>
+<p>Platserna i breven och runinskrifterna är kopplade till entiteter, och källans namnform behålls alltid. Stommen är Riksantikvarieämbetets socknar, kommuner, län, landskap och länder, med koordinater från Wikidata. Det gör att källor kan sökas på en nutida kommun eller socken.</p>
+<p>Vilken nutida plats en brevort avser har oftast bedömts av oberoende språkmodeller, och uppgiften används bara när minst två är överens. Kopplingarna är inte kontrollerade av människa och är märkta som ogranskade. Ett läge som bara är känt på socken- eller ortsnivå är märkt som närmevärde. Omkring 15 procent av breven med ort saknar ännu nutida plats, och det arbetet fortsätter.</p>
 <h2>Auktoritetslängderna</h2>
 <p>Längderna över regenter, biskopar och påvar används för att identifiera personer i breven. De är sammanställda ur allmänna uppslagsverk och svenska Wikipedia och inte kontrollerade mot primärlitteraturen. Listornas år är ofta ungefärliga, och det ursprungliga uttrycket finns bevarat.</p>
 """
@@ -198,6 +202,7 @@ LICENSER_TEXT = """
 <li><b>MGH:</b> Monumenta Germaniae Historica och Bayerische Staatsbibliothek, openMGH, CC BY 4.0.</li>
 <li><b>Sagorna, Eddorna och Heimskringla:</b> heimskringla.no och sagadb.org. Utgåvorna är fria; normaliseringen i Guðni Jónssons utgåvor har upphovsrätt och används icke-kommersiellt.</li>
 <li><b>Transkriptioner från Wikisource:</b> CC BY-SA 4.0. Biskopslängden bygger på svenska Wikipedia och har samma licens.</li>
+<li><b>Geografisk stomme:</b> Riksantikvarieämbetet, K-samsöks geografiska auktoriteter, och Wikidata, båda CC0.</li>
 <li><b>Arabiska källor:</b> OpenITI, CC BY-NC-SA 4.0.</li>
 <li><b>Romerska källor:</b> Perseus Digital Library, CC BY-SA 4.0, och The Latin Library.</li>
 <li><b>Äldre utgåvor ur Internet Archive och Project Runeberg:</b> fria från upphovsrätt.</li>

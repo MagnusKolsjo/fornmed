@@ -208,6 +208,11 @@ def fornmed_hamta_verk(verk_id: str) -> dict:
     var sin licens; passagerna har underlag_url för manuell kontroll. För
     runinskrifter listar bilder länkar till fotografier och dokumentation
     hos museer och Riksantikvarieämbetet (förvaltarnas egna villkor gäller).
+    platser listar verkets geografiska platser som entiteter, med roll
+    (utfardandeort, fyndplats, socken, harad, kommun, omrade) och källans
+    ordalydelse. osaker betyder att källan anger orten med frågetecken eller
+    som ett alternativ, harledd att orten står inom parentes i källan.
+    Kopplingen går på namnet: en plats med ett vanligt namn kan avse flera orter.
     """
     return _hittad(fragor.hamta_verk(verk_id), f"Verket '{verk_id}'")
 
@@ -244,6 +249,9 @@ def fornmed_sok_entitet(namn: str, typ: str | None = None, antal: int = 20) -> l
 def fornmed_hamta_entitet(entitet_id: str, predikat: str | None = None, antal: int = 50,
                           fran: int = 0) -> dict:
     """Hämta en entitet med identifieringar och de påståenden den förekommer i.
+
+    En plats har plats_uppgift med nutida namn, kommun, land och koordinater. Med
+    metod 'sprakmodell' och granskad=false är kopplingen inte kontrollerad av människa.
 
     Identifieringar visas åt båda håll med forskningens bedömningar.
     Identifieringar med samma alternativgrupp utesluter varandra (t.ex.

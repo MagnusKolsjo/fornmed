@@ -108,6 +108,21 @@ def hamta_verk(verk_id: str) -> dict | None:
         """,
         (verk_id,),
     )
+    verk["platser"] = _rader(
+        f"""
+        SELECT vp.roll, vp.plats_id, e.namn, vp.namnform, vp.osaker, vp.harledd,
+               u.nutida_namn, k.namn AS kommun, l.namn AS land, u.latitud, u.longitud, u.metod, u.granskad
+        FROM {p}verk_plats vp JOIN {p}entitet e ON e.id = vp.plats_id
+        LEFT JOIN {p}plats_uppgift u ON u.entitet_id = vp.plats_id
+        LEFT JOIN {p}entitet k ON k.id = u.kommun_id
+        LEFT JOIN {p}entitet l ON l.id = u.land_id
+        WHERE vp.verk_id = {ph} ORDER BY vp.roll, e.namn
+        """,
+        (verk_id,),
+    )
+    for plats in verk["platser"]:
+        plats["osaker"], plats["harledd"] = bool(plats["osaker"]), bool(plats["harledd"])
+        plats["granskad"] = None if plats["granskad"] is None else bool(plats["granskad"])
     verk["bedomningar"] = _bedomningar("verk_id", verk_id)
     return verk
 
@@ -225,6 +240,25 @@ def hamta_entitet(entitet_id: str, predikat: str | None = None, antal: int = 50,
         i["annan_entitet"] = annan["namn"] if annan else None
         i["bedomningar"] = _bedomningar("identifiering_id", i["id"])
     entitet["identifieringar"] = identifieringar
+    plats = _en(
+        f"""
+        SELECT u.slag, u.nutida_namn, u.land_id, l.namn AS land, u.landskap_id, ls.namn AS landskap,
+               u.lan_id, la.namn AS lan, u.kommun_id, k.namn AS kommun, u.socken_id, s.namn AS socken,
+               u.ingar_i_id, i.namn AS ingar_i, u.latitud, u.longitud, u.kalla, u.metod, u.granskad, u.anm
+        FROM {p}plats_uppgift u
+        LEFT JOIN {p}entitet l ON l.id = u.land_id
+        LEFT JOIN {p}entitet ls ON ls.id = u.landskap_id
+        LEFT JOIN {p}entitet la ON la.id = u.lan_id
+        LEFT JOIN {p}entitet k ON k.id = u.kommun_id
+        LEFT JOIN {p}entitet s ON s.id = u.socken_id
+        LEFT JOIN {p}entitet i ON i.id = u.ingar_i_id
+        WHERE u.entitet_id = {ph}
+        """,
+        (entitet_id,),
+    )
+    if plats:
+        plats["granskad"] = bool(plats["granskad"])
+        entitet["plats_uppgift"] = plats
     villkor = f"(pt.subjekt_id = {ph} OR pt.objekt_id = {ph} OR pt.plats_id = {ph})"
     parametrar: tuple = (entitet_id, entitet_id, entitet_id)
     entitet["sammanfattning"] = _rader(

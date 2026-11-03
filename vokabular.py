@@ -65,6 +65,33 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("deltyp", "avsnitt", "Avsnitt", "Namngivet avsnitt, t.ex. Gylfaginning i Snorres Edda"),
     ("deltyp", "volym", "Volym", "Band i en utgåva i flera volymer"),
 
+    # Platsroll — hur en geografisk plats hör till ett verk
+    ("platsroll", "utfardandeort", "Utfärdandeort", "Där ett brev utfärdades"),
+    ("platsroll", "fyndplats", "Fyndplats", "Där en runinskrift har hittats eller står"),
+    ("platsroll", "socken", "Socken", "Socken eller stad där en runinskrift finns"),
+    ("platsroll", "harad", "Härad", "Härad eller motsvarande indelning, t.ex. norskt fylke"),
+    ("platsroll", "kommun", "Kommun", "Nutida kommun"),
+    ("platsroll", "omrade", "Område", "Landskap eller land"),
+    ("platsroll", "forvaring", "Förvaring", "Där en runinskrift finns i dag, om den uppgiften skiljer sig från fyndplatsen"),
+
+    # Platsslag
+    ("platsslag", "land", "Land", "Nutida land eller medeltida rike"),
+    ("platsslag", "landskap", "Landskap", None),
+    ("platsslag", "lan", "Län", "Nutida län"),
+    ("platsslag", "kommun", "Kommun", "Nutida kommun"),
+    ("platsslag", "harad", "Härad", "Härad eller motsvarande indelning"),
+    ("platsslag", "socken", "Socken", None),
+    ("platsslag", "stad", "Stad", None),
+    ("platsslag", "by", "By", None),
+    ("platsslag", "gard", "Gård", None),
+    ("platsslag", "slott", "Slott eller borg", None),
+    ("platsslag", "kloster", "Kloster", None),
+    ("platsslag", "kyrka", "Kyrka", None),
+    ("platsslag", "museum", "Museum", None),
+    ("platsslag", "omrade", "Område", "Geografiskt område utan fast indelning"),
+    ("platsslag", "annat", "Annat", None),
+    ("platsslag", "ej_plats", "Inte en plats", "Text som tolkats som plats men anger något annat, t.ex. 'på kung Eriks vägnar'"),
+
     # Entitetstyp
     ("entitetstyp", "person", "Person", None),
     ("entitetstyp", "grupp", "Grupp/släkt/folk", None),

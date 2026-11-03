@@ -1,0 +1,53 @@
+monster	id	namn	wikidata	stad	land
+\bBRM\b|Bryggens Museum	bryggens_museum	Bryggens Museum	Q4980773	Bergen	NO
+Bergens? (Universitets? )?(Oldsaksamling|museum)	universitetsmuseet_bergen	Universitetsmuseet i Bergen	Q301787	Bergen	NO
+\bSHM\b|Statens historiska|Historiska museet,? Stockholm	historiska_museet	Historiska museet	Q1726607	Stockholm	SE
+Nationalmuseet|Danmarks Nationalmuseum	nationalmuseet_kobenhavn	Nationalmuseet i Köpenhamn	Q648166	Köpenhamn	DK
+Vitenskapsmuseet|videnskabers selskabs museum	vitenskapsmuseet	Vitenskapsmuseet	Q1770886	Trondheim	NO
+Oldsaksamlingen|Kulturhistorisk museum, Universitetet	kulturhistorisk_museum_oslo	Kulturhistorisk museum	Q3356148	Oslo	NO
+Sigtuna museum	sigtuna_museum	Sigtuna museum	Q10667705	Sigtuna	SE
+Lunds kulturhistoriska museum|Kulturen	kulturen_lund	Kulturen i Lund	Q1363442	Lund	SE
+Lunds (universitets )?historiska museum	historiska_museet_lund	Historiska museet vid Lunds universitet	Q3330592	Lund	SE
+Gotlands (museum|fornsal)	gotlands_museum	Gotlands museum	Q3182302	Visby	SE
+Lödöse museum	lodose_museum	Lödöse museum	Q10572802	Lödöse	SE
+Stavanger museum	stavanger_museum	Stavanger museum		Stavanger	NO
+Västergötlands museum	vastergotlands_museum	Västergötlands museum	Q489175	Skara	SE
+Upplandsmuseet	upplandsmuseet	Upplandsmuseet	Q7899155	Uppsala	SE
+National Museum of Ireland	national_museum_ireland	National Museum of Ireland	Q1672840	Dublin	IE
+Bornholms Museum	bornholms_museum	Bornholms museum	Q893988	Rønne	DK
+Stockholms stadsmuseum	stadsmuseet_stockholm	Stadsmuseet i Stockholm	Q1933896	Stockholm	SE
+Moesgård	moesgaard_museum	Moesgaard Museum	Q3299384	Århus	DK
+Örebro läns museum	orebro_lans_museum	Örebro läns museum	Q10727479	Örebro	SE
+Grønlands nationalmuseum|Nunatta Katersugaasiviata	gronlands_nationalmuseum	Grönlands nationalmuseum och arkiv	Q3117388	Nuuk	GL
+Gustavianum	gustavianum	Gustavianum	Q1506922	Uppsala	SE
+Museum of Scotland|National Museums of Scotland	national_museum_scotland	National Museum of Scotland	Q1633842	Edinburgh	GB
+Kalmar läns museum	kalmar_lans_museum	Kalmar läns museum	Q10542847	Kalmar	SE
+Skänninge museum|S(ankta|:ta) Ingrids	sankta_ingrids_kloster	Sankta Ingrids kloster		Skänninge	SE
+Östergötlands (läns)?museum	ostergotlands_museum	Östergötlands museum	Q10727870	Linköping	SE
+Sörmlands museum	sormlands_museum	Sörmlands museum	Q5095323	Nyköping	SE
+Orkney Museum	orkney_museum	Orkney Museum	Q2383929	Kirkwall	GB
+Roskilde Museum	roskilde_museum	Roskilde Museum	Q11787197	Roskilde	DK
+Haithabu	wikinger_museum_haithabu	Wikinger Museum Haithabu	Q314723	Schleswig	DE
+Schleswig-Holsteinische Landesmuseen|Altertümer in Kiel	schleswig_holsteinische_landesmuseen	Stiftung Schleswig-Holsteinische Landesmuseen	Q2349143	Schleswig	DE
+Sunnmøre museum	sunnmore_museum	Sunnmøre Museum	Q2366575	Ålesund	NO
+Manx Museum	manx_museum	Manx Museum	Q11988082	Douglas	IM
+Faktorimuseet	faktorimuseet	Faktorimuseet	Q10489098	Eskilstuna	SE
+Jönköpings läns museum	jonkopings_lans_museum	Jönköpings läns museum	Q10542121	Jönköping	SE
+Borås museum	boras_museum	Borås museum	Q26253048	Borås	SE
+Hedmarksmuseet	hedmarksmuseet	Domkirkeodden	Q5697531	Hamar	NO
+Randers museum	randers_museum	Randers Museum	Q107723421	Randers	DK
+Qaqortoq Museum	qaqortoq_museum	Qaqortoq museum	Q4570969	Qaqortoq	GL
+British Museum	british_museum	British Museum	Q6373	London	GB
+National History Museum of Latvia	lettlands_historiska_museum	Latvian Museum of National History	Q1781530	Riga	LV
+Nordiska museet	nordiska_museet	Nordiska museet	Q1142142	Stockholm	SE
+Smålands museum	smalands_museum	Smålands museum	Q396260	Växjö	SE
+Shetland Museum	shetland_museum	Shetland Museum	Q2278527	Lerwick	GB
+Þjóðminjasafn	islands_nationalmuseum	Islands nationalmuseum	Q626963	Reykjavik	IS
+Føroya Fornminnissavn	faroarnas_nationalmuseum	Färöarnas nationalmuseum	Q946378	Torshamn	FO
+Skansen	skansen	Skansen	Q725108	Stockholm	SE
+Malmö Kulturmiljö	malmo_museer	Malmö museum	Q10576120	Malmö	SE
+Odense Bys Museer|Fyns Oldtid	museum_odense	Museum Odense	Q7077667	Odense	DK
+Åbo museicentral	abo_museicentral	Åbo museicentral	Q18346797	Åbo	FI
+Øm klostermuseum	om_kloster_museum	Øm Kloster museum	Q12342013		DK
+Næstved Museum	naestved_museum	Næstved Museum	Q18589241	Næstved	DK
+Runverket|Riksantikvarieämbetet	riksantikvarieambetet	Riksantikvarieämbetet	Q631844	Stockholm	SE

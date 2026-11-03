@@ -422,3 +422,41 @@ CREATE TABLE IF NOT EXISTS leverans (
     antal            TEXT NOT NULL,
     andringar        TEXT NOT NULL
 );
+
+-- Migrationer efter v1.0. Nya tabeller kan stå här; nya kolumner läggs till i
+-- db.initiera_schema().
+CREATE TABLE IF NOT EXISTS verk_plats (
+    verk_id          TEXT NOT NULL REFERENCES verk (id) ON DELETE CASCADE,
+    plats_id         TEXT NOT NULL REFERENCES entitet (id),
+    roll             TEXT NOT NULL,
+    namnform         TEXT NOT NULL,
+    osaker           INTEGER NOT NULL DEFAULT 0,
+    harledd          INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (verk_id, roll, plats_id)
+);
+CREATE INDEX IF NOT EXISTS verk_plats_plats_idx ON verk_plats (plats_id, roll);
+
+-- Platsregistret: var en plats ligger i dag. Uppgifterna är en bedömning och står
+-- därför skilda från entiteten och källans namnform. metod säger hur kopplingen
+-- gjordes (auktoritet, regel eller sprakmodell) och granskad om en människa har
+-- kontrollerat den. Tabellen fylls av platsregister.py och platser.py.
+CREATE TABLE IF NOT EXISTS plats_uppgift (
+    entitet_id       TEXT PRIMARY KEY REFERENCES entitet (id) ON DELETE CASCADE,
+    slag             TEXT,            -- vokabular 'platsslag'
+    nutida_namn      TEXT,
+    land_id          TEXT REFERENCES entitet (id),
+    landskap_id      TEXT REFERENCES entitet (id),
+    lan_id           TEXT REFERENCES entitet (id),
+    kommun_id        TEXT REFERENCES entitet (id),
+    socken_id        TEXT REFERENCES entitet (id),
+    ingar_i_id       TEXT REFERENCES entitet (id),
+    latitud          REAL,
+    longitud         REAL,
+    kalla            TEXT,
+    metod            TEXT NOT NULL,
+    granskad         INTEGER NOT NULL DEFAULT 0,
+    anm              TEXT
+);
+CREATE INDEX IF NOT EXISTS plats_uppgift_kommun_idx ON plats_uppgift (kommun_id);
+CREATE INDEX IF NOT EXISTS plats_uppgift_socken_idx ON plats_uppgift (socken_id);
+CREATE INDEX IF NOT EXISTS plats_uppgift_land_idx ON plats_uppgift (land_id);

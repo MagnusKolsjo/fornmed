@@ -3,6 +3,25 @@
 Formatet följer [Keep a Changelog](https://keepachangelog.com/sv/1.1.0/), och
 versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
+## [Ej utgivet]
+
+### Tillagt
+
+- Geografiska platser som entiteter: tabellen `verk_plats` kopplar breven och
+  runinskrifterna till sina platser med roll och källans ordalydelse, och
+  `auktoritet_titel.sate_id` kopplar sätena. Fylls av `platser.py`.
+- Platsregister: `platsregister.py` läser in RAÄ:s socknar, kommuner, län, landskap
+  och länder (CC0) som entiteter, och tabellen `plats_uppgift` anger nutida namn,
+  land, län, kommun, socken och koordinater med metod och granskningsstatus.
+- De flesta brevorter knyts till nutida platser genom två oberoende språkmodeller,
+  ogranskade av människa. Viborg är uppdelat på Jylland och Karelen. Står socknen
+  i brevet får brevet en egen plats, som "Viby (Hassle socken)".
+- Runinskrifternas socknar och kommuner pekar på RAÄ:s, och deras förvaring är en ny
+  platsroll med museer som egna entiteter.
+- Filtret `plats` på `/v1/verk` omfattar platserna i en kommun, ett landskap eller ett land.
+- Verkets platser i `/v1/verk/{id}` och `fornmed_hamta_verk`, filtret `plats` i
+  `/v1/verk` och `sate_id` i `/v1/auktoriteter`.
+
 ## [1.0.0] – 2026-11-02
 
 Första publiceringen. Databasschemat i den här versionen är bas-schemat; senare

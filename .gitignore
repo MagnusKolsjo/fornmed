@@ -17,6 +17,9 @@ __pycache__/
 # Källmaterial som tolkarna hämtar själva
 data/raw/
 
+# Arbetsmaterial till granskningar
+data/platser/tredje_bedomning/
+
 # Webbplatsens genererade filer
 webb/staticfiles/
 webb/media/

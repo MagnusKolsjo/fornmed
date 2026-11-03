@@ -120,8 +120,10 @@ def initiera_schema() -> None:
             conn.executescript(sql)
             # SQLite saknar ADD COLUMN IF NOT EXISTS, så migrationerna efter
             # bas-schemat v1.0 görs här i stället för i schemafilen: kolumner
-            # som tillkommit läggs till om de saknas. Tomt vid v1.0.
-            tillagda: dict[str, tuple[str, ...]] = {}
+            # som tillkommit läggs till om de saknas
+            tillagda: dict[str, tuple[str, ...]] = {
+                "auktoritet_titel": ("sate_id TEXT REFERENCES entitet (id)",),
+            }
             for tabell, definitioner in tillagda.items():
                 kolumner = {r[1] for r in conn.execute(f"PRAGMA table_info({tabell})")}
                 for definition in definitioner:

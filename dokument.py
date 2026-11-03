@@ -356,7 +356,8 @@ def _versionsuppgifter(version: dict, sprakfilter: str | None) -> dict:
 
 def lista_verk(kallsamling: str | None = None, genre: str | None = None, sprak: str | None = None,
                ar_fran: int | None = None, ar_till: int | None = None, titel: str | None = None,
-               sida: int = 1, per_sida: int = 100) -> tuple[list[dict], int]:
+               sida: int = 1, per_sida: int = 100, plats: str | None = None,
+               plats_roll: str | None = None) -> tuple[list[dict], int]:
     """(verk på sidan, totalt antal) med filter på källsamling, genre, språk, datering och titel.
 
     Dateringen filtreras på överlappande intervall, som i sökningen:
@@ -383,6 +384,15 @@ def lista_verk(kallsamling: str | None = None, genre: str | None = None, sprak: 
     if titel:
         villkor.append(f"lower(v.titel) LIKE {ph}")
         param.append(f"%{titel.lower()}%")
+    if plats:
+        # En kommun, ett landskap eller ett land omfattar också de platser som ligger där
+        villkor.append(f"EXISTS (SELECT 1 FROM {p}verk_plats vp WHERE vp.verk_id = v.id AND (vp.plats_id = {ph} "
+                       f"OR vp.plats_id IN (SELECT entitet_id FROM {p}plats_uppgift WHERE {ph} IN "
+                       f"(kommun_id, socken_id, lan_id, landskap_id, land_id, ingar_i_id)))"
+                       + (f" AND vp.roll = {ph})" if plats_roll else ")"))
+        param.extend([plats, plats])
+        if plats_roll:
+            param.append(plats_roll)
     where = f"WHERE {' AND '.join(villkor)}" if villkor else ""
     total = _en(f"SELECT count(*) AS n FROM {p}verk v {where}", param)["n"]
     rader = _rader(
