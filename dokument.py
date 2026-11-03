@@ -30,7 +30,7 @@ TYPORDNING = {"original": 0, "oversattning": 1, "maskintranskription": 2,
 
 OGRANSKAD = {
     "maskinoversattning": ("Översättningen är gjord av en språkmodell och är ogranskad. "
-                           "Den får inte citeras som översättning; hänvisa till originalet."),
+                           "Den bör inte citeras som översättning; hänvisa till originalet."),
     "maskintranskription": ("Texten är avläst från sidbilder av en språkmodell och är ogranskad. "
                             "Kontrollera mot sidbilden innan den citeras."),
 }

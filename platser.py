@@ -121,6 +121,7 @@ LEXIKONFIL = KATALOG / "lexikon_beslut.tsv"
 GRANSKNINGSFIL = KATALOG / "brevgranskning.tsv"
 KORRIGERINGSFIL = KATALOG / "platskorrigeringar.tsv"
 SAMMANSLAGNINGSFIL = KATALOG / "platssammanslagningar.tsv"
+DEL_AV_ORT = re.compile(r"^plats:sdhk:[^:]+:[^:]+$")
 BEDOMARE = "Fornmeds platsregister"
 
 # Läget anges i förhållande till kyrkan eller fyndplatsen, inte som en egen plats
@@ -768,6 +769,46 @@ def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[t
     return resultat
 
 
+def samma_socken(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
+    """En ort och en egen plats för ett brev i samma socken är samma plats: brevet flyttas till orten.
+
+    Så kan det bli när en regel först ger ett brev en egen plats och en annan sedan bestämmer
+    hela orten. Det gamla id:t finns kvar och hänvisar vidare. Tomma platser som heter likadant
+    som en annan plats under samma ort hänvisar också vidare.
+    """
+    flytt: dict[str, str] = {}
+
+    def hanvisa(gammal: str, ny: str) -> None:
+        flytt[gammal] = ny
+        register.ersatta[gammal] = ny
+        register.uppgifter.pop(gammal, None)
+        iid = f"identifiering:plats:ersatt:{gammal.split(':', 1)[1].replace(':', '_')}"
+        register.identifieringar[iid] = (iid, gammal, ny, None, "ersatt_av")
+
+    for pid in {k[1] for k in kopplingar}:
+        if not DEL_AV_ORT.match(pid):
+            continue
+        ort = pid.rsplit(":", 1)[0]
+        socken = register.uppgifter.get(pid, {}).get("socken_id")
+        if socken and register.uppgifter.get(ort, {}).get("socken_id") == socken:
+            hanvisa(pid, ort)
+
+    anvanda = {k[1] for k in kopplingar}
+    delar: dict[tuple[str, str], list[str]] = {}
+    for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%:%",)):
+        delar.setdefault((r["id"].rsplit(":", 1)[0], r["namn"]), []).append(r["id"])
+    for pid, rad in register.nya.items():
+        if DEL_AV_ORT.match(pid) and pid not in delar.get((pid.rsplit(":", 1)[0], rad[2]), []):
+            delar.setdefault((pid.rsplit(":", 1)[0], rad[2]), []).append(pid)
+    for (ort, _), ider in delar.items():
+        kvar = [i for i in ider if i in anvanda and i not in flytt]
+        mal = kvar[0] if kvar else next((flytt[i] for i in ider if i in flytt), None)
+        for pid in ider:
+            if mal and pid != mal and pid not in anvanda and pid not in register.uppgifter:
+                hanvisa(pid, mal)
+    return [(verk_id, flytt.get(pid, pid), *resten) for verk_id, pid, *resten in kopplingar]
+
+
 def las_uppslag(register: Platsregister) -> None:
     """X:s eget läge ur Wikidata, där det är känt. Går före ortens närmevärde."""
     raa = json.loads(RAA_FIL.read_text(encoding="utf-8"))
@@ -840,6 +881,7 @@ def main() -> None:
     brev = socken_ur_brev(register, brev)
     brev = lexikon_beslut(register, brev)
     brev = sammanslagningar(register, brev)
+    brev = samma_socken(register, brev)
     las_uppslag(register)
     arv_fran_storre(register)
     landskap_ur_lage(register)

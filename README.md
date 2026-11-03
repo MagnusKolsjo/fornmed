@@ -1024,7 +1024,7 @@ licens som koden, med följande undantag:
   arabiska texter har CC BY-NC-SA 4.0, översättningarna av texter under
   CC BY-SA 4.0 har CC BY-SA 4.0, och översättningar av Guðni Jónssons
   normaliserade utgåvor får bara användas icke-kommersiellt. Alla är
-  ogranskade och får inte citeras som översättning.
+  ogranskade och bör inte citeras som översättning.
 - **Biskopslängden** (`data/auktoriteter/biskopar.json`) bygger på svenska
   Wikipedia och har CC BY-SA 4.0; Wikidatas uppgifter har CC0.
 - **Påståendena** (`data/pastaenden/`) citerar källtexterna ordagrant, och

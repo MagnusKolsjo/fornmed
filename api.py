@@ -56,7 +56,7 @@ sig. `sprak=` väljer språkversion, i prioritetsordning (`sprak=swe,dan,lat`).
 `parallellt=ja` med två språk ger texterna passage för passage.
 
 **Källkritik.** Svenska översättningar gjorda av språkmodell är ogranskade och
-märkta så i varje svar; de får inte citeras som översättning. Ett påstående
+märkta så i varje svar; de bör inte citeras som översättning. Ett påstående
 beskriver vad en källa hävdar, inte vad som hände. Licensen anges per utgåva.
 """
 

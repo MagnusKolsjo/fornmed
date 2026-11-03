@@ -52,7 +52,7 @@ KALLOR_TEXT = """
 <ul>
 <li><b>original</b>: källans text i utgåva eller transkription,</li>
 <li><b>översättning</b>: en tryckt översättning av en namngiven översättare,</li>
-<li><b>maskinöversättning</b>: en svensk översättning gjord av en språkmodell. Den är ogranskad och får inte citeras som översättning; hänvisa till originalet eller en tryckt översättning,</li>
+<li><b>maskinöversättning</b>: en svensk översättning gjord av en språkmodell. Den är ogranskad och bör inte citeras som översättning; hänvisa till originalet eller en tryckt översättning,</li>
 <li><b>maskintranskription</b>: originaltext som en språkmodell läst av från sidbilder. Den är ogranskad och bör kontrolleras mot sidbilden.</li>
 </ul>
 <p>Titeln leder till texten i originalet och språket till den versionen. Där kan texten också visas sida vid sida med en översättning och hämtas som Markdown, text eller JSON. Medeltidsbreven och runinskrifterna är tusentals verk och redovisas som en post var.</p>
@@ -175,7 +175,7 @@ METOD_TEXT = """
 <p>Forskningens omdömen registreras som bedömningar, flera per påstående, verk eller identifiering, med bedömare, publikation och granskningsstatus. De vägs aldrig samman till en. Där bedömningarna går isär visas alla ståndpunkter.</p>
 <p>Bedömningar som inte har kontrollerats mot publikationen är märkta som ogranskade och ska presenteras så. En bedömning av ett brev som misstänkt förfalskning gäller hela brevet och bör nämnas när brevet används som belägg.</p>
 <h2>Översättningar</h2>
-<p>Där det finns fria äldre översättningar används de. Övriga texter har svenska översättningar gjorda av en språkmodell. De gör texterna sökbara på svenska, men de är ogranskade och får inte citeras som översättning. Markeringen [osäker tolkning] anger att översättningen är osäker på det stället.</p>
+<p>Där det finns fria äldre översättningar används de. Övriga texter har svenska översättningar gjorda av en språkmodell. De gör texterna sökbara på svenska, men de är ogranskade och bör inte citeras som översättning. Markeringen [osäker tolkning] anger att översättningen är osäker på det stället.</p>
 <h2>Begrepp och ordböcker</h2>
 <p>Begreppsregistret förklarar medeltida begrepp som ledung, frälse och härad, med termer på fornsvenska, fornvästnordiska och latin. Registrets definitioner är ett ogranskat utkast. Den citerbara källan är ordböckernas egna artiklar: Schlyters ordbok till lagarna och Söderwalls ordbok över medeltidsspråket.</p>
 <h2>Geografiska platser</h2>

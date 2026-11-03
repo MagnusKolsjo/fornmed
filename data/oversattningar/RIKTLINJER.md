@@ -2,7 +2,7 @@
 
 Översättningarna i den här katalogen är gjorda av en språkmodell (Claude)
 direkt från originalspråket. De är ogranskade och laddas i egna utgåvor
-märkta som maskinöversättning; de får inte citeras som översättning.
+märkta som maskinöversättning; de bör inte citeras som översättning.
 Syftet är att göra texterna sökbara på modern svenska.
 
 Modellen har fått följande instruktioner:
