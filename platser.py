@@ -32,7 +32,7 @@ kopplas inte och finns kvar i verk.extra.
 
 Vilken nutida plats ett brevorts namn avser står i data/platser/orter.tsv: orter
 med minst två brev eller med en socken som namne, bedömda av två oberoende språkmodeller. Bara det de är överens
-om kommer dit; resten står i orter_att_avgora.tsv för att avgöras av en människa.
+om kommer dit; resten står i orter_att_avgora.tsv och väntar på mer underlag.
 Ett namn som avser en enda plats får sina uppgifter i plats_uppgift med metoden
 sprakmodell och granskad falsk. Ett namn som delas av flera platser förblir en
 allmän entitet, med socknarna och Wikidatas platser som möjliga identifieringar.
@@ -51,7 +51,9 @@ upp i Wikidata (en enda plats med namnet nära Y, genomläst) står i x_uppslag.
 och har sitt eget läge. Står socknen i brevet ("Eksjö (Vallsjö sn)",
 "gården X i Y socken", "Romfartuna kyrka") knyts platsen till socknen och får dess
 läge som närmevärde, om socknen går att bestämma entydigt. Det avgörs brev för brev:
-ett namn med flera brev får en egen plats per socken, "Viby (Hassle socken)". Text som inte alls anger en plats ("på kung Eriks vägnar") märks med slaget ej_plats och kopplas
+ett namn med flera brev får en egen plats per socken, "Viby (Hassle socken)". Kan platsen hittas i de historiska registren och
+brevet nämner häradet (platslexikon.py), eller två oberoende bedömare har valt samma
+kandidat utifrån breven (brevgranskning.tsv), knyts brevet till den platsen. Text som inte alls anger en plats ("på kung Eriks vägnar") märks med slaget ej_plats och kopplas
 bort från påståendena. Entiteterna och deras id:n finns kvar.
 
 Befintliga entiteter skrivs aldrig över och tas aldrig bort, så deras id:n är
@@ -115,6 +117,10 @@ ORTFIL = KATALOG / "orter.tsv"
 DELADE_FIL = KATALOG / "delade_orter.json"
 FORVARINGSFIL = KATALOG / "forvaringsplatser.tsv"
 UPPSLAGSFIL = KATALOG / "x_uppslag.tsv"
+LEXIKONFIL = KATALOG / "lexikon_beslut.tsv"
+GRANSKNINGSFIL = KATALOG / "brevgranskning.tsv"
+KORRIGERINGSFIL = KATALOG / "platskorrigeringar.tsv"
+SAMMANSLAGNINGSFIL = KATALOG / "platssammanslagningar.tsv"
 BEDOMARE = "Fornmeds platsregister"
 
 # Läget anges i förhållande till kyrkan eller fyndplatsen, inte som en egen plats
@@ -235,6 +241,7 @@ class Platsregister:
         self.runstader: dict[tuple[str, str], str] = {}
         self.ambeten: dict[str, dict[str, str]] = {}
         self.bort: list[str] = []
+        self.utan_wikidata: set[str] = set()
         self.ersatta: dict[str, str] = {}
         # Land som fanns före registret har kvar sina id:n, så de hittas på namnet
         land_per_namn = {r["namn"].casefold(): r["id"] for r in _rader(
@@ -477,9 +484,15 @@ def tillampa_orter(register: Platsregister) -> None:
     delade = json.loads(DELADE_FIL.read_text(encoding="utf-8"))
     with ORTFIL.open(encoding="utf-8", newline="") as f:
         rader = list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
+    # Orter där granskningen av breven har visat att namnet pekade ut fel plats
+    with KORRIGERINGSFIL.open(encoding="utf-8", newline="") as f:
+        korrigerade = {r["ort"] for r in csv.DictReader(f, delimiter="\t")}
     for rad in rader:
         pid = register.per_form.get(ordform(rad["namn"]))
         if not pid:
+            continue
+        if rad["namn"] in korrigerade:
+            register.utan_wikidata.add(pid)
             continue
         if rad["beslut"] == "ej_plats":
             register.uppgifter[pid] = {"slag": "ej_plats", "metod": "sprakmodell", "anm": rad["anm"] or "Fältet anger inte en plats"}
@@ -666,6 +679,95 @@ def socken_ur_brev(register: Platsregister, kopplingar: list[tuple]) -> list[tup
     return resultat
 
 
+def lexikon_beslut(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
+    """Besluten från platslexikon.py: brev där häradet i brevet pekar ut en plats i de historiska registren."""
+    beslut: dict[str, dict] = {}
+    # Granskningen går före regeln, eftersom den har läst hela brevet
+    for fil in (LEXIKONFIL, GRANSKNINGSFIL):
+        if fil.exists():
+            with fil.open(encoding="utf-8", newline="") as f:
+                beslut.update({r["verk_id"]: r for r in csv.DictReader(f, delimiter="\t") if r["lat"]})
+    if not beslut:
+        return kopplingar
+    antal = Counter(k[1] for k in kopplingar)
+    namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
+    namn_per_id.update({pid: rad[2] for pid, rad in register.nya.items()})
+    kallor = {"tora": "Riksarkivet: TORA",
+              "kartor": "Riksarkivet: Äldre geometriska kartor 1630-1655 (CC BY 4.0)",
+              "rosenberg": "Riksarkivet: Rosenbergs geografiska lexikon (Public Domain Mark)"}
+    # Är alla brev från en ort placerade på samma ställe behöver orten inte delas
+    platser_per_ort: dict[str, set] = {}
+    placerade: Counter = Counter()
+    for verk_id, pid, *_ in kopplingar:
+        if (rad := beslut.get(verk_id)) and rad["ort"] == namn_per_id.get(pid):
+            platser_per_ort.setdefault(pid, set()).add(rad["socken"])
+            placerade[pid] += 1
+    resultat = []
+    for koppling in kopplingar:
+        verk_id, pid, *resten = koppling
+        rad = beslut.get(verk_id)
+        # En plats med känt läge rörs inte; har den bara ett namn kan brevet bestämma platsen
+        rattas = bool(rad) and rad["niva"] == "korrigering"
+        if not rad or rad["ort"] != namn_per_id.get(pid) or (register.uppgifter.get(pid, {}).get("latitud") is not None and not rattas):
+            resultat.append(koppling)
+            continue
+        socken = next((s for l in rad["landskap"].split(",") if (s := register.socken(l, rad["socken"]))), None)
+        # Står orten redan på samma socken behövs ingen egen plats för brevet
+        if socken and register.uppgifter.get(pid, {}).get("socken_id") == socken["entitet_id"]:
+            resultat.append(koppling)
+            continue
+        granskad_av_tva = rad["niva"] in ("granskning", "korrigering")
+        anm = "Två oberoende bedömare är överens utifrån breven." if granskad_av_tva else f"Häradet i brevet stämmer med {rad['harad']}."
+        if rad["lage"] == "socken":
+            anm += " Läget är socknens, som närmevärde."
+        uppgift = {
+            "nutida_namn": rad["kandidat"], "socken_id": socken["entitet_id"] if socken else None,
+            "kommun_id": socken["kommun_id"] if socken else None, "lan_id": socken["lan_id"] if socken else None,
+            "landskap_id": socken["landskap_id"] if socken else None, "land_id": register.land.get("se"),
+            "latitud": float(rad["lat"]), "longitud": float(rad["lon"]), "kalla": kallor[rad["kalla"]], "metod": "sprakmodell" if granskad_av_tva else "regel", "anm": anm,
+        }
+        if not rattas and (antal[pid] == 1 or platser_per_ort[pid] == {rad["socken"]} and placerade[pid] == antal[pid]):
+            register.uppgifter[pid] = uppgift
+        else:
+            # Samma namn kan avse flera platser, så breven hålls isär
+            # Samma socken ger samma entitet, oavsett vilken regel som hittade den
+            namn = namn_per_id[pid]
+            if socken:
+                ny = f"{pid}:{socken['entitet_id'].rsplit(':', 1)[1]}"
+                visning = f"{namn} ({socken['nutida_namn']} socken)"
+            else:
+                ny = f"{pid}:{_slug(rad['socken'] or rad['harad'])}"
+                visning = f"{namn} ({rad['socken'] or rad['harad']})"
+            register._ny(ny, visning, f"{namn} i SDHK:s ortfält, bestämd genom brevet")
+            register.uppgifter[ny] = uppgift
+            register.flyttade.append((verk_id, pid, ny))
+            koppling = (verk_id, ny, *resten)
+        resultat.append(koppling)
+    return resultat
+
+
+def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
+    """Samma plats under två namn: "Erikstad i Bankekinds härad" och "Erikstad (Bankekind)". Det gamla id:t hänvisar vidare."""
+    namn_till_id = {r["namn"]: r["id"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
+    namn_till_id.update({rad[2]: pid for pid, rad in register.nya.items()})
+    flytt: dict[str, str] = {}
+    with SAMMANSLAGNINGSFIL.open(encoding="utf-8", newline="") as f:
+        for rad in csv.DictReader(f, delimiter="\t"):
+            gammal, ny = namn_till_id.get(rad["gammal"]), namn_till_id.get(rad["ny"])
+            if not gammal or not ny or gammal == ny:
+                log.warning("Kan inte slå ihop %s med %s", rad["gammal"], rad["ny"])
+                continue
+            flytt[gammal] = ny
+            register.ersatta[gammal] = ny
+            register.uppgifter.pop(gammal, None)
+            iid = f"identifiering:plats:ersatt:{gammal.split(':', 1)[1].replace(':', '_')}"
+            register.identifieringar[iid] = (iid, gammal, ny, None, "ersatt_av")
+    resultat = []
+    for verk_id, pid, *resten in kopplingar:
+        resultat.append((verk_id, flytt.get(pid, pid), *resten))
+    return resultat
+
+
 def las_uppslag(register: Platsregister) -> None:
     """X:s eget läge ur Wikidata, där det är känt. Går före ortens närmevärde."""
     raa = json.loads(RAA_FIL.read_text(encoding="utf-8"))
@@ -736,6 +838,8 @@ def main() -> None:
     tillampa_orter(register)
     rensa_platser(register)
     brev = socken_ur_brev(register, brev)
+    brev = lexikon_beslut(register, brev)
+    brev = sammanslagningar(register, brev)
     las_uppslag(register)
     arv_fran_storre(register)
     landskap_ur_lage(register)
@@ -754,6 +858,8 @@ def main() -> None:
         db.upsert(conn, "plats_uppgift", ["entitet_id", *kolumner], ["entitet_id"],
                   [(pid, *(u.get(k) for k in kolumner)) for pid, u in register.uppgifter.items()])
         cur = conn.cursor()
+        for pid in register.utan_wikidata:
+            cur.execute(f"UPDATE {p}entitet SET wikidata_id = NULL WHERE id = {ph}", (pid,))
         for pid, q in register.wikidata.items():
             cur.execute(f"UPDATE {p}entitet SET wikidata_id = {ph} WHERE id = {ph} AND wikidata_id IS NULL", (q, pid))
         cur.execute(f"DELETE FROM {p}verk_plats")

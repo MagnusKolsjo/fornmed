@@ -180,7 +180,7 @@ METOD_TEXT = """
 <p>Begreppsregistret förklarar medeltida begrepp som ledung, frälse och härad, med termer på fornsvenska, fornvästnordiska och latin. Registrets definitioner är ett ogranskat utkast. Den citerbara källan är ordböckernas egna artiklar: Schlyters ordbok till lagarna och Söderwalls ordbok över medeltidsspråket.</p>
 <h2>Geografiska platser</h2>
 <p>Platserna i breven och runinskrifterna är kopplade till entiteter, och källans namnform behålls alltid. Stommen är Riksantikvarieämbetets socknar, kommuner, län, landskap och länder, med koordinater från Wikidata. Det gör att källor kan sökas på en nutida kommun eller socken.</p>
-<p>Vilken nutida plats en brevort avser har oftast bedömts av oberoende språkmodeller, och uppgiften används bara när minst två är överens. Kopplingarna är inte kontrollerade av människa och är märkta som ogranskade. Ett läge som bara är känt på socken- eller ortsnivå är märkt som närmevärde. Omkring 15 procent av breven med ort saknar ännu nutida plats, och det arbetet fortsätter.</p>
+<p>Vilken nutida plats en brevort avser har oftast bedömts av oberoende språkmodeller, och uppgiften används bara när minst två är överens. Samma ortnamn finns på många håll, så små orter kontrolleras mot Riksarkivets historiska register (TORA, de äldre geometriska kartorna och Rosenbergs geografiska lexikon): socken eller härad ska stämma med brevet, och ett namn kan delas upp på flera platser brev för brev. Kopplingarna är inte kontrollerade av människa och är märkta som ogranskade. Ett läge som bara är känt på socken- eller ortsnivå är märkt som närmevärde. Omkring 13 procent av breven med ort saknar ännu nutida plats, och det arbetet fortsätter.</p>
 <h2>Auktoritetslängderna</h2>
 <p>Längderna över regenter, biskopar och påvar används för att identifiera personer i breven. De är sammanställda ur allmänna uppslagsverk och svenska Wikipedia och inte kontrollerade mot primärlitteraturen. Listornas år är ofta ungefärliga, och det ursprungliga uttrycket finns bevarat.</p>
 """
@@ -203,6 +203,7 @@ LICENSER_TEXT = """
 <li><b>Sagorna, Eddorna och Heimskringla:</b> heimskringla.no och sagadb.org. Utgåvorna är fria; normaliseringen i Guðni Jónssons utgåvor har upphovsrätt och används icke-kommersiellt.</li>
 <li><b>Transkriptioner från Wikisource:</b> CC BY-SA 4.0. Biskopslängden bygger på svenska Wikipedia och har samma licens.</li>
 <li><b>Geografisk stomme:</b> Riksantikvarieämbetet, K-samsöks geografiska auktoriteter, och Wikidata, båda CC0.</li>
+<li><b>Historiska platser:</b> Riksarkivet: TORA (uttag 2026-11-03, utan enheter från andras verk), Äldre geometriska kartor 1630–1655 (CC BY 4.0) och Rosenbergs geografiska lexikon (Public Domain Mark).</li>
 <li><b>Arabiska källor:</b> OpenITI, CC BY-NC-SA 4.0.</li>
 <li><b>Romerska källor:</b> Perseus Digital Library, CC BY-SA 4.0, och The Latin Library.</li>
 <li><b>Äldre utgåvor ur Internet Archive och Project Runeberg:</b> fria från upphovsrätt.</li>

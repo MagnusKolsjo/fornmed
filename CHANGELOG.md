@@ -19,6 +19,14 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 - Runinskrifternas socknar och kommuner pekar på RAÄ:s, och deras förvaring är en ny
   platsroll med museer som egna entiteter.
 - Filtret `plats` på `/v1/verk` omfattar platserna i en kommun, ett landskap eller ett land.
+- Brevorter kontrolleras mot TORA, de äldre geometriska kartorna och Rosenbergs lexikon.
+  En kandidat godtas bara om den överordnade enheten stämmer med brevet, och samma
+  namn delas upp brev för brev (`platslexikon.py`).
+
+### Ändrat
+
+- Brevorter som bara hade kopplats på namnet är rättade där breven pekar på annan
+  plats, till exempel Erikstad, som var Erikstad i Dalsland men avser Bankekind och Vittaryd.
 - Verkets platser i `/v1/verk/{id}` och `fornmed_hamta_verk`, filtret `plats` i
   `/v1/verk` och `sate_id` i `/v1/auktoriteter`.
 

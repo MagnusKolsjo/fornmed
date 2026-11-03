@@ -929,8 +929,16 @@ människa har kontrollerat den.
 | `regel` | Härledd, t.ex. "Bredgatan i Lund", som ligger inne i Lund och får ortens läge som närmevärde. I "Klinteholm på Gotland" är Klinteholm platsen, och landskapet ger inget läge |
 | `sprakmodell` | Två oberoende språkmodeller är överens; inte kontrollerad av människa |
 
+Brevorter kontrolleras mot Riksarkivets historiska register: TORA, de äldre
+geometriska kartorna och Rosenbergs lexikon, som hämtas med `platslexikon.py hamta`.
+Samma namn finns på många håll, så ett namn räcker aldrig. Den överordnade enheten
+ska stämma med brevet: häradet, eller att två oberoende bedömare valt samma kandidat
+utifrån breven. Det avgörs brev för brev, och socken eller landskap räcker inte ensamma.
+
 Besluten om brevorterna står i `data/platser`: `orter.tsv` (överens),
-`orter_att_avgora.tsv` (oense, kopplas inte), `x_uppslag.tsv` (platser i "X i Y" med
+`orter_att_avgora.tsv` (oense, kopplas inte och väntar på mer underlag),
+`lexikon_beslut.tsv` (häradsregeln), `brevgranskning.tsv` (bedömarnas beslut brev för
+brev), `platskorrigeringar.tsv` och `platssammanslagningar.tsv`, `x_uppslag.tsv` (platser i "X i Y" med
 eget läge från Wikidata) och `delade_orter.json` (namn som är
 fördelade brev för brev, som Viborg i Jylland och Karelen). Ett namn som flera
 platser delar, och som inte är fördelat, står kvar på en allmän entitet med

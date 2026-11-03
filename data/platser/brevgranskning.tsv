@@ -1,0 +1,548 @@
+verk_id	ort	kandidat	niva	kalla	ref	socken	harad	landskap	lat	lon	lage	sakerhet
+sdhk:33383	Alby	Alby	granskning	tora	tora:19222	Trosa-Vagnhärad	Hölebo härad	Södermanland	58.9418	17.4588	eget	medel/hog
+sdhk:31718	Aratorp	Aratorp	granskning	tora	tora:6803	Fritsla	Marks h:d	Västergötland	57.5493	12.7793	eget	hog/hog
+sdhk:31719	Aratorp	Aratorp	granskning	tora	tora:6803	Fritsla	Marks h:d	Västergötland	57.5493	12.7793	eget	hog/hog
+sdhk:13675	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	hog/hog
+sdhk:20614	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/medel
+sdhk:27405	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/medel
+sdhk:27406	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/medel
+sdhk:30465	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/hog
+sdhk:30803	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/medel
+sdhk:30857	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/hog
+sdhk:30858	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/hog
+sdhk:30920	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	hog/hog
+sdhk:31562	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/hog
+sdhk:8742	Benhamra	Benhamra	granskning	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken	medel/medel
+sdhk:24183	Berg	Berg	granskning	tora	tora:9171	Eskilsäter	Näs härad	Värmland	58.9479	13.1794	eget	medel/medel
+sdhk:34554	Berg	Berg	granskning	tora	tora:20293	Holm	Nordal	Dalsland	58.7146	12.4763	eget	medel/hog
+sdhk:30618	Berga	Berga	granskning	tora	tora:11591	Bjuråker	Norra kontrakt	Hälsingland	61.8532	16.5524	eget	medel/hog
+sdhk:32437	Berga	Berga	granskning	tora	tora:12675	Ununge	Närdinghundra härad	Uppland	59.9267	18.5922	eget	hog/hog
+sdhk:22948	Björnö	Björnö	granskning	rosenberg	rosenberg:4222	Frötuna	Frötuna skplg	Södermanland,Uppland	59.74157	18.67522	socken	hog/hog
+sdhk:22949	Björnö	Björnö	granskning	rosenberg	rosenberg:4222	Frötuna	Frötuna skplg	Södermanland,Uppland	59.74157	18.67522	socken	medel/hog
+sdhk:22950	Björnö	Björnö	granskning	rosenberg	rosenberg:4222	Frötuna	Frötuna skplg	Södermanland,Uppland	59.74157	18.67522	socken	medel/hog
+sdhk:8738	Björnö	Björnö	granskning	rosenberg	rosenberg:4222	Frötuna	Frötuna skplg	Södermanland,Uppland	59.74157	18.67522	socken	hog/hog
+sdhk:11936	Boberg	Boberg	granskning	rosenberg	rosenberg:4744		Boberg	Östergötland				medel/hog
+sdhk:18374	Boberg	Boberg	granskning	rosenberg	rosenberg:4744		Boberg	Östergötland				medel/hog
+sdhk:20360	Boberg	Boberg	granskning	rosenberg	rosenberg:4744		Boberg	Östergötland				medel/hog
+sdhk:4397	Bolmsö	Bolmsö	granskning	rosenberg	rosenberg:5270			Småland				medel/medel
+sdhk:34380	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:34387	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:34565	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:34945	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:34961	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:34966	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:36134	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:36176	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:36187	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:36283	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:36851	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:36874	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/medel
+sdhk:36989	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/medel
+sdhk:37342	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:37404	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:37405	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:40562	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:44597	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:44611	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/hog
+sdhk:5109	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:5364	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:6641	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:9136	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/hog
+sdhk:9141	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	medel/medel
+sdhk:9163	Borgholm	Borgholm	granskning	tora	tora:19925	Räpplinge	Slättbo härad	Öland	56.8676	16.6603	eget	hog/medel
+sdhk:11067	Bredvassa	Bredvassa	granskning	tora	tora:16914	Loftahammar	Tjusts härad	Småland	57.921	16.7223	eget	hog/hog
+sdhk:11068	Bredvassa	Bredvassa	granskning	tora	tora:16914	Loftahammar	Tjusts härad	Småland	57.921	16.7223	eget	hog/hog
+sdhk:11069	Bredvassa	Bredvassa	granskning	tora	tora:16914	Loftahammar	Tjusts härad	Småland	57.921	16.7223	eget	hog/hog
+sdhk:11070	Bredvassa	Bredvassa	granskning	tora	tora:16914	Loftahammar	Tjusts härad	Småland	57.921	16.7223	eget	hog/hog
+sdhk:20496	Broby	Broby	granskning	rosenberg	rosenberg:6452	Å	Björkekind	Östergötland	58.49638	16.50166	socken	medel/hog
+sdhk:20688	Broby	Broby	granskning	rosenberg	rosenberg:6452	Å	Björkekind	Östergötland	58.49638	16.50166	socken	medel/medel
+sdhk:28663	Brölunda	Brölunda	granskning	tora	tora:18267	Söderby-Karl	Lyhundra	Uppland	59.8632	18.7157	eget	medel/medel
+sdhk:31611	Busta	Busta	granskning	tora	tora:10778	Odensvi	Åkerbo h:d	Västmanland	59.5728	15.946	eget	medel/hog
+sdhk:31612	Busta	Busta	granskning	tora	tora:10778	Odensvi	Åkerbo h:d	Västmanland	59.5728	15.946	eget	medel/hog
+sdhk:12119	Daga härad	Daga härad	granskning	rosenberg	rosenberg:8906		Daga	Södermanland				hog/medel
+sdhk:33935	Daga härad	Daga härad	granskning	rosenberg	rosenberg:8906		Daga	Södermanland				hog/hog
+sdhk:2480	Dillö	Dillö	granskning	tora	tora:7833	Torsö	Vadsbo h:d	Västergötland	58.7374	13.7327	eget	medel/medel
+sdhk:4640	Djursnäs	Djursnäs	granskning	tora	tora:17141	Västra Ed	Norra Tjust	Småland	57.9874	16.5301	eget	hog/hog
+sdhk:4720	Djursnäs	Djursnäs	granskning	tora	tora:17141	Västra Ed	Norra Tjust	Småland	57.9874	16.5301	eget	hog/hog
+sdhk:4736	Djursnäs	Djursnäs	granskning	tora	tora:17141	Västra Ed	Norra Tjust	Småland	57.9874	16.5301	eget	hog/hog
+sdhk:30091	Ed	Ed	granskning	rosenberg	rosenberg:10310	Voxtorp	Östbo	Småland	56.53833	16.1425	socken	medel/medel
+sdhk:15378	Edsholm	Edsholm	granskning	tora	tora:22301	Grums	Grums härad	Värmland	59.3329	13.1004	eget	medel/medel
+sdhk:20682	Edsholm	Edsholm	granskning	tora	tora:22301	Grums	Grums härad	Värmland	59.3329	13.1004	eget	medel/medel
+sdhk:21899	Edsholm	Edsholm	granskning	tora	tora:22301	Grums	Grums härad	Värmland	59.3329	13.1004	eget	hog/medel
+sdhk:9217	Ekeby	Ekeby	granskning	tora	tora:10211	Dingtuna	Tuhundra h:d	Västmanland	59.5551	16.373	eget	medel/medel
+sdhk:10652	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:12165	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:12225	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:13434	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/medel
+sdhk:13677	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:13696	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:13825	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:13857	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:13945	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/medel
+sdhk:14731	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:15429	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/medel
+sdhk:9252	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/medel
+sdhk:9967	Ekholmen	Ekholmen	granskning	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken	medel/hog
+sdhk:11159	Ekhult	Ekhult	granskning	rosenberg	rosenberg:11028	Björsäter	Bankekind	Östergötland	58.33611	16.02167	socken	medel/hog
+sdhk:22700	Eknaholm	Eknaholm	granskning	rosenberg	rosenberg:11057	Tjureda	Norrvidinge	Småland	57.04139	14.81528	socken	medel/medel
+sdhk:29265	Eknaholm	Eknaholm	granskning	rosenberg	rosenberg:11057	Tjureda	Norrvidinge	Småland	57.04139	14.81528	socken	medel/hog
+sdhk:29266	Eknaholm	Eknaholm	granskning	rosenberg	rosenberg:11057	Tjureda	Norrvidinge	Småland	57.04139	14.81528	socken	medel/medel
+sdhk:22131	Ellinge	Ellinge	granskning	rosenberg	rosenberg:11254	Eslöv	Harjager	Skåne	55.83861	13.29994	socken	hog/medel
+sdhk:29278	Ellinge	Ellinge	granskning	rosenberg	rosenberg:11254	Eslöv	Harjager	Skåne	55.83861	13.29994	socken	medel/medel
+sdhk:18184	Eneby	Enneby	granskning	kartor	tora:	Eneby	Bråbo h:d					hog/hog
+sdhk:19877	Eneby	Enneby	granskning	kartor	tora:	Eneby	Bråbo h:d					medel/medel
+sdhk:21123	Eneby	Enneby	granskning	kartor	tora:	Eneby	Bråbo h:d					hog/hog
+sdhk:3787	Eneby	Enneby	granskning	kartor	tora:	Eneby	Bråbo h:d					medel/medel
+sdhk:39816	Falsterbo slott	Falsterbo	granskning	rosenberg	rosenberg:12661			Skåne				medel/medel
+sdhk:8982	Falsterbo slott	Falsterbo	granskning	rosenberg	rosenberg:12661			Skåne				medel/medel
+sdhk:5377	Floda	Floda	granskning	tora	tora:2553	Floda	Oppunda härad	Södermanland	59.065	16.3611	eget	medel/medel
+sdhk:38826	Fors	Fors	granskning	rosenberg	rosenberg:13954	Folkärna	Folkare	Dalarna	60.15619	16.31277	socken	medel/medel
+sdhk:29217	Forsa	Forsa	granskning	rosenberg	rosenberg:13976		Forsa	Gästrikland,Hälsingland				hog/hog
+sdhk:31880	Forsa	Forsa	granskning	rosenberg	rosenberg:13976		Forsa	Gästrikland,Hälsingland				medel/medel
+sdhk:14246	Fräbrunn	Fräbrunn	granskning	tora	tora:10421	Sala	Övertjurbo h:d	Västmanland	59.8748	16.6465	eget	hog/hog
+sdhk:14247	Fräbrunn	Fräbrunn	granskning	tora	tora:10421	Sala	Övertjurbo h:d	Västmanland	59.8748	16.6465	eget	hog/hog
+sdhk:5183	Fröberga	Fröberga	granskning	tora	tora:21741	Överselö	Selebo härad	Södermanland	59.3971	17.1764	eget	hog/hog
+sdhk:5185	Fröberga	Fröberga	granskning	tora	tora:21741	Överselö	Selebo härad	Södermanland	59.3971	17.1764	eget	hog/hog
+sdhk:31717	Frölunda	Frölunda	granskning	rosenberg	rosenberg:14657	Östra Frölunda	Kind	Dalsland,Västergötland	57.34056	13.03167	socken	medel/medel
+sdhk:32222	Fästered	Fästered	granskning	rosenberg	rosenberg:15185	Finnekumla	Kind	Dalsland,Västergötland	57.65536	13.34742	socken	medel/medel
+sdhk:21134	Gillberga	Gillberga	granskning	tora	tora:9238	Gillberga	Gillbergs härad	Värmland	59.3199	12.7766	eget	hog/medel
+sdhk:26223	Gillberga	Gillberga	granskning	tora	tora:21842	Ytterenhörna	Öknebo härad	Södermanland	59.2516	17.4973	eget	medel/medel
+sdhk:7194	Gillberga	Gillberga	granskning	tora	tora:9238	Gillberga	Gillbergs härad	Värmland	59.3199	12.7766	eget	hog/hog
+sdhk:5387	Granby	Granby	granskning	rosenberg	rosenberg:16491	Spånga	Sollentuna	Södermanland,Uppland	59.38028	17.89333	socken	hog/hog
+sdhk:5393	Granby	Granby	granskning	rosenberg	rosenberg:16491	Spånga	Sollentuna	Södermanland,Uppland	59.38028	17.89333	socken	medel/medel
+sdhk:30155	Grepstad	Grepstad	granskning	tora	tora:4947	Västra Stenby	Aska	Östergötland	58.4822	15.0885	eget	medel/medel
+sdhk:30594	Grepstad	Grepstad	granskning	tora	tora:4947	Västra Stenby	Aska	Östergötland	58.4822	15.0885	eget	medel/medel
+sdhk:22829	Grönö	Grönö	granskning	kartor	tora:10651	Köpings	Åkerbo h:d	Västmanland	59.4764	15.9974	eget	medel/hog
+sdhk:25119	Grönö	Grönö	granskning	kartor	tora:10651	Köpings	Åkerbo h:d	Västmanland	59.4764	15.9974	eget	medel/medel
+sdhk:37425	Grönö	Grönö	granskning	kartor	tora:10651	Köpings	Åkerbo h:d	Västmanland	59.4764	15.9974	eget	medel/medel
+sdhk:1131	Götala	Götala	granskning	rosenberg	rosenberg:19087	Skara landsförs	Skåning	Västergötland				hog/hog
+sdhk:1240	Götala	Götala	granskning	rosenberg	rosenberg:19087	Skara landsförs	Skåning	Västergötland				hog/hog
+sdhk:579	Götala	Götala	granskning	rosenberg	rosenberg:19087	Skara landsförs	Skåning	Västergötland				medel/medel
+sdhk:773	Götala	Götala	granskning	rosenberg	rosenberg:19087	Skara landsförs	Skåning	Västergötland				hog/hog
+sdhk:24882	Hagunda	Hagunda	granskning	rosenberg	rosenberg:19944		Hagunda	Uppland				hog/hog
+sdhk:27315	Hagunda	Hagunda	granskning	rosenberg	rosenberg:19944		Hagunda	Uppland				hog/hog
+sdhk:34555	Hagunda	Hagunda	granskning	rosenberg	rosenberg:19944		Hagunda	Uppland				medel/medel
+sdhk:36737	Hagunda	Hagunda	granskning	rosenberg	rosenberg:19944		Hagunda	Uppland				hog/hog
+sdhk:38619	Hagunda	Hagunda	granskning	rosenberg	rosenberg:19944		Hagunda	Uppland				medel/hog
+sdhk:39250	Hallanda	Halanda	granskning	tora	tora:7440	Hällstad	Ås h:d	Västergötland	57.8865	13.2666	eget	medel/medel
+sdhk:3070	Hallarp	Hallarp	granskning	rosenberg	rosenberg:20279	Ullasjö	Kind	Dalsland,Västergötland	57.51821	13.12982	socken	medel/medel
+sdhk:41445	Herrestad	Herrestad	granskning	rosenberg	rosenberg:21697		Herrestad	Skåne				medel/medel
+sdhk:45076	Herrestad	Herrestad	granskning	rosenberg	rosenberg:21697		Herrestad	Skåne				medel/medel
+sdhk:19228	Hestra	Hestra	granskning	rosenberg	rosenberg:21829	Södra Hestra	Västbo	Småland	57.12194	13.24028	socken	medel/medel
+sdhk:16499	Hillersbo	Hillersbo	granskning	tora	tora:10634	Möklinta	Övertjurbo h:d	Västmanland	60.0646	16.583	eget	medel/hog
+sdhk:16847	Hillersbo	Hillersbo	granskning	tora	tora:10634	Möklinta	Övertjurbo h:d	Västmanland	60.0646	16.583	eget	medel/hog
+sdhk:21579	Hillersjö	Hillersjö	granskning	rosenberg	rosenberg:21901	Hilleshög	Färentuna	Södermanland,Uppland	59.39056	17.7025	socken	medel/hog
+sdhk:31477	Hillersjö	Hillersjö	granskning	rosenberg	rosenberg:21901	Hilleshög	Färentuna	Södermanland,Uppland	59.39056	17.7025	socken	medel/hog
+sdhk:24516	Hjulsta	Hjulsta	granskning	rosenberg	rosenberg:22310	Enköpings-Näs	Åsunda	Uppland	59.56028	17.01	socken	hog/hog
+sdhk:25515	Hjulsta	Hjulsta	granskning	rosenberg	rosenberg:22310	Enköpings-Näs	Åsunda	Uppland	59.56028	17.01	socken	medel/medel
+sdhk:30676	Hjulsta	Hjulsta	granskning	rosenberg	rosenberg:22310	Enköpings-Näs	Åsunda	Uppland	59.56028	17.01	socken	hog/hog
+sdhk:20468	Hoberg	Hoberg	granskning	rosenberg	rosenberg:22342	Kullings-Skövde	Kulling	Dalsland,Västergötland	58.04306	12.81306	socken	medel/medel
+sdhk:33082	Hoberg	Hoberg	granskning	rosenberg	rosenberg:22342	Kullings-Skövde	Kulling	Dalsland,Västergötland	58.04306	12.81306	socken	medel/hog
+sdhk:12488	Horn	Horn	granskning	tora	tora:10382	Rytterne	Snevringe	Västmanland	59.5015	16.2799	eget	medel/hog
+sdhk:12496	Horn	Horn	granskning	tora	tora:10382	Rytterne	Snevringe	Västmanland	59.5015	16.2799	eget	medel/hog
+sdhk:12576	Horn	Horn	granskning	tora	tora:10382	Rytterne	Snevringe	Västmanland	59.5015	16.2799	eget	medel/hog
+sdhk:34971	Horn	Horn	granskning	rosenberg	rosenberg:22961	Leksberg	Vadsbo	Västergötland	58.70444	13.80389	socken	medel/hog
+sdhk:21114	Hornstäve	Hornstäve	granskning	tora	tora:19543	Vreta kloster	Gullberg	Östergötland	58.4734	15.4537	eget	hog/hog
+sdhk:26621	Hov	Hov	granskning	tora	tora:5031	Hov	Göstrings h:d	Östergötland	58.3795	14.9256	eget	medel/hog
+sdhk:27852	Hov	Hov	granskning	tora	tora:5031	Hov	Göstrings h:d	Östergötland	58.3795	14.9256	eget	medel/medel
+sdhk:30193	Hov	Hov	granskning	tora	tora:5031	Hov	Göstrings h:d	Östergötland	58.3795	14.9256	eget	medel/medel
+sdhk:30491	Hov	Hov	granskning	tora	tora:5031	Hov	Göstrings h:d	Östergötland	58.3795	14.9256	eget	medel/medel
+sdhk:32579	Hov	Hov	granskning	tora	tora:5031	Hov	Göstrings h:d	Östergötland	58.3795	14.9256	eget	medel/medel
+sdhk:16562	Husby	Husby	granskning	kartor	tora:2848	Husby (Rekarne)	Öster-Rekarne h:d	Södermanland	59.3164	16.4595	eget	medel/medel
+sdhk:5655	Hällestad	Hällestad	granskning	tora	tora:3675	Hällestad	Bråbo h:d	Östergötland	58.7421	15.5746	eget	hog/hog
+sdhk:8159	Hällestad	Hällestad	granskning	tora	tora:3675	Hällestad	Bråbo h:d	Östergötland	58.7421	15.5746	eget	medel/medel
+sdhk:30064	Härlunda	Härlunda	granskning	rosenberg	rosenberg:25035	Bjärklunda	Skåning	Västergötland				medel/medel
+sdhk:32422	Härlunda	Härlunda	granskning	rosenberg	rosenberg:25035	Bjärklunda	Skåning	Västergötland				medel/hog
+sdhk:32633	Hästeryd	Hästeryd	granskning	rosenberg	rosenberg:25185	Frinnaryd	Norra Vedbo	Småland	57.93469	14.82057	socken	medel/hog
+sdhk:10345	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:12131	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:13463	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:18859	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:22957	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:24806	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:25003	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:27232	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:27823	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:28452	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:28466	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:29866	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:31250	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:31735	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:31844	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:32649	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:33608	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:34019	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:34570	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:34948	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:4515	Julita	Julita	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	medel/hog
+sdhk:25110	Jämmertuna	Jämmertuna	granskning	tora	tora:10670	Köping	Åkerbo h:d	Västmanland	59.5219	15.9883	eget	hog/hog
+sdhk:26353	Jämmertuna	Jämmertuna	granskning	tora	tora:10670	Köping	Åkerbo h:d	Västmanland	59.5219	15.9883	eget	hog/hog
+sdhk:39820	Karlstorp	Karlstorp	granskning	tora	tora:5733	Karlstorp	Östra h:d	Småland	57.5105	15.5049	eget	hog/hog
+sdhk:12429	Kil	Kil	granskning	rosenberg	rosenberg:28420	Stora Kil	Kil	Värmland	59.52778	13.31611	socken	hog/hog
+sdhk:38454	Kleva	Kleva	granskning	tora	tora:25899	Kinne-Kleva	Kinne	Västergötland	58.5449	13.4188	eget	hog/medel
+sdhk:38483	Kleva	Kleva	granskning	tora	tora:25899	Kinne-Kleva	Kinne	Västergötland	58.5449	13.4188	eget	hog/hog
+sdhk:26825	Kloxåsen	Kloxåsen	granskning	rosenberg	rosenberg:29017	Näs	Hackås	Härjedalen,Jämtland	62.97389	14.57417	socken	hog/hog
+sdhk:20797	Kopparberg	Kopparberg	granskning	rosenberg	rosenberg:29736	Stora Kopparberg	Kopparberg	Dalarna	60.61444	15.62972	socken	medel/hog
+sdhk:31546	Kopparberg	Kopparberg	granskning	rosenberg	rosenberg:29736	Stora Kopparberg	Kopparberg	Dalarna	60.61444	15.62972	socken	hog/hog
+sdhk:32429	Kråkerum	Kråkerum	granskning	tora	tora:15891	Mönsterås	Stranda Härad	Småland	57.073	16.4293	eget	hog/hog
+sdhk:3391	Kulla	Kulla	granskning	rosenberg	rosenberg:30826	Kulla	Lagunda	Uppland	59.69222	17.46833	socken	medel/hog
+sdhk:34355	Kyrkofjäll	Kyrkofjäll	granskning	rosenberg	rosenberg:31507	Klövedal	Tjörn	Bohuslän,Västergötland	58.03722	11.57722	socken	hog/hog
+sdhk:12181	Källunda	Källunda	granskning	rosenberg	rosenberg:32034	Kärda	Östbo	Småland	57.1725	13.91861	socken	medel/medel
+sdhk:13824	Källunda	Källunda	granskning	rosenberg	rosenberg:32034	Kärda	Östbo	Småland	57.1725	13.91861	socken	medel/medel
+sdhk:17845	Källunda	Källunda	granskning	rosenberg	rosenberg:32034	Kärda	Östbo	Småland	57.1725	13.91861	socken	medel/medel
+sdhk:25174	Lagunda	Lagunda	granskning	rosenberg	rosenberg:33023		Lagunda	Uppland				hog/hog
+sdhk:34155	Lagunda	Lagunda	granskning	rosenberg	rosenberg:33023		Lagunda	Uppland				hog/hog
+sdhk:32377	Landa	Landa	granskning	tora	tora:11245	Stora Skedvi	Stora Skedvi	Dalarna	60.3976	15.806	eget	medel/hog
+sdhk:32378	Landa	Landa	granskning	tora	tora:11245	Stora Skedvi	Stora Skedvi	Dalarna	60.3976	15.806	eget	hog/hog
+sdhk:35047	Lena	Lena	granskning	tora	tora:7645	Timmele	Redvägs h:d	Västergötland	57.8652	13.4292	eget	hog/hog
+sdhk:24203	Lindholm	Lindholm	granskning	rosenberg	rosenberg:34131	Svedala	Oxie	Skåne	55.51194	13.22528	socken	medel/hog
+sdhk:44471	Lindholm	Lindholm	granskning	rosenberg	rosenberg:34131	Svedala	Oxie	Skåne	55.51194	13.22528	socken	medel/medel
+sdhk:38369	Lindholmen	Lindholmen	granskning	tora	tora:7848	Strö	Kållands h:d	Västergötland	58.6096	13.0775	eget	medel/medel
+sdhk:38467	Lindholmen	Lindholmen	granskning	tora	tora:7848	Strö	Kållands h:d	Västergötland	58.6096	13.0775	eget	medel/medel
+sdhk:10687	Lindö	Lindö	granskning	rosenberg	rosenberg:34245	Kärrbo	Siende	Västmanland	59.55444	16.75444	socken	medel/hog
+sdhk:32148	Ljungby	Ljungby	granskning	tora	tora:15621	Ljungby	Södra Möre härad	Småland	56.6285	16.1605	eget	hog/hog
+sdhk:31409	Lunda	Lunda	granskning	tora	tora:1469	Västeråker	Hagunda härad	Uppland	59.7498	17.5079	eget	hog/hog
+sdhk:27570	Lundby	Lundby	granskning	rosenberg	rosenberg:34980	Hackvad	Grimsten	Närke,Värmland,Västmanland	59.11083	14.91333	socken	medel/medel
+sdhk:12275	Löt	Löt	granskning	kartor	tora:3960	Löt	Memming h:d	Östergötland	58.5735	16.0768	eget	hog/hog
+sdhk:21233	Löt	Löt	granskning	kartor	tora:3960	Löt	Memming h:d	Östergötland	58.5735	16.0768	eget	medel/medel
+sdhk:38218	Löt	Löt	granskning	kartor	tora:3960	Löt	Memming h:d	Östergötland	58.5735	16.0768	eget	hog/hog
+sdhk:38219	Löt	Löt	granskning	kartor	tora:3960	Löt	Memming h:d	Östergötland	58.5735	16.0768	eget	hog/hog
+sdhk:5788	Malma kyrka	Malma	granskning	kartor	tora:10767	Malma	Åkerbo h:d	Västmanland	59.54	15.9351	eget	medel/hog
+sdhk:8233	Marby	Marby	granskning	rosenberg	rosenberg:36858	Marby	Hallen	Härjedalen,Jämtland	63.13	14.28611	socken	medel/hog
+sdhk:3495	Munsö	Munsö	granskning	tora	tora:259	Munsö	Färentuna härad	Uppland	59.4	17.5602	eget	medel/hog
+sdhk:35838	Nor	Nor	granskning	tora	tora:22523	Nor	Grums härad	Värmland	59.4113	13.2376	eget	hog/hog
+sdhk:38764	Nor	Nor	granskning	tora	tora:954	Roslags-Bro	Bro skplg	Uppland	59.8742	18.8384	eget	hog/medel
+sdhk:39881	Nor	Nor	granskning	tora	tora:954	Roslags-Bro	Bro skplg	Uppland	59.8742	18.8384	eget	medel/medel
+sdhk:39883	Nor	Nor	granskning	tora	tora:954	Roslags-Bro	Bro skplg	Uppland	59.8742	18.8384	eget	medel/medel
+sdhk:33298	Nora	Nora	granskning	tora	tora:19214	Trosa-Vagnhärad	Hölebo härad	Södermanland	58.9625	17.5301	eget	medel/medel
+sdhk:31025	Noraskog	Noraskog	granskning	rosenberg	rosenberg:39663			Närke,Värmland,Västmanland				medel/medel
+sdhk:36464	Noraskog	Noraskog	granskning	rosenberg	rosenberg:39663			Närke,Värmland,Västmanland				medel/medel
+sdhk:38274	Noraskog	Noraskog	granskning	rosenberg	rosenberg:39663			Närke,Värmland,Västmanland				medel/medel
+sdhk:29711	Norrby	Norrby	granskning	rosenberg	rosenberg:40041	Ljung	Gullberg	Östergötland	58.52389	15.45139	socken	hog/hog
+sdhk:5566	Norrby	Norrby	granskning	kartor	tora:10475	Norrby	Simtuna h:d	Uppland	59.9189	16.629	eget	hog/hog
+sdhk:14106	Norunga	Norunga	granskning	rosenberg	rosenberg:40229	Nårunga	Gäsene	Dalsland,Västergötland	57.926	12.796	socken	medel/medel
+sdhk:14201	Norunga	Norunga	granskning	rosenberg	rosenberg:40229	Nårunga	Gäsene	Dalsland,Västergötland	57.926	12.796	socken	medel/medel
+sdhk:37160	Nygård	Nygård	granskning	tora	tora:16972	Lofta	Tjusts härad	Småland	57.9236	16.4199	eget	hog/hog
+sdhk:25122	Nynäs	Nynäs	granskning	rosenberg	rosenberg:40774	Ösmo	Sotholm	Södermanland,Uppland	58.98222	17.91333	socken	hog/hog
+sdhk:21608	Näs	Näs	granskning	kartor	tora:10039	Kolbäck	Snevringe h:d	Västmanland	59.5971	16.2196	eget	medel/hog
+sdhk:16520	Näsby	Näsby	granskning	tora	tora:19459	Rystad	Åkerbo	Östergötland	58.4538	15.6397	eget	medel/medel
+sdhk:16786	Näsby	Näsby	granskning	tora	tora:19459	Rystad	Åkerbo	Östergötland	58.4538	15.6397	eget	hog/medel
+sdhk:17114	Näsby	Näsby	granskning	tora	tora:19459	Rystad	Åkerbo	Östergötland	58.4538	15.6397	eget	medel/medel
+sdhk:34763	Näsbyholm	Näsbyholm	granskning	rosenberg	rosenberg:41364	Gärdslöv	Vemmenhög	Skåne	55.46444	13.43028	socken	medel/medel
+sdhk:34765	Näsbyholm	Näsbyholm	granskning	rosenberg	rosenberg:41364	Gärdslöv	Vemmenhög	Skåne	55.46444	13.43028	socken	hog/hog
+sdhk:34777	Näsbyholm	Näsbyholm	granskning	rosenberg	rosenberg:41364	Gärdslöv	Vemmenhög	Skåne	55.46444	13.43028	socken	medel/medel
+sdhk:16216	Nässelsta	Nässelsta	granskning	tora	tora:15125	Gryt	Daga härad	Södermanland	59.076	17.0232	eget	medel/medel
+sdhk:26706	Offerdal	Offerdal	granskning	rosenberg	rosenberg:41674	Offerdal	Offerdal	Härjedalen,Jämtland	63.45	13.98333	socken	hog/hog
+sdhk:27536	Offerdal	Offerdal	granskning	rosenberg	rosenberg:41674	Offerdal	Offerdal	Härjedalen,Jämtland	63.45	13.98333	socken	hog/hog
+sdhk:39185	Offerdal	Offerdal	granskning	rosenberg	rosenberg:41674	Offerdal	Offerdal	Härjedalen,Jämtland	63.45	13.98333	socken	hog/hog
+sdhk:17563	Oppeby	Oppeby	granskning	rosenberg	rosenberg:41985	Oppeby	Kinda	Östergötland	58.03417	15.80806	socken	hog/hog
+sdhk:15229	Oppunda	Oppunda	granskning	rosenberg	rosenberg:42013		Oppunda	Södermanland				hog/hog
+sdhk:15336	Oppunda	Oppunda	granskning	rosenberg	rosenberg:42013		Oppunda	Södermanland				hog/hog
+sdhk:15337	Oppunda	Oppunda	granskning	rosenberg	rosenberg:42013		Oppunda	Södermanland				hog/hog
+sdhk:27317	Oppunda	Oppunda	granskning	rosenberg	rosenberg:42013		Oppunda	Södermanland				medel/medel
+sdhk:12490	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:12521	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:13924	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:26202	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:28421	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:8884	Oppunda härad	Oppunda häradh	granskning	kartor	tora:		Oppunda h:d					hog/hog
+sdhk:21615	Ramnäs	Ramnäs	granskning	rosenberg	rosenberg:43719	Göteryd	Sunnerbo	Småland	56.57111	13.88528	socken	hog/hog
+sdhk:27591	Ramnäs	Ramnäs	granskning	rosenberg	rosenberg:43720	Ramnäs	Snevringe	Västmanland	59.7625	16.20889	socken	hog/hog
+sdhk:17737	Reaby	Reaby	granskning	rosenberg	rosenberg:43993	Gränna landsförs	Vista	Småland				hog/hog
+sdhk:14577	Refteled	Refteled	granskning	rosenberg	rosenberg:44104	Reftele	Västbo	Småland	57.17488	13.59513	socken	medel/medel
+sdhk:15828	Refteled	Refteled	granskning	rosenberg	rosenberg:44104	Reftele	Västbo	Småland	57.17488	13.59513	socken	hog/hog
+sdhk:18515	Refteled	Refteled	granskning	rosenberg	rosenberg:44104	Reftele	Västbo	Småland	57.17488	13.59513	socken	medel/medel
+sdhk:31522	Rensbyn	Rensbyn	granskning	rosenberg	rosenberg:44078	Vika	Vika	Dalarna	60.51169	15.71	socken	hog/hog
+sdhk:31523	Rensbyn	Rensbyn	granskning	rosenberg	rosenberg:44078	Vika	Vika	Dalarna	60.51169	15.71	socken	medel/hog
+sdhk:31524	Rensbyn	Rensbyn	granskning	rosenberg	rosenberg:44078	Vika	Vika	Dalarna	60.51169	15.71	socken	hog/hog
+sdhk:14094	Ringshult	Ringshult	granskning	tora	tora:17724	Blåvik	Ydre härad	Östergötland	58.038	15.0626	eget	hog/hog
+sdhk:16344	Ringshult	Ringshult	granskning	tora	tora:17724	Blåvik	Ydre härad	Östergötland	58.038	15.0626	eget	hog/medel
+sdhk:17765	Ringshult	Ringshult	granskning	tora	tora:17724	Blåvik	Ydre härad	Östergötland	58.038	15.0626	eget	hog/medel
+sdhk:30334	Ringstad	Ringstad	granskning	rosenberg	rosenberg:44421	Norrköpings Östra Eneby	Bråbo	Östergötland				hog/hog
+sdhk:30335	Ringstad	Ringstad	granskning	rosenberg	rosenberg:44421	Norrköpings Östra Eneby	Bråbo	Östergötland				medel/hog
+sdhk:12854	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:12855	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	medel/hog
+sdhk:13031	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:16450	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:16657	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:1716	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:18023	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:1898	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:19776	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:2051	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:2268	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:23100	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:2374	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:24966	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	medel/medel
+sdhk:2623	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:27568	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:28040	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:28796	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:2945	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:2946	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:3054	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:3091	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:3326	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:36192	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:378	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4292	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4561	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4627	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4686	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4863	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:4864	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	medel/medel
+sdhk:5282	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:5666	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:5943	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:611	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:9409	Riseberga	Riseberga	granskning	rosenberg	rosenberg:44497	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken	hog/hog
+sdhk:31453	Rossvik	Rossvik	granskning	rosenberg	rosenberg:44909	Husby-Rekarne	Österrekarne	Södermanland	59.31417	16.45167	socken	medel/hog
+sdhk:31482	Rossvik	Rossvik	granskning	rosenberg	rosenberg:44909	Husby-Rekarne	Österrekarne	Södermanland	59.31417	16.45167	socken	medel/hog
+sdhk:31480	Ryd	Ryd	granskning	rosenberg	rosenberg:45482	Hamneda	Sunnerbo	Småland	56.69944	13.8525	socken	hog/hog
+sdhk:34856	Ryda	Ryda	granskning	tora	tora:19768	Oppeby	Kinda	Östergötland	57.9961	15.885	eget	hog/hog
+sdhk:34857	Ryda	Ryda	granskning	tora	tora:19768	Oppeby	Kinda	Östergötland	57.9961	15.885	eget	hog/hog
+sdhk:20306	Rysby	Ryssby	granskning	tora	tora:15491	Ryssby	Norra Möre härad	Småland	56.8084	16.3556	eget	medel/medel
+sdhk:35738	Rysby	Ryssby	granskning	tora	tora:15491	Ryssby	Norra Möre härad	Småland	56.8084	16.3556	eget	hog/hog
+sdhk:33650	Räfsnäs	Räfsnäs	granskning	rosenberg	rosenberg:46130	Fredsberg	Vadsbo	Västergötland	58.7425	14.07694	socken	hog/hog
+sdhk:18013	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					hog/hog
+sdhk:34267	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:36320	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:36399	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:36405	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:37269	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:38004	Rävelsta	Räwellsta	granskning	kartor	tora:	Altuna	Simtuna h:d					medel/medel
+sdhk:12028	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:12079	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:12858	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:19529	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:2218	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:22715	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:27571	Segersjö	Segersjö	granskning	tora	tora:20765	Lännäs	Asker	Närke	59.175	15.5873	eget	medel/hog
+sdhk:18483	Segerstad	Segerstad	granskning	rosenberg	rosenberg:47473	Ullervad	Vadsbo	Västergötland	58.66849	13.85356	socken	hog/hog
+sdhk:27890	Seminghundra	Seminghundra	granskning	rosenberg	rosenberg:47558		Seminghundra	Södermanland,Uppland				medel/medel
+sdhk:28835	Seminghundra	Seminghundra	granskning	rosenberg	rosenberg:47558		Seminghundra	Södermanland,Uppland				hog/hog
+sdhk:28723	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/hog
+sdhk:29166	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:29184	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:30002	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:30018	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:30969	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:32256	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:32324	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:33066	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/medel
+sdhk:33647	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/hog
+sdhk:36614	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:36770	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	medel/hog
+sdhk:37850	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:38285	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:38830	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:38976	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:38977	Sjögerås	Sjögerås	granskning	rosenberg	rosenberg:48307	Vilske-Kleva	Vilske	Västergötland	58.20778	13.43806	socken	hog/hog
+sdhk:19297	Skattna	Skattna	granskning	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken	hog/hog
+sdhk:22382	Skattna	Skattna	granskning	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken	hog/hog
+sdhk:22798	Skattna	Skattna	granskning	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken	hog/hog
+sdhk:31226	Skattna	Skattna	granskning	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken	hog/hog
+sdhk:12247	Skedevi	Skedevi	granskning	tora	tora:19302	Forssa	Oppunda härad	Södermanland	59.0462	16.7054	eget	medel/hog
+sdhk:17170	Skedevi	Skedevi	granskning	tora	tora:3768	Skedevi	Bråbo h:d	Östergötland	58.9395	15.8834	eget	hog/hog
+sdhk:20356	Skedevi	Skedevi	granskning	tora	tora:3768	Skedevi	Bråbo h:d	Östergötland	58.9395	15.8834	eget	hog/hog
+sdhk:32211	Skofteby	Skofteby	granskning	rosenberg	rosenberg:49124	Norra Härene	Kinnefjärding	Västergötland	58.43917	13.16306	socken	medel/medel
+sdhk:32731	Skälby	Skälby	granskning	tora	tora:10435	Sala	Övertjurbo h:d	Västmanland	59.9741	16.6842	eget	hog/hog
+sdhk:4114	Solvik	Solvik	granskning	rosenberg	rosenberg:51796	Kärrbo	Siende	Västmanland	59.55444	16.75444	socken	medel/hog
+sdhk:44835	Stamgärde	Stamgärde	granskning	rosenberg	rosenberg:52381	Undersåker	Undersåker	Härjedalen,Jämtland	63.31562	13.24806	socken	hog/hog
+sdhk:44836	Stamgärde	Stamgärde	granskning	rosenberg	rosenberg:52381	Undersåker	Undersåker	Härjedalen,Jämtland	63.31562	13.24806	socken	hog/hog
+sdhk:44837	Stamgärde	Stamgärde	granskning	rosenberg	rosenberg:52381	Undersåker	Undersåker	Härjedalen,Jämtland	63.31562	13.24806	socken	hog/hog
+sdhk:20413	Stenby	Stenby	granskning	tora	tora:1667	Husby-Långhundra	Långhundra	Uppland	59.7522	17.9616	eget	hog/medel
+sdhk:27363	Stenby	Stenby	granskning	tora	tora:1667	Husby-Långhundra	Långhundra	Uppland	59.7522	17.9616	eget	hog/hog
+sdhk:20593	Stenkyrka	Stenkyrka	granskning	rosenberg	rosenberg:52632	Stenkyrka	Tjörn	Bohuslän,Västergötland	58.01167	11.62333	socken	medel/hog
+sdhk:14020	Stensta	Stensta	granskning	tora	tora:930	Söderby-Karl	Lyhundra härad	Uppland	59.8513	18.7003	eget	hog/hog
+sdhk:16012	Stensta	Stensta	granskning	tora	tora:930	Söderby-Karl	Lyhundra härad	Uppland	59.8513	18.7003	eget	hog/hog
+sdhk:18253	Stensta	Stensta	granskning	tora	tora:930	Söderby-Karl	Lyhundra härad	Uppland	59.8513	18.7003	eget	hog/hog
+sdhk:19216	Stensta	Stensta	granskning	tora	tora:930	Söderby-Karl	Lyhundra härad	Uppland	59.8513	18.7003	eget	hog/hog
+sdhk:19814	Stensta	Stensta	granskning	tora	tora:930	Söderby-Karl	Lyhundra härad	Uppland	59.8513	18.7003	eget	medel/hog
+sdhk:25987	Stockholm slott	Stockholm	granskning	tora	tora:569	Stockholm		Uppland	59.3249	18.0726	eget	medel/hog
+sdhk:27253	Stockholm slott	Stockholm	granskning	tora	tora:569	Stockholm		Uppland	59.3249	18.0726	eget	medel/hog
+sdhk:44160	Stockholm slott	Stockholm	granskning	tora	tora:569	Stockholm		Uppland	59.3249	18.0726	eget	medel/hog
+sdhk:37551	Sund	Sund	granskning	tora	tora:22722	Visnum	Visnums härad	Värmland	59.0909	14.1299	eget	medel/medel
+sdhk:9052	Sund	Sund	granskning	rosenberg	rosenberg:54197	Nedre Ullerud	Kil	Värmland	59.605	13.50028	socken	medel/medel
+sdhk:16532	Sundby	Sundby	granskning	tora	tora:21824	Vårdinge	Öknebo härad	Södermanland	59.0734	17.3279	eget	medel/medel
+sdhk:18702	Sundby	Sundby	granskning	rosenberg	rosenberg:54250	Öja	Västerrekarne	Södermanland	59.28639	16.15917	socken	medel/hog
+sdhk:18820	Sundby	Sundby	granskning	tora	tora:21824	Vårdinge	Öknebo härad	Södermanland	59.0734	17.3279	eget	hog/hog
+sdhk:18880	Sundby	Sundby	granskning	tora	tora:21824	Vårdinge	Öknebo härad	Södermanland	59.0734	17.3279	eget	medel/medel
+sdhk:25136	Sundby	Sundby	granskning	rosenberg	rosenberg:54250	Öja	Västerrekarne	Södermanland	59.28639	16.15917	socken	hog/hog
+sdhk:44715	Sundby	Sundby	granskning	rosenberg	rosenberg:54250	Öja	Västerrekarne	Södermanland	59.28639	16.15917	socken	medel/medel
+sdhk:5879	Sundsered	Sundsered	granskning	tora	tora:5441	Bjurbäck	Vartofta	Västergötland	57.8487	13.8553	eget	medel/medel
+sdhk:6918	Sundsered	Sundsered	granskning	tora	tora:5441	Bjurbäck	Vartofta	Västergötland	57.8487	13.8553	eget	medel/medel
+sdhk:6994	Sundsered	Sundsered	granskning	tora	tora:5441	Bjurbäck	Vartofta	Västergötland	57.8487	13.8553	eget	medel/medel
+sdhk:814	Sundsered	Sundsered	granskning	tora	tora:5441	Bjurbäck	Vartofta	Västergötland	57.8487	13.8553	eget	medel/medel
+sdhk:15361	Sunne	Sunne	granskning	tora	tora:3517	Sunne	Fryksdals härad	Värmland	59.8352	13.1562	eget	medel/hog
+sdhk:36279	Sunnerbo	Sunnerbo	granskning	rosenberg	rosenberg:54463		Sunnerbo	Småland				medel/hog
+sdhk:36805	Sunnerbo	Sunnerbo	granskning	rosenberg	rosenberg:54463		Sunnerbo	Småland				medel/hog
+sdhk:36915	Sunnerbo	Sunnerbo	granskning	rosenberg	rosenberg:54463		Sunnerbo	Småland				hog/hog
+sdhk:4143	Surteby	Surteby	granskning	rosenberg	rosenberg:54533	Surteby	Mark	Dalsland,Västergötland				hog/hog
+sdhk:25576	Svartlösa	Svartlösa	granskning	rosenberg	rosenberg:54810		Svartlösa	Södermanland,Uppland				medel/hog
+sdhk:25578	Svartlösa	Svartlösa	granskning	rosenberg	rosenberg:54810		Svartlösa	Södermanland,Uppland				medel/hog
+sdhk:18488	Säby	Säby	granskning	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget	hog/hog
+sdhk:13068	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:16614	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/hog
+sdhk:1749	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:1772	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:17801	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:22093	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:25699	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:2754	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:3605	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:3607	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:3608	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:3609	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:5905	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:5937	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:6102	Säckestad	Säckestad	granskning	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken	medel/medel
+sdhk:36207	Säm	Säm	granskning	tora	tora:7486	Södra Säm	Kind	Västergötland	57.6553	13.3927	eget	medel/medel
+sdhk:36603	Säm	Säm	granskning	tora	tora:7486	Södra Säm	Kind	Västergötland	57.6553	13.3927	eget	medel/medel
+sdhk:37490	Säm	Säm	granskning	tora	tora:7486	Södra Säm	Kind	Västergötland	57.6553	13.3927	eget	hog/hog
+sdhk:26711	Sånga	Sånga	granskning	tora	tora:302	Sånga	Färentuna härad	Uppland	59.3603	17.713	eget	medel/hog
+sdhk:29411	Sånga	Sånga	granskning	tora	tora:302	Sånga	Färentuna härad	Uppland	59.3603	17.713	eget	medel/hog
+sdhk:7486	Sånga	Sånga	granskning	tora	tora:302	Sånga	Färentuna härad	Uppland	59.3603	17.713	eget	medel/hog
+sdhk:12212	Söderby	Söderby	granskning	kartor	tora:917	Söderby	Lyhundra h:d	Uppland	59.884	18.7024	eget	hog/medel
+sdhk:17062	Tanum	Tanum	granskning	rosenberg	rosenberg:56499	Tanum	Tanum	Bohuslän,Västergötland	58.715	11.3325	socken	medel/medel
+sdhk:23441	Tanum	Tanum	granskning	rosenberg	rosenberg:56499	Tanum	Tanum	Bohuslän,Västergötland	58.715	11.3325	socken	medel/medel
+sdhk:29828	Tofta	Tofta	granskning	rosenberg	rosenberg:51591	Ljungby	Sunnerbo	Småland	56.63222	16.16889	socken	medel/medel
+sdhk:29829	Tofta	Tofta	granskning	rosenberg	rosenberg:51591	Ljungby	Sunnerbo	Småland	56.63222	16.16889	socken	medel/medel
+sdhk:14557	Toftnäs	Toftnäs	granskning	rosenberg	rosenberg:57243	Bolmsö	Västbo	Småland	57.00778	13.72333	socken	medel/medel
+sdhk:24160	Torp	Torp	granskning	tora	tora:21544	Husby-Oppunda	Oppunda härad	Södermanland	58.9109	16.759	eget	hog/medel
+sdhk:38505	Torp	Torp	granskning	tora	tora:3674	Risinge	Bråbo h:d	Östergötland	58.70206	15.84767	socken	medel/medel
+sdhk:32830	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:33002	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:33385	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:33387	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:33393	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:33401	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:33596	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:34918	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:35359	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:35931	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:36263	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:36392	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/hog
+sdhk:36457	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:36540	Torpa	Torpa	granskning	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget	medel/medel
+sdhk:29121	Tuhundra	Tuhundra	granskning	rosenberg	rosenberg:59082		Tuhundra	Västmanland				hog/hog
+sdhk:32196	Tuhundra	Tuhundra	granskning	rosenberg	rosenberg:59082		Tuhundra	Västmanland				hog/hog
+sdhk:11833	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:15401	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:17113	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:20597	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:22845	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:23442	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/medel
+sdhk:28721	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:30987	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:32238	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:32435	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:33087	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:33244	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:36582	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:5365	Tumboås	Tumboås	granskning	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:17810	Tuna	Tuna	granskning	rosenberg	rosenberg:58983	Österåker	Åkers skplg	Södermanland,Uppland	59.5075	18.28361	socken	hog/hog
+sdhk:22909	Tuna	Tuna	granskning	rosenberg	rosenberg:58983	Österåker	Åkers skplg	Södermanland,Uppland	59.5075	18.28361	socken	hog/hog
+sdhk:25117	Tuna	Tuna	granskning	kartor	tora:1480	Dalby	Hagunda h:d	Uppland	59.7786	17.5297	eget	hog/hog
+sdhk:25118	Tuna	Tuna	granskning	kartor	tora:1480	Dalby	Hagunda h:d	Uppland	59.7786	17.5297	eget	hog/hog
+sdhk:2572	Tuna	Tuna	granskning	rosenberg	rosenberg:58983	Österåker	Åkers skplg	Södermanland,Uppland	59.5075	18.28361	socken	hog/hog
+sdhk:28471	Tuna	Tuna	granskning	rosenberg	rosenberg:59013	Rystad	Åkerbo	Östergötland	58.45028	15.71139	socken	medel/medel
+sdhk:28473	Tuna	Tuna	granskning	rosenberg	rosenberg:59013	Rystad	Åkerbo	Östergötland	58.45028	15.71139	socken	medel/medel
+sdhk:33589	Tuna	Tuna	granskning	tora	tora:19065	Tuna	Jönåkers härad	Södermanland	58.7381	16.8395	eget	hog/hog
+sdhk:38469	Tuna	Tuna	granskning	rosenberg	rosenberg:59013	Rystad	Åkerbo	Östergötland	58.45028	15.71139	socken	hog/hog
+sdhk:13866	Tängby	Tängby	granskning	tora	tora:21411	Löt	Trögds härad	Uppland	59.5549	17.3155	eget	hog/hog
+sdhk:28026	Ulleråker	Ulleråker	granskning	rosenberg	rosenberg:60340		Ulleråker	Uppland				medel/hog
+sdhk:28960	Ulleråker	Ulleråker	granskning	rosenberg	rosenberg:60340		Ulleråker	Uppland				hog/hog
+sdhk:15613	Unnaryd	Unnaryd	granskning	rosenberg	rosenberg:60489	Södra Unnaryd	Västbo	Småland	56.955	13.53111	socken	hog/hog
+sdhk:19032	Unnaryd	Unnaryd	granskning	rosenberg	rosenberg:60489	Södra Unnaryd	Västbo	Småland	56.955	13.53111	socken	hog/hog
+sdhk:35235	Vadsbo	Vadsbo	granskning	rosenberg	rosenberg:60795		Vadsbo	Västergötland				hog/hog
+sdhk:18496	Vallby	Vallby	granskning	tora	tora:2824	Vallby	Öster-Rekarne h:d	Södermanland	59.4255	16.5678	eget	medel/medel
+sdhk:20538	Valsnäs	Vallsnäs	granskning	rosenberg	rosenberg:61128	Södra Unnaryd	Västbo	Småland	56.955	13.53111	socken	medel/medel
+sdhk:27550	Valsnäs	Vallsnäs	granskning	rosenberg	rosenberg:61128	Södra Unnaryd	Västbo	Småland	56.955	13.53111	socken	medel/medel
+sdhk:25290	Valö	Valö	granskning	tora	tora:13235	Valö	Norra Roden	Uppland	60.2885	18.1119	eget	medel/medel
+sdhk:13455	Viborg	Viborg	granskning	rosenberg	rosenberg:62392	Roslags-Bro	Bro skplg	Södermanland,Uppland	59.82972	18.73694	socken	medel/medel
+sdhk:30175	Viggeby	Viggeby	granskning	rosenberg	rosenberg:62555	Vårdnäs	Kinda	Östergötland	58.23722	15.69194	socken	medel/medel
+sdhk:27310	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:30927	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:35179	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:35497	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:35553	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:38509	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:4078	Vik	Vik	granskning	rosenberg	rosenberg:62613	Balingsta	Hagunda	Uppland	59.76361	17.42528	socken	medel/medel
+sdhk:20264	Vinäs	Vinäs	granskning	tora	tora:17230	Västra Ed	Norra Tjust	Småland	58.0447	16.4148	eget	hog/hog
+sdhk:26586	Vinäs	Vinäs	granskning	tora	tora:17230	Västra Ed	Norra Tjust	Småland	58.0447	16.4148	eget	medel/hog
+sdhk:38023	Vinäs	Vinäs	granskning	tora	tora:17230	Västra Ed	Norra Tjust	Småland	58.0447	16.4148	eget	medel/hog
+sdhk:24399	Väsby	Väsby	granskning	rosenberg	rosenberg:63710	Holm	Nordal	Dalsland,Västergötland	58.71278	12.46972	socken	hog/hog
+sdhk:45116	Åhus slott	Åhus	granskning	rosenberg	rosenberg:64470	Åhus	Villand	Skåne	55.92333	14.29306	socken	medel/hog
+sdhk:12762	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:19050	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:20652	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:21362	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:22096	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:24083	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:24490	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:24681	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:24913	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:25653	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:25871	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:26980	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:28023	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:28030	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:28569	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:28855	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:28885	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:30503	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:30628	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/medel
+sdhk:30673	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:30674	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:30846	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:31527	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:31695	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:32193	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:32479	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:33123	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:33748	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:33882	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:34682	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	hog/hog
+sdhk:39414	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/hog
+sdhk:4601	Åkerö	Åkerö	granskning	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken	medel/medel
+sdhk:23151	Åsaka	Åsaka	granskning	tora	tora:8130	Vartofta-Åsaka	Vartofta	Västergötland	58.0638	13.6691	eget	medel/medel
+sdhk:23152	Åsaka	Åsaka	granskning	tora	tora:8130	Vartofta-Åsaka	Vartofta	Västergötland	58.0638	13.6691	eget	medel/medel
+sdhk:25607	Åsaka	Åsaka	granskning	tora	tora:8130	Vartofta-Åsaka	Vartofta	Västergötland	58.0638	13.6691	eget	medel/hog
+sdhk:31139	Åsaka	Åsaka	granskning	tora	tora:8130	Vartofta-Åsaka	Vartofta	Västergötland	58.0638	13.6691	eget	hog/hog
+sdhk:24810	Åsunda	Åsunda	granskning	rosenberg	rosenberg:65655		Åsunda	Uppland				medel/hog
+sdhk:25063	Åsunda	Åsunda	granskning	rosenberg	rosenberg:65655		Åsunda	Uppland				hog/hog
+sdhk:9760	Åsunda	Åsunda	granskning	rosenberg	rosenberg:65655		Åsunda	Uppland				hog/hog
+sdhk:7731	Ö	Ö	granskning	rosenberg	rosenberg:66066	Björsäter	Bankekind	Östergötland	58.33611	16.02167	socken	hog/hog
+sdhk:27967	Öja	Öja	granskning	tora	tora:8171	Södra Kyrketorp	Gudhem	Västergötland	58.2428	13.6972	eget	hog/hog
+sdhk:36795	Öja	Öja	granskning	rosenberg	rosenberg:66464	Öja	Västerrekarne	Södermanland	59.28639	16.15917	socken	medel/hog
+sdhk:872	Öninge	Öninge	granskning	rosenberg	rosenberg:66737	Ödeshög	Lysing	Östergötland	58.23086	14.65498	socken	medel/medel
+sdhk:18669	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/medel
+sdhk:18934	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/medel
+sdhk:21282	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/medel
+sdhk:22274	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/medel
+sdhk:23019	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	hog/hog
+sdhk:44716	Österby	Österby	granskning	rosenberg	rosenberg:67391	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken	medel/hog
+sdhk:17108	Östkind	Östkind	granskning	rosenberg	rosenberg:67601		Östkind	Östergötland				hog/hog
+sdhk:17109	Östkind	Östkind	granskning	rosenberg	rosenberg:67601		Östkind	Östergötland				hog/hog
+sdhk:17110	Östkind	Östkind	granskning	rosenberg	rosenberg:67601		Östkind	Östergötland				hog/hog
+sdhk:17356	Fristad	Fristad	korrigering	tora	tora:4147	Tåby	Björkekinds h:d	Östergötland	58.5237	16.3953	eget	hog/hog
+sdhk:32582	Längjum	Längjum	korrigering	tora	tora:7223	Fristad	Veden h:d	Västergötland	57.8368	13.0148	eget	medel/hog
+sdhk:24119	Erikstad	Erikstad	korrigering	rosenberg	rosenberg:11987	Vittaryd	Sunnerbo	Småland	56.97472	13.93361	socken	medel/medel
+sdhk:25173	Erikstad	Erikstad	korrigering	rosenberg	rosenberg:11987	Vittaryd	Sunnerbo	Småland	56.97472	13.93361	socken	medel/medel
+sdhk:19737	Erikstad	Erikstad	korrigering	rosenberg	rosenberg:11987	Vittaryd	Sunnerbo	Småland	56.97472	13.93361	socken	medel/medel
+sdhk:12010	Erikstad	Erikstad	korrigering	tora	tora:19480	Bankekind	Bankekind	Östergötland	58.3723	15.8074	eget	hog/hog
+sdhk:18667	Lidhult	Lidhult	korrigering	rosenberg	rosenberg:33493	Sjösås	Uppvidinge	Småland	57.10417	15.06361	socken	hog/medel
+sdhk:27275	Lagnö	Lagnö	korrigering	tora	tora:21919	Aspö	Selebo härad	Södermanland	59.479	17.0856	eget	medel/medel
+sdhk:17212	Lagnö	Lagnö	korrigering	tora	tora:21919	Aspö	Selebo härad	Södermanland	59.479	17.0856	eget	medel/hog
+sdhk:28387	Lagnö	Lagnö	korrigering	tora	tora:21919	Aspö	Selebo härad	Södermanland	59.479	17.0856	eget	medel/medel
+sdhk:27276	Lagnö	Lagnö	korrigering	tora	tora:21919	Aspö	Selebo härad	Södermanland	59.479	17.0856	eget	medel/medel
+sdhk:34802	Råda	Råda	korrigering	tora	tora:20182	Råda	Kålland	Västergötland	57.6595	12.1058	eget	hog/hog
+sdhk:21253	Råda	Råda	korrigering	tora	tora:20182	Råda	Kålland	Västergötland	57.6595	12.1058	eget	hog/hog
+sdhk:3821	Åsbo	Åsbo	korrigering	tora	tora:9787	Nora	Våla härad	Uppland	60.1622	16.9459	eget	hog/hog
+sdhk:38568	Torestorp	Torestorp	korrigering	rosenberg	rosenberg:57549	Sävare	Kinnefjärding	Västergötland	58.4575	13.25444	socken	hog/hog
+sdhk:38567	Torestorp	Torestorp	korrigering	rosenberg	rosenberg:57549	Sävare	Kinnefjärding	Västergötland	58.4575	13.25444	socken	medel/medel
+sdhk:39155	Lerum	Lerum	korrigering	rosenberg	rosenberg:33626	Väne-Åsaka	Väne	Dalsland,Västergötland	58.24583	12.41778	socken	hog/hog
+sdhk:24317	Vä	Vä	korrigering	rosenberg	rosenberg:63489	Reftele	Västbo	Småland	57.17488	13.59513	socken	medel/hog
+sdhk:32371	Skärstad	Skärstad	korrigering	tora	tora:4916	Varv	Aska h:d	Östergötland	58.4976	15.1145	eget	medel/hog
+sdhk:32320	Bragnum	Bragnum	korrigering	tora	tora:6704	Länghem	Kinds h:d	Västergötland	57.5714	13.2078	eget	medel/hog
