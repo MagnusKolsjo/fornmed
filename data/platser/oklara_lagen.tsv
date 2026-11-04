@@ -1,0 +1,18 @@
+verk_id	ort_sdhk	df_id	plats_df	avstand_km	fraga
+sdhk:17067	Ekesjö				Ekesjö utan läge; inte kopplat till DF. Oklart om det är DF:s Ekesjö, Eksjö eller annan ort
+sdhk:23330	Ekesjö				Ekesjö utan läge; inte kopplat till DF. Oklart om det är DF:s Ekesjö, Eksjö eller annan ort
+sdhk:13455	Viborg	df:975	Viborg	560	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:13817	Tenala	df:994	Tennilä	150	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:18209	Nyköping	df:1424	Åbo	351	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:21540	Sunds socken	df:1996	Sund	385	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:24291	Visby	df:2511	Viborg	686	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:25382	Stockholm	df:2767	Borgholm	286	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:27136	[Nousis]	df:3368	Raumo	67	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:27338	Åbo	df:3368	Raumo	86	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:32494	Strängnäs	df:4315	Stockholm	60	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:34428	Rom	df:4914	Strängnäs	1971	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:34624	Kronoberg	df:4968	Tavastehus	718	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:43630	Kronoberg	df:5130	Tavastehus	718	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:44713	(Köpenhamn)	df:6055	Stockholm	522	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:6175	Åbo slott	df:585	Kimito	41	SDHK:s ort och DF:s plats för kopplat brev ligger långt isär; kan vara fel FMU-koppling eller olika orter
+sdhk:35785	Eksjö (Vallsjö sn, Västra härad, Njudung)	df:5236	Ekesjö	156	Samma avsändare och mottagare 21 april 1507 (DF 5236, Ekesjö) och 22 april 1507 (SDHK 35785, Eksjö), men DF:s läge ligger långt från Eksjö

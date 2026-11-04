@@ -214,6 +214,17 @@ python3 -m venv .venv
 cp config.example.env .env   # välj PostgreSQL eller SQLite i DATABASE_URL
 ```
 
+## Import av Diplomatarium Fennicum
+
+```bash
+.venv/bin/python hamta_df.py      # data/raw/df: datamängden, brevsidorna och platsregistret
+.venv/bin/python importera_df.py  # kör efter SDHK; kör därefter platser.py och berakna_embeddings.py
+```
+
+Datamängden från Kansallisarkisto (CC0) ger brevtext och grunduppgifter. Regester,
+utfärdare, datum och platsregister finns bara på webbplatsen, som inte anger någon
+licens för dem. Regester ur Auctoritate Papae (2012) tas inte med.
+
 ## Import av SDHK
 
 ```bash
@@ -935,9 +946,15 @@ Samma namn finns på många håll, så ett namn räcker aldrig. Den överordnade
 ska stämma med brevet: häradet, eller att två oberoende bedömare valt samma kandidat
 utifrån breven. Det avgörs brev för brev, och socken eller landskap räcker inte ensamma.
 
+Diplomatarium Fennicums platsregister är granskat, och dess koordinater antas stämma med
+den ort som avses. Ett DF-brev knyts till en befintlig plats med namnet bara om den ligger
+inom 30 km; annars blir platsen egen (`plats:df:…`), och SDHK-brev kopplas aldrig dit på
+namnet. En SDHK-ort utan läge får DF:s läge när minst hälften av ortens brev finns i DF
+med samma plats; annars flyttas bara de kopplade breven.
+
 Besluten om brevorterna står i `data/platser`: `orter.tsv` (överens),
 `orter_att_avgora.tsv` (oense, kopplas inte och väntar på mer underlag),
-`lexikon_beslut.tsv` (häradsregeln), `brevgranskning.tsv` (bedömarnas beslut brev för
+`lexikon_beslut.tsv` (häradsregeln, med TORA, kartorna, Rosenberg och Isof; fattade beslut står kvar), `oklara_lagen.tsv` (brev att granska), `brevgranskning.tsv` (bedömarnas beslut brev för
 brev), `platskorrigeringar.tsv` och `platssammanslagningar.tsv`, `x_uppslag.tsv` (platser i "X i Y" med
 eget läge från Wikidata) och `delade_orter.json` (namn som är
 fördelade brev för brev, som Viborg i Jylland och Karelen). Ett namn som flera

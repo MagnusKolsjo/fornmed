@@ -1,17 +1,33 @@
 verk_id	ort	kandidat	niva	kalla	ref	socken	harad	landskap	lat	lon	lage
+sdhk:21475	Allmäningstorp	Allmänningstorp	harad	isof	isof:20299	Bankekinds sn	Bankekinds hd	Östergötland	58.37583	15.82111	socken
+sdhk:26888	Almarstäket	Almarstäket	harad	isof	isof:22338	Stockholms-Näs sn	Bro hd	Uppland			
+sdhk:19574	Asle	Asle	harad	isof	isof:49946	Åsle sn	Vartofta hd	Västergötland	58.1775	13.68611	socken
+sdhk:29972	Asle	Asle	harad	isof	isof:49946	Åsle sn	Vartofta hd	Västergötland	58.1775	13.68611	socken
 sdhk:11995	Aspa	Aspa	harad	kartor	tora:2200	Ludgo	Rönö h:d	Södermanland	58.9229	17.084	eget
+sdhk:20584	Aspalöt	Aspalöt	harad	isof	isof:50287	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:21583	Aspalöt	Aspalöt	harad	isof	isof:50287	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:26714	Aspalöt	Aspalöt	harad	isof	isof:50287	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:26796	Aspalöt	Aspalöt	harad	isof	isof:50287	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:23514	Aspeløth	Aspelöt	harad	isof	isof:52711	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:23086	Aspolöt	Aspolöt	harad	isof	isof:52715	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
+sdhk:23547	Aspolöt	Aspolöt	harad	isof	isof:52715	Ludgo sn	Rönö hd	Södermanland	58.91611	17.13306	socken
 sdhk:13675	Benhamra	Benhamra	socken+harad	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken
 sdhk:27406	Benhamra	Benhamra	harad	rosenberg	rosenberg:2442	Vada	Vallentuna	Södermanland,Uppland	59.5775	18.20472	socken
+sdhk:20447	Biverud	Biverud	harad	isof	isof:117009	Glanshammars sn	Glanshammars hd	Närke	59.31705	15.40218	socken
+sdhk:6372	Bjärsvik	Bjärsvik	socken+harad	isof	isof:121827	Nykils sn	Valkebo hd	Östergötland	58.28889	15.44833	socken
 sdhk:18116	Björnö	Björnö	harad	rosenberg	rosenberg:4219	Stenberga	Östra	Småland	57.32222	15.41917	socken
 sdhk:11999	Blackstorp	Blackstorp	harad	tora	tora:19433	Gammalkil	Valkebo	Östergötland	58.3124	15.4346	eget
 sdhk:31383	Blombacka	Blombacka	harad	rosenberg	rosenberg:4511	Vinköl	Skåning	Västergötland	58.32833	13.28972	socken
 sdhk:31471	Blombacka	Blombacka	harad	rosenberg	rosenberg:4511	Vinköl	Skåning	Västergötland	58.32833	13.28972	socken
 sdhk:6848	Bo	Bo	socken+harad	tora	tora:15729	Högsby	Handbörds härad	Småland	57.0789	16.0157	eget
+sdhk:31792	Bosgården	Bosgården	harad	isof	isof:188635	Vetlanda sn	Östra hd	Småland	57.43083	15.07417	socken
+sdhk:26224	Brandaborg	Brandaborg	socken+harad	isof	isof:197975	Ytterjärna sn	Öknebo hd	Södermanland	59.07556	17.6175	socken
 sdhk:20932	Bro	Bro	harad	rosenberg	rosenberg:6337	Kolsva	Åkerbo	Västmanland	59.58397	15.81848	socken
 sdhk:30341	Bro	Bro	harad	rosenberg	rosenberg:6342	Hycklinge	Kinda	Östergötland	57.92525	15.92393	socken
 sdhk:26130	Broby	Broby	harad	rosenberg	rosenberg:6452	Å	Björkekind	Östergötland	58.49638	16.50166	socken
 sdhk:6529	By kyrka	By	harad	rosenberg	rosenberg:7775	By	Folkare	Dalarna	60.20139	16.47778	socken
 sdhk:26498	Bädarö	Bäddarö	harad	tora	tora:21405	Löt	Trögds härad	Uppland	59.6059	17.3435	eget
+sdhk:42726	Dybäck	Dybäck	harad	isof	isof:347040	Östra Vemmenhögs sn	Vemmenhögs hd	Skåne	55.4175	13.505	socken
 sdhk:22804	Dörby	Dörby	harad	tora	tora:6414	Norra Möckleby	Möckleby härad	Öland	56.6331	16.6517	eget
 sdhk:30092	Ed	Ed	harad	rosenberg	rosenberg:10310	Voxtorp	Östbo	Småland	56.53833	16.1425	socken
 sdhk:30172	Ed	Ed	harad	rosenberg	rosenberg:10310	Voxtorp	Östbo	Småland	56.53833	16.1425	socken
@@ -20,23 +36,37 @@ sdhk:30948	Ed	Ed	harad	rosenberg	rosenberg:10310	Voxtorp	Östbo	Småland	56.5383
 sdhk:38201	Eda	Eda	harad	rosenberg	rosenberg:10331	Norrköpings Borg	Memming	Östergötland			
 sdhk:29377	Ekeby	Ekeby	harad	tora	tora:4817	Ekebyborna	Bobergs h:d	Östergötland	58.5359	15.1836	eget
 sdhk:21315	Ekenäs	Ekenäs	harad	rosenberg	rosenberg:10888	Örtomta	Bankekind	Östergötland	58.41196	15.92449	socken
+sdhk:18198	Ekholm	Ekholm	harad	isof	isof:368178	Veckholms sn	Trögds hd	Uppland	59.52139	17.32333	socken
 sdhk:10792	Ekholmen	Ekholmen	harad	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken
 sdhk:10793	Ekholmen	Ekholmen	harad	rosenberg	rosenberg:11009	Veckholm	Trögd	Uppland	59.52139	17.32333	socken
 sdhk:4791	Ekhult	Ekhult	harad	rosenberg	rosenberg:11028	Björsäter	Bankekind	Östergötland	58.33611	16.02167	socken
 sdhk:5850	Ekhult	Ekhult	harad	tora	tora:16066	Fliseryd	Handbörds härad	Småland	57.1316	16.1558	eget
 sdhk:29265	Eknaholm	Eknaholm	harad	rosenberg	rosenberg:11057	Tjureda	Norrvidinge	Småland	57.04139	14.81528	socken
+sdhk:28110	Ekne	Ekne	socken+harad	isof	isof:371217	Munktorps sn	Snevringe hd	Västmanland	59.53054	16.1288	socken
+sdhk:12505	Eldsund	Eldsund	harad	isof	isof:376329	Strängnäs sn	Åkers hd	Södermanland	59.37556	17.03444	socken
+sdhk:12515	Eldsund	Eldsund	harad	isof	isof:376329	Strängnäs sn	Åkers hd	Södermanland	59.37556	17.03444	socken
+sdhk:22989	Eldsund	Eldsund	harad	isof	isof:376329	Strängnäs sn	Åkers hd	Södermanland	59.37556	17.03444	socken
+sdhk:8918	Eldsund	Eldsund	harad	isof	isof:376329	Strängnäs sn	Åkers hd	Södermanland	59.37556	17.03444	socken
 sdhk:25956	Ellinge	Ellinge	harad	rosenberg	rosenberg:11254	Eslöv	Harjager	Skåne	55.83861	13.29994	socken
 sdhk:21123	Eneby	Enneby	harad	kartor	tora:	Eneby	Bråbo h:d				
+sdhk:19090	Fagrahed	Faghrahedh	harad	isof	isof:401355	Kjula sn	Österrekarne hd	Södermanland	59.39694	16.67472	socken
+sdhk:34835	Falem	falem	harad	isof	isof:401147	Strö sn	Kållands hd	Västergötland	58.58167	13.07083	socken
 sdhk:12020	Fallnaveka	Fallnaveka	harad	rosenberg	rosenberg:12645	Berga	Sunnerbo	Småland	56.92222	13.99028	socken
 sdhk:30629	Fallnaveka	Fallnaveka	harad	rosenberg	rosenberg:12645	Berga	Sunnerbo	Småland	56.92222	13.99028	socken
 sdhk:30036	Fjugesta	Fjugesta	harad	rosenberg	rosenberg:13438	Knista	Edsberg	Närke,Värmland,Västmanland	59.19583	14.89861	socken
 sdhk:28552	Floda	Floda	harad	tora	tora:2553	Floda	Oppunda härad	Södermanland	59.065	16.3611	eget
 sdhk:38827	Fors	Fors	harad	rosenberg	rosenberg:13954	Folkärna	Folkare	Dalarna	60.15619	16.31277	socken
+sdhk:10172	Forsholm	Forsholm	harad	isof	isof:453487	Forshems sn	Kinne hd	Västergötland	58.61988	13.49195	socken
+sdhk:24622	Fyllingarum	Fyllingarum	harad	isof	isof:480905	Ringarums sn	Hammarkinds hd	Östergötland	58.33333	16.44889	socken
+sdhk:24623	Fyllingarum	Fyllingarum	harad	isof	isof:480905	Ringarums sn	Hammarkinds hd	Östergötland	58.33333	16.44889	socken
 sdhk:6513	Föreda	Föreda	harad	rosenberg	rosenberg:15222	Hornaryd	Uppvidinge	Småland	57.11258	14.9747	socken
 sdhk:30896	Galtabäck	Galtabäck	harad	rosenberg	rosenberg:15410	Nottebäck	Uppvidinge	Småland	57.10042	15.17922	socken
 sdhk:30992	Geneved	Genneved	harad	rosenberg	rosenberg:15677	Stora Mellby	Bjärke	Dalsland,Västergötland	58.14583	12.57639	socken
 sdhk:38705	Gislaved	Gislaved	harad	rosenberg	rosenberg:16036	Gislaved	Västbo	Småland			
+sdhk:22042	Gräfseboda	Gräfseboda	socken+harad	isof	isof:586544	Näshulta sn	Österrekarne hd	Södermanland	59.22861	16.34778	socken
+sdhk:12449	Gullagrind	Gullagrind	harad	isof	isof:608970	Kumla sn	Övertjurbo hd	Västmanland	59.84556	16.6375	socken
 sdhk:7084	Gunnarstorp	Gunnarstorp	harad	rosenberg	rosenberg:17995	Ljung	Gullberg	Östergötland	58.52389	15.45139	socken
+sdhk:39203	Gålby	Gålby	harad	tora	tora:19694	Kättilstad	Kinda	Östergötland	58.1048	15.735	eget
 sdhk:6323	Götevi	Götevi	socken+harad	tora	tora:5115	Vallerstad	Bobergs h:d	Östergötland	58.4421	15.1677	eget
 sdhk:31528	Hacksta	Hacksta	harad	rosenberg	rosenberg:19266	Österåker	Åkers skplg	Södermanland,Uppland	59.12194	15.98944	socken
 sdhk:26625	Haga	Haga	harad	rosenberg	rosenberg:19396	Svinnegarn	Åsunda	Uppland	59.58918	17.00217	socken
@@ -47,16 +77,28 @@ sdhk:12190	Haninge	Haninge	harad	rosenberg	rosenberg:20809	Linköpings Sankt Lar
 sdhk:36068	Haraker	Haraker	harad	tora	tora:10136	Haraker	Norrbo h:d	Västmanland	59.7718	16.4649	eget
 sdhk:1507	Harg	Harg	harad	rosenberg	rosenberg:20943	Vikingstad	Valkebo	Östergötland	58.36278	15.44944	socken
 sdhk:26199	Harg	Harg	harad	tora	tora:1904	Harg	Frösåkers härad	Uppland	60.185	18.4004	eget
+sdhk:5375	Hedene	Hedene	harad	isof	isof:704057	Norra Kyrketorps sn	Kåkinds hd	Västergötland	58.34444	13.83028	socken
 sdhk:1633	Herrestad	Herrestad	harad	tora	tora:5002	Herrestad	Dals h:d	Östergötland	58.3895	14.8125	eget
 sdhk:16494	Herrestad	Herrestad	harad	rosenberg	rosenberg:21693	Herrestad	Lane	Bohuslän,Västergötland	58.34556	11.83861	socken
 sdhk:35559	Hindsekind	Hindsekind	socken+harad	rosenberg	rosenberg:21983	Värnamo	Östbo	Småland	57.18389	14.04833	socken
 sdhk:44754	Hindsekind	Hindsekind	socken+harad	rosenberg	rosenberg:21983	Värnamo	Östbo	Småland	57.18389	14.04833	socken
+sdhk:21977	Hinsekind	Hinsekind	socken+harad	isof	isof:726640	Värnamo sn	Östbo hd	Småland	57.18389	14.04833	socken
 sdhk:11719	Holm	Holm	harad	tora	tora:20292	Holm	Nordal	Dalsland	58.7135	12.4682	eget
 sdhk:28655	Husby	Husby	harad	rosenberg	rosenberg:23744	Husby-Oppunda	Oppunda	Södermanland	58.90833	16.80361	socken
 sdhk:32504	Huseby	Huseby	socken+harad	kartor	tora:	Kräcklinge	Hardemo h:d				
 sdhk:16459	Huseryd	Huseryd	harad	rosenberg	rosenberg:23800	Kimstad	Memming	Östergötland	58.54902	15.96601	socken
+sdhk:35201	Häggetorp	Häggetorp	harad	isof	isof:796589	Dala sn	Gudhems hd	Västergötland	58.25167	13.78611	socken
 sdhk:22946	Hällerstad	Hällerstad	harad	rosenberg	rosenberg:24900	Östra Ryd	Skärkind	Östergötland	58.40528	16.16889	socken
+sdhk:29108	Hångsdal	Hångsdal	harad	isof	isof:792135	Hångsdala sn	Vartofta hd	Västergötland	58.11556	13.78417	socken
 sdhk:31545	Högsrum	Högsrum	harad	tora	tora:16080	Fliseryd	Handbörds härad	Småland	57.1591	16.2096	eget
+sdhk:27892	Hökrum	Hökrum	harad	isof	isof:845109	Södra Vings sn	Ås hd	Västergötland	57.806	13.272	socken
+sdhk:15413	Ingeassa	Ingeasa	harad	isof	isof:857161	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:9931	Ingeassa	Ingeasa	harad	isof	isof:857161	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:12171	Ingåsa	Ingåsa	harad	isof	isof:859475	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:14541	Ingåsa	Ingåsa	harad	isof	isof:859475	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:16590	Ingåsa	Ingåsa	harad	isof	isof:859475	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:22983	Ingåsa	Ingåsa	harad	isof	isof:859475	Turinge sn	Öknebo hd	Södermanland	59.196	17.44136	socken
+sdhk:29893	Ivla	Ivla	harad	isof	isof:869703	Södra Ljunga sn	Sunnerbo hd	Småland	56.73972	13.97139	socken
 sdhk:26792	Julita	Julita	harad	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget
 sdhk:33608	Julita	Julita	harad	tora	tora:21573	Julita	Oppunda härad	Södermanland	59.1548	16.0381	eget
 sdhk:29397	Karleby	Karleby	harad	tora	tora:8093	Karleby	Vartofta h:d	Västergötland	58.1489	13.637	eget
@@ -64,12 +106,18 @@ sdhk:30353	Klinga	Klinga	harad	rosenberg	rosenberg:28831	Norrköpings Borg	Memmi
 sdhk:26195	Kläpp	Kläpp	harad	rosenberg	rosenberg:29097	Attmar	Tuna	Medelpad,Ångermanland	62.3125	17.05472	socken
 sdhk:36862	Kolbäck	Kolbäck	harad	rosenberg	rosenberg:29547	Bergstena	Kulling	Dalsland,Västergötland	58.04444	12.65	socken
 sdhk:14344	Kolhamar	Kolhammar	socken+harad	tora	tora:18496	Odensala	Ärlinghundra	Uppland	59.6688	17.7787	eget
+sdhk:19275	Kolhöga	Kolhöga	harad	isof	isof:1020986	Ytterselö sn	Selebo hd	Södermanland	59.377	17.25681	socken
 sdhk:30212	Kråkerum	Kråkerum	harad	rosenberg	rosenberg:30558	Jämjö	Östra	Blekinge	56.19194	15.83167	socken
 sdhk:29915	Kumla	Kumla	harad	tora	tora:10808	Odensvi	Åkerbo h:d	Västmanland	59.5624	16.0223	eget
+sdhk:23017	Kungsnorrby	Kungsnorrby	harad	isof	isof:1086017	Brunneby sn	Bobergs hd	Östergötland	58.54056	15.32639	socken
 sdhk:1510	Källstorp	Källstorp	harad	rosenberg	rosenberg:31990	Örslösa	Kålland	Västergötland	58.50722	13.00639	socken
 sdhk:1511	Källstorp	Källstorp	harad	rosenberg	rosenberg:31990	Örslösa	Kålland	Västergötland	58.50722	13.00639	socken
 sdhk:19035	Källunda	Källunda	socken+harad	rosenberg	rosenberg:32034	Kärda	Östbo	Småland	57.1725	13.91861	socken
 sdhk:19078	Källunda	Källunda	socken+harad	rosenberg	rosenberg:32034	Kärda	Östbo	Småland	57.1725	13.91861	socken
+sdhk:15626	Kæælslööt	Kälslöt	harad	isof	isof:1141989	Trosa sn	Hölebo hd	Södermanland	58.93877	17.51515	socken
+sdhk:16588	Kæælslööt	Kälslöt	socken+harad	isof	isof:1141989	Trosa sn	Hölebo hd	Södermanland	58.93877	17.51515	socken
+sdhk:18732	Kæælslööt	Kälslöt	harad	isof	isof:1141989	Trosa sn	Hölebo hd	Södermanland	58.93877	17.51515	socken
+sdhk:24009	Kæælslööt	Kälslöt	harad	isof	isof:1141989	Trosa sn	Hölebo hd	Södermanland	58.93877	17.51515	socken
 sdhk:6648	Lagmansryd	Lagmansryd	socken+harad	rosenberg	rosenberg:33008	Stockaryd	Västra	Småland	57.31583	14.58806	socken
 sdhk:5731	Lekslätt	Lekslätt	socken+harad	rosenberg	rosenberg:33362	Flistad	Gullberg	Östergötland	58.47556	15.41306	socken
 sdhk:17008	Lenhofda	Lenhofda	harad	rosenberg	rosenberg:33568	Lenhovda	Uppvidinge	Småland	56.99532	15.28555	socken
@@ -78,7 +126,14 @@ sdhk:39047	Lillö	Lillö	harad	rosenberg	rosenberg:33989	Åsum	Gärd	Skåne
 sdhk:37809	Limmared	Limmared	harad	rosenberg	rosenberg:34002	Södra Åsarp	Kind	Dalsland,Västergötland	57.55556	13.38111	socken
 sdhk:28108	Logsjö	Logsjö	harad	rosenberg	rosenberg:34655	Edsberg	Edsberg	Närke,Värmland,Västmanland	59.13833	14.87306	socken
 sdhk:32920	Lundby	Lundby	harad	tora	tora:3655	Risinge	Bråbo h:d	Östergötland	58.6656	15.8483	eget
+sdhk:22434	Lunkende	Lunkende	harad	isof	isof:1282333	Sankt Olofs sn	Albo hd	Skåne	55.63472	14.1225	socken
+sdhk:17837	Lytisberg	Lytisberg	harad	isof	isof:1295488	Östra Husby sn 	Östkinds hd	Östergötland	58.58	16.56306	socken
+sdhk:22150	Lytisberg	Lytisberg	harad	isof	isof:1295488	Östra Husby sn 	Östkinds hd	Östergötland	58.58	16.56306	socken
+sdhk:22808	Lytisberg	Lytisberg	harad	isof	isof:1295488	Östra Husby sn 	Östkinds hd	Östergötland	58.58	16.56306	socken
+sdhk:27009	Lytisberg	Lytisberg	harad	isof	isof:1295488	Östra Husby sn 	Östkinds hd	Östergötland	58.58	16.56306	socken
+sdhk:29106	Lytisberg	Lytisberg	harad	isof	isof:1295488	Östra Husby sn 	Östkinds hd	Östergötland	58.58	16.56306	socken
 sdhk:10791	Löddby	Löddby	harad	tora	tora:1950	Alunda	Olands härad	Uppland	60.1116	18.0605	eget
+sdhk:13540	Mellösa	Mellösa	harad	isof	isof:1384930	Stora Mellösa sn	Askers hd				
 sdhk:11943	Mjölkvik	Mjölkvik	harad	tora	tora:19743	Västra Eneby	Kinda	Östergötland	58.0414	15.7004	eget
 sdhk:14444	Måsänder	Måsänder	harad	rosenberg	rosenberg:38797	Örtomta	Bankekind	Östergötland	58.41196	15.92449	socken
 sdhk:30881	Möckleby	Möckleby	harad	tora	tora:6341	Södra Möckleby	Gräsgårds härad	Öland	56.3532	16.422	eget
@@ -109,53 +164,83 @@ sdhk:19297	Skattna	Skattna	harad	rosenberg	rosenberg:48802	Kullerstad	Memming	Ö
 sdhk:22382	Skattna	Skattna	harad	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken
 sdhk:22798	Skattna	Skattna	harad	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken
 sdhk:31226	Skattna	Skattna	harad	rosenberg	rosenberg:48802	Kullerstad	Memming	Östergötland	58.58	15.94333	socken
+sdhk:24963	Skavestad	Skavestad	harad	isof	isof:1853306	Törnevalla sn	Åkerbo hd	Östergötland	58.45139	15.83	socken
+sdhk:24964	Skavestad	Skavestad	harad	isof	isof:1853306	Törnevalla sn	Åkerbo hd	Östergötland	58.45139	15.83	socken
 sdhk:31606	Skerrud	Skerrud	harad	rosenberg	rosenberg:48990	Gestad	Sundal	Dalsland,Västergötland	58.54944	12.45111	socken
 sdhk:25330	Skillöt	Skillöt	socken+harad	tora	tora:21821	Vårdinge	Öknebo härad	Södermanland	59.0437	17.3806	eget
+sdhk:16704	Skindynohagh	Skindynohagh	harad	isof	isof:1860903	Gammalkils sn	Valkebo hd	Östergötland	58.3125	15.39556	socken
+sdhk:20112	Skindynohagh	Skindynohagh	harad	isof	isof:1860903	Gammalkils sn	Valkebo hd	Östergötland	58.3125	15.39556	socken
+sdhk:5753	Sko	Sko	harad	isof	isof:1862835	Skoklosters sn	Håbo hd	Uppland	59.70444	17.62361	socken
 sdhk:3121	Skruckeby	Skruckeby	harad	tora	tora:4483	Mogata	Hammarkinds h:d	Östergötland	58.4684	16.4445	eget
 sdhk:13158	Skölstad	Skölstad	harad	rosenberg	rosenberg:50394	Kvenneberga	Allbo	Småland	56.95517	14.52514	socken
 sdhk:26260	Slestad	Slestad	harad	rosenberg	rosenberg:50507	Slaka	Hanekind	Östergötland	58.3639	15.56352	socken
 sdhk:31267	Stafsåkra	Stafsåkra	harad	rosenberg	rosenberg:52280	Tjureda	Norrvidinge	Småland	57.04139	14.81528	socken
+sdhk:23302	Stalberg	Stalberg	harad	isof	isof:1981034	Skönberga sn	Hammarkinds hd	Östergötland	58.46532	16.35824	socken
+sdhk:23951	Stalberg	Stalberg	harad	isof	isof:1981034	Skönberga sn	Hammarkinds hd	Östergötland	58.46532	16.35824	socken
 sdhk:27783	Stensthorp	Stenstorp	harad	tora	tora:8159	Stenstorp	Gudhems h:d	Västergötland	58.2722	13.7153	eget
 sdhk:7574	Stensö	Stensö	harad	rosenberg	rosenberg:52933	Östra Husby	Östkind	Östergötland	58.58	16.56306	socken
 sdhk:6800	Stoarp	Stoarp	socken+harad	rosenberg	rosenberg:53053	Svenarum	Västra	Småland	57.47108	14.31603	socken
 sdhk:16532	Sundby	Sundby	socken+harad	tora	tora:21824	Vårdinge	Öknebo härad	Södermanland	59.0734	17.3279	eget
 sdhk:18880	Sundby	Sundby	harad	rosenberg	rosenberg:54256	Sundby	Österrekarne	Södermanland	59.43333	16.63583	socken
 sdhk:25136	Sundby	Sundby	socken+harad	rosenberg	rosenberg:54250	Öja	Västerrekarne	Södermanland	59.28639	16.15917	socken
+sdhk:10488	Sundholms slott	Sundholms	harad	isof	isof:2092459	Norra Sandsjö sn	Västra hd	Småland	57.46667	14.76389	socken
 sdhk:4143	Surteby	Surteby	harad	rosenberg	rosenberg:54533	Surteby	Mark	Dalsland,Västergötland			
+sdhk:26348	Svartalöt	Svartalöt	harad	isof	isof:2109084	Botkyrka sn	Svartlösa hd	Södermanland	59.23908	17.81839	socken
 sdhk:27889	Svem	Swem	harad	kartor	tora:3249	Ödeshög	Lysings h:d	Östergötland	58.2174	14.6198	eget
+sdhk:12544	Sverkersbo	Sverkersbo	socken+harad	isof	isof:2129880	Ringarums sn	Hammarkinds hd	Östergötland	58.33333	16.44889	socken
 sdhk:13041	Svingarn	Svinngarn	harad	rosenberg	rosenberg:55170	Svinnegarn	Åsunda	Uppland	59.58918	17.00217	socken
 sdhk:18110	Säckestad	Säckestad	harad	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken
 sdhk:5875	Säckestad	Säckestad	harad	rosenberg	rosenberg:55499	Trästena	Vadsbo	Västergötland	58.64611	14.02944	socken
+sdhk:27994	Säter	Säter	harad	isof	isof:2154197	Kullerstads sn	Memmings hd	Östergötland	58.58	15.94333	socken
+sdhk:29041	Säter	Säter	harad	isof	isof:2154197	Kullerstads sn	Memmings hd	Östergötland	58.58	15.94333	socken
 sdhk:18137	Söderby	Söderby	harad	kartor	tora:7863	Söne	Kållands h:d	Västergötland	58.5281	12.9745	eget
+sdhk:30071	Söderby prästgård	Söderby	harad	tora	tora:21190	Vassunda	Håbo härad	Uppland	59.70472	17.72917	socken
 sdhk:37885	Tofta	Tofta	harad	rosenberg	rosenberg:51591	Ljungby	Sunnerbo	Småland	56.63222	16.16889	socken
+sdhk:4485	Tokebo	Tokebo	harad	isof	isof:2221929	Mortorps sn	S. Möre hd	Småland	56.58917	16.085	socken
 sdhk:5534	Tollstad	Tollstad	harad	rosenberg	rosenberg:57290	Sjögestad	Valkebo	Östergötland	58.36667	15.37194	socken
 sdhk:5872	Toresta	Toresta	harad	tora	tora:21357	Låssa	Bro härad	Uppland	59.5205	17.5613	eget
 sdhk:12299	Tororp	Tororp	harad	tora	tora:4757	Klockrike	Bobergs h:d	Östergötland	58.4938	15.3403	eget
 sdhk:32983	Torpa	Torpa	harad	tora	tora:6694	Länghem	Kinds h:d	Västergötland	57.6512	13.2826	eget
 sdhk:33593	Torpa	Torpa	socken+harad	rosenberg	rosenberg:57854	Örgryte	Sävedal	Bohuslän,Västergötland	57.70291	12.00543	socken
+sdhk:30862	Torsås	Torsås	harad	isof	isof:2246024	Östra Torsås sn 	Konga hd	Småland	56.74083	14.92889	socken
+sdhk:20091	Tumbo ås	Tumbo ås	harad	isof	isof:2278664	Tumbo sn	Västerrekarne hd	Södermanland	59.42705	16.33949	socken
+sdhk:36167	Tumbo ås	Tumbo ås	harad	isof	isof:2278664	Tumbo sn	Västerrekarne hd	Södermanland	59.42705	16.33949	socken
+sdhk:37535	Tumbo ås	Tumbo ås	harad	isof	isof:2278664	Tumbo sn	Västerrekarne hd	Södermanland	59.42705	16.33949	socken
 sdhk:28721	Tumboås	Tumboås	harad	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken
 sdhk:30987	Tumboås	Tumboås	harad	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken
 sdhk:32435	Tumboås	Tumboås	harad	rosenberg	rosenberg:59126	Tumbo	Västerrekarne	Södermanland	59.42705	16.33949	socken
 sdhk:5663	Tågarp	Tågarp	harad	rosenberg	rosenberg:59591	Västra Tommarp	Skytt	Skåne	55.39833	13.1075	socken
+sdhk:23090	Vad	Vad	harad	rosenberg	rosenberg:60763	Riala	Åkers skplg	Södermanland,Uppland	59.62952	18.52318	socken
 sdhk:20537	Valsnäs	Vallsnäs	harad	rosenberg	rosenberg:61128	Södra Unnaryd	Västbo	Småland	56.955	13.53111	socken
 sdhk:28963	Vappa	Vappa	socken+harad	rosenberg	rosenberg:61270	Tillinge	Åsunda	Uppland	59.63333	16.98889	socken
+sdhk:29236	Vardede	Vardede	harad	isof	isof:2346118	Skäfthammars sn	Olands hd	Uppland	60.17222	18.195	socken
 sdhk:28244	Vedum	Vedum	harad	rosenberg	rosenberg:61552	Laske-Vedum	Laske	Västergötland	58.17194	12.99028	socken
+sdhk:17443	Viby	Viby	harad	isof	isof:2365682	Bäck sn	Vadsbo hd	Västergötland	58.69222	14.02611	socken
+sdhk:17928	Viby	Viby	harad	isof	isof:2365682	Bäck sn	Vadsbo hd	Västergötland	58.69222	14.02611	socken
 sdhk:35586	Ving	Ving	harad	tora	tora:7471	Södra Ving	Ås h:d	Västergötland	57.8378	13.2854	eget
+sdhk:29517	Vinstorp	Vinstorp	harad	isof	isof:2384138	Dalums sn	Redvägs hd	Västergötland	57.89859	13.46529	socken
+sdhk:30852	Vinstorp	Vinstorp	harad	isof	isof:2384138	Dalums sn	Redvägs hd	Västergötland	57.89859	13.46529	socken
+sdhk:34881	Vinstorp	Vinstorp	harad	isof	isof:2384138	Dalums sn	Redvägs hd	Västergötland	57.89859	13.46529	socken
+sdhk:32539	Vinzetorp	Vinzetorp	harad	isof	isof:2384116	Böne sn	Redvägs hd	Västergötland	57.8825	13.51611	socken
+sdhk:22784	Vänngarn	Vänngarn	harad	isof	isof:2411604	Sankt Olofs sn	Ärlinghundra hd	Uppland	59.61836	17.7212	socken
 sdhk:20668	Väppeby	Väppeby	harad	rosenberg	rosenberg:63796	Enköpings-Näs	Åsunda	Uppland	59.56028	17.01	socken
 sdhk:18259	Väsby	Väsby	harad	tora	tora:13810	Rö	Sjuhundra härad	Uppland	59.6912	18.3776	eget
 sdhk:20649	Väsby	Väsby	harad	tora	tora:1514	Vänge	Ulleråkers härad	Uppland	59.8542	17.4256	eget
+sdhk:19421	Västerlösa	Västerlösa	socken+harad	isof	isof:2425050	Rogslösa sn	Dals hd	Östergötland	58.38278	14.74333	socken
 sdhk:37104	Vättle härad	Wätle härad	harad	kartor	tora:		Vätle h:d				
 sdhk:21855	Vånga	Vånga	harad	rosenberg	rosenberg:58889	Norra Vånga	Skåning	Västergötland	58.2675	13.27028	socken
 sdhk:34285	Wäby	Väby	harad	tora	tora:7442	Hällstad	Ås h:d	Västergötland	57.8769	13.2969	eget
 sdhk:17502	Äpplaholm	Äpplaholm	harad	rosenberg	rosenberg:65961	Norra Sandsjö	Västra	Småland	57.46667	14.76389	socken
 sdhk:37875	Åkerby	Åkerby	harad	rosenberg	rosenberg:64676	Gårdeby	Skärkind	Östergötland	58.44528	16.0975	socken
 sdhk:37876	Åkerby	Åkerby	socken+harad	rosenberg	rosenberg:64676	Gårdeby	Skärkind	Östergötland	58.44528	16.0975	socken
+sdhk:14965	Åkers socken	Åkers socken	harad	isof	isof:2456751	Åkers sn	Åkers hd	Södermanland	59.27722	17.10278	socken
 sdhk:22348	Åkerö	Åkerö	harad	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken
 sdhk:30398	Åkerö	Åkerö	socken+harad	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken
 sdhk:32846	Åkerö	Åkerö	harad	rosenberg	rosenberg:64739	Bettna	Oppunda	Södermanland	58.91333	16.63417	socken
 sdhk:29655	Årås	Årås	harad	rosenberg	rosenberg:65209	Amnehärad	Vadsbo	Västergötland	58.99	14.08528	socken
 sdhk:44965	Ås	Ås	harad	rosenberg	rosenberg:65250	Ås	Västbo	Småland	57.10111	13.68194	socken
 sdhk:21644	Åsaka	Åsaka	harad	rosenberg	rosenberg:65305	Barne-Åsaka	Barne	Västergötland	58.14167	12.83194	socken
+sdhk:21194	Ökleta (Eklöt) ting	Økleta	harad	isof	isof:2549216	Björskogs sn	Åkerbo hd	Västmanland	59.4475	15.95711	socken
 sdhk:25850	Ölmestad	Ölmestad	harad	rosenberg	rosenberg:66604	Ölmstad	Vista	Småland	57.92917	14.375	socken
 sdhk:15117	Ön	Ön	harad	tora	tora:9882	Harbo	Våla härad	Uppland	60.0863	17.2296	eget
 sdhk:30166	Öpestorp	Öpestorp	harad	rosenberg	rosenberg:66820	Öja	Kinnevald	Småland	56.85	14.615	socken

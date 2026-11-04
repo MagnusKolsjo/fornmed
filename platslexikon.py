@@ -26,6 +26,7 @@ Användning:
 
 import argparse
 import csv
+import gzip
 import json
 import logging
 import math
@@ -42,7 +43,10 @@ from normalisering import ordform
 log = logging.getLogger("platslexikon")
 
 KATALOG = Path(__file__).parent / "data" / "raw" / "platslexikon"
+LITEN_ORT = 20
+ISOF_KATALOG = Path(__file__).parent / "data" / "raw" / "isof"
 BESLUTSFIL = Path(__file__).parent / "data" / "platser" / "lexikon_beslut.tsv"
+GRANSKNINGSFIL = Path(__file__).parent / "data" / "platser" / "brevgranskning.tsv"
 FILER = {
     "kartor.csv": "https://zenodo.org/records/15121019/files/Basic_settlement_unit_v1.0.csv?download=1",
     "kartnamn.csv": "https://zenodo.org/records/13305098/files/Place_and_personal_names_v1.1.csv?download=1",
@@ -168,6 +172,26 @@ def _enhet(namn: str | None) -> str:
     return form[:-1] if form.endswith("s") and len(form) > 4 else form
 
 
+# Isofs lokaltyper som kan vara en brevort; terräng, ägomark och vatten är det sällan
+ISOF_TYPER = {"bebyggelse", "bebyggelsenamn", "anläggning"}
+
+
+def _isof(lagg_till) -> None:
+    """Isofs ortnamn ur data/raw/isof (hamta_isof.py). Socknens koordinater räknas inte som platsens egna."""
+    sedda = set()
+    for fil in sorted(ISOF_KATALOG.glob("*.jsonl.gz")):
+        with gzip.open(fil, "rt", encoding="utf-8") as f:
+            for rad in f:
+                r = json.loads(rad)
+                if r["id"] in sedda or r.get("place_type") not in ISOF_TYPER or not r.get("parish_name"):
+                    continue
+                sedda.add(r["id"])
+                eget = r.get("geometry_source") != "Socken"
+                lagg_till(r["place_name"], "isof", f"isof:{r['id']}", r["parish_name"], r.get("district_name") or "",
+                          {r["province_name"]} if r.get("province_name") else set(),
+                          r.get("latitude") if eget else None, r.get("longitude") if eget else None)
+
+
 def las_kandidater() -> dict[str, list[dict]]:
     """Registrens platser per namnform. Samma plats ur flera källor slås ihop på socken och landskap."""
     per_namn: dict[str, dict[tuple, dict]] = defaultdict(dict)
@@ -199,6 +223,8 @@ def las_kandidater() -> dict[str, list[dict]]:
         if r["kategori"] == "bebyggelsenamn":
             lagg_till(r["namn"].strip(), "kartor", f"tora:{r['toraid']}", r["socken"], r["härad"], {r["landskap"]},
                       _tal(r["tora_wgs84_lat"]), _tal(r["tora_wgs84_long"]))
+    if ISOF_KATALOG.exists():
+        _isof(lagg_till)
     # Rosenberg säger vilket härad en församling hör till, vilket TORA ofta saknar
     harad_per_socken: dict[str, Counter] = defaultdict(Counter)
     for r in _las("rosenberg.csv"):
@@ -284,7 +310,7 @@ def _sokform(namn: str) -> str:
     return SUFFIX.sub("", re.sub(r"\s*\(.*$", "", namn)).strip()
 
 
-def utvardera(gans_km: float = 15, liten_ort: int = 20) -> None:
+def utvardera(gans_km: float = 15, liten_ort: int = LITEN_ORT) -> None:
     """Prövar reglerna på svenska orter vars läge är känt och inte är ett närmevärde.
 
     De stora städerna redovisas för sig. Ett brev från Stockholm handlar ofta om något
@@ -330,11 +356,30 @@ def utvardera(gans_km: float = 15, liten_ort: int = 20) -> None:
 
 
 def skriv_beslut() -> None:
-    """Beslut brev för brev för orter utan läge. Filen läses av platser.py."""
+    """Lägger till beslut brev för brev för orter utan läge. Filen läses av platser.py.
+
+    Fattade beslut står kvar. Databasen visar inte längre vilka orter de gäller, eftersom
+    de orterna redan har läge, och en ny körning får inte tappa dem. Orter som granskarna
+    har läst tas inte heller upp igen: det som inte placerades där lämnades medvetet.
+    """
+    kolumner = ["verk_id", "ort", "kandidat", "niva", "kalla", "ref", "socken", "harad", "landskap", "lat", "lon", "lage"]
+    befintliga: list[dict] = []
+    if BESLUTSFIL.exists():
+        with BESLUTSFIL.open(encoding="utf-8", newline="") as f:
+            befintliga = list(csv.DictReader(f, delimiter="\t"))
+    avgjorda = {r["ort"] for r in befintliga}
+    if GRANSKNINGSFIL.exists():
+        with GRANSKNINGSFIL.open(encoding="utf-8", newline="") as f:
+            avgjorda |= {r["ort"] for r in csv.DictReader(f, delimiter="\t")}
+
     kandidater, socknar = las_kandidater(), _socknar()
-    rader = []
-    for rad in _brev():
-        if rad["latitud"] is not None or rad["slag"] == "ej_plats":
+    nya = []
+    alla = _brev()
+    antal = Counter(r["plats_id"] for r in alla)
+    for rad in alla:
+        # Regeln håller på små orter; stora orters brev handlar ofta om annat håll
+        if (rad["latitud"] is not None or rad["slag"] == "ej_plats" or rad["namn"] in avgjorda
+                or antal[rad["plats_id"]] > LITEN_ORT):
             continue
         namn = _sokform(rad["namn"])
         egna = kandidater.get(ordform(namn))
@@ -346,14 +391,14 @@ def skriv_beslut() -> None:
             continue
         niva, k = beslut
         lat, lon, slag = lage(k, socknar)
-        rader.append((rad["verk_id"], rad["namn"], k["namn"], niva, k["kalla"], k["ref"], k["socken"], k["harad"],
-                      ",".join(sorted(k["landskap"])), lat or "", lon or "", slag or ""))
-    rader.sort(key=lambda r: (r[1], r[0]))
+        nya.append(dict(zip(kolumner, (rad["verk_id"], rad["namn"], k["namn"], niva, k["kalla"], k["ref"], k["socken"], k["harad"],
+                                       ",".join(sorted(k["landskap"])), lat or "", lon or "", slag or ""))))
+    rader = sorted(befintliga + nya, key=lambda r: (r["ort"], r["verk_id"]))
     with BESLUTSFIL.open("w", encoding="utf-8", newline="") as f:
-        skrivare = csv.writer(f, delimiter="\t", lineterminator="\n")
-        skrivare.writerow(["verk_id", "ort", "kandidat", "niva", "kalla", "ref", "socken", "harad", "landskap", "lat", "lon", "lage"])
+        skrivare = csv.DictWriter(f, fieldnames=kolumner, delimiter="\t", lineterminator="\n")
+        skrivare.writeheader()
         skrivare.writerows(rader)
-    log.info("%d brev på %d orter", len(rader), len({r[1] for r in rader}))
+    log.info("%d befintliga beslut, %d nya brev på %d nya orter", len(befintliga), len(nya), len({r["ort"] for r in nya}))
 
 
 def main() -> None:

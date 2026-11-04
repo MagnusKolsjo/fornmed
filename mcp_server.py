@@ -37,7 +37,7 @@ mcp = MCPServer(
     "fornmed",
     instructions=(
         "Källor till Sveriges och Nordens forntid och medeltid: medeltidsbrev ur "
-        "Riksarkivets SDHK (44 000 brev fram till 1540), runinskrifter (Rundata, "
+        "Riksarkivets SDHK (44 000 brev fram till 1540), Diplomatarium Fennicum (6 900 brev), runinskrifter (Rundata, "
         "6 800 inskrifter), landskapslagarna, Grágás, Eddorna, Heimskringla, "
         "islänningasagorna med Landnámabók och Íslendingabók, Hervarar saga, Fagrskinna, "
         "Morkinskinna, Ágrip, Knýtlinga saga, Saxo, Sven Aggesen, Erikskrönikan, "

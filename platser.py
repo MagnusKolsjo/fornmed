@@ -39,6 +39,9 @@ allmän entitet, med socknarna och Wikidatas platser som möjliga identifieringa
 I data/platser/delade_orter.json är breven fördelade brev för brev på egna
 entiteter (Viborg i Jylland och i Karelen), och breven påståenden följer med.
 
+Diplomatarium Fennicums brev kopplas med DF:s platsregister, och brev som finns i
+båda källorna kan ge en SDHK-ort dess läge.
+
 Ortfältet och regesterna ger ibland text som inte är ett platsnamn. I ortfältet
 tas ord som "trol." och "vid" bort när resten är en känd ort. En plats vars namn
 börjar med en känd ort och fortsätter med annat ("Roskilde ombud till mötet i
@@ -68,6 +71,7 @@ Användning:
 
 import argparse
 import csv
+from difflib import SequenceMatcher
 import json
 import logging
 import math
@@ -104,7 +108,7 @@ REGION = {"land", "landskap", "lan", "omrade"}
 INLEDANDE_ORD = {"norra", "södra", "östra", "västra", "övre", "nedre", "stora", "lilla", "gamla", "nya", "s:t", "s:ta", "sankt", "sankta"}
 
 # Id:n som aldrig slås upp på enbart namnet
-EJ_PA_NAMN = ("plats:runa:", "plats:socken:", "plats:kommun:", "plats:lan:", "plats:wd:", "plats:museum:")
+EJ_PA_NAMN = ("plats:runa:", "plats:socken:", "plats:kommun:", "plats:lan:", "plats:wd:", "plats:museum:", "plats:df:")
 
 # Rundata räknar Skåne, Blekinge och Halland till Danmark. Socknarna där finns i
 # RAÄ:s auktoriteter, under landskapen.
@@ -119,6 +123,10 @@ FORVARINGSFIL = KATALOG / "forvaringsplatser.tsv"
 UPPSLAGSFIL = KATALOG / "x_uppslag.tsv"
 LEXIKONFIL = KATALOG / "lexikon_beslut.tsv"
 GRANSKNINGSFIL = KATALOG / "brevgranskning.tsv"
+DF_PLATSFIL = Path(__file__).parent / "data" / "raw" / "df" / "platser.json"
+DF_KALLA = "Kansallisarkisto: Diplomatarium Fennicum, platsregistret"
+DF_GRANS_KM = 30
+DF_LAND = {"Suomi": "fi", "Ruotsi": "se", "Norja": "no", "Tanska": "dk", "Viro": "ee", "Saksa": "de"}
 KORRIGERINGSFIL = KATALOG / "platskorrigeringar.tsv"
 SAMMANSLAGNINGSFIL = KATALOG / "platssammanslagningar.tsv"
 DEL_AV_ORT = re.compile(r"^plats:sdhk:[^:]+:[^:]+$")
@@ -312,7 +320,7 @@ def rensa_ortform(plats: dict, register: Platsregister) -> None:
 
 def koppla_brev(register: Platsregister, ovanliga: Counter) -> list[tuple]:
     p = db._prefix()
-    rader = _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE utfardandeort IS NOT NULL")
+    rader = _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE kallsamling_id = 'sdhk' AND utfardandeort IS NOT NULL")
     antal = Counter(ordform(r["utfardandeort"].strip("()[]. ")) for r in rader)
     kanda = frozenset(k for k, n in antal.items() if n >= 5)
     kopplingar = {}
@@ -549,7 +557,7 @@ def rensa_platser(register: Platsregister) -> None:
         iid = f"identifiering:plats:ersatt:{pid.split(':', 1)[1].replace(':', '_')}"
         register.identifieringar[iid] = (iid, pid, ny, None, "ersatt_av")
 
-    exakta = {r["namn"].casefold() for r in _rader(f"SELECT namn FROM {p}entitet WHERE typ IN ('plats', 'indelning')")}
+    exakta = {r["namn"].casefold() for r in _rader(f"SELECT namn FROM {p}entitet WHERE typ IN ('plats', 'indelning') AND id NOT LIKE 'plats:df:%%'")}
 
     def inledande_ort(text: str, pid: str) -> str | None:
         """Orten först i "Roskilde med kapitlet": exakt namn följt av något som inte beskriver en plats."""
@@ -693,7 +701,7 @@ def lexikon_beslut(register: Platsregister, kopplingar: list[tuple]) -> list[tup
     antal = Counter(k[1] for k in kopplingar)
     namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
     namn_per_id.update({pid: rad[2] for pid, rad in register.nya.items()})
-    kallor = {"tora": "Riksarkivet: TORA",
+    kallor = {"tora": "Riksarkivet: TORA", "isof": "Isof: Ortnamnsregistret (CC BY)",
               "kartor": "Riksarkivet: Äldre geometriska kartor 1630-1655 (CC BY 4.0)",
               "rosenberg": "Riksarkivet: Rosenbergs geografiska lexikon (Public Domain Mark)"}
     # Är alla brev från en ort placerade på samma ställe behöver orten inte delas
@@ -712,7 +720,9 @@ def lexikon_beslut(register: Platsregister, kopplingar: list[tuple]) -> list[tup
         if not rad or rad["ort"] != namn_per_id.get(pid) or (register.uppgifter.get(pid, {}).get("latitud") is not None and not rattas):
             resultat.append(koppling)
             continue
-        socken = next((s for l in rad["landskap"].split(",") if (s := register.socken(l, rad["socken"]))), None)
+        # Isof skriver socknen som "Strö sn"
+        sockennamn = re.sub(r"\s+(?:sn|socken)\s*$", "", rad["socken"])
+        socken = next((s for l in rad["landskap"].split(",") if (s := register.socken(l, sockennamn))), None)
         # Står orten redan på samma socken behövs ingen egen plats för brevet
         if socken and register.uppgifter.get(pid, {}).get("socken_id") == socken["entitet_id"]:
             resultat.append(koppling)
@@ -745,6 +755,133 @@ def lexikon_beslut(register: Platsregister, kopplingar: list[tuple]) -> list[tup
             koppling = (verk_id, ny, *resten)
         resultat.append(koppling)
     return resultat
+
+
+def _km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    skala = math.cos(math.radians((lat1 + lat2) / 2))
+    return 111.2 * math.hypot(lat1 - lat2, skala * (lon1 - lon2))
+
+
+def _df_platser() -> dict[str, dict]:
+    """DF:s platsregister per ordform, utan platser utan koordinater. Namnet kan följas av ", socken"."""
+    if not DF_PLATSFIL.exists():
+        return {}
+    platser = {}
+    for rad in json.loads(DF_PLATSFIL.read_text(encoding="utf-8")):
+        if rad["lat"] is not None:
+            platser.setdefault(ordform(rad["namn"]), rad)
+    return platser
+
+
+def _df_uppgift(register: Platsregister, rad: dict) -> dict:
+    return {"nutida_namn": rad["annat_namn"] or rad["namn"], "land_id": register.land.get(DF_LAND.get(rad["land"])),
+            "latitud": rad["lat"], "longitud": rad["lon"], "kalla": DF_KALLA, "metod": "regel",
+            "anm": "Läget ur DF:s platsregister. " + (rad["precisering"] or "")}
+
+
+def _lage_for(register: Platsregister, pid: str, lagen: dict) -> tuple | None:
+    u = register.uppgifter.get(pid)
+    if u and u.get("latitud") is not None:
+        return u["latitud"], u["longitud"]
+    return lagen.get(pid)
+
+
+def _df_plats(register: Platsregister, rad: dict) -> str:
+    """DF-platsens egen entitet. DF:s koordinater är granskade och gäller den ort som avses."""
+    pid = f"plats:df:{_slug(rad['namn'])}"
+    register._ny(pid, rad["namn"], f"{rad['namn']} i Diplomatarium Fennicums platsregister")
+    register.uppgifter[pid] = _df_uppgift(register, rad)
+    return pid
+
+
+def _df_auktoritetslagen() -> dict:
+    return {r["entitet_id"]: (r["latitud"], r["longitud"]) for r in _rader(
+        f"SELECT entitet_id, latitud, longitud FROM {db._prefix()}plats_uppgift WHERE latitud IS NOT NULL AND metod = 'auktoritet'")}
+
+
+def _df_val(register: Platsregister, rad: dict, lagen: dict) -> str:
+    """En befintlig plats med namnet om den ligger nära; annars är det en annan ort och får en egen."""
+    befintlig = register.per_form.get(ordform(rad["namn"]))
+    lage = _lage_for(register, befintlig, lagen) if befintlig else None
+    if lage and _km(lage[0], lage[1], rad["lat"], rad["lon"]) <= DF_GRANS_KM:
+        return register.ersatta.get(befintlig, befintlig)
+    return _df_plats(register, rad)
+
+
+def df_orter(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
+    """SDHK-orter utan läge där samma brev i DF (FMU-numret, samma år) anger en plats med liknande namn.
+
+    Brevet är beviset, inte namnet. Pekar minst hälften av ortens brev och alla kopplade på samma
+    plats får orten läget. Annars flyttas bara de kopplade breven till DF:s plats och resten står kvar.
+    """
+    platser = _df_platser()
+    if not platser:
+        return kopplingar
+    p = db._prefix()
+    df_plats = {}
+    for r in _rader(f"SELECT utfardandeort, extra FROM {p}verk WHERE kallsamling_id = 'df' AND utfardandeort IS NOT NULL"):
+        extra = r["extra"] if isinstance(r["extra"], dict) else json.loads(r["extra"] or "{}")
+        for nr in extra.get("sdhk", []):
+            df_plats[f"sdhk:{nr}"] = r["utfardandeort"]
+    namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {p}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
+    lagen = _df_auktoritetslagen()
+    per_ort: dict[str, Counter] = {}
+    antal = Counter()
+    for verk_id, pid, *_ in kopplingar:
+        antal[pid] += 1
+        if verk_id in df_plats:
+            per_ort.setdefault(pid, Counter())[df_plats[verk_id]] += 1
+    satta, avvisade, flytt = 0, [], {}
+    for pid, namn in per_ort.items():
+        if pid in lagen or register.uppgifter.get(pid, {}).get("latitud") is not None or pid not in namn_per_id:
+            continue
+        ortnamn = namn_per_id[pid]
+        rad = platser.get(ordform(next(iter(namn))))
+        liknande = {o: platser[ordform(o)] for o in namn if ordform(o) in platser
+                    and SequenceMatcher(None, ordform(ortnamn), ordform(o)).ratio() >= 0.6}
+        # Några få brev säger inget om en ort med många: Arnö kan vara flera platser
+        if len(namn) != 1 or not rad or not liknande or sum(namn.values()) * 2 < antal[pid]:
+            for o, df_rad in liknande.items():
+                flytt[(pid, o)] = df_rad
+            if not liknande:
+                avvisade.append(f"{ortnamn}: {dict(namn)}")
+            continue
+        register.uppgifter[pid] = {**register.uppgifter.get(pid, {}), **_df_uppgift(register, rad),
+                                   "anm": f"Brev från orten anger samma plats i DF ({sum(namn.values())} via FMU-numret). Läget ur DF:s platsregister."}
+        satta += 1
+    resultat = []
+    flyttade = 0
+    for koppling in kopplingar:
+        verk_id, pid, *resten = koppling
+        if (df_rad := flytt.get((pid, df_plats.get(verk_id)))):
+            ny = _df_val(register, df_rad, lagen)
+            register.flyttade.append((verk_id, pid, ny))
+            koppling = (verk_id, ny, *resten)
+            flyttade += 1
+        resultat.append(koppling)
+    log.info("DF: %d orter fick läge genom samma brev, %d brev flyttade, %d orter avvisade: %s",
+             satta, flyttade, len(avvisade), "; ".join(avvisade[:40]))
+    return resultat
+
+
+def koppla_df(register: Platsregister) -> list[tuple]:
+    """DF-brevens utfärdandeorter. En befintlig plats används bara om den ligger nära, annars blir det en egen."""
+    platser = _df_platser()
+    p = db._prefix()
+    lagen = _df_auktoritetslagen()
+    val: dict[str, str] = {}
+    kopplingar = []
+    for r in _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE kallsamling_id = 'df' AND utfardandeort IS NOT NULL"):
+        form = ordform(r["utfardandeort"])
+        rad = platser.get(form)
+        if not rad:
+            continue
+        if form not in val:
+            val[form] = _df_val(register, rad, lagen)
+        kopplingar.append((r["id"], val[form], "utfardandeort", r["utfardandeort"], False, False))
+    log.info("DF: %d brev på %d platser, varav %d egna", len(kopplingar), len(set(val.values())),
+             sum(v.startswith("plats:df:") for v in val.values()))
+    return kopplingar
 
 
 def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
@@ -882,6 +1019,8 @@ def main() -> None:
     brev = lexikon_beslut(register, brev)
     brev = sammanslagningar(register, brev)
     brev = samma_socken(register, brev)
+    brev = df_orter(register, brev)
+    df = koppla_df(register)
     las_uppslag(register)
     arv_fran_storre(register)
     landskap_ur_lage(register)
@@ -908,7 +1047,7 @@ def main() -> None:
         cur.execute(f"DELETE FROM {p}identifiering WHERE id LIKE 'identifiering:plats:%'")
         conn.commit()
         db.upsert(conn, "verk_plats", ["verk_id", "plats_id", "roll", "namnform", "osaker", "harledd"],
-                  ["verk_id", "roll", "plats_id"], brev + runor)
+                  ["verk_id", "roll", "plats_id"], brev + runor + df)
         db.upsert(conn, "identifiering", ["id", "entitet_id", "identifierad_med", "alternativgrupp", "kommentar"], ["id"],
                   list(register.identifieringar.values()))
         db.upsert(conn, "bedomning", ["id", "identifiering_id", "aspekt", "varde", "motivering", "bedomare"], ["id"],

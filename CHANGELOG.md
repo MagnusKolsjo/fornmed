@@ -22,9 +22,19 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 - Brevorter kontrolleras mot TORA, de äldre geometriska kartorna och Rosenbergs lexikon.
   En kandidat godtas bara om den överordnade enheten stämmer med brevet, och samma
   namn delas upp brev för brev (`platslexikon.py`).
+- Diplomatarium Fennicum som källa: 6 876 brev med regester och brevtext (`hamta_df.py`,
+  `importera_df.py`). Brev som SDHK anger som FMU och som har samma år får SDHK-numret i
+  verkets uppgifter. Regester ur Auctoritate Papae tas inte med.
+- DF:s platsregister: DF-breven knyts till platser, och SDHK-orter utan läge får läget när
+  samma brev i DF anger platsen (`platser.py`). Platser som inte stämmer med befintliga
+  blir egna, eftersom registrets koordinater antas gälla den ort som avses.
+- Isofs Ortnamnsregister (CC BY) ger orter utan beslut socken och härad (`hamta_isof.py`).
+  Nya beslut läggs till och fattade beslut står kvar.
+- `data/platser/oklara_lagen.tsv`: brev vars läge ska granskas.
 
 ### Ändrat
 
+- Ekesjö är inte längre knuten till Eksjö.
 - Brevorter som bara hade kopplats på namnet är rättade där breven pekar på annan
   plats, till exempel Erikstad, som var Erikstad i Dalsland men avser Bankekind och Vittaryd.
 - Verkets platser i `/v1/verk/{id}` och `fornmed_hamta_verk`, filtret `plats` i
