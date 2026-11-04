@@ -282,7 +282,8 @@ def _socknar() -> dict[tuple[str, str], dict]:
     p = db._prefix()
     return {(r["landskap"], _enhet(r["nutida_namn"])): r for r in _rader(
         f"""SELECT u.entitet_id, u.nutida_namn, u.latitud, u.longitud, l.namn AS landskap FROM {p}plats_uppgift u
-            JOIN {p}entitet l ON l.id = u.landskap_id WHERE u.slag = 'socken'""")}
+            JOIN {p}entitet l ON l.id = u.landskap_id WHERE u.slag = 'socken'
+            ORDER BY u.metod = 'auktoritet', u.entitet_id""")}
 
 
 def lage(kandidat: dict, socknar: dict) -> tuple[float | None, float | None, str | None]:

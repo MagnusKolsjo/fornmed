@@ -123,6 +123,7 @@ FORVARINGSFIL = KATALOG / "forvaringsplatser.tsv"
 UPPSLAGSFIL = KATALOG / "x_uppslag.tsv"
 LEXIKONFIL = KATALOG / "lexikon_beslut.tsv"
 GRANSKNINGSFIL = KATALOG / "brevgranskning.tsv"
+HANVISNINGSFIL = KATALOG / "platshanvisningar.tsv"
 DF_PLATSFIL = Path(__file__).parent / "data" / "raw" / "df" / "platser.json"
 DF_KALLA = "Kansallisarkisto: Diplomatarium Fennicum, platsregistret"
 DF_GRANS_KM = 30
@@ -262,7 +263,9 @@ class Platsregister:
         self.kommuner: dict[str, tuple] = {}
         for r in _rader(f"""SELECT u.entitet_id, u.slag, u.nutida_namn, u.kommun_id, u.lan_id, u.land_id, u.landskap_id, u.latitud, u.longitud, l.namn AS landskap
                              FROM {db._prefix()}plats_uppgift u LEFT JOIN {db._prefix()}entitet l ON l.id = u.landskap_id
-                             WHERE u.slag IN ('socken', 'kommun')"""):
+                             WHERE u.slag IN ('socken', 'kommun')
+                             ORDER BY u.metod = 'auktoritet', u.entitet_id"""):
+            # Finns socknen också som brevort går auktoriteten före; ordningen håller id:n stabila
             if r["slag"] == "socken":
                 self.socknar[(r["landskap"], ordform(r["nutida_namn"]))] = r
             else:
@@ -884,6 +887,16 @@ def koppla_df(register: Platsregister) -> list[tuple]:
     return kopplingar
 
 
+def platshanvisningar(register: Platsregister) -> None:
+    """Publicerade id som har ersatts. De får aldrig sluta fungera, så de hänvisar till det nya."""
+    with HANVISNINGSFIL.open(encoding="utf-8", newline="") as f:
+        for rad in csv.DictReader(f, delimiter="\t"):
+            gammal, ny = rad["gammalt_id"], rad["nytt_id"]
+            register.ersatta[gammal] = ny
+            iid = f"identifiering:plats:ersatt:{gammal.split(':', 1)[1].replace(':', '_')}"
+            register.identifieringar[iid] = (iid, gammal, ny, None, "ersatt_av")
+
+
 def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
     """Samma plats under två namn: "Erikstad i Bankekinds härad" och "Erikstad (Bankekind)". Det gamla id:t hänvisar vidare."""
     namn_till_id = {r["namn"]: r["id"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
@@ -1020,6 +1033,7 @@ def main() -> None:
     brev = sammanslagningar(register, brev)
     brev = samma_socken(register, brev)
     brev = df_orter(register, brev)
+    platshanvisningar(register)
     df = koppla_df(register)
     las_uppslag(register)
     arv_fran_storre(register)

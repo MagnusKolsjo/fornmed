@@ -35,6 +35,8 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 ### Ändrat
 
 - Ekesjö är inte längre knuten till Eksjö.
+- Socknarna läses i fast ordning, så att samma körning alltid ger samma läge och id. 63 tidigare
+  publicerade plats-id hänvisar till sina nya (`data/platser/platshanvisningar.tsv`).
 - Brevorter som bara hade kopplats på namnet är rättade där breven pekar på annan
   plats, till exempel Erikstad, som var Erikstad i Dalsland men avser Bankekind och Vittaryd.
 - Verkets platser i `/v1/verk/{id}` och `fornmed_hamta_verk`, filtret `plats` i
