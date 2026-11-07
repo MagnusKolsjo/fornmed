@@ -25,6 +25,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import db
+import sdhk_akthet
 
 log = logging.getLogger("importera_sdhk")
 
@@ -89,7 +90,6 @@ SPRAKKODER = [
     ("italiensk", "ita"),
 ]
 
-FORFALSKNING = re.compile(r"[^.;]*förfalsk[^.;]*", re.IGNORECASE)
 
 
 def las_csv(sokvag: Path) -> list[dict]:
@@ -196,7 +196,7 @@ def dela_referenser(falt: str) -> list[str]:
 
 def bygg_rader(poster: list[dict]) -> dict[str, list[tuple]]:
     """Omvandlar CSV-poster till rader per tabell."""
-    rader = {t: [] for t in ("sdhk_brev", "verk", "utgava", "vittne", "passage", "bedomning")}
+    rader = {t: [] for t in ("sdhk_brev", "verk", "utgava", "vittne", "passage")}
 
     for post in poster:
         rad = {KOLUMNER[k]: (v.strip() or None) for k, v in post.items()}
@@ -237,21 +237,6 @@ def bygg_rader(poster: list[dict]) -> dict[str, list[tuple]]:
                 sprak[0] if len(sprak) == 1 else None, rad["edition"],
             ))
 
-        # SDHK:s egna anmärkningar om förfalskning registreras som en
-        # bedömning av verkets äkthet, så att de syns i samma struktur som
-        # forskningens övriga omdömen. Värdet sätts försiktigt till 'misstankt'
-        # eftersom anmärkningarna ofta är frågande.
-        traffar = []
-        for falt in ("regest", "kommentar", "original", "medeltida_avskrift", "eftermedeltida_avskrift"):
-            traffar += [t.strip() for t in FORFALSKNING.findall(rad[falt] or "")]
-        if traffar:
-            rader["bedomning"].append((
-                f"{verk_id}:akthet:sdhk", verk_id, "akthet", "misstankt", "medel",
-                "Svenskt Diplomatarium (SDHK)", "SDHK-registret, Riksarkivet",
-                "Härlett ur SDHK:s anmärkningar: " + " | ".join(dict.fromkeys(traffar)),
-                "importera_sdhk.py",
-            ))
-
     return rader
 
 
@@ -275,11 +260,11 @@ def importera(poster: list[dict], version: str) -> None:
         db.upsert(conn, "passage",
                   ["id", "verk_id", "utgava_id", "typ", "adress", "ordning", "sprak", "text"],
                   ["id"], rader["passage"])
-        db.upsert(conn, "bedomning",
-                  ["id", "verk_id", "aspekt", "varde", "sakerhet", "bedomare", "publikation",
-                   "motivering", "registrerad_av"], ["id"], rader["bedomning"])
     finally:
         conn.close()
+    # Äkthetsbedömningarna kommer ur den granskade listan (sdhk_akthet.py),
+    # som läses när breven och vittnena finns i databasen
+    log.info("Äkthetsbedömningar: %(borttagna)d borttagna, %(inlasta)d inlästa", sdhk_akthet.las_in())
 
     for tabell, lista in rader.items():
         log.info("%-10s %7d rader", tabell, len(lista))

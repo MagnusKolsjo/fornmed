@@ -249,8 +249,18 @@ ny ögonblicksbild. Råposterna sparas oförändrade i `sdhk_brev`; ur dem byggs
 - `vittne` för original, avskrifter, registraturer, fotokopior och faksimil,
 - `utgava` för tryckreferenser,
 - `passage` för regesten (modern svenska) och, där den finns, editionstexten,
-- en `bedomning` av äktheten för brev där SDHK:s anmärkningar nämner
-  förfalskning (värdet sätts till `misstankt`).
+- `bedomning`ar av äktheten (`sdhk_akthet.py`): förfalskning, misstänkt förfalskning,
+  interpolerad eller äkta, med SDHK:s formulering som motivering.
+
+Äkthetsbedömningarna kommer ur den granskade listan `data/sdhk/akthet_granskning.tsv`,
+eftersom SDHK:s anmärkningar också nämner förfalskning i andra sammanhang (ett annat
+brev, ett mål om förfalskade brev, litteratur om Nils Rabenius). Där forskare är oense
+står båda bedömningarna. Listan är tolkad av en språkmodell och ogranskad av människa.
+För brev utanför listan används bara SDHK:s klassificering i datumfältet och "med
+Rabenius interpol."; `python sdhk_akthet.py --kandidater` visar brev att granska.
+Per-Axel Wiktorssons utslag i *Falskt eller äkta: i brev från Sveriges medeltid* (Skara 2026) läses in
+ur `data/sdhk/akthet_wiktorsson.tsv` som en egen bedömare med brevets nummer och sida i boken.
+Se `rapporter/akthet_sdhk.md`.
 
 Fulltextsökning: PostgreSQL indexerar regester både med och utan svensk
 stemming, och originaltext utan; SQLite använder FTS5 (`passage_fts`).

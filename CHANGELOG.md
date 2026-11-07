@@ -57,9 +57,17 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   platsens namn, platsens id, passagen och verket, och namnformerna har verket.
 - `sok.Filter` har tidsaxel, källsamling, plats, platsroll, objekttyp, undertyp och
   kartruta; `/v1/sok` och `fornmed_sok` fungerar som förut.
+- Per-Axel Wiktorssons utslag i *Falskt eller äkta: i brev från Sveriges medeltid* (Skara 2026)
+  för 162 SDHK-brev, som egen bedömare med brevets nummer i boken
+  (`data/sdhk/akthet_wiktorsson.tsv`).
 
 ### Ändrat
 
+- SDHK:s äkthetsbedömningar kommer ur en granskad lista (`data/sdhk/akthet_granskning.tsv`,
+  `sdhk_akthet.py`) i stället för en ordregel: 20 brev som inte är misstänkta har inte längre
+  någon bedömning, 44 brev har fått den de saknade, värdena skiljer förfalskning, misstänkt
+  förfalskning och interpolation, och tre brev redovisas som omstridda med båda
+  ståndpunkterna. Motiveringarna är inte längre avkapade. Se `rapporter/akthet_sdhk.md`.
 - Ekesjö är inte längre knuten till Eksjö.
 - Socknarna läses i fast ordning, så att samma körning alltid ger samma läge och id. 63 tidigare
   publicerade plats-id hänvisar till sina nya (`data/platser/platshanvisningar.tsv`).
