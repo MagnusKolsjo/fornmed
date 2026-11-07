@@ -7,6 +7,12 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Brevväxling i DI: svar känns igen i rubrikerna, och tre DI-svar är kopplade till det
+  besvarade brevet (Henrik VI:s svar till Kristoffer av Bayern, biskop Gizurs svar till
+  Jón Arason, biskop Hákons kvittens på Auðfinns brev). Ett DN-svar kopplas till ett brev i
+  DI. Hänvisningar mellan DN- och DI-brev räknas, och en biskop utan säte i DN eller DI slås
+  inte längre upp bland de svenska biskoparna.
+
 - Påståenden ur Diplomatarium Islandicums rubriker (`di_regester.py`): utfärdare, ämbeten,
   gärningar och missivens adressater, 2 516 påståenden. Isländska namn i genitiv och dativ
   skrivs om till nominativ. DI läses i ett eget steg efter DN.

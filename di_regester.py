@@ -76,11 +76,11 @@ VERB_DI = {
     "veitir": "forlaner", "leggr": "missiv", "leggur": "missiv", "skrifar": "missiv", "biðr": "missiv", "biður": "missiv",
     "býðr": "missiv", "býður": "missiv", "bannar": "missiv", "sendir": "missiv", "tilkynnir": "missiv",
     "svarar": "missiv", "þakkar": "missiv", "áminnir": "missiv", "skipar fyrir": "missiv", "fyrirbýðr": "missiv",
-    "leyfir": "missiv", "kærir": "missiv", "samþykkir": "kungor", "setr": "kungor", "setur": "kungor",
+    "leyfir": "missiv", "kærir": "missiv", "tjáir": "missiv", "tilkynnir": "missiv", "ritar": "missiv", "samþykkir": "kungor", "setr": "kungor", "setur": "kungor",
 }
 PREDIKAT = {"stadfaster", "saljer", "skanker", "domer", "utnamner", "upplater", "forlaner", "testamenterar", "overlater"}
 _VERB = re.compile(r"\s(" + "|".join(sorted(VERB_DI, key=len, reverse=True)) + r")\b")
-DOKUMENT = re.compile(r"^(?:Bréf|Bréfságrip|Ágrip af bréfi|Bannsakabréf|Bannsbréf|Gjafabréf|Prófentubréf|Leyfisbréf|"
+DOKUMENT = re.compile(r"^(?:Umkvörtun|Umkvörtunarbréf|Kvörtun|Bréf|Bréfságrip|Ágrip af bréfi|Bannsakabréf|Bannsbréf|Gjafabréf|Prófentubréf|Leyfisbréf|"
                       r"Verndarbréf|Umboðsbréf|Kvittunarbréf|Kvittun|Kvittan|Skipan|Úrskurðr|Dómr|Lögfesta|Lýsing|"
                       r"Vitnisburðr|Vitnisburðarbréf|Testamentisbréf|Testamenti|Erfðaskrá|Konungsbréf|Svar|Afsalsbréf|"
                       r"Forboðunarbréf|Skipunarbréf|Veitingarbréf|Staðfesting|Samþykkt|Yfirlýsing|Kæra|Kærubréf|"
@@ -130,8 +130,15 @@ def svensk_form(led: str, genitiv: bool, dativ: bool = False) -> str:
     return " och ".join(f for f in former if f)
 
 
+# Stadsråd som sammansättning: "Hamborgarráðs", "Lýbikuráð"
+STADSRAD = re.compile(r"^(?P<ort>[A-ZÁÉÍÓÚÝÞÆÖ][\wáéíóúýþæöð]+?)(?:ar)?ráð(?:s|i|ið|sins)?$")
+STAD = {"hamborg": "Hamburg", "lýbiku": "Lübeck", "lýbik": "Lübeck", "brima": "Bremen", "danzig": "Danzig"}
+
+
 def _en_person(led: str, genitiv: bool) -> str:
     """En person ur rubriken i SDHK:s form: titel först, namnen i nominativ."""
+    if (m := STADSRAD.match(led.strip())):
+        return f"Rådet i {STAD.get(m.group('ort').lower(), m.group('ort'))}"
     ord_ = re.findall(r"\(?[\wáéíóúýþæöðÁÉÍÓÚÝÞÆÖÐ.'-]+\)?", led)
     titlar, namn, orter = [], [], []
     kung = False
@@ -202,8 +209,18 @@ def tolka(rubrik: str) -> DiTolkning | None:
     if (m := re.match(r"^(?:Bréf|Sendibréf|Bréfságrip)\s+sama\s+til\s+(?P<adr>.+?)" + _LED_SLUT.replace("til|", ""), r)):
         adr = svensk_form(m.group("adr"), genitiv=True) or None
         return DiTolkning(None, None, Brevform(adr, False, None, None, []), False, True)
-    svar = bool(re.match(r"^Svar\b|.*\bsvarbréf", r, re.I))
-    nummer = [("egen", int(n)) for n in NUMMER_DI.findall(r)] if svar else []
+    # Svar: "Svar Hansakaupmanna upp á Nr. 23", "er það svar við beiðni þeirra", "út af næsta
+    # bréfi hér á undan", "kannast við að hafa feingið Nr. 347"
+    # "út af næsta bréfi" (med anledning av) gör inte brevet till ett svar till dess avsändare
+    foregaende = bool(re.search(r"\b(?:upp á|við)\s+næsta\s+bréf\w*\s+(?:hér\s+)?á\s+undan|"
+                                r"\b(?:við|upp á)\s+(?:því|það)\s+bréf", r))
+    mottagit = bool(re.search(r"\b(?:feingið|fengið|meðtekið|tekið við|móttekið)\s+(?:bréf\w*\s+)?Nr\.", r))
+    svar = bool(re.match(r"^Svar\b", r) or re.search(r"\bsvarbréf|\bsvar við\b|\bsvarar\b", r, re.I)) or foregaende or mottagit
+    # "upp á Nr. 689", "feingið Nr. 347": numret är det besvarade brevet, inte bara ett omnämnt
+    uttryckligt = {int(n) for n in re.findall(r"\b(?:upp á|feingið|fengið|meðtekið|móttekið|við)\s+(?:bréf\w*\s+)?Nr\.?\s*(\d+)", r)}
+    nummer = [("egen_svar" if int(n) in uttryckligt else "egen", int(n)) for n in NUMMER_DI.findall(r)] if svar else []
+    if foregaende:
+        nummer.append(("foregaende", 0))
     # Dokumenttypen följd av utfärdaren i genitiv
     if (d := DOKUMENT.match(r)):
         resten = d.group("resten")

@@ -946,7 +946,14 @@ Namnen skrivs om till nominativ med enkla regler för fornisländskans böjning 
 titlarna till SDHK:s svenska; regenternas namn till regentlistans ("Kristjáns konungs" →
 "Kung Kristian"). "Bréf sama til sama" får föregående brevs utfärdare och adressat.
 Rubriker som "Kaupbréf um …" och "Máldagi …" nämner ingen utfärdare och ger inga
-påståenden. DI:s orter står i dativ och blir inga nya platser. Reglerna är grova, och ett
+påståenden. DI:s orter står i dativ och blir inga nya platser.
+
+Svar i DI känns igen på "Svar …", "svar við", "kannast við að hafa feingið Nr. 347" och
+"við því bréfi" (svar på föregående brev i bandet). "Svar Henriks Einglakonungs upp á Nr.
+689" och "feingið Nr. 347" anger själva det besvarade brevet, och kopplingen är då säker
+även när parterna inte går att identifiera. "út af næsta bréfi" (med anledning av
+föregående brev) räknas inte som ett svar. En biskop utan säte i DN eller DI slås inte upp
+i biskopslistan, som bara har de svenska och finska stiften. Reglerna är grova, och ett
 namn de inte känner igen behåller sin form.
 
 ### Adressater och svar

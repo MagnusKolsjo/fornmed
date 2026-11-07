@@ -1678,7 +1678,7 @@ def bygg(conn) -> dict:
     brev = hamta_brev(conn)
     fornamn = kanda_fornamn(brev)
     cur = conn.cursor()
-    cur.execute(f"SELECT id FROM {db._prefix()}verk WHERE kallsamling_id IN ('sdhk', 'df')")
+    cur.execute(f"SELECT id FROM {db._prefix()}verk WHERE kallsamling_id IN ('sdhk', 'df', 'dn', 'di')")
     alla_brev = {rad[0] for rad in cur.fetchall()}
     # DF-brev som är samma brev som ett SDHK-brev läses ur SDHK; en hänvisning till DF-numret
     # ("se FMU 1823") gäller då SDHK-brevet
@@ -1698,6 +1698,7 @@ def bygg(conn) -> dict:
     garningar: dict[str, Garning] = {}
     brevformer: dict[str, Brevform] = {}
     di_foregaende: dict[str, tuple[str | None, str | None]] = {}
+    di_foregaende_verk: dict[str, str] = {}
     regesttexter: dict[str, str] = {}
 
     def koppla(f: Forekomst) -> None:
@@ -1724,7 +1725,9 @@ def bygg(conn) -> dict:
                 f.entitet = lokalt_id(verk, f"{u.titel} {u.fornamn or u.form}") + suffix + \
                     (f"-{nr_i_brev + 1}" if nr_i_brev else "")
                 f.orsak = ident.grund
-        elif (biskop := _biskopsambete(u, regenter.saten)):
+        elif (biskop := _biskopsambete(u, regenter.saten)) and not (biskop[1] is None and verk.startswith(("dn:", "di:"))):
+            # I DN och DI är en biskop utan säte oftast norsk eller isländsk; biskopslistan har
+            # bara de svenska och finska stiften, så han slås inte upp där
             # Biskopar slås upp i biskopslistan med sätet i rikets ställe;
             # utan träff klustras de som andra personer
             kod, sate = biskop
@@ -1753,6 +1756,13 @@ def bygg(conn) -> dict:
         if verk.startswith("di:"):
             band = verk.split(":")[1]
             foregaende = di_foregaende.get(band, (None, None))
+            # "út af næsta bréfi hér á undan": hänvisningen gäller föregående brev i bandet
+            if dit and dit.brevform and any(k == "foregaende" for k, _ in dit.brevform.nummer):
+                nummer = [(k, n) for k, n in dit.brevform.nummer if k != "foregaende"]
+                if band in di_foregaende_verk:
+                    nummer.append(("verk", di_foregaende_verk[band]))
+                dit = replace(dit, brevform=replace(dit.brevform, nummer=nummer))
+            di_foregaende_verk[band] = verk
             if dit and dit.sama:
                 # "Bréf sama til sama": föregående brevs utfärdare och adressat
                 dit = replace(dit, utfardare=foregaende[0], brevform=Brevform(foregaende[1], False, None, None, []))
@@ -2004,14 +2014,19 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
         # SDHK nr 32644")
         numrerade = []
         for kalla, nr in bf.nummer:
-            if kalla == "egen":
+            if kalla == "verk":
+                c = nr
+            elif kalla in ("egen", "egen_svar"):
                 # DN och DI numrerar inom bandet: "Nr. 23" i DI 10 är di:10:23
                 delar = r.split(":")
                 c = f"{delar[0]}:{delar[1]}:{nr}" if len(delar) == 3 else f"{delar[0]}:{nr}"
             else:
                 c = f"{kalla}:{nr}"
             c = resultat["tvillingar"].get(c, c)
-            if c != r and c in resultat["alla_brev"] and c in datering and (parter(c, r)[0] or parter(c, r)[1]):
+            # "Svar … upp á Nr. 689": utgivaren anger själv det besvarade brevet, och parterna behöver
+            # inte gå att identifiera
+            if c != r and c in resultat["alla_brev"] and c in datering and \
+                    (kalla in ("egen_svar", "verk") or parter(c, r)[0] or parter(c, r)[1]):
                 numrerade.append(c)
         if len(set(numrerade)) == 1:
             ut[r] = (numrerade[0], "saker", f"Regesten hänvisar själv till det besvarade brevet ({numrerade[0]}), "
