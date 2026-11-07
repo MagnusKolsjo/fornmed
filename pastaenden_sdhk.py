@@ -1046,8 +1046,11 @@ def _sla_ihop_slaktnamn(personer: list[dict]) -> list[dict]:
     return list(grupper.values())
 
 
-# Största uppehåll när en gemensam medaktör får två personer med samma namn att slås ihop
+# Största avstånd mellan de två brev där en gemensam medaktör förekommer, och mellan de
+# två personerna, när medaktören får två personer med samma namn att slås ihop
 MAX_GAP_MEDAKTOR_AR = 5
+# Största spann för en person som bara är känd genom namn och medaktörer, utan ort eller ämbete
+MAX_SPANN_NAMN_AR = 40
 
 
 def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
@@ -1056,9 +1059,13 @@ def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
     och ämbete, när de har en gemensam medaktör: en annan brevperson som förekommer både
     i den enas och i den andras brev ("Knut Arnbjörnsson" i SDHK 2516 och 2517, 1312,
     med samma medutfärdare). Det gäller också patronymikon, eftersom medaktören och
-    tiden tillsammans pekar ut personen där namnet inte gör det. Breven ska ligga högst
-    MAX_GAP_MEDAKTOR_AR år från varandra, den andra personen ska vara den enda med namnet
-    som har en gemensam medaktör, och personer i samma brev hålls isär.
+    tiden tillsammans pekar ut personen där namnet inte gör det.
+
+    Tidsfönstret gäller två gånger: de två brev där medaktören förekommer ska ligga högst
+    MAX_GAP_MEDAKTOR_AR år från varandra, och personerna själva lika nära. Den
+    sammanslagna personen får spänna över högst MAX_SPANN_AR år, eller MAX_SPANN_NAMN_AR
+    när ingen av sidorna har ort eller ämbete. Den andra personen ska vara den enda med
+    namnet som har en gemensam medaktör, och personer i samma brev hålls isär.
 
     Regenter, påvar, biskopar och institutioner räknas inte som medaktörer: kung Karl och
     rådet i Stockholm förekommer i så många brev att de inte skiljer två namnar åt.
@@ -1080,7 +1087,24 @@ def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
     def medaktor(j: int):
         return uppg[j][0] or ("person", j)
 
-    medaktorer = [{medaktor(j) for v in brev[i] for j in per_brev[v] if j != i} for i in range(len(personer))]
+    # Medaktören räknas med brevets år, så att belägget gäller två brev nära i tid och
+    # inte bara två personer vars spann råkar mötas
+    brevar = {f.verk: f.ar[0] for p in personer for f in p["forekomster"] if f.ar}
+    medaktorer: list[dict] = []
+    for i in range(len(personer)):
+        m: dict = defaultdict(set)
+        for v in brev[i]:
+            if v in brevar:
+                for j in per_brev[v]:
+                    if j != i:
+                        m[medaktor(j)].add(brevar[v])
+        medaktorer.append(m)
+
+    def gemensam(i: int, j: int, namn: str) -> bool:
+        utom = {medaktor(i), medaktor(j), namn}
+        return any(k not in utom and k in medaktorer[j] and
+                   min(abs(x - y) for x in ar_i for y in medaktorer[j][k]) <= MAX_GAP_MEDAKTOR_AR
+                   for k, ar_i in medaktorer[i].items())
     per_namn: dict[str, list[int]] = defaultdict(list)
     for i, (namn, spann, _, _) in enumerate(uppg):
         if namn and spann:
@@ -1096,6 +1120,7 @@ def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
 
     spann_rot = {i: u[1] for i, u in enumerate(uppg)}
     brev_rot = {i: set(b) for i, b in enumerate(brev)}
+    nyck_rot = {i: bool(u[2]) for i, u in enumerate(uppg)}
     for namn, lista in sorted(per_namn.items()):
         if len(lista) < 2:
             continue
@@ -1104,15 +1129,18 @@ def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
                 continue
             kandidater = [j for j in lista if j != i and not (brev[i] & brev[j])
                           and _gap(uppg[i][1], uppg[j][1]) <= MAX_GAP_MEDAKTOR_AR
-                          and (medaktorer[i] - {medaktor(j), namn}) & (medaktorer[j] - {medaktor(i), namn})]
+                          and gemensam(i, j, namn)]
             if len(kandidater) != 1:
                 continue
             a, b = rot(i), rot(kandidater[0])
-            if a == b or brev_rot[a] & brev_rot[b] or _spann(spann_rot[a], spann_rot[b]) > MAX_SPANN_AR:
+            # Utan ort eller ämbete på någon sida vilar personen bara på namn och medaktörer
+            tak = MAX_SPANN_AR if nyck_rot[a] or nyck_rot[b] else MAX_SPANN_NAMN_AR
+            if a == b or brev_rot[a] & brev_rot[b] or _spann(spann_rot[a], spann_rot[b]) > tak:
                 continue
             forald[a] = b
             spann_rot[b] = (min(spann_rot[a][0], spann_rot[b][0]), max(spann_rot[a][1], spann_rot[b][1]))
             brev_rot[b] |= brev_rot[a]
+            nyck_rot[b] |= nyck_rot[a]
 
     grupper: dict[int, dict] = {}
     for i, p in enumerate(personer):

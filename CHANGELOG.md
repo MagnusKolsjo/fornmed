@@ -11,7 +11,8 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   nu till ett annat), och 2 551 personer med samma patronymikon inom tio år har fått en
   möjlig identifiering med varandra i stället för att slås ihop.
 - Namnar där minst den ena saknar ort och ämbete slås ihop när de har en gemensam
-  medaktör inom fem år (ytterligare 641 id:n hänvisar nu till ett annat).
+  medaktör i två brev högst fem år isär, och den sammanslagna personen spänner över högst
+  60 år (40 utan ort och ämbete). 615 id:n hänvisar därmed till ett annat.
 
 - `platsdubletter.py` och `data/platser/platsdubletter.tsv`: 217 platser som fanns under
   två id:n (brevort och fyndplats, brevens socken och RAÄ:s, olika stavningar) hänvisar

@@ -863,12 +863,14 @@ hänvisar till det nya, som andra ersatta id:n.
 
 Två personer med samma förnamn och efternamn, varav minst den ena saknar ort och
 ämbete, slås också ihop när de har en gemensam medaktör: en annan brevperson med
-samma namn i båda personernas brev, högst fem år isär ("Knut Arnbjörnsson" i SDHK
-2516 och 2517 med samma medutfärdare). Det gäller också patronymikon. Kandidaten ska
+samma namn i båda personernas brev ("Knut Arnbjörnsson" i SDHK 2516 och 2517 med
+samma medutfärdare). Tidsfönstret gäller både de två brev där medaktören förekommer
+och personerna själva: högst fem år isär. Den sammanslagna personen får spänna över
+högst 60 år, och högst 40 när ingen sida har ort eller ämbete. Det gäller också patronymikon. Kandidaten ska
 vara den enda med en gemensam medaktör, och regenter, påvar, biskopar och
 institutioner räknas inte, eftersom de förekommer i alltför många brev. Regeln prövades
 genom att gömma en förekomst hos personer som redan var sammanslagna på ort eller
-ämbete och låta medaktören föra tillbaka den: 93 procent hamnade rätt, och de flesta
+ämbete och låta medaktören föra tillbaka den: 95 procent hamnade rätt, och de flesta
 andra hos en namne som är samma person men som klustringen hållit isär (drotsen Bo
 Jonsson, jarlen Erengisle Sunesson). Brevort ensam gav 87 procent och används inte.
 

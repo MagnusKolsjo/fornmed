@@ -1469,7 +1469,7 @@ F	11369:broder bertold	person:sdhk:bertold:11369
 F	1136:kung magnus av sverige	person:magnus_ladulas
 F	11371:jöns skyte i ekornarp	person:sdhk:jons_skyte:11371
 F	11373:bengt pijk	person:sdhk:bengt_pijk:11373
-F	11374:bo jonson	person:sdhk:bo_jonson:8911
+F	11374:bo jonson	person:sdhk:bo_jonson:11374-2
 F	11374:hustru katarina	person:sdhk:katarina:11374
 F	11374:sjunde i västervik	person:sdhk:sjunde_ragvaldson:9713
 F	11375:bo jonson	person:sdhk:bo_jonson:11375
@@ -2811,7 +2811,7 @@ F	12391:lars björnson (balk)	person:sdhk:lars_bjornson:12391
 F	12392:olof filipson	person:sdhk:olof_filipson:12392
 F	12393:ärkebiskop magnus i lund	person:magnus_nielsen_lund
 F	12394:ärkebiskop magnus i lund	person:magnus_nielsen_lund
-F	12395:bo jonson	person:sdhk:bo_jonson:8911
+F	12395:bo jonson	person:sdhk:bo_jonson:12395-2
 F	12395:erik valdemarson	person:sdhk:erik_valdemarson:12395
 F	12396:ridaren andreas martini	person:sdhk:andreas_martini:12396
 F	12397:ärkebiskop magnus i lund	person:magnus_nielsen_lund
@@ -6031,7 +6031,7 @@ F	1512:kaniken stenar i linköping	person:sdhk:stenar:1512
 F	15130:hans vridze	person:sdhk:hans_vridze:15130
 F	15131:heming larson	person:sdhk:heming_larson:15131
 F	15132:ketil nilson i bråhovde	person:sdhk:ketil_nilson:11712
-F	15133:erengisle nilson	person:sdhk:erengisle_nilson:15133
+F	15133:erengisle nilson	person:sdhk:erengisle_nilson:13656
 F	15133:sten bengtson	person:sdhk:sten_bengtson:15133
 F	15134:eringisle nilson	person:sdhk:eringisle_nilson:12791
 F	15134:sten bengtson	person:sdhk:sten_bengtson:8681
@@ -6586,7 +6586,7 @@ F	15586:påven bonifatius ix	person:pave_bonifatius_ix
 F	15587:påven bonifatius ix	person:pave_bonifatius_ix
 F	15588:peter magnuson	person:sdhk:peter_magnuson:15588
 F	15589:cecilia petersdoter	person:sdhk:cecilia_petersdoter:15589
-F	15590:bengt magnuson	person:sdhk:bengt_magnuson:15590
+F	15590:bengt magnuson	person:sdhk:bengt_magnuson:10293
 F	15590:nils birgerson	person:sdhk:nils_birgerson:14020
 F	15591:ridaren knut boson	person:sdhk:knut_boson:15148
 F	15592:lagmansdomhavande peter tomason	person:sdhk:peter_tomason:9846
@@ -6797,7 +6797,7 @@ F	15787:ridaren sten bengtson	person:sdhk:sten_bengtson:8681
 F	15788:karl styrkarson	person:sdhk:karl_styrkarson:15788
 F	15789:ridaren gert snakenborg	person:sdhk:gert_snakenborg:13394
 F	15790:olof svenson	person:sdhk:olof_svenson:15790
-F	15791:karl magnuson	person:sdhk:karl_magnuson:15505
+F	15791:karl magnuson	person:sdhk:karl_magnuson:15791-2
 F	15791:rd magnus sture	person:sdhk:magnus_sture:8046
 F	15792:lindorm jönson	person:sdhk:lindorm_jonson:15792
 F	15793:nils	person:sdhk:nils_tordson:15793
@@ -8517,7 +8517,7 @@ F	17323:katarina	person:sdhk:katarina:17323
 F	17324:nils erengisleson	person:sdhk:nils_erengisleson:17225
 F	17324:sten boson	person:sdhk:sten_boson:16243
 F	17325:tord bonde	person:sdhk:tord_bonde:17325
-F	17325:ture bengtson	person:sdhk:ture_bengtson:17325
+F	17325:ture bengtson	person:sdhk:ture_bengtson:17148
 F	17326:nils erengisleson	person:sdhk:nils_erengisleson:17225
 F	17326:sten boson	person:sdhk:sten_boson:16243
 F	17327:nils erengisleson	person:sdhk:nils_erengisleson:17225
@@ -9293,7 +9293,7 @@ F	1796:kung erik av danmark	person:erik_menved
 F	17970:fru helena av lindö	person:sdhk:helena:17970
 F	17970:karl ormson	person:sdhk:karl_ormson:17970
 F	17970:knut bengtson	person:sdhk:knut_bengtson:17970
-F	17970:mats ödgisleson	person:sdhk:mats_odgisleson:15288
+F	17970:mats ödgisleson	person:sdhk:mats_odgisleson:17970-2
 F	17971:tyrgils bage	person:sdhk:tyrgils_bage:17971
 F	17972:sune murare i vadstena	person:sdhk:sune_murare:17972
 F	17973:bengta jonsdoter	person:sdhk:bengta_jonsdoter:17973
@@ -9987,7 +9987,7 @@ F	1847:lars i linköping	person:lars_albrektsson_linkoping
 F	18480:karl odson	person:sdhk:karl_odson:18480
 F	18481:filip bonde	person:sdhk:filip_bonde:15675
 F	18481:johan gäda	person:sdhk:johan_gada:22525
-F	18481:knut stenson	person:sdhk:knut_stenson:18108
+F	18481:knut stenson	person:sdhk:knut_stenson:18481-2
 F	18482:borgmästare och råd i norköping	institution:sdhk:radet_i_norkoping
 F	18483:nils gutormson	person:sdhk:nils_gutormson:18483
 F	18483:torsten simonson	person:sdhk:torsten_simonson:18210
@@ -11430,7 +11430,7 @@ F	19682:halsten ingevaldson	person:sdhk:halsten_ingevaldson:19682
 F	19683:greger suneson	person:sdhk:greger_suneson:19683
 F	19684:birger trole	person:sdhk:birger_trole:19684
 F	19684:karl magnuson (oxpana)	person:sdhk:karl_magnuson:18585
-F	19685:birger trole	person:sdhk:birger_trole:19685
+F	19685:birger trole	person:sdhk:birger_trole:19684
 F	19685:karl magnuson	person:sdhk:karl_magnuson:18585
 F	19686:hustru katarina petersdoter	person:sdhk:katarina_petersdoter:19686
 F	19686:valborg olofsdoter	person:sdhk:valborg_olofsdoter:19686
@@ -12330,7 +12330,7 @@ F	20413:nils matson	person:sdhk:nils_matson:20413
 F	20414:birger olofson	person:sdhk:birger_olofson:20414
 F	20414:harald olofson	person:sdhk:harald_olofson:20414
 F	20414:karl erikson	person:sdhk:karl_erikson:20414
-F	20414:nils matson	person:sdhk:nils_matson:17081
+F	20414:nils matson	person:sdhk:nils_matson:20414-2
 F	20415:sten tureson	person:sdhk:sten_tureson:20415
 F	20418:ingemund klenasmismag (klensmedsmåg)	person:sdhk:ingemund_klenasmismag_klensmedsmag:20418
 F	20419:marget larsdoter	person:sdhk:marget_larsdoter:20419
@@ -12862,11 +12862,11 @@ F	2085:hertig erik	person:erik_magnusson_hertig
 F	20860:anders pederson	person:sdhk:anders_pederson:20860
 F	20861:anders isakson	person:sdhk:anders_isakson:20861
 F	20861:anund sture	person:sdhk:anund_sture:20470
-F	20861:bengt karlson	person:sdhk:bengt_karlson:22446
+F	20861:bengt karlson	person:sdhk:bengt_karlson:20861-2
 F	20861:biger olson	person:sdhk:biger_olson:20861
 F	20861:gustav larson	person:sdhk:gustav_larson:20861
 F	20861:klas ulf	person:sdhk:klas_ulf:17935
-F	20861:nils krok	person:sdhk:nils_krok:21720
+F	20861:nils krok	person:sdhk:nils_krok:20861-2
 F	20861:peter ulf	person:sdhk:peter_ulf:20861
 F	20862:rådet i reval	institution:sdhk:radet_i_reval
 F	20865:lars djäken	person:sdhk:lars_djaken:20865
@@ -13206,7 +13206,7 @@ F	21143:borgmästare och råd i malmö	institution:sdhk:radet_i_malmo
 F	21144:byfogden i malmö hans peterson spoldenär	person:sdhk:byfogden:21144
 F	21145:bengt stenson	person:sdhk:bengt_stenson:19385
 F	21145:hans kröpelin	person:sdhk:hans_kropelin:19754
-F	21145:knut udson	person:sdhk:knut_udson:16157
+F	21145:knut udson	person:sdhk:knut_udson:21145-2
 F	21146:sten tureson	person:sdhk:sten_tureson:21146
 F	21147:bengt larson	person:sdhk:bengt_larson:21147
 F	21148:märta olofsdoter	person:sdhk:marta_olofsdoter:21148
@@ -13286,7 +13286,7 @@ F	21202:rådet i åbo	institution:sdhk:radet_i_abo
 F	21203:ridaren krister nilson	person:sdhk:krister_nilson:20243
 F	21204:ridaren krister nilson	person:sdhk:krister_nilson:20243
 F	21205:väpnaren karl larson	person:sdhk:karl_larson:18883
-F	21206:ulf stafanson	person:sdhk:ulf_stafanson:17617
+F	21206:ulf stafanson	person:sdhk:ulf_stafanson:21206-2
 F	21208:märita knutsdoter	person:sdhk:marita_knutsdoter:21208
 F	21209:fin jönson	person:sdhk:fin_jonson:21209
 F	2120:kung erik av danmark	person:erik_menved
@@ -14645,7 +14645,7 @@ F	22273:mats jönson	person:sdhk:mats_jonson:22273
 F	22274:sigurd peterson	person:sdhk:sigurd_peterson:22274
 F	22275:gustav algotson	person:sdhk:gustav_algotson:22275
 F	22275:gustav ulfson	person:sdhk:gustav_ulfson:22275
-F	22275:sige ulfson	person:sdhk:sige_ulfson:23423
+F	22275:sige ulfson	person:sdhk:sige_ulfson:22275-2
 F	22276:johan franke (giovani franco)	person:sdhk:johan_franke_giovani_franco:22276
 F	22277:her krister nilson	person:sdhk:krister_nilson:22277
 F	22278:sigurd jonson	person:sdhk:sigurd_jonson:22278
@@ -15422,7 +15422,7 @@ F	22870:jon larson	person:sdhk:jon_larson:22870
 F	22871:ingegerd ingelsdoter	person:sdhk:ingegerd_ingelsdoter:22871
 F	22872:harald suneson	person:sdhk:harald_suneson:22872
 F	22872:lars haraldson i vi	person:sdhk:lars_haraldson:18934
-F	22872:nils nilson	person:sdhk:nils_nilson:23737
+F	22872:nils nilson	person:sdhk:nils_nilson:22872-2
 F	22873:olof	person:olov_larsson_uppsala
 F	22874:påven eugenius iv	person:pave_eugenius_iv
 F	22875:ingemund olofson	person:sdhk:ingemund_olofson:22875
@@ -15729,7 +15729,7 @@ F	23085:bo knutson	person:sdhk:bo_knutson:23085
 F	23085:erengisle nilson	person:sdhk:erengisle_nilson:23085
 F	23085:greger magnuson	person:sdhk:greger_magnuson:23085
 F	23085:gustav algotson	person:sdhk:gustav_algotson:20582
-F	23085:hans kröpelin	person:sdhk:hans_kropelin:19735
+F	23085:hans kröpelin	person:sdhk:hans_kropelin:23085-2
 F	23085:johan gäda	person:sdhk:johan_gada:22525
 F	23085:johan karlson	person:sdhk:johan_karlson:23085
 F	23085:karl knutson	person:karl_knutsson
@@ -16484,7 +16484,7 @@ F	23671:nils jönson	person:sdhk:nils_jonson:21764
 F	23671:ote ulfson	person:sdhk:ote_ulfson:20090
 F	23671:ragvald puke	person:sdhk:ragvald_puke:23754
 F	23671:sten peterson	person:sdhk:sten_peterson:23671
-F	23671:ture jönson	person:sdhk:ture_jonson:27004
+F	23671:ture jönson	person:sdhk:ture_jonson:23671-2
 F	23671:ulv peterson	person:sdhk:ulv_peterson:23671
 F	23672:väpnaren erik jönson i halkved	person:sdhk:erik_jonson:22537
 F	23673:olof ruska	person:sdhk:olof_ruska:23673
@@ -17998,7 +17998,7 @@ F	24898:hustru margareta kortumsdoter	person:sdhk:margareta_kortumsdoter:24898
 F	24899:birger	person:sdhk:birger_birgerson:24176
 F	248:ärkebiskop absalon i lund	person:absalon_hvide_lund
 F	24901:bengt jönson av salsta	person:sdhk:bengt_jonson:24273
-F	24901:nils jönson	person:sdhk:nils_jonson:24901
+F	24901:nils jönson	person:sdhk:nils_jonson:21764
 F	24901:ärkebiskop nils i upsala	person:nils_ragvaldsson_uppsala
 F	24902:karl knutson	person:karl_knutsson
 F	24904:kung kristofer	person:kristofer_av_bayern
@@ -18249,7 +18249,7 @@ F	25085:sten peterson	person:sdhk:sten_peterson:23671
 F	25086:sten peterson	person:sdhk:sten_peterson:23671
 F	25087:ana larsdoter	person:sdhk:ana_larsdoter:25087
 F	25087:detlev larson	person:sdhk:detlev_larson:25087
-F	25087:erik larson	person:sdhk:erik_larson:18981
+F	25087:erik larson	person:sdhk:erik_larson:25087-2
 F	25087:ermegard larsdoter	person:sdhk:ermegard_larsdoter:25087
 F	25087:filipa larsdoter	person:sdhk:filipa_larsdoter:25087
 F	25087:helena larsdoter	person:sdhk:helena_larsdoter:25087
@@ -18928,7 +18928,7 @@ F	25612:lars sigeson	person:sdhk:lars_sigeson:25612
 F	25612:lars snakenborg	person:sdhk:lars_snakenborg:24399
 F	25612:magnus gustavson	person:sdhk:magnus_gustavson:25612
 F	25612:magnus larson	person:sdhk:magnus_larson:24966
-F	25613:bengt stenson	person:sdhk:bengt_stenson:25613
+F	25613:bengt stenson	person:sdhk:bengt_stenson:25612
 F	25613:bo stenson	person:sdhk:bo_stenson:25613
 F	25613:erik nipertz	person:sdhk:erik_nipertz:25613
 F	25613:lage pose	person:sdhk:lage_pose:25448
@@ -19410,7 +19410,7 @@ F	25976:erik nipertz	person:sdhk:erik_nipertz:24860
 F	25976:karl knutson	person:karl_knutsson
 F	25977:brun bengtson	person:sdhk:brun_bengtson:25977
 F	25978:pehr raskz av värlinge	person:sdhk:pehr_raskz:25978
-F	25980:gregers bengtson	person:sdhk:gregers_bengtson:24283
+F	25980:gregers bengtson	person:sdhk:gregers_bengtson:25980-2
 F	25981:björn anderson	person:sdhk:bjorn_anderson:25981
 F	25981:hustru elin jonsdoter	person:sdhk:elin_jonsdoter:25981
 F	25982:väpnaren lase pik	person:sdhk:lase_pik:19470
@@ -19882,7 +19882,7 @@ F	26321:biskop nils	person:nils_konig_linkoping
 F	26321:domkapitlet i linköping	institution:sdhk:domkapitlet_i_linkoping
 F	26322:fogden ingvar nilson	person:sdhk:ingvar_nilson:24662
 F	26323:kristin larsdoter	person:sdhk:kristin_larsdoter:26323
-F	26325:gregers bengtson	person:sdhk:gregers_bengtson:24283
+F	26325:gregers bengtson	person:sdhk:gregers_bengtson:26325-2
 F	26325:simon körning	person:sdhk:simon_korning:25718
 F	26325:stafan ulfson	person:sdhk:stafan_ulfson:24214
 F	26326:kung karl	person:karl_knutsson
@@ -20888,8 +20888,8 @@ F	27080:kung kristian	person:kristian_1
 F	27081:kung kristian	person:kristian_1
 F	27082:kedel peterson i skanör	person:sdhk:kedel_peterson:27082
 F	27083:erik axelson	person:erik_axelsson_tott
-F	27083:magnus gren	person:sdhk:magnus_gren:25270
-F	27083:åke jönson	person:sdhk:ake_jonson:26235
+F	27083:magnus gren	person:sdhk:magnus_gren:27083-2
+F	27083:åke jönson	person:sdhk:ake_jonson:27083-2
 F	27084:biskop sige strängnäs	person:siggo_ulphonis_strangnas
 F	27084:jon karlson	person:sdhk:jon_karlson:24708
 F	27085:kung kristian	person:kristian_1
@@ -21614,9 +21614,9 @@ F	27639:birgita bondesdoter	person:sdhk:birgita_bondesdoter:27639
 F	2763:påven johanes xi	person:pave_johanes_xxii
 F	27640:broder jöns	person:sdhk:jons:27640
 F	27641:väpnaren axel lageson i fosie i oxie härad i skåne	person:sdhk:axel_lageson:27641
-F	27642:ivar axelson	person:sdhk:ivar_axelson:26265
+F	27642:ivar axelson	person:sdhk:ivar_axelson:27642-2
 F	27642:olof rut	person:sdhk:olof_rut:27642
-F	27642:åke axelson	person:sdhk:ake_axelson:27138
+F	27642:åke axelson	person:sdhk:ake_axelson:27642-2
 F	27643:tord bonde filipson	person:sdhk:tord_bonde_filipson:27289
 F	27644:ketil	person:kettil_karlsson_linkoping
 F	27645:anders bengtson	person:sdhk:anders_bengtson:27645
@@ -23516,7 +23516,7 @@ F	29147:peter tordson	person:sdhk:peter_tordson:29147
 F	29148:arend bengtson	person:sdhk:arend_bengtson:26235
 F	29148:erik axelson	person:erik_axelsson_tott
 F	29148:erik erikson	person:sdhk:erik_erikson:29148
-F	29148:fader ulfson	person:sdhk:fader_ulfson:29148
+F	29148:fader ulfson	person:sdhk:fader_ulfson:25475
 F	29148:gregers bengtson	person:sdhk:gregers_bengtson:24283
 F	29148:gregers matson	person:sdhk:gregers_matson:29148
 F	29148:hartvig jakobson	person:sdhk:hartvig_jakobson:29148
@@ -24593,7 +24593,7 @@ F	29799:gustaf karlson	person:sdhk:gustaf_karlson:29799
 F	29799:hans i skara	person:hans_markvardsson_skara
 F	29799:hening i linköping	person:sdhk:hening:29799
 F	29799:ivar axelson	person:sdhk:ivar_axelson:29799
-F	29799:karl knutson	person:sdhk:karl_knutson:29799
+F	29799:karl knutson	person:sdhk:karl_knutson:29304
 F	29799:nils sture	person:sdhk:nils_sture:29799
 F	29799:tord philipuson (bonde)	person:sdhk:tord_philipuson_bonde:29799
 F	29799:ture jönson	person:sdhk:ture_jonson:29799
@@ -25205,7 +25205,7 @@ F	30264:kung kristian	person:kristian_1
 F	30265:olof tomason	person:sdhk:olof_tomason:30265
 F	30266:hustru helga	person:sdhk:helga:30266
 F	30266:nils	person:sdhk:nils:30266
-F	30267:ivar axelson	person:sdhk:ivar_axelson:30267
+F	30267:ivar axelson	person:sdhk:ivar_axelson:29799
 F	30267:nils sture	person:sdhk:nils_sture:30267
 F	30267:åke jönson	person:sdhk:ake_jonson:30267
 F	30268:gustav karlson	person:sdhk:gustav_karlson:25922
@@ -25438,8 +25438,8 @@ F	3043:biskop israel i västerås	person:israel_erlandi_vasteras
 F	30440:jens pederson	person:sdhk:jens_pederson:30440
 F	30441:rådet i stockholm	institution:sdhk:radet_i_stockholm
 F	30442:björn bengtson	person:sdhk:bjorn_bengtson:30442
-F	30442:jöns knutson	person:sdhk:jons_knutson:30174
-F	30442:knut pose	person:sdhk:knut_pose:31623
+F	30442:jöns knutson	person:sdhk:jons_knutson:30442-2
+F	30442:knut pose	person:sdhk:knut_pose:30442-2
 F	30442:nils barun	person:sdhk:nils_barun:30442
 F	30442:nils pose	person:sdhk:nils_pose:30442
 F	30443:broder peter larson	person:sdhk:peter_larson:30443
@@ -25816,7 +25816,7 @@ F	30725:ingeborg bengtsdoter	person:sdhk:ingeborg_bengtsdoter:30725
 F	30726:finvid larson	person:sdhk:finvid_larson:30726
 F	30727:biskop kort i strängnäs	person:kort_rogge_strangnas
 F	30727:knut eskilson	person:sdhk:knut_eskilson:29106
-F	30727:nils faderson	person:sdhk:nils_faderson:29668
+F	30727:nils faderson	person:sdhk:nils_faderson:30727-2
 F	30727:sten sture	person:sten_sture_d_a
 F	30727:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	30729:margareta clausdoter	person:sdhk:margareta_clausdoter:30475
@@ -27905,7 +27905,7 @@ F	32271:nils i växjö	person:nicolaus_olavi_vaxjo
 F	32271:olof i västerås	person:olaus_andreae_de_vallibus_vasteras
 F	32271:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	32272:gunur	person:sdhk:gunur:32272
-F	32273:gustav olson	person:sdhk:gustav_olson:26556
+F	32273:gustav olson	person:sdhk:gustav_olson:32273-2
 F	32273:hans åkeson	person:sdhk:hans_akeson:29340
 F	32273:nies faderson	person:sdhk:nies_faderson:32273
 F	32274:brynolf i skara	person:brynolf_gerlaksson_skara
@@ -28340,7 +28340,7 @@ F	32609:erik udson	person:sdhk:erik_udson:31623
 F	32609:gregers matson	person:sdhk:gregers_matson:32361
 F	32609:hans åkeson	person:sdhk:hans_akeson:29340
 F	32609:ivar gren	person:sdhk:ivar_gren:28181
-F	32609:karl bengtson	person:sdhk:karl_bengtson:26186
+F	32609:karl bengtson	person:sdhk:karl_bengtson:32609-2
 F	32609:knut pose	person:sdhk:knut_pose:32609
 F	32609:kort i strängnäs	person:kort_rogge_strangnas
 F	32609:lindorm björnson	person:sdhk:lindorm_bjornson:30831
@@ -31672,7 +31672,7 @@ F	35319:svante nilson	person:svante_nilsson
 F	3531:magnus gudmarson	person:sdhk:magnus_gudmarson:3531
 F	3531:ulf	person:sdhk:ulf:3531
 F	35321:ridaren svante nilson	person:svante_nilsson
-F	35322:olof jonson	person:sdhk:olof_jonson:34056
+F	35322:olof jonson	person:sdhk:olof_jonson:35322-2
 F	35323:biskop ingemar	person:ingmarus_petri_vaxjo
 F	35323:heming gad	person:sdhk:heming_gad:35323
 F	35324:biskop vincentius i skara	person:vincent_henningsson_skara
@@ -32132,12 +32132,12 @@ F	35742:ridaren tyke krabe	person:sdhk:tyke_krabe:35742
 F	35743:ridaren nils gäda	person:sdhk:nils_gada:34878
 F	35744:ridaren nils gäda på lyckeby	person:sdhk:nils_gada:34878
 F	35744:ridaren tyke krabe	person:sdhk:tyke_krabe:35742
-F	35745:erik trole	person:sdhk:erik_trole:35745
+F	35745:erik trole	person:sdhk:erik_trole:35722
 F	35745:holger karlson	person:sdhk:holger_karlson:35745
 F	35746:ridaren åke hanson	person:sdhk:ake_hanson:34574
 F	35748:peder svenske	person:sdhk:peder_svenske:35748
 F	35749:erik trole	person:sdhk:erik_trole:35722
-F	35749:holger karlson	person:sdhk:holger_karlson:35749
+F	35749:holger karlson	person:sdhk:holger_karlson:35745
 F	35749:nils bromson	person:sdhk:nils_bromson:35722
 F	3574:karl bengtson	person:sdhk:karl_bengtson:3574
 F	35751:biskop ingemar i växjö	person:ingmarus_petri_vaxjo
@@ -33545,7 +33545,7 @@ F	36916:peder olson	person:sdhk:peder_olson:36916
 F	36917:biskop vincent i skara	person:vincent_henningsson_skara
 F	36918:biskop matias i strängnäs	person:mattias_gregersson_strangnas
 F	3691:greve johan i av holstein	person:sdhk:greve_johan:3668
-F	36920:bengt arendson	person:sdhk:bengt_arendson:36920
+F	36920:bengt arendson	person:sdhk:bengt_arendson:35451
 F	36920:biskop mats i strängnäs	person:mattias_gregersson_strangnas
 F	36920:biskop oto i västerås	person:otto_olavi_vasteras
 F	36920:erik trole	person:sdhk:erik_trole:36920
@@ -34728,7 +34728,7 @@ F	37921:axel matson	person:sdhk:axel_matson:37921
 F	37921:axel pose	person:sdhk:axel_pose:34574
 F	37921:erik abrahamson	person:sdhk:erik_abrahamson:37921
 F	37921:lindorm brunson	person:sdhk:lindorm_brunson:37921
-F	37921:nils klauson	person:sdhk:nils_klauson:30123
+F	37921:nils klauson	person:sdhk:nils_klauson:37921-2
 F	37921:ture jönson	person:sdhk:ture_jonson:37921
 F	37922:axel matson	person:sdhk:axel_matson:37922
 F	37922:axel pose	person:sdhk:axel_pose:34574
@@ -36324,7 +36324,7 @@ F	39346:bengt i linköping	person:bengt_larsson_linkoping
 F	39346:tomas i strängnäs	person:thomas_simonis_strangnas
 F	39346:ärkebiskop nils i upsala	person:nils_ragvaldsson_uppsala
 F	39348:björn nilson	person:sdhk:bjorn_nilson:23013
-F	39348:torsten nilson	person:sdhk:torsten_nilson:23463
+F	39348:torsten nilson	person:sdhk:torsten_nilson:39348-2
 F	39349:ulf domare	person:sdhk:ulf_domare:39349
 F	3934:arnfin sigurdson	person:sdhk:arnfin_sigurdson:3934
 F	3934:gudbrand sigurdason	person:sdhk:gudbrand_sigurdason:3934
@@ -36333,7 +36333,7 @@ F	3934:ivar arneson	person:sdhk:ivar_arneson:3934
 F	39350:claus hanson	person:sdhk:claus_hanson:39350
 F	39351:bengt gylta	person:sdhk:bengt_gylta:24150
 F	39351:birger folkeson	person:sdhk:birger_folkeson:39351
-F	39351:lars sigeson	person:sdhk:lars_sigeson:24015
+F	39351:lars sigeson	person:sdhk:lars_sigeson:39351-2
 F	39352:karl svenson	person:sdhk:karl_svenson:39352
 F	39355:peter bengtson	person:sdhk:peter_bengtson:39355
 F	39356:biskop erik i strängnäs	person:ericus_birgeri_strangnas
@@ -37080,7 +37080,7 @@ F	40534:bengt jonson	person:sdhk:bengt_jonson:40534
 F	40534:birger ulfson	person:sdhk:birger_ulfson:40534
 F	40534:bo jonson	person:sdhk:bo_jonson:40534
 F	40534:erengisle suneson	person:sdhk:erengisle_suneson:11042
-F	40534:erik karlson	person:sdhk:erik_karlson:40534
+F	40534:erik karlson	person:sdhk:erik_karlson:11223
 F	40534:finvid finvidson	person:sdhk:finvid_finvidson:40534
 F	40534:folke nilson	person:sdhk:folke_nilson:40534
 F	40534:harald karlson	person:sdhk:harald_karlson:12136
@@ -38166,7 +38166,7 @@ F	41470:kejsar karl iv	person:sdhk:karl:10374
 F	41471:halvard nilson	person:sdhk:halvard_nilson:41471
 F	41471:torgeir helgeson	person:sdhk:torgeir_helgeson:41471
 F	41472:holmsten erikson	person:sdhk:holmsten_erikson:31907
-F	41472:jöns erikson	person:sdhk:jons_erikson:41472
+F	41472:jöns erikson	person:sdhk:jons_erikson:31907
 F	41473:halkjel sigurdson	person:sdhk:halkjel_sigurdson:41473
 F	41474:gutorm valtarson	person:sdhk:gutorm_valtarson:41474
 F	41476:nils svenson	person:sdhk:nils_svenson:41476
@@ -41529,7 +41529,7 @@ F	45023:kung gustav (erikson vasa)	person:gustav_vasa
 F	45024:(kung) gustav (erikson vasa)	person:gustav_vasa
 F	45026:kung karl	person:karl_knutsson
 F	45027:eskil isakson	person:sdhk:eskil_isakson:45027
-F	45027:fader ulfson	person:sdhk:fader_ulfson:45027
+F	45027:fader ulfson	person:sdhk:fader_ulfson:27719
 F	45027:karl knutson	person:karl_knutsson
 F	45027:ketil i linköping	person:kettil_karlsson_linkoping
 F	45027:lars haraldson	person:sdhk:lars_haraldson:28181
@@ -42137,7 +42137,7 @@ F	4584:gustav tuneson	person:sdhk:gustav_tuneson:4533
 F	4584:karl näskonungson	person:sdhk:karl_naskonungson:4533
 F	4584:karl tukeson	person:sdhk:karl_tukeson:4584
 F	4584:knut folkeson	person:sdhk:knut_folkeson:4533
-F	4584:knut jonson	person:sdhk:knut_jonson:2479
+F	4584:knut jonson	person:sdhk:knut_jonson:4584-2
 F	4584:lars ulfson	person:sdhk:lars_ulfson:2934
 F	4584:nils abjörnson	person:sdhk:nils_abjornson:4076
 F	4584:peter johanson	person:sdhk:peter_johanson:4584
@@ -42357,7 +42357,7 @@ F	4751:margareta abjörnsdoter	person:sdhk:margareta_abjornsdoter:4751
 F	4752:abot johanes av citeaux	person:sdhk:johanes:4752
 F	4753:ridaren ulf	person:sdhk:ulf_abjornson:4753
 F	4754:anund sture	person:sdhk:anund_sture:3985
-F	4754:karl näskonungson	person:sdhk:karl_naskonungson:3991
+F	4754:karl näskonungson	person:sdhk:karl_naskonungson:4754-2
 F	4754:nils ingevaldson	person:sdhk:nils_ingevaldson:4754
 F	4754:peter jonson	person:sdhk:peter_jonson:4754
 F	4755:kung magnus	person:magnus_eriksson
@@ -42781,8 +42781,8 @@ F	5130:johan holmgerson	person:sdhk:johan_holmgerson:5130
 F	5131:kung magnus	person:magnus_eriksson
 F	5132:kyrkoherden johan i asby	person:sdhk:johan:5132
 F	5133:gustav tuneson	person:sdhk:gustav_tuneson:4533
-F	5133:ingrid svantepolksdoter	person:sdhk:ingrid_svantepolksdoter:4511
-F	5133:knut folkeson	person:sdhk:knut_folkeson:5133
+F	5133:ingrid svantepolksdoter	person:sdhk:ingrid_svantepolksdoter:5133-2
+F	5133:knut folkeson	person:sdhk:knut_folkeson:4533
 F	5134:henrik arnö	person:sdhk:henrik_arno:5134
 F	5135:gisle elinason	person:sdhk:gisle_elinason:5135
 F	5136:ridaren harald haraldson	person:sdhk:harald_haraldson:5136
@@ -47833,7 +47833,7 @@ F	985:kung magnus av sverige	person:magnus_ladulas
 F	9860:jon i rosla (i ö. ryds socken)	person:sdhk:jon:9860
 F	9861:bo jonson	person:sdhk:bo_jonson:9861
 F	9862:bo jonson	person:sdhk:bo_jonson:9862
-F	9863:bo jonson	person:sdhk:bo_jonson:9863
+F	9863:bo jonson	person:sdhk:bo_jonson:10789
 F	9863:jon upläning	person:sdhk:jon_uplaning:8935
 F	9864:bo jonson	person:sdhk:bo_jonson:9864
 F	9865:jon upläning	person:sdhk:jon_uplaning:9865
@@ -56419,7 +56419,7 @@ F	m|12958:drotsen bo jonson	person:sdhk:bo_jonson:12958
 F	m|12960:hinzika knap i åbo	person:sdhk:hinzika_knap:12960
 F	m|12961:jöns bengtson	person:sdhk:jons_bengtson:12961
 F	m|12984:petr tomason	person:sdhk:petr_tomason:12984
-F	m|12986:bo jonson	person:sdhk:bo_jonson:8911
+F	m|12986:bo jonson	person:sdhk:bo_jonson:12986-2
 F	m|12999:halsten ingevaldson	person:sdhk:halsten_ingevaldson:12999
 F	m|13002:johanes larson	person:sdhk:johanes_larson:13002
 F	m|13002:stafan håkanson i viby	person:sdhk:stafan_hakanson:13002
@@ -56792,7 +56792,7 @@ F	m|14932:arvid stenson	person:sdhk:arvid_stenson:14927
 F	m|14937:gudvaste borgarson	person:sdhk:gudvaste_borgarson:14937
 F	m|14938:väpnaren nils svenson av elinge	person:sdhk:nils_svenson:19264
 F	m|14940:vadstena kloster	institution:sdhk:vadstena_kloster
-F	m|14942:her gustav magnuson	person:sdhk:gustav_magnuson:16916
+F	m|14942:her gustav magnuson	person:sdhk:gustav_magnuson:14942-2
 F	m|14948:ridaren nils svarteskåning	person:sdhk:nils_svarteskaning:14049
 F	m|14958:vårfruberga kloster	institution:sdhk:varfruberga_kloster
 F	m|14959:vadstena kloster	institution:sdhk:vadstena_kloster
@@ -57079,7 +57079,7 @@ F	m|16586:jöns erikson	person:sdhk:jons_erikson:16586
 F	m|16587:magnus svenson	person:sdhk:magnus_svenson:16587
 F	m|16589:äbp jakob	person:jacob_gertsen_lund
 F	m|16591:bengt magnuson i stensta	person:sdhk:bengt_magnuson:10293
-F	m|16591:her nils birgerson	person:sdhk:nils_birgerson:16591
+F	m|16591:her nils birgerson	person:sdhk:nils_birgerson:14020
 F	m|16592:bengt magnuson (svarte) av stensta	person:sdhk:bengt_magnuson_svarte:16012
 F	m|16592:her nils birgerson	person:sdhk:nils_birgerson:16592
 F	m|16598:her bengt pik	person:sdhk:bengt_pik:16598
@@ -57451,7 +57451,7 @@ F	m|18913:jon tyrieson i feniestad	person:sdhk:jon_tyrieson:18913
 F	m|18914:nydala kloster	institution:sdhk:nydala_kloster
 F	m|18920:torberg kärling	person:sdhk:torberg_karling:16204
 F	m|18922:karl frövidson	person:sdhk:karl_frovidson:18922
-F	m|18925:bengt udson	person:sdhk:bengt_udson:19376
+F	m|18925:bengt udson	person:sdhk:bengt_udson:18925-2
 F	m|18938:lars jäg	person:sdhk:lars_jag:18938
 F	m|18946:erik nilson i väsby	person:sdhk:erik_nilson:20040
 F	m|18948:bp knut i linköping	person:knut_bosson_linkoping
@@ -57725,7 +57725,7 @@ F	m|20461:bengt karlson	person:sdhk:bengt_karlson:22446
 F	m|20463:borgmästare torbjörn i jung	person:sdhk:torbjorn:20463
 F	m|20465:drotning filipa på upburna	person:filippa_av_england
 F	m|20471:filip bonde	person:sdhk:filip_bonde:20471
-F	m|20484:birger trole	person:sdhk:birger_trole:15916
+F	m|20484:birger trole	person:sdhk:birger_trole:20484-2
 F	m|20487:ridaren nils svenson i elinge	person:sdhk:nils_svenson:19264
 F	m|20497:välborne gustav larson	person:sdhk:gustav_larson:20497
 F	m|20506:vadstena kloster	institution:sdhk:vadstena_kloster
@@ -58624,7 +58624,7 @@ F	m|2565:drotsen knut jonson	person:sdhk:knut_jonson:2479
 F	m|2566:ingevald estridson	person:sdhk:ingevald_estridson:2566
 F	m|25672:olof matson	person:sdhk:olof_matson:25672
 F	m|25682:ragvald johanson	person:sdhk:ragvald_johanson:25682
-F	m|25684:sven larson	person:sdhk:sven_larson:26581
+F	m|25684:sven larson	person:sdhk:sven_larson:25684-2
 F	m|25687:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|25688:torsten björnson i andistom	person:sdhk:torsten_bjornson:25688
 F	m|25689:ridaren lars haraldson	person:sdhk:lars_haraldson:28181
@@ -58688,7 +58688,7 @@ F	m|25973:peter peterson	person:sdhk:peter_peterson:25973
 F	m|25974:nigels fotling (nils fötling)	person:sdhk:nigels_fotling_nils_fotling:25974
 F	m|25975:birger trole	person:sdhk:birger_trole:25975
 F	m|25977:fru kristina bengtsdoter	person:sdhk:kristina_bengtsdoter:28147
-F	m|25980:erik erikson	person:sdhk:erik_erikson:25718
+F	m|25980:erik erikson	person:sdhk:erik_erikson:25980-2
 F	m|25981:lars sigeson (spare)	person:sdhk:lars_sigeson:25981
 F	m|25982:lars sigeson	person:sdhk:lars_sigeson:25906
 F	m|25985:her johan kristierson [vasa]	person:sdhk:johan_kristierson_vasa:25985
@@ -59286,7 +59286,7 @@ F	m|2915:beno ingeson	person:sdhk:beno_ingeson:2915
 F	m|29162:knut grundis	person:sdhk:knut_grundis:26995
 F	m|29165:biskop hans	person:sdhk:biskop_hans:29165-m
 F	m|29165:kapitlet i strängnäs	institution:sdhk:domkapitlet_i_strangnas
-F	m|29166:lindorm björnson	person:sdhk:lindorm_bjornson:29988
+F	m|29166:lindorm björnson	person:sdhk:lindorm_bjornson:29166-2
 F	m|29170:bertil peterson velanda	person:sdhk:bertil_peterson_velanda:29170
 F	m|29182:tydeke jakobson	person:sdhk:tydeke_jakobson:29182
 F	m|29183:jöns jönson	person:sdhk:jons_jonson:29183
@@ -59307,7 +59307,7 @@ F	m|29266:her gustav olofson	person:sdhk:gustav_olofson:27138
 F	m|29267:jepe peterson mariajoki	person:sdhk:jepe_peterson_mariajoki:29267
 F	m|29269:hans holgrson	person:sdhk:hans_holgrson:29269
 F	m|29269:jöns magnuson	person:sdhk:jons_magnuson:29269
-F	m|29286:svarte ture jönson	person:sdhk:svarte_ture_jonson:25871
+F	m|29286:svarte ture jönson	person:sdhk:svarte_ture_jonson:29286-2
 F	m|29289:söderköpings kloster	institution:sdhk:soderkopings_kloster
 F	m|29294:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|2932:finvid	person:sdhk:finvid:2932
@@ -59387,7 +59387,7 @@ F	m|29676:arvid trole i bergkvara	person:sdhk:arvid_trole:29676
 F	m|29677:biskop lydeke i västerås	person:ludechinus_abelis_vasteras
 F	m|29684:peder brudson	person:sdhk:peder_brudson:29684
 F	m|29689:björn i kluksås	person:sdhk:bjorn:29689
-F	m|29698:arvid trole	person:sdhk:arvid_trole:28181
+F	m|29698:arvid trole	person:sdhk:arvid_trole:29698-2
 F	m|29709:karl bengtson	person:sdhk:karl_bengtson:29709
 F	m|29715:her gustav olson	person:sdhk:gustav_olson:26556
 F	m|29717:her gustav olson	person:sdhk:gustav_olson:26556
@@ -59587,7 +59587,7 @@ F	m|30606:stora hultrum	person:sdhk:stora_hultrum:30606
 F	m|30607:arvid trole	person:sdhk:arvid_trole:28181
 F	m|30607:fru beata ivarsdoterm	person:sdhk:beata_ivarsdoterm:30607
 F	m|3060:alvastra kloster	institution:sdhk:alvastra_kloster
-F	m|30614:karl bengtson	person:sdhk:karl_bengtson:26186-2
+F	m|30614:karl bengtson	person:sdhk:karl_bengtson:30614-2
 F	m|30618:jon anderson i vedmyra	person:sdhk:jon_anderson:30618
 F	m|30624:olof björnson	person:sdhk:olof_bjornson:30624
 F	m|30625:her gustav olson	person:sdhk:gustav_olson:26556
@@ -60116,7 +60116,7 @@ F	m|33274:sven anderson	person:sdhk:sven_anderson:33274
 F	m|33277:arvid knutson i torpa björkås (i sexdrega socken) i kinds härad i västergötland	person:sdhk:arvid_knutson:33277
 F	m|33281:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|33292:nils klason	person:sdhk:nils_klason:33216-2
-F	m|33308:erik trole	person:sdhk:erik_trole:34176
+F	m|33308:erik trole	person:sdhk:erik_trole:33308-2
 F	m|33310:peter knag högvalta i arvika socken	person:sdhk:peter_knag_hogvalta:33310
 F	m|33321:hans person på värindö	person:sdhk:hans_person:33321
 F	m|33326:biskop kort i strängnäs	person:kort_rogge_strangnas
@@ -61982,6 +61982,7 @@ E	person:sdhk:bengt_abjornson:36325	person:sdhk:bengt_abjornson:35125	Bengt Abj�
 E	person:sdhk:bengt_abjornson:36551	person:sdhk:bengt_abjornson:36126	Bengt Åbjörnsson
 E	person:sdhk:bengt_anderson:25945	person:sdhk:bengt_anderson:25890	Bengt Andersson
 E	person:sdhk:bengt_arendson:34853	person:sdhk:bengt_arendson:34150	Bengt Arendsson
+E	person:sdhk:bengt_arendson:36920	person:sdhk:bengt_arendson:35451	Bengt Arendsson
 E	person:sdhk:bengt_arendson:42858	person:sdhk:bengt_arendson:37632	Bengt Arendsson
 E	person:sdhk:bengt_arvidson:15062	person:sdhk:bengt_arvidson:15061	Bengt Arvidsson
 E	person:sdhk:bengt_dve_dun:27650	person:sdhk:bengt_dve_dun:27649	Bengt Dwe Dun
@@ -62008,6 +62009,7 @@ E	person:sdhk:bengt_krok:24898	person:sdhk:bengt_krok:19017	Bengt Krok
 E	person:sdhk:bengt_larson:26350	person:sdhk:bengt_larson:23255	Bengt Larsson
 E	person:sdhk:bengt_lydikeson:23203	person:sdhk:bengt_lydikeson:22720	Bengt Lydikesson
 E	person:sdhk:bengt_lydikson_djaken:44218	person:sdhk:bengt_lydikson_djaken:43916	Bengt Lydiksson Djäken
+E	person:sdhk:bengt_magnuson:15590	person:sdhk:bengt_magnuson:10293	Bengt Magnusson
 E	person:sdhk:bengt_ryning:32319	person:sdhk:bengt_ryning:32948	Bengt Ryning
 E	person:sdhk:bengt_ryning:32947	person:sdhk:bengt_ryning:32948	Bengt Ryning
 E	person:sdhk:bengt_ryning:34341	person:sdhk:bengt_ryning:33785	Bengt Ryning
@@ -62017,6 +62019,7 @@ E	person:sdhk:bengt_smalaning:32208	person:sdhk:bengt_smalaning:31914	Bengt Små
 E	person:sdhk:bengt_stenson:23259	person:sdhk:bengt_stenson:19385	Bengt Stensson
 E	person:sdhk:bengt_stenson:24060	person:sdhk:bengt_stenson:19385	Bengt Stensson
 E	person:sdhk:bengt_stenson:24238	person:sdhk:bengt_stenson:19385	Bengt Stensson
+E	person:sdhk:bengt_stenson:25613	person:sdhk:bengt_stenson:25612	Bengt Stensson
 E	person:sdhk:bengt_stock:25911	person:sdhk:bengt_stock:24769	Bengt Stock
 E	person:sdhk:bengt_stock:26547	person:sdhk:bengt_stock:24769	Bengt Stock
 E	person:sdhk:bengt_sture:18845	person:sdhk:bengt_sture:19358	Bengt Sture
@@ -62058,6 +62061,7 @@ E	person:sdhk:birger_trole:18116	person:sdhk:birger_trole:15916	Birger Trolle
 E	person:sdhk:birger_trole:18295	person:sdhk:birger_trole:15916	Birger Trolle
 E	person:sdhk:birger_trole:18720	person:sdhk:birger_trole:15916	Birger Trolle
 E	person:sdhk:birger_trole:18960	person:sdhk:birger_trole:15916	Birger Trolle
+E	person:sdhk:birger_trole:19685	person:sdhk:birger_trole:19684	Birger Trolle
 E	person:sdhk:birger_trole:20484	person:sdhk:birger_trole:15916	Birger Trolle
 E	person:sdhk:birger_trole:25931	person:sdhk:birger_trole:25928	Birger Trolle
 E	person:sdhk:birger_trole:27130	person:sdhk:birger_trole:25448	Birger Trolle
@@ -62093,6 +62097,7 @@ E	person:sdhk:bo_jonson:12629	person:sdhk:bo_jonson:12136	Bo Jönsson
 E	person:sdhk:bo_jonson:12986	person:sdhk:bo_jonson:8911	Bo Jonsson
 E	person:sdhk:bo_jonson:13042	person:sdhk:bo_jonson:12335	Bo Jonsson
 E	person:sdhk:bo_jonson:13233	person:sdhk:bo_jonson:8911	Bo Jonsson
+E	person:sdhk:bo_jonson:9863	person:sdhk:bo_jonson:10789	Bo Jonsson
 E	person:sdhk:bo_stenson:22241	person:sdhk:bo_stenson:20667	Bo Stensson
 E	person:sdhk:bo_stenson:23259	person:sdhk:bo_stenson:20667	Bo Stensson
 E	person:sdhk:bo_stenson:26268	person:sdhk:bo_stenson:20667	Bo Stenson
@@ -62142,6 +62147,7 @@ E	person:sdhk:erengisle_gada:27236	person:sdhk:erengisle_gada:27663	Erengisle G�
 E	person:sdhk:erengisle_geda:29635	person:sdhk:erengisle_geda:29467	Erengisle Gedda
 E	person:sdhk:erengisle_jakobson:24505	person:sdhk:erengisle_jakobson:23900	Erengisle Jakobsson
 E	person:sdhk:erengisle_jonson:23299	person:sdhk:erengisle_jonson:22555	Erengisle Jönsson
+E	person:sdhk:erengisle_nilson:15133	person:sdhk:erengisle_nilson:13656	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:41594	person:sdhk:erengisle_nilson:41593	Erengisle Nilsson
 E	person:sdhk:erengisle_suneson:11223	person:sdhk:erengisle_suneson:11042	Erengisle Sunesson
 E	person:sdhk:erich_nipertz:27878	person:sdhk:erich_nipertz:26621	Erich Nipertz
@@ -62176,6 +62182,7 @@ E	person:sdhk:erik_holmstenson_rosenstrale:26810	person:sdhk:erik_holmstenson_ro
 E	person:sdhk:erik_kage:31350	person:sdhk:erik_kage:31482	Erik Kagge
 E	person:sdhk:erik_karlson:12812	person:sdhk:erik_karlson:9746	Erik Karlsson
 E	person:sdhk:erik_karlson:32751	person:sdhk:erik_karlson:32750	Erik Karlsson
+E	person:sdhk:erik_karlson:40534	person:sdhk:erik_karlson:11223	Erik Karlsson
 E	person:sdhk:erik_karlson:8123	person:sdhk:erik_karlson:8646	Erik Karlsson
 E	person:sdhk:erik_ketilson_puke:9409	person:sdhk:erik_ketilson_puke:9162	Erik Kettilsson Puke
 E	person:sdhk:erik_knag:37535	person:sdhk:erik_knag:36293	Erik Knag
@@ -62215,6 +62222,7 @@ E	person:sdhk:erik_trole:32467	person:sdhk:erik_trole:34176	Erik Trolle
 E	person:sdhk:erik_trole:32609	person:sdhk:erik_trole:34176	Erik Trolle
 E	person:sdhk:erik_trole:33211	person:sdhk:erik_trole:34176	Erik Trolle
 E	person:sdhk:erik_trole:33308	person:sdhk:erik_trole:34176	Erik Trolle
+E	person:sdhk:erik_trole:35745	person:sdhk:erik_trole:35722	Erik Trolle
 E	person:sdhk:erik_trole:35749	person:sdhk:erik_trole:35722	Erik Trolle
 E	person:sdhk:erik_trole:36325	person:sdhk:erik_trole:34176	Erik Trolle
 E	person:sdhk:erik_trole:37372	person:sdhk:erik_trole:37343	Erik Trolle
@@ -62245,6 +62253,8 @@ E	person:sdhk:eskil_nilson:9964	person:sdhk:eskil_nilson:9618	Eskil Nilsson
 E	person:sdhk:evert_torn:20852	person:sdhk:evert_torn:20585	Evert Torn
 E	person:sdhk:fader_birgerson:3690	person:sdhk:fader_birgerson:3456	Fader Birgersson
 E	person:sdhk:fader_bysja:10384	person:sdhk:fader_bysja:10225	Fader Bysja
+E	person:sdhk:fader_ulfson:29148	person:sdhk:fader_ulfson:25475	Fader Ulfsson
+E	person:sdhk:fader_ulfson:45027	person:sdhk:fader_ulfson:27719	Fader Ulfsson
 E	person:sdhk:fike_bylov:24686	person:sdhk:fike_bylov:24609	Fikke Bylow
 E	person:sdhk:filip_bonde:16239	person:sdhk:filip_bonde:15675	Filip Bonde
 E	person:sdhk:filip_bonde:17022	person:sdhk:filip_bonde:15675	Filip Bonde
@@ -62467,6 +62477,7 @@ E	person:sdhk:heyne_snakenborg:15768	person:sdhk:heyne_snakenborg:14708	Heyne Sn
 E	person:sdhk:hinko_bodolphi:5168	person:sdhk:hinko_bodolphi:5167	Hinko Bodolphi
 E	person:sdhk:hinze_borkardson:3206	person:sdhk:hinze_borkardson:3207	Hinze Borkardsson
 E	person:sdhk:hinze_knaper:18304	person:df:hinze_knaper:1434	Hinze Knapper
+E	person:sdhk:holger_karlson:35749	person:sdhk:holger_karlson:35745	Holger Karlsson
 E	person:sdhk:holger_karlson_gera:38709	person:sdhk:holger_karlson_gera:37407	Holger Karlsson Gera
 E	person:sdhk:holmger_djaken:25561	person:sdhk:holmger_djaken:24335	Holmger Djäken
 E	person:sdhk:holmger_puke:3343	person:sdhk:holmger_puke:5196	Holmger Puke
@@ -62499,6 +62510,7 @@ E	person:sdhk:ingvar_mikaelson:23152	person:sdhk:ingvar_mikaelson:23151	Ingvar M
 E	person:sdhk:inocentius_de_cibo:37958	person:sdhk:inocentius_de_cibo:37957	Innocentius de Cibo
 E	person:sdhk:ivar_arneson:3935	person:sdhk:ivar_arneson:3934	Ivar Arnesson
 E	person:sdhk:ivar_axelson:27642	person:sdhk:ivar_axelson:26265	Ivar Axelsson
+E	person:sdhk:ivar_axelson:30267	person:sdhk:ivar_axelson:29799	Ivar Axelsson
 E	person:sdhk:ivar_axelson_tot:29781	person:sdhk:ivar_axelson_tot:28424	Ivar Axelsson Tott
 E	person:sdhk:ivar_axelsoner:44060	person:sdhk:ivar_axelsoner:29159	Ivar Axelssöner
 E	person:sdhk:ivar_fleming:45330	person:sdhk:ivar_fleming:45017	Ivar Fleming
@@ -62619,6 +62631,7 @@ E	person:sdhk:jons_djaken:43104	person:sdhk:jons_djaken:27744	Jöns Djäken
 E	person:sdhk:jons_djaken:43982	person:sdhk:jons_djaken:27744	Jöns Djäken
 E	person:sdhk:jons_djaken:9572	person:sdhk:jons_djaken:9322	Jöns Djäken
 E	person:sdhk:jons_erikson:18591	person:sdhk:jons_erikson:18588	Jöns Eriksson
+E	person:sdhk:jons_erikson:41472	person:sdhk:jons_erikson:31907	Jöns Eriksson
 E	person:sdhk:jons_gas:32751	person:sdhk:jons_gas:32750	Jöns Gås
 E	person:sdhk:jons_get:27216	person:sdhk:jons_get:29783	Jöns Get
 E	person:sdhk:jons_get:29725	person:sdhk:jons_get:29783	Jöns Get
@@ -62660,6 +62673,7 @@ E	person:sdhk:karl_gada:17294	person:sdhk:karl_gada:20853	Karl Gädda
 E	person:sdhk:karl_hake:24889	person:sdhk:karl_hake:22171	Karl Hake
 E	person:sdhk:karl_karlson:14752	person:sdhk:karl_karlson:14749	Karl Karlsson
 E	person:sdhk:karl_knutson:12136	person:sdhk:karl_knutson:11300	Karl Knutsson
+E	person:sdhk:karl_knutson:29799	person:sdhk:karl_knutson:29304	Karl Knutsson
 E	person:sdhk:karl_knutson:33213	person:sdhk:karl_knutson:29668	Karl Knutsson
 E	person:sdhk:karl_knutson_gera:32700	person:sdhk:karl_knutson_gera:31792	Karl Knutsson Gera
 E	person:sdhk:karl_lange:18897	person:sdhk:karl_lange:19357	Karl Lange
@@ -62733,6 +62747,7 @@ E	person:sdhk:knut_eskilson:30727	person:sdhk:knut_eskilson:29106	Knut Eskilsson
 E	person:sdhk:knut_eskilson_baner:35869	person:sdhk:knut_eskilson_baner:33196	Knut Eskilsson Banér
 E	person:sdhk:knut_eskilson_baner:36527	person:sdhk:knut_eskilson_baner:33196	Knut Eskilsson Banér
 E	person:sdhk:knut_folkeson:4584	person:sdhk:knut_folkeson:4533	Knut Folkeson
+E	person:sdhk:knut_folkeson:5133	person:sdhk:knut_folkeson:4533	Knut Folkeson
 E	person:sdhk:knut_gisleson:16251	person:sdhk:knut_gisleson:16250	Knut Gislesson
 E	person:sdhk:knut_jonson:4584	person:sdhk:knut_jonson:2479	Knut Jonsson
 E	person:sdhk:knut_karlson:12154	person:sdhk:knut_karlson:10890	Knut Karlsson
@@ -62944,6 +62959,7 @@ E	person:sdhk:nils_abjornson_spare_av_tofta:6389	person:sdhk:nils_abjornson_spar
 E	person:sdhk:nils_anderson:14186	person:sdhk:nils_anderson:14185	Nils Andersson
 E	person:sdhk:nils_bage:39778	person:sdhk:nils_bage:38642	Nils Bagge
 E	person:sdhk:nils_birgerson:14541	person:sdhk:nils_birgerson:14020	Nils Birgersson
+E	person:sdhk:nils_birgerson:16591	person:sdhk:nils_birgerson:14020	Nils Birgersson
 E	person:sdhk:nils_boson:18477	person:sdhk:nils_boson:18476	Nils Bosson
 E	person:sdhk:nils_boson:36572	person:sdhk:nils_boson:32947	Nils Bosson
 E	person:sdhk:nils_boson:38023	person:sdhk:nils_boson:32947	Nils Bosson
@@ -62980,6 +62996,7 @@ E	person:sdhk:nils_hanson:39086	person:sdhk:nils_hanson:39067	Nils Hansson
 E	person:sdhk:nils_he:3030	person:sdhk:nils_he:3009	Nils Hee
 E	person:sdhk:nils_hvit:38435	person:sdhk:nils_hvit:38438	Nils Hvit
 E	person:sdhk:nils_jonson:23671	person:sdhk:nils_jonson:21764	Nils Jönsson
+E	person:sdhk:nils_jonson:24901	person:sdhk:nils_jonson:21764	Nils Jönsson
 E	person:sdhk:nils_jonson_oxenstierna:19929	person:sdhk:nils_jonson_oxenstierna:25001	Nils Jönsson Oxenstierna
 E	person:sdhk:nils_jonson_oxenstierna:21112	person:sdhk:nils_jonson_oxenstierna:25001	Nils Jönsson Oxenstierna
 E	person:sdhk:nils_klason:31616	person:sdhk:nils_klason:31615	Nils Klasson
@@ -63286,6 +63303,7 @@ E	person:sdhk:torsten_nilson:15093	person:sdhk:torsten_nilson:14623	Torsten Nils
 E	person:sdhk:torsten_nilson:39348	person:sdhk:torsten_nilson:23463	Torsten Nilsson
 E	person:sdhk:torsten_peterson:25126	person:sdhk:torsten_peterson:25125	Torsten Petersson
 E	person:sdhk:trote_manson:36551	person:sdhk:trote_manson:34853	Trotte Månsson
+E	person:sdhk:ture_bengtson:17325	person:sdhk:ture_bengtson:17148	Ture Bengtsson
 E	person:sdhk:ture_jonson:23671	person:sdhk:ture_jonson:27004	Ture Jönsson
 E	person:sdhk:ture_jonson:27720	person:sdhk:ture_jonson:27004	Ture Jönsson
 E	person:sdhk:ture_jonson:28726	person:sdhk:ture_jonson:28441	Ture Jönsson
