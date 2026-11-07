@@ -82,6 +82,8 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   förfalskning och interpolation, och tre brev redovisas som omstridda med båda
   ståndpunkterna. Motiveringarna är inte längre avkapade. Se `rapporter/akthet_sdhk.md`.
 - Ekesjö är inte längre knuten till Eksjö.
+- En koppling mellan SDHK och Diplomatarium Fennicum kräver samma dag eller månad; samma år räcker
+  bara när DF enbart anger året (`data/platser/df_fmu_osakra.tsv`).
 - Socknarna läses i fast ordning, så att samma körning alltid ger samma läge och id. 63 tidigare
   publicerade plats-id hänvisar till sina nya (`data/platser/platshanvisningar.tsv`).
 - Brevorter som bara hade kopplats på namnet är rättade där breven pekar på annan

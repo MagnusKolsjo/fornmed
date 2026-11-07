@@ -4,7 +4,7 @@ Importerar Diplomatarium Fennicum ur data/raw/df (hamta_df.py) till databasen.
 Datamängden från Kansallisarkisto (CC0) ger brevtext och grunduppgifter, webbplatsen
 regester, utfärdare och datum. Regester ur Auctoritate Papae (2012) tas inte med, eftersom
 de kommer ur ett nutida verk. Brev som SDHK anger som "FMU nr N" och som har samma år som
-DF N får SDHK-numret i verkets extra-fält. Importen kan köras om.
+DF N får SDHK-numret i verkets extra-fält när datumet stämmer (se samma_datum). Importen kan köras om.
 
 Användning:
     python importera_df.py
@@ -25,6 +25,8 @@ log = logging.getLogger("importera_df")
 
 KATALOG = Path(__file__).parent / "data" / "raw" / "df"
 SIDA = "https://df.kansallisarkisto.fi/document/{}"
+# Brev med samma FMU-nummer men bara samma år; används inte för platser och ska granskas
+OSAKRA = Path(__file__).parent / "data" / "platser" / "df_fmu_osakra.tsv"
 SPRAK = {"latina": "lat", "ruotsi": "swe", "saksa": "deu", "venaja": "rus", "islanti": "isl"}
 NUTIDA_REGEST = "Auctoritate Papae"
 FMU = re.compile(r"FMU\s+(?:nr\s+)?(\d+)")
@@ -49,6 +51,19 @@ def datum(text: str, ar: str) -> tuple:
     return None, None, None, text or None
 
 
+def samma_datum(edtf: str | None, fran: int | None, sdhk_fran: int | None) -> str | None:
+    """Om SDHK-brevet med samma FMU-nummer har DF-brevets datum, så noga som DF anger det.
+
+    Samma FMU-nummer kan täcka en samling brev, och ett nummer kan vara felskrivet. Samma dag
+    eller månad är säkert. Bara samma år räcker när DF bara anger året; annars är det osäkert.
+    """
+    if not fran or not sdhk_fran or fran // 10000 != sdhk_fran // 10000:
+        return None
+    if fran // 100 == sdhk_fran // 100 or len(edtf or "") <= 5:
+        return "saker"
+    return "osaker"
+
+
 def _sdhk_per_fmu() -> dict[int, list[tuple[int, int | None]]]:
     p = db._prefix()
     conn = db._hamta_db()
@@ -59,7 +74,7 @@ def _sdhk_per_fmu() -> dict[int, list[tuple[int, int | None]]]:
         per_fmu: dict[int, list] = {}
         for nr, tryck, fran in cur.fetchall():
             for fmu in FMU.findall(tryck):
-                per_fmu.setdefault(int(fmu), []).append((nr, fran // 10000 if fran else None))
+                per_fmu.setdefault(int(fmu), []).append((nr, fran))
         return per_fmu
     finally:
         conn.close()
@@ -71,21 +86,27 @@ def main() -> None:
     poster = json.loads((KATALOG / "diplomatarium-fennicum.json").read_text(encoding="utf-8"))
     regester = {r["df"]: r for r in map(json.loads, (KATALOG / "regester.jsonl").open(encoding="utf-8"))}
     per_fmu = _sdhk_per_fmu()
-    verk, passager, kopplade, utelamnade = [], [], 0, 0
+    verk, passager, kopplade, utelamnade, alla_osakra = [], [], 0, 0, []
     for post in poster:
         nr = int(post["df"])
         sida = gzip.decompress((KATALOG / "sidor" / f"{nr}.html.gz").read_bytes()).decode("utf-8", "replace")
         edtf, fran, till, anm = datum(_falt(sida, "date"), post["dating_start_year"])
         sprak = [k for s in post["language"].split(",") if (k := SPRAK.get(s.strip()))]
-        ar = fran // 10000 if fran else None
-        sdhk = [n for n, a in per_fmu.get(nr, []) if a == ar and ar]
+        sdhk, osakra = [], []
+        for n, sdhk_fran in per_fmu.get(nr, []):
+            if (grad := samma_datum(edtf, fran, sdhk_fran)) == "saker":
+                sdhk.append(n)
+            elif grad == "osaker":
+                osakra.append(n)
         kopplade += bool(sdhk)
+        alla_osakra += [(verk_id := f"df:{nr}", n) for n in osakra]
         rad = regester.get(nr) or {}
         verk_id = f"df:{nr}"
         verk.append((verk_id, "df", f"DF {nr}", _falt(sida, "issuer") or None, "diplom", db.sprakvarde(sprak),
                      post["issuingplace"] or None, edtf, fran, till, anm, SIDA.format(nr),
                      json.dumps({"land": post["issuingplacecountry"] or None, "amnesord": post["indexterm"] or None,
-                                 "regest_kalla": rad.get("kalla") or None, "sdhk": sdhk}, ensure_ascii=False)))
+                                 "regest_kalla": rad.get("kalla") or None, "sdhk": sdhk,
+                                 "sdhk_osaker": osakra}, ensure_ascii=False)))
         if rad.get("regest"):
             if NUTIDA_REGEST in (rad.get("kalla") or ""):
                 utelamnade += 1
@@ -105,7 +126,10 @@ def main() -> None:
         db.upsert(conn, "passage", ["id", "verk_id", "utgava_id", "typ", "adress", "ordning", "sprak", "text"], ["id"], passager)
     finally:
         conn.close()
-    log.info("%d brev, %d passager, %d kopplade till SDHK, %d regester utelämnade", len(verk), len(passager), kopplade, utelamnade)
+    with OSAKRA.open("w", encoding="utf-8") as f:
+        f.write("df\tsdhk\n" + "".join(f"{d}\tsdhk:{n}\n" for d, n in sorted(alla_osakra)))
+    log.info("%d brev, %d passager, %d kopplade till SDHK, %d osäkra kopplingar, %d regester utelämnade",
+             len(verk), len(passager), kopplade, len(alla_osakra), utelamnade)
 
 
 if __name__ == "__main__":
