@@ -28,6 +28,12 @@ CHUNK_OVERLAPP_TECKEN = int(os.environ.get("CHUNK_OVERLAPP_TECKEN", "200"))
 
 _modeller: dict = {}
 _modell_lock = threading.Lock()
+# Modellerna körs en i taget, oavsett modell. PyTorchs MPS-stöd (Apples
+# grafikprocessor) är inte trådsäkert: före PyTorch 2.15 delar Metal-kärnorna
+# en olåst cache, och två arbetstrådar som kör encode samtidigt kan krascha
+# processen med segmenteringsfel. En sökfråga tar några millisekunder, så
+# kön märks inte.
+_berakning_lock = threading.Lock()
 
 
 def _hamta_modell(namn: str = EMBEDDING_MODELL):
@@ -44,7 +50,10 @@ def _hamta_modell(namn: str = EMBEDDING_MODELL):
                 from sentence_transformers import SentenceTransformer
 
                 log.info("Laddar embedding-modell: %s", namn)
-                _modeller[namn] = SentenceTransformer(namn)
+                # Laddningen flyttar vikterna till grafikprocessorn och får
+                # därför inte sammanfalla med en beräkning i en annan modell
+                with _berakning_lock:
+                    _modeller[namn] = SentenceTransformer(namn)
     return _modeller[namn]
 
 
@@ -61,20 +70,23 @@ def _prefix(namn: str, roll: str) -> str:
 def embedda_texter(texter: list[str], namn: str = EMBEDDING_MODELL) -> list[list[float]]:
     """Normaliserade vektorer för en lista passagetexter, i batch."""
     prefix = _prefix(namn, "passage")
-    vektorer = _hamta_modell(namn).encode(
-        [prefix + t for t in texter],
-        batch_size=EMBEDDING_BATCH_STORLEK,
-        normalize_embeddings=True,
-        show_progress_bar=False,
-    )
+    modell = _hamta_modell(namn)
+    with _berakning_lock:
+        vektorer = modell.encode(
+            [prefix + t for t in texter],
+            batch_size=EMBEDDING_BATCH_STORLEK,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        )
     return vektorer.tolist()
 
 
 def embedda_fraga(fraga: str, namn: str = EMBEDDING_MODELL) -> list[float]:
     """Normaliserad vektor för en sökfråga."""
-    return _hamta_modell(namn).encode(
-        _prefix(namn, "fraga") + fraga, normalize_embeddings=True, show_progress_bar=False
-    ).tolist()
+    modell = _hamta_modell(namn)
+    with _berakning_lock:
+        vektor = modell.encode(_prefix(namn, "fraga") + fraga, normalize_embeddings=True, show_progress_bar=False)
+    return vektor.tolist()
 
 
 def chunka_text(
