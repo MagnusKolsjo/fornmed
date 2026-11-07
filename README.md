@@ -637,7 +637,8 @@ Begränsningar:
 ## Maskinöversättningar
 
 Texter som saknar fri svensk översättning har fått en översättning gjord av
-en språkmodell (Claude) direkt från originalspråket: alla landskaps- och
+en språkmodell, Claude Opus 5.5 (`claude-opus-5-5`), direkt från originalspråket:
+alla landskaps- och
 stadslagar i Fornsvenska textbanken (också Kristoffers landslags flockar ur
 Magnus Erikssons landslag, Upplandslagen B och textbankens Gutalag),
 Västgötalagens längder, Hednalagen, Vǫluspá hin skamma, Finnsburgfragmentet,
@@ -932,6 +933,21 @@ SDHK-brev läses bara ur SDHK.
 DN läses i ett eget steg efter SDHK och DF. Sammanslagningarna efter klustringen
 (släktnamn, medaktörer, personlistan) görs först för SDHK och DF och sedan igen med DN,
 så att DN kan lägga till sammanslagningar men aldrig ta bort en som redan finns.
+
+### Diplomatarium Islandicum
+
+DI har ingen regest, bara bandens isländska rubriker, och bara en del av dem nämner
+utfärdaren. `di_regester.py` läser två former: subjekt och verb ("Marteinn byskup
+Einarsson fær Daða Guðmundssyni …") och dokumenttypen med utfärdaren i genitiv
+("Bannsakabréf Jóns biskups Haldórssonar", "Bréf Hamborgarráðs til Kristjáns konungs").
+Namnen skrivs om till nominativ med enkla regler för fornisländskans böjning ("Jóns" →
+"Jón", "Ögmundar" → "Ögmundr", "Hákonar" → "Hákon", "Haldórssonar" → "Haldórsson",
+"Ingibjargar" → "Ingibjörg", dativen "Daða Guðmundssyni" → "Daði Guðmundsson") och
+titlarna till SDHK:s svenska; regenternas namn till regentlistans ("Kristjáns konungs" →
+"Kung Kristian"). "Bréf sama til sama" får föregående brevs utfärdare och adressat.
+Rubriker som "Kaupbréf um …" och "Máldagi …" nämner ingen utfärdare och ger inga
+påståenden. DI:s orter står i dativ och blir inga nya platser. Reglerna är grova, och ett
+namn de inte känner igen behåller sin form.
 
 ### Adressater och svar
 

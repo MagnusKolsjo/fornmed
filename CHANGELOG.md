@@ -7,6 +7,15 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Påståenden ur Diplomatarium Islandicums rubriker (`di_regester.py`): utfärdare, ämbeten,
+  gärningar och missivens adressater, 2 516 påståenden. Isländska namn i genitiv och dativ
+  skrivs om till nominativ. DI läses i ett eget steg efter DN.
+
+- Uppdragen bakom maskinöversättningarna (`data/oversattningar/promptar/`): de 209
+  delagenternas uppdrag ordagrant ur sessionsloggarna, hjälpskripten, riktlinjernas första
+  version och ett index från översättningsfil till uppdrag. Maskinöversättningarnas
+  utgåvor har språkmodellen, Claude Opus 5.5 (`claude-opus-5-5`), som översättare.
+
 - DN:s svar känns igen i fler former ("besvarer et brev fra", "Modtagelsen af et Brev",
   verb i flertal), och sju svar i DN är kopplade till det besvarade brevet. Ett missiv
   vars adressat inte gick att identifiera räknas inte längre som besvarat brev, och

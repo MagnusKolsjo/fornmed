@@ -6512,7 +6512,7 @@ F	15516:abedisan ingegerd knutsdoter	person:ingegerd_knutsdoter_1412
 F	15516:broder peter	person:sdhk:peter:15516
 F	15517:nise arvidson	person:sdhk:nise_arvidson:15517
 F	15518:drotning margareta	person:margareta_valdemarsdotter
-F	15519:esbjörn blåpana	person:sdhk:esbjorn_blapana:15519
+F	15519:esbjörn blåpana	person:sdhk:esbjorn_blapana:19852
 F	15519:katrin nilsdoter	person:sdhk:katrin_nilsdoter:15519
 F	1551:tyrgils (knutson)	person:sdhk:tyrgils_knutson:1551
 F	15520:johan hermanson	person:sdhk:johan_hermanson:15520
@@ -15732,8 +15732,8 @@ F	23084:drotsen krister nilson	person:sdhk:krister_nilson:18737
 F	23084:marsken karl knutson	person:karl_knutsson
 F	23085:bengt i linköping	person:bengt_larsson_linkoping
 F	23085:bengt jönson	person:sdhk:bengt_jonson:23085
-F	23085:bo knutson	person:sdhk:bo_knutson:23085
-F	23085:erengisle nilson	person:sdhk:erengisle_nilson:23085
+F	23085:bo knutson	person:sdhk:bo_knutson:22449
+F	23085:erengisle nilson	person:sdhk:erengisle_nilson:22803
 F	23085:greger magnuson	person:sdhk:greger_magnuson:22525
 F	23085:gustav algotson	person:sdhk:gustav_algotson:20582
 F	23085:hans kröpelin	person:hans_kropelin_1440
@@ -23522,7 +23522,7 @@ F	29147:peter björnson i kälby	person:sdhk:peter_bjornson:29147
 F	29147:peter tordson	person:sdhk:peter_tordson:29147
 F	29148:arend bengtson	person:sdhk:arend_bengtson:26235
 F	29148:erik axelson	person:erik_axelsson_tott
-F	29148:erik erikson	person:sdhk:erik_erikson:29148
+F	29148:erik erikson	person:sdhk:erik_erikson:25718
 F	29148:fader ulfson	person:sdhk:fader_ulfson:25475
 F	29148:gregers bengtson	person:sdhk:gregers_bengtson:24283
 F	29148:gregers matson	person:sdhk:gregers_matson:29148
@@ -23841,7 +23841,7 @@ F	29323:lydeke olofson	person:sdhk:lydeke_olofson:28198
 F	29325:ridaren sten sture i gripsholm	person:sten_sture_d_a
 F	29326:arvid trole	person:arvid_trole_1505
 F	29327:erik axelson	person:erik_axelsson_tott
-F	29327:erik erikson	person:sdhk:erik_erikson:29148
+F	29327:erik erikson	person:sdhk:erik_erikson:25718
 F	29327:gregers matson	person:sdhk:gregers_matson:29148
 F	29327:laurens axelson	person:sdhk:laurens_axelson:29327
 F	29327:nils sture	person:nils_sture_1494
@@ -52567,6 +52567,158 @@ F	a|df822:ärkebiskop birger i upsala	person:birger_gregersson_uppsala
 F	a|df878:biskop johan i åbo påven urban vi	person:johannes_iii_westfal_abo
 F	a|df893:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df912:ridaren erengisle	person:erengisle_nilson_d_a_1406
+F	a|di10-104:geble peturson	person:di:geble_peturson:10-104
+F	a|di10-107:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di10-108:odr gotskalkson	person:di:odr_gotskalkson:10-108
+F	a|di10-117:her jon einarson	person:di:jon_einarson:10-117
+F	a|di10-125:holmfridi erlendsdotir	person:di:holmfridi_erlendsdotir:9-538
+F	a|di10-125:jon halson	person:di:jon_halson:10-125
+F	a|di10-134:jon halson	person:di:jon_halson:10-134
+F	a|di10-191:jon björnson	person:di:jon_bjornson:10-191
+F	a|di10-220:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di10-236:helga	person:di:helga:10-236
+F	a|di10-256:biskop jon	person:johannes_magni_linkoping
+F	a|di10-258:torstein tordarson	person:di:torstein_tordarson:10-258
+F	a|di10-266:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di10-286:pal tumason	person:di:pal_tumason:10-286
+F	a|di10-307:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di10-308:biskop jon	person:johannes_magni_linkoping
+F	a|di10-315:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di10-317:torleifr eirikson	person:di:torleifr_eirikson:10-317
+F	a|di10-325:kristopher hvitfeldr	person:di:kristopher_hvitfeldr:10-325
+F	a|di10-333:kristopher hvitfeldr	person:di:kristopher_hvitfeldr:10-333
+F	a|di10-346:lagman ara	person:di:ara:10-236
+F	a|di10-347:biskop jon	person:johannes_magni_linkoping
+F	a|di10-374:abot haldor	person:di:haldor:10-374
+F	a|di10-378:biskop jon	person:johannes_magni_linkoping
+F	a|di10-3:kung heinrekr i av england	person:di:kung_heinrekr:10-3-a
+F	a|di10-424:dadi gudmundson	person:di:dadi_gudmundson:10-424
+F	a|di10-436:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di10-5:kung heinrekr av england	person:di:kung_heinrekr:10-5-a
+F	a|di10-86:jon halson	person:di:jon_halson:10-86
+F	a|di10-8:biskop orm i holar	person:di:orm:2-517
+F	a|di11-143:biskop petr paladius	person:di:petr_paladius:11-143
+F	a|di11-149:biskop hans ref	person:johannes_magni_linkoping
+F	a|di11-181:lagman erlendr torvardson	person:di:erlendr_torvardson:9-130
+F	a|di11-203:biskop geble petrson	person:di:geble_petrson:11-203
+F	a|di11-232:torvardr einarson	person:di:torvardr_einarson:11-232
+F	a|di11-233:petr einarson	person:di:petr_einarson:11-233
+F	a|di11-234:abedisa haldora	person:di:haldora:11-234
+F	a|di11-234:abedisa haldoru	person:di:haldoru:11-234
+F	a|di11-236:bardr gudmundson	person:di:bardr_gudmundson:11-236
+F	a|di11-237:eyjolfr einarson	person:di:eyjolfr_einarson:11-237
+F	a|di11-239:oti stigson	person:di:oti_stigson:11-239
+F	a|di11-243:biskop gizur	person:di:gizur:10-116
+F	a|di11-245:abot sigvardr	person:di:sigvardr:11-245
+F	a|di11-295:dadi gudmundson	person:di:dadi_gudmundson:10-424
+F	a|di11-323:gudrun björnsdotir	person:di:gudrun_bjornsdotir:11-323
+F	a|di11-356:oti stigson	person:di:oti_stigson:11-356
+F	a|di11-365:her jon eirikson	person:di:jon_eirikson:11-365
+F	a|di11-382:oti stigson	person:di:oti_stigson:11-382
+F	a|di11-386:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di11-391:abot sigvardr	person:di:sigvardr:11-245
+F	a|di11-392:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di11-400:ormr sturluson	person:di:ormr_sturluson:11-400
+F	a|di11-400:petr einarson	person:di:petr_einarson:11-400
+F	a|di11-401:oti stigson	person:di:oti_stigson:11-401
+F	a|di11-463:her tordr palson	person:di:tordr_palson:11-463
+F	a|di11-511:lasi mul	person:di:lasi_mul:11-511
+F	a|di11-524:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di11-525:pal vigfuson	person:di:pal_vigfuson:11-525
+F	a|di11-533:her tordr palson	person:di:tordr_palson:11-463
+F	a|di11-536:her snori hjalmson	person:di:snori_hjalmson:11-536
+F	a|di11-547:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	a|di11-643:biskop jon	person:johannes_magni_linkoping
+F	a|di11-663:biskop petr paladius	person:di:petr_paladius:11-143
+F	a|di11-671:biskop jon	person:johannes_magni_linkoping
+F	a|di12-99:eske bilde	person:di:eske_bilde:12-99
+F	a|di13-208:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	a|di13-359:orm sturluson	person:di:orm_sturluson:13-359
+F	a|di14-109:gudmundr helgasonanr	person:di:gudmundr_helgasonanr:14-109
+F	a|di14-1:kung jatvardr av england	person:di:kung_jatvardr:14-1-a
+F	a|di14-338:magnus gyldenstjerne	person:di:magnus_gyldenstjerne:14-338
+F	a|di15-3:petr ochse	person:di:petr_ochse:15-3
+F	a|di16-263:hanesr egertson	person:di:hanesr_egertson:16-263
+F	a|di2-121:kung erik magnuson	person:erik_magnusson_norge
+F	a|di2-143:abot runolfr	person:di:runolfr_sigmundarson:2-76
+F	a|di2-362:biskop laurentius i holar	person:di:laurentius:2-362
+F	a|di2-41:påve gregorius x	person:pave_gregorius_x
+F	a|di2-459:biskop jon haldorson i skalholt	person:jon_haldorson_1339
+F	a|di2-463:biskop jon haldorson	person:di:biskop_jon:2-463-a
+F	a|di2-471:biskop jon indridason	person:di:biskop_jon:2-471-a
+F	a|di2-517:biskop orm	person:di:orm:2-517
+F	a|di2-76:abot runolfr sigmundarson	person:di:runolfr_sigmundarson:2-76
+F	a|di3-20:biskop orm i holar	person:di:orm:2-517
+F	a|di3-234:skuli tordarson	person:di:skuli_tordarson:3-234
+F	a|di3-415:jon eyjolfson	person:di:jon_eyjolfson:3-415
+F	a|di3-521:jon björnson	person:di:jon_bjornson:3-521
+F	a|di3-577:her torstein svartöfdason	person:di:torstein_svartofdason:3-577
+F	a|di3-639:biskop jon i holar	person:dn:jon_craxton:20-784
+F	a|di3-642:kung erik av pomern	person:erik_av_pommern
+F	a|di4-343:kung erik av pomern	person:erik_av_pommern
+F	a|di4-362:steindor andreson	person:di:steindor_andreson:4-362
+F	a|di4-367:magnusr jonson	person:di:magnusr_jonson:4-367
+F	a|di4-372:ara gudmundson	person:di:ara_gudmundson:4-372
+F	a|di4-418:präst jon palson	person:di:jon_palson:4-418
+F	a|di4-425:präst jon palson	person:di:jon_palson:4-418
+F	a|di4-446:kristin odsdotir	person:di:kristin_odsdotir:4-446
+F	a|di4-511:helgi bjarnarson	person:di:helgi_bjarnarson:4-511
+F	a|di4-597:biskop jon i holar	person:dn:jon_viljalmson:20-790
+F	a|di4-625:brand jonson	person:di:brand_jonson:4-625
+F	a|di4-674:biskop gotskalk i holar	person:dn:gotskalk:1-778
+F	a|di4-718:biskop godsvin i skalholt	person:di:godsvin:4-609
+F	a|di5-173:teit gunlaugson	person:di:teit_gunlaugson:5-173
+F	a|di5-17:jon nikulason	person:di:jon_nikulason:5-17
+F	a|di5-188:biskop davidr	person:di:davidr:5-188
+F	a|di5-199:biskop andres	person:di:andres:5-199
+F	a|di5-337:birn torleifson	person:di:birn_torleifson:5-337
+F	a|di5-389:lopt ormson	person:di:lopt_ormson:5-389
+F	a|di5-416:birn torleifson	person:di:birn_torleifson:5-416
+F	a|di5-432:lagman brandr jonson	person:di:brandr_jonson:5-118
+F	a|di5-502:gudni jonson	person:di:gudni_jonson:5-502
+F	a|di5-54:biskop gotskalkr i holar	person:di:gotskalkr:4-716
+F	a|di5-58:vilhjalm canynges	person:di:vilhjalm_canynges:5-58
+F	a|di5-614:finbogi jonson	person:di:finbogi_jonson:5-614
+F	a|di5-652:od petrson	person:di:od_petrson:5-652
+F	a|di6-159:ingvild helgadotir	person:di:ingvild_helgadotir:6-159
+F	a|di6-159:torleif björnson	person:di:torleif_bjornson:6-159
+F	a|di6-208:torleif björnson	person:di:torleif_bjornson:6-208
+F	a|di6-428:stein snorason	person:di:stein_snorason:6-428
+F	a|di6-473:einar björnsonar)	person:di:einar_bjornsonar:6-473
+F	a|di6-517:stig einarson	person:di:stig_einarson:6-517
+F	a|di6-572:pal palson	person:di:pal_palson:6-572
+F	a|di7-269:torbirn jonson	person:di:torbirn_jonson:7-269
+F	a|di7-389:abot einar benediktson	person:di:einar_benediktson:6-517
+F	a|di7-442:sturla tordarson	person:di:sturlu_tordarson:7-442
+F	a|di7-442:sturlu tordarson	person:di:sturlu_tordarson:7-442
+F	a|di7-459:björn gudnason	person:di:bjorn_gudnason:7-459
+F	a|di7-460:jon sigmundson	person:di:jon_sigmundson:7-460
+F	a|di7-528:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	a|di7-529:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	a|di7-718:grimr palson	person:di:grimr_palson:7-718
+F	a|di8-120:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	a|di8-154:björn gudnason	person:di:bjorn_gudnason:8-154
+F	a|di8-156:kung henrik vi av england	person:di:kung_henrik:8-156-a
+F	a|di8-264:björn gudnason	person:di:bjorn_gudnason:8-264
+F	a|di8-266:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	a|di8-443:björn gudnason	person:di:bjorn_gudnason:8-443
+F	a|di8-506:ormr gudmundson	person:di:ormr_gudmundson:8-506
+F	a|di8-587:kung kristian i	person:kristian_2
+F	a|di9-135:kung kristian i	person:kristian_2
+F	a|di9-135b:ärkebiskop eirikr	person:di:eirikr:9-71
+F	a|di9-215:ragnhild bjarnadotir	person:di:ragnhild_bjarnadotir:9-215
+F	a|di9-215:torfi björnson	person:di:torfi_bjornson:9-215
+F	a|di9-263:teit torleifson	person:di:teit_torleifson:9-263
+F	a|di9-340:ara andreson	person:di:ara_andreson:9-340
+F	a|di9-503:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di9-504:biskop ögmundr	person:di:ogmundr:9-60
+F	a|di9-538:holmfridi erlendsdotir	person:di:holmfridi_erlendsdotir:9-538
+F	a|di9-538:jon halson	person:di:jon_halson:9-538
+F	a|di9-569:abot petr	person:di:petr:9-569
+F	a|di9-570:biskop höskuldr	person:di:hoskuldr:9-570
+F	a|di9-71:ärkebiskop eirikr	person:di:eirikr:9-71
+F	a|di9-74:jon halson	person:di:jon_halson:9-74
+F	a|di9-93:lagman teitr	person:di:teitr:9-93
 F	a|dn1-1044:trondjems kapitel	person:dn:trondjems_kapitel:1-1044
 F	a|dn1-1059:danmarks riges råd	person:dn:danmarks_riges_rad:1-1059
 F	a|dn1-1061:kung kristiern i	person:kristian_2
@@ -53956,7 +54108,7 @@ F	a|dn22-389:her eske bile	person:dn:eske_bile:22-389
 F	a|dn22-38:her svante nilson	person:svante_nilsson
 F	a|dn22-390:eske bile	person:dn:eske_bile:22-390
 F	a|dn22-392:her eske bile	person:dn:eske_bile:22-392
-F	a|dn22-393:eske bile	person:dn:eske_bile:22-393
+F	a|dn22-393:eske bile	person:dn:eske_bile:22-375
 F	a|dn22-396:eske bile	person:dn:eske_bile:22-396
 F	a|dn22-397:her eske bile	person:dn:eske_bile:22-397
 F	a|dn22-398:her eske bile	person:dn:eske_bile:22-398
@@ -58274,6 +58426,1276 @@ F	df989:simon körning	person:df:simon_korning:989
 F	df993:tord	person:df:tord:993
 F	df996:mårten abrahamson	person:sdhk:marten_abrahamson:13851
 F	df99:påve inocentius iv	person:pave_inocentius_iv
+F	di1-10:påve johanes	person:pave_johanes_x
+F	di1-117:biskop magnus gizurarson	person:magnus_vasteras
+F	di1-11:påve marinus	person:pave_marinus_ii
+F	di1-121:heinrekr englakonungr	person:di:heinrekr_englakonungr:1-121
+F	di1-12:påve agapitus	person:pave_agapitus_ii
+F	di1-132:påve gregorius	person:pave_gregorius_ix
+F	di1-133:påve gregorius	person:pave_gregorius_ix
+F	di1-134:påve gregorius	person:pave_gregorius_ix
+F	di1-136:påve gregorius	person:pave_gregorius_ix
+F	di1-137:sämundr ormson	person:di:samundr_ormson:1-137
+F	di1-139:kardinal vilhjalmr	person:di:vilhjalmr:1-139
+F	di1-13:påve johanes	person:pave_johanes_xv
+F	di1-140:kardinal vilhjalmr	person:di:vilhjalmr:1-139
+F	di1-141:påve inocentius	person:pave_inocentius_iv
+F	di1-144:påve inocentius	person:pave_inocentius_iv
+F	di1-14:påve benedikt	person:pave_benedictus_viii
+F	di1-151:påve alexander	person:pave_alexander_iv
+F	di1-15:kung olav haraldson	person:di:kung_olav:1-15
+F	di1-17:påve benedikt	person:pave_benedictus_ix
+F	di1-18:påve leo	person:pave_leo_ix
+F	di1-19:påve victor	person:pave_victor_ii
+F	di1-20:påve alexander	person:pave_alexander_ii
+F	di1-27:påve inocentius	person:pave_inocentius_ii
+F	di1-2:påve gregorius	person:pave_gregorius_iv
+F	di1-35:påve anastasius	person:pave_anastasius_iv
+F	di1-39:kung magnus erlingson av norge	person:magnus_erlingsson
+F	di1-39:magnus erlingson noregs	person:di:magnus_erlingson_noregs:1-39
+F	di1-3:påve sergius	person:pave_sergius_ii
+F	di1-3b:påve gregorius	person:pave_gregorius_ix
+F	di1-4:påve leo	person:pave_leo_iv
+F	di1-4b:påve inocentius	person:pave_inocentius_iv
+F	di1-5b:påve inocentius	person:pave_inocentius_iv
+F	di1-6:påve hadrianus	person:pave_hadrianus_ii
+F	di1-70:påve clemens	person:pave_clemens_iii
+F	di1-73:påve celestinus	person:pave_celestinus_iii
+F	di1-74:påve celestinus	person:pave_celestinus_iii
+F	di1-75:påve inocentius	person:pave_inocentius_iii
+F	di1-76:påve inocentius	person:pave_inocentius_iii
+F	di1-77:påve inocentius	person:pave_inocentius_iii
+F	di1-7:påve stephan	person:di:pave_stephan:1-7
+F	di1-8:påve sergius	person:pave_sergius_iii
+F	di1-93:påve inocentius	person:pave_inocentius_iii
+F	di1-9:påve anastasius	person:pave_anastasius_iii
+F	di10-100:jon halson	person:di:jon_halson:10-100
+F	di10-104:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-107:claus marvitz	person:di:claus_marvitz:10-107
+F	di10-108:gizur einarson	person:di:gizur_einarson:10-108
+F	di10-110:pal grimson	person:di:pal_grimson:10-110
+F	di10-113:bjarni sturluson	person:di:bjarni_sturluson:10-113
+F	di10-116:biskop gizur	person:di:gizur:10-116
+F	di10-117:gizur einarson	person:di:gizur_einarson:10-117
+F	di10-11:lagman torstein eyjolfson	person:di:torstein_eyjolfson:10-11
+F	di10-120:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-125:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-126:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-134:claus marvitz	person:di:claus_marvitz:10-134
+F	di10-135:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-140:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-144:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-145:claus marvizen	person:di:claus_marvizen:10-145
+F	di10-145:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-147:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-148:biskop jon	person:johannes_magni_linkoping
+F	di10-149:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-157:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-158:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-15:kung erik av pomern	person:erik_av_pommern
+F	di10-161:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-167:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-170:claus marbevitr	person:di:claus_marbevitr:10-170
+F	di10-171:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-177:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-182:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-185:claus marvisen	person:di:claus_marvisen:10-185
+F	di10-187:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-191:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-194:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-205:biskop gizur	person:di:gizur:10-116
+F	di10-210:biskop gizur	person:di:gizur:10-116
+F	di10-211:abot petr	person:di:petr:9-569
+F	di10-215:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-217:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-220:gizur einarson	person:di:gizur_einarson:10-220
+F	di10-223:pal vigfuson	person:di:pal_vigfuson:10-223
+F	di10-226:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-22:kung kristian	person:kristian_1
+F	di10-233:biskop jon	person:johannes_magni_linkoping
+F	di10-235:jon björnson	person:di:jon_bjornson:10-235
+F	di10-236:lagman ara	person:di:ara:10-236
+F	di10-239:markusr jonson	person:di:markusr_jonson:10-239
+F	di10-241:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-255:biskop gizur	person:di:gizur:10-116
+F	di10-256:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-258:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-260:biskop gizur	person:di:gizur:10-116
+F	di10-261:jon jonson	person:di:jon_jonson:10-261
+F	di10-264:biskop gizur	person:di:gizur:10-116
+F	di10-266:biskop gizur	person:di:gizur:10-116
+F	di10-272:biskop gizur	person:di:gizur:10-116
+F	di10-273:odr tumason	person:di:odr_tumason:10-273
+F	di10-275:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-278:biskop gizur	person:di:gizur:10-116
+F	di10-27:gisli jonson	person:di:gisli_jonson:10-27
+F	di10-284:biskop gizur	person:di:gizur:10-116
+F	di10-286:biskop gizur	person:di:gizur:10-116
+F	di10-305:pal vigfuson	person:di:pal_vigfuson:10-305
+F	di10-307:biskop gizur	person:di:gizur:10-116
+F	di10-308:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-310:ormr sturluson	person:di:ormr_sturluson:10-310
+F	di10-311:kung kristian	person:kristian_3
+F	di10-315:biskop gizur	person:di:gizur:10-116
+F	di10-317:biskop gizur	person:di:gizur:10-116
+F	di10-31:kung rikardr av england	person:di:kung_rikardr:10-31
+F	di10-325:biskop gizur	person:di:gizur:10-116
+F	di10-326:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-333:lagman ara	person:di:ara:10-236
+F	di10-341:lagman torleifr palson	person:di:torleifr_palson:10-341
+F	di10-342:kristopher hvitfeldr	person:di:kristopher_hvitfeldr:10-342
+F	di10-346:biskop gizur	person:di:gizur:10-116
+F	di10-347:biskop gizur	person:di:gizur:10-116
+F	di10-350:biskop gizur	person:di:gizur:10-116
+F	di10-354:biskop gizur	person:di:gizur:10-116
+F	di10-361:biskop gizur	person:di:gizur:10-116
+F	di10-365:biskop gizur	person:di:gizur:10-116
+F	di10-371:biskop gizur	person:di:gizur:10-116
+F	di10-374:biskop gizur	person:di:gizur:10-116
+F	di10-378:biskop gizur	person:di:gizur:10-116
+F	di10-379:biskop gizur	person:di:gizur:10-116
+F	di10-37:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di10-382:petr einarson	person:di:petr_einarson:10-382
+F	di10-389:biskop gizur	person:di:gizur:10-116
+F	di10-392:abot alexiusr	person:di:alexiusr:10-392
+F	di10-394:biskop gizur	person:di:gizur:10-116
+F	di10-3:kung håkon	person:hakon_hakonsson
+F	di10-40:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-423:biskop gizur	person:di:gizur:10-116
+F	di10-424:biskop gizur	person:di:gizur:10-116
+F	di10-436:biskop gizur	person:di:gizur:10-116
+F	di10-49:pal grimson	person:di:pal_grimson:10-49
+F	di10-4:kung heinrekr av england	person:di:kung_heinrekr:10-4
+F	di10-50:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-52:didrik minden	person:di:didrik_minden:10-52
+F	di10-53:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-54:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-56:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-5:kung håkon	person:hakon_hakonsson
+F	di10-61:solveig bjarnadotir	person:di:solveig_bjarnadotir:10-61
+F	di10-64:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-69:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-72:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-73:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di10-86:claus meruitz	person:di:claus_meruitz:10-86
+F	di10-89:biskop ögmundr	person:di:ogmundr:10-89
+F	di10-8:kung magnus eirikson	person:magnus_eriksson
+F	di10-90:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-92:biskop ögmundr	person:di:ogmundr:9-60
+F	di10-9:kung magnus	person:magnus_eriksson
+F	di11-117:biskop jon arason	person:johannes_magni_linkoping
+F	di11-13:biskop marcelusr mateusi	person:di:marcelusr_mateusi:5-54
+F	di11-143:biskop jon arason	person:johannes_magni_linkoping
+F	di11-147:biskop jon	person:johannes_magni_linkoping
+F	di11-149:biskop gizur	person:di:gizur:10-116
+F	di11-181:biskop gizur	person:di:gizur:10-116
+F	di11-185:claus marvitzen	person:di:claus_marvitzen:11-185
+F	di11-203:biskop gizur	person:di:gizur:10-116
+F	di11-210:biskop petr paladius	person:di:petr_paladius:11-143
+F	di11-220:claus marvitzen	person:di:claus_marvitzen:11-220
+F	di11-232:claus marvitzen	person:di:claus_marvitzen:11-232
+F	di11-233:claus marvitzen	person:di:claus_marvitzen:11-233
+F	di11-234:claus marvitzen	person:di:claus_marvitzen:11-234
+F	di11-236:claus marvitzen	person:di:claus_marvitzen:11-236
+F	di11-237:claus marvitzen	person:di:claus_marvitzen:11-237
+F	di11-239:claus marvitzen	person:di:claus_marvitzen:11-239
+F	di11-243:biskop jon	person:johannes_magni_linkoping
+F	di11-244:biskop gizur	person:di:gizur:10-116
+F	di11-245:biskop gizur	person:di:gizur:10-116
+F	di11-295:biskop gizur	person:di:gizur:10-116
+F	di11-308:björn torleifson	person:di:bjorn_torleifson:11-308
+F	di11-323:björn torleifson	person:di:bjorn_torleifson:11-323
+F	di11-352:jon odson	person:di:jon_odson:11-352
+F	di11-356:biskop gizur	person:di:gizur:10-116
+F	di11-365:biskop gizur	person:di:gizur:10-116
+F	di11-380:biskop gizur	person:di:gizur:10-116
+F	di11-382:biskop gizur	person:di:gizur:10-116
+F	di11-386:biskop gizur	person:di:gizur:10-116
+F	di11-388:biskop gizur	person:di:gizur:10-116
+F	di11-391:biskop gizur	person:di:gizur:10-116
+F	di11-392:biskop gizur	person:di:gizur:10-116
+F	di11-400:biskop petr paladius	person:di:petr_paladius:11-143
+F	di11-401:biskop gizur	person:di:gizur:10-116
+F	di11-406:biskop gizur	person:di:gizur:10-116
+F	di11-463:biskop gizur	person:di:gizur:10-116
+F	di11-464:biskop gizur	person:di:gizur:10-116
+F	di11-466:biskop gizur	person:di:gizur:10-116
+F	di11-474:biskop gizur	person:di:gizur:10-116
+F	di11-511:dadi gudmundson	person:di:dadi_gudmundson:11-511
+F	di11-524:biskop gizur	person:di:gizur:10-116
+F	di11-525:biskop gizur	person:di:gizur:10-116
+F	di11-533:biskop gizur	person:di:gizur:10-116
+F	di11-536:biskop gizur	person:di:gizur:10-116
+F	di11-547:biskop gizur	person:di:gizur:10-116
+F	di11-552:bjarni narfason	person:di:bjarni_narfason:11-552
+F	di11-589:björn jonson	person:di:bjorn_jonson:11-589
+F	di11-627:laurentius mule	person:di:laurentius_mule:11-627
+F	di11-643:biskop petr paladius	person:di:petr_paladius:11-143
+F	di11-663:her tordr marteinson	person:di:tordr_marteinson:11-663
+F	di11-667:ara jonsoni	person:di:ara_jonsoni:11-667
+F	di11-667:her björn	person:di:bjorn:11-667
+F	di11-671:dadi gudmundson	person:di:dadi_gudmundson:11-671
+F	di11-673:lagman ormr	person:di:ormr_sturluson:11-673
+F	di12-103:axel jul	person:di:axel_jul:12-103
+F	di12-130:niel hemingsen	person:di:niel_hemingsen:12-130
+F	di12-135:biskop petr paladius	person:di:petr_paladius:11-143
+F	di12-136:biskop petr paladius	person:di:petr_paladius:11-143
+F	di12-146:biskop martein einarson	person:martein_einarson_1576
+F	di12-155:kristin gotskalksdotir	person:di:kristin_gotskalksdotir:12-155
+F	di12-157:her jon eirikson	person:di:jon_eirikson:12-157
+F	di12-170:lagman ormr sturluson	person:di:ormr_sturluson:11-673
+F	di12-184:lagman ormr sturluson	person:di:ormr_sturluson:11-673
+F	di12-191:torstein finbogason	person:di:torstein_finbogason:12-191
+F	di12-192:lagman ormr sturluson	person:di:ormr_sturluson:11-673
+F	di12-210:torleifr grimson	person:di:torleifr_grimson:12-210
+F	di12-212:her torleifr eirikson	person:di:torleifr_eirikson:12-212
+F	di12-218:helga jonsdotir	person:di:helga_jonsdotir:12-218
+F	di12-223:bjarni einarson i espihol	person:di:bjarni_einarson:12-223
+F	di12-224:biskop martein	person:martein_einarson_1576
+F	di12-231:lagman erlendr torvardson	person:di:erlendr_torvardson:9-130
+F	di12-246:lagman ormr	person:di:ormr_sturluson:11-673
+F	di12-247:lagman ormr	person:di:ormr_sturluson:11-673
+F	di12-256:jon i svalbard	person:di:jon:12-256
+F	di12-257:sira magnus jonson	person:di:sira_magnus_jonson:12-257
+F	di12-274:lagman ormr	person:di:ormr_sturluson:11-673
+F	di12-276:lagman ormr	person:di:ormr_sturluson:11-673
+F	di12-311:helga sigurdardotir	person:di:helga_sigurdardotir:12-311
+F	di12-313:petr einarson	person:di:petr_einarson:12-313
+F	di12-317:nikulas torsteinson	person:di:nikulas_torsteinson:12-317
+F	di12-318:lagman erlendr	person:di:erlendr_torvardson:9-130
+F	di12-327:lagman odr	person:di:odr_gotskalkson:12-327
+F	di12-328:pal hvifeldr	person:di:pal_hvifeldr:12-328
+F	di12-334:pal grimson	person:di:pal_grimson:12-334
+F	di12-336:egert haneson	person:di:egert_haneson:12-336
+F	di12-338:torstein finbogason	person:di:torstein_finbogason:12-338
+F	di12-37:lagman torvardr erlendson	person:di:torvardr_erlendson:7-733
+F	di12-426:ketil jonson	person:di:ketil_jonson:12-426
+F	di12-428:biskop martein	person:martein_einarson_1576
+F	di12-431:jon erlingson	person:di:jon_erlingson:12-431
+F	di12-448:her sigurdr i grenjadarstödum	person:di:sigurdr:12-448
+F	di12-451:gudrun torleiksdotir	person:di:gudrun_torleiksdotir:12-451
+F	di12-451:jon björnson	person:di:jon_bjornson:12-451
+F	di12-468:lagman odr	person:di:odr_gotskalkson:12-327
+F	di12-475:gudrun torleiksdotir	person:di:gudrun_torleiksdotir:12-451
+F	di12-475:jon björnson	person:di:jon_bjornson:12-451
+F	di12-478:torstein finbogason	person:di:torstein_finbogason:12-478
+F	di12-485:torstein finbogason	person:di:torstein_finbogason:12-485
+F	di12-501:katrin hanesdotir	person:di:katrin_hanesdotir:12-501
+F	di12-503:her torleifr björnson	person:di:torleifr_bjornson:12-503
+F	di12-59:biskop jon arason	person:johannes_magni_linkoping
+F	di12-94:lagman erlendr torvardson	person:di:erlendr_torvardson:9-130
+F	di12-99:johan frir	person:di:johan_frir:12-99
+F	di12-9:einar eirikson	person:di:einar_eirikson:12-9
+F	di13-116:margret erlendsdotir	person:di:margret_erlendsdotir:13-116
+F	di13-154:steinun jonsdotir	person:di:steinun_jonsdotir:13-154
+F	di13-15:fogde dadi gudmundson	person:di:dadi_gudmundson:13-15
+F	di13-168:her jon loptson	person:di:jon_loptson:13-168
+F	di13-169:her torleifr björnson	person:di:torleifr_bjornson:13-169
+F	di13-179:biskop petr paladius	person:di:petr_paladius:11-143
+F	di13-195:her tordr gislason	person:di:tordr_gislason:13-195
+F	di13-198:helga aradotir	person:di:helga_aradotir:13-198
+F	di13-207:biskop nikulasr paladius	person:di:nikulasr_paladius:13-207
+F	di13-208:biskop petr paladius	person:di:petr_paladius:11-143
+F	di13-209:lagman torleifr palson	person:di:torleifr_palson:10-341
+F	di13-210:torbergr besason	person:di:torbergr_besason:13-210
+F	di13-217:torfi torsteinson	person:di:torfi_torsteinson:13-217
+F	di13-21:lagman odr gotskalkson	person:di:odr_gotskalkson:12-327
+F	di13-233:torun jonsdotir	person:di:torun_jonsdotir:13-233
+F	di13-238:egertr haneson	person:di:egertr_haneson:13-238
+F	di13-240:solveig halsdotir	person:di:solveig_halsdotir:13-240
+F	di13-254:egertr haneson	person:di:egertr_haneson:13-254
+F	di13-259:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di13-280:her haldor benediktson	person:di:haldor_benediktson:13-280
+F	di13-282:egertr haneson	person:di:egertr_haneson:13-282
+F	di13-284:steinun eiriksdotir	person:di:steinun_eiriksdotir:13-284
+F	di13-298:jon magnuson	person:di:jon_magnuson:13-298
+F	di13-300:kristin torsteinsdotir	person:di:kristin_torsteinsdotir:13-300
+F	di13-301:her jon torleifson	person:di:jon_torleifson:13-301
+F	di13-307:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-316:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-324:jörundr steinmodson	person:di:jorundr_steinmodson:13-324
+F	di13-328:her ara steinolfson	person:di:ara_steinolfson:13-328
+F	di13-32:jon finbogason	person:di:jon_finbogason:13-32
+F	di13-337:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-338:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-349:her einar halson	person:di:einar_halson:13-349
+F	di13-34:torstein torfason	person:di:torstein_torfason:13-34
+F	di13-354:nikulas torsteinson	person:di:nikulas_torsteinson:13-354
+F	di13-355:nikulas torsteinson	person:di:nikulas_torsteinson:13-355
+F	di13-359:pal jonson	person:di:pal_jonson:13-359
+F	di13-368:her jon loptson	person:di:jon_loptson:13-368
+F	di13-371:pal jonson	person:di:pal_jonson:13-371
+F	di13-373:pal jonson	person:di:pal_jonson:13-373
+F	di13-374:steinun jonsdotir	person:di:steinun_jonsdotir:13-374
+F	di13-381:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-386:dadi gudmundson	person:di:dadi_gudmundson:13-386
+F	di13-392:gudrun torleiksdotir	person:di:gudrun_torleiksdotir:13-392
+F	di13-408:jon marteinson	person:di:jon_marteinson:13-408
+F	di13-414:her halvardr einarson	person:di:halvardr_einarson:13-414
+F	di13-419:margret erlendsdotir	person:di:margret_erlendsdotir:13-419
+F	di13-429:torgrimr torleifson	person:di:torgrimr_torleifson:13-429
+F	di13-43:hövitsman knutr steinson	person:di:knutr_steinson:13-43
+F	di13-446:her erlendr torvardson	person:di:erlendr_torvardson:13-446
+F	di13-451:tordr gudmundson	person:di:tordr_gudmundson:13-451
+F	di13-485:pal stigson	person:di:pal_stigson:13-485
+F	di13-486:jon magnuson	person:di:jon_magnuson:13-486
+F	di13-487:her torleifr björnson	person:di:torleifr_bjornson:13-487
+F	di13-491:pal stigson	person:di:pal_stigson:13-491
+F	di13-495:pal stigson	person:di:pal_stigson:13-495
+F	di13-4:biskop petr paladius	person:di:petr_paladius:11-143
+F	di13-502:elin jonsdotir	person:di:elin_jonsdotir:13-502
+F	di13-509:biskop gisli	person:di:gisli_jonson:13-208
+F	di13-516:gudrun björnsdotir	person:di:gudrun_bjornsdotir:13-516
+F	di13-535:kolbein arngrimson	person:di:kolbein_arngrimson:13-535
+F	di13-536:kolbein arngrimson	person:di:kolbein_arngrimson:13-536
+F	di13-549:lagman egertr haneson	person:di:egertr_haneson:13-549
+F	di13-55:sira gisli jonson	person:di:sira_gisli_jonson:13-55
+F	di13-56:biskop martein einarson	person:martein_einarson_1576
+F	di13-79:sira jon haldorson	person:di:sira_jon_haldorson:13-79
+F	di14-106:lagman egertr haneson	person:di:egertr_haneson:13-549
+F	di14-108:kolbein arngrimson	person:di:kolbein_arngrimson:14-108
+F	di14-109:egertr haneson	person:di:egertr_haneson:14-109
+F	di14-10:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-111:jon magnuson	person:di:jon_magnuson:14-111
+F	di14-129:präst torleifr björnson	person:di:torleifr_bjornson:14-129
+F	di14-137:tordr bjarnason	person:di:tordr_bjarnason:14-137
+F	di14-139:dadi gudmundson	person:di:dadi_gudmundson:14-139
+F	di14-147:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-150:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-155:gudny grimsdotir	person:di:gudny_grimsdotir:14-155
+F	di14-167:haldor skulason	person:di:haldor_skulason:14-167
+F	di14-172:jon magnuson	person:di:jon_magnuson:14-172
+F	di14-182:haldor bartolomeuson	person:di:haldor_bartolomeuson:14-182
+F	di14-1:kung kristian	person:kristian_3
+F	di14-204:sigridr sigurdardotir	person:di:sigridr_sigurdardotir:14-204
+F	di14-214:einar tomason	person:di:einar_tomason:14-214
+F	di14-215:präst torleifur björnson	person:di:torleifur_bjornson:14-215
+F	di14-21:gudrun torleifsdotir	person:di:gudrun_torleifsdotir:14-21
+F	di14-222:jon björnson	person:di:jon_bjornson:14-222
+F	di14-227:kung hofsos av hamborgarmönum	person:di:kung_hofsos:14-227
+F	di14-230:jurgen borcherd	person:di:jurgen_borcherd:14-230
+F	di14-237:skipadomr pal stigson	person:di:skipadomr_pal_stigson:14-237
+F	di14-239:stefan löjtz	person:di:stefan_lojtz:14-239
+F	di14-243:pal stigson	person:di:pal_stigson:14-243
+F	di14-248:kung magnusi gyldenstjerne	person:di:kung_magnusi:14-248
+F	di14-25:kolbein arngrimson	person:di:kolbein_arngrimson:14-25
+F	di14-273:jon sveinson	person:di:jon_sveinson:14-273
+F	di14-278:lagman egert haneson	person:di:egert_haneson:14-278
+F	di14-27:jon björnson i flatey	person:di:jon_bjornson:14-27
+F	di14-280:torhali odson	person:di:torhali_odson:14-280
+F	di14-283:magnus björnson	person:di:magnus_bjornson:14-283
+F	di14-285:petr mateuson	person:di:petr_mateuson:14-285
+F	di14-287:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-29:tomas brandson	person:di:tomas_brandson:14-29
+F	di14-331:präst jon	person:di:jon_finbogason:9-372
+F	di14-336:dr. joakim hinck	person:di:dr_joakim_hinck:14-336
+F	di14-338:borgarad i brimum	person:di:borgarad:14-338
+F	di14-342:lagman egert haneson	person:di:egert_haneson:14-278
+F	di14-364:einar gislason	person:di:einar_gislason:14-364
+F	di14-368:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-376:katrin hanesdotir	person:di:katrin_hanesdotir:14-376
+F	di14-379:vigfus torsteinson	person:di:vigfus_torsteinson:14-379
+F	di14-381:lagman egert haneson	person:di:egert_haneson:14-278
+F	di14-383:präst eyjolfr magnuson	person:di:eyjolfr_magnuson:14-383
+F	di14-386:ormr sturluson	person:di:ormr_sturluson:14-386
+F	di14-390:pal grimson	person:di:pal_grimson:14-390
+F	di14-414:borgaradid i brimum	person:di:borgaradid:14-414
+F	di14-429:hanes björnson	person:di:hanes_bjornson:14-429
+F	di14-435:petur einarson	person:di:petur_einarson:14-435
+F	di14-443:bergsvein runolfson	person:di:bergsvein_runolfson:14-443
+F	di14-448:hanes björnson	person:di:hanes_bjornson:14-448
+F	di14-454:torstein torgilson	person:di:torstein_torgilson:14-454
+F	di14-4:elisabetr engladrotningr	person:di:elisabetr_engladrotningr:14-4
+F	di14-7:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-90:herdis torleifsdotir	person:di:herdis_torleifsdotir:14-90
+F	di14-96:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di14-9:kolbein arngrimson gränavatn	person:di:kolbein_arngrimson_granavatn:14-9
+F	di15-102:her torleifr björnson	person:di:torleifr_bjornson:15-102
+F	di15-106:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-109:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-113:magnus björnson	person:di:magnus_bjornson:15-113
+F	di15-115:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-134:torlakr einarson	person:di:torlakr_einarson:15-134
+F	di15-137:ormr erlingson	person:di:ormr_erlingson:15-137
+F	di15-142:gudrun torleifsdotir	person:di:gudrun_torleifsdotir:15-142
+F	di15-14:bjarni björnson	person:di:bjarni_bjornson:15-14
+F	di15-163:her jon brandson	person:di:jon_brandson:15-163
+F	di15-164:magnus jonson	person:di:magnus_jonson:15-164
+F	di15-166:pal grimson	person:di:pal_grimson:15-166
+F	di15-168:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-172:pal jonson	person:di:pal_jonson:15-172
+F	di15-173:ormr sturluson	person:di:ormr_sturluson:15-173
+F	di15-174:jon jonson	person:di:jon_jonson:15-174
+F	di15-175:biskop hans albritsen	person:di:biskop_hans:15-175
+F	di15-184:gunvör torsteinsdotir	person:di:gunvor_torsteinsdotir:15-184
+F	di15-18:dr. joakim hinch	person:di:dr_joakim_hinch:15-18
+F	di15-1:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-207:nikulasr geirmundson	person:di:nikulasr_geirmundson:15-207
+F	di15-215:her torleifr björnson	person:di:torleifr_bjornson:15-215
+F	di15-216:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-230:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-233:haldora bjarnadotir	person:di:haldora_bjarnadotir:15-233
+F	di15-234:hanes björnson	person:di:hanes_bjornson:15-234
+F	di15-238:gudbjörg erlendsdotir	person:di:gudbjorg_erlendsdotir:15-238
+F	di15-240:sigridr grimsdotir	person:di:sigridr_grimsdotir:15-240
+F	di15-244:ormr sturluson	person:di:ormr_sturluson:15-244
+F	di15-256:her magnus eyjolfson	person:di:magnus_eyjolfson:15-256
+F	di15-257:her magnus eyjolfson	person:di:magnus_eyjolfson:15-257
+F	di15-273:agnes jonsdotir	person:di:agnes_jonsdotir:15-273
+F	di15-297:jon gislason	person:di:jon_gislason:15-297
+F	di15-310:johan bockholt	person:di:johan_bockholt:15-310
+F	di15-312:johan bockholt	person:di:johan_bockholt:15-312
+F	di15-314:dorotea lafranzdotir	person:di:dorotea_lafranzdotir:15-314
+F	di15-318:torstein torfason	person:di:torstein_torfason:15-318
+F	di15-321:lagman ormr sturluson	person:di:ormr_sturluson:11-673
+F	di15-3:johan brokes	person:di:johan_brokes:15-3
+F	di15-44:henrikr kragr	person:di:henrikr_kragr:15-44
+F	di15-4:tordr gudmundson	person:di:tordr_gudmundson:15-4
+F	di15-55:lagman egert haneson	person:di:egert_haneson:14-278
+F	di15-57:magnus jonson	person:di:magnus_jonson:15-57
+F	di15-90:kolbein jonson	person:di:kolbein_jonson:15-90
+F	di15-95:biskop gisli jonson	person:di:gisli_jonson:13-208
+F	di15-96:henrik krag	person:di:henrik_krag:15-96
+F	di16-148:john maryote	person:di:john_maryote:16-148
+F	di16-149:john richeman	person:di:john_richeman:16-149
+F	di16-257:h	person:di:h:16-257
+F	di16-263:drotning elisabet	person:di:drotning_elisabet:16-263
+F	di16-302:didrikr av bramstad	person:di:didrikr:16-302
+F	di16-323:hertig kristjan	person:di:hertig_kristjan:16-323
+F	di16-85:biskop jon i holar	person:dn:jon_craxton:20-784
+F	di2-107:påve martinus iv	person:pave_martin_iv
+F	di2-110:abot runolfr	person:di:runolfr_sigmundarson:2-76
+F	di2-112:loptr helgason	person:di:loptr_helgason:2-112
+F	di2-113:hertig hakon	person:hakon_5
+F	di2-113:kung erik magnuson	person:erik_magnusson_norge
+F	di2-121:påve honorius	person:pave_honorius_iv
+F	di2-133:kung erik magnuson	person:erik_magnusson_norge
+F	di2-134:rafn odson	person:di:rafn_odson:2-134
+F	di2-138:biskop jörundr i holar	person:di:jorundr:2-138
+F	di2-139:kung erik magnuson	person:erik_magnusson_norge
+F	di2-140:ärkebiskop jörundr	person:di:jorundr:2-140
+F	di2-143:ärkebiskop jörundr	person:di:jorundr:2-140
+F	di2-147:biskop jörundr i holar	person:di:jorundr:2-138
+F	di2-148:hertig hakon	person:hakon_5
+F	di2-148:kung erik magnuson	person:erik_magnusson_norge
+F	di2-149:ärkebiskop jörundr	person:di:jorundr:2-140
+F	di2-153:lagman vigi	person:di:vigi:2-153
+F	di2-155:kung erik magnuson	person:erik_magnusson_norge
+F	di2-157:kung erik magnuson	person:erik_magnusson_norge
+F	di2-160:kung eirikr magnuson	person:di:kung_eirikr:2-160
+F	di2-166:påve bonifacius vi	person:pave_bonifatius_viii
+F	di2-176:kung håkon	person:hakon_5
+F	di2-179:kung håkon	person:hakon_5
+F	di2-180:kung håkon	person:hakon_5
+F	di2-182:kung håkon	person:hakon_5
+F	di2-183:kung håkon	person:hakon_5
+F	di2-184:kung håkon	person:hakon_5
+F	di2-188:ärkebiskop jörundr	person:di:jorundr:2-140
+F	di2-196:kung håkon	person:hakon_5
+F	di2-199:kung håkon	person:hakon_5
+F	di2-200:kung håkon	person:hakon_5
+F	di2-212:kung håkon	person:hakon_5
+F	di2-213:kung håkon	person:hakon_5
+F	di2-214:ärkebiskop eilifr	person:di:eilifr:2-214
+F	di2-215:kung håkon	person:hakon_5
+F	di2-216:kung håkon	person:hakon_5
+F	di2-220:biskop audun i holar	person:di:audun:2-220
+F	di2-221:kung håkon	person:hakon_5
+F	di2-226:kung håkon	person:hakon_5
+F	di2-233:kung håkon	person:hakon_5
+F	di2-237:kung håkon	person:hakon_5
+F	di2-239:kung håkon	person:hakon_5
+F	di2-27:abot runolfr	person:di:runolfr:2-27
+F	di2-342:kung magnus eirikson	person:magnus_eriksson
+F	di2-344:ärkebiskop eilifr	person:di:eilifr:2-214
+F	di2-345:ärkebiskop eilifr	person:di:eilifr:2-214
+F	di2-347:biskop audfin	person:sdhk:audfin:41114
+F	di2-348:biskop hakon	person:di:hakon:2-348
+F	di2-351:biskop audfinr	person:di:audfinr:2-351
+F	di2-356:abot bergr sokason	person:di:bergr_sokason:2-356
+F	di2-362:biskop jon haldorson	person:di:biskop_jon:2-362
+F	di2-365:biskop jon haldorson	person:di:biskop_jon:2-365
+F	di2-368:påve johanes xi	person:pave_johanes_xxii
+F	di2-373:biskop jon haldorson	person:di:biskop_jon:2-373
+F	di2-379:biskop jon haldorson	person:di:biskop_jon:2-379
+F	di2-37:adolfr av berg	person:di:adolfr:2-37
+F	di2-37:prior heinrikr johanesr	person:di:heinrikr_johanesr:2-37
+F	di2-382:ärkebiskop eilifr	person:di:eilifr:2-214
+F	di2-389:ärkebiskop eilifr	person:di:eilifr:2-214
+F	di2-391:kung magnus	person:magnus_eriksson
+F	di2-395:kung magnus	person:magnus_eriksson
+F	di2-399:kung magnus eirikson	person:magnus_eriksson
+F	di2-39:ärkebiskop jon	person:di:arkebiskop_jon:2-39
+F	di2-416:präst einar haflidason brandr	person:dn:einar:4-210
+F	di2-41:kung magnus	person:magnus_lagaboter
+F	di2-42:kung magnus	person:magnus_lagaboter
+F	di2-450:ärkebiskop pal	person:di:pal:2-450
+F	di2-453:ärkebiskop pal	person:di:pal:2-450
+F	di2-459:biskop hakon	person:di:hakon:2-348
+F	di2-462:kung magnus eirikson joni haldorsyni	person:magnus_eriksson
+F	di2-463:biskop hakon	person:di:hakon:2-348
+F	di2-464:biskop hakon	person:di:hakon:2-348
+F	di2-471:biskop hakon	person:di:hakon:2-348
+F	di2-485:biskop hakon	person:di:hakon:2-348
+F	di2-487:ärkebiskop pal	person:di:pal:2-450
+F	di2-488:kung magnus	person:magnus_eriksson
+F	di2-511:kung magnus	person:magnus_eriksson
+F	di2-513:biskop jon sigurdarson	person:di:biskop_jon:2-513
+F	di2-514:lagman grimr	person:di:grimr:2-514
+F	di2-517:kung magnus	person:magnus_eriksson
+F	di2-519:biskop ormr	person:di:ormr:2-519
+F	di2-521:kung magnus	person:magnus_eriksson
+F	di2-522:kung magnus	person:magnus_eriksson
+F	di2-533:kung magnus	person:magnus_eriksson
+F	di2-54:påve gregorius x	person:pave_gregorius_x
+F	di2-60:kung magnus	person:di:kung_magnus:2-60
+F	di2-64:nikulas odson	person:di:nikulas_odson:2-64
+F	di2-66:kung magnus	person:di:kung_magnus:2-66
+F	di2-67:kung magnus	person:di:kung_magnus:2-67
+F	di2-69:påve nikolaus i	person:pave_nicolaus_iii
+F	di2-6:påve clemens iv	person:pave_clemens_iv
+F	di2-70:kung magnus	person:di:kung_magnus:2-70
+F	di2-71:ärkebiskop jon	person:di:arkebiskop_jon:2-71
+F	di2-72:kung magnus	person:di:kung_magnus:2-72
+F	di2-76:präst grimr holmsteinson	person:di:grimr_holmsteinson:2-76
+F	di2-78:kung magnus	person:di:kung_magnus:2-78
+F	di2-79:ärkebiskop jon	person:jens_dros_lund
+F	di2-85:abot runolfr	person:di:runolfr_sigmundarson:2-76
+F	di2-86:kung erik magnuson	person:erik_magnusson_norge
+F	di3-150:kung magnus eirikson	person:magnus_eriksson
+F	di3-172:biskop jon	person:di:biskop_jon:3-172
+F	di3-202:einar gilson	person:di:einar_gilson:3-202
+F	di3-203:biskop jon	person:johannes_ii_petri_abo
+F	di3-207:biskop odgeir torsteinson	person:di:odgeir_torsteinson:3-207
+F	di3-20:påve klemens vi	person:pave_clemens_vi
+F	di3-234:kung magnus eirikson	person:magnus_eriksson
+F	di3-246:biskop odgeir	person:di:odgeir_torsteinson:3-207
+F	di3-247:biskop odgeir	person:di:odgeir_torsteinson:3-207
+F	di3-252:biskop odgeir	person:di:odgeir_torsteinson:3-207
+F	di3-266:biskop odgeir	person:di:odgeir_torsteinson:3-207
+F	di3-267:biskop jon	person:johannes_iii_westfal_abo
+F	di3-311:kung olav	person:olof_hakansson
+F	di3-314:einar eirikson	person:di:einar_eirikson:3-314
+F	di3-315:kung olav	person:olof_hakansson
+F	di3-31:biskop ormr	person:di:ormr:2-519
+F	di3-32:kung magnus eirikson	person:magnus_eriksson
+F	di3-335:biskop jon	person:di:biskop_jon:3-335
+F	di3-34:kung magnus eirikson	person:magnus_eriksson
+F	di3-368:drotning margareta	person:margareta_valdemarsdotter
+F	di3-381:präst sölvi brandson	person:di:solvi_brandson:3-381
+F	di3-390:biskop petr nikulason	person:di:petr_nikulason:3-390
+F	di3-404:biskop petr	person:di:petr_nikulason:3-390
+F	di3-409:biskop petr nikulason	person:di:petr_nikulason:3-390
+F	di3-415:abot sveinbjarn	person:di:sveinbjarn:3-415
+F	di3-416:biskop petr nikulason	person:di:petr_nikulason:3-390
+F	di3-512:biskop vilchin	person:di:vilchin:3-512
+F	di3-521:präst steinmodr torsteinson	person:di:steinmodr_torsteinson:3-521
+F	di3-522:steinmodr torsteinson	person:di:steinmodr_torsteinson:3-522
+F	di3-541:lagman eyjolfson	person:di:eyjolfson:3-541
+F	di3-551:ormr snorason	person:di:ormr_snorason:3-551
+F	di3-555:ormr snorason	person:di:ormr_snorason:3-555
+F	di3-559:drotning margareta valdemarsdotir	person:margareta_valdemarsdotter
+F	di3-563:augustinus undinir	person:di:augustinus_undinir:3-563
+F	di3-56:biskop gyrdr	person:di:gyrdr:3-56
+F	di3-574:lagman narfi	person:di:narfi:3-574
+F	di3-577:biskop vilchin	person:di:vilchin:3-512
+F	di3-578:kristin björnsdotir	person:di:kristin_bjornsdotir:3-578
+F	di3-57:biskop gyrdr	person:di:gyrdr:3-56
+F	di3-585:abot vermundr	person:di:vermundr:3-585
+F	di3-599:lagman odr	person:di:odr:3-599
+F	di3-608:biskop jon i skalholt	person:di:jon:3-608
+F	di3-60:kung magnus eirikson	person:magnus_eriksson
+F	di3-617:präst logi stigson	person:di:logi_stigson:3-617
+F	di3-623:lagman rafn gudmundson	person:di:rafn_gudmundson:3-623
+F	di3-626:biskop jon i skalholt	person:di:jon:3-608
+F	di3-628:ilugi björgolfson	person:di:ilugi_bjorgolfson:3-628
+F	di3-639:kung erik av pomern	person:erik_av_pommern
+F	di3-642:hertig johanesr av bedford	person:di:hertig_johanesr:3-642
+F	di3-644:kung henrik av england	person:henrik_5_england
+F	di3-79:påve inocentius vi	person:pave_inocentius_vi
+F	di3-93:biskop gyrdr	person:di:gyrdr:3-56
+F	di3-95:biskop gyrdr	person:di:gyrdr:3-56
+F	di3-98:biskop jon	person:di:biskop_jon:3-98
+F	di3-99:biskop jon	person:di:biskop_jon:3-99
+F	di4-15:drotning margareta valdemarsdotir	person:margareta_valdemarsdotter
+F	di4-318:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-325:torgrimr sölvason	person:di:torgrimr_solvason:4-325
+F	di4-331:hövitsman arnfin	person:di:arnfin:4-331
+F	di4-333:biskop jon i holar	person:dn:jon_craxton:20-784
+F	di4-343:stephan schelendorpr	person:di:stephan_schelendorpr:4-343
+F	di4-351:biskop jon i holar	person:dn:jon_craxton:20-784
+F	di4-356:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-359:ormr jonson	person:di:ormr_jonson:4-359
+F	di4-361:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-362:biskop jon i holar	person:dn:jon_craxton:20-784
+F	di4-367:ingibjörg loptsdotir	person:di:ingibjorg_loptsdotir:4-367
+F	di4-372:gunlaugr teitson	person:di:gunlaugr_teitson:4-372
+F	di4-385:her jon palson	person:di:jon_palson:4-385
+F	di4-392:abot jon i tykvibär	person:di:jon:4-392
+F	di4-395:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-397:torstein einarson	person:di:torstein_einarson:4-397
+F	di4-399:einar besason	person:di:einar_besason:4-399
+F	di4-405:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-406:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-407:torleifr egilson	person:di:torleifr_egilson:4-407
+F	di4-412:her jon palson	person:di:jon_palson:4-412
+F	di4-415:helgi bjarnarson	person:di:helgi_bjarnarson:4-415
+F	di4-416:präst steindor	person:di:steindor:4-416
+F	di4-418:biskop jon vilhjalmson	person:di:biskop_jon:4-418
+F	di4-419:jon kolbeinson	person:di:jon_kolbeinson:4-419
+F	di4-420:vigfusr einarson	person:di:vigfusr_einarson:4-420
+F	di4-421:präst herman jonson	person:di:herman_jonson:4-421
+F	di4-422:jon einarson	person:di:jon_einarson:4-422
+F	di4-425:biskop jon vilhjalmson	person:di:biskop_jon:4-425
+F	di4-426:vigfusr einarson holastol	person:di:vigfusr_einarson_holastol:4-426
+F	di4-427:helgi bjarnarson	person:di:helgi_bjarnarson:4-427
+F	di4-428:eirikr gauti	person:di:eirikr_gauti:4-428
+F	di4-431:atli gudmundson	person:di:atli_gudmundson:4-431
+F	di4-441:biskop jon	person:di:biskop_jon:4-441
+F	di4-446:loptr gutormson	person:di:loptr_gutormson:4-446
+F	di4-468:präst ara torbjarnarson	person:di:ara_torbjarnarson:4-468
+F	di4-471:gudrid torgeirsdotir	person:di:gudrid_torgeirsdotir:4-471
+F	di4-471:odi torsteinson	person:di:odi_torsteinson:4-471
+F	di4-475:biskop jon vilhjalmson	person:di:biskop_jon:4-475
+F	di4-481:margret bjarnardotir	person:di:margret_bjarnardotir:4-481
+F	di4-489:biskop jon	person:di:biskop_jon:4-489
+F	di4-495:torlakr sigurdson	person:di:torlakr_sigurdson:4-495
+F	di4-496:biskop jon	person:di:biskop_jon:4-496
+F	di4-497:biskop jon	person:di:biskop_jon:4-497
+F	di4-499:biskop jon	person:di:biskop_jon:4-499
+F	di4-500:ara torbjarnarson	person:di:ara_torbjarnarson:4-500
+F	di4-510:biskop jon geirekson	person:di:biskop_jon:4-510
+F	di4-511:biskop jon	person:di:biskop_jon:4-511
+F	di4-513:präst jon palson	person:di:jon_palson:4-418
+F	di4-524:gudni odson	person:di:gudni_odson:4-524
+F	di4-529:erlingr eyjolfson	person:di:erlingr_eyjolfson:4-529
+F	di4-531:sigurdr tordarson	person:di:sigurdr_tordarson:4-531
+F	di4-531b:hal alexanderson	person:di:hal_alexanderson:4-531b
+F	di4-535:biskop jon	person:di:biskop_jon:4-535
+F	di4-540:biskop jon	person:di:biskop_jon:4-540
+F	di4-542:biskop jon	person:di:biskop_jon:4-542
+F	di4-543:präst torkel gudbjartson	person:di:torkel_gudbjartson:4-543
+F	di4-547:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-548:lagman rafn	person:di:rafn_gudmundson:3-623
+F	di4-549:ilugi björgolfson	person:di:ilugi_bjorgolfson:4-549
+F	di4-553:margret eiriksdotir	person:di:margret_eiriksdotir:4-553
+F	di4-561:her torkel gudbjartson	person:di:torkel_gudbjartson:4-561
+F	di4-565:gudrid ingimundardotir	person:di:gudrid_ingimundardotir:4-565
+F	di4-571:jon magnuson	person:di:jon_magnuson:4-571
+F	di4-574:jon magnuson	person:di:jon_magnuson:4-574
+F	di4-576:biskop jon vilhjalmson	person:di:biskop_jon:4-576
+F	di4-577:biskop jon	person:di:biskop_jon:4-577
+F	di4-585:torkel gudbjartson	person:di:torkel_gudbjartson:4-585
+F	di4-586:torkel bergson	person:di:torkel_bergson:4-586
+F	di4-588:biskop jon vilhjalmson	person:di:biskop_jon:4-588
+F	di4-589:biskop jon	person:di:biskop_jon:4-589
+F	di4-592:präst jon karason	person:di:jon_karason:4-592
+F	di4-593:präst snori ingimundarson	person:di:snori_ingimundarson:4-593
+F	di4-594:präst helgi ingjaldson	person:di:helgi_ingjaldson:4-594
+F	di4-597:kung henrik av england	person:henrik_6_england
+F	di4-598:einar tordarson	person:di:einar_tordarson:4-598
+F	di4-602:kung henrik av england	person:henrik_6_england
+F	di4-608:präst nikulas kalfson	person:di:nikulas_kalfson:4-608
+F	di4-609:biskop godsvin i skalholt	person:di:godsvin:4-609
+F	di4-611:prost torstein svartöfdason	person:di:torstein_svartofdason:4-611
+F	di4-613:kung henrik av england	person:henrik_6_england
+F	di4-614:kung henrik av england	person:henrik_6_england
+F	di4-615:biskop godsvin	person:di:godsvin:4-609
+F	di4-616:biskop godsvin	person:di:godsvin:4-609
+F	di4-617:tjodolfr torvardson	person:di:tjodolfr_torvardson:4-617
+F	di4-618:biskop godsvin	person:di:godsvin:4-609
+F	di4-619:prost torstein svartöfdason	person:di:torstein_svartofdason:4-611
+F	di4-621:kung henrik av england	person:henrik_6_england
+F	di4-623:petr torsteinson	person:di:petr_torsteinson:4-623
+F	di4-625:her jon palson	person:di:jon_palson:4-418
+F	di4-627:biskop godsvin	person:di:godsvin:4-609
+F	di4-631:biskop godsvin	person:di:godsvin:4-609
+F	di4-632:biskop godsvin	person:di:godsvin:4-609
+F	di4-636:biskop godsvin	person:di:godsvin:4-609
+F	di4-639:biskop godsvin	person:di:godsvin:4-609
+F	di4-644:biskop godsvin	person:di:godsvin:4-609
+F	di4-645:kung henrik av england	person:henrik_6_england
+F	di4-646:biskop godsvin	person:di:godsvin:4-609
+F	di4-648:her jon palson	person:di:jon_palson:4-648
+F	di4-650:biskop godsvin	person:di:godsvin:4-609
+F	di4-652:prior sigurdr jonson	person:di:sigurdr_jonson:4-652
+F	di4-653:biskop godsvin	person:di:godsvin:4-609
+F	di4-656:präst bjarni sigurdson	person:di:bjarni_sigurdson:4-656
+F	di4-670:abedisa haldora	person:di:haldora:4-670
+F	di4-670:abedisa haldoru	person:di:haldoru:4-670
+F	di4-671:björn jonson	person:di:bjorn_jonson:4-671
+F	di4-674:kung kristofer av bayern	person:kristofer_av_bayern
+F	di4-682:biskop godsvin	person:di:godsvin:4-609
+F	di4-683:biskop godsvin	person:di:godsvin:4-609
+F	di4-684:biskop godsvin	person:di:godsvin:4-609
+F	di4-685:biskop godsvin	person:di:godsvin:4-609
+F	di4-687:kung kristofer av bayern	person:kristofer_av_bayern
+F	di4-688:kung kristofer av bayern	person:kristofer_av_bayern
+F	di4-696:kung henrik av england	person:henrik_6_england
+F	di4-698:biskop godsvin	person:di:godsvin:4-609
+F	di4-712:präst gudmundr torlakson	person:di:gudmundr_torlakson:4-712
+F	di4-713:steindor jonson	person:di:steindor_jonson:4-713
+F	di4-716:biskop gotskalkr i holar	person:di:gotskalkr:4-716
+F	di4-718:kung henrik av england	person:henrik_6_england
+F	di4-720:torvardr loptson	person:di:torvardr_loptson:4-720
+F	di4-729:gunlaugr teitson	person:di:gunlaugr_teitson:4-729
+F	di4-735:biskop gotskalk	person:di:biskop_gotskalk:4-735
+F	di4-737:kung kristofer av bayern	person:kristofer_av_bayern
+F	di4-738:björn sämundson	person:di:bjorn_samundson:4-738
+F	di4-745:kristin björnsdotir	person:di:kristin_bjornsdotir:4-745
+F	di4-747:jon odson	person:di:jon_odson:4-747
+F	di4-759:abot steinmodr	person:di:steinmodr:4-759
+F	di4-763:ilugi björgolfson	person:di:ilugi_bjorgolfson:4-763
+F	di4-765:steindor jonson	person:di:steindor_jonson:4-765
+F	di4-769:biskop gotskalk i holar	person:dn:gotskalk:1-778
+F	di4-770:biskop gotskalk i holar	person:dn:gotskalk:1-778
+F	di4-776:påve nikolaus v	person:pave_nicolaus_v
+F	di4-790:abot steinmodr	person:di:steinmodr:4-759
+F	di5-102:jon geirson	person:di:jon_geirson:5-102
+F	di5-104:kung kristian	person:kristian_1
+F	di5-112:kung kristian	person:kristian_1
+F	di5-113:biskop gotskalkr	person:di:gotskalkr:4-716
+F	di5-115:kung kristian i	person:kristian_1
+F	di5-118:lagman brandr	person:di:brandr_jonson:5-118
+F	di5-11:petr dambeckr	person:di:petr_dambeckr:5-11
+F	di5-120:lagman brandr	person:di:brandr_jonson:5-118
+F	di5-121:kung kristian	person:kristian_1
+F	di5-125:kung kristian i	person:kristian_1
+F	di5-129:kung kristian	person:kristian_1
+F	di5-132:präst jon odson	person:di:jon_odson:5-132
+F	di5-136:kung kristian	person:kristian_1
+F	di5-139:bödvar eirikson	person:di:bodvar_eirikson:5-139
+F	di5-147:kung kristian	person:kristian_1
+F	di5-154:kung kristian	person:kristian_1
+F	di5-159:kung kristian	person:kristian_1
+F	di5-16:biskop godsvin	person:di:godsvin:4-609
+F	di5-171:lagman brandr	person:di:brandr_jonson:5-118
+F	di5-173:hövitsman björn torleifson	person:di:bjorn_torleifson:5-173
+F	di5-174:erlendr brandson	person:di:erlendr_brandson:5-174
+F	di5-175:torfi arason	person:di:torfi_arason:5-175
+F	di5-17:loptr halfdanarson	person:di:loptr_halfdanarson:5-17
+F	di5-184:prost torstein torarinson	person:di:torstein_torarinson:5-184
+F	di5-188:kung kristian av danmark	person:kristian_1
+F	di5-199:biskop mateus i holar	person:di:mateus:5-199
+F	di5-19:kung kristofer av baiern	person:kristofer_av_bayern
+F	di5-215:fogde egil grimson	person:di:egil_grimson:5-215
+F	di5-21:kung kristofer av baiern	person:kristofer_av_bayern
+F	di5-225:biskop andresr	person:di:andresr:5-225
+F	di5-226:hjalmr snartarson morudalskogi	person:di:hjalmr_snartarson_morudalskogi:5-226
+F	di5-227:biskop andres	person:di:andres:5-199
+F	di5-22:kung kristofer av baiern	person:kristofer_av_bayern
+F	di5-230:fogde gudni jonson	person:di:gudni_jonson:5-230
+F	di5-24:hövitsman einar torleifson	person:di:einar_torleifson:5-24
+F	di5-25:kung henrik av england	person:henrik_6_england
+F	di5-327:kung kristian	person:kristian_1
+F	di5-32:kung kristjau	person:di:kung_kristjau:5-32
+F	di5-332:fogde örnolfr einarson	person:di:ornolfr_einarson:5-332
+F	di5-334:kung kristian av danmark	person:kristian_1
+F	di5-337:henrikr kepken	person:di:henrikr_kepken:5-337
+F	di5-343:björn sämundson	person:di:bjorn_samundson:5-343
+F	di5-345:lagman brandr jonson	person:di:brandr_jonson:5-118
+F	di5-357:loptr ormson	person:di:loptr_ormson:5-357
+F	di5-362:biskop jon stephanson	person:johannes_magni_strangnas
+F	di5-363:biskop jon stephanson	person:johannes_magni_strangnas
+F	di5-374:biskop jon stephanson	person:johannes_magni_strangnas
+F	di5-376:helgi torkelson	person:di:helgi_torkelson:5-376
+F	di5-380:präst helgi magnuson	person:di:helgi_magnuson:5-380
+F	di5-381:fogde brandr sigurdson	person:di:brandr_sigurdson:5-381
+F	di5-382:svein gudmundson	person:di:svein_gudmundson:5-382
+F	di5-389:solveig gudmundardotir	person:di:solveig_gudmundardotir:5-389
+F	di5-38:biskop gotskalkr	person:di:gotskalkr:4-716
+F	di5-406:magnusr jonson	person:di:magnusr_jonson:5-406
+F	di5-406:margret finbjarnardotir	person:di:margret_finbjarnardotir:5-406
+F	di5-40:biskop gotskalkr	person:di:gotskalkr:4-716
+F	di5-416:kung kristian	person:kristian_1
+F	di5-432:björn torleifson	person:di:bjorn_torleifson:5-432
+F	di5-434:lagman brandr jonson	person:di:brandr_jonson:5-118
+F	di5-436:biskop svein i skalholt	person:di:svein_tingmariumesuhald:5-436
+F	di5-439:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-43:påve nikolaus v	person:pave_nicolaus_v
+F	di5-460:fogde jon tordarson	person:di:jon_tordarson:5-460
+F	di5-463:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-468:lagman brandr jonson	person:di:brandr_jonson:5-118
+F	di5-475:jon alexiuson	person:di:jon_alexiuson:5-475
+F	di5-477:audun tordarson	person:di:audun_tordarson:5-477
+F	di5-478:tordr audunarson	person:di:tordr_audunarson:5-478
+F	di5-47:påve nikolaus v	person:pave_nicolaus_v
+F	di5-483:bjarni bjarnason	person:di:bjarni_bjarnason:5-483
+F	di5-483:präst brandr teitson	person:di:brandr_teitson:5-483
+F	di5-484:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-488:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-490:fogde eirikr björnson	person:di:eirikr_bjornson:5-490
+F	di5-491:solveig gudmundsdotir	person:di:solveig_gudmundsdotir:5-491
+F	di5-492:skuli loptson gudni jonsyni	person:di:skuli_loptson_gudni_jonsyni:5-492
+F	di5-502:kristin gudnadotir	person:di:kristin_gudnadotir:5-502
+F	di5-503:odr petrson	person:di:odr_petrson:5-503
+F	di5-504:kung kristian	person:kristian_1
+F	di5-509:einar ormson	person:di:einar_ormson:5-509
+F	di5-513:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-514:loptr ormson torleifi björnsyni	person:di:loptr_ormson_torleifi_bjornsyni:5-514
+F	di5-518:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-51:påve nikolaus v	person:pave_nicolaus_v
+F	di5-527:gunhild vermundardotir	person:di:gunhild_vermundardotir:5-527
+F	di5-529:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-52:påve nikolaus v	person:pave_nicolaus_v
+F	di5-545:runolfr höskuldson	person:di:runolfr_hoskuldson:5-545
+F	di5-54:biskop marcelusr i skalholt	person:di:marcelusr_mateusi:5-54
+F	di5-550:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-555:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-567:präst torkel gudbjartson	person:di:torkel_gudbjartson:4-543
+F	di5-56:kung kristian	person:kristian_1
+F	di5-585:erlendr erlendson	person:di:erlendr_erlendson:5-585
+F	di5-58:kung henrik vi. av england	person:henrik_6_england
+F	di5-598:biskop svein tingmariumesuhald	person:di:svein_tingmariumesuhald:5-436
+F	di5-60:biskop gotskalkr	person:di:gotskalkr:4-716
+F	di5-610:lagman brandr	person:di:brandr_jonson:5-118
+F	di5-614:gudmundr hunraudson	person:di:gudmundr_hunraudson:5-614
+F	di5-615:prost jon gislason	person:di:jon_gislason:5-615
+F	di5-616:henrik kepken	person:di:henrik_kepken:5-616
+F	di5-621:biskop svein i skalholt	person:di:svein_tingmariumesuhald:5-436
+F	di5-625:egil grimson	person:di:egil_grimson:5-625
+F	di5-630:salomon einarson	person:di:salomon_einarson:5-630
+F	di5-634:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-63:biskop gotskalkr	person:di:gotskalkr:4-716
+F	di5-640:svein sumarlidason	person:di:svein_sumarlidason:5-640
+F	di5-642:koli magnuson	person:di:koli_magnuson:5-642
+F	di5-643:jon tordarson	person:di:jon_tordarson:5-643
+F	di5-648:torvardr torfinson	person:di:torvardr_torfinson:5-648
+F	di5-651:ingibjörg torlaksdotir	person:di:ingibjorg_torlaksdotir:5-651
+F	di5-651:koli magnuson	person:di:koli_magnuson:5-651
+F	di5-652:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-653:påve sixtus'r	person:di:pave_sixtus_r:5-653
+F	di5-67:kristin gudnadotir	person:di:kristin_gudnadotir:5-67
+F	di5-689:sveinbjarn tordarson	person:di:sveinbjarn_tordarson:5-689
+F	di5-696:präst narfi bödvarson	person:di:narfi_bodvarson:5-696
+F	di5-698:prost jon jonson	person:di:jon_jonson:5-698
+F	di5-699:gisli torgilson	person:di:gisli_torgilson:5-699
+F	di5-699:steindor sölvason	person:di:steindor_solvason:5-699
+F	di5-702:jon einarson	person:di:jon_einarson:5-702
+F	di5-707:loptr ormson	person:di:loptr_ormson:5-707
+F	di5-708:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di5-714:erlendr erlendson	person:di:erlendr_erlendson:5-714
+F	di5-715:erlendr erlendson	person:di:erlendr_erlendson:5-715
+F	di5-7:biskop jon i skalholt	person:di:jon:5-7
+F	di5-80:biskop gotskalk i holar	person:dn:gotskalk:1-778
+F	di5-86:kung kristian	person:kristian_1
+F	di5-88:biskop gotskalk	person:di:biskop_gotskalk:5-88
+F	di5-8:fogde einar sveinson	person:di:einar_sveinson:5-8
+F	di5-8:torkel gudbjartson	person:di:torkel_gudbjartson:5-8
+F	di5-93:biskop marcelus i skalholt i nidaros	person:di:marcelus:5-93
+F	di5-94:biskop marcelus i skalholt	person:sdhk:marcelus:25792
+F	di6-100:finbogi jonson	person:di:finbogi_jonson:6-100
+F	di6-101:ingvildr helgadotir	person:di:ingvildr_helgadotir:6-101
+F	di6-101:torleifr björnson	person:di:torleifr_bjornson:6-101
+F	di6-109:svartr tordarson	person:di:svartr_tordarson:6-109
+F	di6-112:helga torleifsdotir	person:di:helgu_torleifsdotir:6-112
+F	di6-112:helgu torleifsdotir	person:di:helgu_torleifsdotir:6-112
+F	di6-128:präst magnusr einarson	person:di:magnusr_einarson:6-128
+F	di6-132:präst torkel gudbjartson	person:di:torkel_gudbjartson:4-543
+F	di6-133:grimr aronson	person:di:grimr_aronson:6-133
+F	di6-134:finbogi jonson	person:di:finbogi_jonson:6-134
+F	di6-138:torleifr björnson	person:di:torleifr_bjornson:6-138
+F	di6-13:einar torlakson	person:di:einar_torlakson:6-13
+F	di6-153:ärkebiskop gauti	person:di:gauti:6-153
+F	di6-159:ärkebiskop gauti	person:di:gauti:6-153
+F	di6-193:solveig torleifsdotir	person:di:solveig_torleifsdotir:6-193
+F	di6-207:biskop magnusr	person:di:magnusr_eyjolfson:6-207
+F	di6-208:didrikr piningr	person:di:didrikr_piningr:6-208
+F	di6-21:snori andreson	person:di:snori_andreson:6-21
+F	di6-22:her snori torleifson	person:di:snori_torleifson:6-22
+F	di6-246:jakobr davidson	person:di:jakobr_davidson:6-246
+F	di6-25:haldora torvaldsdotir	person:di:haldoru_torvaldsdotir:6-25
+F	di6-25:haldoru torvaldsdotir	person:di:haldoru_torvaldsdotir:6-25
+F	di6-278:steinun gunarsdotir	person:di:steinun_gunarsdotir:6-278
+F	di6-282:magnusr torkelson	person:di:magnusr_torkelson:6-282
+F	di6-326:biskop hans	person:di:biskop_hans:6-326
+F	di6-335:kung kristian	person:kristian_1
+F	di6-336:jon sigmundson	person:di:jon_sigmundson:6-336
+F	di6-361:torleifr björnson	person:di:torleifr_bjornson:6-361
+F	di6-364:ärkebiskop gauti	person:di:gauti:6-153
+F	di6-365:ärkebiskop gauti	person:di:gauti:6-153
+F	di6-366:ärkebiskop gauti	person:di:gauti:6-153
+F	di6-377:julius av sabina	person:di:julius:6-377
+F	di6-398:jon smjör	person:di:jon_smjor:6-398
+F	di6-399:biskop magnusr eyjolfson	person:di:magnusr_eyjolfson:6-207
+F	di6-41:jareidr tordardotir	person:di:jareidr_tordardotir:6-41
+F	di6-41:jon aunson	person:di:jon_aunson:6-41
+F	di6-428:sigurdr björnson	person:di:sigurdr_bjornson:6-428
+F	di6-441:kung hans	person:hans
+F	di6-448:didrikr piningr	person:di:didrikr_piningr:6-448
+F	di6-473:biskop eyjolfson	person:di:eyjolfson:6-473
+F	di6-491:egil grimson	person:di:egil_grimson:6-491
+F	di6-493:einar odson	person:di:einar_odson:6-493
+F	di6-494:bardr jonson	person:di:bardr_jonson:6-494
+F	di6-503:stein hrolfson	person:di:stein_hrolfson:6-503
+F	di6-503:sölvi torvaldson	person:di:solvi_torvaldson:6-503
+F	di6-517:abot einar	person:di:einar_benediktson:6-517
+F	di6-572:hinrikr mädingr	person:di:hinrikr_madingr:6-572
+F	di6-610:stephan torarinson	person:di:stephan_torarinson:6-610
+F	di6-64:biskop svein	person:di:svein_tingmariumesuhald:5-436
+F	di6-660:kung hans	person:hans
+F	di6-663:svein sumarlidason	person:di:svein_sumarlidason:6-663
+F	di6-668:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di6-66:biskop hans teiste'r	person:di:biskop_hans:6-66
+F	di6-71:sveinbjarn tordarson	person:di:sveinbjarn_tordarson:6-71
+F	di6-72:solveig torleifsdotir	person:di:solveig_torleifsdotir:6-72
+F	di6-78:torstein palson tjorsartungni	person:di:torstein_palson_tjorsartungni:6-78
+F	di6-87:jon brodason	person:di:jon_brodason:6-87
+F	di6-95:jon brodason	person:di:jon_brodason:6-95
+F	di6-98:jon brodason	person:di:jon_brodason:6-98
+F	di7-11:kung kristian	person:kristian_1
+F	di7-176:björn gudnason	person:di:bjorn_gudnason:7-176
+F	di7-180:torlakr semingson	person:di:torlakr_semingson:7-180
+F	di7-181:björn gudnason	person:di:bjorn_gudnason:7-181
+F	di7-183:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-185:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-186:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-187:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-190:haldor brynjolfson	person:di:haldor_brynjolfson:7-190
+F	di7-191:prost ögmundr andreson	person:di:ogmundr_andreson:7-191
+F	di7-195:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-202:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-204:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-210:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-221:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-227:andres gudmundson	person:di:andres_gudmundson:7-227
+F	di7-228:runolfr höskuldson	person:di:runolfr_hoskuldson:7-228
+F	di7-231:solveig hrafnsdotir	person:di:solveig_hrafnsdotir:7-231
+F	di7-241:björn gudnason	person:di:bjorn_gudnason:7-241
+F	di7-269:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-270:andres gudmundson	person:di:andres_gudmundson:7-270
+F	di7-272:sturla tordarson	person:di:sturlu_tordarson:7-272
+F	di7-272:sturlu tordarson	person:di:sturlu_tordarson:7-272
+F	di7-273:egil grimson	person:di:egil_grimson:7-273
+F	di7-288:henrekr henrekson kolabekr	person:di:henrekr_henrekson_kolabekr:7-288
+F	di7-292:pal brandson	person:di:pal_brandson:7-292
+F	di7-297:solveig björnsdotir	person:di:solveig_bjornsdotir:7-297
+F	di7-302:gudni jonson	person:di:gudni_jonson:7-302
+F	di7-307:björn gudnason	person:di:bjorn_gudnason:7-307
+F	di7-309:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-310:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-312:andres gudmundson	person:di:andres_gudmundson:7-312
+F	di7-316:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-342:präst gotskalk nikulason holadomkirkju	person:di:gotskalk_nikulason_holadomkirkju:7-342
+F	di7-364:jon torvaldson	person:di:jon_torvaldson:7-364
+F	di7-366:ingvildr helgadotir	person:di:ingvildr_helgadotir:7-366
+F	di7-385:haldor brynjolfson	person:di:haldor_brynjolfson:7-385
+F	di7-389:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-394:pal aronson	person:di:pal_aronson:7-394
+F	di7-402:kung hans av danmark	person:hans
+F	di7-442:gudfina jonsdotir	person:di:gudfinu_jonsdotir:7-442
+F	di7-442:gudfinu jonsdotir	person:di:gudfinu_jonsdotir:7-442
+F	di7-459:präst hal torarinson	person:di:hal_torarinson:7-459
+F	di7-460:gudni jonson	person:di:gudni_jonson:7-460
+F	di7-472:präst gudlaugr	person:di:gudlaugr:7-472
+F	di7-483:her sigmundr steindorson	person:di:sigmundr_steindorson:7-483
+F	di7-487:lagman finbogi	person:di:finbogi:7-487
+F	di7-513:biskop gotskalk	person:di:biskop_gotskalk:7-513
+F	di7-528:björn gudnason	person:di:bjorn_gudnason:7-528
+F	di7-529:björn gudnason	person:di:bjorn_gudnason:7-528
+F	di7-536:ingileitr koladotir	person:di:ingileitr_koladotir:7-536
+F	di7-540:jon björnson	person:di:jon_bjornson:7-540
+F	di7-547:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-593:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-597:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-598:lagman finbogi	person:di:finbogi:7-487
+F	di7-601:sigurdr dadason	person:di:sigurdr_dadason:7-601
+F	di7-701:björn torleifson	person:di:bjorn_torleifson:7-701
+F	di7-711:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-718:torvardr erlendson	person:di:torvardr_erlendson:7-718
+F	di7-724:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di7-733:lagman torvardr erlendson	person:di:torvardr_erlendson:7-733
+F	di7-734:lagman torvardr erlendson	person:di:torvardr_erlendson:7-733
+F	di8-100:einar odson	person:di:einar_odson:8-100
+F	di8-106:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-107:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-110:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-111:lagman finbogi	person:di:finbogi:7-487
+F	di8-113:lagman finbogi	person:di:finbogi:7-487
+F	di8-116:einar odson	person:di:einar_odson:8-116
+F	di8-119:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-120:halfdan jonson	person:di:halfdan_jonson:8-120
+F	di8-123:biskop stepan	person:di:stepan:8-123
+F	di8-124:björn torleifson	person:di:bjorn_torleifson:8-124
+F	di8-127:lagman torvardr	person:di:torvardr_erlendson:7-733
+F	di8-128:narfi erlendson	person:di:narfi_erlendson:8-128
+F	di8-130:hakon björgolfson	person:di:hakon_bjorgolfson:8-130
+F	di8-131:lagman torvardr erlendson	person:di:torvardr_erlendson:7-733
+F	di8-132:lagman torvardr	person:di:torvardr_erlendson:7-733
+F	di8-139:ärkebiskop gauti	person:di:gauti:6-153
+F	di8-13:påve vi	person:di:pave_vi:8-13
+F	di8-140:ärkebiskop gauti	person:di:gauti:6-153
+F	di8-141:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-150:eirikr valchendorphr	person:di:eirikr_valchendorphr:8-150
+F	di8-154:jon erlingson	person:di:jon_erlingson:8-154
+F	di8-155:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-156:kung hans	person:hans
+F	di8-157:björn gudnason	person:di:bjorn_gudnason:8-157
+F	di8-158:einar odson	person:di:einar_odson:8-158
+F	di8-15:påve johanes xi	person:pave_johanes_xxiii_1410
+F	di8-16:påve johanes xi	person:pave_johanes_xxiii_1410
+F	di8-17:påve johanes xi	person:pave_johanes_xxiii_1410
+F	di8-187:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-18:påve martein v	person:di:pave_martein:8-18
+F	di8-19:påve martein v	person:di:pave_martein:8-19
+F	di8-226:lagman jon sigmundson	person:di:jon_sigmundson:8-226
+F	di8-228:ärkebiskop gauti	person:di:gauti:6-153
+F	di8-233:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-236:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-240:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-258:kung kristian i	person:kristian_2
+F	di8-264:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-266:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-271:svein torleifson	person:di:svein_torleifson:8-271
+F	di8-278:kung kristian i	person:kristian_2
+F	di8-27:påve eugenius iv	person:pave_eugenius_iv
+F	di8-283:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-292:einar torolfson	person:di:einar_torolfson:8-292
+F	di8-296:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-297:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-298:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-301:haldor torgeirson	person:di:haldor_torgeirson:8-301
+F	di8-302:kristin sumarlidadotir	person:di:kristin_sumarlidadotir:8-302
+F	di8-313:vigfus tordarson	person:di:vigfus_tordarson:8-313
+F	di8-325:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-331:lagman jon sigmundson	person:di:jon_sigmundson:8-226
+F	di8-33:påve eugenius iv	person:pave_eugenius_iv
+F	di8-341:helgi torvaldson	person:di:helgi_torvaldson:8-341
+F	di8-356:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-362:kung kristian i	person:kristian_2
+F	di8-365:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-368:påve leo x	person:pave_leo_x
+F	di8-369:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-373:biskop gotskalk i holar	person:di:gotskalk:8-373
+F	di8-37:påve eugenius iv	person:pave_eugenius_iv
+F	di8-386:lagman jon sigmundson	person:di:jon_sigmundson:8-226
+F	di8-391:lagman jon	person:di:jon:8-391
+F	di8-394:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-396:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-397:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-400:kung kristian i	person:kristian_2
+F	di8-402:lagman jon	person:di:jon:8-402
+F	di8-40:kung kristofer av bayern	person:kristofer_av_bayern
+F	di8-412:björn gudnason	person:di:bjorn_gudnason:8-412
+F	di8-41:kristopher av bayern	person:di:kristopher:8-41
+F	di8-42:påve eugenius iv	person:pave_eugenius_iv
+F	di8-432:kung kristian i	person:kristian_2
+F	di8-438:biskop stephan björn gudnason	person:di:stephan_bjorn_gudnason:6-668
+F	di8-439:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-443:präst torgil nikulason	person:di:torgil_nikulason:8-443
+F	di8-446:jon einarson	person:di:jon_einarson:8-446
+F	di8-44:påve eugenius iv	person:pave_eugenius_iv
+F	di8-453:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-456:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-458:kung kristian i	person:kristian_2
+F	di8-45:påve eugenius	person:pave_eugenius_iv
+F	di8-461:björn gudnason	person:di:bjorn_gudnason:8-461
+F	di8-464:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-471:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-480:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-482:magnusr torkelson	person:di:magnusr_torkelson:8-482
+F	di8-486:lagman vigfus	person:di:vigfus_erlendson:8-486
+F	di8-48:påve nikulasr v	person:di:pave_nikulasr:8-48
+F	di8-491:björn gudnason	person:di:bjorn_gudnason:8-491
+F	di8-493:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-495:abot ögmundr	person:di:ogmundr:8-495
+F	di8-496:kung kristian i	person:kristian_2
+F	di8-504:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-505:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-506:ara andreson	person:di:ara_andreson:8-506
+F	di8-507:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-510:lagman vigfusr erlr	person:di:vigfusr_erlr:8-510
+F	di8-521:abot ögmundr	person:di:ogmundr:8-495
+F	di8-524:abot ögmundr	person:di:ogmundr:8-495
+F	di8-526:präst jon arason	person:jon_arason_1550
+F	di8-528:sefrin nordbyr	person:di:sefrin_nordbyr:8-528
+F	di8-52:påve nikolaus v	person:pave_nicolaus_v
+F	di8-531:biskop gotskalkr	person:di:gotskalkr_nikulason:8-119
+F	di8-53:påve nikolaus v	person:pave_nicolaus_v
+F	di8-542:torleifr örnolfson ragnhild bjarnadotir	person:di:torleifr_ornolfson_ragnhild_bjarnadotir:8-542
+F	di8-544:lagman vigfus erlendson	person:di:vigfus_erlendson:8-486
+F	di8-546:kung kristian i	person:kristian_2
+F	di8-549:finr arnorson	person:di:finr_arnorson:8-549
+F	di8-552:jonsprestr finbogason	person:di:jonsprestr_finbogason:8-552
+F	di8-555:biskop gotskalkr nikulason	person:di:gotskalkr_nikulason:8-119
+F	di8-556:biskop gotskalk	person:di:biskop_gotskalk:8-556
+F	di8-574:ärkebiskop eirikr valchendorphr	person:di:eirikr_valchendorphr:8-150
+F	di8-575:ärkebiskop eirikr valchendorph	person:di:eirikr_valchendorph:8-575
+F	di8-587:tyl petrson	person:di:tyl_petrson:8-587
+F	di8-599:abot helgi i tingeyrar	person:di:helgi:8-599
+F	di8-601:kung kristian i	person:kristian_2
+F	di8-614:jon einarson	person:di:jon_einarson:8-614
+F	di8-615:hanesr egertson	person:di:hanesr_egertson:8-615
+F	di8-7:biskop gyrdr i skalholt	person:di:gyrdr:3-56
+F	di8-80:biskop hans	person:johannes_iv_olofsson_abo
+F	di8-81:björn torleifson	person:di:bjorn_torleifson:8-81
+F	di8-88:biskop gotskalk	person:di:biskop_gotskalk:8-88
+F	di8-94:biskop stephan	person:di:stephan_bjorn_gudnason:6-668
+F	di8-95:torvardr erlendson	person:di:torvardr_erlendson:8-95
+F	di8-96:lagman finbogi	person:di:finbogi:7-487
+F	di8-98:lagman finbogi	person:di:finbogi:7-487
+F	di8-99:sturla tordarson	person:di:sturlu_tordarson:8-99
+F	di8-99:sturlu tordarson	person:di:sturlu_tordarson:8-99
+F	di9-102:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-111:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-112:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-113:kung kristian i	person:kristian_2
+F	di9-115:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-116:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-130:lagman erlendr torvardson	person:di:erlendr_torvardson:9-130
+F	di9-134:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-135:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-135b:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-137:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-138:kung kristian i	person:kristian_2
+F	di9-139:kung fredrik i	person:fredrik_1
+F	di9-140:kung fredrik	person:fredrik_1
+F	di9-142:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-145:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-147:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-14:påve bonifacius ix	person:pave_bonifatius_ix
+F	di9-177:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-178:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-179:kung fredrik	person:fredrik_1
+F	di9-181:kung kristian i	person:kristian_2
+F	di9-183:hövitsman hanes egertson	person:di:hanes_egertson:9-183
+F	di9-191:kung fredrik	person:fredrik_1
+F	di9-203:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-205:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-207:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-209:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-210:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-214:biskop ögmundr	person:di:ogmundr:9-214
+F	di9-215:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-217:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-222:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-227:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-229:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-240:jon tordarson	person:di:jon_tordarson:9-240
+F	di9-241:biskop jon arason	person:hans_brask_linkoping
+F	di9-248:önu snjolfsdotir	person:di:onu_snjolfsdotir:9-248
+F	di9-254:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-255:lagman hrafn	person:di:hrafn_brandson:9-255
+F	di9-261:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-263:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-280:biskop jon arason	person:hans_brask_linkoping
+F	di9-287:biskop jon arason	person:hans_brask_linkoping
+F	di9-294:jon halson	person:di:jon_halson:9-294
+F	di9-303:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-305:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-306:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-307:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-308:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-314:einar jonson	person:di:einar_jonson:9-314
+F	di9-314:gudrun jonsdotir	person:di:gudrun_jonsdotir:9-314
+F	di9-327:torleifr eirikson	person:di:torleifr_eirikson:9-327
+F	di9-330:abedisa solveig	person:di:solveig:9-330
+F	di9-332:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-340:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-341:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-353:jon jonson	person:di:jon_jonson:9-353
+F	di9-355:kung fredrik	person:fredrik_1
+F	di9-356:kung fredrik i	person:fredrik_1
+F	di9-361:biskop jon	person:hans_brask_linkoping
+F	di9-364:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-372:präst jon finbogason	person:di:jon_finbogason:9-372
+F	di9-373:biskop jon	person:di:biskop_jon:9-373
+F	di9-378:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-388:biskop hrafn	person:di:hrafn:9-388
+F	di9-389:kung fredrik	person:fredrik_1
+F	di9-391:lagman hrafn brandson	person:di:hrafn_brandson:9-255
+F	di9-393:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-399:präst torleifr eirikson	person:di:torleifr_eirikson:9-399
+F	di9-3:kung magnus	person:magnus_lagaboter
+F	di9-404:kung fredrik i	person:fredrik_1
+F	di9-408:biskop jon arason	person:johannes_magni_linkoping
+F	di9-411:biskop jon	person:johannes_magni_linkoping
+F	di9-417:präst petr palson	person:di:petr_palson:9-417
+F	di9-418:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-425:dadi gudmundson	person:di:dadi_gudmundson:9-425
+F	di9-426:biskop jon	person:johannes_magni_linkoping
+F	di9-427:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-429:jon halson	person:di:jon_halson:9-429
+F	di9-42:hövitsman key anefeldr	person:di:key_anefeldr:9-42
+F	di9-431:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-432:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-446:hövitsman didrik	person:di:didrik:9-446
+F	di9-447:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-448:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-449:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-450:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-451:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-455:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-460:gudrun finbogadotir	person:di:gudrun_finbogadotir:9-460
+F	di9-461:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-466:her tomasr eirikson	person:di:tomasr_eirikson:9-466
+F	di9-470:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-474:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-475:einar brynjolfson	person:di:einar_brynjolfson:9-475
+F	di9-483:teitr torleifson	person:di:teitr_torleifson:9-483
+F	di9-485:inga jonsdotir	person:di:ingu_jonsdotir:9-485
+F	di9-485:ingu jonsdotir	person:di:ingu_jonsdotir:9-485
+F	di9-487:biskop jon	person:johannes_magni_linkoping
+F	di9-491:biskop jon	person:johannes_magni_linkoping
+F	di9-496:torleifr grimson	person:di:torleifr_grimson:9-496
+F	di9-500:einar odson	person:di:einar_odson:9-500
+F	di9-503:gizur einarson	person:di:gizur_einarson:9-503
+F	di9-504:gizur einarson	person:di:gizur_einarson:9-503
+F	di9-506:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-507:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-514:biskop jon arason	person:johannes_magni_linkoping
+F	di9-516:didrik mynden	person:di:didrik_mynden:9-516
+F	di9-518:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-521:erlingr gislason	person:di:erlingr_gislason:9-521
+F	di9-524:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-52:kung kristian i	person:kristian_2
+F	di9-533:kung fredrik	person:fredrik_1
+F	di9-534:torleifr eirikson	person:di:torleifr_eirikson:9-534
+F	di9-536:biskop jon	person:johannes_magni_linkoping
+F	di9-538:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-542:abot alexius	person:di:alexius:9-542
+F	di9-544:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-545:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-555:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-559:martein krabi	person:di:martein_krabi:9-559
+F	di9-564:rikisrad nordmana	person:di:rikisrad_nordmana:9-564
+F	di9-569:biskop jon	person:johannes_magni_linkoping
+F	di9-570:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-571:vincencius lunge	person:di:vincencius_lunge:9-571
+F	di9-578:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-579:didrik mynden	person:di:didrik_mynden:9-579
+F	di9-57:eyjolfr gislason	person:di:eyjolfr_gislason:9-57
+F	di9-582:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-583:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-585:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-587:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-588:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-591:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-594:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-599:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-604:arngrimr jonson	person:di:arngrimr_jonson:9-604
+F	di9-605:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-60:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-614:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-616:hrafn gudmundson	person:di:hrafn_gudmundson:9-616
+F	di9-620:ara andreson	person:di:ara_andreson:9-620
+F	di9-623:abot alexius	person:di:alexius:9-542
+F	di9-629:kung kristian i	person:kristian_3
+F	di9-64:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-65:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-66:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-67:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-68:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-69:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-6:kung håkon magnuson	person:hakon_5
+F	di9-70:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-71:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-72:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-74:holmfrid erlendsdotir	person:di:holmfrid_erlendsdotir:9-74
+F	di9-76:präst jon arason	person:jon_arason_1550
+F	di9-83:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-93:biskop ögmundr	person:di:ogmundr:9-60
+F	di9-97:präst helgi jonson	person:di:helgi_jonson:9-97
 F	dn1-1000:kung hans	person:hans
 F	dn1-1003:anund björnson teiste	person:dn:anund_bjornson_teiste:1-1003
 F	dn1-1004:amund sigurdson	person:dn:amund_sigurdson:1-1004
@@ -65932,7 +67354,7 @@ F	dn22-226:magdalena olavsdoter (til hataberg)	person:dn:magdalena_olavsdoter:22
 F	dn22-227:gutorm nilson	person:sdhk:gutorm_nilson:44883
 F	dn22-227:nils clauson	person:dn:nils_clauson:22-159
 F	dn22-228:her nils lyke	person:dn:nils_lyke:22-228
-F	dn22-229:geble pederson	person:dn:geble_pederson:22-229
+F	dn22-229:geble pederson	person:dn:geble_pederson:12-568
 F	dn22-229:gutorm nilson	person:dn:gutorm_nilson:22-229
 F	dn22-229:mogens jonson	person:dn:mogens_jonson:22-229
 F	dn22-229:nils clauson	person:dn:nils_clauson:22-159
@@ -66129,7 +67551,7 @@ F	dn22-391:jens splid	person:dn:jens_splid:15-534
 F	dn22-391:peder pederson	person:dn:peder_pederson:22-391
 F	dn22-391:tord rod	person:dn:tord_rod:3-1155
 F	dn22-392:ambrosius hermanson	person:dn:ambrosius_hermanson:22-392
-F	dn22-393:peder hanson	person:dn:peder_hanson:22-393
+F	dn22-393:peder hanson	person:dn:peder_hanson:22-375
 F	dn22-394:her truid ulfstand	person:dn:truid_ulfstand:3-1145
 F	dn22-395:gutorm nilson	person:sdhk:gutorm_nilson:44883
 F	dn22-396:kung kristian	person:kristian_3
@@ -76440,6 +77862,58 @@ F	m|df817:borgaren lars vestfal i åbo	person:df:lars_vestfal:817
 F	m|df839:olof jönson	person:sdhk:olof_jonson:39739
 F	m|df923:biskop johan	person:johannes_iii_westfal_abo
 F	m|df923:domkapitlet i åbo	institution:sdhk:domkapitlet_i_abo
+F	m|di10-278:od gotskalkson	person:di:od_gotskalkson:10-278
+F	m|di10-50:jon halson	person:di:jon_halson:10-50
+F	m|di12-212:jon vituson	person:di:jon_vituson:12-212
+F	m|di12-218:her torlak halgrimson	person:di:torlak_halgrimson:12-218
+F	m|di12-311:gudrunu magnusdotir	person:di:gudrunu_magnusdotir:12-311
+F	m|di12-338:her birn gislason	person:di:birn_gislason:12-338
+F	m|di12-426:einar palson	person:di:einar_palson:12-426
+F	m|di12-431:helgu jonsdotir	person:di:helgu_jonsdotir:12-431
+F	m|di12-501:egert	person:di:egert:12-501
+F	m|di13-154:jon björnson	person:di:jon_bjornson:13-154
+F	m|di13-233:jon björnson	person:di:jon_bjornson:13-233
+F	m|di13-301:einar torgilson	person:di:einar_torgilson:13-301
+F	m|di13-386:od tomason	person:di:od_tomason:13-386
+F	m|di13-43:dadi gudmundson	person:di:dadi_gudmundson:13-43
+F	m|di13-56:dadi gudmundson	person:di:dadi_gudmundson:13-56
+F	m|di14-227:hans nielsen	person:di:hans_nielsen:14-227
+F	m|di14-379:magnus björnson	person:di:magnus_bjornson:14-379
+F	m|di14-9:magnus jonson	person:di:magnus_jonson:14-9
+F	m|di15-164:jon gislason	person:di:jon_gislason:15-164
+F	m|di15-168:her jon einarson	person:di:jon_einarson:15-168
+F	m|di15-175:gudbrand torlakson	person:di:gudbrand_torlakson:15-175
+F	m|di15-230:her jon einarson	person:di:jon_einarson:15-168
+F	m|di15-240:gotskalk magnuson	person:di:gotskalk_magnuson:15-240
+F	m|di4-585:gudmund sveinson	person:di:gudmund_sveinson:4-585
+F	m|di4-586:gudrunu andresdotir	person:di:gudrunu_andresdotir:4-586
+F	m|di4-589:torlak sigurdson	person:di:torlak_sigurdson:4-589
+F	m|di4-653:her jon palson	person:di:jon_palson:4-653
+F	m|di5-102:egl grimson	person:di:egl_grimson:5-102
+F	m|di5-125:biskop marcelus i skalholt	person:sdhk:marcelus:25792
+F	m|di5-227:torleif björnson	person:di:torleif_bjornson:5-227
+F	m|di5-32:john volfe	person:di:john_volfe:5-32
+F	m|di5-43:birg magnuson	person:di:birg_magnuson:5-43
+F	m|di5-707:sigurdi dadason	person:di:sigurdi_dadason:5-707
+F	m|di6-133:gudni jonson	person:di:gudni_jonson:6-133
+F	m|di6-278:petr loptson	person:di:petr_loptson:6-278
+F	m|di6-72:einar björnson	person:di:einar_bjornson:6-72
+F	m|di7-540:gudni jonson	person:di:gudni_jonson:7-540
+F	m|di7-701:hans kruckug	person:di:hans_kruckug:7-701
+F	m|di8-19:jon gerekson	person:di:jon_gerekson:8-19
+F	m|di8-27:jon bloxvich	person:di:jon_bloxvich:8-27
+F	m|di8-33:robert vodborn	person:di:robert_vodborn:8-33
+F	m|di8-44:jon bloxvich	person:di:jon_bloxvich:8-44
+F	m|di8-549:hvaneyrarkirkju smahamrareki	person:di:hvaneyrarkirkju_smahamrareki:8-549
+F	m|di8-88:her sigmund gudmundson	person:di:sigmund_gudmundson:8-88
+F	m|di9-183:johan petrson	person:di:johan_petrson:9-183
+F	m|di9-210:birn torleifson	person:di:birn_torleifson:9-210
+F	m|di9-426:gotskalk jonson	person:di:gotskalk_jonson:9-426
+F	m|di9-446:jon halson	person:di:jon_halson:9-446
+F	m|di9-587:jon halson	person:di:jon_halson:9-587
+F	m|di9-594:her brand rafnson	person:di:brand_rafnson:9-594
+F	m|di9-614:jon halson	person:di:jon_halson:9-614
+F	m|di9-629:ara jonson	person:di:ara_jonson:9-629
 F	m|dn1-1003:einar anfinson	person:dn:einar_anfinson:1-1003
 F	m|dn1-1005:eidsbergs prestebol	person:dn:eidsbergs_prestebol:1-1005
 F	m|dn1-1006:orm alfson	person:dn:orm_alfson:1-1006
@@ -81111,12 +82585,16 @@ E	person:df:tord_rorikson_bonde:1123	person:tord_rorikson_bonde_1417	Tord Rörik
 E	person:df:tord_rorikson_bonde:1450	person:tord_rorikson_bonde_1417	Thord Röriksson Bonde
 E	person:df:torsten_salmonson:6352	person:df:torsten_salmonson:6273	Torsten Salmonsson
 E	person:df:valdemar_djakn:1646	person:df:valdemar_djakn:1244	Valdemar Djäkn
+E	person:di:magnus_erlingson_noregs:1-39	person:magnus_erlingsson	person:di:magnus_erlingson_noregs:1-39
+E	person:dn:eske_bile:22-393	person:dn:eske_bile:22-375	Eske Bille
+E	person:dn:geble_pederson:22-229	person:dn:geble_pederson:12-568	Geble Pedersson
 E	person:dn:hans_michelson:13-399	person:dn:hans_michelson:11-429	Hans Michelsson
 E	person:dn:johan_kruckov:10-697	person:dn:johan_kruckov:10-690	Johan Kruckow
 E	person:dn:johan_kruckov:10-699	person:dn:johan_kruckov:10-690	Johan Kruckow
 E	person:dn:johan_kruckov:12-549	person:dn:johan_kruckov:10-690	Johan Kruckow
 E	person:dn:nils_lyke:11-607	person:sdhk:nils_lyke:44872	Nils Lykke
 E	person:dn:oluf_rosenkrantz:23-229	person:dn:oluf_rosenkrantz:23-193	Oluf Rosenkrantz
+E	person:dn:peder_hanson:22-393	person:dn:peder_hanson:22-375	Peder Hansson
 E	person:sdhk:abraham_erikson:34367	person:sdhk:abraham_erikson:33690	Abraham Eriksson
 E	person:sdhk:abraham_erikson_gylenstierna:33718	person:abraham_erikson_1514	Abraham Eriksson Gyllenstierna
 E	person:sdhk:abraham_erikson_gylenstierna:34167	person:abraham_erikson_1514	Abraham Eriksson Gyllenstierna
@@ -81447,6 +82925,7 @@ E	person:sdhk:bo_jonson:13233	person:bo_jonson_grip_1386	Bo Jonsson
 E	person:sdhk:bo_jonson:40534	person:bo_jonson_grip_1386	Bo Jonsson
 E	person:sdhk:bo_jonson:8911	person:bo_jonson_grip_1386	Bo Jonsson
 E	person:sdhk:bo_jonson:9863	person:bo_jonson_grip_1386	Bo Jonsson
+E	person:sdhk:bo_knutson:23085	person:sdhk:bo_knutson:22449	Bo Knutsson
 E	person:sdhk:bo_stenson:20667	person:bo_stenson_1469	Bo Stensson
 E	person:sdhk:bo_stenson:22241	person:bo_stenson_1469	Bo Stensson
 E	person:sdhk:bo_stenson:23259	person:bo_stenson_1469	Bo Stensson
@@ -81509,6 +82988,7 @@ E	person:sdhk:erengisle_nilson:11859	person:erengisle_nilson_d_a_1406	Erengisle 
 E	person:sdhk:erengisle_nilson:13656	person:erengisle_nilson_d_a_1406	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:15133	person:erengisle_nilson_d_a_1406	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:22577	person:eringisl_nilson_hamerstaaten_1469	Erengisle Nilsson
+E	person:sdhk:erengisle_nilson:23085	person:sdhk:erengisle_nilson:22803	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:23759	person:eringisl_nilson_hamerstaaten_1469	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:24007	person:eringisl_nilson_hamerstaaten_1469	Erengisle Nilsson
 E	person:sdhk:erengisle_nilson:27199	person:eringisl_nilson_hamerstaaten_1469	Erengisle Nilsson
@@ -81539,7 +83019,8 @@ E	person:sdhk:erik_axelson_tot:44968	person:erik_axelson_1481	Erik Axelsson Tott
 E	person:sdhk:erik_axelson_tot:44971	person:erik_axelson_1481	Erik Axelsson Tott
 E	person:sdhk:erik_erikson:25980	person:sdhk:erik_erikson:25718	Erik Eriksson
 E	person:sdhk:erik_erikson:26268	person:sdhk:erik_erikson:25718	Erik Erikson
-E	person:sdhk:erik_erikson:29327	person:sdhk:erik_erikson:29148	Erik Eriksson
+E	person:sdhk:erik_erikson:29148	person:sdhk:erik_erikson:25718	Erik Eriksson
+E	person:sdhk:erik_erikson:29327	person:sdhk:erik_erikson:25718	Erik Eriksson
 E	person:sdhk:erik_erikson:33690	person:sdhk:erik_erikson:25718	Erik Eriksson
 E	person:sdhk:erik_erikson:33772	person:sdhk:erik_erikson:25718	Erik Eriksson
 E	person:sdhk:erik_erikson_gylenstierna:26406	person:erik_erikson_1502	Erik Eriksson Gyllenstierna
@@ -81708,6 +83189,7 @@ E	person:sdhk:erlend_kage:24719	person:sdhk:erlend_kage:24118	Erlend Kagge
 E	person:sdhk:ermegard_fickesdoter:35645	person:sdhk:ermegard_fickesdoter:35644	Ermegård Fickesdotter
 E	person:sdhk:ernst_van_dotzem:39693	person:sdhk:ernst_van_dotzem:9595-2	Ernst van Dotzem
 E	person:sdhk:ernst_van_dotzem:9595	person:sdhk:ernst_van_dotzem:9595-2	Ernst van Dotzem
+E	person:sdhk:esbjorn_blapana:15519	person:sdhk:esbjorn_blapana:19852	Esbjörn Blåpanna
 E	person:sdhk:esbjorn_blapana:18010	person:sdhk:esbjorn_blapana:19852	Esbjörn Blåpanna
 E	person:sdhk:esbjorn_blapana:18260	person:sdhk:esbjorn_blapana:19852	Esbjörn Blåpanna
 E	person:sdhk:esbjorn_blapana:18669	person:sdhk:esbjorn_blapana:19852	Esbjörn Blåpanna

@@ -62,6 +62,7 @@ from pathlib import Path
 
 import db
 from normalisering import ordform
+import di_regester
 import dn_regester
 from regest_garningar import Brevform, Garning, tolka_brevform, tolka_garning
 
@@ -576,7 +577,7 @@ def _slug(s: str) -> str:
 # Brevsamlingarna i den ordning de läses. Ett brev identifieras med sitt verk-id
 # ('sdhk:10000', 'df:6022', 'dn:4:159' med band och nummer). SDHK-brevens nycklar och
 # id:n har bara numret, som innan DF kom till, så att inga tidigare id:n ändras.
-KALLOR = {"sdhk": "SDHK", "df": "DF", "dn": "DN"}
+KALLOR = {"sdhk": "SDHK", "df": "DF", "dn": "DN", "di": "DI"}
 BREVPERSON = tuple(f"person:{k}:" for k in KALLOR)
 
 
@@ -974,7 +975,7 @@ def klustra(forekomster: list[Forekomst], personlista: "Personlista | None" = No
 
 
 # Källor vars personer slås ihop innan nästa steg läses in
-STEG = [("sdhk", "df"), ("dn",)]
+STEG = [("sdhk", "df"), ("dn",), ("di",)]
 
 
 def _gruppera(personer: list[dict], rot) -> list[dict]:
@@ -1327,7 +1328,7 @@ def _mojliga_samma(personer: list[dict]) -> list[tuple[dict, dict]]:
 
 
 # Klustringens faser: (roll, källa). En senare fas ändrar aldrig en tidigare fas personer.
-FASER = [(0, "sdhk"), (0, "df"), (0, "dn"), (1, "sdhk"), (1, "df"), (1, "dn")]
+FASER = [(0, "sdhk"), (0, "df"), (0, "dn"), (0, "di"), (1, "sdhk"), (1, "df"), (1, "dn"), (1, "di")]
 
 
 def _fas(f: "Forekomst") -> tuple[int, str]:
@@ -1651,7 +1652,13 @@ def hamta_brev(conn) -> list[tuple]:
         extra = extra if isinstance(extra, dict) else json.loads(extra or "{}")
         if not extra.get("sdhk"):
             dn.append((verk, falt, *resten))
-    return brev + sorted(df, key=lambda b: ordning(b[0])) + sorted(dn, key=lambda b: ordning(b[0]))
+    # DI har bara bandens rubriker; de tolkas av di_regester.py i bygg
+    cur.execute(f"""
+        SELECT v.id, '', v.datering_edtf, v.datering_fran, v.datering_till, {passager}
+        FROM {p}verk v WHERE v.kallsamling_id = 'di'""")
+    di = [tuple(rad) for rad in cur.fetchall()]
+    return (brev + sorted(df, key=lambda b: ordning(b[0])) + sorted(dn, key=lambda b: ordning(b[0]))
+            + sorted(di, key=lambda b: ordning(b[0])))
 
 
 def kanda_fornamn(brev: list[tuple]) -> set[str]:
@@ -1690,6 +1697,7 @@ def bygg(conn) -> dict:
 
     garningar: dict[str, Garning] = {}
     brevformer: dict[str, Brevform] = {}
+    di_foregaende: dict[str, tuple[str | None, str | None]] = {}
     regesttexter: dict[str, str] = {}
 
     def koppla(f: Forekomst) -> None:
@@ -1741,6 +1749,18 @@ def bygg(conn) -> dict:
         dnt = dn_regester.tolka(regesttext) if verk.startswith("dn:") and regesttext else None
         if verk.startswith("dn:"):
             falt = (dnt.utfardare if dnt else None) or ""
+        dit = di_regester.tolka(regesttext) if verk.startswith("di:") and regesttext else None
+        if verk.startswith("di:"):
+            band = verk.split(":")[1]
+            foregaende = di_foregaende.get(band, (None, None))
+            if dit and dit.sama:
+                # "Bréf sama til sama": föregående brevs utfärdare och adressat
+                dit = replace(dit, utfardare=foregaende[0], brevform=Brevform(foregaende[1], False, None, None, []))
+            elif dit and dit.sama_utfardare:
+                dit = replace(dit, utfardare=foregaende[0])
+            falt = (dit.utfardare if dit else None) or ""
+            if dit and dit.utfardare:
+                di_foregaende[band] = (dit.utfardare, dit.brevform.adressat if dit.brevform else None)
         datering[verk] = (edtf, fran, till)
         ar = (fran // 10000, till // 10000) if fran and till else None
         t = tolka(falt, fornamn)
@@ -1758,7 +1778,9 @@ def bygg(conn) -> dict:
 
         # Regestens huvudgärning; mottagarna tolkas och identifieras som utfärdarna. DN:s
         # regester tolkas av dn_regester.py, och i vittnesbreven är gärningens subjekt en part.
-        if verk.startswith("dn:"):
+        if verk.startswith("di:"):
+            g = dit.garning if dit and t.utfardare else None
+        elif verk.startswith("dn:"):
             g = dnt.garning if dnt and (t.utfardare or dnt.garning_subjekt) else None
             for u in (tolka(dnt.garning_subjekt, fornamn).utfardare if g and dnt.garning_subjekt else []):
                 if u.institution or u.titel or u.ambeten or u.efternamn or u.fornamn in fornamn:
@@ -1786,7 +1808,9 @@ def bygg(conn) -> dict:
                     stat["mottagare"] += 1
 
         # Ett brev utan gärning kan vara ett missiv med en adressat, och ett svar på ett tidigare brev
-        if verk.startswith("dn:"):
+        if verk.startswith("di:"):
+            b = dit.brevform if dit and t.utfardare and not g else None
+        elif verk.startswith("dn:"):
             b = dnt.brevform if dnt and t.utfardare and not g else None
         else:
             b = tolka_brevform(regesttext) if regest and regesttext and t.utfardare and not g else None
@@ -1876,7 +1900,7 @@ class Platsuppslag:
 
     def __call__(self, ort: str, verk: str) -> str | None:
         kalla = verk.split(":", 1)[0]
-        if kalla in ("df", "dn") and (pid := f"plats:{kalla}:{_slug(ort)}") in self.finns:
+        if kalla in ("df", "dn", "di") and (pid := f"plats:{kalla}:{_slug(ort)}") in self.finns:
             return self.folj(pid)
         if (pid := self.per_form.get(ordform(ort))):
             return self.folj(pid)
@@ -1980,7 +2004,12 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
         # SDHK nr 32644")
         numrerade = []
         for kalla, nr in bf.nummer:
-            c = f"{r.split(':')[0]}:{nr}" if kalla == "egen" else f"{kalla}:{nr}"
+            if kalla == "egen":
+                # DN och DI numrerar inom bandet: "Nr. 23" i DI 10 är di:10:23
+                delar = r.split(":")
+                c = f"{delar[0]}:{delar[1]}:{nr}" if len(delar) == 3 else f"{delar[0]}:{nr}"
+            else:
+                c = f"{kalla}:{nr}"
             c = resultat["tvillingar"].get(c, c)
             if c != r and c in resultat["alla_brev"] and c in datering and (parter(c, r)[0] or parter(c, r)[1]):
                 numrerade.append(c)
@@ -2067,6 +2096,9 @@ def rader(resultat: dict, uppslag) -> dict[str, list[tuple]]:
             return None
         if (pid := uppslag(ort, verk)):
             return pid
+        # DI:s orter står i dativ ("á Svalbarði") och ska inte bli nya platser under den formen
+        if verk.startswith("di:"):
+            return None
         # En ny ort får id efter namnet, oavsett källa, så att samma namn ger samma id
         pid = f"plats:sdhk:{_slug(ort)}"
         # Ett befintligt id med annan namnform behåller sitt namn
