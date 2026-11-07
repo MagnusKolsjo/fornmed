@@ -914,7 +914,7 @@ def _biskopsambete(u: Utfardare, saten: set[str]) -> tuple[str, str | None] | No
     return (kod, sate) if sate else None
 
 
-def klustra(forekomster: list[Forekomst]) -> list[tuple[dict, dict]]:
+def klustra(forekomster: list[Forekomst], personlista: "Personlista | None" = None) -> list[tuple[dict, dict]]:
     """
     Slår ihop förekomster av samma person (nivå 3). Förekomsterna gås igenom
     i tidsordning per förnamn. En förekomst förs till en tidigare person när
@@ -947,6 +947,8 @@ def klustra(forekomster: list[Forekomst]) -> list[tuple[dict, dict]]:
     personer = [p for egna in egna_per_fornamn.values() for p in egna]
     personer = _sla_ihop_slaktnamn(personer)
     personer = _sla_ihop_medaktorer(personer)
+    if personlista is not None:
+        personer = personlista.koppla(personer)
     _namnge(personer)
     return _mojliga_samma(personer)
 
@@ -1044,6 +1046,131 @@ def _sla_ihop_slaktnamn(personer: list[dict]) -> list[dict]:
         g["forekomster"] += p["forekomster"]
         g["nycklar"] |= p["nycklar"]
     return list(grupper.values())
+
+
+# Längsta verksamma tid när bara födelseåret eller dödsåret är känt
+VERKSAM_AR = 60
+
+
+class Personlista:
+    """
+    Personer med levnadsår ur data/auktoriteter/personer.json (bygg_personlista.py, SBL och
+    Wikidata). En person ur breven kopplas till en post när
+
+    - förnamnet är detsamma (namnnyckel: Nils och Nicolaus) och postens patronymikon eller
+      enda efternamn finns i personens efternamn, utan att personen har något annat
+      efternamn än postens ("Erik Turesson" och "Erik Turesson (Bielke)" passar "Erik
+      Turesson (Bielke)", "Erik Turesson Tott" gör det inte),
+    - personens brev ligger inom postens verksamma tid (fonster): tidigast tolv år efter
+      födelseåret och senast dödsåret. Saknas födelseåret räknas verksamheten från
+      VERKSAM_AR år före dödsåret, och saknas dödsåret till VERKSAM_AR år efter det
+      tolfte levnadsåret. En post utan levnadsår kopplas inte, och
+    - något mer än namnet stämmer: ett släktnamn som båda har, eller ett ämbete eller
+      stånd hos personen som står i SBL:s yrkesuppgift (riddare, riksråd, lagman). Listan
+      rymmer bara personer som fått en biografi, så ett patronymikon ensamt räcker inte:
+      de flesta Nils Larsson i breven finns inte i SBL.
+
+    Bara en post får passa. Brev som är daterade efter dödsåret (eller före födelsen) kan
+    inte vara personens och skiljs av till en egen person; dödsåret är en bortre gräns.
+    Två grupper som klustringen höll isär men som passar samma post blir samma person.
+    """
+
+    def __init__(self, fil: Path = AUKTORITETER / "personer.json") -> None:
+        self.personer = json.loads(fil.read_text(encoding="utf-8"))["personer"] if fil.exists() else []
+        self.per_fornamn: dict[str, list[dict]] = defaultdict(list)
+        for p in self.personer:
+            for namn in [p["namn"], *p.get("alias", [])]:
+                delar = self._delar(namn)
+                if delar:
+                    self.per_fornamn[delar[0]].append({**p, "_efter": delar[1]})
+        self.kopplade: dict[str, dict] = {}
+        self.forekomster = self.avskilda = 0
+
+    @staticmethod
+    def _delar(namn: str) -> tuple[str, tuple[str, ...]] | None:
+        """'Erik Turesson (Bielke)' → ('erik', ('turesson', 'bielke'))."""
+        ord_ = [ordform(o) for o in re.findall(r"[^\s(),]+", namn) if o[0].isupper()]
+        ord_ = [o for o in ord_ if o and o not in PARTIKLAR]
+        if len(ord_) < 2:
+            return None
+        return namnnyckel(ord_[0]), tuple(ord_[1:])
+
+    @staticmethod
+    def _ambeten_passar(p: dict, nycklar: set[str]) -> bool:
+        titel = (p.get("titel") or "").lower()
+        if not titel:
+            return False
+        koder = {n.split(":")[1] for n in nycklar if n.startswith("ambete:")}
+        return any(AMBETEN[k][0][:5] in titel for k in koder if k in AMBETEN)
+
+    @staticmethod
+    def fonster(p: dict) -> tuple[int, int] | None:
+        """Åren då personen kan ha förekommit i ett brev, eller None utan levnadsår."""
+        if p["fodd"] and p["dod"]:
+            return p["fodd"] + 12, p["dod"]
+        if p["dod"]:
+            return p["dod"] - VERKSAM_AR, p["dod"]
+        if p["fodd"]:
+            return p["fodd"] + 12, p["fodd"] + 12 + VERKSAM_AR
+        return None
+
+    def _kandidater(self, fornamn: str, efter: set[str], nycklar: set[str], ar: tuple[int, int]) -> list[dict]:
+        ut = {}
+        for p in self.per_fornamn.get(fornamn, []):
+            pe = p["_efter"]
+            if pe[0] not in efter or not efter <= set(pe):
+                continue
+            fonster = self.fonster(p)
+            if not fonster or ar[0] < fonster[0] or ar[0] > fonster[1]:
+                continue
+            slakt = any(not PATRONYMIKON.search(o) for o in pe) and bool(efter & {o for o in pe if not PATRONYMIKON.search(o)})
+            if slakt or self._ambeten_passar(p, nycklar):
+                ut[p["id"]] = p
+        return list(ut.values())
+
+    def koppla(self, personer: list[dict]) -> list[dict]:
+        """Kopplar personerna till posterna och returnerar dem som inte kopplades."""
+        kvar = []
+        for p in personer:
+            namn = Counter((namnnyckel(f.u.fornamn), f.u.efternamn) for f in p["forekomster"]
+                           if f.u.fornamn and f.u.efternamn).most_common(1)
+            ar = [f.ar for f in p["forekomster"] if f.ar]
+            if not namn or not ar:
+                kvar.append(p)
+                continue
+            fornamn, efternamn = namn[0][0]
+            efter = {ordform(o) for o in re.findall(r"[^\s()]+", efternamn)} - PARTIKLAR
+            nycklar = set().union(*(f.nycklar() for f in p["forekomster"]))
+            # Det första brevet ska ligga inom postens levnad; senare brev efter dödsåret skiljs av
+            forsta = min(a[0] for a in ar)
+            kandidater = self._kandidater(fornamn, efter, nycklar, (forsta, forsta))
+            if len(kandidater) != 1:
+                kvar.append(p)
+                continue
+            post = kandidater[0]
+            fonster = self.fonster(post)
+            inom, utom = [], []
+            for f in p["forekomster"]:
+                # Odaterade brev och brev utanför den verksamma tiden kan inte bindas till posten
+                passar = f.ar and f.ar[0] >= fonster[0] and f.ar[0] <= fonster[1]
+                (inom if passar else utom).append(f)
+            for f in inom:
+                f.entitet, f.orsak = post["id"], "personlista"
+            self.kopplade[post["id"]] = post
+            self.forekomster += len(inom)
+            if utom:
+                self.avskilda += len(utom)
+                kvar.append({"efternamn": p["efternamn"], "nycklar": set(), "fran": 9999, "till": 0, "forekomster": utom})
+        return kvar
+
+    def entiteter(self) -> list[tuple]:
+        rader = []
+        for p in self.kopplade.values():
+            liv = f"{p['fodd'] or '?'}–{p['dod'] or '?'}"
+            kalla = p["kalla"] + (f", {p['sbl_url']}" if p.get("sbl_url") else "")
+            rader.append((p["id"], "person", p["namn"],
+                          f"{p['titel'] + '; ' if p.get('titel') else ''}levde {liv} (levnadsår ur {kalla})", p.get("wikidata")))
+        return rader
 
 
 # Största avstånd mellan de två brev där en gemensam medaktör förekommer, och mellan de
@@ -1320,7 +1447,20 @@ class IdRegister:
         for f in forekomster:
             if f.entitet and f.entitet.startswith(BREVPERSON):
                 grupper[f.entitet].append(f)
-        tagna: set[str] = set()
+        # Ett id vars förekomster mest har gått till en post i en auktoritetslista följer dem
+        # dit och delas inte ut till resten: "Bo Jonsson" blir drotsen i personlistan, och
+        # de brev som ligger efter hans död får ett nytt id
+        till_lista: Counter = Counter()
+        kvar_i_grupp: Counter = Counter()
+        for f in forekomster:
+            gammalt = self.tidigare.get(nyckel[id(f)])
+            if gammalt and gammalt.startswith(BREVPERSON):
+                if f.entitet and not f.entitet.startswith(BREVPERSON):
+                    till_lista[gammalt] += 1
+                else:
+                    kvar_i_grupp[gammalt] += 1
+        tagna: set[str] = {g for g, n in till_lista.items() if n >= kvar_i_grupp[g]}
+        reserverade = set(tagna)
         byte: dict[str, str] = {}
         # SDHK:s utfärdare och mottagare väljer först, så att ett SDHK-brev behåller sitt id
         # när en grupp delas; därefter större grupper före mindre
@@ -1340,22 +1480,22 @@ class IdRegister:
                 f.entitet = byte[f.entitet]
             self.nu[nyckel[id(f)]] = f.entitet
 
-        # Ett id som används igen är inte längre ersatt
-        for t in tagna:
+        # Ett id som används igen är inte längre ersatt; ett reserverat id hänvisar till posten
+        for t in tagna - reserverade:
             self.ersatta.pop(t, None)
         # Id:n som försvann: ersätts av det id dit flest av förekomsterna gick
         till: dict[str, Counter] = defaultdict(Counter)
         for k, gammalt in self.tidigare.items():
-            if k in self.nu and gammalt not in tagna and gammalt.startswith(BREVPERSON):
+            if k in self.nu and (gammalt not in tagna or gammalt in reserverade) and gammalt.startswith(BREVPERSON):
                 till[gammalt][self.nu[k]] += 1
         for gammalt, mal in till.items():
-            if gammalt not in self.ersatta:
+            if gammalt not in self.ersatta or gammalt in reserverade:
                 self.ersatta[gammalt] = (mal.most_common(1)[0][0], namn.get(gammalt, gammalt))
         # En ersättning som pekar på ett id som i sin tur ersatts följs till slutet
         for gammalt in list(self.ersatta):
             nytt, gnamn = self.ersatta[gammalt]
             sett = {gammalt}
-            while nytt in self.ersatta and nytt not in sett and nytt not in tagna:
+            while nytt in self.ersatta and nytt not in sett and (nytt not in tagna or nytt in reserverade):
                 sett.add(nytt)
                 nytt = self.ersatta[nytt][0]
             self.ersatta[gammalt] = (nytt, gnamn)
@@ -1565,7 +1705,11 @@ def bygg(conn) -> dict:
                 stat["adressat"] += 1
 
     att_klustra = [f for f in forekomster if f.entitet is None]
-    mojliga = klustra(att_klustra)
+    personlista = Personlista()
+    mojliga = klustra(att_klustra, personlista)
+    stat["personlista_personer"] = len(personlista.kopplade)
+    stat["personlista_forekomster"] = personlista.forekomster
+    stat["personlista_efter_dodsaret"] = personlista.avskilda
     for f in forekomster:
         stat[f"{f.roll}_" + (f.orsak or "okopplad")] += 1
         if f.identitet and f.identitet.entitet:
@@ -1583,7 +1727,7 @@ def bygg(conn) -> dict:
     stat["ersatta_id"] = len(register.ersatta)
     return {"forekomster": forekomster, "institutioner": institutioner, "regenter": regenter,
             "register": register, "garningar": garningar, "brevformer": brevformer, "regesttext": regesttexter,
-            "alla_brev": alla_brev,
+            "alla_brev": alla_brev, "personlista": personlista,
             "mojliga_samma": [(a["forekomster"][0].entitet, b["forekomster"][0].entitet) for a, b in mojliga],
             "datering": datering, "stat": stat, "otolkade": otolkade, "ofullstandiga": ofullst}
 
@@ -1749,6 +1893,8 @@ def rader(resultat: dict, uppslag) -> dict[str, list[tuple]]:
     regenter = resultat["regenter"]
 
     for e in regenter.entiteter():
+        entiteter[e[0]] = e
+    for e in resultat["personlista"].entiteter():
         entiteter[e[0]] = e
     for iid, namn in resultat["institutioner"].items():
         entiteter[iid] = (iid, "institution", namn, "Utfärdare eller mottagare i SDHK eller DF")

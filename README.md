@@ -967,6 +967,33 @@ id:t slås inte upp på namnet, projektets handregistrerade platser går före d
 breven, en ersatt plats följs till den nya, och för ett DF-brev går DF:s egen plats
 med namnet först. Bara en ort som inte finns får en ny entitet.
 
+### Personlistan
+
+```bash
+.venv/bin/python bygg_personlista.py --hamta   # hämtar Wikidata och bygger listan
+.venv/bin/python bygg_personlista.py           # bygger om ur de sparade källorna
+```
+
+`data/auktoriteter/personer.json` har medeltida personer med levnadsår ur Svenskt
+biografiskt lexikon (Riksarkivet, CC0; filen `SBL_2023.csv` läggs i `data/raw/sbl/`
+från [Riksarkivets datamängder](https://sok.riksarkivet.se/data-api/nedladdningsbara-datamangder/svenskt-biografiskt-lexikon/))
+och Wikidata (CC0): personer döda 1100–1600 med SBL-id eller medborgarskap i de
+nordiska rikena eller Kalmarunionen. Samma person i båda källorna blir en post, och
+SBL:s år går före Wikidatas. SBL:s förbehåll följer med: "senast 1302" är en bortre
+gräns, "omkring 1340" vidgas med fem år och "levde på 1300-talet" ger ingen gräns.
+Regenter, påvar och biskopar har egna listor och tas inte med. Ett id som en gång
+delats ut behålls, med Wikidata- eller SBL-id som nyckel.
+
+`pastaenden_sdhk.py` kopplar en brevperson till en post när förnamnet och efternamnet
+stämmer, det första brevet ligger inom postens verksamma tid (tolv år efter födelsen
+till dödsåret; saknas det ena räknas 60 år från det andra) och något mer än namnet
+stämmer: ett släktnamn som båda har, eller ett ämbete eller stånd som står i SBL:s
+yrkesuppgift. Bara en post får passa. Dödsåret är en bortre gräns: brev efter
+dödsåret, eller före den verksamma tiden, skiljs av till en egen person. Två grupper
+som klustringen höll isär men som passar samma post blir samma person, så drotsen Bo
+Jonsson (Grip) är nu en person med 146 brev, och Tord Bonde är fyra personer i fyra
+generationer. Ett brevperson-id vars förekomster mest gick till en post hänvisar dit.
+
 ### Biskopslistan
 
 ```bash

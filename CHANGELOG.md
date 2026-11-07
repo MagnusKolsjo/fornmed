@@ -7,6 +7,11 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Personlista med levnadsår ur SBL och Wikidata (`bygg_personlista.py`,
+  `data/auktoriteter/personer.json`, 1 121 personer). Brevpersoner kopplas till den när
+  namn, levnadstid och släktnamn eller ämbete stämmer, och dödsåret är en bortre gräns.
+  143 personer har fått sina brev samlade; 812 tidigare id:n hänvisar till dem.
+
 - Brevpersoner med samma släktnamn som klustringen höll isär slås ihop (893 id:n hänvisar
   nu till ett annat), och 2 551 personer med samma patronymikon inom tio år har fått en
   möjlig identifiering med varandra i stället för att slås ihop.
