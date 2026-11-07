@@ -7,6 +7,9 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- `platsdubletter.py` och `data/platser/platsdubletter.tsv`: 217 platser som fanns under
+  två id:n (brevort och fyndplats, brevens socken och RAÄ:s, olika stavningar) hänvisar
+  nu till en och samma plats. De gamla id:na finns kvar och fungerar.
 - Påståenden ur Diplomatarium Fennicums utfärdarfält och regester, på samma sätt som
   ur SDHK (`pastaenden_sdhk.py`). DF:s personer förs till SDHK:s när namn, ort eller
   ämbete stämmer, utan att något SDHK-id ändras.

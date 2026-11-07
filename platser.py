@@ -138,6 +138,7 @@ DF_GRANS_KM = 30
 DF_LAND = {"Suomi": "fi", "Ruotsi": "se", "Norja": "no", "Tanska": "dk", "Viro": "ee", "Saksa": "de"}
 KORRIGERINGSFIL = KATALOG / "platskorrigeringar.tsv"
 SAMMANSLAGNINGSFIL = KATALOG / "platssammanslagningar.tsv"
+DUBLETTFIL = KATALOG / "platsdubletter.tsv"
 DEL_AV_ORT = re.compile(r"^plats:sdhk:[^:]+:[^:]+$")
 BEDOMARE = "Fornmeds platsregister"
 
@@ -1125,6 +1126,67 @@ def platshanvisningar(register: Platsregister) -> None:
             register.identifieringar[iid] = (iid, gammal, ny, None, "ersatt_av")
 
 
+def dubletter(register: Platsregister, kopplingar: list[tuple], saten: list[tuple]) -> tuple[list[tuple], list[tuple]]:
+    """
+    Samma plats under två id:n, enligt data/platser/platsdubletter.tsv (platsdubletter.py):
+    Vadstena som brevort och som fyndplats, Hedemora socken som brevort och som RAÄ:s
+    socken. Den gamla id:n finns kvar och hänvisar till den nya, kopplingar och påståenden
+    flyttas dit, och den gamla platsens namn blir en namnform för den nya. Saknar den nya
+    platsen läge eller socken tas de från den gamla.
+    """
+    if not DUBLETTFIL.exists():
+        return kopplingar, saten
+    with DUBLETTFIL.open(encoding="utf-8", newline="") as f:
+        flytt = {r["gammalt_id"]: r["nytt_id"] for r in csv.DictReader(f, delimiter="\t")}
+    namn = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE typ IN ('plats', 'indelning')")}
+    namn.update({pid: rad[2] for pid, rad in register.nya.items()})
+
+    def slut(pid: str) -> str:
+        sett = {pid}
+        while pid in flytt and flytt[pid] not in sett:
+            pid = flytt[pid]
+            sett.add(pid)
+        return register.ersatta.get(pid, pid)
+
+    for gammal in list(flytt):
+        ny = slut(gammal)
+        if gammal not in namn or ny not in namn or ny == gammal:
+            log.warning("Dubletten %s → %s finns inte längre", gammal, ny)
+            del flytt[gammal]
+            continue
+        flytt[gammal] = ny
+        register.ersatta[gammal] = ny
+        iid = f"identifiering:plats:ersatt:{gammal.split(':', 1)[1].replace(':', '_')}"
+        register.identifieringar[iid] = (iid, gammal, ny, None, "ersatt_av")
+        register.namnformer.add((ny, namn[gammal]))
+        gammal_uppgift = register.uppgifter.pop(gammal, None)
+        if gammal_uppgift and ny in register.uppgifter:
+            ny_uppgift = register.uppgifter[ny]
+            if ny_uppgift.get("latitud") is None and gammal_uppgift.get("latitud") is not None:
+                ny_uppgift.update(latitud=gammal_uppgift["latitud"], longitud=gammal_uppgift["longitud"],
+                                  kalla=gammal_uppgift.get("kalla"))
+            for falt in ("socken_id", "kommun_id", "lan_id", "landskap_id", "land_id"):
+                if ny_uppgift.get(falt) is None and gammal_uppgift.get(falt) is not None:
+                    ny_uppgift[falt] = gammal_uppgift[falt]
+        elif gammal_uppgift and not ny.startswith(("plats:socken:", "plats:kommun:", "plats:lan:", "plats:landskap:", "plats:land:")):
+            register.uppgifter[ny] = gammal_uppgift
+    for uppgift in register.uppgifter.values():
+        if uppgift.get("ingar_i_id") in flytt:
+            uppgift["ingar_i_id"] = flytt[uppgift["ingar_i_id"]]
+    # Ett brev som hade båda platserna i samma roll får bara en koppling
+    resultat, sett = [], set()
+    for verk_id, pid, roll, *resten in kopplingar:
+        pid = flytt.get(pid, pid)
+        if (verk_id, roll, pid) not in sett:
+            sett.add((verk_id, roll, pid))
+            resultat.append((verk_id, pid, roll, *resten))
+    # En plats som tidigare ersatts av en dublett följs ända fram, så att påståendena hamnar rätt
+    for gammal in list(register.ersatta):
+        register.ersatta[gammal] = flytt.get(register.ersatta[gammal], register.ersatta[gammal])
+    log.info("Dubletter: %d platser hänvisar till en annan", len(flytt))
+    return resultat, [(flytt.get(pid, pid), sate) for pid, sate in saten]
+
+
 def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
     """Samma plats under två namn: "Erikstad i Bankekinds härad" och "Erikstad (Bankekind)". Det gamla id:t hänvisar vidare."""
     namn_till_id = {r["namn"]: r["id"] for r in _rader(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE {db._ph()}", ("plats:sdhk:%",))}
@@ -1265,6 +1327,7 @@ def main() -> None:
     df = koppla_df(register)
     dn = koppla_dn(register)
     di = koppla_di(register)
+    alla, saten = dubletter(register, brev + runor + df + dn + di, saten)
     las_uppslag(register)
     arv_fran_storre(register)
     landskap_ur_lage(register)
@@ -1291,7 +1354,7 @@ def main() -> None:
         cur.execute(f"DELETE FROM {p}identifiering WHERE id LIKE 'identifiering:plats:%'")
         conn.commit()
         db.upsert(conn, "verk_plats", ["verk_id", "plats_id", "roll", "namnform", "osaker", "harledd"],
-                  ["verk_id", "roll", "plats_id"], brev + runor + df + dn + di)
+                  ["verk_id", "roll", "plats_id"], alla)
         db.upsert(conn, "identifiering", ["id", "entitet_id", "identifierad_med", "alternativgrupp", "kommentar"], ["id"],
                   list(register.identifieringar.values()))
         db.upsert(conn, "bedomning", ["id", "identifiering_id", "aspekt", "varde", "motivering", "bedomare"], ["id"],

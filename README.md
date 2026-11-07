@@ -1123,7 +1123,20 @@ Olson).
 .venv/bin/python platsregister.py                   # läser in stommen
 .venv/bin/python platser.py
 .venv/bin/python platser.py --rapport rapport.txt   # orter som blev nya platser
+.venv/bin/python platsdubletter.py --skriv          # samma plats under två id:n; kör platser.py igen efteråt
 ```
+
+Samma ort kan ha kommit in från flera håll: Vadstena som brevort och som fyndplats
+i Rundata, Hedemora socken som brevort och som RAÄ:s socken. `platsdubletter.py`
+hittar dem och lägger till dem i `data/platser/platsdubletter.tsv`: samma namn och
+högst 2 km mellan lägena, eller samma nutida namn och socken med samma namn eller
+bara annan stavning (Stekeborg och Stegeborg). Ting och möten slås inte ihop med
+orten, två av RAÄ:s socknar inte med varandra och två av Rundatas fyndplatser bara
+i samma socken, eftersom "Narsaq (Ø 42)" och "Narsaq (Ø 17a)" är olika ruiner.
+Den plats som behålls är RAÄ:s, sedan projektets handregistrerade, brevorten, de
+nordiska diplomatariernas och sist fyndplatsen. `platser.py` låter den gamla id:n
+hänvisa till den nya (`ersatt_av`) och flyttar kopplingar och påståenden dit; den
+gamla platsens namn blir en namnform. En rad i filen ändras aldrig.
 
 Alla geografiska platser ska vara entiteter, från rike och landskap till socken,
 gård och kloster. Källans ordalydelse behålls alltid. Kör `platser.py` efter varje
