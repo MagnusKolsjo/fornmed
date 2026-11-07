@@ -236,7 +236,9 @@ INSTITUTIONER = [
     (re.compile(r"^(?P<ort>" + NAMNORD + r")\s+domkapitel$"), "Domkapitlet i {ort}"),
     (re.compile(r"^(?P<ort>svenska|danska|norska)\s+(?:riks)?rådet$", re.I), "{Ort} riksrådet"),
     (re.compile(r"^rådmän(?:nen)?\s+i\s+(?P<ort>" + NAMNORD + r")$", re.I), "Rådet i {ort}"),
-    (re.compile(r"^tyska ordens högmästare$", re.I), "Tyska ordens högmästare"),
+    (re.compile(r"^(?:tyska\s+)?ordens\s?högmästare(?:n)?$|^tyska ordenshögmästaren?$|^högmästaren$", re.I),
+     "Tyska ordens högmästare"),
+    (re.compile(r"^(?:livländska\s+ordensmästaren?|ordensmästaren?\s+(?:i|av)\s+livland)$", re.I), "Livländska ordensmästaren"),
 ]
 
 OFULLSTANDIG = re.compile(
@@ -1441,9 +1443,37 @@ class IdRegister:
             ut[id(f)] = bas if raknare[bas] == 1 else f"{bas}#{raknare[bas]}"
         return ut
 
+    def _ny_form(self, nyckel: dict[int, str], forekomster: list[Forekomst]) -> None:
+        """
+        En förekomst vars form har ändrats ("Kristofer Mikelstorp" blir "Kristoffer Mikelsthorp
+        (på Viborg)" när regesten tolkas bättre) får sin gamla nyckels id, när den gamla
+        nyckeln inte längre finns och brevet och rollen har just en sådan nyckel och just en
+        ny förekomst med samma förnamn.
+        """
+        nu = set(nyckel.values())
+        # Nyckeln är "roll|brev:form"; det som står före första kolon är roll och brev
+        borta: dict[str, list[str]] = defaultdict(list)
+        for k in self.tidigare:
+            if k not in nu:
+                borta[k.split(":", 1)[0]].append(k)
+        nya: dict[str, list[tuple[Forekomst, str]]] = defaultdict(list)
+        for f in forekomster:
+            k = nyckel[id(f)]
+            if k not in self.tidigare:
+                nya[k.split(":", 1)[0]].append((f, k))
+        for brev, kandidater in nya.items():
+            gamla = borta.get(brev, [])
+            if len(gamla) != 1:
+                continue
+            gammal_namn = ordform(gamla[0].split(":", 1)[1])
+            samma = [k for f, k in kandidater if f.u.fornamn and gammal_namn.startswith(ordform(f.u.fornamn)[:3])]
+            if len(samma) == 1:
+                self.tidigare[samma[0]] = self.tidigare[gamla[0]]
+
     def tilldela(self, forekomster: list[Forekomst], namn: dict[str, str]) -> None:
         """Byter de föreslagna id:na (person:sdhk:..., person:df:...) mot registrets."""
         nyckel = self.nycklar(forekomster)
+        self._ny_form(nyckel, forekomster)
         grupper: dict[str, list[Forekomst]] = defaultdict(list)
         for f in forekomster:
             if f.entitet and f.entitet.startswith(BREVPERSON):
@@ -1502,14 +1532,19 @@ class IdRegister:
             self.ersatta[gammalt] = (nytt, gnamn)
 
     def spara(self) -> None:
-        with open(self.fil, "w", encoding="utf-8") as ut:
+        # Skrivs till en tillfällig fil som sedan ersätter registret, så att ett fel aldrig lämnar det halvskrivet
+        tmp = self.fil.with_suffix(".tmp")
+        with open(tmp, "w", encoding="utf-8") as ut:
             ut.write("# Brevutfärdarnas id-register (SDHK och DF); skrivs av pastaenden_sdhk.py. "
                      "F nyckel id: förekomstens id. E gammalt nytt namn: ersatt id.\n")
-            for k in sorted(self.nu):
-                ut.write(f"F\t{k}\t{self.nu[k]}\n")
+            # En nyckel som inte längre förekommer står kvar, så att dess id aldrig delas ut
+            # på nytt och kan tas upp igen om förekomsten kommer tillbaka
+            for k in sorted(set(self.nu) | set(self.tidigare)):
+                ut.write(f"F\t{k}\t{self.nu[k] if k in self.nu else self.tidigare[k]}\n")
             for gammalt in sorted(self.ersatta):
                 nytt, namn = self.ersatta[gammalt]
                 ut.write(f"E\t{gammalt}\t{nytt}\t{namn}\n")
+        tmp.replace(self.fil)
 
 
 # -----------------------------------------------------------------------------
@@ -1598,6 +1633,14 @@ def bygg(conn) -> dict:
     cur = conn.cursor()
     cur.execute(f"SELECT id FROM {db._prefix()}verk WHERE kallsamling_id IN ('sdhk', 'df')")
     alla_brev = {rad[0] for rad in cur.fetchall()}
+    # DF-brev som är samma brev som ett SDHK-brev läses ur SDHK; en hänvisning till DF-numret
+    # ("se FMU 1823") gäller då SDHK-brevet
+    tvillingar = {}
+    cur.execute(f"SELECT id, extra FROM {db._prefix()}verk WHERE kallsamling_id = 'df'")
+    for verk, extra in cur.fetchall():
+        extra = extra if isinstance(extra, dict) else json.loads(extra or "{}")
+        if len(extra.get("sdhk") or []) == 1:
+            tvillingar[verk] = f"sdhk:{extra['sdhk'][0]}"
     regenter = Regenter()
     stat = Counter()
     otolkade, ofullst = [], []
@@ -1728,7 +1771,7 @@ def bygg(conn) -> dict:
     stat["ersatta_id"] = len(register.ersatta)
     return {"forekomster": forekomster, "institutioner": institutioner, "regenter": regenter,
             "register": register, "garningar": garningar, "brevformer": brevformer, "regesttext": regesttexter,
-            "alla_brev": alla_brev, "personlista": personlista,
+            "alla_brev": alla_brev, "tvillingar": tvillingar, "personlista": personlista,
             "mojliga_samma": [(a["forekomster"][0].entitet, b["forekomster"][0].entitet) for a, b in mojliga],
             "datering": datering, "stat": stat, "otolkade": otolkade, "ofullstandiga": ofullst}
 
@@ -1795,6 +1838,24 @@ def _dag(n: int | None) -> date | None:
         return None
 
 
+def _granser(fran: int | None, till: int | None) -> tuple[date, date] | None:
+    """Dateringens första och sista möjliga dag; åååå0000 är hela året och åååamm00 hela månaden."""
+    if not fran or not till:
+        return None
+    try:
+        start = date(fran // 10000, fran // 100 % 100 or 1, fran % 100 or 1)
+        manad = till // 100 % 100 or 12
+        slutdag = till % 100 or (date(till // 10000 + (manad == 12), manad % 12 + 1, 1) - date.resolution).day
+        return start, date(till // 10000, manad, slutdag)
+    except ValueError:
+        return None
+
+
+# Längsta datering som räknas som ett datum på månaden, och som ett ungefärligt datum
+MANAD_DAGAR = 31
+AR_DAGAR = 366
+
+
 def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str, str]]:
     """
     Det brev som ett svar besvarar: brev -> (besvarat brev, grad, motivering).
@@ -1804,9 +1865,11 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
     svarets adressat och dess adressat eller mottagare är svarets utfärdare. Saknar ett
     av breven den andra parten räcker att förnamnet stämmer. Anger regesten datumet
     ("dennes brev av 28 maj") ska det besvarade brevet ha det datumet, och kopplingen
-    är sannolik. Utan datum prövas brev från det senaste året; ett enda brev där båda
-    parterna stämmer ger en möjlig koppling. Hittas inget brev, eller flera, kopplas
-    svaret inte.
+    är sannolik. Har inget brev just den dagen räcker ett brev som SDHK eller DF bara
+    daterar till månaden (sannolik) eller året (möjlig), om dateringen rymmer dagen.
+    Utan datum prövas missiv från det senaste året före svaret, också sådana som bara är
+    daterade till månad eller år; ett enda missiv där båda parterna stämmer ger en möjlig
+    koppling. Hittas inget brev, eller flera, kopplas svaret inte.
     """
     datering = resultat["datering"]
     fornamn: dict[tuple[str, str], set[str]] = defaultdict(set)
@@ -1815,11 +1878,14 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
             fornamn[(f.verk, f.roll)].add(ordform(f.u.fornamn))
     per_dag: dict[int, list[str]] = defaultdict(list)
     per_utfardare: dict[str, list[str]] = defaultdict(list)
+    per_mottagare: dict[str, list[str]] = defaultdict(list)
     for verk, (_, fran, till) in datering.items():
         if fran and fran == till:
             per_dag[fran].append(verk)
         for e in per_brev[verk]["utfardare"]:
             per_utfardare[e].append(verk)
+        for e in per_brev[verk]["adressat"] + per_brev[verk]["mottagare"]:
+            per_mottagare[e].append(verk)
 
     def parter(c: str, r: str) -> tuple[bool, bool, bool]:
         c_utf, r_utf = set(per_brev[c]["utfardare"]), set(per_brev[r]["utfardare"])
@@ -1838,19 +1904,28 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
     def passar_daterat(c: str, r: str) -> bool:
         a, b, f = parter(c, r)
         c_till = per_brev[c]["adressat"] or per_brev[c]["mottagare"]
-        return (a and (b or not c_till)) or (b and (a or f or not per_brev[r]["adressat"]))
+        # Ett brev utan mottagare räcker bara om det är ett missiv, inte en gärning som en förläning
+        missiv = c in resultat["brevformer"]
+        return (a and (b or (not c_till and missiv))) or (b and (a or f or not per_brev[r]["adressat"]))
 
     ut = {}
     for r, bf in resultat["brevformer"].items():
         if not bf.svar or not per_brev[r]["utfardare"]:
             continue
         _, fran, till = datering[r]
-        if bf.nummer:
-            kalla, nr = bf.nummer
-            c = f"sdhk:{nr}" if kalla == "sdhk" else f"{r.split(':')[0]}:{nr}"
-            if c != r and c in resultat["alla_brev"]:
-                ut[r] = (c, "saker", f"Regesten hänvisar själv till det besvarade brevet ({c}).")
-                continue
+        # Utgivarens nummer räknas bara när brevet är från svarets adressat eller till dess
+        # utfärdare: regesten kan också hänvisa till ett annat brev ("hans tidigare villkor,
+        # SDHK nr 32644")
+        numrerade = []
+        for kalla, nr in bf.nummer:
+            c = f"{r.split(':')[0]}:{nr}" if kalla == "egen" else f"{kalla}:{nr}"
+            c = resultat["tvillingar"].get(c, c)
+            if c != r and c in resultat["alla_brev"] and c in datering and (parter(c, r)[0] or parter(c, r)[1]):
+                numrerade.append(c)
+        if len(set(numrerade)) == 1:
+            ut[r] = (numrerade[0], "saker", f"Regesten hänvisar själv till det besvarade brevet ({numrerade[0]}), "
+                                            f"och dess parter stämmer.")
+            continue
         if not fran:
             continue
         if bf.datum:
@@ -1863,16 +1938,41 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
                 ut[r] = (traffar[0], "sannolik",
                          f"Regesten hänvisar till brevet av {dag}/{manad} {ar}; det brevet har det datumet, "
                          f"och dess utfärdare och adressat är svarets parter i omvänd ordning.")
+                continue
+            if traffar:
+                continue
+            # Inget brev just den dagen: ett brev daterat till månaden eller året som rymmer dagen
+            try:
+                malet = date(ar, manad, dag)
+            except ValueError:
+                continue
+            ungefar = []
+            for c in {c for e in per_brev[r]["adressat"] for c in per_utfardare.get(e, [])} | \
+                     {c for e in per_brev[r]["utfardare"] for c in per_mottagare.get(e, [])}:
+                g = _granser(*datering[c][1:])
+                langd = (g[1] - g[0]).days if g else None
+                # Ett brev som bara är daterat till året ska vara från svarets adressat
+                if c != r and g and g[0] != g[1] and g[0] <= malet <= g[1] and langd < AR_DAGAR and \
+                        passar_daterat(c, r) and (langd <= MANAD_DAGAR or parter(c, r)[0]):
+                    ungefar.append((c, (g[1] - g[0]).days))
+            if len(ungefar) == 1:
+                c, langd = ungefar[0]
+                grad = "sannolik" if langd <= MANAD_DAGAR else "mojlig"
+                ut[r] = (c, grad, f"Regesten hänvisar till brevet av {dag}/{manad} {ar}. {c} är bara daterat till "
+                                  f"{'månaden' if grad == 'sannolik' else 'året'}, som rymmer dagen, och dess "
+                                  f"utfärdare och adressat är svarets parter i omvänd ordning.")
             continue
-        slut = _dag(till) or _dag(fran)
-        if not slut:
+        r_granser = _granser(fran, till)
+        if not r_granser:
             continue
+        slut = r_granser[1]
         kandidater = {c for e in per_brev[r]["adressat"] for c in per_utfardare.get(e, [])}
         traffar = []
         for c in kandidater:
-            _, c_fran, c_till = datering[c]
-            c_dag = _dag(c_fran) if c_fran == c_till else None
-            if c == r or not c_dag or not (0 <= (slut - c_dag).days <= SVAR_UTAN_DATUM_DAGAR):
+            g = _granser(*datering[c][1:])
+            # Kandidaten ska säkert vara skriven före svaret, och högst ett år före
+            if c == r or not g or (g[1] - g[0]).days >= AR_DAGAR or g[1] > r_granser[0] or \
+                    (r_granser[0] - g[1]).days > SVAR_UTAN_DATUM_DAGAR:
                 continue
             if passar_odaterat(c, r):
                 traffar.append(c)
@@ -2088,8 +2188,8 @@ def ladda_pastaenden(resultat: dict) -> None:
                           "Titel eller ämbete; termer och definition saknas ännu i begreppsregistret")
                          for etikett, bid in AMBETEN.values() if bid not in finns]
 
-        # Klustringen kan ändras mellan körningar, så tidigare påståenden och
-        # entiteter ur breven tas bort i stället för att uppdateras
+        # Klustringen kan ändras mellan körningar, så tidigare påståenden tas bort i stället
+        # för att uppdateras
         with conn:
             cur = conn.cursor()
             cur.execute(f"DELETE FROM {p}identifiering WHERE id LIKE 'identifiering:sdhk:%'")
@@ -2108,25 +2208,9 @@ def ladda_pastaenden(resultat: dict) -> None:
                   ["id", "pastaende_id", "identifiering_id", "aspekt", "varde", "motivering", "bedomare",
                    "registrerad_av"], ["id"],
                   [(*rad, EXTRAHERAD_AV, EXTRAHERAD_AV) for rad in r["bedomning"]])
-        # Personer och institutioner som inte längre används tas bort först när de nya
-        # påståendena finns, så att en entitet som de återanvänder står kvar. Platser tas
-        # aldrig bort här: platser.py flyttar påståendena till den ort som avses (Viborg i
-        # Jylland eller i Karelen) och rensar själv, så en plats som inte används efter
-        # den här körningen kan användas igen efter platser.py.
-        with conn:
-            cur = conn.cursor()
-            for prefix in ("person:sdhk:%", "person:df:%", "institution:sdhk:%"):
-                # Entiteter som andra källor refererar till raderas aldrig
-                cur.execute(f"DELETE FROM {p}entitet WHERE id LIKE {ph} AND id NOT IN "
-                            f"(SELECT subjekt_id FROM {p}pastaende UNION SELECT objekt_id FROM {p}pastaende "
-                            f"WHERE objekt_id IS NOT NULL UNION SELECT plats_id FROM {p}pastaende "
-                            f"WHERE plats_id IS NOT NULL UNION SELECT entitet_id FROM {p}identifiering "
-                            f"UNION SELECT identifierad_med FROM {p}identifiering "
-                            f"UNION SELECT plats_id FROM {p}verk_plats "
-                            f"UNION SELECT entitet_id FROM {p}plats_uppgift "
-                            f"UNION SELECT ingar_i_id FROM {p}plats_uppgift WHERE ingar_i_id IS NOT NULL "
-                            f"UNION SELECT plats_id FROM {p}sokpost_plats "
-                            f"UNION SELECT sate_id FROM {p}auktoritet_titel WHERE sate_id IS NOT NULL)", (prefix,))
+        # Inga entiteter tas bort: ett id som en gång delats ut ska alltid gå att slå upp. En
+        # person som inte längre har några förekomster står kvar, och id-registret behåller
+        # dess nyckel; en person som slagits ihop med en annan hänvisar dit (ersatt_av).
         log.info("%d entiteter, %d namnformer, %d påståenden, %d identifieringar, %d bedömningar",
                  len(r["entitet"]), len(r["entitet_namnform"]), len(r["pastaende"]),
                  len(r["identifiering"]), len(r["bedomning"]))

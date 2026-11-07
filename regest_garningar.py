@@ -15,7 +15,7 @@ den är redan identifierad ur utfärdarfältet.
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 # Verb -> predikat. 'ger' blir en gåva bara när det följs av egendom (se nedan)
 VERB = {
@@ -174,9 +174,15 @@ MISSIV = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:skriver |skrev |hemställer |vän
 BREV_FRAN = re.compile(r"^Brev från (?P<avs>.{2,120}?) till (?P<adr>.{2,160}?)" + _ADRESSAT_SLUT)
 ADRESSVERB_MONSTER = re.compile(r"^(?P<avs>.{2,140}?)\s+" + ADRESSVERB + r"\s+(?P<adr>(?!att\b|om\b|sig\b|därom\b|på\b|ett\b|det\b|"
                                 r"brev\w*\b|skrivelse\w*\b).{2,160}?)" + _ADRESSAT_SLUT.replace("(?=,? (?:", "(?=,? (?:för|på|", 1))
+# "svarar på rådets i Danzig brev", "besvarar Vincens Lunges skrivelse": adressaten i genitiv
+SVAR_GENITIV = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:be)?svarar(?: på)? (?!(?:ett|en|det|de|dess|hans|hennes|deras)\b)"
+                          r"(?P<adr>[A-ZÅÄÖa-zåäö](?:(?! (?:på|med|om|att|av|för|och|angående|beträffande|som) )[^,;.])*?)s(?P<par> \([^)]*\))?(?P<i> i [A-ZÅÄÖ][\wåäö-]+)? "
+                          r"(?:senaste |sista |två |tre )?(?:brev|skrivelse|förfrågan|begäran|anmodan|uppmaning|"
+                          r"klagomål|förslag|anhållan)\b")
 # "besvarar ett brev från Ernst van Dotzem": adressaten är det besvarade brevets avsändare
-SVAR_FRAN = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:besvarar|svarar på) (?:ett |en |det |hans |deras |två |de )?(?:brev|skrivelse)\w* "
-                       r"från (?P<adr>.{2,160}?)" + _ADRESSAT_SLUT)
+SVAR_FRAN = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:besvarar|svarar på) (?:ett |en |det |hans |deras |två |tre |de )?"
+                       r"(?:brev|skrivelse|förfrågan|begäran)\w* (?:i)?från (?P<adr>.{2,160}?)"
+                       r"(?=,?\s+(?:i vilk\w+|vari|vilk\w+|som|där|angående|gällande|om|med|och|att|ang\.|rörande)\b|[.;:]|$)")
 
 _POSSESSIV = r"(?:dennes|dess|hans|hennes|deras|adressatens|rådets|ert|edert|eder|deras senaste|hans senaste)"
 SVAR = re.compile(r"\b(?:svarar|besvarar)\b(?! för\b)|\bsvar (?:på|till) " + _POSSESSIV + r"|\bmottagit " + _POSSESSIV +
@@ -184,6 +190,9 @@ SVAR = re.compile(r"\b(?:svarar|besvarar)\b(?! för\b)|\bsvar (?:på|till) " + _
 NEKAT = re.compile(r"\b(?:inte|ej|icke|utan|aldrig|ännu ej|ännu inte)\s+(?:\w+\s+){0,3}$")
 HANVISNING = re.compile(r"(?:" + _POSSESSIV + r"\s+)?\(?(?:i\s+)?(?:brev|skrivelse)\w*\s+(?:av|daterat?|dat\.)\s+"
                         r"(?:den\s+)?(\d{1,2})\s+" + _MANAD + r"(?:\s+(\d{4}))?(\s+samma år|\s+i år)?")
+# "brev, daterat 24/9 (1429)", "skrivelse (25/1 1528 …)": dag och månad med snedstreck
+HANVISNING_SNED = re.compile(r"(?:brev|skrivelse)\w*,?\s+\(?(?:av\s+|daterat?\s+|dat\.\s+)?(?:den\s+)?"
+                             r"(\d{1,2})/(\d{1,2})(?:\s+\(?(1[1-5]\d\d)\)?)?")
 # SDHK skriver ibland datumet som åååammdd: "hans brev 12990404"
 HANVISNING_TAL = re.compile(r"(?:" + _POSSESSIV + r"\s+)?(?:brev|skrivelse)\w*\s+(?:av\s+|daterat?\s+)?(1[1-5]\d\d)(\d\d)(\d\d)\b")
 
@@ -194,12 +203,15 @@ class Brevform:
     svar: bool                       # regesten säger att brevet svarar på ett tidigare
     hanvisning: str | None           # "dennes skrivelse av 28 maj"
     datum: tuple[int, int, int | None] | None   # det besvarade brevets dag, månad och år
-    nummer: tuple[str, int] | None = None   # utgivarens hänvisning: ('sdhk', 23220) eller ('egen', 5257)
+    # Utgivarens hänvisningar till andra brev: ('sdhk', 23220), ('df', 1823) eller ('egen', 5257).
+    # Det kan vara det besvarade brevet men också ett annat brev som regesten nämner.
+    nummer: list[tuple[str, int]] = field(default_factory=list)
 
 
-# Utgivarens hänvisning till det besvarade brevet: "(SDHK nr 23220)", i DF "(n:o 5257)"
+# Utgivarens hänvisning till ett brev: "(SDHK nr 23220)", "(se FMU 1823)" (= DF 1823), i DF "(n:o 1,574)"
 NUMMER_SDHK = re.compile(r"\bSDHK nr\.?\s*(\d+)")
-NUMMER_EGEN = re.compile(r"\bn:o\s*(\d+)")
+NUMMER_FMU = re.compile(r"\bFMU\s+(?:nr\.?\s*)?(\d+)")
+NUMMER_EGEN = re.compile(r"\bn:o\s*(\d{1,2}[ ,.]\d{3}|\d+)")
 
 
 def _manad(s: str) -> int:
@@ -211,11 +223,16 @@ def tolka_brevform(regest: str) -> Brevform | None:
     """Adressaten i ett missiv och om brevet svarar på ett tidigare brev; None om regesten inte säger något om det."""
     mening = forsta_meningen(regest)
     adressat = None
-    for monster in (BREV_FRAN, SVAR_FRAN, MISSIV, ADRESSVERB_MONSTER):
+    for monster in (BREV_FRAN, SVAR_FRAN, SVAR_GENITIV, MISSIV, ADRESSVERB_MONSTER):
         m = monster.match(mening)
         if not m:
             continue
         avs, adr = m.group("avs"), re.sub(r"\s+", " ", m.group("adr")).strip(" ,")
+        # Utgivarens hänvisning efter namnet hör inte till adressaten: "(se DS nr 9279 ovan)"
+        adr = re.sub(r"\s*\((?:se|jfr|jämför|DS|SDHK|FMU|HR|nr|n:o)\b[^)]*\)\s*$", "", adr)
+        if monster is SVAR_GENITIV:
+            # "rådets i Danzig" → "rådet i Danzig", "Vincens Lunges" → "Vincens Lunge"
+            adr = adr + (m.group("par") or "") + (m.group("i") or "")
         if INTE_AVSANDARE.search(avs) or VERBMONSTER.search(avs):
             continue
         # En adressat som själv innehåller ett verb är en gärning ("till Venngarn bekräftar ...")
@@ -234,14 +251,17 @@ def tolka_brevform(regest: str) -> Brevform | None:
     if svar and (h := HANVISNING.search(borjan)):
         hanvisning = h.group(0).strip(" (")
         datum = (int(h.group(1)), _manad(h.group(2)), int(h.group(3)) if h.group(3) else None)
+    elif svar and (h := HANVISNING_SNED.search(borjan)) and 1 <= int(h.group(2)) <= 12 and 1 <= int(h.group(1)) <= 31:
+        hanvisning = h.group(0).strip(" (,")
+        datum = (int(h.group(1)), int(h.group(2)), int(h.group(3)) if h.group(3) else None)
     elif svar and (h := HANVISNING_TAL.search(borjan)) and 1 <= int(h.group(2)) <= 12 and 1 <= int(h.group(3)) <= 31:
         hanvisning = h.group(0)
         datum = (int(h.group(3)), int(h.group(2)), int(h.group(1)))
-    nummer = None
-    if svar and (n := NUMMER_SDHK.search(borjan)):
-        nummer = ("sdhk", int(n.group(1)))
-    elif svar and (n := NUMMER_EGEN.search(borjan)):
-        nummer = ("egen", int(n.group(1)))
+    nummer = []
+    if svar:
+        nummer = [("sdhk", int(n)) for n in NUMMER_SDHK.findall(borjan)] + \
+                 [("df", int(n)) for n in NUMMER_FMU.findall(borjan)] + \
+                 [("egen", int(re.sub(r"\D", "", n))) for n in NUMMER_EGEN.findall(borjan)]
     if not adressat and not svar:
         return None
     return Brevform(adressat or None, svar, hanvisning, datum, nummer)

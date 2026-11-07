@@ -5260,8 +5260,10 @@ F	14489:konrad von jungingen	person:sdhk:konrad_von_jungingen:14489
 F	14489:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
 F	1448:lars	person:sdhk:lars:1448
 F	14490:botolf åkeson	person:sdhk:botolf_akeson:14490
+F	14491:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	14492:kristina petersdoter	person:sdhk:kristina_petersdoter:14492
 F	14493:rådet i reval	institution:sdhk:radet_i_reval
+F	14495:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	14496:kristin i vigeby	person:sdhk:kristin:14496
 F	14497:folke i mulatorp	person:sdhk:folke:14227
 F	14499:bengt santeson	person:sdhk:bengt_santeson:14499
@@ -12643,6 +12645,7 @@ F	20681:johanes van der borg	person:sdhk:johanes_van_der_borg:20681
 F	20682:nils tykeson	person:sdhk:nils_tykeson:20682
 F	20683:katarina ulfsdoter	person:sdhk:katarina_ulfsdoter:20683
 F	20685:cise von rutenberg	person:sdhk:cise_von_rutenberg:20685
+F	20685:ordensmästare i livland	institution:sdhk:livlandska_ordensmastaren
 F	20686:ridaren krister nilson	person:sdhk:krister_nilson:20243
 F	20687:ragvald puke	person:sdhk:ragvald_puke:20687
 F	20688:hustru cecilia stafansdoter	person:sdhk:cecilia_stafansdoter:20688
@@ -13249,8 +13252,8 @@ F	21174:jon i udrane	person:sdhk:jon:19876
 F	21175:biskop kristian på ösel	person:sdhk:kristian:21175
 F	21175:nafne i odense	person:sdhk:nafne:21175
 F	21175:ärkebiskop peter i lund	person:peder_lykke_lund
-F	21176:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
-F	21177:ordensmästaren av livland	person:sdhk:ordensmastaren:21176
+F	21176:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
+F	21177:ordensmästaren av livland	institution:sdhk:livlandska_ordensmastaren
 F	21178:peter djäken	person:sdhk:peter_djaken:21178
 F	21180:rådet i reval	institution:sdhk:radet_i_reval
 F	21181:hinricus vegener	person:sdhk:hinricus_vegener:21181
@@ -13290,8 +13293,8 @@ F	21206:ulf stafanson	person:sdhk:ulf_stafanson:21206-2
 F	21208:märita knutsdoter	person:sdhk:marita_knutsdoter:21208
 F	21209:fin jönson	person:sdhk:fin_jonson:21209
 F	2120:kung erik av danmark	person:erik_menved
-F	21210:ordensmästare i livland	person:sdhk:ordensmastare:21210
-F	21211:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21210:ordensmästare i livland	institution:sdhk:livlandska_ordensmastaren
+F	21211:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21212:ärkebiskop petrus i lund	person:peder_lykke_lund
 F	21213:anders jonson i gvmerkäl	person:sdhk:anders_jonson:21213
 F	21213:birger i yflingaby	person:sdhk:birger:21213
@@ -13358,7 +13361,7 @@ F	21264:nils matson	person:sdhk:nils_matson:20413
 F	21265:ridaren nils gustavson	person:sdhk:nils_gustavson:19745
 F	21266:nils olofson	person:sdhk:nils_olofson:21266
 F	21267:jepe tueson i claustor	person:sdhk:jepe_tueson:21267
-F	21268:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21268:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21269:hans kröpelin	person:hans_kropelin_1440
 F	2126:johan björnson	person:sdhk:johan_bjornson:2126
 F	21270:nils gustavson	person:sdhk:nils_gustavson:19745
@@ -13530,14 +13533,14 @@ F	21389:rådet i reval	institution:sdhk:radet_i_reval
 F	2138:arnolf eskilson	person:sdhk:arnolf_eskilson:2138
 F	21390:hustru katrin jönsdoter	person:sdhk:katrin_jonsdoter:21390
 F	21390:johan hard (hård) i eneby	person:sdhk:johan_hard_hard:21390
-F	21391:ordensmästaren av livland	person:sdhk:ordensmastaren:21176
+F	21391:ordensmästaren av livland	institution:sdhk:livlandska_ordensmastaren
 F	21392:kaspar anderson	person:sdhk:kaspar_anderson:21392
 F	21393:hustru katarina linvidsdoter	person:sdhk:katarina_linvidsdoter:21393
 F	21393:jöns peterson	person:sdhk:jons_peterson:21393
 F	21394:anders nilson	person:sdhk:anders_nilson:21394
 F	21395:hans jonson	person:sdhk:hans_jonson:21395
 F	21396:rådet i reval	institution:sdhk:radet_i_reval
-F	21398:ordensmästaren av livland	person:sdhk:ordensmastaren:21176
+F	21398:ordensmästaren av livland	institution:sdhk:livlandska_ordensmastaren
 F	21399:ridaren oto pogvisch	person:sdhk:oto_pogvisch:20808
 F	2139:ingemund	person:sdhk:ingemund:2139
 F	213:kung knut	person:knut_eriksson
@@ -13599,7 +13602,7 @@ F	21439:ulf haraldson	person:sdhk:ulf_haraldson:21439
 F	2143:biskop olof i roskilde	person:sdhk:olof:2142
 F	21441:märta bengtsdoter	person:sdhk:marta_bengtsdoter:21441
 F	21442:erengisle jakobson	person:sdhk:erengisle_jakobson:21442
-F	21444:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21444:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21445:gustav torstenson	person:sdhk:gustav_torstenson:21445
 F	21446:halsten i sandebo i vårdnäs socken	person:sdhk:halsten:21446
 F	21446:sige i sonebo i tjärstads socken	person:sdhk:sige:21446
@@ -13635,7 +13638,7 @@ F	21475:peter lindvidson	person:sdhk:peter_lindvidson:21475
 F	21476:ingegerd gunesdoter	person:sdhk:ingegerd_gunesdoter:21476
 F	21477:peter djäken	person:sdhk:peter_djaken:21477
 F	21478:erik (peterson) puke	person:sdhk:erik_peterson_puke:21478
-F	21479:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21479:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	2147:folke jonson	person:sdhk:folke_jonson:2147
 F	21480:jacobus petri	person:sdhk:jacobus_petri:21480
 F	21481:björn djäken	person:sdhk:bjorn_djaken:19941
@@ -13650,7 +13653,7 @@ F	21489:katarina	person:sdhk:katarina:21489
 F	21490:erik filipson	person:sdhk:erik_filipson:21490
 F	21491:ridaren krister nilson	person:sdhk:krister_nilson:20243
 F	21492:angun esbjörna	person:sdhk:angun_esbjorna:21492
-F	21493:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21493:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21494:niklis tykason	person:sdhk:niklis_tykason:21494
 F	21495:bengt i falnovika	person:sdhk:bengt:21495
 F	21496:ranvolt anderson	person:sdhk:ranvolt_anderson:21496
@@ -13673,7 +13676,7 @@ F	21512:märta grönolfsdoter	person:sdhk:marta_gronolfsdoter:21512
 F	21512:nils germundson	person:sdhk:nils_germundson:21512
 F	21513:märta gunolfsdoter	person:sdhk:marta_gunolfsdoter:21513
 F	21513:väpnaren nise germundson	person:sdhk:nise_germundson:21513
-F	21514:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21514:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21515:mårten åkeson	person:sdhk:marten_akeson:21515
 F	21516:lars nilson	person:sdhk:lars_nilson:21516
 F	21517:kardinal a. novariensis	person:sdhk:novariensis:21517
@@ -13726,7 +13729,7 @@ F	21562:håkan larson	person:sdhk:hakan_larson:17931
 F	21563:laurentius göstaui (lars gustavson)	person:sdhk:laurentius_gostaui_lars_gustavson:21563
 F	21564:hans klunder	person:sdhk:hans_klunder:21564
 F	21565:hustru elin	person:sdhk:elin:21565
-F	21566:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21566:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21567:generalkonfesorn gervinus i vadstena	person:sdhk:gervinus:21327
 F	21568:erik birgerson	person:sdhk:erik_birgerson:21568
 F	21569:klaus krumknije	person:sdhk:klaus_krumknije:21569
@@ -13760,6 +13763,7 @@ F	21592:ärkedjäknen jens paulson	person:sdhk:jens_paulson:21592
 F	21593:ridaren jon hiärne	person:sdhk:jon_hiarne:21593
 F	21594:gunar amundsöner	person:sdhk:gunar_amundsoner:21594
 F	21594:olaf	person:sdhk:olaf:21594
+F	21595:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	21596:kristina larsdoter i betna	person:sdhk:kristina_larsdoter:21596
 F	21597:rådet i reval	institution:sdhk:radet_i_reval
 F	21598:biskop jens lodehat i roskilde	person:sdhk:jens_lodehat:21598
@@ -13795,6 +13799,7 @@ F	21625:karl ormson	person:sdhk:karl_ormson:21625
 F	21625:olof haraldson	person:sdhk:olof_haraldson:21625
 F	21626:her krister nilson	person:sdhk:krister_nilson:21626
 F	21627:johanes	person:sdhk:johanes:21627
+F	21629:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	2162:erik	person:erik_magnusson_hertig
 F	2162:valdemar	person:valdemar_magnusson_hertig
 F	21630:erik nipertz	person:sdhk:erik_nipertz:21630
@@ -13911,7 +13916,7 @@ F	2170:valdemar från sjuntorp	person:sdhk:valdemar:2170
 F	21710:her krister nilson	person:sdhk:krister_nilson:21710
 F	21711:tord erikson	person:sdhk:tord_erikson:21711
 F	21712:mårten ulf	person:sdhk:marten_ulf:21712
-F	21713:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	21713:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	21714:hartvik dyker	person:sdhk:hartvik_dyker:21714
 F	21715:magnus gudstormson	person:sdhk:magnus_gudstormson:21715
 F	21716:petrus tidekini	person:sdhk:petrus_tidekini:21716
@@ -15265,6 +15270,7 @@ F	22742:kung erik (av pomern)	person:erik_av_pommern
 F	22743:katarina larsdoter	person:sdhk:katarina_larsdoter:22743
 F	22744:johan kätilmundson i grävsta	person:sdhk:johan_katilmundson:22744
 F	22745:gotskalk van der hoven	person:sdhk:gotskalk_van_der_hoven:22745
+F	22747:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	2274:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
 F	22750:markvard link	person:sdhk:markvard_link:22750
 F	22751:biskop sven i skara	person:sven_grotte_skara
@@ -15319,7 +15325,7 @@ F	22794:nils faderson	person:sdhk:nils_faderson:22794
 F	22794:sven	person:sdhk:sven:22794
 F	22795:väpnaren heming fos	person:sdhk:heming_fos:22795
 F	22796:lars bengtson	person:sdhk:lars_bengtson:22794
-F	22797:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	22797:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	22798:johan håkanson	person:sdhk:johan_hakanson:22798
 F	2279:jakob från asker	person:sdhk:jakob:2279
 F	227:kung valdemar av danmark	person:valdemar_1
@@ -15347,6 +15353,7 @@ F	22813:marsken karl knutson	person:karl_knutsson
 F	22814:her jöns grim av tostarp	person:sdhk:jons_grim:22814
 F	22815:karl kristerson	person:sdhk:karl_kristerson:22815
 F	22816:staden danzig	institution:sdhk:radet_i_danzig
+F	22817:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	22819:biskop bengt i linköping	person:bengt_larsson_linkoping
 F	2281:erik	person:erik_magnusson_hertig
 F	2281:valdemar	person:valdemar_magnusson_hertig
@@ -18970,7 +18977,7 @@ F	2564:anund botildason	person:sdhk:anund_botildason:2564
 F	25650:vadstena kloster	institution:sdhk:vadstena_kloster
 F	25651:vadstena kloster	institution:sdhk:vadstena_kloster
 F	25652:vadstena kloster	institution:sdhk:vadstena_kloster
-F	25653:åke jönson (svarte skåning)	person:sdhk:ake_jonson_svarte_skaning:25653
+F	25653:åke jönson (svarte skåning)	person:sdhk:ake_jonson_svarte_skaning:28450
 F	25654:jens jensen i sibarp	person:sdhk:jens_jensen:25654
 F	25654:jens magnuson i nartot	person:sdhk:jens_magnuson:25654
 F	25654:toste jensen i syndertot	person:sdhk:toste_jensen:25654
@@ -39646,7 +39653,7 @@ F	43124:her erik axelson	person:erik_axelsson_tott
 F	43125:joen larson	person:sdhk:joen_larson:43125
 F	43126:hartvik japson	person:sdhk:hartvik_japson:43126
 F	43127:rådet i dorpat	institution:sdhk:radet_i_dorpat
-F	43128:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	43128:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	43129:anders hvijte	person:sdhk:anders_hvijte:43129
 F	4312:ärkebiskop peter i upsala	person:peter_filipsson_uppsala
 F	43131:hartvik japson	person:sdhk:hartvik_japson:43131
@@ -40316,7 +40323,7 @@ F	43899:hans van eken	person:df:hans_van_eken:5353
 F	4389:kaniken nils i västerås	person:sdhk:nils_bunkeflo:4095
 F	438:påven honorius (i)	person:pave_honorius_iii
 F	43900:rådet i narva	institution:sdhk:radet_i_narva
-F	43901:ordensmästaren i livland	person:sdhk:ordensmastaren:21176
+F	43901:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	43902:riksföreståndaren sten sture	person:sten_sture_d_a
 F	43904:riksföreståndaren sten sture	person:sten_sture_d_a
 F	43905:karin ingelsdoter	person:sdhk:karin_ingelsdoter:43905
@@ -40652,6 +40659,7 @@ F	44201:gertrud van bucken	person:sdhk:gertrud_van_bucken:44201
 F	44201:hans van asken	person:sdhk:hans_van_asken:44201
 F	44201:rådman olof alfson	person:sdhk:olof_alfson:44201
 F	44202:berndt van der borck	person:sdhk:berndt_van_der_borck:44202
+F	44202:ordensmästare i livland	institution:sdhk:livlandska_ordensmastaren
 F	44203:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	44204:erik axelson	person:erik_axelsson_tott
 F	44205:erik axelson	person:erik_axelsson_tott
@@ -40970,7 +40978,7 @@ F	44513:påven bonifatius ix	person:pave_bonifatius_ix
 F	44514:påven bonifatius ix	person:pave_bonifatius_ix
 F	44515:påven bonifatius ix	person:pave_bonifatius_ix
 F	44516:reces från de preusiska städernas dag i maraienburg	person:sdhk:reces:44516
-F	44519:ordensmästaren i livland	person:sdhk:ordensmastaren:9378
+F	44519:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	44520:olof svenson	person:sdhk:olof_svenson:44520
 F	44521:påven bonifatius ix	person:pave_bonifatius_ix
 F	44522:borgmästare och råd i kalmar	institution:sdhk:radet_i_kalmar
@@ -47364,7 +47372,7 @@ F	9374:påven urban v	person:pave_urban_v
 F	9375:arvid ketilson	person:sdhk:arvid_ketilson:9375
 F	9376:lars danson	person:sdhk:lars_danson:9376
 F	9377:sven jonson	person:sdhk:sven_jonson:9377
-F	9378:ordensmästaren i livland (vilhelm von vrimersheim)	person:sdhk:ordensmastaren:9378
+F	9378:ordensmästaren i livland (vilhelm von vrimersheim)	person:sdhk:ordensmastaren:9378-2
 F	9379:torsten enarson	person:sdhk:torsten_enarson:9379
 F	937:katarina tjälvesdoter	person:sdhk:katarina_tjalvesdoter:937
 F	9380:kapitlet i linköping	institution:sdhk:domkapitlet_i_linkoping
@@ -47995,10 +48003,11 @@ F	9999:ridaren lek ofradson	person:sdhk:lek_ofradson:8724
 F	999:rörik matson från ask	person:sdhk:rorik_matson:999
 F	a|10027:tord gunarson	person:sdhk:tord_gunarson:10027
 F	a|10029:linköpingskaniken nils	person:sdhk:linkopingskaniken_nils:10029
+F	a|10073:her gomez (albornoz)	person:sdhk:gomez_albornoz:10073
 F	a|10099:nils johanson	person:sdhk:nils_johanson:10099
 F	a|10109:(sin kusin) bo	person:sdhk:bo:10109
 F	a|10135:matias	person:sdhk:matias:10135
-F	a|10142:ernst van dotzem	person:sdhk:ernst_van_dotzem:9595
+F	a|10142:ernst van dotzem	person:sdhk:ernst_van_dotzem:9595-2
 F	a|10148:håkan	person:sdhk:hakan:10148
 F	a|10163:kung albrekt av sverige	person:albrekt_av_mecklenburg
 F	a|10164:kung håkan av norge	person:hakan_magnusson
@@ -48006,6 +48015,7 @@ F	a|10174:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
 F	a|10175:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
 F	a|10176:prosten lars	person:sdhk:lars:10176
 F	a|10179:kristofer mikelstorp	person:sdhk:kristofer_mikelstorp:10179
+F	a|10179:kristofer mikelstorp (på viborg)	person:sdhk:kristofer_mikelstorp:10179
 F	a|10186:upsala	person:sdhk:upsala:10186
 F	a|10193:fru birgita	person:sdhk:birgita:10193
 F	a|10212:kung valdemar	person:valdemar_atterdag
@@ -48017,6 +48027,7 @@ F	a|10238:rådet i reval	institution:sdhk:radet_i_reval
 F	a|10239:helias de vodronio	person:sdhk:helias_de_vodronio:10239
 F	a|10242:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
 F	a|10246:borgmästare och råd i reval	institution:sdhk:radet_i_reval
+F	a|10257:biskop (johanes)	person:johannes_iii_westfal_abo
 F	a|10258:ärkebiskop bernhard av neapel	person:sdhk:bernhard:40700
 F	a|10259:brand vesler	person:sdhk:brand_vesler:10259
 F	a|10259:eler vesler	person:sdhk:eler_vesler:10259
@@ -48034,6 +48045,7 @@ F	a|10343:albrekt	person:sdhk:albrekt:10890
 F	a|10349:lars ingebjörnson	person:sdhk:lars_ingebjornson:10349
 F	a|10350:helias de vodronio	person:sdhk:helias_de_vodronio:10350
 F	a|10353:helias de vodronio	person:sdhk:helias_de_vodronio:10353
+F	a|10370:hertig albrekt	person:sdhk:hertig_albrekt:10370-a
 F	a|10372:ärkedjäkne nils i linköping	person:sdhk:nils_hermanson:9685
 F	a|10379:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
 F	a|10387:fru birgita	person:sdhk:birgita:10387
@@ -48158,6 +48170,7 @@ F	a|13668:rådet i reval	institution:sdhk:radet_i_reval
 F	a|13694:johanes de dulmen	person:sdhk:johanes_de_dulmen:13694
 F	a|13714:hans van horn på 30 svenska mark	person:sdhk:hans_van_horn:13714
 F	a|1375:magister johanes	person:sdhk:johanes:1375
+F	a|13912:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|13959:magnusa tostason	person:sdhk:magnusa_tostason:13959
 F	a|13980:linköpingskaniken ragvald	person:sdhk:linkopingskaniken_ragvald:13980
 F	a|1404:kung magnus av sverige	person:magnus_ladulas
@@ -48175,6 +48188,7 @@ F	a|14434:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14458:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14464:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14489:drotning margareta	person:margareta_valdemarsdotter
+F	a|14491:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14493:tord	person:sdhk:tord:14493
 F	a|1451:kapitlet i linköping	institution:sdhk:domkapitlet_i_linkoping
 F	a|1456:ärkebiskop johanes i lund	person:sdhk:arkebiskop_johanes:1456-a
@@ -48234,12 +48248,14 @@ F	a|16635:drotning margareta	person:margareta_valdemarsdotter
 F	a|16636:hertig johan av mecklenburg	person:sdhk:hertig_johan:16636-a
 F	a|1666:ärkebiskop nils	person:nils_allesson_uppsala
 F	a|1667:kapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
+F	a|16681:drotning margareta	person:margareta_valdemarsdotter
 F	a|16712:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
 F	a|16723:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
 F	a|16725:drotning margareta	person:margareta_valdemarsdotter
 F	a|1673:ärkebiskop n(ils aleson) i upsala	person:nils_allesson_uppsala
 F	a|16749:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|1674:ärkebiskop nils	person:nils_allesson_uppsala
+F	a|16775:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|1677:ärkebiskop nils	person:nils_allesson_uppsala
 F	a|167:biskop vilhelm i roskilde	person:sdhk:vilhelm:167
 F	a|16849:biskop peter i västerås	person:petrus_ingevasti_vasteras
@@ -48250,6 +48266,7 @@ F	a|16875:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|16899:drotning margareta	person:margareta_valdemarsdotter
 F	a|16901:björn olofson	person:sdhk:bjorn_olofson:16901
 F	a|1690:kapitlet i linköping	institution:sdhk:domkapitlet_i_linkoping
+F	a|1696:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|169:inge	person:sdhk:kung_inge:169-a
 F	a|17029:påven gregorius	person:pave_gregorius_xii
 F	a|17132:fru iliana åkedoter	person:sdhk:iliana_akedoter:17132
@@ -48314,6 +48331,7 @@ F	a|19026:johanes	person:sdhk:johanes:19026
 F	a|19091:rådet i reval	institution:sdhk:radet_i_reval
 F	a|19095:prosten ingo i skäninge	person:sdhk:ingo:19095
 F	a|19110:klas fleming	person:sdhk:klas_fleming:19110
+F	a|19112:kristiern nilson	person:sdhk:kristiern_nilson:19112
 F	a|19118:råd i reval	institution:sdhk:radet_i_reval
 F	a|19128:borgmästare och råd i reval	institution:sdhk:radet_i_reval
 F	a|19139:kung henrik i england	person:henrik_5_england
@@ -48408,6 +48426,7 @@ F	a|20692:her krister niklison	person:sdhk:krister_niklison:20692
 F	a|20775:kung erik av danmark	person:erik_av_pommern
 F	a|20775:kung vladislav av polen	person:ladislaus_2
 F	a|20785:drotning filipa för 20 mark svenska peningar	person:filippa_av_england
+F	a|20800:ordenshögmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|20807:rådet i reval	institution:sdhk:radet_i_reval
 F	a|20814:her krister nilson	person:sdhk:krister_nilson:20814
 F	a|20825:rådet i reval	institution:sdhk:radet_i_reval
@@ -48425,10 +48444,12 @@ F	a|20934:bröderna ulf birgerson	person:sdhk:ulf_birgerson:20934
 F	a|20934:generalkonfesorn erik	person:sdhk:erik:16448
 F	a|20934:johanes hildebrandi	person:sdhk:johanes_hildebrandi:20934
 F	a|20944:heneke bekman	person:sdhk:heneke_bekman:20944
+F	a|20959:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|20959:paul van rusdorf	person:sdhk:paul_van_rusdorf:20959
 F	a|20967:heneke bekman	person:sdhk:heneke_bekman:20967
 F	a|20988:klostret i vadstena	institution:sdhk:vadstena_kloster
 F	a|20994:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21001:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21032:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21039:biskop arnold i strängnäs	person:sdhk:arnold:19754
 F	a|21039:ridaren nils gustavson	person:sdhk:nils_gustavson:19745
@@ -48444,6 +48465,7 @@ F	a|2116:herarna holger	person:sdhk:holger:2116-2
 F	a|2116:holger	person:sdhk:holger:2116
 F	a|2116:karl	person:sdhk:karl:2116
 F	a|2116:lars	person:sdhk:lars:2116
+F	a|21170:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21171:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21176:her krister nilson	person:sdhk:krister_nilson:21176
 F	a|21177:rådet i reval	institution:sdhk:radet_i_reval
@@ -48454,17 +48476,22 @@ F	a|21192:her oto pogvisch	person:sdhk:oto_pogvisch:20808
 F	a|21195:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21200:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21201:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21203:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
+F	a|21204:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21210:her krister nilson	person:sdhk:krister_nilson:21210
 F	a|21211:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21214:hövitsmanen klas lydikeson	person:sdhk:klas_lydikeson:19939
 F	a|21222:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21224:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21226:her oto pogvisch	person:sdhk:oto_pogvisch:20808
 F	a|21228:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21229:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21230:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21231:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21243:biskop magnus av åbo	person:magnus_ii_tavast_abo
+F	a|21245:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21257:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|21258:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21259:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21262:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21268:rådet i reval	institution:sdhk:radet_i_reval
@@ -48483,37 +48510,49 @@ F	a|21366:hans kröpelin	person:hans_kropelin_1440
 F	a|21367:her oto pogvisch	person:sdhk:oto_pogvisch:20808
 F	a|21373:klas lydikeson	person:sdhk:klas_lydikeson:21373
 F	a|21386:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21387:ordensmästaren av livland	institution:sdhk:livlandska_ordensmastaren
+F	a|21389:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21391:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21396:ordensmästaren av livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21398:svenska riksrådet	institution:sdhk:svenska_riksradet
 F	a|21399:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21412:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21414:svenska riksrådet	institution:sdhk:svenska_riksradet
 F	a|21417:her oto pogvisch	person:sdhk:oto_pogvisch:20808
+F	a|21448:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21453:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21456:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21459:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21460:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21462:her oto pogvisch	person:sdhk:oto_pogvisch:20808
-F	a|21479:her krister nilson	person:sdhk:krister_nilson:21176
+F	a|21479:her krister nilson	person:sdhk:krister_nilson:21479-2
 F	a|21481:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21482:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21486:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21488:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21491:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21493:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21501:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21514:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21517:maribo kloster	institution:sdhk:maribo_kloster
 F	a|21517:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|21537:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21553:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21566:rådet i reval	institution:sdhk:radet_i_reval
+F	a|21578:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	a|21580:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21582:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21583:peter i lundby fasta	person:sdhk:peter:21583
+F	a|21595:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21609:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21619:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21620:karl tydekeson	person:sdhk:karl_tydekeson:21620
+F	a|21629:her krister nilson	person:sdhk:krister_nilson:21629
 F	a|21640:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21642:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21646:rådet i reval	institution:sdhk:radet_i_reval
 F	a|21657:rådet i stockholm	institution:sdhk:radet_i_stockholm
+F	a|21662:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|21724:kapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
 F	a|21724:påven eugenius från domprosten olaus laurenti	person:pave_eugenius_iv
 F	a|21732:kung erik	person:erik_av_pommern
@@ -48607,11 +48646,13 @@ F	a|22677:karl knutson	person:karl_knutsson
 F	a|22679:erik puke	person:erik_puke_1437
 F	a|22684:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|22695:rådet i reval	institution:sdhk:radet_i_reval
+F	a|22747:peter ochse	person:sdhk:peter_ochse:22747
 F	a|22753:borgmästare och råd i reval	institution:sdhk:radet_i_reval
 F	a|22758:rådet i reval	institution:sdhk:radet_i_reval
 F	a|22771:rådet i reval	institution:sdhk:radet_i_reval
 F	a|22772:karl kristerson i viborg	person:sdhk:karl_kristerson:22782
 F	a|2278:ärkebiskop nils i upsala	person:nils_kettilsson_uppsala
+F	a|22817:kung erik	person:erik_av_pommern
 F	a|22842:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|22912:bosjö kloster	institution:sdhk:bosjo_kloster
 F	a|22936:marsken karl knutson	person:karl_knutsson
@@ -48660,6 +48701,7 @@ F	a|23796:biskop tomas i strängnäs riktigeten av de utalanden ärkebiskop hans
 F	a|23796:ärkebiskop nils i upsala	person:nils_ragvaldsson_uppsala
 F	a|237:broder peter från danmark	person:sdhk:peter:237
 F	a|23807:rådet i stockholm	institution:sdhk:radet_i_stockholm
+F	a|23892:kung erik	person:erik_av_pommern
 F	a|23913:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|2393:arnaldus	person:sdhk:arnaldus:2393
 F	a|23971:her olof	person:sdhk:olof_vastason:25254
@@ -48734,6 +48776,7 @@ F	a|25498:kapitlet i lund	institution:sdhk:domkapitlet_i_lund
 F	a|25514:kung kristian av danmark	person:kristian_1
 F	a|25518:kung kristian	person:kristian_1
 F	a|25522:kung kristian	person:kristian_1
+F	a|25556:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|25559:benedictus svenonis i rostok	person:sdhk:benedictus_svenonis:25559
 F	a|25567:domkapitlet i lund	institution:sdhk:domkapitlet_i_lund
 F	a|25572:karl knutson	person:karl_knutsson
@@ -48863,6 +48906,7 @@ F	a|28185:äbp tube i lund brev	person:sdhk:tube:28185
 F	a|28201:kapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
 F	a|28211:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|28213:ridaren åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
+F	a|28213:ridaren åke jönson (svarte skåning)	person:sdhk:ake_jonson_svarte_skaning:28450
 F	a|28237:broder petrus	person:sdhk:petrus:28237
 F	a|28258:kaniken conradus	person:sdhk:conradus:28258
 F	a|28278:domkapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
@@ -48885,6 +48929,7 @@ F	a|2869:upsala	person:sdhk:upsala:2869
 F	a|28702:nils sture	person:nils_sture_1494
 F	a|28714:nils sture	person:nils_sture_1494
 F	a|28753:konventet i vadstena	institution:sdhk:vadstena_kloster
+F	a|28767:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|28771:tord bonde	person:tord_bonde_1484
 F	a|28781:kyrkoherden birger i blomskog	person:sdhk:birger:28781
 F	a|28799:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
@@ -48894,6 +48939,8 @@ F	a|28810:sveriges råd	institution:sdhk:svenska_riksradet
 F	a|28817:påven paulus i	person:pave_paulus_ii
 F	a|28818:broder torgils	person:sdhk:torgils:28818
 F	a|28837:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
+F	a|28877:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|28953:kung karl (knutson)	person:karl_knutsson
 F	a|29009:domkapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
 F	a|29015:ärkebiskop jakob ulfson	person:jakob_ulvsson_uppsala
 F	a|29038:rådet i danzig	institution:sdhk:radet_i_danzig
@@ -48934,6 +48981,9 @@ F	a|29452:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29455:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29457:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29460:her ivar axelson	person:sdhk:ivar_axelson:28754
+F	a|29476:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29478:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29484:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|294:aboten rickard	person:sdhk:rickard:294
 F	a|29503:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|2950:arnold koninch	person:sdhk:arnold_koninch:2950
@@ -48963,6 +49013,7 @@ F	a|29935:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29942:borgmästare och råd i norköping	institution:sdhk:radet_i_norkoping
 F	a|30027:tord bonde philipson	person:sdhk:tord_bonde_philipson:30027
 F	a|30028:tord bonde philipson	person:sdhk:tord_bonde_philipson:30028
+F	a|30095:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30124:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30128:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30140:rådet i danzig	institution:sdhk:radet_i_danzig
@@ -49003,6 +49054,7 @@ F	a|30921:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30922:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30996:anders olson	person:sdhk:anders_olson:30996
 F	a|31049:sveriges riksråd	institution:sdhk:svenska_riksradet
+F	a|31077:ridaren åke jönson i åkerö	person:svarte_ake_jonson_svarte_skaning_1500
 F	a|31090:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31091:anders erikson på knut bengtsons vägnar	person:sdhk:anders_erikson:31091
 F	a|31096:filip bischop	person:sdhk:filip_bischop:31096
@@ -49210,6 +49262,7 @@ F	a|33854:domkapitlet i strängnäs	institution:sdhk:domkapitlet_i_strangnas
 F	a|33855:sten sture d.ä	person:sten_sture_d_a
 F	a|33857:jon	person:sdhk:jon:33857
 F	a|33862:stafan	person:sdhk:stafan:33862
+F	a|33863:sten sture d.ä	person:sten_sture_d_a
 F	a|33864:sten sture d.ä	person:sten_sture_d_a
 F	a|33865:kung hans	person:hans
 F	a|33867:sten sture d.ä	person:sten_sture_d_a
@@ -49385,6 +49438,7 @@ F	a|34403:kung hans	person:hans
 F	a|34407:svante nilson	person:svante_nilsson
 F	a|34411:svante nilson	person:svante_nilsson
 F	a|34412:svante nilson	person:svante_nilsson
+F	a|34413:sten sture d.ä	person:sten_sture_d_a
 F	a|34414:svante nilson	person:svante_nilsson
 F	a|34417:svante nilson	person:svante_nilsson
 F	a|34418:svante nilson	person:svante_nilsson
@@ -49501,6 +49555,7 @@ F	a|34750:svante nilson	person:svante_nilsson
 F	a|34752:svante nilson	person:svante_nilsson
 F	a|34753:svante nilson	person:svante_nilsson
 F	a|34763:svenska riksrådet	institution:sdhk:svenska_riksradet
+F	a|34767:nils boson	person:sdhk:nils_boson:34767
 F	a|34769:svante nilson	person:svante_nilsson
 F	a|34770:ärkebiskop jakob	person:jakob_ulvsson_uppsala
 F	a|34777:bengt ryning	person:sdhk:bengt_ryning:34777
@@ -49520,6 +49575,7 @@ F	a|34795:svante nilson	person:svante_nilsson
 F	a|34798:svante nilson	person:svante_nilsson
 F	a|34799:riksföreståndaren svante nilson	person:svante_nilsson
 F	a|34806:svante nilson	person:svante_nilsson
+F	a|34808:svante nilson	person:svante_nilsson
 F	a|34809:svante nilson	person:svante_nilsson
 F	a|34810:svante nilson	person:svante_nilsson
 F	a|34813:svante nilson	person:svante_nilsson
@@ -49573,6 +49629,7 @@ F	a|34917:svante nilson	person:svante_nilsson
 F	a|34918:svante nilson	person:svante_nilsson
 F	a|34920:svante nilson	person:svante_nilsson
 F	a|34921:svante nilson	person:svante_nilsson
+F	a|34924:svante nilson	person:svante_nilsson
 F	a|34929:svante nilson	person:svante_nilsson
 F	a|34930:svante nilson	person:svante_nilsson
 F	a|34931:svante nilson	person:svante_nilsson
@@ -49667,6 +49724,7 @@ F	a|35191:svante nilson	person:svante_nilsson
 F	a|35193:svante nilson	person:svante_nilsson
 F	a|35194:her svante nilson	person:svante_nilsson
 F	a|35195:ridaren nils klason i vik på jord i bälinge socken i upsala biskopsdöme	person:sdhk:nils_klason:31161
+F	a|35196:åke hanson	person:sdhk:ake_hanson:35196
 F	a|35204:svante nilson	person:svante_nilsson
 F	a|35205:heming gad	person:sdhk:heming_gad:34890
 F	a|35218:vadstena kloster	institution:sdhk:vadstena_kloster
@@ -49744,6 +49802,7 @@ F	a|35389:svante nilson	person:svante_nilsson
 F	a|35391:svante nilson	person:svante_nilsson
 F	a|35396:svante nilson	person:svante_nilsson
 F	a|35397:svante nilson	person:svante_nilsson
+F	a|35398:svante nilson	person:svante_nilsson
 F	a|35400:svante nilson	person:svante_nilsson
 F	a|35401:svante nilson	person:svante_nilsson
 F	a|35402:her sten [sten kristiernson]	person:sdhk:sten_sten_kristiernson:35402
@@ -50603,6 +50662,7 @@ F	a|37212:riksföreståndaren sten sture d.y	person:sten_sture_d_y
 F	a|37215:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|37216:generalkonfesorn nils ragvaldson	person:sdhk:nils_ragvaldson:37216
 F	a|37217:sten sture d.y	person:sten_sture_d_y
+F	a|37219:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|37236:sten sture d.y	person:sten_sture_d_y
 F	a|37244:sten sture d.y	person:sten_sture_d_y
 F	a|37247:biskop mats i strängnäs	person:mattias_gregersson_strangnas
@@ -50985,6 +51045,7 @@ F	a|40842:ärkebiskop anders suneson i lund	person:anders_sunesen_lund
 F	a|40863:ärkebiskop ufes i lund fråga	person:sdhk:ufes:40863
 F	a|40885:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|40890:rådet i lubeck	institution:sdhk:radet_i_lubeck
+F	a|40892:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|40896:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|408:upsala	person:sdhk:upsala:408
 F	a|40900:rådet i lubeck	institution:sdhk:radet_i_lubeck
@@ -51062,6 +51123,7 @@ F	a|42565:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|42571:borgmästare och råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|42573:borgmästare och råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|42574:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
+F	a|42575:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|42578:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|42580:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|42581:rådet i reval	institution:sdhk:radet_i_reval
@@ -51422,6 +51484,7 @@ F	a|44345:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|44346:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|44347:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|44348:rådet i lubeck	institution:sdhk:radet_i_lubeck
+F	a|44349:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|44351:rådet i riga	institution:sdhk:radet_i_riga
 F	a|44352:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|44354:rådet i lubeck	institution:sdhk:radet_i_lubeck
@@ -51465,6 +51528,7 @@ F	a|44587:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|44588:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|44589:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|44590:hertig fredrik	person:sdhk:hertig_fredrik:44590-a
+F	a|44590:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|44591:hertig fredrik	person:sdhk:hertig_fredrik:44591-a
 F	a|44591:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
 F	a|44592:sten sture	person:sten_sture_d_a
@@ -51494,6 +51558,7 @@ F	a|44750:biskop peder	person:petrus_magni_peder_mansson_vasteras
 F	a|44815:jon skrivare	person:sdhk:jon_skrivare:44815
 F	a|44816:kung gustav	person:gustav_vasa
 F	a|44824:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
+F	a|44834:vincens lunge	person:sdhk:vincens_lunge:44891
 F	a|44838:kung gustav	person:gustav_vasa
 F	a|44839:jörgen pederson	person:sdhk:jorgen_pederson:44839
 F	a|44840:her mogens	person:sdhk:mogens:44840
@@ -51592,6 +51657,7 @@ F	a|45325:berend van mehlen	person:sdhk:berend_van_mehlen:45330
 F	a|45326:fogden nils olofson	person:sdhk:nils_olofson:45326
 F	a|45327:lars månson	person:sdhk:lars_manson:45327
 F	a|45327:nils johanson i vadstena svara	person:sdhk:nils_johanson:45327
+F	a|45329:ärkebiskop gustav (trole)	person:gustav_trolle_uppsala
 F	a|45331:hertig fredrik	person:sdhk:hertig_fredrik:45331-a
 F	a|45332:olof gale	person:sdhk:olof_gale:45332
 F	a|45336:magnus	person:sdhk:magnus:45336
@@ -51602,6 +51668,7 @@ F	a|45350:kung fredrik av danmark	person:fredrik_1
 F	a|45351:axel urup	person:sdhk:axel_urup:45351
 F	a|45360:ture jönson	person:sdhk:ture_jonson:45360
 F	a|45362:kung gustav vasa	person:gustav_vasa
+F	a|45363:kungen (gustav vasa)	person:gustav_vasa
 F	a|45378:kung gustav	person:gustav_vasa
 F	a|45379:ture jönson	person:sdhk:ture_jonson:45379
 F	a|45380:biskop hans brask i linköping	person:hans_brask_linkoping
@@ -51644,6 +51711,7 @@ F	a|5709:kung magnus	person:magnus_eriksson
 F	a|5711:domprosten lars	person:sdhk:lars_nilson_unge:6329
 F	a|5882:rådet i visby	institution:sdhk:radet_i_visby
 F	a|6035:laurentius pauli	person:sdhk:laurentius:6754
+F	a|6047:rådet i reval	institution:sdhk:radet_i_reval
 F	a|6048:nicolaus hack av högby	person:sdhk:nicolaus_hack:6048
 F	a|6079:biskop sige i skara en bestyrkt avskrift av påven clemens vi	person:sigge_jonsson_skara
 F	a|60:bröderna petrus	person:sdhk:petrus:60
@@ -51718,6 +51786,7 @@ F	a|7520:rådet i rostock	institution:sdhk:radet_i_rostock
 F	a|7541:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|7571:drotning blanka	person:blanka_av_namur
 F	a|7571:kung magnus	person:magnus_eriksson
+F	a|765:högmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|7698:peter ärnolfson	person:sdhk:peter_arnolfson:7698
 F	a|7700:staden lubeck	institution:sdhk:radet_i_lubeck
 F	a|7732:rådet i stralsund	institution:sdhk:radet_i_stralsund
@@ -51819,13 +51888,14 @@ F	a|9441:rådet i reval	institution:sdhk:radet_i_reval
 F	a|9444:bruno varendorp	person:sdhk:bruno_varendorp:9444
 F	a|9467:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|947:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
+F	a|9484:rådmänen i lubeck	institution:sdhk:radet_i_lubeck
 F	a|9493:rådet i reval	institution:sdhk:radet_i_reval
 F	a|9497:borgmästare och råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|9518:rådet i reval	institution:sdhk:radet_i_reval
 F	a|952:biskop israel i västerås	person:israel_erlandi_vasteras
 F	a|9553:borgmästare och råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|9571:borgmästare och råd i reval	institution:sdhk:radet_i_reval
-F	a|9595:ernst van dotzem	person:sdhk:ernst_van_dotzem:9595
+F	a|9595:ernst van dotzem	person:sdhk:ernst_van_dotzem:9595-2
 F	a|9602:prebendaten nils	person:sdhk:nils_johanson:10943
 F	a|9626:rådet i greifsvald	institution:sdhk:radet_i_greifsvald
 F	a|9633:jon jul	person:sdhk:jon_jul:9633
@@ -51896,6 +51966,7 @@ F	a|df1482:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1512:her krister nilson	person:df:krister_nilson:1512
 F	a|df1515:biskop magnus i åbo	person:magnus_ii_tavast_abo
 F	a|df1519:rådet i reval	institution:sdhk:radet_i_reval
+F	a|df1524:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	a|df1531:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1536:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	a|df1540:rådet i reval	institution:sdhk:radet_i_reval
@@ -51912,6 +51983,7 @@ F	a|df1599:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1605:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1611:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1614:rådet i reval	institution:sdhk:radet_i_reval
+F	a|df1615:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	a|df1619:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1622:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1630:rådet i reval	institution:sdhk:radet_i_reval
@@ -51946,6 +52018,7 @@ F	a|df1822:kung vladislaus av polen	person:ladislaus_2
 F	a|df1864:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df1884:domprosten tomas i strängnäs	person:sdhk:tomas_simonson:20194
 F	a|df1901:rådet i reval	institution:sdhk:radet_i_reval
+F	a|df1913:ordensmästaren i livland	institution:sdhk:livlandska_ordensmastaren
 F	a|df2092:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df2097:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df2098:rådet i reval	institution:sdhk:radet_i_reval
@@ -51979,6 +52052,7 @@ F	a|df2578:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df2610:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df2630:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df2656:rådet i reval	institution:sdhk:radet_i_reval
+F	a|df2717:tyska ordenshögmästaren	institution:sdhk:tyska_ordens_hogmastare
 F	a|df2809:tyska ordens högmästare	institution:sdhk:tyska_ordens_hogmastare
 F	a|df2837:erik axelson	person:erik_axelsson_tott
 F	a|df2838:erik axelson	person:erik_axelsson_tott
@@ -52030,6 +52104,7 @@ F	a|df4863:her svante nilson	person:svante_nilsson
 F	a|df4866:stockholmsborgaren mats lydikson	person:df:stockholmsborgaren_mats_lydikson:4866
 F	a|df4909:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|df4959:her erik tureson	person:df:erik_tureson:4959
+F	a|df4969:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	a|df4983:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df4994:her svante nilson	person:svante_nilsson
 F	a|df5006:her svante nilson	person:svante_nilsson
@@ -52050,6 +52125,7 @@ F	a|df5056:her erik tureson	person:df:erik_tureson:5056
 F	a|df5058:her svante nilson	person:svante_nilsson
 F	a|df5061:her svante nilson	person:svante_nilsson
 F	a|df5071:her svante nilson	person:svante_nilsson
+F	a|df5073:livländska ordensmästaren	institution:sdhk:livlandska_ordensmastaren
 F	a|df5079:svenska riksrådet	institution:sdhk:svenska_riksradet
 F	a|df5085:svenska riksrådet	institution:sdhk:svenska_riksradet
 F	a|df5086:her svante nilson	person:svante_nilsson
@@ -52191,6 +52267,7 @@ F	a|df5553:fru märta	person:df:marta:5553
 F	a|df5555:mäster påval schel	person:df:paval_schel:5555
 F	a|df5558:mäster påval schel i åbo	person:df:paval_schel:5558
 F	a|df5559:her svante	person:df:svante:5559
+F	a|df5571:her sten sture	person:sten_sture_d_y
 F	a|df5572:her sten sture	person:sten_sture_d_y
 F	a|df5580:her sten sture	person:sten_sture_d_y
 F	a|df5599:her sten sture	person:sten_sture_d_y
@@ -52737,6 +52814,7 @@ F	df1485:klaus fleming	person:claus_fleming_1427
 F	df1486:olof broderson	person:df:olof_broderson:1486
 F	df1488:bengt jönson	person:df:bengt_jonson:1488
 F	df148:påve gregorius x	person:pave_gregorius_x
+F	df1491:ordensmästare av livland	institution:sdhk:livlandska_ordensmastaren
 F	df1491:sivert lander von spanheim	person:df:sivert_lander_von_spanheim:1491
 F	df1493:johan	person:jons_gerekesson_uppsala
 F	df1494:klaus fleming	person:claus_fleming_1427
@@ -52817,7 +52895,7 @@ F	df1609:påve martinus v	person:pave_martin_v
 F	df160:kung magnus ladulås	person:magnus_ladulas
 F	df1611:janeke hampmos	person:df:janeke_hampmos:1575
 F	df1613:bengt mikaelson	person:df:bengt_mikaelson:1613
-F	df1614:ordensmästare i livland	person:sdhk:ordensmastare:21210
+F	df1614:ordensmästare i livland	institution:sdhk:livlandska_ordensmastaren
 F	df1615:komtur i reval	person:df:komtur:1615
 F	df1616:rådet i åbo	institution:sdhk:radet_i_abo
 F	df1617:rådet i åbo	institution:sdhk:radet_i_abo
@@ -53186,6 +53264,7 @@ F	df2762:olof tavast	person:sdhk:olof_tavast:42996
 F	df2763:olof broderson	person:sdhk:olof_broderson:43021
 F	df2764:rådet i reval	institution:sdhk:radet_i_reval
 F	df2765:heidenrik vincke von overberch	person:df:heidenrik_vincke_von_overberch:2765
+F	df2765:ordensmästare av livland	institution:sdhk:livlandska_ordensmastaren
 F	df2768:henrik hoveman	person:df:henrik_hoveman:2768
 F	df2769:herman soie	person:df:herman_soie:2769
 F	df276:margareta	person:df:margareta:276
@@ -55875,6 +55954,7 @@ F	df768:birger gregerson	person:birger_gregersson_uppsala
 F	df76:påve gregorius ix	person:pave_gregorius_ix
 F	df770:peter arvasal	person:df:peter_arvasal:770
 F	df771:johan vestfal	person:df:johan_vestfal:771
+F	df772:ordensmästare av livland	institution:sdhk:livlandska_ordensmastaren
 F	df772:vilhelm von vrimersheim	person:df:vilhelm_von_vrimersheim:772
 F	df773:henrik (hartmanson)	person:henrik_hartmansson_abo
 F	df774:johan peterson	person:johannes_ii_petri_abo
@@ -55885,6 +55965,7 @@ F	df779:johan peterson	person:johannes_ii_petri_abo
 F	df77:påve gregorius ix	person:pave_gregorius_ix
 F	df781:johan peterson	person:df:biskop_johan:781
 F	df782:påve urban v	person:pave_urban_v
+F	df783:ordensmästare av livland	institution:sdhk:livlandska_ordensmastaren
 F	df783:vilhelm von vrimersheim	person:df:vilhelm_von_vrimersheim:783
 F	df784:rådet i reval	institution:sdhk:radet_i_reval
 F	df785:henikin närfve	person:df:henikin_narfve:785
@@ -61967,6 +62048,7 @@ E	person:sdhk:ake_jonson:28141	person:svarte_ake_jonson_svarte_skaning_1500	Åke
 E	person:sdhk:ake_jonson:28213	person:svarte_ake_jonson_svarte_skaning_1500	Åke Jönsson
 E	person:sdhk:ake_jonson:31263	person:svarte_ake_jonson_svarte_skaning_1500	Åke Jönsson
 E	person:sdhk:ake_jonson_svarte:25079	person:svarte_ake_jonson_svarte_skaning_1500	Åke Jönsson Svarte
+E	person:sdhk:ake_jonson_svarte_skaning:25653	person:sdhk:ake_jonson_svarte_skaning:28450	Åke Jönsson Svarte Skåning
 E	person:sdhk:ake_jonson_svarte_skaning:31098	person:sdhk:ake_jonson_svarte_skaning:28450	Åke Jönsson Svarte Skåning
 E	person:sdhk:ake_jonson_svarte_skaning:43795	person:sdhk:ake_jonson_svarte_skaning:28450	Åke Jönsson Svarte Skåning
 E	person:sdhk:ake_svarte_jonson:44975	person:svarte_ake_jonson_svarte_skaning_1500	Åke Svarte Jönsson
@@ -63693,6 +63775,9 @@ E	person:sdhk:olof_varg:31021	person:sdhk:olof_varg:29745	Olof Varg
 E	person:sdhk:olof_varg:31332	person:sdhk:olof_varg:29745	Olof Varg
 E	person:sdhk:olov_djaken:9276	person:sdhk:olov_djaken:9001	Olov Djäken
 E	person:sdhk:olov_djaken:9282	person:sdhk:olov_djaken:9001	Olov Djäken
+E	person:sdhk:ordensmastare:21210	institution:sdhk:livlandska_ordensmastaren	Ordensmästare
+E	person:sdhk:ordensmastaren:21176	institution:sdhk:livlandska_ordensmastaren	Ordensmästaren
+E	person:sdhk:ordensmastaren:9378	institution:sdhk:livlandska_ordensmastaren	Ordensmästaren
 E	person:sdhk:ote_krumpen:42845	person:sdhk:ote_krumpen:34094	Otte Krumpen
 E	person:sdhk:ote_krumpen:42847	person:sdhk:ote_krumpen:34094	Otte Krumpen
 E	person:sdhk:ote_romer:40695	person:ote_romer_1411	Otte Römer

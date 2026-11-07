@@ -7,6 +7,13 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Fler svar kopplas till det brev de besvarar: brev daterade bara till månad eller år,
+  adressater i genitiv ("rådets i Danzig brev"), datum som "24/9 (1429)" och FMU-nummer.
+  Utgivarens nummer räknas bara när brevet har svarets parter, och en förläning samma dag
+  räknas inte som ett besvarat brev. 28 svar är kopplade mot 23 tidigare; av de tidigare
+  föll ett bort som fel (SDHK 33191) och ett pekade på fel brev (DF 1575, "n:o 1,574").
+- Tyska ordens högmästare och Livländska ordensmästaren känns igen i fler former.
+
 - Personlista med levnadsår ur SBL och Wikidata (`bygg_personlista.py`,
   `data/auktoriteter/personer.json`, 1 121 personer). Brevpersoner kopplas till den när
   namn, levnadstid och släktnamn eller ämbete stämmer, och dödsåret är en bortre gräns.
@@ -98,6 +105,10 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   (`data/sdhk/akthet_wiktorsson.tsv`).
 
 ### Ändrat
+
+- `pastaenden_sdhk.py` raderar inte längre några entiteter, id-registret behåller nycklar
+  som inte förekommer längre, och en förekomst vars form ändrats ärver sin gamla nyckels id.
+  Registret skrivs till en tillfällig fil först.
 
 - Brevpåståendenas orter slås upp med platsregistrets regler och i id-ordning, så att ett
   namn alltid ger samma plats och handregistrerade platser går före brevens egna

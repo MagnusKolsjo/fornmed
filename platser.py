@@ -1183,6 +1183,9 @@ def dubletter(register: Platsregister, kopplingar: list[tuple], saten: list[tupl
     # En plats som tidigare ersatts av en dublett följs ända fram, så att påståendena hamnar rätt
     for gammal in list(register.ersatta):
         register.ersatta[gammal] = flytt.get(register.ersatta[gammal], register.ersatta[gammal])
+    for iid, rad in list(register.identifieringar.items()):
+        if rad[4] == "ersatt_av" and rad[2] in flytt:
+            register.identifieringar[iid] = (rad[0], rad[1], flytt[rad[2]], rad[3], rad[4])
     log.info("Dubletter: %d platser hänvisar till en annan", len(flytt))
     return resultat, [(flytt.get(pid, pid), sate) for pid, sate in saten]
 

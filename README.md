@@ -925,11 +925,18 @@ aspekten `brevkoppling`:
 
 | värde | grund |
 |---|---|
-| `saker` | utgivaren anger brevets nummer ("SDHK nr 23220", i DF "n:o 5257") |
-| `sannolik` | regesten anger datumet, och det enda brevet det datumet har parterna i omvänd ordning |
-| `mojlig` | inget datum; det enda missivet från adressaten till utfärdaren under året före |
+| `saker` | utgivaren anger brevets nummer ("SDHK nr 23220", "FMU 1823", i DF "n:o 1,574"), och dess parter stämmer |
+| `sannolik` | regesten anger datumet, och det enda brevet med det datumet, eller det enda som bara är daterat till månaden, har parterna i omvänd ordning |
+| `mojlig` | regesten anger datumet men brevet är bara daterat till året; eller inget datum, och det enda missivet från adressaten till utfärdaren under året före |
 
-Breven söks i både SDHK och DF, så ett svar i DF kan peka på ett brev i SDHK.
+Breven söks i både SDHK och DF, så ett svar i DF kan peka på ett brev i SDHK; ett DF-nummer
+som är samma brev som ett SDHK-brev pekar på SDHK-brevet. Ett nummer räknas bara när
+brevet har svarets parter, eftersom regesten också kan nämna andra brev ("hans tidigare
+villkor, SDHK nr 32644"). Ett daterat brev utan mottagare räcker bara om det är ett missiv,
+inte en gärning som en förläning samma dag, och ett brev utan dag ska säkert vara skrivet
+före svaret. Adressaten hittas också i "svarar på rådets i Danzig brev", "besvarar Vincens
+Lunges skrivelse" och "svarar på en skrivelse från Erik Turesson", och datum som "24/9
+(1429)" läses.
 Brev som bara svarar utan att regesten säger på vad kopplas inte, och en brevväxling
 som regesten inte nämner (A skriver till B, B senare till A) registreras inte som
 påstående: den är vår slutsats, inte källans.
@@ -958,8 +965,10 @@ andra källor går att följa. Ett id delas aldrig ut på nytt till en annan
 person. Registret ligger i `data/` och delas mellan miljöerna, så att dev och
 prod har samma id:n; DF:s förekomster har nycklar som `df6022:…` och adressaterna
 `a|…`. En person som bara är känd ur DF får ett id som `person:df:<namn>:<nr>`.
-Skriptet tar bort och skapar om sina påståenden vid varje körning, men raderar
-aldrig en entitet som en annan källa refererar till, och aldrig en plats.
+Skriptet tar bort och skapar om sina påståenden vid varje körning men raderar aldrig en
+entitet. En nyckel som inte längre förekommer står kvar i registret, och när en förekomsts
+form ändras ("Kristofer Mikelstorp" blir "Kristoffer Mikelsthorp (på Viborg)") får den
+nya formen den gamlas id, om brevet och rollen bara har en sådan förekomst.
 
 Orterna i fälten slås upp bland de platser som redan finns, med platsregistrets
 regler: runinskrifternas fyndplatser, socknarna och andra platser med område i
