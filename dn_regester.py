@@ -104,6 +104,10 @@ VERB_DN = {
     "oppfordrer": "missiv", "klager": "missiv", "beklager": "missiv", "tilsender": "missiv", "sender": "missiv",
     "beretter": "missiv", "oversender": "missiv", "forsikrer": "missiv", "lykønsker": "missiv", "indbyder": "missiv",
     "innbyr": "missiv", "anbefaler": "missiv", "forlanger": "missiv", "kræver": "missiv", "krever": "missiv",
+    # flertal: "Borgermestere og Raad i Lübeck berette", "Kapittel og Presteskab besvare"
+    "besvare": "missiv", "svare": "missiv", "berette": "missiv", "underrette": "missiv", "tilskrive": "missiv",
+    "bede": "missiv", "takke": "missiv", "melde": "missiv", "meddele": "missiv", "tilkjendegive": "missiv",
+    "tilkjendegiver": "missiv", "erklære": "missiv", "erklærer": "missiv",
 }
 PREDIKAT = {"saljer", "skanker", "byter", "pantsatter", "stadfaster", "upplater", "forlaner", "overlater",
             "testamenterar", "domer", "utnamner"}
@@ -125,11 +129,23 @@ _MOTTAGARE_SLUT = (r"(?=,? (?:\d|[½¼¾]|en |et |ett |sin |sit |sine |hans |hen
 _TIL = re.compile(r"^(?:\s*til\s+)(?P<adr>.{2,140}?)" + _MOTTAGARE_SLUT)
 
 # Svar: "Svar paa", "svarer", "besvarer", "modtaget hans Brev", "mottatt hans brev"
-SVAR_DN = re.compile(r"\b(?:besvarer|svarer|Svar paa|svar på|Svar på|modtaget (?:hans|dennes|deres|hendes|hennes|Adressatens)\s+"
-                     r"(?:\w+\s+)?(?:Brev|Skrivelse)|mottatt (?:hans|deres|hennes)\s+(?:\w+\s+)?brev)\b")
+_BREV_DN = r"(?:Brev|brev|Breve|brevet|Skrivelse|skrivelse|Skrivelser|Klage|Forespørgsel|Forespörgsel|Begjæring|Anmodning|melding)"
+SVAR_DN = re.compile(r"\b(?:besvarer|besvare|svarer|svare|Svar paa|svar på|Svar på|Modtagelsen af|mottakelsen av|"
+                     r"(?:modtaget|modtog|mottatt|mottok|fik|fikk)\s+(?:[\wæøåöä.()]+\s+){0,4}?" + _BREV_DN + r")\b")
+# Adressaten i svaret: "besvarer et brev fra fru Anne Rud", "svarer på kong Frederik IIs brev",
+# "erkjender Modtagelsen af et Brev fra Dronning (Elisabet) af 24 April"
+_SVAR_FRA = re.compile(r"\b(?:besvar\w*|svar\w*(?:\s+på|\s+paa)?|Modtagelsen af|mottakelsen av|modtaget|mottatt|mottok|modtog)\s+"
+                       r"(?:et|ett|to|tre|hans|hendes|deres|dennes|det)?\s*" + _BREV_DN + r"\w*\s+(?:fra|frå|af)\s+"
+                       r"(?P<adr>(?:sin overordnede\s+)?(?:[Hh]r\.?\s+|[Hh]err\s+|[Ff]ru\s+|[Kk]ong(?:en)?\s+|[Dd]ronning\s+|"
+                       r"[Bb]iskop(?:en)?\s+|[Ee]rkebiskop(?:en)?\s+|[Ee]rkebisp(?:en)?\s+)?"
+                       r"(?:[A-ZÆØÅ(]|i\s+[A-ZÆØÅ])[^,;:]{1,80}?)"
+                       r"(?=,? (?:(?:om|at|og|med|der|som|hvori|hvor|angaaende|angående|ang\.)\b|(?:af|av) \d)|[.;:,]|$)")
+_SVAR_GENITIV_DN = re.compile(r"\b(?:besvar\w*|svar\w*(?:\s+på|\s+paa)?|modtaget|mottatt)\s+(?P<adr>(?:[Hh]r\.?\s+|[Hh]err\s+|"
+                              r"[Ff]ru\s+|[Kk]ong\s+|[Dd]ronning\s+|[Bb]iskop\s+|[Ee]rkebiskop\s+)?[A-ZÆØÅ][\wæøåöä]+"
+                              r"(?:\s+[A-ZÆØÅIVX][\wæøåöä.]*){0,3}?)(?:\.s|s|'s)\s+(?:[\wæøåöä]+\s+){0,6}?" + _BREV_DN + r"\b")
 _MANAD_DN = {"januar": 1, "februar": 2, "marts": 3, "mars": 3, "april": 4, "mai": 5, "maj": 5, "juni": 6, "juli": 7,
              "august": 8, "september": 9, "oktober": 10, "october": 10, "november": 11, "december": 12, "desember": 12}
-HANVISNING_DN = re.compile(r"(?:Brev|brev|Skrivelse|skrivelse)\w*\s+(?:af|av|dat\.|dateret|datert)\s+(?:den\s+)?(\d{1,2})\.?\s+("
+HANVISNING_DN = re.compile(r"(?:Brev|brev|Skrivelse|skrivelse)\w*(?:\s+fra\s+[^,;.]{1,60}?)?\s+(?:af|av|dat\.|dateret|datert)\s+(?:den\s+)?(\d{1,2})\.?\s+("
                            + "|".join(_MANAD_DN) + r")(?:\s+(\d{4}))?", re.I)
 
 
@@ -294,7 +310,8 @@ def tolka(regest: str) -> DnTolkning | None:
         # "erkjender at have solgt": gärningen är utfärdarens egen
         if re.match(r"(?:han|hun|de|hon)\b", at.group("subj")) or kod == "erkanner" and re.match(r"\s*(?:at\s+)?ha", rest):
             gsubj = None
-    if kod == "missiv" or (not garning and re.match(r"\s*til\s", rest)):
+    svarsord = bool(SVAR_DN.search(regest[:400]))
+    if kod == "missiv" or (not garning and (re.match(r"\s*til\s", rest) or svarsord)):
         adr = None
         if verb in ("skriver",) and (t := re.match(r"\s*til\s+(.{2,140}?)(?=,? (?:og|om|at|med|angaaende|angående|ang\.|for)\b|[.;:,]|$)", rest)):
             adr = t.group(1)
@@ -303,9 +320,17 @@ def tolka(regest: str) -> DnTolkning | None:
                             r"(?=,? (?:om|at|og|med|for|paa|på|angaaende|angående|ang\.|i anledning|der|som|en|et|ett|"
                             r"nogle|noen|sin|sit|sine|hans|hendes|hennes|deres|den|det|de|ved|til)\b|[.;:]|$)", rest)):
             adr = t.group(1)
+        svar = svarsord
+        # I ett svar är adressaten den som skrev det besvarade brevet, när regesten säger det
+        # Missivets egen adressat ("melder Raadet i Kampen") går före; svarets används när den
+        # saknas, är ett ord i genitiv ("besvare Kong Christians … Breve") eller bara ett "et"/"på"
+        if svar and ((t := _SVAR_FRA.search(regest[:400])) or (t := _SVAR_GENITIV_DN.search(regest[:400]))) and \
+                (not adr or re.match(r"(?:et|ett|på|paa)\b", adr) or adr.startswith(t.group("adr") + "s")):
+            adr = re.sub(r"^sin overordnede\s+", "", t.group("adr"))
+            # "erkebiskopen i Uppsala, Birger": titeln och sätet räcker
+            adr = re.sub(r"^erkebiskopen", "Erkebiskopen", adr)
         if adr:
             adr = re.sub(r"^" + HEDERSORD.pattern[1:], "", adr, flags=re.I)
-        svar = bool(SVAR_DN.search(regest[:400]))
         if adr or svar:
             brevform = Brevform(svensk_form(adr) if adr else None, svar, None, _datum(regest[:400]) if svar else None)
     return DnTolkning(utfardare, vittnen, garning, gsubj, brevform)

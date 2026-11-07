@@ -21547,7 +21547,7 @@ F	27579:peter remesnidare	person:sdhk:peter_remesnidare:27579
 F	2757:fader finvidson	person:sdhk:fader_finvidson:2757
 F	2757:hustru ingrid	person:sdhk:ingrid:2757
 F	27580:ridaren erik nipertz	person:sdhk:erik_nipertz:24860
-F	27580:ridaren ture tureson	person:sdhk:ture_tureson:27580
+F	27580:ridaren ture tureson	person:ture_tureson_bielke_1490
 F	27581:bengt larson	person:sdhk:bengt_larson:27581
 F	27582:olof ketilson	person:sdhk:olof_ketilson:27582
 F	27583:ridaren olof axelson (tot)	person:sdhk:olof_axelson_tot:26502
@@ -21706,7 +21706,7 @@ F	27713:olaf gunarson	person:sdhk:olaf_gunarson:27713
 F	27714:ärkebiskop jöns i upsala	person:jons_bengtsson_uppsala
 F	27715:olaf gunarson	person:sdhk:olaf_gunarson:27715
 F	27715:sundvis toreson	person:sdhk:sundvis_toreson:27715
-F	27716:ture tureson	person:sdhk:ture_tureson:27716
+F	27716:ture tureson	person:ture_tureson_bielke_1490
 F	27717:marinus de fregeno	person:sdhk:marinus_de_fregeno:30626
 F	27718:marinus de fregeno	person:sdhk:marinus_de_fregeno:30626
 F	27719:eskil isakson	person:sdhk:eskil_isakson:27719
@@ -22038,7 +22038,7 @@ F	27979:kung kristian	person:kristian_1
 F	2797:rådet i linköping	institution:sdhk:radet_i_linkoping
 F	27980:väpnaren ingvar mikaelson	person:sdhk:ingvar_mikaelson:24439
 F	27981:anund anundson	person:sdhk:anund_anundson:27981
-F	27982:ridaren ture tureson	person:sdhk:ture_tureson:27716
+F	27982:ridaren ture tureson	person:ture_tureson_bielke_1490
 F	27983:märta nilsdoter	person:sdhk:marta_nilsdoter:27983
 F	27984:ture tureson	person:ture_tureson_bielke_1490
 F	27985:birgita magnusdoter	person:sdhk:birgita_magnusdoter:27985
@@ -22239,7 +22239,7 @@ F	28156:jepe anderson	person:sdhk:jepe_anderson:28156
 F	28157:hustru inger maensädoter	person:sdhk:inger_maensadoter:28157
 F	28158:erik axelson	person:erik_axelsson_tott
 F	28158:erik nipertz	person:sdhk:erik_nipertz:24860
-F	28158:ture tureson	person:sdhk:ture_tureson:27580
+F	28158:ture tureson	person:ture_tureson_bielke_1490
 F	28159:erik axelson	person:erik_axelsson_tott
 F	2815:påven johanes xi	person:pave_johanes_xxii
 F	28161:väpnaren peter johanson	person:sdhk:peter_johanson:21368
@@ -22255,7 +22255,7 @@ F	28170:jepe anderson	person:sdhk:jepe_anderson:28170
 F	28171:detmer fyrbom	person:sdhk:detmer_fyrbom:28171
 F	28173:erik axelson	person:erik_axelsson_tott
 F	28173:göstaf karlson	person:sdhk:gostaf_karlson:28173
-F	28173:ture tureson	person:sdhk:ture_tureson:28173
+F	28173:ture tureson	person:ture_tureson_bielke_1490
 F	28174:detmer furbom	person:sdhk:detmer_furbom:28174
 F	28174:jens person	person:sdhk:jens_person:28174
 F	28174:peter michelson	person:sdhk:peter_michelson:28174
@@ -22290,7 +22290,7 @@ F	28181:nils kristiernson	person:sdhk:nils_kristiernson:27563
 F	28181:nils sture	person:nils_sture_1494
 F	28181:stafan bengtson	person:sdhk:stafan_bengtson:27138
 F	28181:tord filipson	person:sdhk:tord_filipson:28181
-F	28181:ture tureson	person:sdhk:ture_tureson:28173
+F	28181:ture tureson	person:ture_tureson_bielke_1490
 F	28181:åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
 F	28182:bp finbogus i bergen	person:sdhk:finbogus:28182
 F	28183:johanes	person:johannes_magni_strangnas
@@ -22301,7 +22301,7 @@ F	28187:rådet	person:sdhk:radet:28187
 F	28188:birger i västerås	person:birgerus_magni_vasteras
 F	28188:erik axelson	person:erik_axelsson_tott
 F	28188:ketil i linköping	person:kettil_karlsson_linkoping
-F	28188:ture tureson	person:sdhk:ture_tureson:28173
+F	28188:ture tureson	person:ture_tureson_bielke_1490
 F	28190:jop i nordevar	person:sdhk:jop:28190
 F	28190:olof mongson	person:sdhk:olof_mongson:28190
 F	28190:peter jopeson	person:sdhk:peter_jopeson:28190
@@ -22309,7 +22309,7 @@ F	28191:claus rönov	person:sdhk:claus_ronov:26265
 F	28192:kung kristian	person:kristian_1
 F	28193:biskop birger i västerås	person:birgerus_magni_vasteras
 F	28193:erik axelson	person:erik_axelsson_tott
-F	28193:ture tureson	person:sdhk:ture_tureson:28173
+F	28193:ture tureson	person:ture_tureson_bielke_1490
 F	28194:kung kristian	person:kristian_1
 F	28196:kung kristian	person:kristian_1
 F	28197:kung kristian	person:kristian_1
@@ -22787,7 +22787,7 @@ F	28539:bud svenson	person:sdhk:bud_svenson:28539
 F	2853:tomas sigvidson	person:sdhk:tomas_sigvidson:2853
 F	28540:biskop hans i skara	person:hans_markvardsson_skara
 F	28540:magnus gren	person:magnus_gren_1480
-F	28540:ture tureson	person:sdhk:ture_tureson:28173
+F	28540:ture tureson	person:ture_tureson_bielke_1490
 F	28540:väpnaren arvid trole	person:arvid_trole_1505
 F	28542:biskop johanes i skara	person:hans_markvardsson_skara
 F	28543:egert krumedige	person:egert_krumedige_1487
@@ -24242,7 +24242,7 @@ F	29578:hans nilson	person:sdhk:hans_nilson:29578
 F	29579:ulf torstenson i skyringe	person:sdhk:ulf_torstenson:29579
 F	2957:hustru ingegerd	person:sdhk:ingegerd:2957
 F	2957:magnus gregerson	person:sdhk:magnus_gregerson:2957
-F	29580:ridaren ture tureson i kråkerum	person:sdhk:ture_tureson:28173
+F	29580:ridaren ture tureson i kråkerum	person:ture_tureson_bielke_1490
 F	29581:ridaren stafan ulfson	person:sdhk:stafan_ulfson:24214
 F	29583:petrus henrici	person:sdhk:petrus_henrici:29583
 F	29584:väpnaren nils stock i kumla	person:sdhk:nils_stock:29584
@@ -24323,7 +24323,7 @@ F	29629:bp olof i roskilde danmarks sida	person:sdhk:olof:29629
 F	29630:bp henrik i linköping sveriges sida	person:henrik_tidemansson_linkoping
 F	29630:bp olof i roskilde danmark-norges sida	person:sdhk:olof:29630
 F	29632:claus rönov	person:sdhk:claus_ronov:26265
-F	29632:ture tureson	person:sdhk:ture_tureson:28173
+F	29632:ture tureson	person:ture_tureson_bielke_1490
 F	29635:arvid trole	person:arvid_trole_1505
 F	29635:erengisle geda	person:sdhk:erengisle_geda:29467
 F	29635:eskil isakson	person:sdhk:eskil_isakson:26247
@@ -25856,7 +25856,7 @@ F	30751:olof erikson	person:sdhk:olof_erikson:30751
 F	30753:gregers matson	person:sdhk:gregers_matson:30753
 F	30753:nils sture	person:nils_sture_1494
 F	30753:sten sture	person:sten_sture_d_a
-F	30754:ridaren ture tureson i kråkerum	person:sdhk:ture_tureson:28173
+F	30754:ridaren ture tureson i kråkerum	person:ture_tureson_bielke_1490
 F	30755:magnus länk	person:sdhk:magnus_lank:30755
 F	30756:petrus magni	person:sdhk:petrus_magni:30756
 F	30757:petrus magni rök	person:sdhk:petrus_magni_rok:30757
@@ -26585,7 +26585,7 @@ F	31260:håkan nilson	person:sdhk:hakan_nilson:31260
 F	31261:hans åkeson	person:sdhk:hans_akeson:29340
 F	31261:nils erikson	person:sdhk:nils_erikson:30701
 F	31261:nils sture i eksjö	person:nils_sture_1494
-F	31261:ture tureson	person:sdhk:ture_tureson:28173
+F	31261:ture tureson	person:ture_tureson_bielke_1490
 F	31262:arvid knutson	person:arvid_knutson_1497
 F	31262:biskop brynolf (gerlakson) i skara	person:brynolf_gerlaksson_skara
 F	31262:hans åkeson	person:sdhk:hans_akeson:29340
@@ -26593,7 +26593,7 @@ F	31262:lindorm björnson	person:sdhk:lindorm_bjornson:29988
 F	31262:nils erikson	person:sdhk:nils_erikson:30701
 F	31262:nils sture	person:nils_sture_1494
 F	31262:sten sture	person:sten_sture_d_a
-F	31262:ture tureson	person:sdhk:ture_tureson:28173
+F	31262:ture tureson	person:ture_tureson_bielke_1490
 F	31262:åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
 F	31263:peter håkanson	person:sdhk:peter_hakanson:31263
 F	31264:nils sture i eksjö	person:nils_sture_1494
@@ -27685,7 +27685,7 @@ F	32081:saxo gunari	person:sdhk:saxo_gunari:32081
 F	32082:väpnaren erik karlson i nörby	person:sdhk:erik_karlson:28492
 F	32085:arvid trole	person:arvid_trole_1505
 F	32085:hans ågeson	person:sdhk:hans_ageson:32085
-F	32085:ture tureson	person:sdhk:ture_tureson:28173
+F	32085:ture tureson	person:ture_tureson_bielke_1490
 F	32086:biskop brynolf i skara	person:brynolf_gerlaksson_skara
 F	32087:peter skrivare	person:sdhk:peter_skrivare:31997
 F	32089:ridaren nils sture i eksjö	person:nils_sture_1494
@@ -32430,7 +32430,7 @@ F	35990:tyle hampa	person:sdhk:tyle_hampa:35990
 F	35991:härman rodenkirkio	person:sdhk:harman_rodenkirkio:35991
 F	35992:johan månson	person:sdhk:johan_manson:35992
 F	35993:bengt erikson	person:sdhk:bengt_erikson:35993
-F	35994:ana fickesdoter	person:sdhk:ana_fickesdoter:35994
+F	35994:ana fickesdoter	person:ana_fickesdoter_bulov_1519
 F	35994:sven tordson	person:sdhk:sven_tordson:35994
 F	35995:peder tureson	person:sdhk:peder_tureson:35995
 F	35996:borgmästare och råd i västerås	institution:sdhk:radet_i_vasteras
@@ -36579,7 +36579,7 @@ F	39639:lindorm björnson	person:sdhk:lindorm_bjornson:29988
 F	39639:magnus karlson	person:sdhk:magnus_karlson:30783
 F	39639:nils klauson	person:sdhk:nils_klauson:30123
 F	39639:riksföreståndare sten sture i gripsholm	person:sten_sture_d_a
-F	39639:ture tureson	person:sdhk:ture_tureson:28173
+F	39639:ture tureson	person:ture_tureson_bielke_1490
 F	39639:åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
 F	3963:vilhelm jönson i kastrup	person:sdhk:vilhelm_jonson:3963
 F	39640:ridar erengisle nilson	person:sdhk:ridar_erengisle_nilson:39640
@@ -40175,7 +40175,7 @@ F	43768:erik oteson	person:sdhk:erik_oteson:29997
 F	43768:ivar gren	person:ivar_gren_1495
 F	43768:riksrådet	institution:sdhk:svenska_riksradet
 F	43768:sten sture av gripsholm	person:sten_sture_d_a
-F	43768:ture tureson	person:sdhk:ture_tureson:28173
+F	43768:ture tureson	person:ture_tureson_bielke_1490
 F	43768:väpnaren erik ragvaldson	person:sdhk:erik_ragvaldson:32948
 F	43769:her sten sture	person:sten_sture_d_a
 F	4376:sune algotson	person:sdhk:sune_algotson:4376
@@ -48037,6 +48037,7 @@ F	a|10271:helias de vodronio	person:sdhk:helias_de_vodronio:10271
 F	a|10316:helias de vodronio	person:sdhk:helias_de_vodronio:10316
 F	a|10321:påven gregorius xi	person:pave_gregorius_xi
 F	a|10323:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
+F	a|10325:biskop henrik i slesvig	person:sdhk:henrik_biscop:10333
 F	a|10325:biskop henrik i slesvig ang	person:sdhk:henrik:10325
 F	a|10332:biskop gotskalk	person:gottskalk_falkdal_linkoping
 F	a|10333:biskop gotskalk av linköping	person:gottskalk_falkdal_linkoping
@@ -48179,6 +48180,7 @@ F	a|14170:ragvaldus de vindestada	person:sdhk:ragvaldus_de_vindestada:14170
 F	a|1425:ärkebiskop m(agnus) i upsala	person:magnus_bosson_uppsala
 F	a|14354:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14356:rådet i reval	institution:sdhk:radet_i_reval
+F	a|14357:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14358:rådet i reval	institution:sdhk:radet_i_reval
 F	a|14359:rådet i reval	institution:sdhk:radet_i_reval
 F	a|1437:biskop b(engt)	person:bengt_birgersson
@@ -48322,6 +48324,7 @@ F	a|18847:ärkebiskop jöns gerekeson i upsala	person:jons_gerekesson_uppsala
 F	a|18858:domprosten tomas i strängnäs	person:sdhk:tomas_simonson:20194
 F	a|18859:domprosten tomas i strängnäs	person:sdhk:tomas_simonson:20194
 F	a|18936:maribo kloster	institution:sdhk:maribo_kloster
+F	a|18940:kejsar sigismund	person:sdhk:sigismund:18195
 F	a|18941:kung sigismund	person:sigismund_av_luxemburg
 F	a|18945:kardinal oto colona	person:sdhk:oto_colona:18945
 F	a|18987:broder andreas	person:sdhk:andreas:18987
@@ -48380,6 +48383,7 @@ F	a|198:ärkebiskop eskil i lund	person:eskil_lund
 F	a|19915:rådet i reval	institution:sdhk:radet_i_reval
 F	a|19918:rådet i reval	institution:sdhk:radet_i_reval
 F	a|19921:rådet i reval	institution:sdhk:radet_i_reval
+F	a|19927:domkapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
 F	a|19939:rådet i reval	institution:sdhk:radet_i_reval
 F	a|19944:rådet i reval	institution:sdhk:radet_i_reval
 F	a|19949:ridaren krister nilson	person:sdhk:krister_nilson:18737
@@ -48754,6 +48758,7 @@ F	a|24943:klostret i vadstena	institution:sdhk:vadstena_kloster
 F	a|24977:karl störla	person:sdhk:karl_storla:24977
 F	a|25036:her stig olsen	person:sdhk:stig_olsen:25036
 F	a|25053:oto ulfson	person:sdhk:oto_ulfson:25053
+F	a|25058:rådet i reval	institution:sdhk:radet_i_reval
 F	a|2506:biskop ka(rl) i linköping	person:karl_linkoping
 F	a|25104:hustru ana på en tomt i staden	person:sdhk:ana:25104
 F	a|25104:ragvald puke	person:sdhk:ragvald_puke:25104
@@ -48999,11 +49004,18 @@ F	a|29583:abedisan katarina	person:katarina_petersdoter_1473
 F	a|295:ärkebiskop andreas i lund	person:anders_sunesen_lund
 F	a|29602:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29612:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29613:konventet i vadstena	institution:sdhk:vadstena_kloster
+F	a|29640:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29641:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29642:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29713:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29722:sven peterson i kädelstorp	person:sdhk:sven_peterson:29722
 F	a|29730:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29762:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29763:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|29774:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29778:rådet i reval	institution:sdhk:radet_i_reval
+F	a|29789:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29820:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29834:ingeborg filipsdoter	person:sdhk:ingeborg_filipsdoter:29834
 F	a|29841:rådet i danzig	institution:sdhk:radet_i_danzig
@@ -49013,6 +49025,7 @@ F	a|29935:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|29942:borgmästare och råd i norköping	institution:sdhk:radet_i_norkoping
 F	a|30027:tord bonde philipson	person:sdhk:tord_bonde_philipson:30027
 F	a|30028:tord bonde philipson	person:sdhk:tord_bonde_philipson:30028
+F	a|30074:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30095:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30124:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30128:rådet i danzig	institution:sdhk:radet_i_danzig
@@ -49022,6 +49035,7 @@ F	a|3019:lyder av kyren	person:sdhk:lyder:3019
 F	a|30205:upsala domkapitel	institution:sdhk:domkapitlet_i_upsala
 F	a|30206:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30269:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|30292:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30293:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30327:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30336:ridaren gregers matson	person:gregers_matson_lilie_1494
@@ -49042,6 +49056,7 @@ F	a|30739:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30741:esbjörn kristiernsons	person:sdhk:esbjorn_kristiernsons:30741
 F	a|30748:hustru ramborg	person:sdhk:ramborg:30748
 F	a|30748:ridaren gregorius matson	person:sdhk:gregorius_matson:30748
+F	a|30758:kung karl	person:sdhk:kung_karl:30758-a
 F	a|30796:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|30806:borgmästare och råd i reval	institution:sdhk:radet_i_reval
 F	a|30815:her johan	person:sdhk:johan:30815
@@ -49057,18 +49072,22 @@ F	a|31049:sveriges riksråd	institution:sdhk:svenska_riksradet
 F	a|31077:ridaren åke jönson i åkerö	person:svarte_ake_jonson_svarte_skaning_1500
 F	a|31090:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31091:anders erikson på knut bengtsons vägnar	person:sdhk:anders_erikson:31091
+F	a|31095:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31096:filip bischop	person:sdhk:filip_bischop:31096
 F	a|31106:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31123:borgmästare och råd i reval	institution:sdhk:radet_i_reval
+F	a|31142:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31146:sveriges riksråd	institution:sdhk:svenska_riksradet
 F	a|31157:sveriges riksråd	institution:sdhk:svenska_riksradet
 F	a|3116:baudet le flament	person:sdhk:baudet_le_flament:3116
 F	a|31173:norges riksråd	institution:sdhk:norska_riksradet
 F	a|31176:borgmästare och råd i reval	institution:sdhk:radet_i_reval
 F	a|31180:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|31182:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31187:clemens martini	person:sdhk:clemens_martini:31187
 F	a|31194:philip bischop	person:sdhk:philip_bischop:31194
 F	a|31195:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|31203:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31243:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31256:matis tagason	person:sdhk:matis_tagason:31256
 F	a|31263:ridaren åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
@@ -49077,11 +49096,13 @@ F	a|31273:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31274:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31316:doktor ragvald	person:sdhk:ragvald:31318
 F	a|31316:ridaren gregers matson i tyresö	person:gregers_matson_lilie_1494
+F	a|31333:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|31376:nils hemingson	person:sdhk:nils_hemingson:31376
 F	a|31394:erik karson av en gård i röks sn	person:sdhk:erik_karson:31394
 F	a|31398:arvid trole	person:arvid_trole_1505
 F	a|31445:råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|31460:rådet i danzig	institution:sdhk:radet_i_danzig
+F	a|31484:kung karl	person:sdhk:kung_karl:31484-a
 F	a|3153:kaniken her peter jonson	person:sdhk:peter_jonson:3153
 F	a|31561:ärkebiskop jacobus i upsala	person:jakob_ulvsson_uppsala
 F	a|3156:drotsen knut jonson	person:knut_jonson_aspenasaten_1347
@@ -49114,7 +49135,9 @@ F	a|32063:rådet i reval	institution:sdhk:radet_i_reval
 F	a|32068:ridaren åke jönson	person:svarte_ake_jonson_svarte_skaning_1500
 F	a|320:vastmanensi	person:sdhk:vastmanensi:320
 F	a|32114:magdalena karlsdoter	person:sdhk:magdalena_karlsdoter:32114
+F	a|32122:fru magdalena karlsdoter bonde	person:sdhk:magdalena_karlsdoter_bonde:32122
 F	a|32125:fru magdalena karlsdoter	person:sdhk:magdalena_karlsdoter:32125
+F	a|32137:abraham kristiernson	person:sdhk:abraham_kristiernson:32137
 F	a|32174:her knut	person:sdhk:knut:32174
 F	a|32201:fru magdalena karlsdoter	person:sdhk:magdalena_karlsdoter:32201
 F	a|32282:vadstena kloster	institution:sdhk:vadstena_kloster
@@ -49131,6 +49154,7 @@ F	a|32405:mats peterson i tuna	person:sdhk:mats_peterson:32405
 F	a|32409:aboten anders i ås kloster	person:sdhk:anders_bengtson:31005
 F	a|32409:bengt krabe	person:sdhk:bengt_krabe:32409
 F	a|32409:her olof stigson	person:sdhk:olof_stigson:32409
+F	a|32414:rådet i danzig	institution:sdhk:radet_i_danzig
 F	a|32419:nils i broby i tilinge socken	person:sdhk:nils:32419
 F	a|32458:konventet i vadstena	institution:sdhk:vadstena_kloster
 F	a|32461:rådet i danzig	institution:sdhk:radet_i_danzig
@@ -49138,6 +49162,7 @@ F	a|32465:biskop magnus i åbo	person:magnus_iii_stjernkors_abo
 F	a|32475:askeby kloster	institution:sdhk:askeby_kloster
 F	a|32490:her åke jonson i åkerö	person:sdhk:ake_jonson:32490
 F	a|32496:påven inocentius	person:pave_inocentius_viii
+F	a|32505:vadstena kloster	institution:sdhk:vadstena_kloster
 F	a|32506:biskop magnus i åbo	person:magnus_iii_stjernkors_abo
 F	a|32532:kristin	person:sdhk:kristin:32532
 F	a|32552:lars skrädare	person:sdhk:lars_skradare:32552
@@ -49176,6 +49201,7 @@ F	a|32895:svenska riksrådet	institution:sdhk:svenska_riksradet
 F	a|32896:sten sture	person:sten_sture_d_a
 F	a|32904:sten sture	person:sten_sture_d_a
 F	a|32922:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
+F	a|32924:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	a|32924:ärkebiskop jakob i upsala ang	person:jakob_ulvsson_uppsala
 F	a|32927:biskop kort i strängnäs	person:kort_rogge_strangnas
 F	a|32952:her sten sture	person:sten_sture_d_a
@@ -49199,12 +49225,14 @@ F	a|33196:knut pose	person:knut_pose_1500
 F	a|33196:nils bengtson i viborg	person:sdhk:nils_bengtson:33196
 F	a|33196:nils erikson	person:sdhk:nils_erikson:32895
 F	a|33210:anders målare	person:sdhk:anders_malare:33210
+F	a|33216:kung henrik vi av england	person:henrik_7_england
 F	a|33216:kung henrik vi av england ang	person:henrik_7_england
 F	a|33221:sten sture	person:sten_sture_d_a
 F	a|33265:kyrkoherden martinus i stockholm	person:sdhk:martinus:33265
 F	a|33286:peter tureson	person:sdhk:peter_tureson:33286
 F	a|33287:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	a|33289:riksföreståndaren her sten sture	person:sten_sture_d_a
+F	a|33290:riksföreståndaren her sten sture	person:sten_sture_d_a
 F	a|33293:peter tureson	person:sdhk:peter_tureson:33293
 F	a|33297:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	a|33301:äbp jakob i upsala	person:jakob_ulvsson_uppsala
@@ -49397,6 +49425,7 @@ F	a|34202:abedisan margareta turesdoter	person:margareta_turesdoter_1508
 F	a|34202:generalkonfesorn johan martini	person:sdhk:johan_martini:34202
 F	a|34210:svante nilson	person:svante_nilsson
 F	a|34212:kung hans	person:hans
+F	a|34213:borgmästare och råd i kalmar	institution:sdhk:radet_i_kalmar
 F	a|34219:svante nilson	person:svante_nilsson
 F	a|3421:erengisle	person:sdhk:erengisle:3421
 F	a|3421:karl näskonungson	person:sdhk:karl_naskonungson:3421
@@ -49431,6 +49460,7 @@ F	a|34320:svante nilson	person:svante_nilsson
 F	a|34325:her henrik krumedige	person:sdhk:henrik_krumedige:36296
 F	a|34327:svante nilson	person:svante_nilsson
 F	a|34330:svante nilson	person:svante_nilsson
+F	a|34338:ingrid eriksdoter	person:sdhk:ingrid_eriksdoter:34338
 F	a|34366:johanes matei	person:sdhk:johanes_matei:36627
 F	a|34396:kung hans	person:hans
 F	a|34399:henrik krumedike	person:sdhk:henrik_krumedike:33581
@@ -49649,6 +49679,7 @@ F	a|3496:biskop styrbjörn i strängnäs	person:styrbjorn_strangnas
 F	a|34971:riksföreståndaren svante nilson	person:svante_nilsson
 F	a|34973:svante nilson	person:svante_nilsson
 F	a|34975:svante nilson	person:svante_nilsson
+F	a|34982:domkapitlet i linköping	institution:sdhk:domkapitlet_i_linkoping
 F	a|34985:svante nilson	person:svante_nilsson
 F	a|34988:svante nilson	person:svante_nilsson
 F	a|34989:hening pasov	person:sdhk:hening_pasov:34989
@@ -49672,7 +49703,9 @@ F	a|35049:svante nilson	person:svante_nilsson
 F	a|35056:svante nilson	person:svante_nilsson
 F	a|35057:svante nilson	person:svante_nilsson
 F	a|35063:svante nilson	person:svante_nilsson
+F	a|35072:svenska rådet	institution:sdhk:svenska_riksradet
 F	a|35073:svante nilson	person:svante_nilsson
+F	a|35074:svenska rådet	institution:sdhk:svenska_riksradet
 F	a|35076:svante nilson	person:svante_nilsson
 F	a|35077:peder jakobson	person:sdhk:peder_jakobson:35077
 F	a|35081:riksföreståndaren her svante	person:svante_nilsson
@@ -49706,6 +49739,7 @@ F	a|35132:svante nilson	person:svante_nilsson
 F	a|35140:svante nilson	person:svante_nilsson
 F	a|35148:svante nilson	person:svante_nilsson
 F	a|35149:svante nilson	person:svante_nilsson
+F	a|35157:her svante nilson	person:svante_nilsson
 F	a|35159:svante nilson	person:svante_nilsson
 F	a|35163:svante nilson	person:svante_nilsson
 F	a|35165:svante nilson	person:svante_nilsson
@@ -49745,11 +49779,14 @@ F	a|35245:sten kristiernson	person:sdhk:sten_kristiernson:35245
 F	a|35247:svante nilson	person:svante_nilsson
 F	a|35248:svante nilson	person:svante_nilsson
 F	a|35249:svante nilson	person:svante_nilsson
+F	a|35252:ridaren svante nilson	person:svante_nilsson
 F	a|35253:svante nilson	person:svante_nilsson
 F	a|35258:svante nilson	person:svante_nilsson
+F	a|35259:her svante nilson	person:svante_nilsson
 F	a|35260:svante nilson	person:svante_nilsson
 F	a|35261:svante nilson	person:svante_nilsson
 F	a|35263:svante nilson	person:svante_nilsson
+F	a|35264:her svante nilson	person:svante_nilsson
 F	a|35265:svante nilson	person:svante_nilsson
 F	a|35266:svante nilson	person:svante_nilsson
 F	a|35270:svante nilson	person:svante_nilsson
@@ -49761,8 +49798,10 @@ F	a|35275:generalkonfesorn sven	person:sdhk:sven_tordson:36583
 F	a|35297:svante nilson	person:svante_nilsson
 F	a|35301:svante nilson	person:svante_nilsson
 F	a|35304:svante nilson	person:svante_nilsson
+F	a|35305:her svante nilson	person:svante_nilsson
 F	a|35308:svante nilson	person:svante_nilsson
 F	a|35310:kaniken petrus arelius	person:sdhk:petrus_arelius:35310
+F	a|35312:her svante nilson	person:svante_nilsson
 F	a|35313:peder jakobson	person:sdhk:peder_jakobson:35313
 F	a|35315:svante nilson	person:svante_nilsson
 F	a|35318:biskop vincentius i skara	person:vincent_henningsson_skara
@@ -49836,6 +49875,8 @@ F	a|35444:svante nilson	person:svante_nilsson
 F	a|35445:svante nilson	person:svante_nilsson
 F	a|35447:svante nilson	person:svante_nilsson
 F	a|35448:svante nilson	person:svante_nilsson
+F	a|35452:borgmästare och råd i stockholm	institution:sdhk:radet_i_stockholm
+F	a|35453:borgmästare och råd i stockholm	institution:sdhk:radet_i_stockholm
 F	a|35455:svante nilson	person:svante_nilsson
 F	a|35457:biskop lars i åbo	person:laurens_suurpaa_abo
 F	a|35458:svante nilson	person:svante_nilsson
@@ -49910,6 +49951,7 @@ F	a|35576:svante nilson	person:svante_nilsson
 F	a|35577:domkapitlet i åbo	institution:sdhk:domkapitlet_i_abo
 F	a|35578:hövitsmanen sten kristianson på nyköping	person:sdhk:sten_kristianson:35472
 F	a|35581:svante nilson	person:svante_nilsson
+F	a|35583:her svante nilson	person:svante_nilsson
 F	a|35584:svante nilson	person:svante_nilsson
 F	a|35585:svante nilson	person:svante_nilsson
 F	a|35586:svante nilson	person:svante_nilsson
@@ -50082,7 +50124,9 @@ F	a|35909:her svante nilson	person:svante_nilsson
 F	a|35915:her svante nilson	person:svante_nilsson
 F	a|35917:nils boson	person:sdhk:nils_boson:35917
 F	a|35920:her svante nilson	person:svante_nilsson
+F	a|35922:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
 F	a|35922:ärkebiskop jakob i upsala ang	person:jakob_ulvsson_uppsala
+F	a|35923:her åke hanson	person:sdhk:ake_hanson:35923
 F	a|35925:svante nilson	person:svante_nilsson
 F	a|35926:svante nilson	person:svante_nilsson
 F	a|35927:her åke hanson	person:sdhk:ake_hanson:35927
@@ -50870,6 +50914,7 @@ F	a|38292:biskop hans i linköping 4 torpstälen - hindricstorp	person:hans_bras
 F	a|38354:jakob trole	person:sdhk:jakob_trole:38354
 F	a|38373:ärkebiskop gustaf	person:df:gustaf:6044
 F	a|38374:ärkebiskop gustav i upsala	person:gustav_trolle_uppsala
+F	a|38376:mårten skrivare	person:sdhk:marten_skrivare:38376
 F	a|38377:biskop arvid i åbo m	person:arvid_kurck_abo
 F	a|38378:ärkebiskop gustav trole i upsala	person:gustav_trolle_uppsala
 F	a|38379:gustav trole	person:sdhk:gustav_trole:37544
@@ -50905,6 +50950,7 @@ F	a|38715:råd i lubeck	institution:sdhk:radet_i_lubeck
 F	a|38765:borgmästare och råd i reval	institution:sdhk:radet_i_reval
 F	a|38770:arboga stad	institution:sdhk:radet_i_arboga
 F	a|38795:kung fredrik av danmark)	person:fredrik_1
+F	a|38803:fru märta på mörby	person:sdhk:marta_johansdoter_slaveka:38845
 F	a|38803:fru märta på mörby ang	person:sdhk:marta:38803
 F	a|3880:domprosten nils	person:sdhk:nils_magnuson:3881
 F	a|3880:ingevald	person:sdhk:ingevald:3881
@@ -50931,6 +50977,7 @@ F	a|39144:kung gustav	person:gustav_vasa
 F	a|39169:en olof på koparberget	person:sdhk:olof:39169
 F	a|39172:lase kafle på halarö	person:sdhk:lase_kafle:39172
 F	a|39173:peter larson på halkved	person:sdhk:peter_larson:38907
+F	a|39178:jakob spare	person:sdhk:jakob_spare:39178
 F	a|39178:ridaren mogens gyldenstierne	person:sdhk:mogens_gyldenstierne:39178
 F	a|39180:knud knobf til vadstad	person:sdhk:knud_knobf:39180
 F	a|39180:laurins nilson til kronoberga	person:sdhk:laurins_nilson:39180
@@ -51237,6 +51284,7 @@ F	a|43064:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43065:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43066:marquart bretolt	person:sdhk:marquart_bretolt:43066
 F	a|43086:rådet i reval	institution:sdhk:radet_i_reval
+F	a|43101:philpus i iloisby	person:sdhk:philpus:43101
 F	a|43102:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43128:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43279:borgmästare och råd i danzig	institution:sdhk:radet_i_danzig
@@ -51345,6 +51393,7 @@ F	a|43700:her laurens axelson	person:sdhk:laurens_axelson:43700
 F	a|43702:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43706:her ivar axelson	person:sdhk:ivar_axelson:43706
 F	a|43729:rådet i reval	institution:sdhk:radet_i_reval
+F	a|43730:her ivar axelson	person:sdhk:ivar_axelson:43730
 F	a|43731:her sten sture	person:sten_sture_d_a
 F	a|43735:rådet i reval	institution:sdhk:radet_i_reval
 F	a|43736:rådet i reval	institution:sdhk:radet_i_reval
@@ -51695,6 +51744,7 @@ F	a|495:ärkebiskop ufe i lund	person:uffe_thrugotsen_lund
 F	a|4986:ärkebiskop paul i nidaros	person:sdhk:paul:4979
 F	a|5071:sigurd fyrd	person:sdhk:sigurd_fyrd:5071
 F	a|5094:ärkebiskop heming i upsala	person:heming_nilsson_uppsala
+F	a|50:petrus	person:sdhk:petrus:50
 F	a|5109:domkapitlet i upsala	institution:sdhk:domkapitlet_i_upsala
 F	a|517:upsala	person:sdhk:upsala:408
 F	a|5219:ridaren egard de kyrn	person:sdhk:egard_de_kyrn:5219
@@ -52519,15 +52569,18 @@ F	a|df893:rådet i reval	institution:sdhk:radet_i_reval
 F	a|df912:ridaren erengisle	person:erengisle_nilson_d_a_1406
 F	a|dn1-1044:trondjems kapitel	person:dn:trondjems_kapitel:1-1044
 F	a|dn1-1059:danmarks riges råd	person:dn:danmarks_riges_rad:1-1059
+F	a|dn1-1061:kung kristiern i	person:kristian_2
 F	a|dn1-1065:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn1-11:ärkebiskop torer i nidaros	person:dn:torer:1-11
 F	a|dn1-130:omegnens bönder	person:dn:omegnens_bonder:1-130
 F	a|dn1-17:ärkebiskop sigurd i nidaros	person:dn:sigurd:1-17
 F	a|dn1-18:ärkebiskop sigurd i nidaros	person:dn:sigurd:1-17
+F	a|dn1-1:nidaros domkapitel i anledning af dets klage over	person:dn:nidaros_domkapitel:1-1
 F	a|dn1-237:arnfin jonson	person:dn:arnfin_jonson:1-237
 F	a|dn1-238:biskop erik i stavanger	person:dn:erik:1-192
 F	a|dn1-240:sigurd haftoreson	person:dn:sigurd_haftoreson:1-240
 F	a|dn1-262:biskop erik i stavanger	person:dn:erik:1-192
+F	a|dn1-269:kung magnus	person:magnus_eriksson
 F	a|dn1-299:presterne eindride	person:dn:presterne_eindride:1-299
 F	a|dn1-2:ärkebiskop gutorm i nidaros	person:dn:gutorm:1-2
 F	a|dn1-323:nidaros damkapitel	person:dn:nidaros_damkapitel:1-323
@@ -52547,6 +52600,7 @@ F	a|dn1-816:kung kristiern i	person:kristian_1
 F	a|dn1-839:asgaut olafson	person:dn:asgaut_olafson:1-839
 F	a|dn10-25:sira bård i updal i anledning af	person:dn:sira_bard:10-25
 F	a|dn10-260:ivar (trondson) i aspe kvitering	person:dn:ivar_trondson:10-260
+F	a|dn10-30:ägidius corenbiter	person:dn:agidius_corenbiter:10-30
 F	a|dn10-315:simon svenson	person:dn:simon_svenson:10-315
 F	a|dn10-31:biskop håkon i bergen abot jon i selje	person:dn:hakon:10-31
 F	a|dn10-328:hans michelson	person:dn:hans_michelson:10-328
@@ -52660,11 +52714,13 @@ F	a|dn10-638:fru ane (rud)	person:dn:ane_rud:10-638
 F	a|dn10-646:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn10-648:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn10-651:ärkebiskop olav	person:dn:arkebiskop_olav:10-651-a
+F	a|dn10-652:ärkebiskop olav	person:dn:arkebiskop_olav:10-652-a
 F	a|dn10-655:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn10-664:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn10-665:ärkebiskop olav	person:dn:arkebiskop_olav:10-665-a
 F	a|dn10-666:ärkebiskop olav	person:dn:arkebiskop_olav:10-666-a
 F	a|dn10-669:ärkebiskop olav	person:dn:arkebiskop_olav:10-669-a
+F	a|dn10-678:hans (tehus)	person:dn:hans_tehus:10-678
 F	a|dn10-681:ärkebiskop olav	person:dn:arkebiskop_olav:10-681-a
 F	a|dn10-693:ärkebiskop olav	person:dn:arkebiskop_olav:10-693-a
 F	a|dn10-696:ärkebiskop olav	person:dn:arkebiskop_olav:10-696-a
@@ -52683,6 +52739,8 @@ F	a|dn11-329:kung kristiern i	person:kristian_2
 F	a|dn11-330:kung kristiern i	person:kristian_2
 F	a|dn11-331:kung kristiern i	person:kristian_2
 F	a|dn11-333:kung kristiern i	person:kristian_2
+F	a|dn11-335:kung kristiern i	person:kristian_2
+F	a|dn11-337:kung kristiern i	person:kristian_2
 F	a|dn11-347:kung kristiern i	person:kristian_2
 F	a|dn11-351:kung kristiern i	person:kristian_2
 F	a|dn11-355:kung kristiern i	person:kristian_2
@@ -52692,16 +52750,24 @@ F	a|dn11-364:kung kristiern i	person:kristian_2
 F	a|dn11-365:churfyrst fredrik i sachson	person:dn:churfyrst_fredrik:11-354
 F	a|dn11-373:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:11-373-a
 F	a|dn11-374:kung kristiern i	person:kristian_2
+F	a|dn11-376:modtagelson af	person:dn:modtagelson_af:8-540
+F	a|dn11-379:kung kristiern i	person:kristian_2
+F	a|dn11-381:keiser karl v	person:dn:keiser_karl:11-381
+F	a|dn11-384:kung kristiern i	person:kristian_2
 F	a|dn11-387:kung kristiern i	person:kristian_2
 F	a|dn11-388:kung kristiern i	person:kristian_2
+F	a|dn11-398:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn11-407:kung kristiern i	person:kristian_2
 F	a|dn11-411:kung kristiern i	person:kristian_2
+F	a|dn11-412:kung kristiern	person:dn:kung_kristiern:11-412-a
+F	a|dn11-413:kung kristiern i	person:kristian_2
 F	a|dn11-415:kung kristiern i	person:kristian_2
 F	a|dn11-416:kung kristiern i	person:kristian_2
 F	a|dn11-419:kung kristiern i	person:kristian_2
 F	a|dn11-421:electus johan veze	person:dn:electus_johan_veze:11-421
 F	a|dn11-424:kung kristiern i	person:kristian_2
 F	a|dn11-426:kung kristiern i	person:kristian_2
+F	a|dn11-429:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn11-430:kung kristiern	person:dn:kung_kristiern:11-430-a
 F	a|dn11-436:kung kristiern i	person:kristian_2
 F	a|dn11-437:kung kristiern i	person:kristian_2
@@ -52730,8 +52796,11 @@ F	a|dn11-490:kung kristiern i	person:kristian_2
 F	a|dn11-491:kung kristiern i	person:kristian_2
 F	a|dn11-492:kung kristiern i	person:kristian_2
 F	a|dn11-495:kung kristiern i	person:kristian_2
+F	a|dn11-502:kung kristiern i	person:kristian_2
 F	a|dn11-510:kung kristiern i	person:kristian_2
 F	a|dn11-519:kung kristiern i	person:kristian_2
+F	a|dn11-520:kung kristiern i	person:kristian_2
+F	a|dn11-523:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn11-527:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn11-528:ärkebiskop (olav) i trondjem	person:dn:olav:1-1065
 F	a|dn11-538:kung kristiern i	person:kristian_2
@@ -52757,7 +52826,7 @@ F	a|dn11-596:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn11-599:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn11-601:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn11-606:biskoperne mogens (lauritson) i hamer	person:dn:biskoperne_mogens_lauritson:11-606
-F	a|dn11-607:her nils lyke	person:dn:nils_lyke:11-607
+F	a|dn11-607:her nils lyke	person:sdhk:nils_lyke:44872
 F	a|dn11-608:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn11-611:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn11-612:ärkebiskop olav i trondjem	person:dn:olav:1-1065
@@ -52779,14 +52848,19 @@ F	a|dn11-69:olav tordsöns börn	person:dn:olav_tordsons_born:11-69
 F	a|dn12-279:gudulf andreson (på ringenes) i 3 år	person:dn:gudulf_andreson:12-279
 F	a|dn12-291:kurfyrst (fredrik) i sachson	person:dn:kurfyrst_fredrik:12-291
 F	a|dn12-293:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
+F	a|dn12-295:kung kristiern i	person:kristian_2
+F	a|dn12-297:kung kristiern i	person:kristian_2
 F	a|dn12-298:biskop lage urne i roskilde	person:dn:lage_urne:8-509
 F	a|dn12-299:electus i bergen (olav torkelson)	person:dn:electus:12-299
+F	a|dn12-300:her henrik krumediges brev	person:dn:henrik_krumediges_brev:12-300
 F	a|dn12-301:her henrik krumedige	person:dn:henrik_krumedige:12-301
 F	a|dn12-302:kansler m	person:dn:kansler_m:12-302
 F	a|dn12-303:kung fredrik i	person:fredrik_1
 F	a|dn12-304:kung fredrik i	person:fredrik_1
+F	a|dn12-305:her henrik krumedige	person:dn:henrik_krumedige:12-305
 F	a|dn12-306:kung fredrik i	person:fredrik_1
 F	a|dn12-307:hertig johan i sachson	person:dn:hertig_johan:12-307-a
+F	a|dn12-313:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn12-314:hertig kristiern	person:dn:hertig_kristiern:12-314-a
 F	a|dn12-320:kung fredrik	person:fredrik_1
 F	a|dn12-321:kung kristiern i	person:kristian_2
@@ -52829,6 +52903,7 @@ F	a|dn12-417:kung kristern i	person:dn:kung_kristern:12-417-a
 F	a|dn12-419:markgreve georg i brandenborg	person:dn:markgreve_georg:12-419
 F	a|dn12-422:kung kristiern i	person:kristian_2
 F	a|dn12-426:esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn12-429:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn12-432:kung kristiern i	person:kristian_2
 F	a|dn12-434:her henrik krumedige	person:dn:henrik_krumedige:9-633
 F	a|dn12-435:kung fredrik i	person:fredrik_1
@@ -52856,8 +52931,12 @@ F	a|dn12-479:kung fredrik i	person:fredrik_1
 F	a|dn12-484:kung fredrik i	person:fredrik_1
 F	a|dn12-486:kung fredrik i	person:fredrik_1
 F	a|dn12-496:biskop olav i bergen	person:dn:olav:12-496
+F	a|dn12-499:her gaute (galde)	person:dn:gaute_galde:12-499
+F	a|dn12-508:her vincents lunge	person:dn:vincents_lunge:12-508
+F	a|dn12-533:riderne vincents lunge	person:dn:riderne_vincents_lunge:12-533
 F	a|dn12-541:her anders (bilde)	person:dn:anders_bilde:12-541
 F	a|dn12-543:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	a|dn12-555:biskop hans ref i oslo	person:hans_rev_1545
 F	a|dn12-557:ärkebiskop olav i trondjem indoldet af	person:dn:olav:12-557
 F	a|dn12-558:biskop hans ref i oslo	person:hans_rev_1545
 F	a|dn12-559:biskop mogens i hamer	person:dn:mogens_laurenson:3-1142
@@ -52865,6 +52944,7 @@ F	a|dn12-561:kanik jens olson (brat)	person:jens_olavson_brat_1548
 F	a|dn12-562:biskop hans ref i oslo	person:hans_rev_1545
 F	a|dn12-565:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn12-567:esge bilde	person:dn:esge_bilde:12-567
+F	a|dn12-576:tord roed	person:dn:tord_roed:13-662
 F	a|dn12-580:ärkebiskop olav	person:dn:arkebiskop_olav:12-580-a
 F	a|dn12-602:her esge bilde	person:dn:esge_bilde:12-602
 F	a|dn12-636:kansler (m	person:dn:kansler_m:12-636
@@ -52875,10 +52955,13 @@ F	a|dn13-187:kung kristiern i	person:kristian_2
 F	a|dn13-191:kung kristiern i	person:kristian_2
 F	a|dn13-192:kung kristiern i	person:kristian_2
 F	a|dn13-203:kung kristiern i	person:kristian_2
+F	a|dn13-204:kung kristiern i	person:kristian_2
 F	a|dn13-205:kung kristiern i	person:kristian_2
 F	a|dn13-207:kung kristiern i	person:kristian_2
+F	a|dn13-216:kung kristiern i	person:kristian_2
 F	a|dn13-218:kung kristiern i	person:kristian_2
 F	a|dn13-219:kung kristiern i	person:kristian_2
+F	a|dn13-224:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	a|dn13-227:kurfyrst fredrik i sachson	person:dn:kurfyrst_fredrik:12-291
 F	a|dn13-231:her georg von minckvitz	person:dn:georg_von_minckvitz:13-231
 F	a|dn13-233:her georg von minckvitz	person:dn:georg_von_minckvitz:13-233
@@ -52886,9 +52969,11 @@ F	a|dn13-242:kung kristiern i	person:kristian_2
 F	a|dn13-243:drotning elisabet	person:dn:drotning_elisabet:13-243-a
 F	a|dn13-244:kansler mag	person:dn:kansler_mag:13-244
 F	a|dn13-252:kung kristiern i	person:kristian_2
+F	a|dn13-253:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn13-254:kung kristiern i	person:kristian_2
 F	a|dn13-259:kung kristiern i	person:kristian_2
 F	a|dn13-265:kung kristiern i	person:kristian_2
+F	a|dn13-266:kung kristiern i i anledning af denes udtalte önske	person:kristian_2
 F	a|dn13-267:kung kristiern i	person:kristian_2
 F	a|dn13-272:jörgen von minckvitz	person:dn:jorgen_von_minckvitz:13-272
 F	a|dn13-274:kung kristern i	person:dn:kung_kristern:13-274-a
@@ -52902,6 +52987,7 @@ F	a|dn13-298:hans michelson	person:dn:hans_michelson:13-298
 F	a|dn13-301:kung kristiern i	person:kristian_2
 F	a|dn13-306:kung kristiern i	person:kristian_2
 F	a|dn13-307:kung (kristiern i)	person:kristian_2
+F	a|dn13-308:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn13-312:nils lyke	person:dn:nils_lyke:13-312
 F	a|dn13-316:drotning elisabet	person:dn:drotning_elisabet:13-316-a
 F	a|dn13-317:drotning elisabet	person:dn:drotning_elisabet:13-317-a
@@ -52914,6 +53000,7 @@ F	a|dn13-347:kung kristiern i	person:kristian_2
 F	a|dn13-350:her georg von minckvitz	person:dn:georg_von_minckvitz:13-350
 F	a|dn13-355:her georg von minckvitz kvitering	person:dn:georg_von_minckvitz_kvitering:13-355
 F	a|dn13-359:kung kristiern i	person:kristian_2
+F	a|dn13-367:kung kristiern i	person:kristian_2
 F	a|dn13-370:kung (ludvig) i ungarn	person:dn:kung_ludvig:13-370-a
 F	a|dn13-373:kung kristiern i	person:kristian_2
 F	a|dn13-374:drotning elisabet	person:dn:drotning_elisabet:13-374-a
@@ -52926,6 +53013,7 @@ F	a|dn13-392:henrik von lit	person:dn:henrik_von_lit:9-555
 F	a|dn13-394:henrik von lit	person:dn:henrik_von_lit:9-555
 F	a|dn13-395:kung kristiern i	person:kristian_2
 F	a|dn13-396:kurfyrst johan i sachson	person:dn:kurfyrst_johan:12-421
+F	a|dn13-399:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn13-400:henrik von lit	person:dn:henrik_von_lit:9-555
 F	a|dn13-403:kung kristiern i kviteringer	person:kristian_2
 F	a|dn13-405:kung kristiern i	person:kristian_2
@@ -52954,9 +53042,12 @@ F	a|dn13-473:joachim hochsteter	person:dn:joachim_hochsteter:13-473
 F	a|dn13-475:kung kristiern i	person:kristian_2
 F	a|dn13-477:kung kristiern i	person:kristian_2
 F	a|dn13-479:grev nicolas	person:dn:grev_nicolas:13-479
+F	a|dn13-482:kung kristiern i	person:kristian_2
 F	a|dn13-486:dr alexander kingorne i skotland	person:dn:dr_alexander_kingorne:13-486
+F	a|dn13-488:kung kristiern i	person:kristian_2
 F	a|dn13-489:kung kristiern i	person:kristian_2
 F	a|dn13-492:kung kristiern i	person:kristian_2
+F	a|dn13-493:kurfyrstinde elisabet i brandenburg	person:dn:kurfyrstinde_elisabet:13-211
 F	a|dn13-500:kung kristiern i	person:kristian_2
 F	a|dn13-503:kung kristiern i	person:kristian_2
 F	a|dn13-509:gerhard sterck	person:dn:gerhard_sterck:13-509
@@ -52982,8 +53073,10 @@ F	a|dn13-567:präst m	person:dn:m:13-567
 F	a|dn13-570:tomas (holste)	person:dn:tomas_holste:13-570
 F	a|dn13-571:kung kristiern i	person:kristian_2
 F	a|dn13-572:kung kristiern i	person:kristian_2
+F	a|dn13-574:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn13-575:cornelius duplicius (sceper)	person:dn:cornelius_duplicius_sceper:13-575
 F	a|dn13-576:her cornelius (sceper)	person:dn:cornelius_sceper:13-576
+F	a|dn13-577:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn13-585:her johan rantzov	person:dn:johan_rantzov:13-585
 F	a|dn13-586:kung fredrik i	person:fredrik_1
 F	a|dn13-591:ärkebiskop olav i trondjem	person:dn:olav:1-1065
@@ -52994,6 +53087,8 @@ F	a|dn13-611:biskop mogens i hamer	person:dn:mogens_laurenson:3-1142
 F	a|dn13-613:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn13-615:ärkebiskop olav	person:dn:arkebiskop_olav:13-615-a
 F	a|dn13-617:her klaus bilde	person:dn:klaus_bilde:2-1084
+F	a|dn13-617:ärkebiskop olav	person:dn:arkebiskop_olav:13-617-a
+F	a|dn13-618:ärkebiskop olav	person:dn:arkebiskop_olav:13-618-a
 F	a|dn13-619:ärkebiskop olav	person:dn:arkebiskop_olav:13-619-a
 F	a|dn13-621:esge bilde efteretninger	person:dn:esge_bilde_efteretninger:13-621
 F	a|dn13-624:her esge bilde	person:dn:esge_bilde:13-624
@@ -53008,6 +53103,7 @@ F	a|dn13-659:her esge bilde	person:dn:esge_bilde:10-706
 F	a|dn13-662:her esge bilde	person:dn:esge_bilde:13-662
 F	a|dn13-682:kung kristian i	person:kristian_3
 F	a|dn13-685:her esge bilde hval-	person:dn:esge_bilde_hval:13-685
+F	a|dn13-687:her esge bilde	person:dn:esge_bilde:13-687
 F	a|dn13-688:her esge bilde	person:dn:esge_bilde:13-688
 F	a|dn13-689:her esge bilde	person:dn:esge_bilde:13-689
 F	a|dn13-691:her esge bilde	person:dn:esge_bilde:13-691
@@ -53019,21 +53115,25 @@ F	a|dn14-281:drotning (elisabet)	person:dn:drotning_elisabet:14-281-a
 F	a|dn14-291:kung kristiern i	person:kristian_2
 F	a|dn14-292:hertugerne oto	person:dn:hertugerne_oto:14-292
 F	a|dn14-293:hertig (karl)	person:dn:hertig_karl:14-293-a
+F	a|dn14-311:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-322:albrecht hundorf	person:dn:albrecht_hundorf:14-322
 F	a|dn14-364:kung kristiern i	person:kristian_2
 F	a|dn14-368:kung kristiern i kvitering	person:kristian_2
 F	a|dn14-373:kung kristiern i	person:kristian_2
 F	a|dn14-374:kung kristiern i	person:kristian_2
+F	a|dn14-385:modtagelson af (hertig albrecht i mecklenburgs)	person:dn:modtagelson_af:8-540
 F	a|dn14-399:kung kristiern i	person:kristian_2
 F	a|dn14-402:kung kristiern i kvitering	person:kristian_2
 F	a|dn14-405:kung kristiern i	person:kristian_2
 F	a|dn14-409:her georg von minckvitz	person:dn:georg_von_minckvitz:14-409
 F	a|dn14-411:her georg von minckvitz	person:dn:georg_von_minckvitz:14-411
 F	a|dn14-412:her georg von minckvitz	person:dn:georg_von_minckvitz:14-412
+F	a|dn14-417:her severin norby	person:sdhk:severin_norby:38422
 F	a|dn14-422:kung kristiern i	person:kristian_2
 F	a|dn14-423:kung kristiern i	person:kristian_2
 F	a|dn14-425:kung kristiern i	person:kristian_2
 F	a|dn14-430:kung kristiern i	person:kristian_2
+F	a|dn14-437:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-443:kung kristiern i	person:kristian_2
 F	a|dn14-444:kung kristiern i	person:kristian_2
 F	a|dn14-453:kung kristiern i	person:kristian_2
@@ -53053,6 +53153,7 @@ F	a|dn14-504:kung kristiern i	person:kristian_2
 F	a|dn14-505:kung kristiern i	person:kristian_2
 F	a|dn14-521:kung kristiern i	person:kristian_2
 F	a|dn14-526:kung kristiern i	person:kristian_2
+F	a|dn14-528:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-530:kung kristiern i	person:kristian_2
 F	a|dn14-534:kung kristiern i beretning	person:kristian_2
 F	a|dn14-535:kung kristiern i	person:kristian_2
@@ -53068,6 +53169,7 @@ F	a|dn14-570:kung kristiern i	person:kristian_2
 F	a|dn14-571:kung kristiern i	person:kristian_2
 F	a|dn14-572:kung kristiern i	person:kristian_2
 F	a|dn14-574:kung kristiern i	person:kristian_2
+F	a|dn14-576:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-578:kung kristiern i	person:kristian_2
 F	a|dn14-579:kung kristiern i	person:kristian_2
 F	a|dn14-580:kung kristiern i	person:kristian_2
@@ -53080,12 +53182,15 @@ F	a|dn14-593:kung kristiern i	person:kristian_2
 F	a|dn14-595:kung kristiern i	person:kristian_2
 F	a|dn14-597:kung kristiern i	person:kristian_2
 F	a|dn14-599:kung kristiern i	person:kristian_2
+F	a|dn14-600:kung gustav	person:gustav_vasa
 F	a|dn14-601:kung kristiern i	person:kristian_2
 F	a|dn14-607:kung kristiern i	person:kristian_2
 F	a|dn14-609:kung kristiern i	person:kristian_2
+F	a|dn14-611:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-626:kung kristiern i rygter	person:kristian_2
 F	a|dn14-630:kung kristiern i	person:kristian_2
 F	a|dn14-631:kung kristiern i	person:kristian_2
+F	a|dn14-632:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn14-633:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn14-634:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn14-637:kung kristiern i	person:kristian_2
@@ -53111,7 +53216,9 @@ F	a|dn15-156:kung kristiern i	person:kristian_2
 F	a|dn15-159:hans von schönberg	person:dn:hans_von_schonberg:15-159
 F	a|dn15-162:kung kristiern i	person:kristian_2
 F	a|dn15-178:mester lambert anderson	person:dn:mester_lambert_anderson:15-178
+F	a|dn15-186:kung kristiern i	person:kristian_2
 F	a|dn15-188:oberst ernst von rechenberg	person:dn:oberst_ernst_von_rechenberg:15-188
+F	a|dn15-192:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn15-200:her henrik krumedige	person:dn:henrik_krumedige:15-200
 F	a|dn15-205:her georg von minckvitz	person:dn:georg_von_minckvitz:15-205
 F	a|dn15-209:kung kristiern i	person:kristian_2
@@ -53140,7 +53247,9 @@ F	a|dn15-268:fugernes faktor i antverpen popius ( pompejus) oco	person:dn:fugern
 F	a|dn15-272:drotning elisabet	person:dn:drotning_elisabet:15-272-a
 F	a|dn15-274:kung kristiern i	person:kristian_2
 F	a|dn15-276:drotning elisabet	person:dn:drotning_elisabet:15-276-a
+F	a|dn15-285:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn15-286:drotning elisabet	person:dn:drotning_elisabet:15-286-a
+F	a|dn15-287:kung kristiern i	person:kristian_2
 F	a|dn15-288:hövitsman jörgen stegentin	person:dn:jorgen_stegentin:10-469
 F	a|dn15-289:augustin centurions fuldmägtig	person:dn:augustin_centurions_fuldmagtig:15-289
 F	a|dn15-290:henrik von lit	person:dn:henrik_von_lit:9-555
@@ -53150,14 +53259,17 @@ F	a|dn15-299:henrik von lit	person:dn:henrik_von_lit:9-555
 F	a|dn15-300:hans michelson	person:dn:hans_michelson:15-300
 F	a|dn15-307:kung kristern i	person:dn:kung_kristern:15-307-a
 F	a|dn15-308:kung kristiern i	person:kristian_2
+F	a|dn15-309:kung kristiern i	person:kristian_2
 F	a|dn15-315:hans michelson	person:dn:hans_michelson:15-315
 F	a|dn15-316:kung kristiern i	person:kristian_2
+F	a|dn15-318:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn15-323:kung kristiern i	person:kristian_2
 F	a|dn15-327:kung kristiern i	person:kristian_2
 F	a|dn15-328:kung kristiern i	person:kristian_2
 F	a|dn15-329:kung kristiern i	person:kristian_2
 F	a|dn15-334:kung kristiern i	person:kristian_2
 F	a|dn15-336:kung kristiern i	person:kristian_2
+F	a|dn15-337:hertig ernst i braunschveig	person:dn:hertig_ernst:15-337-a
 F	a|dn15-338:kung kristiern i	person:kristian_2
 F	a|dn15-339:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-339-a
 F	a|dn15-341:ludvig von landsberg	person:dn:ludvig_von_landsberg:15-341
@@ -53178,10 +53290,12 @@ F	a|dn15-380:kung kristiern i	person:kristian_2
 F	a|dn15-381:kung kristiern i indoldet af	person:kristian_2
 F	a|dn15-382:kung kristiern i	person:kristian_2
 F	a|dn15-383:kung kristiern i besked	person:kristian_2
+F	a|dn15-387:kung kristiern i	person:kristian_2
 F	a|dn15-389:kung kristiern i	person:kristian_2
 F	a|dn15-391:kung kristiern i	person:kristian_2
 F	a|dn15-398:kung kristiern i	person:kristian_2
 F	a|dn15-399:kung kristiern i	person:kristian_2
+F	a|dn15-401:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn15-402:kung kristiern i	person:kristian_2
 F	a|dn15-405:kung kristiern i i henhold	person:kristian_2
 F	a|dn15-407:kung kristiern i	person:kristian_2
@@ -53208,20 +53322,29 @@ F	a|dn15-443:kung kristiern i	person:kristian_2
 F	a|dn15-444:tomas (holste)	person:dn:tomas_holste:15-444
 F	a|dn15-448:kung kristiern i	person:kristian_2
 F	a|dn15-450:kung kristiern i	person:kristian_2
+F	a|dn15-458:kung fredrik i	person:fredrik_1
+F	a|dn15-459:kung fredrik i	person:fredrik_1
 F	a|dn15-460:kung fredrik i	person:fredrik_1
+F	a|dn15-471:kung fredrik i	person:fredrik_1
+F	a|dn15-472:modtagelson af	person:dn:modtagelson_af:8-540
+F	a|dn15-480:kung kristiern i	person:kristian_2
+F	a|dn15-503:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn15-513:her vincents lunge modtagelson af	person:dn:vincents_lunge_modtagelson_af:15-513
 F	a|dn15-515:biskop hans ref i oslo#	person:hans_rev_1545
 F	a|dn15-518:landgreve (philip) i heson	person:dn:landgreve_philip:12-393
+F	a|dn15-520:pfalzgreve fredrik	person:dn:pfalzgreve_fredrik:15-520
 F	a|dn15-524:her esge bilde	person:dn:esge_bilde:15-524
 F	a|dn15-537:esge bilde	person:dn:esge_bilde:15-537
 F	a|dn15-539:her esge bilde	person:dn:esge_bilde:15-539
 F	a|dn15-544:her esge bilde	person:dn:esge_bilde:15-544
 F	a|dn15-545:her esge bilde	person:dn:esge_bilde:15-545
 F	a|dn15-546:her esge bilde	person:dn:esge_bilde:15-546
+F	a|dn15-550:kung kristian i	person:kristian_3
 F	a|dn15-68:bergulf olafson kvitering	person:dn:bergulf_olafson_kvitering:15-68
 F	a|dn16-357:ärkebiskop gustav (trole) i upsala	person:gustav_trolle_uppsala
 F	a|dn16-376:kung kristiern i	person:kristian_2
 F	a|dn16-381:kung kristiern i	person:kristian_2
+F	a|dn16-382:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn16-384:kung kristiern i	person:kristian_2
 F	a|dn16-389:kung kristiern i	person:kristian_2
 F	a|dn16-391:kung kristiern i	person:kristian_2
@@ -53230,15 +53353,21 @@ F	a|dn16-393:her georg von minckvitz	person:dn:georg_von_minckvitz:16-393
 F	a|dn16-394:her georg von minckvitz	person:dn:georg_von_minckvitz:16-394
 F	a|dn16-397:kung kristiern i	person:kristian_2
 F	a|dn16-402:kung kristiern i	person:kristian_2
+F	a|dn16-406:kung kristiern i	person:kristian_2
 F	a|dn16-409:drotning elisabet	person:dn:drotning_elisabet:16-409-a
+F	a|dn16-411:drotning elisabet	person:dn:drotning_elisabet:16-411-a
 F	a|dn16-412:kung kristiern i	person:kristian_2
 F	a|dn16-413:drotning elisabet	person:dn:drotning_elisabet:16-413-a
+F	a|dn16-418:kung kristiern i	person:kristian_2
 F	a|dn16-419:kung kristiern i	person:kristian_2
 F	a|dn16-427:kung kristiern i	person:kristian_2
 F	a|dn16-428:kung kristiern i	person:kristian_2
+F	a|dn16-429:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:16-429-a
 F	a|dn16-435:hövitsman jakob von eson	person:dn:jakob_von_eson:16-435
+F	a|dn16-436:kung kristiern i	person:kristian_2
 F	a|dn16-437:kung kristiern i	person:kristian_2
 F	a|dn16-439:drotning elisabet	person:dn:drotning_elisabet:16-439-a
+F	a|dn16-441:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn16-445:henrik van lijt	person:dn:henrik_van_lijt:16-445
 F	a|dn16-446:drotning elisabet	person:dn:drotning_elisabet:16-446-a
 F	a|dn16-448:henrik von lijt	person:dn:henrik_von_lijt:16-448
@@ -53254,23 +53383,32 @@ F	a|dn16-474:kung kristiern i	person:kristian_2
 F	a|dn16-477:kung kristiern i	person:kristian_2
 F	a|dn16-479:kung kristiern i	person:kristian_2
 F	a|dn16-481:kung kristiern i	person:kristian_2
+F	a|dn16-492:kung kristiern i	person:kristian_2
+F	a|dn16-494:kung kristiern i	person:kristian_2
 F	a|dn16-499:kung kristiern i	person:kristian_2
 F	a|dn16-501:kung kristiern i	person:kristian_2
 F	a|dn16-502:kung kristiern i	person:kristian_2
 F	a|dn16-507:kung kristiern i	person:kristian_2
+F	a|dn16-510:jon teiste	person:dn:jon_teiste:2-1120
 F	a|dn16-517:kung kristiern i	person:kristian_2
+F	a|dn16-518:ärkebiskop (olav) i trondjem	person:dn:olav:1-1065
 F	a|dn16-522:kung kristiern i	person:kristian_2
 F	a|dn16-527:kung kristiern i	person:kristian_2
 F	a|dn16-529:kung kristiern i	person:kristian_2
 F	a|dn16-533:kung kristiern i	person:kristian_2
 F	a|dn16-536:kung kristiern i	person:kristian_2
+F	a|dn16-541:fru ane rud	person:dn:ane_rud:16-541
 F	a|dn16-545:fru ane rud	person:dn:ane_rud:16-545
 F	a|dn16-550:kung fredrik i	person:fredrik_1
 F	a|dn16-552:kung fredrik i	person:fredrik_1
+F	a|dn16-553:biskop (hoskuld) i stavanger	person:dn:hoskuld:3-1121
 F	a|dn16-554:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn16-555:her esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn16-557:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn16-558:esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn16-560:biskop amund i färö	person:dn:amund:16-560
 F	a|dn16-561:her esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn16-574:kansler (johan fris)	person:dn:kansler_johan_fris:16-574
 F	a|dn16-579:biskop ove bilde i århus	person:dn:ove_bilde:11-594
 F	a|dn16-582:her peder lyke	person:dn:peder_lyke:16-582
 F	a|dn16-584:kung kristian i	person:kristian_3
@@ -53353,19 +53491,24 @@ F	a|dn18-186:her henrik krumedige	person:dn:henrik_krumedige:18-186
 F	a|dn18-187:her henrik krumedige	person:dn:henrik_krumedige:18-187
 F	a|dn18-196:her henrik krumedige	person:dn:henrik_krumedige:18-196
 F	a|dn18-197:her henrik krumedige	person:dn:henrik_krumedige:18-197
+F	a|dn18-203:her henrik krumedige	person:dn:henrik_krumedige:18-203
 F	a|dn18-204:her henrik krumedige	person:dn:henrik_krumedige:18-204
 F	a|dn18-206:her henrik krumedige kvitering	person:dn:henrik_krumedige_kvitering:18-206
 F	a|dn18-212:her henrik krumedige	person:dn:henrik_krumedige:18-212
+F	a|dn18-213:her åge hanson (tot)	person:dn:age_hanson_tot:18-213
 F	a|dn18-220:her henrik krumedige	person:dn:henrik_krumedige:18-220
 F	a|dn18-221:her henrik krumedige kvitering	person:dn:henrik_krumedige_kvitering:18-221
 F	a|dn18-222:her henrik krumedige kvitering	person:dn:henrik_krumedige_kvitering:18-222
 F	a|dn18-243:her henrik krumedige	person:dn:henrik_krumedige:18-243
 F	a|dn18-249:electus	person:dn:electus:18-249
+F	a|dn18-253:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn18-265:kung kristiern i	person:kristian_2
+F	a|dn18-267:kung fredrik i	person:fredrik_1
 F	a|dn18-271:kung kristiern i	person:kristian_2
 F	a|dn18-276:kung kristiern i	person:kristian_2
 F	a|dn18-277:kung kristiern i afskrifter af	person:kristian_2
 F	a|dn18-279:kung kristiern i	person:kristian_2
+F	a|dn18-282:kung kristiern i	person:kristian_2
 F	a|dn18-284:kung kristiern i	person:kristian_2
 F	a|dn18-285:kung kristiern i	person:kristian_2
 F	a|dn18-287:her georg von minckvitz	person:dn:georg_von_minckvitz:18-287
@@ -53375,6 +53518,7 @@ F	a|dn18-293:m. lambert anderson	person:dn:lambert_anderson:10-432
 F	a|dn18-295:kung fredrik i	person:fredrik_1
 F	a|dn18-297:kung kristiern i	person:kristian_2
 F	a|dn18-298:kristiern vinter	person:dn:kristiern_vinter:18-298
+F	a|dn18-308:kung kristiern i	person:kristian_2
 F	a|dn18-309:kung kristiern i	person:kristian_2
 F	a|dn18-310:kristiern i	person:dn:kristiern:18-310
 F	a|dn18-311:kung kristiern i	person:kristian_2
@@ -53385,6 +53529,7 @@ F	a|dn18-317:kung kristiern i	person:kristian_2
 F	a|dn18-318:kung kristiern i	person:kristian_2
 F	a|dn18-323:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:18-323-a
 F	a|dn18-327:kung kristiern i aftalerne	person:kristian_2
+F	a|dn18-330:drotning elisabet	person:dn:drotning_elisabet:18-330-a
 F	a|dn18-338:her jörgen von minckvitz	person:dn:jorgen_von_minckvitz:18-338
 F	a|dn18-339:marsk her tyge krabe	person:dn:tyge_krabe:8-713
 F	a|dn18-344:kung kristiern i	person:kristian_2
@@ -53449,7 +53594,9 @@ F	a|dn18-517:kung kristiern i	person:kristian_2
 F	a|dn18-518:kung kristiern i	person:kristian_2
 F	a|dn18-520:kung kristiern i	person:kristian_2
 F	a|dn18-522:kung kristiern i	person:kristian_2
+F	a|dn18-523:kung kristiern i	person:kristian_2
 F	a|dn18-524:hans michelson	person:dn:hans_michelson:18-524
+F	a|dn18-526:kung kristiern i	person:kristian_2
 F	a|dn18-528:kung kristiern i	person:kristian_2
 F	a|dn18-529:kung kristiern i	person:kristian_2
 F	a|dn18-532:kung kristiern i	person:kristian_2
@@ -53463,6 +53610,7 @@ F	a|dn18-547:kung kristiern i	person:kristian_2
 F	a|dn18-548:kung kristiern i	person:kristian_2
 F	a|dn18-550:kung kristiern i	person:kristian_2
 F	a|dn18-556:kung kristiern i	person:kristian_2
+F	a|dn18-558:kung kristiern i	person:kristian_2
 F	a|dn18-559:kung kristiern i	person:kristian_2
 F	a|dn18-561:kung kristiern i	person:kristian_2
 F	a|dn18-565:kung kristiern i	person:kristian_2
@@ -53588,6 +53736,7 @@ F	a|dn2-1134:her esge bilde	person:dn:esge_bilde:2-1134
 F	a|dn2-118:gyrd trondarson	person:dn:gyrd_trondarson:2-118
 F	a|dn2-168:drots her erling vidkunson	person:dn:erling_vidkunson:1-204
 F	a|dn2-22:oslo stifts geistlige	person:dn:oslo_stifts_geistlige:2-22
+F	a|dn2-43:her bjarne (erlingson) i bjarkö	person:dn:bjarne_erlingson:2-111
 F	a|dn2-445:kung håkon	person:dn:kung_hakon:2-445-a
 F	a|dn2-651:kung erik lydiged	person:erik_av_pommern
 F	a|dn2-74:sira olav arnesöns	person:dn:sira_olav_arnesons:2-74
@@ -53832,6 +53981,7 @@ F	a|dn22-420:eske bile	person:dn:eske_bile:22-420
 F	a|dn22-421:her eske bile	person:dn:eske_bile:22-421
 F	a|dn22-425:her eske bile	person:dn:eske_bile:22-425
 F	a|dn22-427:her eske bile	person:dn:eske_bile:22-427
+F	a|dn22-428:kung kristian	person:kristian_3
 F	a|dn22-42:her svante nilson	person:svante_nilsson
 F	a|dn22-431:her eske bile	person:dn:eske_bile:22-431
 F	a|dn22-432:her eske bile	person:dn:eske_bile:22-421
@@ -53871,6 +54021,7 @@ F	a|dn22-494:kung kristian i	person:kristian_3
 F	a|dn22-495:kung kristian i	person:kristian_3
 F	a|dn22-496:den kung fredrik	person:dn:kung_fredrik:22-496-a
 F	a|dn22-497:kung fredrik i	person:dn:kung_fredrik:22-497-a
+F	a|dn22-498:kung fredrik i	person:dn:kung_fredrik:22-498-a
 F	a|dn22-499:den kung fredrik i	person:dn:kung_fredrik:22-499-a
 F	a|dn22-500:kung fredrik i	person:dn:kung_fredrik:22-500-a
 F	a|dn22-501:kung fredrik i	person:dn:kung_fredrik:22-501-a
@@ -53937,6 +54088,7 @@ F	a|dn22-85:her svante nilson	person:svante_nilsson
 F	a|dn22-86:her svante nilson	person:svante_nilsson
 F	a|dn22-8:her svante nilson	person:svante_nilsson
 F	a|dn22-90:her svante nilson	person:svante_nilsson
+F	a|dn22-91:(biskop vincens i skara	person:vincent_henningsson_skara
 F	a|dn22-93:her svante nilson	person:svante_nilsson
 F	a|dn22-95:her svante nilson	person:svante_nilsson
 F	a|dn22-96:her svante nilson	person:svante_nilsson
@@ -53967,6 +54119,7 @@ F	a|dn23-217:kung fredrik (1	person:fredrik_1
 F	a|dn23-221:fru ane rud	person:dn:ane_rud:23-221
 F	a|dn23-222:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn23-225:eske bile	person:dn:eske_bile:23-225
+F	a|dn23-229:fru ane rud	person:dn:ane_rud:23-193
 F	a|dn23-238:fru ane rud	person:dn:ane_rud:23-204
 F	a|dn23-23:gudrun i hestag	person:dn:gudrun:23-23
 F	a|dn23-248:her eske bile	person:dn:eske_bile:23-248
@@ -54004,6 +54157,7 @@ F	a|dn23-344:fru sofie (krumedike)	person:dn:sofie_krumedike:23-189
 F	a|dn23-349:eske bile	person:dn:eske_bile:23-349
 F	a|dn23-356:her eske bile	person:dn:eske_bile:23-356
 F	a|dn23-363:fru sofie krumedike	person:dn:sofie_krumedike:23-189
+F	a|dn23-365:eske bile	person:dn:eske_bile:23-365
 F	a|dn23-369:eske bile	person:dn:eske_bile:22-305
 F	a|dn23-373:danmarks riksråd	institution:sdhk:danska_riksradet
 F	a|dn23-378:danmarks riksråd	institution:sdhk:danska_riksradet
@@ -54092,12 +54246,15 @@ F	a|dn3-62:abot hugo i lyse	person:dn:hugo:3-62
 F	a|dn3-75:biskop arne i bergen	person:sdhk:arne:2140
 F	a|dn3-76:biskop arne i bergen	person:sdhk:arne:2140
 F	a|dn3-824:påve nicolaus v	person:pave_nicolaus_v
+F	a|dn3-876:her hartvik krumedike	person:dn:hartvik_krumedike:1-788
 F	a|dn3-931:rådet i lybek	institution:sdhk:radet_i_lybek
 F	a|dn3-939:norges riges råd	person:dn:norges_riges_rad:3-939
 F	a|dn4-100:kung håkon	person:hakon_5
 F	a|dn4-1030:pål tolfson borger i oslo	person:dn:pal_tolfson_borger:4-1030
 F	a|dn4-1080:kung kristiern i	person:kristian_2
+F	a|dn4-1085:kung fredrik i	person:fredrik_1
 F	a|dn4-108:biskop audfin i bergen	person:sdhk:audfin:41114
+F	a|dn4-1140:kung kristian	person:kristian_3
 F	a|dn4-11:biskoperne (eyvind) i oslo	person:dn:biskoperne_eyvind:4-11
 F	a|dn4-155:lagman jon torsteinson	person:dn:jon_torsteinson:4-155
 F	a|dn4-163:biskop audfin i bergen	person:sdhk:audfin:41114
@@ -54108,8 +54265,10 @@ F	a|dn4-501:kongerne magnus	person:dn:kongerne_magnus:4-501
 F	a|dn4-503:kung håkon	person:dn:kung_hakon:4-503-a
 F	a|dn4-62:presterne estein	person:dn:presterne_estein:4-62
 F	a|dn4-69:abot jon	person:dn:jon:4-69
+F	a|dn4-897:ärkebiskop aslak	person:aslak_bolt_1450
 F	a|dn4-97:ärkebiskop eilif	person:dn:eilif:1-154
 F	a|dn5-1011:domkapitlet i nidaros	institution:sdhk:domkapitlet_i_nidaros
+F	a|dn5-1013:her henrik (krumedike)	person:sdhk:henrik_krumedike:33581
 F	a|dn5-1037:påve hadrian vi	person:pave_hadrianus_vi
 F	a|dn5-1043:kristiern	person:dn:kristiern:5-1043
 F	a|dn5-1044:cornelius sceperus	person:dn:cornelius_sceperus:5-1044
@@ -54134,12 +54293,15 @@ F	a|dn5-647:norges riksråd	institution:sdhk:norska_riksradet
 F	a|dn5-6:rådet i hamburg	institution:sdhk:radet_i_hamburg
 F	a|dn5-80:biskop audfin i bergen	person:sdhk:audfin:41114
 F	a|dn5-81:ärkebiskop eilif	person:dn:eilif:1-154
+F	a|dn5-827:kung kristiern i	person:kristian_1
 F	a|dn5-836:kung kristiern i	person:kristian_1
 F	a|dn5-959:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn6-102:kung (magnus erikson) av norge	person:magnus_eriksson
+F	a|dn6-10:ärkebiskop (torer)	person:dn:torer:6-11
 F	a|dn6-112:johanes	person:dn:johanes:6-112
 F	a|dn6-11:ärkebiskop (torer)	person:dn:torer:6-11
 F	a|dn6-124:biskop (halvard) i hamer tiligemed nuntierne johan i serone	person:dn:halvard:6-124
+F	a|dn6-12:ärkebiskop (torer)	person:dn:torer:6-11
 F	a|dn6-133:ärkebiskop (eilif) i nidaros	person:dn:eilif:1-154
 F	a|dn6-13:ärkebiskop gudtorm i nidaros	person:dn:gudtorm:6-13
 F	a|dn6-144:påve johanes xi erkebiskoperne	person:pave_johanes_xxii
@@ -54153,22 +54315,31 @@ F	a|dn6-170:ärkebiskop (pål) i nidaros	person:pal_bardson_1346
 F	a|dn6-176:ärkebiskop (pål) i nidaros	person:pal_bardson_1346
 F	a|dn6-181:ärkebiskop arne i nidaros selv eler	person:dn:arne:6-181
 F	a|dn6-184:kung magnus	person:magnus_eriksson
+F	a|dn6-192:indsamlerne af	person:dn:indsamlerne_af:6-192
 F	a|dn6-210:biskop sigfrid i stavanger (eler	person:dn:sigfrid:6-210
 F	a|dn6-232:ärkebiskop olav i nidaros	person:dn:olav:4-357
 F	a|dn6-23:biskop (arne) i bergen tiligemed prädikebrödrenes priorer i nidaros	person:dn:arne:6-23
 F	a|dn6-241:biskop halvard i oslo tilige	person:dn:halvard:6-241
 F	a|dn6-25:ärkebiskop sörle	person:dn:sorle:3-4
+F	a|dn6-290:biskop botolf i stavanger	person:dn:botolf:4-494
 F	a|dn6-29:biskop (laurentius) i skara	person:lars_skara
 F	a|dn6-32:biskop (peter) i bergen	person:dn:peter:6-32
+F	a|dn6-333:biskop (jakob) i bergen	person:dn:jakob:12-121
 F	a|dn6-339:drotning (margrete)	person:dn:drotning_margrete:6-339-a
 F	a|dn6-35:ärkebiskop (jon) i nidaros	person:dn:jon:3-12
 F	a|dn6-372:ärkebiskop johanes i riga	person:sdhk:johanes:19585
+F	a|dn6-423:drotning philipa	person:dn:drotning_philipa:6-423-a
 F	a|dn6-444:ridare robert shotesbroke	person:dn:robert_shotesbroke:6-444
 F	a|dn6-46:ärkebiskop (jon)	person:dn:arkebiskop_jon:6-46-a
+F	a|dn6-485:kung kristofer	person:kristofer_av_bayern
+F	a|dn6-488:kung kristofer	person:kristofer_av_bayern
 F	a|dn6-52:biskoperne (eyvind) i oslo	person:dn:biskoperne_eyvind:4-11
 F	a|dn6-549:ärkebiskop henrik i nidaros	person:dn:henrik_kalteison:6-549
 F	a|dn6-54:ärkebiskop (giselbert)	person:dn:giselbert:6-54
 F	a|dn6-572:kung kristian i	person:kristian_1
+F	a|dn6-596:kung hans	person:hans
+F	a|dn6-597:drotning dorotea	person:dorotea_av_brandenburg
+F	a|dn6-611:kung hans	person:hans
 F	a|dn6-638:kung hans	person:hans
 F	a|dn6-643:kung hans	person:hans
 F	a|dn6-666:churfyrst joachim i brandenburg blandt andet	person:dn:churfyrst_joachim:6-666
@@ -54179,6 +54350,7 @@ F	a|dn6-685:rådet i rostock	institution:sdhk:radet_i_rostock
 F	a|dn6-698:norges riksråd	institution:sdhk:norska_riksradet
 F	a|dn6-700:kung kristiern (i)	person:kristian_2
 F	a|dn6-705:biskop magnus i hamer kvitering	person:dn:magnus:6-705
+F	a|dn6-717:hans lindeman i rostock	person:dn:hans_lindeman:6-717
 F	a|dn6-718:kung kristiern (i	person:kristian_2
 F	a|dn6-747:her esge bilde	person:dn:esge_bilde:6-747
 F	a|dn6-751:deventers borgermestere	person:dn:deventers_borgermestere:6-751
@@ -54192,6 +54364,7 @@ F	a|dn6-87:ärkebiskop (eilif)	person:dn:eilif:1-154
 F	a|dn6-90:ärkebiskop (eilif)	person:dn:eilif:1-154
 F	a|dn6-91:kung (håkon v)	person:hakon_5
 F	a|dn6-93:ärkebiskop (eilif)	person:dn:eilif:1-154
+F	a|dn7-104:biskop audfin	person:sdhk:audfin:41114
 F	a|dn7-104:biskop audfins brev	person:dn:audfins_brev:7-104
 F	a|dn7-110:kanik pål (bårdson) kvitering	person:dn:pal_bardson_kvitering:7-110
 F	a|dn7-120:biskop viljam i orknö	person:dn:viljam:7-119
@@ -54230,6 +54403,7 @@ F	a|dn7-33:ärkebiskop jörund	person:dn:jorund:1-85
 F	a|dn7-34:ärkebiskop jörund	person:dn:jorund:1-85
 F	a|dn7-398:biskop jens i oslo	person:dn:jens_jon:1-711
 F	a|dn7-407:norges biskoper	person:dn:norges_biskoper:7-407
+F	a|dn7-41:her sige halsteinson fuldmagt	person:dn:sige_halsteinson_fuldmagt:7-41
 F	a|dn7-420:biskop olav i bergen	person:dn:olav:1-765
 F	a|dn7-47:kung (håkon v) resultaterne af	person:hakon_5
 F	a|dn7-52:petrus	person:dn:petrus:7-52
@@ -54290,13 +54464,16 @@ F	a|dn7-708:ärkebiskop olav	person:dn:arkebiskop_olav:7-708-a
 F	a|dn7-709:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn7-713:ärkebiskop olav	person:dn:arkebiskop_olav:7-713-a
 F	a|dn7-714:ärkebiskop olav	person:dn:arkebiskop_olav:7-714-a
+F	a|dn7-717:ärkebiskop olav	person:dn:arkebiskop_olav:7-717-a
 F	a|dn7-718:ärkebiskop olav	person:dn:arkebiskop_olav:7-718-a
 F	a|dn7-720:ärkebiskop olav	person:dn:arkebiskop_olav:7-720-a
 F	a|dn7-721:biskop hans ref i oslo nu	person:hans_rev_1545
 F	a|dn7-722:her vincents lunge	person:dn:vincents_lunge:7-722
 F	a|dn7-734:hamburgs borgermestere	person:dn:hamburgs_borgermestere:7-734
 F	a|dn7-735:amsterdams borgermestere	person:dn:amsterdams_borgermestere:7-735
+F	a|dn7-737:hamburgs borgermestere	person:dn:hamburgs_borgermestere:7-737
 F	a|dn7-73:biskop arne i bergen under straf i forbud mod indgang i kirken	person:dn:arne:7-73
+F	a|dn7-88:ärkebiskop eilif	person:dn:eilif:1-154
 F	a|dn7-90:biskop audfin i bergen	person:sdhk:audfin:41114
 F	a|dn7-97:biskop audfin i bergen	person:sdhk:audfin:41114
 F	a|dn7-9:kung reginald (ragnvald) i man	person:dn:kung_reginald:7-9-a
@@ -54335,12 +54512,14 @@ F	a|dn8-169:biskop botulf i stavanger	person:dn:botulf:6-227
 F	a|dn8-171:biskop gisbrikt i bergen	person:dn:gisbrikt:1-331
 F	a|dn8-172:ärkebiskop olav i nidaros samt	person:dn:olav:8-172
 F	a|dn8-173:biskop sigfrid i oslo	person:dn:sigfrid:7-247
+F	a|dn8-26:ärkebiskop jörund	person:dn:jorund:1-85
 F	a|dn8-31:biskop ketil i stavanger i forening	person:dn:ketil:8-31
 F	a|dn8-336:kung kristiern (i) ret	person:kristian_1
 F	a|dn8-337:kung kristiern (i) tiladelse	person:kristian_1
 F	a|dn8-33:biskoperne ketil i stavanger helge i oslo	person:dn:biskoperne_ketil:8-33
 F	a|dn8-34:ärkebiskop jörunds	person:dn:jorunds:8-34
 F	a|dn8-366:sveinke sveinson kvitering	person:dn:sveinke_sveinson_kvitering:8-366
+F	a|dn8-370:sigurd torsteinson kvitering	person:dn:sigurd_torsteinson_kvitering:8-370
 F	a|dn8-431:biskoperne herlog i oslo	person:dn:biskoperne_herlog:8-431
 F	a|dn8-444:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-445:her henrik krumedike	person:sdhk:henrik_krumedike:33581
@@ -54350,12 +54529,14 @@ F	a|dn8-455:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-456:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-457:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-458:her henrik krumedike	person:sdhk:henrik_krumedike:33581
+F	a|dn8-45:påve clemens v	person:pave_clemens_v
 F	a|dn8-463:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-464:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-465:her henrik krumedike	person:sdhk:henrik_krumedike:33581
 F	a|dn8-468:biskop diderik i lubeck	person:dn:diderik:8-468
 F	a|dn8-473:ärkebiskop gaute i anledning af	person:dn:gaute:8-473
 F	a|dn8-487:kung kristiern (i)	person:kristian_2
+F	a|dn8-508:kung kristiern (i)	person:kristian_2
 F	a|dn8-509:kung kristiern (i)	person:kristian_2
 F	a|dn8-514:kung kristiern (i)	person:kristian_2
 F	a|dn8-515:her henrik krumedike	person:sdhk:henrik_krumedike:33581
@@ -54367,6 +54548,8 @@ F	a|dn8-525:ärkebiskop olav	person:dn:arkebiskop_olav:8-525-a
 F	a|dn8-530:rigsråderne nordenfjelds i norge	person:dn:rigsraderne_nordenfjelds:8-530
 F	a|dn8-531:ärkebiskop olav	person:dn:arkebiskop_olav:8-531-a
 F	a|dn8-537:kung fredrik (i)	person:fredrik_1
+F	a|dn8-539:kung kristiern (i)	person:kristian_2
+F	a|dn8-540:modtagelson af	person:dn:modtagelson_af:8-540
 F	a|dn8-547:kung kristiern i	person:kristian_2
 F	a|dn8-548:kung kristiern i	person:kristian_2
 F	a|dn8-552:kung kristiern i	person:kristian_2
@@ -54375,8 +54558,11 @@ F	a|dn8-556:ärkebiskop olav i forening	person:dn:olav:8-556
 F	a|dn8-558:ärkebiskop olav	person:dn:arkebiskop_olav:8-558-a
 F	a|dn8-561:her vincents lunge	person:dn:vincents_lunge:8-561
 F	a|dn8-562:ärkebiskop olav (engelbrektson)	person:dn:arkebiskop_olav:8-562-a
+F	a|dn8-564:ärkebiskop olav (engelbrektson)	person:dn:arkebiskop_olav:8-564-a
 F	a|dn8-587:esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn8-589:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	a|dn8-590:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	a|dn8-591:ärkebiskop olav	person:dn:arkebiskop_olav:8-591-a
 F	a|dn8-593:ärkebiskop olav	person:dn:arkebiskop_olav:8-593-a
 F	a|dn8-594:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn8-597:norges indbygere	person:dn:norges_indbygere:8-597
@@ -54392,21 +54578,29 @@ F	a|dn8-641:ärkebiskop olav	person:dn:arkebiskop_olav:8-641-a
 F	a|dn8-644:kung kristiern i	person:kristian_2
 F	a|dn8-645:ärkebiskop olav	person:dn:arkebiskop_olav:8-645-a
 F	a|dn8-646:ärkebiskop olav	person:dn:arkebiskop_olav:8-646-a
+F	a|dn8-647:ärkebiskop olav i trondjem i anledning af	person:dn:olav:8-647
 F	a|dn8-651:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-654:ärkebiskop olav	person:dn:arkebiskop_olav:8-654-a
+F	a|dn8-65:kanik botolf håkonson	person:dn:botolf_hakonson:8-65
 F	a|dn8-664:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-667:trondjems kapitel fölgebrev	person:dn:trondjems_kapitel_folgebrev:8-667
+F	a|dn8-66:kanik sira botolf håkonson	person:dn:sira_botolf_hakonson:8-66
 F	a|dn8-671:ärkebiskop olav	person:dn:arkebiskop_olav:8-671-a
 F	a|dn8-675:biskop hans ref i oslo	person:hans_rev_1545
 F	a|dn8-676:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-680:ärkebiskop olav	person:dn:arkebiskop_olav:8-680-a
 F	a|dn8-683:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-685:ärkebiskop olav	person:dn:arkebiskop_olav:8-685-a
+F	a|dn8-686:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn8-689:ärkebiskop olav	person:dn:arkebiskop_olav:8-689-a
+F	a|dn8-68:biskop audfin	person:sdhk:audfin:41114
 F	a|dn8-68:biskop audfins brev	person:dn:audfins_brev:7-104
 F	a|dn8-693:ärkebiskop olav	person:dn:arkebiskop_olav:8-693-a
+F	a|dn8-695:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-696:riderne vincents lunges	person:dn:riderne_vincents_lunges:8-696
 F	a|dn8-698:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-698
+F	a|dn8-699:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-695
+F	a|dn8-706:ärkebiskop olav kvitering	person:dn:arkebiskop_olav:8-706-a
 F	a|dn8-711:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-712:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn8-713:ärkebiskop olav i trondjem	person:dn:olav:1-1065
@@ -54414,10 +54608,13 @@ F	a|dn8-717:kung gustav av sverige	person:gustav_vasa
 F	a|dn8-71:biskop audfin i bergen	person:sdhk:audfin:41114
 F	a|dn8-722:ärkebiskop olav i trondjem efter denes begjäring	person:dn:olav:8-722
 F	a|dn8-72:biskop håkon i stavanger	person:dn:hakon:2-134
+F	a|dn8-730:ärkebiskop olav	person:dn:arkebiskop_olav:8-730-a
 F	a|dn8-731:ärkebiskop olav	person:dn:arkebiskop_olav:8-731-a
+F	a|dn8-73:biskop audfin	person:sdhk:audfin:41114
 F	a|dn8-74:ärkebiskop eilif	person:dn:eilif:1-154
 F	a|dn8-82:hertigina ingebjörg	person:dn:hertigina_ingebjorg:8-82-a
 F	a|dn8-83:ärkebiskop (eilif)	person:dn:eilif:1-154
+F	a|dn8-86:biskop audfin i bergen	person:sdhk:audfin:41114
 F	a|dn8-96:kung magnus	person:magnus_eriksson
 F	a|dn8-97:drotning blanka	person:blanka_av_namur
 F	a|dn8-98:her pål eirikson	person:dn:pal_eirikson:8-98
@@ -54428,13 +54625,17 @@ F	a|dn9-125:biskop (erik) i stavanger	person:dn:erik:1-192
 F	a|dn9-133:biskop erik i stavanger	person:dn:erik:1-192
 F	a|dn9-134:her jon haftorson	person:dn:jon_haftorson:9-134
 F	a|dn9-136:biskop håkon i bergen	person:dn:hakon:1-249
+F	a|dn9-138:ärkebiskop pål	person:pal_bardson_1346
 F	a|dn9-139:biskop håkon i bergen	person:dn:hakon:1-249
+F	a|dn9-140:ärkebiskop pål	person:pal_bardson_1346
+F	a|dn9-141:ärkebiskop pål	person:pal_bardson_1346
 F	a|dn9-19:minoriterordenens general-	person:dn:minoriterordenens_general:9-19
 F	a|dn9-315:tora sveinsdoter kvitering	person:dn:tora_sveinsdoter_kvitering:9-315
 F	a|dn9-42:minoriterne fortolkninger	person:dn:minoriterne_fortolkninger:9-42
 F	a|dn9-430:her henrik krumedige breve	person:dn:henrik_krumedige_breve:9-430
 F	a|dn9-432:her henrik krumedige	person:dn:henrik_krumedige:9-432
 F	a|dn9-496:her henrik krumedige	person:dn:henrik_krumedige:9-496
+F	a|dn9-514:her henrik krumedige	person:dn:henrik_krumedige:9-514
 F	a|dn9-518:her henrik krumedige	person:dn:henrik_krumedige:9-518
 F	a|dn9-519:her henrik krumedige	person:dn:henrik_krumedige:9-519
 F	a|dn9-522:påve clemens vi	person:pave_clemens_vii
@@ -54486,6 +54687,7 @@ F	a|dn9-620:kung kristiern i	person:kristian_2
 F	a|dn9-628:grev eno i ostfriesland	person:dn:grev_eno:9-628
 F	a|dn9-629:fru ane rud	person:dn:ane_rud:9-629
 F	a|dn9-630:her esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn9-631:ärkebiskop olav	person:dn:arkebiskop_olav:9-631-a
 F	a|dn9-632:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-634:her henrik krumedige	person:dn:henrik_krumedige:9-633
 F	a|dn9-635:her esge bilde	person:dn:esge_bilde:1-1109
@@ -54500,6 +54702,7 @@ F	a|dn9-655:kung kristiern i	person:kristian_2
 F	a|dn9-656:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-657:her esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-660:her esge bilde	person:dn:esge_bilde:1-1109
+F	a|dn9-663:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn9-673:esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-674:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
 F	a|dn9-676:kung fredrik i	person:fredrik_1
@@ -54512,6 +54715,7 @@ F	a|dn9-694:esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-698:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn9-699:ärkebiskop olav	person:dn:arkebiskop_olav:9-699-a
 F	a|dn9-702:kung kristiern i	person:kristian_2
+F	a|dn9-704:biskop olav i bergen	person:dn:olav:9-704
 F	a|dn9-705:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn9-708:esge bilde	person:dn:esge_bilde:1-1109
 F	a|dn9-709:esge bilde	person:dn:esge_bilde:1-1109
@@ -54520,6 +54724,7 @@ F	a|dn9-748:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	a|dn9-80:biskop arne i bergen	person:sdhk:arne:2140
 F	a|dn9-88:biskop viliam i orknö under forbud i indgang i kirken inden förstkomende st hansdag	person:dn:viliam:9-88
 F	a|dn9-92:biskop viliam i orknö	person:dn:viliam:9-92
+F	a|dn9-98:biskop salomon	person:dn:salomon:9-97
 F	a|dn9-98:biskop salomons brev	person:dn:salomons_brev:9-98
 F	df1014:lars tavast	person:df:lars_tavast:1014
 F	df101:birger	person:df:birger:101
@@ -58125,6 +58330,7 @@ F	dn1-1058:ärkebiskop erik valkendorf	person:erik_valkendorf_1522
 F	dn1-1059:ärkebiskop erik valkendorf	person:erik_valkendorf_1522
 F	dn1-105:jörund	person:dn:jorund:1-85
 F	dn1-1060:kapitlets valg i mester hans mule til hans eftermand	person:dn:kapitlets_valg:1-1060
+F	dn1-1061:trondjems domkapitel	person:dn:trondjems_domkapitel:1-1061
 F	dn1-1062:olav engelbrektson	person:dn:olav_engelbrektson:1-1062
 F	dn1-1063:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
 F	dn1-1065:kung fredrik i	person:fredrik_1
@@ -58184,6 +58390,9 @@ F	dn1-117:endride simonson	person:dn:endride_simonson:1-117
 F	dn1-118:arne	person:sdhk:arne:2140
 F	dn1-11:påve gregor ix	person:pave_gregorius_ix
 F	dn1-120:kung håkon	person:hakon_5
+F	dn1-121:audun torbergson	person:dn:audun_torbergson:1-121
+F	dn1-121:peter andreson	person:dn:peter_andreson:1-121
+F	dn1-121:sigurd jonson	person:dn:sigurd_jonson:1-121
 F	dn1-124:domkapitlet i oslo	institution:sdhk:domkapitlet_i_oslo
 F	dn1-125:kung håkon magnuson	person:hakon_5
 F	dn1-127:kung håkon v magnuson	person:hakon_5
@@ -58378,6 +58587,8 @@ F	dn1-267:gutorm pålson	person:dn:gutorm_palson:1-267
 F	dn1-268:botolf	person:dn:botolf:1-268
 F	dn1-268:brynjulf brynjulfson	person:dn:brynjulf_brynjulfson:1-268
 F	dn1-268:jörund på berg	person:dn:jorund:1-268
+F	dn1-269:björgulf astason (no. 245)	person:dn:bjorgulf_astason_no_245:1-269
+F	dn1-269:tord torgilson	person:dn:tord:1-286
 F	dn1-273:biskop håkon i bergen	person:dn:hakon:1-249
 F	dn1-274:sigurd kyrauge	person:dn:sigurd_kyrauge:1-274
 F	dn1-278:arne halvardson	person:dn:arne_halvardson:1-278
@@ -58653,6 +58864,7 @@ F	dn1-592:brynjulf torbergson	person:dn:brynjulf_torbergson:1-592
 F	dn1-592:jon olafson	person:dn:jon_olafson:1-592
 F	dn1-592:svein magnuson	person:dn:svein_magnuson:1-592
 F	dn1-596:halbjörn björnson	person:dn:halbjorn_bjornson:1-596
+F	dn1-599:halbjörn björnson	person:dn:halbjorn_bjornson:1-596
 F	dn1-59:birger	person:dn:birger:1-59
 F	dn1-5:påve honorius i	person:pave_honorius_iii
 F	dn1-600:olav (salmundson)	person:dn:olav_salmundson:1-600
@@ -59381,6 +59593,9 @@ F	dn10-591:rentemester (hos kung fredrik i)	person:dn:rentemester:10-591
 F	dn10-592:biskop hans (ref) i oslo	person:hans_rev_1545
 F	dn10-593:nils klauson	person:dn:nils_klauson:2-1108
 F	dn10-594:kansler klaus görtze (gjordson)	person:dn:kansler_klaus_gortze_gjordson:10-594
+F	dn10-595:(fogderne) knud skriver	person:dn:knud_skriver:10-595
+F	dn10-595:(lagmanden) nils klauson	person:dn:nils_klauson:10-595
+F	dn10-595:hening balhorn	person:dn:hening_balhorn:2-1090
 F	dn10-597:kung kristiern i	person:kristian_2
 F	dn10-598:her nils lyke	person:sdhk:nils_lyke:44872
 F	dn10-599:her mogens (henrikson) gyldenstjerne (hövitsman på akershus)	person:dn:mogens_henrikson_gyldenstjerne:10-599
@@ -59404,6 +59619,14 @@ F	dn10-61:kongens ombudsmand	person:dn:kongens_ombudsmand:10-61
 F	dn10-61:tore erlingson	person:dn:tore_erlingson:10-61
 F	dn10-620:biskop olav (torkelson) i bergen	person:dn:olav_torkelson:3-1103
 F	dn10-620:kanik mogens jonson	person:sdhk:mogens_jonson:44883
+F	dn10-622:esge bilde	person:dn:esge_bilde:1-1109
+F	dn10-622:geble pederson	person:dn:geble_pederson:10-622
+F	dn10-622:mogens jonson	person:sdhk:mogens_jonson:44883
+F	dn10-622:olav (torkelson)	person:dn:olav_torkelson:10-622
+F	dn10-623:esge bilde	person:dn:esge_bilde:1-1109
+F	dn10-623:geble pederson	person:dn:geble_pederson:10-623
+F	dn10-623:mogens jonson	person:sdhk:mogens_jonson:44883
+F	dn10-623:olav (torkelson)	person:dn:olav_torkelson:10-623
 F	dn10-624:biskop olav (torkelson) i bergen	person:dn:olav_torkelson:3-1103
 F	dn10-625:biskop olav i bergen	person:dn:olav_torkelson:3-1103
 F	dn10-626:biskop olav i bergen	person:dn:olav_torkelson:3-1103
@@ -59446,8 +59669,16 @@ F	dn10-666:biskop hans (ref) i oslo	person:hans_rev_1545
 F	dn10-667:biskop hans (ref) i oslo	person:hans_rev_1545
 F	dn10-669:hans ref	person:hans_rev_1545
 F	dn10-66:sigurd gunarson	person:dn:sigurd_gunarson:10-66
+F	dn10-677:her nils lyke	person:dn:nils_lyke:10-677
+F	dn10-677:väpnare johan kruckov	person:dn:johan_kruckov:10-690
+F	dn10-677:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	dn10-678:her nils lyke	person:dn:nils_lyke:10-678
+F	dn10-678:väpnare johan kruckov	person:dn:johan_kruckov:10-690
+F	dn10-678:ärkebiskop olav	person:dn:arkebiskop_olav:10-678
 F	dn10-679:reder tordson	person:dn:reder_tordson:10-679
 F	dn10-681:biskop höskuld i stavanger	person:dn:hoskuld:3-1085
+F	dn10-682:indbygerne i stavanger undskylde sig for ärkebiskop olav	person:dn:indbygerne:10-682
+F	dn10-682:lagman (nils klauson)	person:sdhk:nils_klauson:34479
 F	dn10-683:erik ormson	person:dn:erik_ormson:10-683
 F	dn10-684:her klaus bilde	person:dn:klaus_bilde:2-1084
 F	dn10-685:her klaus bilde	person:dn:klaus_bilde:2-1084
@@ -59458,11 +59689,11 @@ F	dn10-692:her nils lyke	person:dn:nils_lyke:10-692
 F	dn10-693:her klaus bilde (hövitsman på båhus)	person:dn:klaus_bilde:2-1084
 F	dn10-694:olav sigeson	person:dn:olav_sigeson:10-694
 F	dn10-696:esge bilde	person:dn:esge_bilde:1-1109
-F	dn10-697:johan kruckov	person:dn:johan_kruckov:10-697
+F	dn10-697:johan kruckov	person:dn:johan_kruckov:10-690
 F	dn10-698:lagretemänd i numedal	person:dn:lagretemand:10-698
 F	dn10-698:per olafson	person:dn:per_olafson:10-698
 F	dn10-698:simon olafson	person:dn:simon_olafson:10-698
-F	dn10-699:johan kruckov	person:dn:johan_kruckov:10-699
+F	dn10-699:johan kruckov	person:dn:johan_kruckov:10-690
 F	dn10-69:ogmund helgeson	person:dn:ogmund_helgeson:10-69
 F	dn10-69:torgeir torivilson	person:dn:torgeir_torivilson:10-69
 F	dn10-700:kansler morten krabe	person:dn:kansler_morten_krabe:10-700
@@ -59499,6 +59730,7 @@ F	dn10-737:svenung tolefson	person:dn:svenung_tolefson:10-737
 F	dn10-742:bent hård	person:dn:bent_hard:10-742
 F	dn10-743:her oluf	person:dn:oluf:10-743
 F	dn10-744:nils anderson	person:dn:nils_anderson:10-744
+F	dn10-747:rådet i odevald	institution:sdhk:radet_i_odevald
 F	dn10-748:torlak torlakson	person:dn:torlak_torlakson:10-748
 F	dn10-749:jakob anderson	person:dn:jakob_anderson:10-749
 F	dn10-74:gunar eirikson	person:dn:gunar_eirikson:2-434
@@ -59679,23 +59911,32 @@ F	dn11-309:ingeborg	person:dn:ingeborg:11-309
 F	dn11-309:sigrid	person:dn:sigrid:11-309
 F	dn11-311:brödrene sigurd	person:dn:brodrene_sigurd:11-311
 F	dn11-311:tore nigilsöner	person:dn:tore_nigilsoner:11-311
+F	dn11-312:ernst i braunschveig	person:dn:ernst:11-312
+F	dn11-312:hertig (fredrik) av holsten	person:dn:hertig_fredrik:11-312
+F	dn11-312:hertugerne oto	person:dn:hertugerne_oto:11-312
 F	dn11-313:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-314:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-315:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-316:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-317:kung fredrik i	person:fredrik_1
 F	dn11-318:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
+F	dn11-320:ärkebiskop herman i kölns hofråder	person:dn:herman:11-320
 F	dn11-321:ärkebiskop herman i köln	person:dn:herman:11-321
 F	dn11-322:kung kristiern i	person:kristian_2
 F	dn11-324:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-326:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-327:tomas (volsey)	person:dn:tomas_volsey:11-327
+F	dn11-328:rådet i köln	institution:sdhk:radet_i_koln
 F	dn11-329:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-330:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-331:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-332:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-333:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-334:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
+F	dn11-335:ernst i braunschveig	person:dn:ernst:11-312
+F	dn11-335:greverne oto	person:dn:greverne_oto:11-335
+F	dn11-337:ernst i braunschveig	person:dn:ernst:11-312
+F	dn11-337:hertugerne oto	person:dn:hertugerne_oto:11-337
 F	dn11-339:kung kristiern i	person:kristian_2
 F	dn11-340:kung kristiern i	person:kristian_2
 F	dn11-341:kung kristiern i	person:kristian_2
@@ -59730,14 +59971,24 @@ F	dn11-373:erkehertug ferdinand af österige	person:dn:erkehertug_ferdinand_af_o
 F	dn11-374:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
 F	dn11-376:albrecht i brandenburg	person:dn:albrecht:11-376
 F	dn11-378:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:11-378
+F	dn11-379:ernst i braunschveig	person:dn:ernst:11-312
+F	dn11-379:hertugerne oto	person:dn:hertugerne_oto:11-379
 F	dn11-37:jartrud haldorsdoter	person:dn:jartrud_haldorsdoter:11-37
+F	dn11-381:ernst i braunschveig	person:dn:ernst:11-312
+F	dn11-381:hertugerne oto	person:dn:hertugerne_oto:11-381
 F	dn11-383:georg	person:dn:georg:11-383
+F	dn11-384:rådet i hamburg	institution:sdhk:radet_i_hamburg
 F	dn11-385:cornelius sceper	person:dn:cornelius_sceper:11-385
 F	dn11-386:administrator i stiftet verden	person:dn:administrator:11-386
 F	dn11-386:hertig kristopher i braunschveig	person:dn:hertig_kristopher:11-386
 F	dn11-387:churfyrst fredrik i sachson	person:dn:churfyrst_fredrik:11-354
 F	dn11-388:churfyrst fredrik i sachson	person:dn:churfyrst_fredrik:11-354
+F	dn11-390:rådet i luneburg	institution:sdhk:radet_i_luneburg
 F	dn11-391:churfyrst fredrik i sachson	person:dn:churfyrst_fredrik:11-354
+F	dn11-392:dr. kristian beyer	person:dn:dr_kristian_beyer:11-392
+F	dn11-392:electus johan veze	person:dn:electus_johan_veze:11-392
+F	dn11-392:kung kristiern i.s gesandter i mödet i hamburg	person:dn:kung_kristiern:11-392
+F	dn11-392:prost hans hanson	person:dn:hans_hanson:17-1262
 F	dn11-393:kung kristiern i	person:kristian_2
 F	dn11-394:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:11-394
 F	dn11-396:kung kristiern i.s secretair kristiern vinter	person:dn:kung_kristiern:11-396
@@ -59856,7 +60107,10 @@ F	dn11-516:her henrik krumedige	person:dn:henrik_krumedige:9-633
 F	dn11-517:esge bilde	person:dn:esge_bilde:1-1109
 F	dn11-519:(kantsleren) gotskalk erikson	person:dn:gotskalk_erikson:11-519
 F	dn11-51:jon sigurdson	person:dn:jon_sigurdson:11-51
+F	dn11-520:(kantsleren) gotskalk erikson	person:dn:gotskalk_erikson:11-520
+F	dn11-520:melchior de germania	person:dn:melchior_de_germania:11-520
 F	dn11-521:esge bilde	person:dn:esge_bilde:1-1109
+F	dn11-523:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	dn11-524:fru ane rud (her henrik krumediges)	person:dn:ane_rud:11-524
 F	dn11-525:fru ane rud	person:dn:ane_rud:11-525
 F	dn11-526:her henrik krumedige	person:dn:henrik_krumedige:9-633
@@ -59929,6 +60183,8 @@ F	dn11-599:her nils lyke	person:dn:nils_lyke:11-599
 F	dn11-5:kung philip iv i frankrige	person:filip_4
 F	dn11-600:fru inger otesdoter (römer)	person:inger_til_austrat_1555
 F	dn11-601:her nils lyke	person:dn:nils_lyke:11-601
+F	dn11-603:her vincents lunges tjenere jörgen pederson	person:dn:vincents_lunges_tjenere_jorgen_pederson:11-603
+F	dn11-603:trond iverson	person:dn:trond_iverson:11-603
 F	dn11-604:her nils lyke	person:dn:nils_lyke:11-604
 F	dn11-606:jomfru lucie nilsdoter (gyldenlöve)	person:dn:jomfru_lucie_nilsdoter_gyldenlove:11-606
 F	dn11-607:her vincents lunge	person:dn:vincents_lunge:11-607
@@ -59952,6 +60208,7 @@ F	dn11-627:fru ingerd otesdoter	person:dn:ingerd_otesdoter:11-627
 F	dn11-629:henrik monson	person:dn:henrik_monson:11-629
 F	dn11-629:kustos i gråbrödreklosteret i tunsberg	person:dn:kustos:11-629
 F	dn11-631:nils jörenson	person:dn:nils_jorenson:11-631
+F	dn11-632:fire borgere i bergen afgive forklaring om sin samtale med kristopher trondson (rustung)	person:dn:fire_borgere:11-632
 F	dn11-634:esge bilde	person:dn:esge_bilde:1-1109
 F	dn11-635:esge bilde	person:dn:esge_bilde:1-1109
 F	dn11-636:her tyge krabe	person:dn:tyge_krabe:8-713
@@ -59993,6 +60250,7 @@ F	dn11-679:erik östensöner	person:dn:erik_ostensoner:11-679
 F	dn11-679:gunhild östensdötre	person:dn:gunhild_ostensdotre:11-679
 F	dn11-679:ingeborg	person:dn:ingeborg:11-679
 F	dn11-681:kung kristian i	person:kristian_3
+F	dn11-683:torvil tormodsöner	person:dn:torvil_tormodsoner:11-683
 F	dn11-685:jakob trolson	person:dn:jakob_trolson:11-685
 F	dn11-688:jens kristiernson	person:dn:jens_kristiernson:11-688
 F	dn11-689:severin fröker	person:dn:severin_froker:11-689
@@ -60177,14 +60435,22 @@ F	dn12-291:erkehertuginde margrete	person:dn:erkehertuginde_margrete:12-291
 F	dn12-291:statolderinde i nederlandene	person:dn:statolderinde:12-291
 F	dn12-293:erkehertuginde margareta	person:dn:erkehertuginde_margareta:12-293
 F	dn12-294:kung fredrik i	person:fredrik_1
+F	dn12-295:hans gamper	person:dn:hans_gamper:12-295
+F	dn12-295:hans peck	person:dn:hans_peck:12-295
+F	dn12-295:michel von rotenburg	person:dn:michel_von_rotenburg:12-295
+F	dn12-295:volf von bomberg	person:dn:volf_von_bomberg:12-295
+F	dn12-297:hans gamper	person:dn:hans_gamper:12-295
+F	dn12-297:hans peck	person:dn:hans_peck:12-295
 F	dn12-298:biskop magnus i hamer	person:dn:magnus:1-1045
 F	dn12-299:kung fredrik i	person:fredrik_1
 F	dn12-29:amund åleifson	person:dn:amund_aleifson:12-29
 F	dn12-2:biskop bjarne (kolbeinson) i orknö	person:dn:bjarne_kolbeinson:12-2
+F	dn12-300:indbygerne i odevald	person:dn:indbygerne:12-300
 F	dn12-301:her ture jenson (af 3 roser)	person:dn:ture_jenson:12-301
 F	dn12-302:her henrik krumedige	person:dn:henrik_krumedige:12-302
 F	dn12-303:her henrik krumedige	person:dn:henrik_krumedige:12-303
 F	dn12-304:her henrik krumedige	person:dn:henrik_krumedige:12-304
+F	dn12-305:hedemarkens bönder	person:dn:hedemarkens_bonder:12-305
 F	dn12-306:biskop magnus i hamer	person:dn:magnus:1-1045
 F	dn12-306:her gaute gale	person:dn:gaute_gale:12-306
 F	dn12-307:kung kristiern i	person:kristian_2
@@ -60196,6 +60462,8 @@ F	dn12-312:nils svenson	person:dn:nils_svenson:12-312
 F	dn12-313:her henrik krumedige	person:dn:henrik_krumedige:12-313
 F	dn12-314:her henrik krumedige	person:dn:henrik_krumedige:12-314
 F	dn12-316:kung kristiern i	person:kristian_2
+F	dn12-318:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
+F	dn12-318:her gaute galde	person:dn:gaute_galde:12-319
 F	dn12-319:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
 F	dn12-319:her gaute galde	person:dn:gaute_galde:12-319
 F	dn12-31:torleif ljotolfson (botolfson)	person:dn:torleif_ljotolfson_botolfson:12-31
@@ -60210,6 +60478,7 @@ F	dn12-329:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:12-329
 F	dn12-32:abot peter i jonsklosteret i bergen	person:dn:peter:12-32
 F	dn12-330:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:12-330
 F	dn12-331:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:12-331
+F	dn12-332:bastian sturtz	person:dn:bastian_sturtz:12-332
 F	dn12-333:m. hans mule	person:dn:hans_mule:2-1066
 F	dn12-336:her vincents lunge	person:dn:vincents_lunge:12-336
 F	dn12-33:kung håkon v	person:hakon_5
@@ -60298,6 +60567,8 @@ F	dn12-424:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn12-426:kansler klaus görtze	person:dn:kansler_klaus_gortze:12-426
 F	dn12-427:kung fredrik i	person:fredrik_1
 F	dn12-428:kung fredrik i	person:fredrik_1
+F	dn12-429:alart boelzon	person:dn:alart_boelzon:12-429
+F	dn12-429:cornelis baninck	person:dn:cornelis_baninck:12-429
 F	dn12-42:erling amundson	person:dn:erling_amundson:12-42
 F	dn12-42:lagman hauk (erlendson)	person:dn:hauk_erlendson:1-93
 F	dn12-431:hening valckendorf	person:dn:hening_valckendorf:12-431
@@ -60362,20 +60633,31 @@ F	dn12-492:her trud ulfstand	person:dn:trud_ulfstand:8-708
 F	dn12-493:ärkebiskop gustav (trole)	person:gustav_trolle_uppsala
 F	dn12-494:kort pening	person:dn:kort_pening:12-494
 F	dn12-494:kung kristiern i.s krigsöverste	person:dn:kung_kristiern:12-494
+F	dn12-495:biskop olav (torkelson) i bergen	person:dn:olav_torkelson:12-495
+F	dn12-495:esge bilde	person:dn:esge_bilde:1-1109
+F	dn12-495:her vincents lunge	person:dn:vincents_lunge:12-495
+F	dn12-495:hövedsmänd på bergenhus	person:dn:hovedsmand:12-495
 F	dn12-496:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn12-498:kung fredrik i	person:fredrik_1
+F	dn12-499:her klaus bilde	person:dn:klaus_bilde:2-1084
+F	dn12-499:her trud ulfstand	person:dn:trud_ulfstand:8-708
 F	dn12-49:broder torgeir pilz	person:dn:torgeir_pilz:12-49
 F	dn12-49:grim ormson	person:dn:grim_ormson:4-131
 F	dn12-4:biskop arne (torlakson) i skålholt	person:arni_torlakson_1298
 F	dn12-502:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
+F	dn12-508:kung fredrik i.s befuldmägtigede	person:fredrik_1
+F	dn12-509:kung fredrik i.s underhandlere	person:fredrik_1
 F	dn12-50:erlend bonde på skeidbreke	person:dn:erlend_bonde:12-50
 F	dn12-515:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn12-518:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn12-51:svein brynjulfson	person:dn:svein_brynjulfson:12-51
 F	dn12-523:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	dn12-524:nils lyke	person:dn:nils_lyke:12-524
+F	dn12-524:riderne vincents lunge	person:dn:riderne_vincents_lunge:12-524
 F	dn12-525:her vincents lunge	person:dn:vincents_lunge:12-525
 F	dn12-52:abot einar	person:dn:einar:12-44
 F	dn12-52:konventet i munkelivs kloster	person:dn:konventet:12-52
+F	dn12-533:kung fredrik i.s befuldmägtigede	person:fredrik_1
 F	dn12-534:kung fredrik i.s befuldmägtigede	person:fredrik_1
 F	dn12-536:kung fredrik i.s befuldmägtigede	person:fredrik_1
 F	dn12-538:kung fredrik i.s befuldmägtigede	person:fredrik_1
@@ -60387,7 +60669,7 @@ F	dn12-543:mag. torbjörn olafson (brat, senere superintendent i trondjem,)	pers
 F	dn12-544:danmarks riksråd	institution:sdhk:danska_riksradet
 F	dn12-546:her tyge krabe	person:dn:tyge_krabe:8-713
 F	dn12-549:her nils lyke	person:dn:nils_lyke:12-549
-F	dn12-549:johan kruckov	person:dn:johan_kruckov:12-549
+F	dn12-549:johan kruckov	person:dn:johan_kruckov:10-690
 F	dn12-54:svein brynjulfson	person:dn:svein_brynjulfson:12-54
 F	dn12-550:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn12-552:ärkebiskop olav i nidaros	person:olav_engelbrektson_1538
@@ -60415,6 +60697,8 @@ F	dn12-568:lagmänd i bergen	person:dn:lagmand:12-568
 F	dn12-568:nils klauson	person:dn:nils_klauson:2-1108
 F	dn12-568:stigtens formynder i bergen	person:dn:stigtens_formynder:12-568
 F	dn12-56:svein brynjulfson	person:dn:svein_brynjulfson:12-56
+F	dn12-576:knut pederson	person:dn:knut_pederson:12-578
+F	dn12-576:torfin olafson	person:dn:torfin_olafson:12-576
 F	dn12-578:knut pederson	person:dn:knut_pederson:12-578
 F	dn12-57:erik andreson på fit	person:dn:erik_andreson:12-57
 F	dn12-580:cornelius sceper	person:dn:cornelius_sceper:12-580
@@ -60486,6 +60770,7 @@ F	dn12-666:m. hans gås	person:dn:hans_gas:12-666
 F	dn12-668:kung fredrik i	person:dn:kung_fredrik:12-668
 F	dn12-669:m. hans gås	person:dn:hans_gas:12-669
 F	dn12-669:superintendent i trondjem	person:dn:superintendent:12-669
+F	dn12-670:m. henrik nilson	person:dn:henrik_nilson:12-670
 F	dn12-672:kristopher trondson (rustung)	person:dn:kristopher_trondson_rustung:12-672
 F	dn12-676:jon simonson	person:dn:jon_simonson:4-1124
 F	dn12-682:kung fredrik i	person:dn:kung_fredrik:12-682
@@ -60586,12 +60871,14 @@ F	dn13-212:drotning elisabet	person:dn:drotning_elisabet:13-212
 F	dn13-213:drotning elisabet	person:dn:drotning_elisabet:13-213
 F	dn13-214:kurfyrst joachim i brandenburg gjör kung kristiern i opmärksom på	person:dn:kurfyrst_joachim:13-214
 F	dn13-215:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
+F	dn13-216:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-217:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-218:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-219:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-21:kung magnus	person:magnus_eriksson
 F	dn13-221:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-222:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
+F	dn13-224:rådet i stendal	institution:sdhk:radet_i_stendal
 F	dn13-227:kung kristiern i	person:kristian_2
 F	dn13-228:kung kristiern i	person:kristian_2
 F	dn13-229:kung kristiern i	person:kristian_2
@@ -60705,6 +60992,8 @@ F	dn13-361:her henrik göye	person:dn:henrik_goye:13-361
 F	dn13-362:kung kristiern i	person:kristian_2
 F	dn13-363:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn13-364:kung kristiern i	person:kristian_2
+F	dn13-367:diderik claeson	person:dn:diderik_claeson:13-367
+F	dn13-367:popius oco	person:dn:popius_oco:7-632
 F	dn13-368:kung kristiern i	person:kristian_2
 F	dn13-370:kung kristiern i	person:kristian_2
 F	dn13-371:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
@@ -60734,7 +61023,7 @@ F	dn13-395:hans vefring	person:dn:hans_vefring:13-395
 F	dn13-396:kung kristiern i	person:kristian_2
 F	dn13-397:kung kristiern i	person:kristian_2
 F	dn13-398:kung kristiern i	person:kristian_2
-F	dn13-399:hans michelson	person:dn:hans_michelson:13-399
+F	dn13-399:hans michelson	person:dn:hans_michelson:11-429
 F	dn13-400:kung kristiern i	person:kristian_2
 F	dn13-401:markgreve albrekt i brandenburg	person:dn:markgreve_albrekt:10-358
 F	dn13-403:hans michelson	person:dn:hans_michelson:13-403
@@ -60794,6 +61083,9 @@ F	dn13-478:m. melchior de germania	person:dn:melchior_de_germania:13-478
 F	dn13-479:kung kristiern i	person:kristian_2
 F	dn13-480:ambrosius hochsteter	person:dn:ambrosius_hochsteter:13-480
 F	dn13-481:david falconer	person:dn:david_falconer:13-481
+F	dn13-482:ambrosius hochsteter	person:dn:ambrosius_hochsteter:13-482
+F	dn13-482:gerhard sterck	person:dn:gerhard_sterck:13-482
+F	dn13-482:lazarus tucher	person:dn:lazarus_tucher:13-482
 F	dn13-484:kung kristiern i	person:kristian_2
 F	dn13-485:kristiern vinter	person:dn:kristiern_vinter:13-485
 F	dn13-485:kung kristiern i.s secretair	person:dn:kung_kristiern:13-485
@@ -60805,6 +61097,8 @@ F	dn13-48:harald kolbjörnson	person:dn:harald_kolbjornson:1-544
 F	dn13-490:gotskalk erikson	person:dn:gotskalk_erikson:13-490
 F	dn13-491:ambrosius hochsteter	person:dn:ambrosius_hochsteter:13-491
 F	dn13-492:hans hanson	person:dn:hans_hanson:13-492
+F	dn13-493:borgere i leipzig	person:dn:borgere:13-493
+F	dn13-493:sigmund breutig	person:dn:sigmund_breutig:13-493
 F	dn13-495:gotskalk erikson	person:dn:gotskalk_erikson:13-495
 F	dn13-496:m. melchior de germania	person:dn:melchior_de_germania:13-496
 F	dn13-497:m. melchior de germania	person:dn:melchior_de_germania:13-497
@@ -60896,6 +61190,9 @@ F	dn13-589:erik gyldenstjerne (hövitsman på akershus)	person:dn:erik_gyldenstj
 F	dn13-58:sira olav	person:dn:sira_olav:13-58
 F	dn13-590:philipa amundsdoter	person:dn:philipa_amundsdoter:13-590
 F	dn13-591:peder hanson (litle)	person:dn:peder_hanson_litle:7-763
+F	dn13-592:biskop ove bilde i århus	person:dn:ove_bilde:11-594
+F	dn13-592:d. r. hofmester	person:dn:r_hofmester:13-592
+F	dn13-592:her mogens göye	person:dn:mogens_goye:13-592
 F	dn13-594:her tyge krabe	person:dn:tyge_krabe:8-713
 F	dn13-595:esge bilde	person:dn:esge_bilde:1-1109
 F	dn13-596:esge bilde	person:dn:esge_bilde:1-1109
@@ -60914,6 +61211,8 @@ F	dn13-613:biskop hans ref i oslo	person:hans_rev_1545
 F	dn13-614:biskop hans ref	person:johannes_magni_linkoping
 F	dn13-615:biskop hans ref	person:johannes_magni_linkoping
 F	dn13-617:biskop hans ref	person:johannes_magni_linkoping
+F	dn13-617:her vincents lunge	person:dn:vincents_lunge:13-617
+F	dn13-618:biskop hans ref	person:johannes_magni_linkoping
 F	dn13-619:biskop hans ref	person:johannes_magni_linkoping
 F	dn13-61:biskop sigurd i hamer	person:dn:sigurd:1-654
 F	dn13-621:nils berelson	person:dn:nils_berelson:13-621
@@ -60965,6 +61264,7 @@ F	dn13-685:tord torbjörnson	person:dn:tord_torbjornson:13-685
 F	dn13-686:peder hanson (litle)	person:dn:peder_hanson_litle:7-763
 F	dn13-687:gase torkelson på radefos (i kvinesdal)	person:dn:gase_torkelson:13-687
 F	dn13-687:stig bages fader	person:dn:stig_bages_fader:13-687
+F	dn13-687:svigerson torger berntson	person:dn:svigerson_torger_berntson:13-687
 F	dn13-688:kung kristian i	person:kristian_3
 F	dn13-689:peder hanson (litle)	person:dn:peder_hanson_litle:7-763
 F	dn13-690:kung kristian i	person:kristian_3
@@ -61056,6 +61356,9 @@ F	dn14-297:volf van bamberg	person:dn:volf_van_bamberg:14-297
 F	dn14-299:mag. lambert anderson	person:dn:mag_lambert_anderson:14-299
 F	dn14-303:johan de kaetser	person:dn:johan_de_kaetser:14-303
 F	dn14-303:vilhelm francke	person:dn:vilhelm_francke:14-303
+F	dn14-304:hans gamper	person:dn:hans_gamper:14-304
+F	dn14-304:hans peckt	person:dn:hans_peckt:14-304
+F	dn14-304:kung kristiern i.s tjenere	person:kristian_2
 F	dn14-305:kung kristiern i	person:kristian_2
 F	dn14-306:grev erik i hoya	person:dn:grev_erik:14-306
 F	dn14-307:grev erik i hoya	person:dn:grev_erik:14-306
@@ -61155,6 +61458,7 @@ F	dn14-412:kung kristiern i	person:kristian_2
 F	dn14-413:kung kristiern i	person:kristian_2
 F	dn14-414:dronings anligender	person:dn:dronings_anligender:14-414
 F	dn14-416:jörgen stegentin	person:dn:jorgen_stegentin:10-469
+F	dn14-417:kansler klaus pederson	person:dn:kansler_klaus_pederson:14-417
 F	dn14-418:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:14-418
 F	dn14-419:drotning leonora i portugal	person:dn:drotning_leonora:14-419
 F	dn14-420:markgreve albrecht i brandenburg	person:dn:markgreve_albrecht:11-313
@@ -61223,6 +61527,8 @@ F	dn14-482:jens i åsgate	person:dn:jens:14-482-2
 F	dn14-484:mag. lambert anderson	person:dn:mag_lambert_anderson:14-484
 F	dn14-485:nils lyke	person:sdhk:nils_lyke:44872
 F	dn14-486:mag. lambert anderson	person:dn:mag_lambert_anderson:14-486
+F	dn14-487:heming i aflo tiligemed tolv mänd undersöge et i hustru enfrid fremlagt brev (angående et salg i halvdelen i åse)	person:dn:heming:14-487
+F	dn14-487:lagman olav hemingson	person:dn:olav_hemingson:15-586
 F	dn14-488:administrator i stift minden	person:dn:administrator:14-454
 F	dn14-488:hertig frantz i braunschveig	person:dn:hertig_frantz:14-488
 F	dn14-491:administrator i stift minden	person:dn:administrator:14-454
@@ -61339,6 +61645,7 @@ F	dn14-613:jon larensöner	person:dn:jon_larensoner:14-613
 F	dn14-613:karl	person:dn:karl:14-613
 F	dn14-614:her vincents lunge	person:dn:vincents_lunge:7-596
 F	dn14-615:her vincents lunge	person:dn:vincents_lunge:7-596
+F	dn14-616:her vincents lunge	person:dn:vincents_lunge:7-596
 F	dn14-626:nils brade	person:dn:nils_brade:14-626
 F	dn14-627:her severin norby	person:sdhk:severin_norby:38422
 F	dn14-629:prost hans hanson	person:dn:hans_hanson:11-470
@@ -61352,6 +61659,9 @@ F	dn14-636:kung gustav i av sverige	person:gustav_vasa
 F	dn14-637:gotskalk erikson (rosenkrantz)	person:dn:gotskalk_erikson_rosenkrantz:14-637
 F	dn14-638:knut nilson	person:dn:knut_nilson:14-638
 F	dn14-639:her severin norby	person:sdhk:severin_norby:38422
+F	dn14-644:gudlaug i berön	person:dn:gudlaug:14-644
+F	dn14-644:gunhild i slandrung	person:dn:gunhild:14-644
+F	dn14-644:söstrene marit i solberg	person:dn:sostrene_marit:14-644
 F	dn14-650:m. gotskalk erikson	person:dn:gotskalk_erikson:14-650
 F	dn14-651:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn14-652:jörgen hanson i kampen	person:dn:jorgen_hanson:14-652
@@ -61384,7 +61694,7 @@ F	dn14-707:her nils lyke	person:dn:nils_lyke:14-707
 F	dn14-707:knud gyldenstjerne	person:dn:knud_gyldenstjerne:14-707
 F	dn14-707:mogens gyldenstjerne	person:dn:mogens_gyldenstjerne:9-684
 F	dn14-708:mogens gyldenstjerne	person:dn:mogens_gyldenstjerne:9-684
-F	dn14-708:nils lyke	person:dn:nils_lyke:14-707
+F	dn14-708:nils lyke	person:dn:nils_lyke:14-708
 F	dn14-711:trond iverson	person:dn:trond_iverson:14-711
 F	dn14-712:borger i kjöbenhavn	person:dn:borger:10-331
 F	dn14-712:nils töndebinder	person:dn:nils_tondebinder:14-712
@@ -61596,6 +61906,8 @@ F	dn15-182:antoine de ligne	person:dn:antoine_de_ligne:15-182
 F	dn15-183:optegnelser på de fordringer	person:dn:optegnelser:15-183
 F	dn15-184:drotning leonora i portugal	person:dn:drotning_leonora:15-184
 F	dn15-185:drotning leonora i portugal	person:dn:drotning_leonora:15-185
+F	dn15-186:diderich greve i manderscheyd	person:dn:diderich_greve:15-186
+F	dn15-186:greve i limburg	person:dn:greve:14-326
 F	dn15-188:bertold hestlich	person:dn:bertold_hestlich:15-188
 F	dn15-190:nils anderson	person:dn:nils_anderson:15-190
 F	dn15-192:drotning leonora i portugal	person:dn:drotning_leonora:15-192
@@ -61701,6 +62013,7 @@ F	dn15-302:mag. johanes has	person:dn:mag_johanes_has:15-302
 F	dn15-305:paulus petrus kempe	person:dn:paulus_petrus_kempe:15-305
 F	dn15-307:paulus petrus kempe	person:dn:paulus_petrus_kempe:15-307
 F	dn15-308:hertig ernst (i braunschveig och luneburg)	person:dn:hertig_ernst:15-308
+F	dn15-309:hertig ernst i braunschveig	person:dn:hertig_ernst:15-309
 F	dn15-310:paulus petrus kempe	person:dn:paulus_petrus_kempe:15-310
 F	dn15-311:hertig ernst i braunschveig	person:dn:hertig_ernst:15-311
 F	dn15-314:hertig ernst i braunschveig	person:dn:hertig_ernst:15-314
@@ -61761,6 +62074,7 @@ F	dn15-36:steinar björnson	person:dn:steinar_bjornson:15-36
 F	dn15-370:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-370
 F	dn15-371:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-371
 F	dn15-372:jean denys	person:dn:jean_denys:15-372
+F	dn15-373:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-373
 F	dn15-375:hans	person:dn:hans:15-375
 F	dn15-376:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-376
 F	dn15-377:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:15-377
@@ -61836,6 +62150,10 @@ F	dn15-44:ketil ivarson	person:dn:ketil_ivarson:15-44
 F	dn15-450:paulus p. kempe	person:dn:paulus_p_kempe:15-450
 F	dn15-452:björn torlakson	person:dn:bjorn_torlakson:15-452
 F	dn15-456:kung kristiern i	person:kristian_2
+F	dn15-457:karl erikson (gyldenstjerne)	person:dn:karl_erikson_gyldenstjerne:15-457
+F	dn15-458:åge spare	person:dn:age_spare:15-458
+F	dn15-459:nils lyke	person:dn:nils_lyke:15-459
+F	dn15-459:riderne johan rantzov	person:dn:riderne_johan_rantzov:15-459
 F	dn15-45:gunulf arneson	person:dn:gunulf_arneson:15-45
 F	dn15-45:juse jakobson	person:dn:juse_jakobson:15-45
 F	dn15-460:her johan urne	person:dn:johan_urne:15-460
@@ -61846,22 +62164,30 @@ F	dn15-465:kung fredrik i	person:fredrik_1
 F	dn15-466:kung kristiern i	person:kristian_2
 F	dn15-467:hansestädernes krigsfolk i oslo	person:dn:hansestadernes_krigsfolk:15-467
 F	dn15-470:kung kristiern i	person:kristian_2
+F	dn15-471:biskop hans ref i oslo	person:hans_rev_1545
+F	dn15-471:kung kristiern i.s underhandlere	person:dn:kung_kristiern:15-471
 F	dn15-472:kung kristiern i	person:kristian_2
 F	dn15-474:kung kristiern i	person:kristian_2
 F	dn15-477:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
 F	dn15-478:kung fredrik i	person:fredrik_1
 F	dn15-47:jon bjerneson	person:dn:jon_bjerneson:15-47
+F	dn15-480:de i leiren i oslo forsamlede hövedsmänd	person:dn:de:15-480
 F	dn15-481:kung kristiern i	person:kristian_2
 F	dn15-484:udrag af den	person:dn:udrag_af_den:15-484
 F	dn15-485:her knud gyldenstjerne	person:dn:knud_gyldenstjerne:15-485
 F	dn15-486:kung kristiern i	person:kristian_2
 F	dn15-487:ärkebiskop gustav trole	person:gustav_trolle_uppsala
+F	dn15-488:biskop olav i bergen	person:dn:olav_torkelson:12-495
+F	dn15-488:hererne esge bilde	person:dn:hererne_esge_bilde:15-488
+F	dn15-488:nils lyke	person:sdhk:nils_lyke:44872
+F	dn15-488:vincnts lunge	person:dn:vincnts_lunge:15-488
 F	dn15-492:ärkebiskop gustav trole i upsala	person:gustav_trolle_uppsala
 F	dn15-493:danmarks riksråd	institution:sdhk:danska_riksradet
 F	dn15-496:grev kristopher i oldenburg	person:dn:grev_kristopher:15-496
 F	dn15-497:grev kristopher i oldenburg	person:dn:grev_kristopher:15-496
 F	dn15-500:kansler mag. morten krabe på ärkebiskop olafs vegne	person:dn:kansler_mag_morten_krabe:15-500
 F	dn15-502:kristiern (i)	person:dn:kristiern:15-502
+F	dn15-503:de i oslo forsamlede rigsråder	person:dn:de:8-670
 F	dn15-504:norges riksråd	institution:sdhk:norska_riksradet
 F	dn15-510:norges riksråd	institution:sdhk:norska_riksradet
 F	dn15-513:biskop mogens i hamer	person:dn:mogens_laurenson:3-1142
@@ -61892,6 +62218,8 @@ F	dn15-544:kung kristian i	person:kristian_3
 F	dn15-545:jens splid	person:dn:jens_splid:15-534
 F	dn15-546:hertig ernst i braunschveig	person:dn:hertig_ernst:15-546
 F	dn15-547:conrad (kort) pfening	person:dn:conrad_kort_pfening:15-547
+F	dn15-550:klaus bilde	person:dn:klaus_bilde:2-1084
+F	dn15-550:riderne trued ulfstand	person:dn:riderne_trued_ulfstand:15-550
 F	dn15-551:kurfyrst joachim i brandenburg	person:dn:kurfyrst_joachim:12-287
 F	dn15-554:borger i skiden	person:dn:borger:15-554
 F	dn15-554:reinholt jonson	person:dn:reinholt_jonson:15-554
@@ -62155,6 +62483,7 @@ F	dn16-331:her knut alfsöns hustru	person:dn:knut_alfsons_hustru:16-331
 F	dn16-334:her nils brades efterleverske	person:dn:nils_brades_efterleverske:16-334
 F	dn16-334:magdalene olafsdoter (skanke)	person:dn:magdalene_olafsdoter_skanke:16-334
 F	dn16-335:väpnare stig gris	person:sdhk:stig_gris:34359
+F	dn16-338:bergefarerne i lubeck	person:dn:bergefarerne:16-338
 F	dn16-345:kontoret i bergen	person:dn:kontoret:16-345
 F	dn16-346:den kung kristiern (i)	person:kristian_2
 F	dn16-348:ärkebiskop jakob i upsala	person:jakob_ulvsson_uppsala
@@ -62169,6 +62498,9 @@ F	dn16-35:leik tostenson	person:dn:leik_tostenson:16-35
 F	dn16-35:ragnvald halvardson	person:dn:ragnvald_halvardson:16-35
 F	dn16-363:benkt gylte i påtorp	person:dn:benkt_gylte:16-363
 F	dn16-363:nils klauson i storda (nu stola)	person:sdhk:nils_klauson:36406
+F	dn16-365:larens nilson	person:dn:larens_nilson:16-365
+F	dn16-365:söster ana olafsdoter	person:dn:soster_ana_olafsdoter:16-365
+F	dn16-365:vicekonfesor i munkelivs kloster i bergen	person:dn:vicekonfesor:16-365
 F	dn16-369:hertig georg i sachson	person:dn:hertig_georg:16-369
 F	dn16-369:kung kristiern i	person:kristian_2
 F	dn16-370:kung kristiern i	person:kristian_2
@@ -62203,6 +62535,7 @@ F	dn16-406:kung henrik vi av england	person:dn:kung_henrik:16-406
 F	dn16-407:kung henrik vi av england	person:dn:kung_henrik:16-407
 F	dn16-409:kung kristiern i	person:kristian_2
 F	dn16-410:drotning elisabet	person:dn:drotning_elisabet:16-410
+F	dn16-411:rådet i staden	institution:sdhk:radet_i_staden
 F	dn16-412:johanes veze	person:dn:johanes_veze:16-412
 F	dn16-413:ärkebiskop herman i köln	person:dn:herman:11-321
 F	dn16-414:drotning elisabet	person:dn:drotning_elisabet:16-414
@@ -62216,12 +62549,14 @@ F	dn16-422:kardinal tomas volsey	person:dn:tomas_volsey:11-327
 F	dn16-424:kung henrik vi av england	person:dn:kung_henrik:16-424
 F	dn16-427:drotning elisabet	person:dn:drotning_elisabet:16-427
 F	dn16-428:paulus petrus kempe	person:dn:paulus_petrus_kempe:16-428
+F	dn16-429:lubecks borgermestere	person:dn:lubecks_borgermestere:16-429
 F	dn16-42:jon martinson på sudreim	person:dn:jon_martinson:16-42
 F	dn16-430:alexander kyngorne	person:dn:alexander_kyngorne:16-430
 F	dn16-430:kung kristiern i.s orator i skotland	person:dn:kung_kristiern:16-430
 F	dn16-432:hans gamper	person:dn:hans_gamper:16-432
 F	dn16-434:klaus hermeling	person:dn:klaus_hermeling:16-434
 F	dn16-435:klein van haitlem	person:dn:klein_van_haitlem:16-435
+F	dn16-436:klaus hermeling	person:dn:klaus_hermeling:16-436
 F	dn16-437:klaus hermeling	person:dn:klaus_hermeling:16-437
 F	dn16-439:administrator i stift minden	person:dn:administrator:14-454
 F	dn16-441:johan hanart	person:dn:johan_hanart:16-441
@@ -62275,6 +62610,8 @@ F	dn16-505:paulus petrus kempe	person:dn:paulus_petrus_kempe:16-505
 F	dn16-506:peter hals (van mecheln)	person:dn:peter_hals:16-506
 F	dn16-507:ferdinand	person:dn:ferdinand:16-507
 F	dn16-508:kung kristiern i	person:kristian_2
+F	dn16-510:jakob halandsfar	person:dn:jakob_halandsfar:16-510
+F	dn16-510:skiper herman	person:dn:skiper_herman:16-510
 F	dn16-512:albrecht hondorf	person:dn:albrecht_hondorf:16-512
 F	dn16-513:jon skötes efterleverske	person:dn:jon_skotes_efterleverske:16-513
 F	dn16-513:margrete tordsdoter	person:dn:margrete_tordsdoter:16-513
@@ -62283,6 +62620,8 @@ F	dn16-514:margrete tordsdoter	person:dn:margrete_tordsdoter:16-513
 F	dn16-515:albrecht hondorf	person:dn:albrecht_hondorf:16-515
 F	dn16-516:albrecht hondorf	person:dn:albrecht_hondorf:16-516
 F	dn16-517:hans van halberstadt	person:dn:hans_van_halberstadt:16-517
+F	dn16-518:jakob halandsfar	person:dn:jakob_halandsfar:16-518
+F	dn16-518:skiper herman (höyer)	person:dn:skiper_herman_hoyer:16-518
 F	dn16-51:påve inocents vi	person:dn:pave_inocents:16-51
 F	dn16-521:hans hanson	person:dn:hans_hanson:11-470
 F	dn16-522:kongens söster (elisabet i brandenborg)	person:dn:kongens_soster_elisabet_i_brandenborg:16-522
@@ -62298,6 +62637,7 @@ F	dn16-538:kung fredrik i	person:fredrik_1
 F	dn16-539:her tyge krabe	person:dn:tyge_krabe:8-713
 F	dn16-53:halvard berdorson	person:dn:halvard_berdorson:16-53
 F	dn16-541:albert ravensberg	person:dn:albert_ravensberg:16-541
+F	dn16-541:axel brade	person:dn:axel_brade:16-541
 F	dn16-541:riderne tyge krabe	person:dn:riderne_tyge_krabe:16-541
 F	dn16-542:her oluf rosenkrantz	person:dn:oluf_rosenkrantz:16-542
 F	dn16-543:her knud rud	person:dn:knud_rud:16-543
@@ -62309,14 +62649,24 @@ F	dn16-547:nils berelson	person:dn:nils_berelson:16-547
 F	dn16-550:esge bilde	person:dn:esge_bilde:1-1109
 F	dn16-551:stavanger-lagman nils klauson	person:dn:stavanger_lagman_nils_klauson:16-551
 F	dn16-552:her vincents lunge	person:dn:vincents_lunge:16-552
+F	dn16-553:biskopolaf i bergen	person:dn:biskopolaf:16-553
+F	dn16-553:esge bilde	person:dn:esge_bilde:1-1109
+F	dn16-553:vincents lunge	person:dn:vincents_lunge:16-553
 F	dn16-554:her vincents lunge	person:dn:vincents_lunge:16-554
 F	dn16-555:her vincents lunge	person:dn:vincents_lunge:16-555
 F	dn16-556:biskop hoskuld i stavanger	person:dn:hoskuld:3-1121
 F	dn16-557:biskop hoskuld i stavanger	person:dn:hoskuld:3-1121
 F	dn16-558:danmarks riksråd	institution:sdhk:danska_riksradet
 F	dn16-559:rådet i lödöse	institution:sdhk:radet_i_lodose
+F	dn16-560:her vincents lunge	person:dn:vincents_lunge:16-560
 F	dn16-561:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn16-562:her nils lyke	person:dn:nils_lyke:16-562
+F	dn16-566:her nils lyke	person:dn:nils_lyke:16-566
+F	dn16-566:johan kruckov	person:dn:johan_kruckov:10-690
+F	dn16-566:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	dn16-567:her nils lyke	person:dn:nils_lyke:16-567
+F	dn16-567:johan kruckov	person:dn:johan_kruckov:10-690
+F	dn16-567:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn16-569:grev kristopher i oldenborg	person:dn:grev_kristopher:16-569
 F	dn16-56:bertold	person:dn:bertold:16-56
 F	dn16-570:her nils lyke	person:dn:nils_lyke:16-570
@@ -62676,6 +63026,8 @@ F	dn17-2:påve calixtus i	person:pave_calixtus_ii
 F	dn17-32:ärkebiskop gaubert i arles	person:dn:gaubert:17-28
 F	dn17-336:påve inocentius vi	person:pave_inocentius_vi
 F	dn17-337:påve inocentius vi	person:pave_inocentius_vii
+F	dn17-338:präbende i nidaros	person:dn:prabende:17-338
+F	dn17-338:påve inocentius vi	person:pave_inocentius_vii
 F	dn17-339:påve gregorius xi	person:pave_gregorius_xii
 F	dn17-342:påve gregorius xi	person:pave_gregorius_xii
 F	dn17-343:påve gregorius xi	person:pave_gregorius_xii
@@ -63269,6 +63621,8 @@ F	dn18-253:grev henrik i nasau	person:dn:grev_henrik:14-328
 F	dn18-257:hertig kristiern (i)	person:dn:hertig_kristiern:18-257
 F	dn18-25:erik bårdson	person:dn:erik_bardson:18-25
 F	dn18-25:torstein björnson	person:dn:torstein_bjornson:18-25
+F	dn18-260:biskop mogens i hamer	person:dn:mogens_lauritson:1-1052
+F	dn18-260:her gude (galde)	person:dn:gude_galde:18-260
 F	dn18-261:klaus hermeling	person:dn:klaus_hermeling:18-261
 F	dn18-262:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:18-262
 F	dn18-264:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:18-264
@@ -63339,6 +63693,7 @@ F	dn18-334:kung fredrik i	person:fredrik_1
 F	dn18-337:biskop jens anderson i odense	person:dn:jens_anderson:18-337
 F	dn18-338:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:18-338
 F	dn18-339:kung fredrik i	person:fredrik_1
+F	dn18-33:de i fehirden i bergen erlend philipuson udnävnte mänd	person:dn:de:18-33
 F	dn18-340:cornelius pels	person:dn:cornelius_pels:18-340
 F	dn18-341:her ture jenson (tre roser)	person:dn:ture_jenson_tre_roser:18-341
 F	dn18-343:hertig albrecht av mecklenburg	person:dn:hertig_albrecht:18-343
@@ -63385,6 +63740,8 @@ F	dn18-400:kristiern vinter	person:dn:kristiern_vinter:18-400
 F	dn18-401:kung fredrik i	person:fredrik_1
 F	dn18-402:kung ferdinand (i böhmen)	person:dn:kung_ferdinand:18-402
 F	dn18-403:kristiern vinter	person:dn:kristiern_vinter:18-403
+F	dn18-404:heinrich i sachson	person:dn:heinrich:18-404
+F	dn18-404:hertugerne georg	person:dn:hertugerne_georg:18-404
 F	dn18-405:kurfyrst johan i sachson	person:dn:kurfyrst_johan:12-421
 F	dn18-406:kurfyrst johan i sachson	person:dn:kurfyrst_johan:12-421
 F	dn18-407:kurfyrst johan i sachson	person:dn:kurfyrst_johan:12-421
@@ -63978,6 +64335,8 @@ F	dn19-94:reginald	person:dn:reginald:19-94
 F	dn19-98:kung johan av england byder mayoren i lyn at vogte de	person:dn:kung_johan:19-98
 F	dn19-99:kung johan av england	person:dn:kung_johan:19-99
 F	dn19-9:kung knut	person:dn:kung_knut:19-9
+F	dn2-1000:ide skibreder	person:dn:ide_skibreder:2-1000
+F	dn2-1000:menige almue i tune	person:dn:menige_almue:2-1000
 F	dn2-1002:kung hans	person:hans
 F	dn2-1005:biskop herlag i oslo	person:dn:herlag:2-1005
 F	dn2-1006:birgite heningsdoter	person:dn:birgite_heningsdoter:2-1006
@@ -64074,6 +64433,8 @@ F	dn2-1120:jon teiste	person:dn:jon_teiste:2-1120
 F	dn2-1121:jomfru magdalena olafsdoter (bage)	person:dn:jomfru_magdalena_olafsdoter_bage:2-1121
 F	dn2-1122:tord röd	person:dn:tord_rod:2-1122
 F	dn2-1124:peder hanson	person:dn:peder_hanson:2-1124
+F	dn2-1127:tre borgere i oslo	person:dn:tre_borgere:2-1127
+F	dn2-1128:to borgere i malmö	person:dn:to_borgere:2-1128
 F	dn2-112:peter på sandvin	person:dn:peter:1-102
 F	dn2-1130:lagman jon pakes enke	person:dn:jon_pakes_enke:2-1130
 F	dn2-1132:gudleik tjostolfson	person:dn:gudleik_tjostolfson:2-1132
@@ -64177,6 +64538,7 @@ F	dn2-211:styr ogmundson	person:dn:styr_ogmundson:2-211
 F	dn2-212:biskop halvard i hamer	person:dn:halvard:1-237
 F	dn2-213:kung magnus	person:magnus_eriksson
 F	dn2-214:kung magnus	person:magnus_eriksson
+F	dn2-215:lagman arnfin sigurdson	person:sdhk:arnfin_sigurdson:3934
 F	dn2-216:björgulf asteson	person:dn:bjorgulf_asteson:2-216
 F	dn2-216:her ivar agmundsöns ombudsmand i skien	person:dn:ivar_agmundsons_ombudsmand:2-216
 F	dn2-217:björgulf (asteson) på märdin	person:dn:bjorgulf_asteson:2-217
@@ -64287,6 +64649,7 @@ F	dn2-384:kung håkon vi	person:dn:kung_hakon:2-384
 F	dn2-385:kung magnus	person:magnus_eriksson
 F	dn2-387:gunar hjarandson	person:dn:gunar_hjarandson:2-387
 F	dn2-388:kung håkon magnuson	person:hakon_5
+F	dn2-38:fem erkebiskoper	person:dn:fem_erkebiskoper:2-38
 F	dn2-396:tord nikulason	person:dn:tord_nikulason:2-396
 F	dn2-39:jon koler	person:dn:jon_koler:2-39
 F	dn2-39:peter botildson	person:dn:peter_botildson:2-39
@@ -64307,6 +64670,7 @@ F	dn2-431:holmstein prior i prädikebrödrenes kloster i oslo	person:dn:holmstei
 F	dn2-432:gutorm gudbrandson	person:dn:gutorm_gudbrandson:2-318
 F	dn2-434:gunar eirikson	person:dn:gunar_eirikson:2-434
 F	dn2-436:tord peterson	person:dn:tord_peterson:2-436
+F	dn2-43:alf i kroken	person:dn:alf:2-43
 F	dn2-43:alf i kroken melde her bjarne (erlingson) i bjarkö	person:dn:alf:2-43
 F	dn2-43:bård vigleiksöner	person:dn:bard_vigleiksoner:2-43
 F	dn2-445:her hening podbusk	person:dn:hening_podbusk:2-445
@@ -64395,6 +64759,8 @@ F	dn2-605:jon finson	person:dn:jon_finson:2-605
 F	dn2-608:erkeprest i oslo	person:dn:erkeprest:1-613
 F	dn2-608:halvard gudleifson	person:dn:halvard_gudleifson:1-613
 F	dn2-609:tord asbjörnson	person:dn:tord_asbjornson:2-609
+F	dn2-60:hale på rogn	person:dn:hale:2-60
+F	dn2-60:svein bjarneson	person:dn:svein_bjarneson:2-60
 F	dn2-618:oslo domkapitel	person:dn:oslo_domkapitel:2-618
 F	dn2-621:gaute eirikson	person:dn:gaute_eirikson:1-575
 F	dn2-623:kung erik	person:erik_av_pommern
@@ -64472,6 +64838,8 @@ F	dn2-744:nikolaus asleson	person:dn:nikolaus_asleson:2-744
 F	dn2-745:arne toreson	person:dn:arne_toreson:2-745
 F	dn2-747:niklis asleson	person:dn:niklis_asleson:2-747
 F	dn2-74:kung håkon	person:hakon_5
+F	dn2-750:haldor sigurdson	person:dn:haldor_sigurdson:3-772
+F	dn2-750:pål halvardson	person:dn:pal_halvardson:3-772
 F	dn2-752:ivar fleming	person:sdhk:ivar_fleming:22052
 F	dn2-754:biskop jens i oslo	person:dn:jens_jon:1-711
 F	dn2-758:svein herleikson	person:dn:svein_herleikson:2-758
@@ -66183,7 +66551,7 @@ F	dn23-225:drotning sofie	person:dn:drotning_sofie:23-225
 F	dn23-226:(fru) ane rudsdoter	person:dn:ane_rudsdoter:23-226
 F	dn23-227:(fru) ane rudsdoter	person:dn:ane_rudsdoter:23-227
 F	dn23-228:(fru) ane rudsdoter	person:dn:ane_rudsdoter:23-228
-F	dn23-229:her oluf rosenkrantz	person:dn:oluf_rosenkrantz:23-229
+F	dn23-229:her oluf rosenkrantz	person:dn:oluf_rosenkrantz:23-193
 F	dn23-22:heming	person:heming_nilsson_uppsala
 F	dn23-230:(fru) ane rudsdoter	person:dn:ane_rudsdoter:23-230
 F	dn23-231:jost pederson	person:dn:jost_pederson:23-231
@@ -67135,6 +67503,7 @@ F	dn3-863:kansler jvar vikingson	person:dn:kansler_jvar_vikingson:3-863
 F	dn3-865:kung kristiern i	person:kristian_1
 F	dn3-86:biskop arne i bergen	person:sdhk:arne:2140
 F	dn3-873:lagman jngemar jenson	person:dn:jngemar_jenson:3-873
+F	dn3-876:rådet i de frisiske städer bolsverd	person:dn:radet:3-876
 F	dn3-882:vebrand gunvaldson	person:dn:vebrand_gunvaldson:3-882
 F	dn3-885:erling sigurdson	person:dn:erling_sigurdson:3-885
 F	dn3-886:kung kristiern i	person:kristian_1
@@ -67223,6 +67592,7 @@ F	dn4-1074:biskop hoskold i stavanger	person:dn:hoskold:2-1090
 F	dn4-1076:gerke klauson	person:dn:gerke_klauson:4-1076
 F	dn4-1080:nidaros domkapitel	person:dn:nidaros_domkapitel:4-1080
 F	dn4-1084:gutorm eyvindson	person:dn:gutorm_eyvindson:4-1084
+F	dn4-1085:fire geistlige	person:dn:fire_geistlige:4-1085
 F	dn4-1086:biskop olav (torkelson) i bergen	person:dn:olav_torkelson:3-1103
 F	dn4-1089:biskop mogens i hamar	person:dn:mogens:4-1089
 F	dn4-108:biskop ketil i stavanger	person:dn:ketil:2-115
@@ -67241,6 +67611,7 @@ F	dn4-1111:michel van brunsberg	person:dn:michel_van_brunsberg:4-1111
 F	dn4-1111:peder hanson	person:dn:peder_hanson:4-1111
 F	dn4-1115:her klaus bilde	person:dn:klaus_bilde:2-1084
 F	dn4-1115:tord rodt	person:dn:tord_rodt:4-1115
+F	dn4-1118:biskop hans ref	person:johannes_magni_linkoping
 F	dn4-1119:oslo domkapitel	person:dn:oslo_domkapitel:4-1119
 F	dn4-1120:jesper söfrenson	person:dn:jesper_sofrenson:4-1120
 F	dn4-1121:sveinung torbjörnson	person:dn:sveinung_torbjornson:4-1121
@@ -67253,6 +67624,7 @@ F	dn4-1129:rådet i tunsberg	institution:sdhk:radet_i_tunsberg
 F	dn4-112:biskop helge i oslo	person:sdhk:helge:41014
 F	dn4-113:håkon dan	person:dn:hakon_dan:4-113
 F	dn4-113:kongens ombudsmand på ringerike	person:dn:kongens_ombudsmand:1-239
+F	dn4-1140:trondjems stifts kapitel	person:dn:trondjems_stifts_kapitel:4-1140
 F	dn4-1142:lagretemand engelbrekt frodeson	person:dn:lagretemand_engelbrekt_frodeson:4-1142
 F	dn4-115:biskop helge i oslo	person:sdhk:helge:41014
 F	dn4-11:påve bonifacius vi	person:pave_bonifatius_viii
@@ -67327,6 +67699,7 @@ F	dn4-236:sigurd tordson	person:dn:sigurd_tordson:4-236
 F	dn4-237:ärkebiskop pål	person:pal_bardson_1346
 F	dn4-238:fem isländinger	person:dn:fem_islandinger:4-238
 F	dn4-239:biskop håkon i bergen	person:dn:hakon:1-249
+F	dn4-23:erik	person:dn:erik:4-23
 F	dn4-23:presterne arnbjörn	person:dn:presterne_arnbjorn:4-23
 F	dn4-23:vilhelm	person:dn:vilhelm:4-23
 F	dn4-240:biskop håkon i bergen	person:dn:hakon:1-249
@@ -67364,6 +67737,7 @@ F	dn4-347:amund torgardson	person:dn:amund_torgardson:4-347
 F	dn4-354:abot arnulf steinarson	person:dn:arnulf_steinarson:4-354
 F	dn4-356:pål sigurdson	person:dn:pal_sigurdson:4-356
 F	dn4-357:ärkebiskop olav i nidaros	person:dn:olav:4-357
+F	dn4-35:de same	person:dn:de_same:4-35
 F	dn4-364:kung magnus	person:magnus_eriksson
 F	dn4-365:påve inocents vi	person:dn:pave_inocents:4-365
 F	dn4-366:bjarne gunulfson	person:dn:bjarne_gunulfson:4-366
@@ -67555,6 +67929,7 @@ F	dn4-886:eilif sigurdson	person:dn:eilif_sigurdson:4-886
 F	dn4-892:abot henrik i utstein	person:dn:henrik:4-892
 F	dn4-894:biskop audun i stavanger	person:sdhk:audun:22186
 F	dn4-896:biskop audun i stavanger	person:sdhk:audun:22186
+F	dn4-897:stavangers chorsbrödre	person:dn:stavangers_chorsbrodre:4-897
 F	dn4-898:fire geistlige	person:dn:fire_geistlige:4-898
 F	dn4-89:biskop arne i bergen	person:sdhk:arne:2140
 F	dn4-8:biskop arne	person:sdhk:arne:1344
@@ -67614,6 +67989,7 @@ F	dn5-1004:kapitlet	person:dn:kapitlet:5-1004
 F	dn5-1004:lagman erik erikson i oslo	person:dn:erik_erikson:5-1004
 F	dn5-1007:prins kristiern (i)	person:dn:prins_kristiern:5-1007
 F	dn5-1011:prins kristiern (i.)	person:dn:prins_kristiern_i:5-1011
+F	dn5-1013:sex (tolv) lagretesmänd i lister len	person:dn:sex_lagretesmand:5-1013
 F	dn5-1015:jon guldsmed	person:dn:jon_guldsmed:5-1015
 F	dn5-1019:erik endridson krås	person:dn:erik_endridson_kras:5-1019
 F	dn5-1020:olav jonson på vordeseter	person:dn:olav_jonson:5-1020
@@ -67724,6 +68100,7 @@ F	dn5-16:her base gutormson	person:dn:base_gutormson:5-16
 F	dn5-171:åte mänd	person:dn:ate_mand:5-171
 F	dn5-174:kung magnus eirikson	person:magnus_eriksson
 F	dn5-175:kung magnus eirikson	person:magnus_eriksson
+F	dn5-17:ärkebiskop giselbert i bremen	person:dn:giselbert:6-54
 F	dn5-181:kung magnus eirikson	person:magnus_eriksson
 F	dn5-183:hertigina ingeborgs ombudsmand	person:dn:hertigina_ingeborgs:5-183
 F	dn5-183:pål knutson	person:dn:pal_knutson:5-183
@@ -67981,6 +68358,7 @@ F	dn5-822:torstein torkelson	person:dn:torstein_torkelson:5-822
 F	dn5-823:kardinalerne isidorus	person:dn:kardinalerne_isidorus:5-823
 F	dn5-823:petrus	person:dn:petrus:5-823
 F	dn5-824:olav narveson	person:dn:olav_narveson:5-824
+F	dn5-827:kongens syselmänd i kirkevåg	person:dn:kongens_syselmand:5-827
 F	dn5-828:gunar stolfson	person:dn:gunar_stolfson:5-828
 F	dn5-829:her kolbjörn gerst	person:kolbjorn_gerst_1466
 F	dn5-82:biskop audfin	person:sdhk:audfin:41114
@@ -68225,6 +68603,7 @@ F	dn6-283:påve gregor xi	person:pave_gregorius_xi
 F	dn6-286:kung håkon	person:dn:kung_hakon:6-286
 F	dn6-287:påve gregor xi	person:pave_gregorius_xi
 F	dn6-28:påve inocentius iv	person:pave_inocentius_iv
+F	dn6-290:minoriternes konvent i oslo	person:dn:minoriternes_konvent:6-290
 F	dn6-293:ulf torgeirson	person:dn:ulf_torgeirson:3-376
 F	dn6-293:viljam torgilson	person:dn:viljam_torgilson:6-293
 F	dn6-294:andres ogmundson	person:dn:andres_ogmundson:6-294
@@ -68252,6 +68631,9 @@ F	dn6-327:drotning margareta	person:margareta_valdemarsdotter
 F	dn6-32:påve urban iv	person:pave_urban_iv
 F	dn6-330:harald kolbjörnson	person:dn:harald_kolbjornson:1-544
 F	dn6-331:gudleik torgilson	person:dn:gudleik_torgilson:6-331
+F	dn6-333:kamerererne i kurien	person:dn:kamerererne:6-333
+F	dn6-333:kardinalerne henrik	person:dn:kardinalerne_henrik:6-333
+F	dn6-333:marinus	person:dn:marinus:6-333
 F	dn6-334:påve bonifacius ix	person:pave_bonifatius_ix
 F	dn6-337:jens olafson	person:dn:jens_olafson:6-337
 F	dn6-338:drotning margrete	person:dn:drotning_margrete:6-338
@@ -68301,6 +68683,7 @@ F	dn6-419:håvord hoskolson	person:dn:havord_hoskolson:6-419
 F	dn6-41:påve johanes xi	person:pave_johanes_xxi
 F	dn6-421:ludvig	person:dn:ludvig:6-421
 F	dn6-422:benedictus guidalotis	person:dn:benedictus_guidalotis:6-422
+F	dn6-423:indbygerne i orknö	person:dn:indbygerne:6-423
 F	dn6-424:torkel eirikson	person:dn:torkel_eirikson:6-424
 F	dn6-427:jöns niklison	person:dn:jons_niklison:6-399
 F	dn6-428:bård bårdson	person:dn:bard_bardson:6-428
@@ -68320,6 +68703,8 @@ F	dn6-46:påve martin iv	person:pave_martin_iv
 F	dn6-472:eyvind eysteinson	person:dn:eyvind_eysteinson:6-472
 F	dn6-473:konrad gadebusch	person:dn:konrad_gadebusch:6-473
 F	dn6-47:påve honorius iv	person:pave_honorius_iv
+F	dn6-485:hansestädernes i lybek forsamlede repräsentanter	person:dn:hansestadernes:6-485
+F	dn6-488:hansestädernes i stralsund forsamlede repräsentanter	person:dn:hansestadernes:6-488
 F	dn6-488:hansestädernes i stralsund forsamlede repräsentanter bede kung kristofer	person:dn:hansestadernes:6-488
 F	dn6-497:biskop gunar i hamer	person:dn:gunar:1-820
 F	dn6-498:andor halsteinson	person:dn:andor_halsteinson:6-498
@@ -68358,6 +68743,7 @@ F	dn6-549:påve calixtus i	person:pave_calixtus_iii
 F	dn6-54:påve nicolaus iv	person:pave_nicolaus_iv
 F	dn6-550:eilif jönson	person:dn:eilif_jonson:6-550
 F	dn6-551:påve calixtus i	person:pave_calixtus_iii
+F	dn6-552:kjöbmändene i brygen i bergen	person:dn:kjobmandene:6-552
 F	dn6-553:påve calixtus i	person:pave_calixtus_iii
 F	dn6-555:her henrik hjerne	person:dn:henrik_hjerne:6-555
 F	dn6-556:efter ansögning i oslos indbygere	person:dn:efter_ansogning:6-556
@@ -68368,6 +68754,7 @@ F	dn6-563:gunar einarson	person:dn:gunar_einarson:6-563
 F	dn6-565:ligere i akershus	person:dn:ligere:6-565
 F	dn6-565:råd i rostock over foruretelser mod deres kjöbmänd	person:dn:rad:6-565
 F	dn6-565:tunsberg len	person:dn:tunsberg_len:6-565
+F	dn6-568:for de i lubeck forsamlede repräsentanter for hansestäderne	person:dn:for_de:6-568
 F	dn6-56:påve nicolaus iv	person:pave_nicolaus_iv
 F	dn6-571:gyrd (bjertson)	person:dn:gyrd_bjertson:6-571
 F	dn6-572:påve paul i	person:pave_paulus_ii
@@ -68376,8 +68763,10 @@ F	dn6-57:påve nicolaus iv	person:pave_nicolaus_iv
 F	dn6-582:påve sixtus iv	person:pave_sixtus_iv
 F	dn6-583:frode torleifson	person:dn:frode_torleifson:6-583
 F	dn6-588:kung kristian i	person:kristian_1
+F	dn6-589:de tydske kjöbmänds oldermänd i bergen	person:dn:de_tydske_kjobmands_oldermand:6-589
 F	dn6-58:påve nicolaus iv	person:pave_nicolaus_iv
 F	dn6-590:kung hans	person:hans
+F	dn6-591:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	dn6-593:kung hans	person:hans
 F	dn6-594:kung hans	person:hans
 F	dn6-595:kung hans	person:hans
@@ -68393,6 +68782,7 @@ F	dn6-606:johanes burcardi	person:dn:johanes_burcardi:6-606
 F	dn6-606:påve inocentius vi.s ceremonimester	person:pave_inocentius_viii
 F	dn6-609:kung hans	person:hans
 F	dn6-60:påve nicolaus iv	person:pave_nicolaus_iv
+F	dn6-611:de norske i bergen forsamlede rigsråder	person:dn:de_norske:6-611
 F	dn6-613:biskop herlaug i oslo	person:dn:herlaug:5-951
 F	dn6-614:eyvind ljotson	person:dn:eyvind_ljotson:6-614
 F	dn6-615:larens peterson	person:dn:larens_peterson:6-615
@@ -68459,6 +68849,7 @@ F	dn6-68:kung håkon (v)	person:hakon_5
 F	dn6-691:jörgen hanson	person:dn:jorgen_hanson:6-691
 F	dn6-692:rådet i deventer	institution:sdhk:radet_i_deventer
 F	dn6-693:ivar jonson	person:dn:ivar_jonson:6-693
+F	dn6-694:de i kjöbenhavn forsamlede danske rigsråder	person:dn:de:6-694
 F	dn6-695:fredrik (i)	person:dn:fredrik:6-695
 F	dn6-696:norges riges råd	person:dn:norges_riges_rad:6-696
 F	dn6-697:norges riges råd	person:dn:norges_riges_rad:6-697
@@ -68481,6 +68872,7 @@ F	dn6-712:kung fredrik (i)	person:fredrik_1
 F	dn6-713:biskop mogens lauritson i hamer	person:dn:mogens_lauritson:1-1052
 F	dn6-715:kung kristiern (i)	person:kristian_2
 F	dn6-716:kung kristiern (i)	person:kristian_2
+F	dn6-717:de tydske kjöbmänd i tunsberg	person:dn:de_tydske_kjobmand:6-717
 F	dn6-718:broder peter jonson	person:dn:peter_jonson:6-718
 F	dn6-719:påve clemens vi	person:pave_clemens_vii
 F	dn6-71:ärkebiskop nicolaus i upsala	person:nils_kettilsson_uppsala
@@ -68772,8 +69164,10 @@ F	dn7-371:to chorsbrödre i hamer	person:dn:to_chorsbrodre:7-371
 F	dn7-372:olav jakobson	person:dn:olav_jakobson:7-372
 F	dn7-373:broder olav	person:dn:olav:7-373
 F	dn7-377:skeldulf tordson	person:dn:skeldulf_tordson:7-377
+F	dn7-382:hanseaternes oldermänd i bergen	person:dn:hanseaternes_oldermand:7-382
 F	dn7-383:her eindrid erlendsöns ombudsmand gunar gunmundson	person:dn:eindrid_erlendsons_ombudsmand_gunar_gunmundson:7-383
 F	dn7-386:erik ulfhedinson	person:dn:erik_ulfhedinson:7-386
+F	dn7-387:biskop jens i oslo	person:dn:jens_jon:1-711
 F	dn7-38:cristopher	person:dn:cristopher:7-38
 F	dn7-393:kung erik	person:erik_av_pommern
 F	dn7-396:det i bergen forsamlede provincial-concilium	person:dn:det:7-396
@@ -68789,13 +69183,18 @@ F	dn7-40:valdemar	person:dn:valdemar:7-40
 F	dn7-411:arne toreson	person:dn:arne_toreson:7-411
 F	dn7-415:biskop olav i bergen	person:dn:olav:1-765
 F	dn7-416:biskop olav i bergen	person:dn:olav:1-765
+F	dn7-41:de svenske hertuger erik	person:dn:de_svenske_hertuger_erik:7-41
+F	dn7-41:valdemar	person:dn:valdemar:7-41
 F	dn7-420:broder johanes	person:dn:johanes:7-420
 F	dn7-420:prädikebrödrenes provincial-prior i dacia	person:dn:pradikebrodrenes_provincial_prior:7-420
 F	dn7-421:håvard jonson	person:dn:havard_jonson:7-421
+F	dn7-423:rådet i lyn	institution:sdhk:radet_i_lyn
 F	dn7-427:kung kristopher	person:dn:kung_kristopher:7-427
 F	dn7-428:biskop olav i bergen	person:dn:olav:1-765
 F	dn7-431:rådet i lubeck	institution:sdhk:radet_i_lubeck
 F	dn7-434:biskop olav i bergen	person:dn:olav:1-765
+F	dn7-437:biskop olav i bergen	person:dn:olav:1-765
+F	dn7-437:ridare olav nilson	person:dn:olav_nilson:7-437
 F	dn7-43:biskop helge i oslo	person:sdhk:helge:41014
 F	dn7-450:kung kristian (i)	person:kristian_1
 F	dn7-451:kung kristian (i)	person:kristian_1
@@ -68996,6 +69395,10 @@ F	dn7-711:arnulf jenson	person:dn:arnulf_jenson:7-711
 F	dn7-712:per skriver	person:dn:per_skriver:7-712
 F	dn7-713:biskop mogens i hamer	person:dn:mogens_laurenson:3-1142
 F	dn7-714:biskop mogens i hamer	person:dn:mogens_laurenson:3-1142
+F	dn7-717:biskoperne magnus i hamer	person:dn:biskoperne_magnus:7-717
+F	dn7-717:hans i oslo	person:dn:hans:22-130
+F	dn7-717:riderne gaute gale	person:dn:riderne_gaute_gale:7-717
+F	dn7-717:vincents lunge	person:dn:vincents_lunge:7-717
 F	dn7-718:biskop hans ref i oslo	person:dn:hans_ref:7-718
 F	dn7-719:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn7-71:peter	person:dn:peter:7-71
@@ -69055,6 +69458,7 @@ F	dn7-78:en munk i tautra	person:dn:munk:7-78
 F	dn7-793:en lagretemand i moland	person:dn:lagretemand:7-793
 F	dn7-797:tord ulfson	person:dn:tord_ulfson:7-797
 F	dn7-7:påve inocentius i	person:pave_inocentius_iii
+F	dn7-801:profesorer i kjöbenhavns universitet	person:dn:profesorer:7-801
 F	dn7-802:kung fredrik i	person:dn:kung_fredrik:7-802
 F	dn7-803:gunar olafson	person:dn:gunar_olafson:7-803
 F	dn7-80:ärkebiskop eilif i nidaros	person:dn:eilif:1-154
@@ -69071,6 +69475,7 @@ F	dn7-90:biskop signar i färö	person:dn:signar:7-90
 F	dn7-91:kung magnus	person:magnus_eriksson
 F	dn7-93:biskop audfin i bergen	person:sdhk:audfin:41114
 F	dn7-94:torfin i henriksgård gjör testamente til forskjelige kirker	person:dn:torfin:7-94
+F	dn7-95:de svenske rigsråder	person:dn:de_svenske_rigsrader:7-95
 F	dn7-97:ärkebiskop eilif	person:dn:eilif:1-154
 F	dn7-9:påve honorius i	person:pave_honorius_iii
 F	dn8-100:biskop håkon i bergen	person:dn:hakon:1-249
@@ -69245,6 +69650,8 @@ F	dn8-366:biskop gunar i hamer	person:dn:gunar:1-820
 F	dn8-369:kristina roaldsdoter	person:dn:kristina_roaldsdoter:8-369
 F	dn8-36:fulco de vilareto	person:dn:fulco_de_vilareto:8-36
 F	dn8-36:johaniter-ordenens stormester	person:dn:johaniter_ordenens_stormester:8-36
+F	dn8-370:alf eriksöner	person:dn:alf_eriksoner:8-370
+F	dn8-370:alf gudbrandson på sin hustru olof pålsdaters vegne	person:dn:alf_gudbrandson:8-370
 F	dn8-373:erling gudtormson	person:dn:erling_gudtormson:8-373
 F	dn8-374:amund grimson	person:dn:amund_grimson:8-374
 F	dn8-380:gudleif jonson	person:dn:gudleif_jonson:8-380
@@ -69342,6 +69749,7 @@ F	dn8-4:pål	person:dn:pal:8-2
 F	dn8-503:den osloske biskops oficial	person:dn:osloske_biskops_oficial:8-503
 F	dn8-504:erik erikson	person:dn:erik_erikson:8-504
 F	dn8-504:hedreims kirker	person:dn:hedreims_kirker:8-504
+F	dn8-508:kjöbmändenes oldermänd i bergen	person:dn:kjobmandenes_oldermand:8-508
 F	dn8-509:lage (urne)	person:dn:lage_urne:8-509
 F	dn8-510:kung kristiern (i)	person:kristian_2
 F	dn8-512:fredrik (i)	person:sdhk:fredrik:38776
@@ -69394,6 +69802,10 @@ F	dn8-55:vikarius i st. laurenti kirke i bergen	person:dn:vikarius:8-55
 F	dn8-561:kung jakob (v) i skotland	person:dn:kung_jakob:8-561
 F	dn8-562:her vincents lunge	person:dn:vincents_lunge:8-562
 F	dn8-563:her vincents lunge	person:dn:vincents_lunge:8-563
+F	dn8-564:biskop olav i bergen	person:dn:olav_torkelson:3-1103
+F	dn8-564:erik ugerup	person:dn:erik_ugerup:8-564
+F	dn8-564:fru ingerd otesdoter	person:dn:ingerd_otesdoter:9-640
+F	dn8-564:vincents lunge	person:dn:vincents_lunge:9-640
 F	dn8-568:nils själandsfar	person:dn:nils_sjalandsfar:8-568
 F	dn8-569:tomas gardner	person:dn:tomas_gardner:8-569
 F	dn8-569:tomas hutcheson i tjeneste hos david falkoner i leit	person:dn:tomas_hutcheson:8-569
@@ -69421,6 +69833,9 @@ F	dn8-581:andrevs person i skotland	person:dn:andrevs_person:8-581
 F	dn8-586:kung fredrik (i)	person:fredrik_1
 F	dn8-587:kung fredrik	person:fredrik_1
 F	dn8-589:roger dischaunt	person:dn:roger_dischaunt:8-589
+F	dn8-590:borgere i nevcastle	person:dn:borgere:8-590
+F	dn8-590:georges davele	person:dn:georges_davele:8-590
+F	dn8-590:john blaistone	person:dn:john_blaistone:8-590
 F	dn8-591:david falkoner i leit	person:dn:david_falkoner:8-591
 F	dn8-592:kung fredrik	person:fredrik_1
 F	dn8-593:her henrik krumedike	person:sdhk:henrik_krumedike:33581
@@ -69473,6 +69888,14 @@ F	dn8-643:kung fredrik i	person:fredrik_1
 F	dn8-644:jörgen hanson	person:dn:jorgen_hanson:8-644
 F	dn8-645:geble pederson	person:dn:geble_pederson:8-645
 F	dn8-646:esge bilde	person:dn:esge_bilde:1-1109
+F	dn8-647:esge bilde	person:dn:esge_bilde:1-1109
+F	dn8-647:nils lyke	person:sdhk:nils_lyke:44872
+F	dn8-647:olav torkelson	person:dn:olav_torkelson:8-647
+F	dn8-647:vincents lunge	person:dn:vincents_lunge:11-607
+F	dn8-649:biskoperne höskuld i stavanger	person:dn:biskoperne_hoskuld:8-649
+F	dn8-649:erik ugerup	person:dn:erik_ugerup:8-564
+F	dn8-649:her vincents lunge	person:dn:vincents_lunge:9-640
+F	dn8-649:olav i bergen	person:dn:olav:22-130
 F	dn8-64:biskop audfin	person:sdhk:audfin:41114
 F	dn8-650:biskop höskuld i stavanger	person:dn:hoskuld:3-1085
 F	dn8-651:kung fredrik i	person:fredrik_1
@@ -69505,18 +69928,31 @@ F	dn8-682:kung kristiern i	person:kristian_2
 F	dn8-683:kung kristiern i	person:kristian_2
 F	dn8-684:kung fredrik i	person:fredrik_1
 F	dn8-685:kung kristiern i	person:kristian_2
+F	dn8-686:nils klauson	person:dn:nils_klauson:2-1108
+F	dn8-686:tord röd	person:dn:tord_rod:2-1122
 F	dn8-687:hans bogbinder	person:dn:hans_bogbinder:6-764
 F	dn8-688:kung kristiern i	person:kristian_2
 F	dn8-689:kung kristiern i	person:kristian_2
 F	dn8-68:ärkebiskop eilif	person:dn:eilif:1-154
+F	dn8-692:her nils lyke	person:sdhk:nils_lyke:44872
+F	dn8-692:knud gyldenstjerne	person:dn:knud_gyldenstjerne:14-707
+F	dn8-692:kung frederiks krigshövedsmänd	person:dn:kung_frederiks:8-692
+F	dn8-692:mogens gyldenstjerne	person:dn:mogens_gyldenstjerne:9-684
 F	dn8-693:kung kristiern i	person:kristian_2
+F	dn8-695:nils lyke	person:dn:nils_lyke:14-707
+F	dn8-695:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-695
 F	dn8-696:ärkebiskop olav i trondjem	person:dn:olav:1-1065
-F	dn8-697:nils lyke	person:sdhk:nils_lyke:44872
+F	dn8-697:nils lyke	person:dn:nils_lyke:8-697
 F	dn8-697:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-697
 F	dn8-698:ärkebiskop olav	person:dn:arkebiskop_olav:8-698
 F	dn8-699:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn8-700:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	dn8-702:kung frederiks fuldmägtige	person:dn:kung_frederiks:8-702
+F	dn8-702:nils lyke	person:dn:nils_lyke:8-702
+F	dn8-702:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-702
 F	dn8-705:ärkebiskop olav i trondjem	person:dn:olav:1-1065
+F	dn8-706:nils lyke	person:dn:nils_lyke:8-706
+F	dn8-706:riderne vincents lunge	person:dn:riderne_vincents_lunge:8-706
 F	dn8-707:ärkebiskop olav	person:dn:arkebiskop_olav:8-707
 F	dn8-708:hans ref	person:hans_rev_1545
 F	dn8-708:klaus bilde	person:dn:klaus_bilde:2-1084
@@ -69538,6 +69974,7 @@ F	dn8-725:her klaus bilde	person:dn:klaus_bilde:2-1084
 F	dn8-727:kirkevärgerne i tune kirke	person:dn:kirkevargerne:8-727
 F	dn8-729:lafrans hermanson	person:dn:lafrans_hermanson:8-729
 F	dn8-72:biskop audfin i bergen	person:sdhk:audfin:41114
+F	dn8-730:biskop hans ref	person:johannes_magni_linkoping
 F	dn8-731:biskop hans ref	person:johannes_magni_linkoping
 F	dn8-732:biskop hans ref i oslo	person:hans_rev_1545
 F	dn8-733:laurens gudtormson	person:dn:laurens_gudtormson:8-733
@@ -69614,6 +70051,8 @@ F	dn8-81:biskop audfin	person:sdhk:audfin:41114
 F	dn8-82:biskop audfin i bergen	person:sdhk:audfin:41114
 F	dn8-83:biskop audfin i bergen	person:sdhk:audfin:41114
 F	dn8-84:biskop audfin i bergen	person:sdhk:audfin:41114
+F	dn8-86:abot arne	person:dn:arne:12-65
+F	dn8-86:konventet i lyse kloster	person:dn:konventet:8-86
 F	dn8-87:abot arne i lyse kloster	person:dn:arne:8-87
 F	dn8-89:biskop audfin i bergen	person:sdhk:audfin:41114
 F	dn8-8:påve alexander (iv)	person:pave_alexander_iv
@@ -69677,6 +70116,7 @@ F	dn9-163:gunvald anundson	person:dn:gunvald_anundson:9-163
 F	dn9-164:sira asle	person:dn:sira_asle:9-164
 F	dn9-168:harald ulfson	person:dn:harald_ulfson:9-168
 F	dn9-169:albrecht i mecklenburgs	person:dn:albrecht:9-169
+F	dn9-169:fire söstäders i vismar forsamlede sendebud	person:dn:fire_sostaders:9-169-2
 F	dn9-169:fire söstäders i vismar forsamlede sendebud underete de preusiske	person:dn:fire_sostaders:9-169
 F	dn9-169:olav i norges vegne	person:dn:olav:9-169
 F	dn9-16:påve inocentius iv	person:pave_inocentius_iv
@@ -69892,7 +70332,9 @@ F	dn9-50:påve alexander iv	person:pave_alexander_iv
 F	dn9-511:ote holgerson (rosenkrantz)	person:dn:ote_holgerson_rosenkrantz:9-511
 F	dn9-513:lydeke gunleikson (gudleikson)	person:dn:lydeke_gunleikson_gudleikson:9-513
 F	dn9-513:peter knutson	person:dn:peter_knutson:9-513
+F	dn9-514:de i seritslev tilstedevärende danske rigsråder	person:dn:de:9-514
 F	dn9-516:hans mule	person:dn:hans_mule:2-1066
+F	dn9-517:fem danske rigsråder	person:dn:fem_danske_rigsrader:9-517
 F	dn9-518:kung fredrik i	person:fredrik_1
 F	dn9-519:hertig kristiern	person:dn:hertig_kristiern:9-519
 F	dn9-51:påve alexander iv	person:pave_alexander_iv
@@ -69922,6 +70364,9 @@ F	dn9-543:kung kristiern i	person:kristian_2
 F	dn9-544:kung kristiern i	person:kristian_2
 F	dn9-545:kung fredrik i	person:fredrik_1
 F	dn9-546:lydeke gudleikson	person:dn:lydeke_gudleikson:9-546
+F	dn9-548:jörgen hanson	person:dn:jorgen_hanson:9-548
+F	dn9-548:jörgen stegentin	person:dn:jorgen_stegentin:10-469
+F	dn9-548:kung kristiern i	person:kristian_2
 F	dn9-549:kung kristiern i	person:kristian_2
 F	dn9-54:påve alexander iv	person:pave_alexander_iv
 F	dn9-551:her vincents lunge	person:dn:vincents_lunge:9-551
@@ -70031,7 +70476,10 @@ F	dn9-659:per jenson	person:dn:per_jenson:9-659
 F	dn9-65:påve nikolaus i	person:pave_nicolaus_iii
 F	dn9-660:her nils lyke	person:sdhk:nils_lyke:44872
 F	dn9-661:kung fredrik i	person:fredrik_1
+F	dn9-663:biskop olav i bergen	person:dn:olav_torkelson:8-647
+F	dn9-663:esge bilde	person:dn:esge_bilde:1-1109
 F	dn9-668:kung fredrik i	person:fredrik_1
+F	dn9-669:her trud ulfstand	person:dn:trud_ulfstand:8-708
 F	dn9-66:påve honorius iv	person:pave_honorius_iv
 F	dn9-670:ärkebiskop olav i trondjem	person:dn:olav:1-1065
 F	dn9-671:kung kristiern i	person:kristian_2
@@ -73213,7 +73661,7 @@ F	m|27793:magnus bengtson	person:sdhk:magnus_bengtson:27793
 F	m|27810:torkel svenson	person:sdhk:torkel_svenson:27810
 F	m|27813:ulf bengtson	person:sdhk:ulf_bengtson:27813
 F	m|27815:svarte ture jönson	person:sdhk:svarte_ture_jonson:27815
-F	m|27826:ridaren ture tureson	person:sdhk:ture_tureson:27716
+F	m|27826:ridaren ture tureson	person:ture_tureson_bielke_1490
 F	m|27839:jepe hanson på risholm vid koparberget	person:sdhk:jepe_hanson:27839
 F	m|27844:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|27849:vadstena kloster	institution:sdhk:vadstena_kloster
@@ -73351,7 +73799,7 @@ F	m|28563:tytkä jepson	person:sdhk:tytka_jepson:28563
 F	m|28564:gudems kloster	institution:sdhk:gudems_kloster
 F	m|28568:fru kristine	person:sdhk:kristine:28568
 F	m|28568:her erik erikson	person:sdhk:erik_erikson:25718
-F	m|28577:her ture tureson	person:sdhk:ture_tureson:28173
+F	m|28577:her ture tureson	person:ture_tureson_bielke_1490
 F	m|28578:her aboten jöns i nydala	person:sdhk:jons:29046
 F	m|28588:julita kloster	institution:sdhk:julita_kloster
 F	m|28592:her magnus bengtson	person:sdhk:magnus_bengtson:28592
@@ -73380,7 +73828,7 @@ F	m|28699:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|28703:erik nipertz	person:sdhk:erik_nipertz:24860
 F	m|28706:her erik axelson	person:erik_axelsson_tott
 F	m|28707:nydala kloster	institution:sdhk:nydala_kloster
-F	m|28708:her ture tureson	person:sdhk:ture_tureson:28173
+F	m|28708:her ture tureson	person:ture_tureson_bielke_1490
 F	m|28711:martin botvidson	person:sdhk:martin_botvidson:28711
 F	m|28715:ingemunde puka i redestene	person:sdhk:ingemunde_puka:28715
 F	m|28718:olof anundson	person:sdhk:olof_anundson:28718
@@ -73512,7 +73960,7 @@ F	m|29419:lars tomason i årby	person:sdhk:lars_tomason:32051
 F	m|29425:her arvid	person:sdhk:arvid:29425
 F	m|29434:axel peterson	person:sdhk:axel_peterson:29434
 F	m|29439:jap jönson i nådendal	person:sdhk:jap_jonson:29439
-F	m|29441:ridaren ture tureson	person:sdhk:ture_tureson:28173
+F	m|29441:ridaren ture tureson	person:ture_tureson_bielke_1490
 F	m|29442:margareta	person:sdhk:margareta:29442
 F	m|29442:peder olafson	person:sdhk:peder_olafson:29442
 F	m|29445:biskop hans i skara	person:hans_markvardsson_skara
@@ -73591,8 +74039,8 @@ F	m|29790:nydala kloster	institution:sdhk:nydala_kloster
 F	m|29792:konventet i upsala	institution:sdhk:upsala_kloster
 F	m|29801:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|29802:vadstena kloster	institution:sdhk:vadstena_kloster
-F	m|29804:ridaren ture tureson	person:sdhk:ture_tureson:28173
-F	m|29806:ridaren ture tureson i kråkerum	person:sdhk:ture_tureson:28173
+F	m|29804:ridaren ture tureson	person:ture_tureson_bielke_1490
+F	m|29806:ridaren ture tureson i kråkerum	person:ture_tureson_bielke_1490
 F	m|29807:ridaren ture tureson (bielke)	person:ture_tureson_bielke_1490
 F	m|29808:hans peterson	person:sdhk:hans_peterson:29808
 F	m|29808:hustru katarina	person:sdhk:katarina:29808
@@ -73685,7 +74133,7 @@ F	m|30203:väpnaren erik karlson	person:sdhk:erik_karlson:28492
 F	m|30204:arvid trole bredgården i väderstads kyrkby i göstrings hd	person:sdhk:arvid_trole_bredgarden:30204
 F	m|30207:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|30210:harald peterson	person:sdhk:harald_peterson:30210
-F	m|30212:her ture tureson i kragarum (kråkerum)	person:sdhk:ture_tureson:28173
+F	m|30212:her ture tureson i kragarum (kråkerum)	person:ture_tureson_bielke_1490
 F	m|30215:askeby kloster	institution:sdhk:askeby_kloster
 F	m|30233:her hans åkeson	person:sdhk:hans_akeson:29340
 F	m|30244:lars i klvkxas	person:sdhk:lars:30244
@@ -73744,7 +74192,7 @@ F	m|30505:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|30507:vadstena kloster	institution:sdhk:vadstena_kloster
 F	m|30509:her herman grot	person:sdhk:herman_grot:28551
 F	m|30515:her tideman (ludolfson)	person:sdhk:tideman_ludolfson:30515
-F	m|30519:her ture tureson	person:sdhk:ture_tureson:28173
+F	m|30519:her ture tureson	person:ture_tureson_bielke_1490
 F	m|30527:lars simonson	person:sdhk:lars_simonson:30527
 F	m|30528:bp lydeke i västerås	person:ludechinus_abelis_vasteras
 F	m|30538:her doktor kort roge	person:sdhk:kort_roge:29382
@@ -80663,6 +81111,12 @@ E	person:df:tord_rorikson_bonde:1123	person:tord_rorikson_bonde_1417	Tord Rörik
 E	person:df:tord_rorikson_bonde:1450	person:tord_rorikson_bonde_1417	Thord Röriksson Bonde
 E	person:df:torsten_salmonson:6352	person:df:torsten_salmonson:6273	Torsten Salmonsson
 E	person:df:valdemar_djakn:1646	person:df:valdemar_djakn:1244	Valdemar Djäkn
+E	person:dn:hans_michelson:13-399	person:dn:hans_michelson:11-429	Hans Michelsson
+E	person:dn:johan_kruckov:10-697	person:dn:johan_kruckov:10-690	Johan Kruckow
+E	person:dn:johan_kruckov:10-699	person:dn:johan_kruckov:10-690	Johan Kruckow
+E	person:dn:johan_kruckov:12-549	person:dn:johan_kruckov:10-690	Johan Kruckow
+E	person:dn:nils_lyke:11-607	person:sdhk:nils_lyke:44872	Nils Lykke
+E	person:dn:oluf_rosenkrantz:23-229	person:dn:oluf_rosenkrantz:23-193	Oluf Rosenkrantz
 E	person:sdhk:abraham_erikson:34367	person:sdhk:abraham_erikson:33690	Abraham Eriksson
 E	person:sdhk:abraham_erikson_gylenstierna:33718	person:abraham_erikson_1514	Abraham Eriksson Gyllenstierna
 E	person:sdhk:abraham_erikson_gylenstierna:34167	person:abraham_erikson_1514	Abraham Eriksson Gyllenstierna
@@ -80694,6 +81148,7 @@ E	person:sdhk:amund_hat:11241	person:sdhk:amund_hat:14790	Amund Hatt
 E	person:sdhk:amund_jonson:37527	person:sdhk:amund_jonson:37526	Amund Jönsson
 E	person:sdhk:ana_eriksdoter_bielke:38307	person:ana_eriksdoter_1525	Anna Eriksdotter Bielke
 E	person:sdhk:ana_fickesdoter:34732	person:ana_fickesdoter_bulov_1519	Anna Fickesdotter
+E	person:sdhk:ana_fickesdoter:35994	person:ana_fickesdoter_bulov_1519	Anna Fickesdotter
 E	person:sdhk:ana_fickesdoter:36727	person:ana_fickesdoter_bulov_1519	Anna Fickesdotter
 E	person:sdhk:ana_godekadoter:29907	person:sdhk:ana_godekadoter:29902	Anna Gödekadotter
 E	person:sdhk:ana_hansdoter:37527	person:sdhk:ana_hansdoter:37526	Anna Hansdotter
@@ -82882,11 +83337,14 @@ E	person:sdhk:ture_tureson:25890	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:25891	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:27552	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:27557	person:ture_tureson_bielke_1490	Ture Turesson
+E	person:sdhk:ture_tureson:27580	person:ture_tureson_bielke_1490	Ture Turesson
+E	person:sdhk:ture_tureson:27716	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:27899	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:27984	person:ture_tureson_bielke_1490	Ture Turesson
-E	person:sdhk:ture_tureson:28158	person:sdhk:ture_tureson:27580	Ture Turesson
+E	person:sdhk:ture_tureson:28158	person:ture_tureson_bielke_1490	Ture Turesson
+E	person:sdhk:ture_tureson:28173	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson:28598	person:sdhk:ture_tureson:28547	Ture Turesson
-E	person:sdhk:ture_tureson:32085	person:sdhk:ture_tureson:28173	Ture Turesson
+E	person:sdhk:ture_tureson:32085	person:ture_tureson_bielke_1490	Ture Turesson
 E	person:sdhk:ture_tureson_bielke:27335	person:ture_tureson_bielke_1490	Ture Turesson Bielke
 E	person:sdhk:ture_tureson_bielke:42632	person:ture_tureson_bielke_1490	Ture Turesson Bielke
 E	person:sdhk:tuve_galen:11076	person:sdhk:tuve_galen:7186	Tuve Galen

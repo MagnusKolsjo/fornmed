@@ -7,6 +7,13 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- DN:s svar känns igen i fler former ("besvarer et brev fra", "Modtagelsen af et Brev",
+  verb i flertal), och sju svar i DN är kopplade till det besvarade brevet. Ett missiv
+  vars adressat inte gick att identifiera räknas inte längre som besvarat brev, och
+  "ang." avslutar inte en mening i SDHK:s regester.
+- Klustringen föredrar den person som en förekomst hörde till förra körningen, bland de
+  kandidater reglerna godtar, så att personer inte delas när nya förekomster läses in.
+
 - Påståenden ur Diplomatarium Norvegicum (`dn_regester.py`): utfärdare, ämbeten,
   gärningar, missivens adressater och svar ur de danska och norska regesterna, 26 271
   påståenden ur 17 891 brev. Vittnesbrevens gärningar får parterna i at-satsen som subjekt.

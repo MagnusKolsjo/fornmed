@@ -73,7 +73,7 @@ class Garning:
 
 def forsta_meningen(text: str) -> str:
     # Punkt efter förkortningar och initialer avslutar inte meningen
-    m = re.search(r"(?<!\b[A-ZÅÄÖ])(?<!\bsn)(?<!\bhd)(?<!\bbp)(?<!\bSt)(?<!\bS:t)(?<!\bdr)(?<!\bca)\.(?:\s|$)", text)
+    m = re.search(r"(?<!\b[A-ZÅÄÖ])(?<!\bsn)(?<!\bhd)(?<!\bbp)(?<!\bSt)(?<!\bS:t)(?<!\bdr)(?<!\bca)(?<!\bang)\.(?:\s|$)", text)
     return text[:m.start()] if m else text
 
 
@@ -166,7 +166,7 @@ INTE_AVSANDARE = re.compile(r"\b(?:att|som|vilk\w+|kungör|kungöra|förbinder|f
                             # "bröder till", "dotter till": släktskap, inte adress
                             r"|\b(?:bröder|broder|bror|son|söner|dotter|döttrar|hustru|änka|frände|fränder|måg|syster|"
                             r"fader|far|moder|mor|arvinge|arvingar|fullmäktig\w*|ombud)$")
-_ADRESSAT_SLUT = (r"(?=,? (?:med|om|att|angående|rörande|beträffande|i anledning av|som svar|med anledning|på (?:hans|hennes|deras|dennes|"
+_ADRESSAT_SLUT = (r"(?=,? (?:med|om|att|angående|ang(?=\.)|rörande|beträffande|i anledning av|som svar|med anledning|på (?:hans|hennes|deras|dennes|"
                   r"dess|sin|sina|adressatens)|för (?:hans|hennes|deras|dennes|det|den|att)|och (?:ber|meddelar|tackar|"
                   r"begär|förklarar|lovar|beklagar|underrättar|uppmanar|anhåller|förmanar|svarar))\b|\s+\(|[.;:]|$)")
 MISSIV = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:skriver |skrev |hemställer |vänder sig |sänder brev |(?:meddelar|skriver) i (?:ett )?brev )?till "

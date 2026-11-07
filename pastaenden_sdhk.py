@@ -858,6 +858,7 @@ class Forekomst:
     orsak: str = ""
     identitet: Identitet | None = None
     roll: str = "utfardare"              # 'mottagare' i regestens huvudgärning, 'adressat' för ett missiv
+    tidigare: str | None = None          # förekomstens id i id-registret från förra körningen
 
     def nycklar(self) -> set[str]:
         """
@@ -1372,7 +1373,13 @@ def _klustra_fornamn(lista: list[Forekomst], egna: list[dict], slaktnamn: bool =
                 if grad:
                     kandidater.append((grad != "exakt", gap, p))
             kandidater.sort(key=lambda k: k[:2])
-            if len(kandidater) == 1 or (len(kandidater) > 1 and kandidater[0][:2] < kandidater[1][:2]):
+            # Bland kandidaterna går den person före som förekomsten hörde till förra gången,
+            # om just en av dem har det id:t. Så delas inte en person av att nya förekomster
+            # kommer till eller tolkas bättre; reglerna avgör bara vilka som är kandidater.
+            samma = [k[2] for k in kandidater if f.tidigare and any(g.tidigare == f.tidigare for g in k[2]["forekomster"])]
+            if len(samma) == 1:
+                mal = samma[0]
+            elif len(kandidater) == 1 or (len(kandidater) > 1 and kandidater[0][:2] < kandidater[1][:2]):
                 mal = kandidater[0][2]
         elif slaktnamn and efter and f.ar and not PATRONYMIKON.search(efter):
             samma = [p for p in egna if p["efternamn"] == efter and p["till"] and
@@ -1798,6 +1805,11 @@ def bygg(conn) -> dict:
                 stat["adressat"] += 1
 
     att_klustra = [f for f in forekomster if f.entitet is None]
+    # Förra körningens id:n, så att klustringen kan avgöra oavgjorda fall som förra gången
+    register = IdRegister()
+    tidigare_nyckel = register.nycklar(forekomster)
+    for f in forekomster:
+        f.tidigare = register.tidigare.get(tidigare_nyckel[id(f)])
     personlista = Personlista()
     mojliga = klustra(att_klustra, personlista)
     stat["personlista_personer"] = len(personlista.kopplade)
@@ -1810,7 +1822,6 @@ def bygg(conn) -> dict:
 
     # De föreslagna id:na byts mot registrets, så att en person behåller sitt
     # id mellan körningar; namnen behövs för hänvisningar från ersatta id:n
-    register = IdRegister()
     gamla_namn = {}
     if register.tidigare:
         cur = conn.cursor()
@@ -1956,7 +1967,7 @@ def svarskopplingar(resultat: dict, per_brev: dict) -> dict[str, tuple[str, str,
         a, b, f = parter(c, r)
         c_till = per_brev[c]["adressat"] or per_brev[c]["mottagare"]
         # Ett brev utan mottagare räcker bara om det är ett missiv, inte en gärning som en förläning
-        missiv = c in resultat["brevformer"]
+        missiv = c in resultat["brevformer"] and resultat["brevformer"][c].adressat is None
         return (a and (b or (not c_till and missiv))) or (b and (a or f or not per_brev[r]["adressat"]))
 
     ut = {}

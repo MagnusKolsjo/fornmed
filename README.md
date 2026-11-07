@@ -923,8 +923,10 @@ Gärningsverben (sælger/selger, giver/gir, mageskifter, pantsætter, stadfæste
 I vittnesbreven ("To Mænd kundgjöre, at Gudmund Amundssön solgte til Andres Ogmundssön
 …") är utfärdarna okända; gärningen tas ur at-satsen, och dess subjekt blir en part
 (roll `part`) i stället för en utfärdare. Missiv ("skriver til", "tilskriver",
-"underretter", "beder") ger adressaten, och "svarer", "Svar paa" och "modtaget hans Brev"
-ger svar, med datum som "Brev af 9 Juli". DN-brev som redan är kopplade till ett
+"underretter", "beder", i flertal "berette", "besvare") ger adressaten, och "svarer",
+"Svar paa", "Modtagelsen af et Brev" och "modtaget hans Brev" ger svar, med datum som
+"Brev af 9 Juli". I ett svar utan egen adressat är adressaten det besvarade brevets
+avsändare: "besvarer et brev fra fru Anne Rud", "svarer på kong Frederik IIs brev". DN-brev som redan är kopplade till ett
 SDHK-brev läses bara ur SDHK.
 
 DN läses i ett eget steg efter SDHK och DF. Sammanslagningarna efter klustringen
@@ -992,7 +994,10 @@ prod har samma id:n; DF:s förekomster har nycklar som `df6022:…` och adressat
 Skriptet tar bort och skapar om sina påståenden vid varje körning men raderar aldrig en
 entitet. En nyckel som inte längre förekommer står kvar i registret, och när en förekomsts
 form ändras ("Kristofer Mikelstorp" blir "Kristoffer Mikelsthorp (på Viborg)") får den
-nya formen den gamlas id, om brevet och rollen bara har en sådan förekomst.
+nya formen den gamlas id, om brevet och rollen bara har en sådan förekomst. Klustringen
+minns också förra körningens id:n: av de personer som reglerna godtar som kandidater går
+den före som förekomsten hörde till förra gången, så att en person inte delas när nya
+förekomster kommer till eller regesterna tolkas bättre.
 
 Orterna i fälten slås upp bland de platser som redan finns, med platsregistrets
 regler: runinskrifternas fyndplatser, socknarna och andra platser med område i
