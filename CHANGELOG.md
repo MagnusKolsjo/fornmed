@@ -7,6 +7,11 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Påståenden ur Diplomatarium Norvegicum (`dn_regester.py`): utfärdare, ämbeten,
+  gärningar, missivens adressater och svar ur de danska och norska regesterna, 26 271
+  påståenden ur 17 891 brev. Vittnesbrevens gärningar får parterna i at-satsen som subjekt.
+  DN läses i ett eget steg, så att inga sammanslagningar i SDHK eller DF tas bort.
+
 - Fler svar kopplas till det brev de besvarar: brev daterade bara till månad eller år,
   adressater i genitiv ("rådets i Danzig brev"), datum som "24/9 (1429)" och FMU-nummer.
   Utgivarens nummer räknas bara när brevet har svarets parter, och en förläning samma dag

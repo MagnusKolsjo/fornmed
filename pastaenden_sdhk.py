@@ -62,6 +62,7 @@ from pathlib import Path
 
 import db
 from normalisering import ordform
+import dn_regester
 from regest_garningar import Brevform, Garning, tolka_brevform, tolka_garning
 
 log = logging.getLogger("pastaenden_sdhk")
@@ -573,27 +574,32 @@ def _slug(s: str) -> str:
 
 
 # Brevsamlingarna i den ordning de läses. Ett brev identifieras med sitt verk-id
-# ('sdhk:10000', 'df:6022'). SDHK-brevens nycklar och id:n har bara numret, som
-# innan DF kom till, så att inga tidigare id:n ändras.
-KALLOR = {"sdhk": "SDHK", "df": "DF"}
+# ('sdhk:10000', 'df:6022', 'dn:4:159' med band och nummer). SDHK-brevens nycklar och
+# id:n har bara numret, som innan DF kom till, så att inga tidigare id:n ändras.
+KALLOR = {"sdhk": "SDHK", "df": "DF", "dn": "DN"}
 BREVPERSON = tuple(f"person:{k}:" for k in KALLOR)
 
 
-def ordning(verk: str) -> tuple[int, int]:
+def ordning(verk: str) -> tuple:
+    """Sorteringsnyckel: källa, sedan band och nummer som tal ('dn:4:587.a' → (2, 4, 587, '.a'))."""
     kalla, nr = verk.split(":", 1)
-    return list(KALLOR).index(kalla), int(nr)
+    delar = []
+    for x in nr.split(":"):
+        m = re.match(r"(\d+)(.*)", x)
+        delar += [int(m.group(1)), m.group(2)] if m else [0, x]
+    return (list(KALLOR).index(kalla), *delar)
 
 
 def kort(verk: str) -> str:
-    """Brevet i id-registrets nycklar: '10000' för SDHK, 'df6022' för DF."""
+    """Brevet i id-registrets nycklar: '10000' för SDHK, 'df6022' för DF, 'dn4-159' för DN."""
     kalla, nr = verk.split(":", 1)
-    return nr if kalla == "sdhk" else f"{kalla}{nr}"
+    return nr if kalla == "sdhk" else f"{kalla}{nr.replace(':', '-')}"
 
 
 def lokalt_id(verk: str, namn: str) -> str:
     """Föreslaget id för en person som bara är känd ur breven: källa, namn och första brevet."""
     kalla, nr = verk.split(":", 1)
-    return f"person:{kalla}:{_slug(namn)}:{nr}"
+    return f"person:{kalla}:{_slug(namn)}:{nr.replace(':', '-')}"
 
 
 def pave_id(pave: dict) -> str:
@@ -937,22 +943,49 @@ def klustra(forekomster: list[Forekomst], personlista: "Personlista | None" = No
     adressater kan sedan föras till en person ur SDHK men aldrig slå ihop eller dela
     SDHK:s personer. Så ändras inget tidigare id av att en ny källa eller en ny roll
     läses in, och samma person får inte en ny entitet i den nya källan.
+
+    Sammanslagningarna efter klustringen (släktnamn, medaktörer, personlistan) görs i
+    steg (STEG): först för SDHK och DF, sedan igen när DN har lästs in. En senare källa
+    kan alltså lägga till sammanslagningar men aldrig ta bort en som redan gjorts, även
+    där regeln kräver att en kandidat är den enda.
     """
     egna_per_fornamn: dict[str, list[dict]] = defaultdict(list)
-    for fas in FASER:
-        per_fornamn: dict[str, list[Forekomst]] = defaultdict(list)
-        for f in forekomster:
-            if _fas(f) == fas:
-                per_fornamn[ordform(f.u.fornamn)].append(f)
-        for namn, lista in per_fornamn.items():
-            _klustra_fornamn(lista, egna_per_fornamn[namn], slaktnamn=fas != FASER[0])
-    personer = [p for egna in egna_per_fornamn.values() for p in egna]
-    personer = _sla_ihop_slaktnamn(personer)
-    personer = _sla_ihop_medaktorer(personer)
-    if personlista is not None:
-        personer = personlista.koppla(personer)
+    personer: list[dict] = []
+    for steg in STEG:
+        for fas in (f for f in FASER if f[1] in steg):
+            per_fornamn: dict[str, list[Forekomst]] = defaultdict(list)
+            for f in forekomster:
+                if _fas(f) == fas:
+                    per_fornamn[ordform(f.u.fornamn)].append(f)
+            for namn, lista in per_fornamn.items():
+                _klustra_fornamn(lista, egna_per_fornamn[namn], slaktnamn=fas != FASER[0])
+        personer = [p for egna in egna_per_fornamn.values() for p in egna]
+        personer = _sla_ihop_slaktnamn(personer)
+        personer = _sla_ihop_medaktorer(personer)
+        if personlista is not None:
+            personer = personlista.koppla(personer)
+        # Nästa steg klustrar mot personerna som de är efter sammanslagningarna
+        egna_per_fornamn = defaultdict(list)
+        for p in personer:
+            egna_per_fornamn[Counter(ordform(f.u.fornamn) for f in p["forekomster"]).most_common(1)[0][0]].append(p)
     _namnge(personer)
     return _mojliga_samma(personer)
+
+
+# Källor vars personer slås ihop innan nästa steg läses in
+STEG = [("sdhk", "df"), ("dn",)]
+
+
+def _gruppera(personer: list[dict], rot) -> list[dict]:
+    """Personerna efter en sammanslagning, med nycklar och spann för den fortsatta klustringen."""
+    grupper: dict[int, dict] = {}
+    for i, p in enumerate(personer):
+        g = grupper.setdefault(rot(i), {"efternamn": None, "nycklar": set(), "fran": 9999, "till": 0, "forekomster": []})
+        g["forekomster"] += p["forekomster"]
+        g["nycklar"] |= p["nycklar"]
+        g["efternamn"] = g["efternamn"] or p["efternamn"]
+        g["fran"], g["till"] = min(g["fran"], p["fran"]), max(g["till"], p["till"])
+    return list(grupper.values())
 
 
 # Största uppehåll när en förekomst utan ort och ämbete förs till en person med samma släktnamn
@@ -1041,13 +1074,7 @@ def _sla_ihop_slaktnamn(personer: list[dict]) -> list[dict]:
                     if _gap(uppg[i][1], uppg[j][1]) <= MAX_GAP_AR:
                         forena(i, j)
 
-    grupper: dict[int, dict] = {}
-    for i, p in enumerate(personer):
-        g = grupper.setdefault(rot(i), {"efternamn": p["efternamn"], "nycklar": set(), "fran": 9999, "till": 0,
-                                        "forekomster": []})
-        g["forekomster"] += p["forekomster"]
-        g["nycklar"] |= p["nycklar"]
-    return list(grupper.values())
+    return _gruppera(personer, rot)
 
 
 # Längsta verksamma tid när bara födelseåret eller dödsåret är känt
@@ -1272,13 +1299,7 @@ def _sla_ihop_medaktorer(personer: list[dict]) -> list[dict]:
             brev_rot[b] |= brev_rot[a]
             nyck_rot[b] |= nyck_rot[a]
 
-    grupper: dict[int, dict] = {}
-    for i, p in enumerate(personer):
-        g = grupper.setdefault(rot(i), {"efternamn": p["efternamn"], "nycklar": set(), "fran": 9999, "till": 0,
-                                        "forekomster": []})
-        g["forekomster"] += p["forekomster"]
-        g["nycklar"] |= p["nycklar"]
-    return list(grupper.values())
+    return _gruppera(personer, rot)
 
 
 def _mojliga_samma(personer: list[dict]) -> list[tuple[dict, dict]]:
@@ -1305,11 +1326,11 @@ def _mojliga_samma(personer: list[dict]) -> list[tuple[dict, dict]]:
 
 
 # Klustringens faser: (roll, källa). En senare fas ändrar aldrig en tidigare fas personer.
-FASER = [(0, "sdhk"), (0, "df"), (1, "sdhk"), (1, "df")]
+FASER = [(0, "sdhk"), (0, "df"), (0, "dn"), (1, "sdhk"), (1, "df"), (1, "dn")]
 
 
 def _fas(f: "Forekomst") -> tuple[int, str]:
-    return (1 if f.roll == "adressat" else 0, f.verk.split(":", 1)[0])
+    return (1 if f.roll in ("adressat", "part") else 0, f.verk.split(":", 1)[0])
 
 
 # Svenska och latinska patronymikon: "Larsson", "Nilsdotter", "Petri", "Suenonis", "Tidechini"
@@ -1439,6 +1460,8 @@ class IdRegister:
                 bas = "m|" + bas
             elif f.roll == "adressat":
                 bas = "a|" + bas
+            elif f.roll == "part":
+                bas = "p|" + bas
             raknare[bas] += 1
             ut[id(f)] = bas if raknare[bas] == 1 else f"{bas}#{raknare[bas]}"
         return ut
@@ -1611,7 +1634,17 @@ def hamta_brev(conn) -> list[tuple]:
             continue
         if falt := df_falt(falt):
             df.append((verk, falt, *resten))
-    return brev + sorted(df, key=lambda b: ordning(b[0]))
+    # DN saknar utfärdarfält; subjektet tas ur regesten i bygg (dn_regester.py). Fältet är tomt
+    # här, så att DN inte påverkar vilka förnamn som räknas som kända i SDHK.
+    cur.execute(f"""
+        SELECT v.id, '', v.datering_edtf, v.datering_fran, v.datering_till, {passager}, v.extra
+        FROM {p}verk v WHERE v.kallsamling_id = 'dn'""")
+    dn = []
+    for verk, falt, *resten, extra in cur.fetchall():
+        extra = extra if isinstance(extra, dict) else json.loads(extra or "{}")
+        if not extra.get("sdhk"):
+            dn.append((verk, falt, *resten))
+    return brev + sorted(df, key=lambda b: ordning(b[0])) + sorted(dn, key=lambda b: ordning(b[0]))
 
 
 def kanda_fornamn(brev: list[tuple]) -> set[str]:
@@ -1655,7 +1688,7 @@ def bygg(conn) -> dict:
     def koppla(f: Forekomst) -> None:
         """Identifierar en förekomst mot institutioner, regenter, påvar och biskopar."""
         u, verk, ar = f.u, f.verk, f.ar
-        suffix = {"utfardare": "", "mottagare": "-m", "adressat": "-a"}[f.roll]
+        suffix = {"utfardare": "", "mottagare": "-m", "adressat": "-a", "part": "-p"}[f.roll]
         if u.institution:
             iid = f"institution:sdhk:{_slug(u.institution)}"
             institutioner[iid] = u.institution
@@ -1698,6 +1731,9 @@ def bygg(conn) -> dict:
         if passage is None:
             stat["brev_utan_passage"] += 1
             continue
+        dnt = dn_regester.tolka(regesttext) if verk.startswith("dn:") and regesttext else None
+        if verk.startswith("dn:"):
+            falt = (dnt.utfardare if dnt else None) or ""
         datering[verk] = (edtf, fran, till)
         ar = (fran // 10000, till // 10000) if fran and till else None
         t = tolka(falt, fornamn)
@@ -1713,8 +1749,18 @@ def bygg(conn) -> dict:
             koppla(f)
             forekomster.append(f)
 
-        # Regestens huvudgärning; mottagarna tolkas och identifieras som utfärdarna
-        g = tolka_garning(regesttext) if regest and regesttext and t.utfardare else None
+        # Regestens huvudgärning; mottagarna tolkas och identifieras som utfärdarna. DN:s
+        # regester tolkas av dn_regester.py, och i vittnesbreven är gärningens subjekt en part.
+        if verk.startswith("dn:"):
+            g = dnt.garning if dnt and (t.utfardare or dnt.garning_subjekt) else None
+            for u in (tolka(dnt.garning_subjekt, fornamn).utfardare if g and dnt.garning_subjekt else []):
+                if u.institution or u.titel or u.ambeten or u.efternamn or u.fornamn in fornamn:
+                    f = Forekomst(verk, regest, ar, u, roll="part")
+                    koppla(f)
+                    forekomster.append(f)
+                    stat["part"] += 1
+        else:
+            g = tolka_garning(regesttext) if regest and regesttext and t.utfardare else None
         if g:
             garningar[verk] = g
             regesttexter[verk] = regesttext
@@ -1733,7 +1779,10 @@ def bygg(conn) -> dict:
                     stat["mottagare"] += 1
 
         # Ett brev utan gärning kan vara ett missiv med en adressat, och ett svar på ett tidigare brev
-        b = tolka_brevform(regesttext) if regest and regesttext and t.utfardare and not g else None
+        if verk.startswith("dn:"):
+            b = dnt.brevform if dnt and t.utfardare and not g else None
+        else:
+            b = tolka_brevform(regesttext) if regest and regesttext and t.utfardare and not g else None
         if b:
             brevformer[verk] = b
             regesttexter[verk] = regesttext
@@ -1765,7 +1814,8 @@ def bygg(conn) -> dict:
     gamla_namn = {}
     if register.tidigare:
         cur = conn.cursor()
-        cur.execute(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE 'person:sdhk:%' OR id LIKE 'person:df:%'")
+        cur.execute(f"SELECT id, namn FROM {db._prefix()}entitet WHERE id LIKE 'person:sdhk:%' OR id LIKE 'person:df:%' "
+                    f"OR id LIKE 'person:dn:%'")
         gamla_namn = dict(cur.fetchall())
     register.tilldela(forekomster, gamla_namn)
     stat["ersatta_id"] = len(register.ersatta)
@@ -1814,7 +1864,8 @@ class Platsuppslag:
         return pid
 
     def __call__(self, ort: str, verk: str) -> str | None:
-        if verk.startswith("df:") and (pid := f"plats:df:{_slug(ort)}") in self.finns:
+        kalla = verk.split(":", 1)[0]
+        if kalla in ("df", "dn") and (pid := f"plats:{kalla}:{_slug(ort)}") in self.finns:
             return self.folj(pid)
         if (pid := self.per_form.get(ordform(ort))):
             return self.folj(pid)
@@ -1824,7 +1875,7 @@ class Platsuppslag:
         return None
 
 
-ROLLNAMN = {"utfardare": "Utfärdare", "mottagare": "Mottagare", "adressat": "Adressat"}
+ROLLNAMN = {"utfardare": "Utfärdare", "mottagare": "Mottagare", "adressat": "Adressat", "part": "Part"}
 # Ett svar utan datum kopplas bara till ett brev från det senaste året
 SVAR_UTAN_DATUM_DAGAR = 365
 
@@ -2075,7 +2126,7 @@ def rader(resultat: dict, uppslag) -> dict[str, list[tuple]]:
 
     # Regestens huvudgärning: varje utfärdare mot varje mottagare. Värdet är
     # egendom och pris (ämbetet för 'utnamner'), platsen den första orten
-    per_brev: dict[str, dict[str, list[str]]] = defaultdict(lambda: {"utfardare": [], "mottagare": [], "adressat": []})
+    per_brev: dict[str, dict[str, list[str]]] = defaultdict(lambda: {"utfardare": [], "mottagare": [], "adressat": [], "part": []})
     for f in resultat["forekomster"]:
         if f.entitet and f.entitet not in per_brev[f.verk][f.roll]:
             per_brev[f.verk][f.roll].append(f.entitet)
@@ -2085,7 +2136,8 @@ def rader(resultat: dict, uppslag) -> dict[str, list[tuple]]:
         if g.slakt:
             varde = f"{varde} (till {g.slakt})" if varde else f"till {g.slakt}"
         mottagare = per_brev[verk]["mottagare"] or [None]
-        for s_id in per_brev[verk]["utfardare"]:
+        # I DN:s vittnesbrev är gärningens subjekt en part som vittnena intygar, inte utfärdaren
+        for s_id in per_brev[verk]["part"] or per_brev[verk]["utfardare"]:
             for o_id in mottagare:
                 if s_id == o_id or (o_id is None and not varde):
                     continue
@@ -2270,7 +2322,7 @@ def skriv_rapport(resultat: dict, katalog: Path, antal: int = 80) -> None:
     # Gärningar: regesten bredvid tolkningen
     rader_ += ["", "## Gärningar ur regesterna (stickprov)", "",
                "| brev | regest | gärning | utfärdare | mottagare | värde | ort |", "|---|---|---|---|---|---|---|"]
-    per_brev = defaultdict(lambda: {"utfardare": [], "mottagare": [], "adressat": []})
+    per_brev = defaultdict(lambda: {"utfardare": [], "mottagare": [], "adressat": [], "part": []})
     for f in fk:
         if f.entitet and f.entitet not in per_brev[f.verk][f.roll]:
             per_brev[f.verk][f.roll].append(f.entitet)

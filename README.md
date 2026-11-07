@@ -907,6 +907,30 @@ Mottagarens titlar och ämbeten blir påståenden som utfärdarens. En
 mottagare utan titel, ämbete, efternamn eller känt förnamn avvisas, eftersom
 uppräknade gårdsnamn annars blir personer.
 
+### Diplomatarium Norvegicum
+
+DN saknar utfärdarfält. `dn_regester.py` tar utfärdaren ur regestens subjekt, före
+huvudverbet ("Biskop Olaf af Bergen udsteder …", "Kong Erik av Norge skriver til …"),
+och skriver om det till SDHK:s svenska form: titlarna (Kong → Kung, Lagmand → lagman,
+Høvedsmand → hövitsman, Hr. → herr), "af Bergen" → "i Bergen" men "av Norge" kvar,
+patronymikon och stavning ("Vidkunssön" → "Vidkunsson", "Haakon" → "Håkon",
+"Christiern" → "Kristiern"). Sedan tolkas det med samma regler som SDHK:s och DF:s fält,
+så att samma person och samma ämbete känns igen i alla tre. Regesterna i band 1–18 är
+på 1800-talsdanska och i band 19–23 på nutida norska; båda läses.
+
+Gärningsverben (sælger/selger, giver/gir, mageskifter, pantsætter, stadfæster, bygsler
+…) ger samma predikat som i SDHK, med mottagaren efter "til" eller direkt efter verbet.
+I vittnesbreven ("To Mænd kundgjöre, at Gudmund Amundssön solgte til Andres Ogmundssön
+…") är utfärdarna okända; gärningen tas ur at-satsen, och dess subjekt blir en part
+(roll `part`) i stället för en utfärdare. Missiv ("skriver til", "tilskriver",
+"underretter", "beder") ger adressaten, och "svarer", "Svar paa" och "modtaget hans Brev"
+ger svar, med datum som "Brev af 9 Juli". DN-brev som redan är kopplade till ett
+SDHK-brev läses bara ur SDHK.
+
+DN läses i ett eget steg efter SDHK och DF. Sammanslagningarna efter klustringen
+(släktnamn, medaktörer, personlistan) görs först för SDHK och DF och sedan igen med DN,
+så att DN kan lägga till sammanslagningar men aldrig ta bort en som redan finns.
+
 ### Adressater och svar
 
 Ett brev utan gärning är ofta ett missiv: "Rådet i Åbo till det i Lübeck angående
