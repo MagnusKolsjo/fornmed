@@ -1,0 +1,160 @@
+{"namn": "Mecheln", "nutida": "Mechelen", "land": "be", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Mechelen i Belgien"}
+{"namn": "Köln v. Spree", "nutida": "Berlin", "land": "de", "typ": "stad", "wikidata": "Q64", "sakerhet": "hog", "motivering": "Cölln vid Spree, del av Berlin"}
+{"namn": "Vossevangen", "nutida": "Vossevangen", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Tettsted i Voss"}
+{"namn": "Jemteland", "nutida": "Jämtland", "land": "se", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Landskapet Jämtland"}
+{"namn": "Torgau", "nutida": "Torgau", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Stad i Sachsen"}
+{"namn": "Voss", "nutida": "Voss", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Voss herad"}
+{"namn": "Berlin", "nutida": "Berlin", "land": "de", "typ": "stad", "wikidata": "Q64", "sakerhet": "hog", "motivering": "Berlin"}
+{"namn": "Refsund", "nutida": "Refsund", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker lokalisering"}
+{"namn": "Stenviksholm", "nutida": "Steinvikholm", "land": "no", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Steinvikholm slott, Trøndelag"}
+{"namn": "Bremen", "nutida": "Bremen", "land": "de", "typ": "stad", "wikidata": "Q24879", "sakerhet": "hog", "motivering": "Hansestaden Bremen"}
+{"namn": "Vaage", "nutida": "Vågå", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Vågå i Gudbrandsdalen"}
+{"namn": "Lynn", "nutida": "King's Lynn", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Lynn, hansehandel"}
+{"namn": "Ovik", "nutida": "Oviken", "land": "se", "typ": "socken", "wikidata": "", "sakerhet": "medel", "motivering": "Socken i Jämtland"}
+{"namn": "Brüssel", "nutida": "Bruxelles", "land": "be", "typ": "stad", "wikidata": "Q239", "sakerhet": "hog", "motivering": "Brüssel"}
+{"namn": "Eker", "nutida": "Eiker", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Eker, Buskerud"}
+{"namn": "Gottorp slott", "nutida": "Gottorf", "land": "de", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Slottet Gottorf vid Schleswig"}
+{"namn": "Weimar", "nutida": "Weimar", "land": "de", "typ": "stad", "wikidata": "Q3955", "sakerhet": "hog", "motivering": "Weimar i Thüringen"}
+{"namn": "Grefsheim", "nutida": "Grefsheim", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "medel", "motivering": "Gård i Nes, Hedmark"}
+{"namn": "Huseby", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "För vanligt namn"}
+{"namn": "Aas", "nutida": "Ås", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Aas sogn i Follo"}
+{"namn": "Haakaas", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Moland", "nutida": "Moland", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Moland i Telemark"}
+{"namn": "Haabøl", "nutida": "Hobøl", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Haabøl, Østfold"}
+{"namn": "Hjertdal", "nutida": "Hjartdal", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Hjertdal i Telemark"}
+{"namn": "Augsburg", "nutida": "Augsburg", "land": "de", "typ": "stad", "wikidata": "Q2749", "sakerhet": "hog", "motivering": "Augsburg i Bayern"}
+{"namn": "Baahus", "nutida": "Bohus", "land": "se", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Bohus fästning vid Kungälv"}
+{"namn": "Speier", "nutida": "Speyer", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Speier, riksdag 1526"}
+{"namn": "Thelemarken", "nutida": "Telemark", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Fylket Telemark"}
+{"namn": "Aslo", "nutida": "Oslo", "land": "no", "typ": "stad", "wikidata": "", "sakerhet": "medel", "motivering": "Aslo sannolikt Oslo"}
+{"namn": "Edinburg", "nutida": "Edinburgh", "land": "gb", "typ": "stad", "wikidata": "Q23436", "sakerhet": "hog", "motivering": "Edinburg, Skottland"}
+{"namn": "Österaat", "nutida": "Østråt", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "medel", "motivering": "Römer-släktens gård i Ørland"}
+{"namn": "Fosen", "nutida": "Fosen", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Fosen i Trøndelag"}
+{"namn": "Vere", "nutida": "Veere", "land": "nl", "typ": "stad", "wikidata": "", "sakerhet": "medel", "motivering": "Skotsk stapelstad Vere"}
+{"namn": "Windsor", "nutida": "Windsor", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Windsor, England"}
+{"namn": "Eidsvold", "nutida": "Eidsvoll", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Eidsvold, Akershus"}
+{"namn": "Güstrow", "nutida": "Güstrow", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Mecklenburg"}
+{"namn": "Finnen", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Flera möjliga orter"}
+{"namn": "Fron", "nutida": "Fron", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Fron i Gudbrandsdalen"}
+{"namn": "Kalundborg", "nutida": "Kalundborg", "land": "dk", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Kalundborg på Själland"}
+{"namn": "Konghelle", "nutida": "Kungälv", "land": "se", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Konghelle, Kungahälla/Kungälv"}
+{"namn": "Lødøse", "nutida": "Lödöse", "land": "se", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Lödöse i Västergötland"}
+{"namn": "Sillegjord", "nutida": "Seljord", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Sillegjord, Telemark"}
+{"namn": "Toten", "nutida": "Toten", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Toten i Oppland"}
+{"namn": "Valdres", "nutida": "Valdres", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Dalføret Valdres"}
+{"namn": "København slott", "nutida": "København", "land": "dk", "typ": "stad", "wikidata": "Q1748", "sakerhet": "hog", "motivering": "Københavns slott"}
+{"namn": "Perth", "nutida": "Perth", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Perth, Skottland"}
+{"namn": "Altenburg", "nutida": "Altenburg", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "medel", "motivering": "Altenburg i Thüringen"}
+{"namn": "Mo Lom", "nutida": "Lom", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Mo i Lom"}
+{"namn": "Röden", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Upsala", "nutida": "Uppsala", "land": "se", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Upsala"}
+{"namn": "Hatteberg", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Hofvin", "nutida": "Hovin", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "lag", "motivering": "Möjlig tolkning, osäker"}
+{"namn": "Jæmteland", "nutida": "Jämtland", "land": "se", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Landskapet Jämtland"}
+{"namn": "Lödese", "nutida": "Lödöse", "land": "se", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Lödöse i Västergötland"}
+{"namn": "Lungegaard", "nutida": "Lungegården", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "medel", "motivering": "Vincens Lunges gård i Bergen"}
+{"namn": "York", "nutida": "York", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "York, England"}
+{"namn": "Aamlid", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Celle", "nutida": "Celle", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Celle i Niedersachsen"}
+{"namn": "Fagaberg", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Tunheim", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Undersaker", "nutida": "Undersåker", "land": "se", "typ": "socken", "wikidata": "", "sakerhet": "hog", "motivering": "Undersåker i Jämtland"}
+{"namn": "Ved Kjøbenhavn", "nutida": "København", "land": "dk", "typ": "stad", "wikidata": "Q1748", "sakerhet": "hog", "motivering": "Ved Kjøbenhavn"}
+{"namn": "Zwynaerde", "nutida": "Zwijnaarde", "land": "be", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Zwynaerde vid Gent"}
+{"namn": "Brunla", "nutida": "Brunlanes", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Brunla i Vestfold"}
+{"namn": "Hviteseid", "nutida": "Hjartdal", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "lag", "motivering": "Möjligen Hviteseid i Telemark"}
+{"namn": "Madrid", "nutida": "Madrid", "land": "es", "typ": "stad", "wikidata": "Q2807", "sakerhet": "hog", "motivering": "Madrid"}
+{"namn": "Rafund", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Sandehered", "nutida": "Sandefjord", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Sandeherred i Vestfold"}
+{"namn": "Hognestad", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Hvam", "nutida": "Hvam", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "medel", "motivering": "Hvam i Nes, Akershus"}
+{"namn": "Lochau", "nutida": "Annaburg", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "medel", "motivering": "Lochau omdöpt Annaburg"}
+{"namn": "Tinn", "nutida": "Tinn", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Tinn i Telemark"}
+{"namn": "Gausdal", "nutida": "Gausdal", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Gausdal i Oppland"}
+{"namn": "Hiterdal", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Holleim", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Kirkeberg", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Middelburg", "nutida": "Middelburg", "land": "nl", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Middelburg i Zeeland"}
+{"namn": "Ringebo", "nutida": "Ringebu", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Ringebo i Gudbrandsdalen"}
+{"namn": "Säm", "nutida": "Sem", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Säm, Vestfold"}
+{"namn": "Saude", "nutida": "Sauda", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Saude, Rogaland"}
+{"namn": "Steinvikholm", "nutida": "Steinvikholm", "land": "no", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Steinvikholm slott, Trøndelag"}
+{"namn": "Valladolid", "nutida": "Valladolid", "land": "es", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Valladolid"}
+{"namn": "Varne", "nutida": "Verne", "land": "no", "typ": "kloster", "wikidata": "", "sakerhet": "medel", "motivering": "Verne kloster, Rygge"}
+{"namn": "Veö", "nutida": "Veøy", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Korskirken på Veøy"}
+{"namn": "Brynla", "nutida": "Brunlanes", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Variant av Brunla"}
+{"namn": "Hertzogenbusch", "nutida": "'s-Hertogenbosch", "land": "nl", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Hertzogenbusch"}
+{"namn": "Höland", "nutida": "Høland", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Høland i Akershus"}
+{"namn": "Manvik", "nutida": "Manvik", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker lokalisering"}
+{"namn": "Thjödling", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Zelle", "nutida": "Celle", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Zelle, hertigarna av Lüneburg"}
+{"namn": "Hedemarken", "nutida": "Hedmarken", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Hedemarken i Hedmark"}
+{"namn": "Hovedö", "nutida": "Hovedøya", "land": "no", "typ": "kloster", "wikidata": "", "sakerhet": "hog", "motivering": "Hovedøya kloster vid Oslo"}
+{"namn": "Ignebakke", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Koldinghus", "nutida": "Koldinghus", "land": "dk", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Slottet i Kolding"}
+{"namn": "Leith", "nutida": "Leith", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Hamn vid Edinburgh"}
+{"namn": "Offerdal", "nutida": "Offerdal", "land": "se", "typ": "socken", "wikidata": "", "sakerhet": "hog", "motivering": "Offerdal i Jämtland"}
+{"namn": "Ramnes", "nutida": "Ramnes", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Ramnes i Vestfold"}
+{"namn": "Sandshverv", "nutida": "Sandsvær", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Sandshverv i Buskerud"}
+{"namn": "Schweidnitz", "nutida": "Świdnica", "land": "pl", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Schweidnitz i Schlesien"}
+{"namn": "Sigdal", "nutida": "Sigdal", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Sigdal i Buskerud"}
+{"namn": "Tunsberghus", "nutida": "Tønsberg", "land": "no", "typ": "borg", "wikidata": "", "sakerhet": "medel", "motivering": "Tunsberghus, fästning vid Tønsberg"}
+{"namn": "ud. Sted", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "hog", "motivering": "Obestämd ort"}
+{"namn": "Undal", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Ved Oslo", "nutida": "Oslo", "land": "no", "typ": "stad", "wikidata": "Q585", "sakerhet": "hog", "motivering": "Ved Oslo"}
+{"namn": "Burgos", "nutida": "Burgos", "land": "es", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Burgos"}
+{"namn": "Eikeland", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Elfsborg", "nutida": "Älvsborg", "land": "se", "typ": "borg", "wikidata": "", "sakerhet": "medel", "motivering": "Älvsborgs fästning"}
+{"namn": "Fageberg", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Forberg", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Gimsö", "nutida": "Gjemsøy", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "lag", "motivering": "Möjligen Gimsøy i Telemark"}
+{"namn": "Hallingdal", "nutida": "Hallingdal", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Dalføret Hallingdal"}
+{"namn": "Hoffsvangen", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Kbhvns. Slot", "nutida": "København", "land": "dk", "typ": "stad", "wikidata": "Q1748", "sakerhet": "hog", "motivering": "Københavns slott"}
+{"namn": "Lopne", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Myske", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Norderhof", "nutida": "Norderhov", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Norderhov i Ringerike"}
+{"namn": "Skumsrud", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Villeneuve ved Avignon", "nutida": "Villeneuve-lès-Avignon", "land": "fr", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Påvlig Avignon-tid"}
+{"namn": "Winchester", "nutida": "Winchester", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Winchester, England"}
+{"namn": "Aflodal", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Ansbach", "nutida": "Ansbach", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Markgrevskapet Brandenburg-Ansbach"}
+{"namn": "Bagahus", "nutida": "Bohus", "land": "se", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Bagahus, Bohus fästning"}
+{"namn": "Breslau", "nutida": "Wrocław", "land": "pl", "typ": "stad", "wikidata": "Q1799", "sakerhet": "hog", "motivering": "Breslau i Schlesien"}
+{"namn": "Cambray", "nutida": "Cambrai", "land": "fr", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Cambray"}
+{"namn": "Dresden", "nutida": "Dresden", "land": "de", "typ": "stad", "wikidata": "Q1731", "sakerhet": "hog", "motivering": "Dresden i Sachsen"}
+{"namn": "Dundee", "nutida": "Dundee", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Dundee, Skottland"}
+{"namn": "Follo", "nutida": "Follo", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Follo i Akershus"}
+{"namn": "Fraunar", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Hadeland", "nutida": "Hadeland", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "hog", "motivering": "Hadeland i Oppland"}
+{"namn": "Halsnö", "nutida": "Halsnøy", "land": "no", "typ": "kloster", "wikidata": "", "sakerhet": "hog", "motivering": "Halsnøy kloster, Hordaland"}
+{"namn": "Hollen", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Lister", "nutida": "Lister", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "medel", "motivering": "Lister i Vest-Agder"}
+{"namn": "Lungegården", "nutida": "Lungegården", "land": "no", "typ": "gard", "wikidata": "", "sakerhet": "medel", "motivering": "Vincens Lunges gård i Bergen"}
+{"namn": "Medalheim", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Northampton", "nutida": "Northampton", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Northampton, England"}
+{"namn": "Nyborg slott", "nutida": "Nyborg", "land": "dk", "typ": "borg", "wikidata": "", "sakerhet": "hog", "motivering": "Nyborg slott på Fyn"}
+{"namn": "Roaldstad", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Rom, Vatikanet", "nutida": "Rom", "land": "it", "typ": "stad", "wikidata": "Q220", "sakerhet": "hog", "motivering": "Rom, Vatikanen"}
+{"namn": "Sproteid", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Thegneby", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Thrötten", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Thufn", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Thveit", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "Tuteröen", "nutida": "Tautra", "land": "no", "typ": "kloster", "wikidata": "", "sakerhet": "medel", "motivering": "Tuterøen, Tautra kloster"}
+{"namn": "Utrecht", "nutida": "Utrecht", "land": "nl", "typ": "stad", "wikidata": "Q803", "sakerhet": "hog", "motivering": "Utrecht"}
+{"namn": "Vansyn", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Vardal", "nutida": "Vardal", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "hog", "motivering": "Vardal i Oppland"}
+{"namn": "Vold", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt gårdsnamn"}
+{"namn": "(Antwerpen)", "nutida": "Antwerpen", "land": "be", "typ": "stad", "wikidata": "Q12892", "sakerhet": "hog", "motivering": "Antwerpen"}
+{"namn": "Aaby", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Vanligt namn"}
+{"namn": "Balke", "nutida": "Balke", "land": "no", "typ": "bygd", "wikidata": "", "sakerhet": "medel", "motivering": "Balke i Oppland"}
+{"namn": "Borgesyssel", "nutida": "Østfold", "land": "no", "typ": "region", "wikidata": "", "sakerhet": "medel", "motivering": "Borgesyssel, Borgarsyssel"}
+{"namn": "Boston", "nutida": "Boston", "land": "gb", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Boston, Lincolnshire"}
+{"namn": "Delft", "nutida": "Delft", "land": "nl", "typ": "stad", "wikidata": "Q690", "sakerhet": "hog", "motivering": "Delft"}
+{"namn": "Fiskheim", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Frauner", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Gent", "nutida": "Gent", "land": "be", "typ": "stad", "wikidata": "Q1296", "sakerhet": "hog", "motivering": "Gent i Flandern"}
+{"namn": "Helsingør", "nutida": "Helsingør", "land": "dk", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Helsingør"}
+{"namn": "Joreksstad", "nutida": "", "land": "", "typ": "okand", "wikidata": "", "sakerhet": "lag", "motivering": "Osäker tolkning"}
+{"namn": "Jüterbogk", "nutida": "Jüterbog", "land": "de", "typ": "stad", "wikidata": "", "sakerhet": "hog", "motivering": "Jüterbogk i Brandenburg"}

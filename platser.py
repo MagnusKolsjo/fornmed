@@ -76,6 +76,7 @@ import json
 import logging
 import math
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -108,7 +109,7 @@ REGION = {"land", "landskap", "lan", "omrade"}
 INLEDANDE_ORD = {"norra", "södra", "östra", "västra", "övre", "nedre", "stora", "lilla", "gamla", "nya", "s:t", "s:ta", "sankt", "sankta"}
 
 # Id:n som aldrig slås upp på enbart namnet
-EJ_PA_NAMN = ("plats:runa:", "plats:socken:", "plats:kommun:", "plats:lan:", "plats:wd:", "plats:museum:", "plats:df:")
+EJ_PA_NAMN = ("plats:runa:", "plats:socken:", "plats:kommun:", "plats:lan:", "plats:wd:", "plats:museum:", "plats:df:", "plats:dn:", "plats:di:")
 
 # Rundata räknar Skåne, Blekinge och Halland till Danmark. Socknarna där finns i
 # RAÄ:s auktoriteter, under landskapen.
@@ -124,6 +125,13 @@ UPPSLAGSFIL = KATALOG / "x_uppslag.tsv"
 LEXIKONFIL = KATALOG / "lexikon_beslut.tsv"
 GRANSKNINGSFIL = KATALOG / "brevgranskning.tsv"
 HANVISNINGSFIL = KATALOG / "platshanvisningar.tsv"
+SSR_FIL = Path(__file__).parent / "data" / "raw" / "ssr" / "ssr.jsonl"
+SSR_KALLA = "Kartverket: Sentralt stedsnavnregister (CC BY 4.0)"
+DN_ALIAS = KATALOG / "dn_alias.tsv"
+DN_ORTER = KATALOG / "dn_orter.tsv"
+DI_ALIAS = KATALOG / "di_alias.tsv"
+DI_ORTER = KATALOG / "di_orter.tsv"
+SAGAMAP_KALLA = "Icelandic Saga Map, sagamap.hi.is (CC BY-NC 4.0)"
 DF_PLATSFIL = Path(__file__).parent / "data" / "raw" / "df" / "platser.json"
 DF_KALLA = "Kansallisarkisto: Diplomatarium Fennicum, platsregistret"
 DF_GRANS_KM = 30
@@ -867,6 +875,226 @@ def df_orter(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
     return resultat
 
 
+# Kartverkets objekttyper som kan vara en brevort; gårdar och bruk delar namn över hela landet
+SSR_TYPER = {"Kommune": 5, "By": 3, "Tettsted": 3, "Tettbebyggelse": 4, "Bydel": 4, "Sokn": 1, "Kirke": 0,
+             "Kirkested": 0, "Bygdelag (bygd)": 2}
+SSR_GRANS_KM = 15
+
+
+def _ssr() -> dict[str, list[dict]]:
+    if not SSR_FIL.exists():
+        return {}
+    traffar = {}
+    for rad in SSR_FIL.open(encoding="utf-8"):
+        r = json.loads(rad)
+        traffar[r["namn"].casefold()] = r["traffar"]
+    return traffar
+
+
+def _ssr_lage(namn: str, ssr: dict) -> dict | None:
+    """Kartverkets läge för en norsk ort: alla kommuner, socknar, kyrkor och bygder med namnet
+    måste ligga inom SSR_GRANS_KM från varandra. Annars kan namnet avse flera orter."""
+    kandidater = [t for t in ssr.get(namn.casefold(), [])
+                  if t.get("navneobjekttype") in SSR_TYPER and t.get("representasjonspunkt")
+                  and any(x.get("skrivemåte", "").casefold() == namn.casefold() for x in t.get("stedsnavn", []))]
+    if not kandidater:
+        return None
+    punkter = [(t["representasjonspunkt"]["nord"], t["representasjonspunkt"]["øst"]) for t in kandidater]
+    if max(_km(a[0], a[1], b[0], b[1]) for a in punkter for b in punkter) > SSR_GRANS_KM:
+        return None
+    basta = min(kandidater, key=lambda t: SSR_TYPER[t["navneobjekttype"]])
+    kommun = next((k.get("kommunenavn") for k in (basta.get("kommuner") or []) if k.get("kommunenavn")), None)
+    return {"nutida_namn": f"{namn} ({kommun})" if kommun and kommun != namn else namn,
+            "latitud": basta["representasjonspunkt"]["nord"], "longitud": basta["representasjonspunkt"]["øst"],
+            "typ": basta["navneobjekttype"]}
+
+
+def _dn_delar(ort: str) -> tuple[str, str | None]:
+    """Den minsta platsen och sammanhanget: "Rom, Vatikanet" och "Rom (Vatikanet)" är Vatikanet i Rom,
+    "Nummis i S:t Karins s:n" är Nummis i S:t Karins."""
+    ren = re.sub(r"[\[\]?]", "", ort).strip(" .,")
+    if (m := re.match(r"(.+?)\s*\((.+)\)$", ren)) or (m := re.match(r"([^,]+),\s*(.+)$", ren)):
+        return m[2].strip(" .,"), m[1].strip(" .,")
+    if (m := re.match(r"(.+?)\s+(?:i|paa|på)\s+(.+)$", ren)):
+        return m[1].strip(" .,"), m[2].strip(" .,")
+    return ren, None
+
+
+def koppla_dn(register: Platsregister) -> list[tuple]:
+    """Diplomatarium Norvegicums utfärdandeorter.
+
+    En befintlig plats används när namnet (eller dess nutida form i dn_alias.tsv) har en enda plats
+    med läge, eller en enda i Norge. Annars ger Kartverket läget när namnet är entydigt i Norge.
+    Övriga orter blir egna platser utan läge, så att breven ändå kan sökas på orten.
+    """
+    p = db._prefix()
+    alias = {}
+    if DN_ALIAS.exists():
+        with DN_ALIAS.open(encoding="utf-8", newline="") as f:
+            alias = {r["namn"].casefold(): r["nutida"] for r in csv.DictReader(f, delimiter="\t")}
+    ssr = _ssr()
+    norge = register.land.get("no")
+    # Nutida namn som en språkmodell föreslagit och Kartverket eller Wikidata bekräftat (dn_orter.py)
+    normaliserade = {}
+    if DN_ORTER.exists():
+        with DN_ORTER.open(encoding="utf-8", newline="") as f:
+            normaliserade = {r["namn"].casefold(): r for r in csv.DictReader(f, delimiter="\t")}
+    namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {p}entitet WHERE typ IN ('plats', 'indelning')")}
+    namn_per_id.update({pid: rad[2] for pid, rad in register.nya.items()})
+    lagen = _df_auktoritetslagen()
+    per_namn: dict[str, list[str]] = {}
+    for pid in set(register.uppgifter) | set(lagen):
+        if pid.startswith(("plats:runa:", "plats:museum:", "plats:dn:")) or pid not in namn_per_id:
+            continue
+        # En plats som ingår i en större får dess läge senare i körningen (arv_fran_storre)
+        if _lage_for(register, pid, lagen) or register.uppgifter.get(pid, {}).get("ingar_i_id"):
+            per_namn.setdefault(namn_per_id[pid].casefold(), []).append(register.ersatta.get(pid, pid))
+
+    def befintlig(namn: str) -> str | None:
+        kandidater = list(dict.fromkeys(per_namn.get(alias.get(namn.casefold(), namn).casefold(), [])))
+        if len(kandidater) > 1:
+            kandidater = [k for k in kandidater if register.uppgifter.get(k, {}).get("land_id") == norge] or kandidater
+        if len(kandidater) > 1:
+            kandidater = [k for k in kandidater if _lage_for(register, k, lagen)] or kandidater
+        if len(kandidater) > 1:
+            # Samma plats i flera register (Bohus i SDHK och DF) räknas som en, om de ligger nära varandra
+            lagen_k = [_lage_for(register, k, lagen) for k in kandidater]
+            if all(lagen_k) and max(_km(a[0], a[1], b[0], b[1]) for a in lagen_k for b in lagen_k) <= SSR_GRANS_KM:
+                kandidater = sorted(kandidater, key=lambda k: (k.startswith("plats:df:"), k))[:1]
+        return kandidater[0] if len(kandidater) == 1 else None
+
+    val: dict[str, str | None] = {}
+
+    def plats(namn: str, storre: str | None) -> str:
+        if namn in val:
+            return val[namn]
+        if (pid := befintlig(namn)):
+            val[namn] = pid
+            return pid
+        pid = f"plats:dn:{_slug(namn)}"
+        register._ny(pid, namn, f"{namn} i Diplomatarium Norvegicum")
+        normaliserad = normaliserade.get(namn.casefold())
+        if normaliserad and (pid_n := befintlig(normaliserad["nutida"])):
+            val[namn] = pid_n
+            return pid_n
+        if (lage := _ssr_lage(alias.get(namn.casefold(), namn), ssr)):
+            register.uppgifter[pid] = {"nutida_namn": lage["nutida_namn"], "land_id": norge, "latitud": lage["latitud"],
+                                       "longitud": lage["longitud"], "kalla": SSR_KALLA, "metod": "regel",
+                                       "anm": f"Namnet är entydigt i Kartverkets register ({lage['typ']})."}
+        elif normaliserad:
+            register.uppgifter[pid] = {"nutida_namn": normaliserad["nutida"], "land_id": register.land.get(normaliserad["land"]),
+                                       "latitud": float(normaliserad["lat"]), "longitud": float(normaliserad["lon"]),
+                                       "kalla": SSR_KALLA if normaliserad["kalla"].startswith("Kartverket") else normaliserad["kalla"],
+                                       "metod": "sprakmodell",
+                                       "anm": f"Nutida namn föreslaget av en språkmodell och bekräftat i {normaliserad['kalla']}."}
+            if normaliserad["wikidata"]:
+                register.wikidata[pid] = normaliserad["wikidata"]
+        elif storre:
+            register.uppgifter[pid] = {"ingar_i_id": plats(storre, None), "metod": "regel",
+                                       "anm": f"Ligger i {storre} enligt brevets ortsangivelse."}
+        val[namn] = pid
+        return pid
+
+    kopplingar = []
+    for r in _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE kallsamling_id = 'dn' AND utfardandeort IS NOT NULL"):
+        minsta, storre = _dn_delar(r["utfardandeort"])
+        if not minsta or re.fullmatch(r"(?i)ud?ten sted|uden sted|udat\.?|sted ukjent", minsta):
+            continue
+        kopplingar.append((r["id"], plats(minsta, storre), "utfardandeort", r["utfardandeort"], "?" in r["utfardandeort"], False))
+    med_lage = sum(1 for k in kopplingar if _lage_for(register, k[1], lagen) or register.uppgifter.get(k[1], {}).get("ingar_i_id"))
+    log.info("DN: %d brev på %d platser, %d med läge eller större plats", len(kopplingar), len({k[1] for k in kopplingar}), med_lage)
+    return kopplingar
+
+
+def _isl_nyckel(namn: str) -> str:
+    """Isländskt ortnamn för jämförelse: utan preposition och accenter, OCR:ns li för h utjämnat och
+    dativändelsen bortskuren ("í Skálliolti" → skalholt, "á Hólum" → hol)."""
+    namn = re.sub(r"^(?:á|í|i|ú|a|at|að|til)\s+", "", namn.strip(" .,[]").lower())
+    namn = re.sub(r"[\-;:*'.,]+$", "", namn)
+    # OCR: li för h ("Skálliolti"), ni och in för m ("Hóluni", "Hóluin"), ó för ö ("Ókrum", "Ógri")
+    namn = re.sub(r"lli(o)", r"lh\1", namn).replace("liolt", "holt")
+    namn = re.sub(r"(?:ni|in)$", "m", namn)
+    namn = re.sub(r"^ó(?=[gk])", "ö", namn)
+    namn = unicodedata.normalize("NFKD", namn)
+    namn = "".join(c for c in namn if not unicodedata.combining(c))
+    for a, b in (("þ", "th"), ("ð", "d"), ("æ", "ae"), ("ø", "o")):
+        namn = namn.replace(a, b)
+    namn = re.sub(r"[^a-z ]", "", namn).split(" ")[0]
+    return re.sub(r"(?:um|ar|ir|ur|i|a|u|r)$", "", namn)
+
+
+def koppla_di(register: Platsregister) -> list[tuple]:
+    """Diplomatarium Islandicums utfärdandeorter (rubrikradens sista del, "í Skálholti").
+
+    En ort utanför Island knyts som DN:s orter till en befintlig plats (dn_alias.tsv gäller också).
+    En isländsk ort får läge bara genom di_orter.tsv, där en språkmodells nutida namn och sýsla
+    har bekräftats i Icelandic Saga Map eller Wikidata. Att ett namn är ensamt i Saga Map räcker inte: kartan har bara
+    sagornas platser, och gårdsnamnen återkommer över hela landet. Övriga orter blir egna platser
+    utan läge.
+    """
+    p = db._prefix()
+    alias = {}
+    for fil in (DN_ALIAS, DI_ALIAS):
+        if fil.exists():
+            with fil.open(encoding="utf-8", newline="") as f:
+                alias.update({r["namn"].casefold(): r for r in csv.DictReader(f, delimiter="\t")})
+    # Nutida namn som en språkmodell föreslagit och Saga Map eller Wikidata bekräftat (di_orter.py)
+    normaliserade = {}
+    if DI_ORTER.exists():
+        with DI_ORTER.open(encoding="utf-8", newline="") as f:
+            normaliserade = {r["namn"].casefold(): r for r in csv.DictReader(f, delimiter="\t")}
+    namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {p}entitet WHERE typ IN ('plats', 'indelning')")}
+    lagen = _df_auktoritetslagen()
+    befintliga: dict[str, list[str]] = {}
+    for pid in set(register.uppgifter) | set(lagen):
+        if not pid.startswith(("plats:runa:", "plats:museum:", "plats:di:")) and pid in namn_per_id \
+                and (_lage_for(register, pid, lagen) or register.uppgifter.get(pid, {}).get("ingar_i_id")):
+            befintliga.setdefault(namn_per_id[pid].casefold(), []).append(register.ersatta.get(pid, pid))
+    val: dict[str, str] = {}
+    kopplingar = []
+    rader = _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE kallsamling_id = 'di' AND utfardandeort IS NOT NULL")
+    # Samma ort i olika OCR-former ("Skálholti", "Skálliolti-") blir en plats genom nyckeln. Läget
+    # tas ur de former som har ett bekräftat förslag, om de alla anger samma ort.
+    former: dict[str, set[str]] = {}
+    for r in rader:
+        ort_text = re.sub(r"^(?:á|í|i|ú|a|at|að)\s+", "", r["utfardandeort"].strip(" .,[]"))
+        former.setdefault(_isl_nyckel(ort_text), set()).add(ort_text.casefold())
+    for r in rader:
+        ort_text = re.sub(r"^(?:á|í|i|ú|a|at|að)\s+", "", r["utfardandeort"].strip(" .,[]"))
+        nyckel = _isl_nyckel(ort_text)
+        if not ort_text or len(nyckel) < 2:
+            continue
+        ort = alias.get(ort_text.casefold(), {}).get("nutida") or nyckel
+        if ort not in val:
+            rad = alias.get(ort_text.casefold())
+            nutida = rad["nutida"] if rad else ort_text
+            kandidater = list(dict.fromkeys(befintliga.get(nutida.casefold(), [])))
+            if len(kandidater) == 1:
+                val[ort] = kandidater[0]
+            else:
+                pid = f"plats:di:{_slug(nutida)}"
+                register._ny(pid, nutida, f"{ort} i Diplomatarium Islandicum")
+                normaliserad = normaliserade.get(namn_per_id.get(pid, nutida).casefold()) or normaliserade.get(nutida.casefold())
+                if not normaliserad and not rad:
+                    bekraftade = {(n["nutida"], n["lat"], n["lon"]): n for n in
+                                  (normaliserade.get(f) for f in former.get(nyckel, ())) if n}
+                    normaliserad = next(iter(bekraftade.values())) if len(bekraftade) == 1 else None
+                if normaliserad:
+                    register.uppgifter[pid] = {"nutida_namn": normaliserad["nutida"],
+                                               "land_id": register.land.get(normaliserad["land"]),
+                                               "latitud": float(normaliserad["lat"]), "longitud": float(normaliserad["lon"]),
+                                               "kalla": SAGAMAP_KALLA if normaliserad["kalla"].startswith("Icelandic") else normaliserad["kalla"],
+                                               "metod": "sprakmodell",
+                                               "anm": f"Nutida namn föreslaget av en språkmodell och bekräftat i {normaliserad['kalla']}."}
+                    if normaliserad["wikidata"]:
+                        register.wikidata[pid] = normaliserad["wikidata"]
+                val[ort] = pid
+        kopplingar.append((r["id"], val[ort], "utfardandeort", r["utfardandeort"], False, False))
+    med_lage = sum(1 for k in kopplingar if _lage_for(register, k[1], lagen) or register.uppgifter.get(k[1], {}).get("latitud"))
+    log.info("DI: %d brev på %d platser, %d med läge", len(kopplingar), len(set(val.values())), med_lage)
+    return kopplingar
+
+
 def koppla_df(register: Platsregister) -> list[tuple]:
     """DF-brevens utfärdandeorter. En befintlig plats används bara om den ligger nära, annars blir det en egen."""
     platser = _df_platser()
@@ -1035,6 +1263,8 @@ def main() -> None:
     brev = df_orter(register, brev)
     platshanvisningar(register)
     df = koppla_df(register)
+    dn = koppla_dn(register)
+    di = koppla_di(register)
     las_uppslag(register)
     arv_fran_storre(register)
     landskap_ur_lage(register)
@@ -1061,7 +1291,7 @@ def main() -> None:
         cur.execute(f"DELETE FROM {p}identifiering WHERE id LIKE 'identifiering:plats:%'")
         conn.commit()
         db.upsert(conn, "verk_plats", ["verk_id", "plats_id", "roll", "namnform", "osaker", "harledd"],
-                  ["verk_id", "roll", "plats_id"], brev + runor + df)
+                  ["verk_id", "roll", "plats_id"], brev + runor + df + dn + di)
         db.upsert(conn, "identifiering", ["id", "entitet_id", "identifierad_med", "alternativgrupp", "kommentar"], ["id"],
                   list(register.identifieringar.values()))
         db.upsert(conn, "bedomning", ["id", "identifiering_id", "aspekt", "varde", "motivering", "bedomare"], ["id"],

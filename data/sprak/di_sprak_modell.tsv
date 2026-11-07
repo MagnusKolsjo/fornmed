@@ -1,0 +1,1052 @@
+verk_id	sprak	sakerhet	overens	motivering	sprak2	motivering2	beslut
+di:10:1	lat	hog	inget	Hamelinus Decanus debet, accipitrem Norrensem: latinskt rotulus-utdrag	lat	'Hamelinus Decanus debet accipitrem Norrensem et Girfalconem Islandensem'	lat
+di:10:10	dan	hog	inget	Dansk: 'haffde warith paa Grönland', 'Jtem eth breíl', 'Dat. mccclxxx nono'	dan	Jtem eth breff huilkelunde, han talede til them, haffde warith, Dat.	dan
+di:10:108	lat	hog	andra	Latin: 'et benevolentia christi Jesu tibi semper chare socie', 'Ex schalhollt'.	lat	et benevolentia christi Jesu tibi semper, qvanqvam, Ex schalhollt die ipso	lat
+di:10:111	dan	hog	inget	Dansk brevtext: 'ieg edher kere herre', 'haffver', 'ingen skriffvelsi faat'	dan	ieg edher kere herre, haffver, met eder, gode ven, bref	dan
+di:10:116	lat	hog	huvud	Ad manus proprias, Præcipuo amico pergratoque sodali suo: latin			lat
+di:10:117	lat	hog	andra	Latinskt brev: 'Fraternitatem in christo Jesu', 'prœterea ais te meas literas', 'Sane quod antea'.	lat	"""Falicitatem in christo Jesu"", ""prœterea ais te meas literas"", ""Sane quod antea"""	lat
+di:10:138	deu	lag	inget	'Bramstede am Mitwocken nach Assumtionis': tysk datering; mycket lite brevtext	deu	Mitwocken, Schutzbrief, Nachgelassener; tyskt brev	deu
+di:10:14	dan	hog	inget	Jtem transsc.nptum aff nogle norske breff, Dat. mcdix; dansk	dan	"""Jtem transscriptum aff nogle norske breff"", ""the som lyde paa"", ""haffue"""	dan
+di:10:15	dan	lag	inget	Erik av Pommerns kansli: 'thætta bref', 'ædr hoyra', 'swerigs'; osäker	nor	thætta bref se ædr hoyra, allum mannum, oc, hion hans, ælla	
+di:10:16	dan	medel	huvud	huilket the kennes, oc, Dat. mcdxix: dansk kansli, kort utdrag			dan
+di:10:165	dan	hog	andra	'thvenne sýster', 'haffuer', 'oc', 'ladett segh fordrage mett': dansk.	dan	aff menisks narturligh Skrobeliighedtt, haffuer, mett, oc, thii haffue	dan
+di:10:172	lat	hog	huvud	Universis christifidelibus presentes litteras, Salvtem, servatore: latin			lat
+di:10:178	lat	hog	andra	Favor et benevolentia, non dedignetur, vale; latinskt brev	lat	recompensare volo, Skalholti 6 kalendas julij, Honorabili viro	lat
+di:10:18	dan	lag	andra	Dansk registerprosa: 'eth breff at biscopen', 'widerkenner sigh', 'Datum'.	dan	Jtem eth breff at biscopen aff Skalolt widerkenner sigh, skyldugh, Datum	dan
+di:10:183	lat	hog	huvud	rogamus instanter omnes ac singulos, qvare, serenissimum dominum; latin			lat
+di:10:19	isl	medel	andra	landamerki, sionending, stapanvm, skal vera: isländsk; lågtysk passage	isl	Vittnesbörd om landamerken: 'oc', 'stein þann er stendr', 'ofan j ardalen'; ett lågtyskt stycke avviker	isl
+di:10:190	lat	hog	huvud	Universis cristifidelibus presentes literas inspecturis, Datum in recidencia nostra; latin			lat
+di:10:192	isl	medel	huvud	dæmdum uier, vitnum leiddum, Skulle och: isländsk med danskt inslag			isl
+di:10:194	isl	medel	huvud	þath giore eg, ec hefi, Jslandi, uorum heygbornazta; slutet dansk-lik			isl
+di:10:196	isl	hog	huvud	'Þad giori eg Jon Loptson godvm monnum kunnigt', 'eg verd fær til': isländsk			isl
+di:10:197	isl	medel	huvud	isländska klausuler (klvsternv, reglv) med dansk slutformel (wii, thenne vor dom)			isl
+di:10:2	lat	hog	huvud	Hamelinus decanus reddit comp, Regi liberavit, Lincolns'cire; latinsk räkenskap			lat
+di:10:200	isl	medel	huvud	'Þat giore ec Olafur Narfason', 'epter bon og beiztlv'; dansk edsformel i slutet			isl
+di:10:201	isl	hog	huvud	Isländskt vittnesbörd i Viðey: 'giorvm vid', 'kunnigt', 'þesso', 'brvto'; dansk slutformel.			isl
+di:10:204	dan	hog	andra	Dansk: 'fick fðlgebreff thil menige bönder', 'Actum Haffniæ Anno 1539'	dan	fick folgebreff, thill, Closter, skal, oc, Anno	dan
+di:10:208	deu	hog	andra	'Dein schreiben an vnns gethan haben wir entfangenn': tyskt kungabrev 1539	deu	Lieber getreuwer, Dein schreiben, haben wir entfangenn, vnns	deu
+di:10:211	isl	medel	huvud	'ad', 'nv', 'sem', 'fyrir oss' i isländsk dom; danskt stycke i slutet.			isl
+di:10:213	isl	hog	huvud	'Vitna eg þetta vnder', 'boret', 'sworen boke eid', 'ath': isländsk ed och vittnesbörd.			isl
+di:10:22	eng	hog	inget	Engelska vittnesmål: 'and othir Englissh marchaunts', 'the ship called the Marye of Lynne'.	eng	"""the preef of theire eomplaint"", ""marchaunts"", ""ayenst"", ""maistre of the ship"""	eng
+di:10:228	dan	hog	andra	Dansk kanslistil: 'hannem gifne ere af oss elskelige Doctore', 'Thi hafue wi tiltroed'.	dan	"""Superintendentis embett"", ""hafue wi tiltroed oc befallidt"", ""vort obne""; isländsk version även"	dan
+di:10:24	lat	hog	huvud	Quoad depositionem Ricardi Hobert dicti: latinskt inledningsuttryck			lat
+di:10:248	isl	hog	huvud	með, þui fyrr enn, ydars nadar bref, Jslendzkum monnum; isländsk			isl
+di:10:276	dan	hog	huvud	Giðre alle og hver vitterligt, 'udj vort land', 'wforhindret': dansk kungabrev			dan
+di:10:288	isl	hog	huvud	Isländsk prosa 1540: 'tok giolfur Þorvalldsson', 'Enn eg vppbyggia', 'kyrkiunnar'			isl
+di:10:29	deu	hog	huvud	erbaren wijsen und voersenighen, Unse vrundlike groete, myt, dat; lågtysk			deu
+di:10:3	annat	lag	inget	Endast isländsk regest i utdraget; brevets språk syns inte	lat	Isländskt regest; brevet i Royal Letters of Henry III, latin	lat
+di:10:311	dan	hog	andra	Dansk kanslistil: 'Indbyggere udi Hamborg', 'haver dennem forebragt', 'Hans Foged'.	dan	"""Indbyggere udi Hamborg"", ""Kiøbmænd"", ""haver"", ""sig beklaget"""	dan
+di:10:313	dan	hog	huvud	ether, Wider kere venner, wij, oc, Norgis krones landt: dansk kanslistil 1541			dan
+di:10:314	dan	hog	huvud	Dansk kanslistil: 'Om Erende och Werffue Christophers Hvitfeldt', 'Oss Elskelige'.			dan
+di:10:325	deu	hog	andra	yck doe juwer leffte, dat yck, yn Haukadall, vnde nycht, dar; lågtysk brev	deu	yck doe juwer leffte wytlyck, vnde, nychtes van suluer, plattydsk	deu
+di:10:339	isl	hog	huvud	Isländsk 'frumtextinn á íslenzku': 'uidey', 'hefdi', 'þienara', 'hel slegnir'			isl
+di:10:342	isl	medel	huvud	'eg', 'ok', 'fiobiodin', 'Thyskeland': isländsk rättshandling med dansk påverkan			isl
+di:10:35	dan	hog	inget	'Jtem eth breff som lyder om brand oc till dðmt', 'theris gotzs': dansk skrå			
+di:10:351	dan	medel	huvud	oss Elskelige, witterliigt, paa wort Slott: dansk, isländskt inslag i utdrag			dan
+di:10:353	dan	medel	inget	Dansk regest: 'fick breff', 'wdj', 'paa', 'Relator'; enstaka latinsk formel	dan	wdj, fick breff, paa biscops thinde, lørdagen post	dan
+di:10:4	lat	hog	huvud	Rex Baillivis, Mandamus vobis, Teste supra; latinsk kanslitext			lat
+di:10:402	deu	hog	inget	Lågtyska räkenskap: 'vor', 'geueii', 'hefft', 'Reikmjngskap Henrich Heynsken'			
+di:10:41	dan	hog	inget	Wii Fridrich medt Gudtz naadi, Giffuit paa vordt slott Gottorp; dansk	dan	Befalning til Biskoper og Lavmænd, Godse, medt Gudtz naadi, emodt Norgis logh	dan
+di:10:42	dan	hog	huvud	Wii Fredrich medt Gudz naade, Gior alle vitterlicht, haffue thaget annammed; dansk			dan
+di:10:425	dan	hog	huvud	Dansk kanslistil: 'tiill', 'att', 'hiid', 'Relator Christoffer Huitfeldt'.			dan
+di:10:426	dan	hog	andra	'Christian mett gudz naade', 'Vor gvnst tilfornn', 'widher atth wy agthe nw': dansk.	dan	Christian mett gudz naade, Vor gvnst tilfornn, Widher atth wy, ffisk, ether	dan
+di:10:427	dan	hog	andra	Wij Christian mett guds naade, Danmarcks Norgis; dansk kungabrev	dan	"""Wij Christian mett guds naade"", ""giøre alle witterliigtt"", ""haffue"""	dan
+di:10:428	dan	hog	huvud	'Vij Christian mett guds naade', 'Ad mandatum domini regis proprium', 'Giffued': dansk.			dan
+di:10:429	dan	hog	inget	Joen Eynersen fick same dag, wdi liige maade, Datum vtt supra: dansk			
+di:10:430	dan	hog	inget	Thorloff Poulssen paa Jsland Fick Breff, Gottorp, datum; dansk			
+di:10:431	dan	medel	andra	Vores Kiöbstæd, Vii tænker, skicke Eder; dansk med enstaka isländska former	dan	"""Vores Villie"", ""Kiöbstæd""; ett stycke isländsk översättning"	dan
+di:10:432	dan	hog	huvud	'Oss elskelige', 'wor mandt', 'Christiann mett gudtzs naade': dansk kanslistil.			dan
+di:10:66	dan	medel	inget	Dansk registerpost: 'Fick Folgebreff thill Jslannd', 'Juledag'; latinsk formel.	dan	Fick Folgebreff thill Jslannd, Actum Hadersleff Juledag	dan
+di:10:8	nor	hog	huvud	oc, edr, þat, logligha, ollom monnom, varum oc vmbodzmonnom; norska			nor
+di:10:9	nor	hog	huvud	Magnus med guds naad Noreghs svija oc skane konongr, sea ædr hóyra; norska			nor
+di:10:95	dan	medel	inget	Dansk kyrkoordning: 'oc', 'skulu', 'suo', 'wera'; latinska underskrifter i slutet.	isl	audruwijs breyta enn suo oc auallt skulu þeir wppbyria, ad nýiu strax	isl
+di:11:10	nor	medel	inget	wors virduligx broders, oc, j Hollom, vtj Tyredalle, j Oslo: kansliform med norska ortnamn	dan-nor	'med gudz nod biscopper j Hollom oc vicarius', 'uisiteredom vtj'; danska former i norsk kontext	
+di:11:103	dan	hog	andra	Dansk kanslistil: 'Thesze efftherne breffue ære', 'och', 'Datum Soluig'.	dan	"""Thesze efftherne breffue ære"", ""erlig och welbiurdig mand"", ""epther"", ""skrynn"""	dan
+di:11:104	eng	hog	inget	Engelska: 'haue exhibited vnto vs your lettres', 'we do permytte', 'annciente custome'.	eng	Mwst noble and myghtie Prince, haue exhibited vnto vs, theyr, wherof	eng
+di:11:128	lat	hog	huvud	Gratia et pax in Christo. His commendo uos, Gratiam et pacem; latin			lat
+di:11:143	deu	medel	andra	'juwer leffte', 'vnd', 'dath', 'ynt', 'my': lågtysk-nederländskt brev från Gizur	deu	yck, juwer, dath my, vnde nach deme, lågtyska	deu
+di:11:145	dan	medel	andra	'thette wort abne breff', 'trycker wij wor Signett', 'schreuen': dansk kanslistil.	dan	widnesbyrd trycker wij wor Signett, thette wort abne breff, schreuen pa	dan
+di:11:155	lat	medel	andra	Latinsk slutformel 'sub meo signeto', 'anno domini m d xlij'; isländsk ram.	lat	"""anno domini"", ""sub meo signeto"", ""Petrus Palladius doctor Superintendens Selandiæ Danorum"""	lat
+di:11:159	dan	hog	andra	Wy Christian med Gudsz Naade, Danmarckis Norgis, Koning: dansk	dan	'Wy Christian mett Gudsz Naade', 'lade wii forne', 'quitt frii leddich och loes'	dan
+di:11:160	dan	hog	andra	Dansk brev med afskrift: 'formyndschett', 'Tha paa thet att', 'Wier kristian'.	dan	"""Tha paa thet at Sognepreste"", ""mett"", ""ligeuell haffue""; isländsk version även"	dan
+di:11:161	dan	hog	huvud	Wij Cristian met Gudts Naade, Helsse eder, thij att, vdj saadanne; dansk			dan
+di:11:162	dan	hog	andra	Superintendent j Skalholtszstegt, paa wort land islandt, obet beseglett: dansk	dan	'haffuer nu wæret her for oss mett ett obet beseglett pergmendz breff', 'wdgiffuet haffue'	dan
+di:11:163	dan	hog	huvud	Dansk kungabrev: 'Abbett Halldor vdj Hellefeldz Cloester', 'Och forstandere', 'wor naade'			dan
+di:11:164	dan	hog	huvud	Helsse ether oss elskelige Regelbunden mendt, Dytmerschenn: dansk			dan
+di:11:165	dan	hog	inget	Vi Ghristian med Guds Naade, Givet paa vort Slot Kiobenhavn: dansk			
+di:11:166	dan	hog	huvud	Wiider, thij, epther och forfare: dansk kanslistil			dan
+di:11:167	dan	hog	andra	wij forbiude, paa, nogen och Befindes: dansk kanslistil			
+di:11:168	dan	medel	andra	Vor Kongelige, forbiude Vii, Vor Fogether; isländskt stycke i mitten	dan	Thi forbiude Vii, Vor Kongelige Hegenn; dansk text, isländsk version	dan
+di:11:177	isl	medel	andra	Isländsk prosa: 'hafdi ec med mier af jslandi'; latinska boktitlar inslag	isl	Þessar bækur hafdi ec med mier af jslandi; bokalista med latinska titlar	isl
+di:11:185	deu	hog	huvud	vnnd, myne eruen, Nachdeme, dat jck, krafft vnnd macht; lågtysk			deu
+di:11:19	dan	medel	inget	oc, paa, vdi, de Engelske, Breífuet disse Ord; dansk krönika med latinskt citat	lat	Quoniam ea qvœ satis consulto in uno statuta sunt; danskt referat	lat
+di:11:22	nld	hog	inget	Mellannederländska: 'tis geschiet', 'ende', 'voir', 'tgerechte', 'Aemsterdam'.	nld	"""zeylen mit horen scepen"", ""die voirscreven"", ""ende"", ""Twelck"", ""quam"""	nld
+di:11:220	deu	hog	huvud	Nachdeme, dat, jck, vnnd, dorch; lågtysk kanslistil			deu
+di:11:23	deu	hog	huvud	Lågtyska hansarecess: 'Item begerden desulven olderlude unde procuratores'			deu
+di:11:232	isl	medel	huvud	Biskop Gizurs minnisgrein; 'Jtem', 'hia sira Olafi' blandat med isländsk ram.			isl
+di:11:24	lat	hog	huvud	admirallo Anglie salutem, Sciatis quod ex parte: latinsk kansli			lat
+di:11:30	deu	hog	huvud	unde, to, juw, Ersamen, syn; lågtysk brevtext			deu
+di:11:31	deu	hog	andra	Eyn borgermester, wart geslagen, quam bynnen Lubeek, Dyt sakede: lågtyska	deu	Lågtyska: 'de rat', 'Eyn borgermester', 'wart geslagen unde wundet', 'in sin hovet'	deu
+di:11:328	dan	hog	huvud	Dansk kanslistil: 'ath de forholle them noghre tiid', 'thet selff behoff', 'Item'.			dan
+di:11:332	dan	medel	andra	thi have Wii tilladt, Givet paa Vort Slot Kiöbenhafn: dansk; isländskt inslag	dan	Danskt 'have Wii tilladt', 'Kiobbref kand ingen Magt'; isländsk version 'giorum viturligt ad' också	dan
+di:11:334	dan	hog	huvud	Dansk: 'Kbistjín konungr III', 'Fick lifFsbreff paa thisse', 'wdj werie haffuer'			dan
+di:11:335	dan	hog	huvud	'Fick Breff ad gratiam', 'paa reineness Closter', 'cum clausulis consuetis': dansk.			dan
+di:11:336	dan	medel	inget	haffuer, Kon. Matt., Datum wt supra och Jslanske Breffue: dansk kansli	dan	theris nøttorfftige, cum clausulis consuetis, Datum wt supra, andtuordet	dan
+di:11:338	isl	medel	huvud	þvi verr þad hefur skied, hier til hefur verid, unt; isländska drag blandat med danska			isl
+di:11:34	deu	hog	huvud	hebben upgenomen, de dait, sunder, vortiiden, darumb dat; lågtysk			deu
+di:11:340	deu	hog	huvud	Högtysk: 'Gestrengen Ehrnvheste Achtbare vnnd Hochgelertte grossgunstige herren', 'Nach dem dann'.			deu
+di:11:344	deu	hog	huvud	Abschiedt der Jsslandischenn gebrechenn, Das Otto Stigissen dem; tyska			deu
+di:11:348	lat	medel	andra	vxor mea dedit mihi, Bryniolfl' dedit mihi, Simone duas vlnas; latin med isländska namn	isl	"""Bryniulfi tialld silkisaumat"", ""alna langt""; inströdd latin, ""vxor mea dedit mihi"""	isl
+di:11:36	deu	hog	huvud	Lågtyska: 'Ersamen wysen heren unde besundern guden frunde', 'unde'			deu
+di:11:37	deu	hog	huvud	Lågtyskt hansarecess: 'unde', 'dat', 'de', 'reyse', 'nicht tovreden'.			deu
+di:11:375	dan	hog	huvud	thette, paa, Quitandtz, Eftherschreffne, datum nyborg; dansk kvittens			dan
+di:11:38	deu	hog	andra	dat, ock, kopenscop, sudersesschen: lågtyska i hanseakten	deu	"""Item noch clageden de Bergischen"", ""dat men de nicht holden solde""; lågtyska"	deu
+di:11:391	isl	medel	andra	Isländskt brev från Gizur biskup; utdraget endast isländsk sammanfattning	isl	Endast isländskt regest; biskopsbrev till isländsk abbot	isl
+di:11:40	deu	hog	huvud	gij, vnlanges, Iszlandesscben, vnns, wijse heren: lågtyska			deu
+di:11:400	dan	hog	andra	Dansk: 'Erlige og Velbyrdige mænd', 'ynsker jeg', 'Kiære venner', 'skall'.	dan	"""ynsker jeg"", ""Kiære venner"", ""hafver"", ""naade og fred af gud fader"""	dan
+di:11:427	dan	hog	inget	Otte Stissen Fick Quitandtze, thenne efftherschreffne; dansk kvittens	dan	"""Fick Quitandtze"", ""Jtem"", ""och aff nogen landskyld"""	dan
+di:11:43	lat	medel	huvud	navis vocate le Anne, portagii 500 doliorum, gubernator dicte navis; latinsk lista			lat
+di:11:445	dan	hog	huvud	Ormur Stellessenn Ffick breff ad gratiam, paa munckethuere; dansk			dan
+di:11:446	dan	hog	andra	'Jdem Ormertt Stellessen fick breff ad gratiam', 'saa lenge': dansk registerstil.	dan	fick breff ad gratiam, schall hielpe huer mand, loug oc rett, kongens gaard	dan
+di:11:46	deu	hog	andra	Item itlike Engelsche hebben eynen schipper; lågtyska i Hansetext	deu	"""Item itlike Engelsche"", ""unde"", ""vorfolget""; lågtyska"	deu
+di:11:460	lat	medel	andra	Ab isto crimine supra modum illicitæ fornicationis: latinskt citat	lat	'Ab isto crimine supra modum illicitæ fornicationis adulterij'	lat
+di:11:461	lat	hog	huvud	Vniuersis et singulis christi fidelibus, auctoritate cjua fungor, Datum uel scriptum; latin			lat
+di:11:468	isl	hog	huvud	Isländskt brev: 'þð ætlar', 'þvi', 'brefabok Gissurar biskups', 'Þetta allt'			isl
+di:11:469	lat	hog	andra	Latinskt slut: 'Frater tuus ... non est mortuus sed dormit in christo'.	lat	Frater tuus Thoruardur Einarsson non est mortuus sed dormit in christo	lat
+di:11:476	isl	medel	huvud	Isländskt köpebrev: 'Þad giorum wier', 'ad', 'fyrrgreindir brædur'; dansk tillägg			isl
+di:11:479	dan	hog	inget	'Ornner Stollessen', 'flck brefí att mue were Laugemandtt', 'datum Koling': dansk			
+di:11:49	deu	hog	huvud	Lågtyska: 'unnsze', 'darupp', 'unnd', 'szal gesettet werden', 'wowol'.			deu
+di:11:494	dan	hog	huvud	Dansk översättning av inventarium: 'en missebog lesendis', 'udi', 'som her Thorder haífde'.			dan
+di:11:521	dan	hog	huvud	thee, thette, oc, Kiðbnehaffuen, datum Kiöpnehaffnn; forndansk			dan
+di:11:536	lat	medel	andra	latinsk slutformel (conseruet uos); isländsk sammanfattning, dansk kvittering	isl	Latinsk fromelstycke; isländskt 'feck sira Snorri mier j tiunda reikningskap sinn'	isl
+di:11:552	dan	hog	inget	Wij Christian medt Guds Naade, Danmarckis Norgis, Konning: dansk	dan	'Wij Christian medt Guds Naade', 'adt', 'wnder vor Konngelig heffnd och wrede'	dan
+di:11:554	dan	hog	huvud	Otte Stijessenn Fiik quittantz, att haffue giortt gode rede oc regenskaff: dansk			dan
+di:11:568	deu	hog	andra	Lågtyska: 'vnde', 'gnade', 'gewanheyt', 'myt', 'yn Norwegen'.	deu	"""myt gades gnade"", ""vorgenomede man"", ""vnde juwer maiestate""; lågtyska"	deu
+di:11:576	deu	hog	huvud	Högtyska: 'Lieben Getrewen', 'Wir werden von unsserm Vogt', 'nun ist hievor'.			deu
+di:11:577	dan	hog	huvud	Dansk kanslistil: 'och hans ko. ma. tsðnn hðgborne', 'eptherckomere konninger', 'the'.			dan
+di:11:58	lat	lag	andra	Latinsk bokrubrik 'Liber fraternitatis Sanctæ Annæ'; isländskt referat i övrigt.	lat	Liber fraternitatis Sanctæ Annæ in monasterio sancti; kort latinskt stycke	lat
+di:11:586	dan	hog	inget	oc, att, wiilde, wdj, wniuersitetet: dansk kanslistil från Köpenhamn 1548	dan	"""Her Hogen Torstessen"", ""komen aff Islandt oc wiilde gierne studere"", ""wniuersitetet"""	dan
+di:11:593	isl	medel	huvud	Isländsk text 'vier', 'þvi', 'skalholltz stikti'; dansk datering och avslutning			isl
+di:11:594	dan	hog	andra	Dansk kanslistil: 'Ther wdoffuer haffuer hannd', 'breffue', 'vier', 'vorre naad'.			
+di:11:595	dan	hog	huvud	Same Lauris Mulle fiick breff mett fzeg, Jtem fiick, Datvm vt supra: dansk			dan
+di:11:596	dan	hog	inget	oc nu mett thette wortt obne Brefl, wor konninglige Hegenn, forbiude vvij; dansk	dan	oc nu mett thette wortt obne Breff, wor konninglige Hegenn, Thij forbiude	dan
+di:11:60	dan	medel	andra	oc, thij, haffuer, vndt, giffuit i brevstycket; isländsk redaktionstext	dan	her for log, Rettebod haffuer aldrig ganget, vor landslog, Nad Herre, vdij	dan
+di:11:600	dan	medel	andra	Vii, oc, paagriber, Undersaatter, Landet; dansk kungabrev, ett isländskt stycke			
+di:11:601	dan	hog	huvud	haffuer, oc, annammet, 'kong Christians Hðgmegtigheds befalning': dansk			dan
+di:11:61	deu	hog	huvud	dat, vnde, ock, ander stede, myt: lågtyska (Lübeck)			deu
+di:11:63	nld	medel	inget	Mellannederländska: 'ende', 'oick', 'gesproken', 'sii', 'dair'; lågtyskt 'to Bergen'.	nld	Item gesproken van den Hitlantschen visch ende van de reyse, dair, coepman	nld
+di:11:636	isl	medel	huvud	Isländsk text: 'ad þu hefer so talad og giaurt', 'greiner eru vitnisfastar'; latinskt inslag			isl
+di:11:637	isl	medel	huvud	isländsk dom med latinska citat (in primis) och isländsk slutdel			isl
+di:11:638	dan	hog	huvud	kommen wtj forfarring, huorledes atj aff ethers yderste magt, wor fogit; dansk			dan
+di:11:639	dan	hog	huvud	thennom, haffuer ladet beklaghe, Alting, wij, wort opnne breff; dansk			dan
+di:11:640	dan	hog	huvud	'Wij Christiann et cetera', 'Giore alle wittherliigtt', 'eptherthij': dansk kanslistil.			dan
+di:11:641	dan	medel	inget	Tha haffue wij nu beffallet oss, oc, Lauriis; dansk kungabrev, isländsk kommentar			
+di:11:644	deu	hog	huvud	Tyska: 'vnsern gnedigsten herrn', 'vnderthenigste supplication', 'Durchleuchtigster'			deu
+di:11:646	dan	hog	huvud	Borgemester och raadmennd wtj Kiðpnehaffn, Vor gunst, thennom; dansk			dan
+di:11:65	deu	hog	huvud	vordarve, dat, scholen, 'Yslandesche reyse', 'de visck': lågtysk hanserecess			deu
+di:11:663	lat	hog	andra	Latinskt slut: 'nisi vt vos deo optimo maximo commendem', 'Datum Schalholt'.	lat	nisi vt vos deo optimo maximo commendem, Datum Schalholt, Anno Salutis	lat
+di:11:67	lat	medel	inget	'Lecte littere', 'Privilegium regis moderni', 'Querele mercatorum'; lågtyska inslag	lat	Lecte littere, Privilegium regis, Querele mercatorum; blandat med lågtyska	lat
+di:11:683	dan	hog	huvud	Dansk: 'Viider att wore wndersotte', 'thee', 'haffue nu screffuitt'			dan
+di:11:684	dan	hog	huvud	'En Extract paa Giensuar', 'vrange Klegt', 'thet Godz', 'Hertill suarer': dansk.			dan
+di:11:687	dan	hog	andra	vij, tha skall, epther och ij: dansk kanslistil	dan	vij skulle haffue ladet giorrtt, epther som oss, hand motte vdt i gienn	dan
+di:11:73	deu	hog	andra	Lågtyska: 'Item ock vorder geboert am jare', 'myt', 'vnde', 'to segellenn'	deu	Item ock vorder geboert, vth Jsslandt, schypper, nycht, vnde	deu
+di:11:75	dan	hog	huvud	'Item then abod aff Island', 'forfordt fore ether nade', 'siigher': dansk.			dan
+di:11:77	lat	hog	huvud	Latinsk hanseatisk klagoskrift: 'Item cum ad insulam Islandie appulisset', 'quandam navem'.			lat
+di:11:78	lat	medel	andra	Item cum ad insulam Iszlandie, juncto sequenti articulo; latinska artiklar	lat	"""Item cum ad insulam"", ""Articulum""; latinska artiklar"	lat
+di:11:79	deu	hog	andra	Noch schipper Hans Tydeman gegeven vor grapen, unde; lågtyska	deu	"""Noch schipper"", ""vor Islandesschen visch"", ""unde""; lågtyska"	deu
+di:11:81	deu	hog	huvud	Lågtyska: 'wyllen ock ore schepe', 'Iszlandeschen vische', 'vorsorgen laten'			deu
+di:11:82	deu	hog	huvud	Lågtyska: 'ock', 'synen', 'wynter', 'to vorschaffen', 'Schreven myt ile to Upszall'.			deu
+di:11:83	deu	hog	inget	tweback, rotscher, Iszlandeschem fysche und, van noden; lågtysk citat	deu	ber, brot, tweback, Iszlandeschem fysche, wes sust, touwen; lågtyska	deu
+di:11:84	deu	hog	huvud	Lågtyska hansarecess: 'de heren', 'vnsen', 'dorch', 'vthgenamen'			deu
+di:11:86	deu	hog	huvud	Lågtyska: 'Wy willen ock de vorsegelinge', 'Islandesschen reyse', 'vnde', 'geholden'.			deu
+di:11:88	isl	medel	huvud	'Þad (giðrdist) a Stadarhöle', 'kugilldum'; isländskt, med ett lågtyskt slutstycke.			isl
+di:11:94	deu	hog	andra	Lågtyska: 'wat de duchtige', 'edder', 'dat de gemelten', 'Yszlandeschen schepe'.	deu	"""Instruction, wat de duchtige"", ""dat de gemelten van Hamborch"", ""und verhinderunge""; lågtyska"	deu
+di:11:96	lat	hog	huvud	Datum sub Ciuitatis nostre Signeto, Proconsules et Consules, Serenissimo Principi; latin			lat
+di:11:97	dan	hog	huvud	'Eders Naade', ieg, meg, 'tha gaffue the': dansk brevstil 1529			dan
+di:12:101	dan	hog	andra	Dansk: 'Paa Kiopnehaffuens skiibe ett siðebreff', 'heder skipperenn'	dan	Paa Kiopnehaffuens skiibe, skipper ther paa heder, en kraffuell	dan
+di:12:103	dan	hog	inget	landzsdommere, Fick ko: mat. breff, haffuer ladett giffue; dansk	dan	"""Fick ko: mat. breff"", ""haffuer"", ""thaa"", ""skiibe rede"""	dan
+di:12:104	dan	hog	inget	Dansk: 'Peder Godtske fick ko: maj breff', 'att handt skulle giðre'	dan	fick ko: breff, skulle giore, orloffs skiibe, mett, att	dan
+di:12:105	dan	hog	huvud	at the Hamborger erre nu fordragen mett wore wnndersotthe; dansk			dan
+di:12:107	dan	hog	andra	Dansk kanslistil: 'Borgemestere och raad vtj Kiðpnehaffnn fick breff', 'att oss elske'.	dan	"""Borgemestere och raad vtj Kiøpnehaffnn"", ""Wor gunst tilfforn"", ""mett wore wndersotte"""	dan
+di:12:108	dan	hog	andra	Dansk: 'Borgemestere och raad vtj Kiðpnehaffnn', 'Wor gunst tilforn'	dan	Wor gunst tilfforn, haffuer, oc, mett, Hamborg	dan
+di:12:109	dan	hog	andra	Dansk kanslistil: 'witherligt er huorledis att', 'thennd whðrsom', 'wor superintendent'.			
+di:12:110	dan	hog	andra	Dansk: 'Widt att som teg well wden thuiffuel wilherligtt', 'thend whðrsom byscop'	dan	Widt att, wden thuiffuel, huorledis, haffuer, bede wij teg	dan
+di:12:112	dan	hog	huvud	Erinde oc werffue, som wij Christian, Danmarckis; dansk instruktion			dan
+di:12:113	dan	hog	huvud	'Her Olff', 'indholdindis att the haffue dómpt', 'Thi forbiude wij alle': dansk			dan
+di:12:114	dan	hog	huvud	Eggert Eggertssen oc hanns egtebórn, mue haffue friihett; dansk			dan
+di:12:115	dan	hog	andra	att thenne Breffvijser Eggertt Hanssðn haffver hafft for oss en dom; dansk	dan	"""haffver hafft for oss en dom"", ""indholdendis"", ""tolff mend"", ""stadfeste"""	dan
+di:12:116	dan	hog	huvud	Dansk kunglig: 'Wore vndersotte prelatther', 'Wiider', 'Axell Jwll'			dan
+di:12:117	dan	hog	huvud	Dansk kanslistil: 'haffue tilschreffuitt oss elsk. her Eske Bilde', 'att wij agtte'.			dan
+di:12:118	dan	hog	andra	'tiltroed oc beffallidt oss', 'ther wppebere alt', 'giðre oss gode reede': dansk.	dan	oss elske Otthe Stissenn, beffallidt, wor fogit, oc, loug, skiel oc rett	dan
+di:12:119	dan	hog	inget	wor stad Kiðpnehaffnn, wortt lannd Island, haffue wij forordinerett; dansk	dan	wor stad Kiðpnehaffnn, orloffsskibe, Thij bede wij kierligenn	dan
+di:12:120	dan	hog	andra	wor stad Kiðpnehaffn, Thij bede wij, wore fogeder, strænngeligen biude; dansk	dan	wor stad Kiðpnehaffn, Thij bede wij, strænngeligen biude	dan
+di:12:121	dan	hog	inget	afferdiget, wor mannd, wittherligtt, Christiann: dansk	dan	'Giðre alle wittherligtt', 'wij nu hafíue afferdiget', 'wor stad', 'tiennere'	dan
+di:12:122	dan	hog	andra	haffue tiltroed oc beffallit oss, paa wore wegnne, wdretthe: dansk 1551	dan	haffue, wore wegnne, oss elske, schulle, wtj; forndanska	dan
+di:12:123	dan	hog	huvud	Wij Chriistiann etc., Giðre alle witherligt, haffuer ladit: dansk			dan
+di:12:125	dan	hog	andra	Thij haffue wij aff wor synderlig gunst oc naade wnndt oc tilladet; dansk	dan	"""mett nogenn"", ""wnnde oc tilladet"", ""wortt obnne breff"", ""forne Staffind"""	dan
+di:12:127	dan	hog	huvud	alt wij achtet att forskicke oss elske Axell Jul. wor mand oc thiener: dansk			dan
+di:12:128	dan	hog	huvud	'beraadslaae oc offuerweige', 'lade ett skibb Iðbe', 'att': dansk kanslistil.			dan
+di:12:129	dan	hog	huvud	thett alderfðrste mugliglt er, mett ij skiibe, medenn wij agtte, sambtygtt; dansk			dan
+di:12:130	dan	hog	huvud	Dansk universitetsbrev: 'det er oss fulduitterligt', 'effter', 'oc'			dan
+di:12:135	lat	hog	huvud	nec dubito qvin ipsemet Dominus Gilbertus, sit ergo bonis; latin			lat
+di:12:136	dan	hog	huvud	'er det icke wnder', 'ere ey', 'Derfor', 'och': dansk brev om trosfrågor.			dan
+di:12:142	dan	lag	andra	dansk ed (Loffue, Svvere oc forplicthe) och isländsk version i utdrag	dan	Svvere oc forplicthe oss, Koningh Cristiann, Nadigeste; dansk text, isländsk version	dan
+di:12:143	dan	hog	andra	tiilhðidt att were falden liill Hogbemelt woris, Hues witHierlig gieldt: dansk	dan	'Hues witHierlig gieldt efflher Breff Segell', 'Tiill', 'wnderthagenne'; isländsk version också med	dan
+di:12:147	isl	medel	huvud	Isländsk ed: 'þessa vors opna breffs', 'vpa vora', 'vier vilium'; dansk stavning i delar.			isl
+di:12:173	dan	hog	andra	formeres synd och wndskaff, Thaa paa thet att, Wnder wortt ssignett, hederlig; dansk	dan	formeres synd och wndskaff, guds store fortornelsse, maa affleggis	dan
+di:12:174	dan	hog	inget	Christopher Huitfeld fiick, att hannd schulle, hiid: dansk	dan	'fick ko. matts breff', 'schulle forschicke synn broder', 'hiid neder', 'aar etc.'	dan
+di:12:175	dan	hog	andra	Dansk kanslistil: 'forordineret. tiltroet och befalit', 'dette vort obne breff'.	dan	"""forordner. tiltroe. befale"", ""vort obne breff"", ""Superintendent"", ""oc"""	dan
+di:12:176	dan	hog	andra	'Her Oluf Hialthessens bestillinng paa Islandt', 'att wij haffue tiiltroet', 'Thij bede wij': dansk.	dan	Wij Chriistian, giore alle wiitherliigt, mett thette wort obne breff, schall hand	dan
+di:12:177	dan	hog	andra	Dansk kanslistil: 'Giaurum aull-Um maunnum witurligt', 'egttegifftt', 'Giffuitt paa worlt slott'.			
+di:12:179	dan	medel	andra	oss elskelige, Giöre alle witterligtt, thiennere; dansk, enstaka isländsk kommentar	dan	"""Giöre alle witterligtt"", ""haffue wij oc"", ""thij the hagde"""	dan
+di:12:185	dan	hog	andra	om then Istanndz handell att the Islennder ere the Kiðpnehaftuns; dansk	dan	"""Istanndz handell"", ""wij ther fore haffue forscreffuit"", ""dogh the"""	dan
+di:12:186	dan	hog	andra	Regenskaff, paa Island, mustredt och bettaldt, wdi Nðrre Jutland, thennom; dansk	dan	annammit aff, Regenskaff, mandagenn nest epther, bettaldt, bessolding	dan
+di:12:194	dan	hog	huvud	Yor synnerlige gunst, vvij haffue afferdigett, osss, wor mand: dansk 1552			dan
+di:12:195	dan	hog	huvud	Vij Christiann, wittherligtt, haffue filtroett, oss elskelige: dansk			dan
+di:12:196	dan	hog	inget	Vor gunst tilffornn, Wiidt, haffue beffallett, tegh, wdj: dansk brev 1552	dan	haffue beffallett, wore wegnne, Thij bede wij tegh; forndanska	dan
+di:12:197	dan	hog	huvud	'Helsse etther alle wore wnderssotte', 'Wiider', 'wii', 'oss': dansk kungabrev 1552			dan
+di:12:199	dan	hog	andra	Christiann etc. Giðre aile witterligtt, dogerij, Islandt for nordenn; dansk	dan	"""Giøre aile witterligtt"", ""forbyude wij alle"", ""emodt Islandz lough"", ""wortt lanndt"""	dan
+di:12:200	dan	hog	andra	'Schreffuitt paa wort slot Drottningborgh', 'wii', 'oss Elskelige': dansk 1552	dan	haffue oss berett att thu, vprðrske, hvor for wii theg gunstligenn	dan
+di:12:201	dan	hog	huvud	menige almue, som bygge och boe, Wiider att wij haffue befalett; dansk			dan
+di:12:202	dan	hog	andra	schall, vdj, indtagis, Item, Bischop: dansk instruktion 1552	dan	"""Item schall huer Bischop holde enn Scholemester"", ""Schole""; även isländsk version"	dan
+di:12:203	dan	hog	andra	'skylldugur', 'indtagis vdj samme Scholler', 'och weli att lere': dansk.	dan	danskt original (huor de bliffue til kaldne, Schole) plus isländsk översättning	dan
+di:12:214	isl	hog	huvud	Isländska: 'hvorki', 'nie', 'vtan', 'Og eigi', 'lamba rekstvr'; Valþjófsstaður.			isl
+di:12:219	dan	hog	inget	'Anno 1551 och tiill 1552', 'Her eflther fyndis', 'Jtem haffuer iegh opeboritt': dansk.	dan	Her eflther fyndis, haffuer iegh opeboritt, tiill klosters behoff, Wttgiff, windemand	dan
+di:12:220	dan	hog	andra	iegh, oc, paa och Retth iordebogh paa Iselande: dansk kanslistil	dan	landskild, quie, faar, Jtem mett, smór, tiill tals, kloster	dan
+di:12:222	dan	hog	andra	Bett regenskaff, Egertt Hanssðn, paa Isseland, oc: dansk	dan	'Jtem haffuer ieg opeboritt', 'aff', 'fiske', 'gaff iegh', 'alne vattmel'	dan
+di:12:248	dan	hog	andra	vdj kon. mts. kamer, Actum Kiópnehaffn, epther: dansk	dan	Slutstycke: 'paa Kiópnehaffn', 'mandagen nest epther wor frue dag', danska former	dan
+di:12:251	dan	hog	huvud	'Erennde och werff'ue', 'paa ko. mats vegnne', 'schall', 'Iffuer Jenssen': dansk.			dan
+di:12:252	dan	hog	andra	efftherthij, haffue, tiill, oc, wij: dansk kanslistil	dan	'wij nogen aar siidenn forleden haffue', 'tiill', 'theris kirckers och scholers'	dan
+di:12:253	dan	hog	andra	Torbe Sichfússenn wor vndersott, paa wortt landt, oss: dansk	dan	'wor vndersott paa wortt landt', 'haffuer werett heer huos oss', 'sýnn fredt igienn'	dan
+di:12:254	dan	hog	andra	'Borgmestere och raadmend', 'Wij Christian etc.', 'oc Norgis kronenns': dansk	dan	Borgmestere, raadtmend, vdij, haffue vnt oc forlentt, ssom	dan
+di:12:255	dan	hog	andra	Itenn schulle burgemester aff Kiðpnehaffn, Ko. mat; dansk	dan	"""Handlit er met the kiøbenhaffuenske"", ""schulle"", ""Oc naar"", ""haffue"""	dan
+di:12:26	lat	hog	huvud	Oratores et nunctii communium ciuitatum, die vero sabbati; latin			lat
+di:12:278	dan	hog	andra	Christiann etc. Vor gunst tillfornn, Wiider, Jesper Friiss; dansk	dan	"""Wij Christiann mett gudtz naade"", ""giør alle witterligtt"", ""haffuer"", ""wntt oc tilladett"""	dan
+di:12:279	dan	hog	huvud	Dansk kanslistil: 'Breff till Jesper Friiss', 'Wiid. att wij haffue fangett thyn schriffuelse'.			dan
+di:12:280	dan	hog	huvud	'Tha er thett wor meningh', 'thu handle mett', 'lensmenndt', 'wore lensmenndt': dansk			dan
+di:12:283	dan	hog	huvud	Dansk: 'ther fore icke kand drage', 'wij skicke', 'Oluff Kallibs'			dan
+di:12:284	dan	hog	huvud	Dansk kanslistil: 'Thij bede wij tegh och wille. att nar oss elskelige', 'wor manndt'.			dan
+di:12:285	dan	hog	huvud	Erende och werffue, paa kon. mats. wegne, skall vdrette; dansk kanslistil			dan
+di:12:286	dan	hog	huvud	Dansk: 'Vor gunst tilforn', 'Peder Huitfeld fick breff', 'paa wore wegnne'			dan
+di:12:287	dan	hog	huvud	Breff till Jacop Huide, Wij bede, wille, lðbe met et wor skibe: dansk 1553			dan
+di:12:288	dan	hog	huvud	Dansk: 'Forsehreffne Jacob Huide fick same tiid breff', 'Wiider'			dan
+di:12:289	dan	hog	huvud	Wor synnerliige gunst tilffornn, wiider, mandt oc tienner: dansk brev 1553			dan
+di:12:290	dan	hog	huvud	Dansk kanslistil: 'thesse eptherschreffne wor oc Norgis kronens goetzs', 'ko: ma:'.			dan
+di:12:291	dan	hog	huvud	giór alle wittherligt, att eptherthij, fuldmagts breff, haffue, thee; dansk			dan
+di:12:292	dan	hog	huvud	Dansk: 'Wii Ghristiann etc. giðre alle wilherligt', 'vort lannd Islannd'			dan
+di:12:293	dan	hog	huvud	Pouell Huitfeld fick fðlge breff, Helse ether alle wor kiere: dansk			dan
+di:12:294	dan	hog	andra	Wij Christiann melt gudtz naade, hertug wti Slessuig; dansk	dan	"""Wij Christiann mett gudtz naade"", ""giør alle witterligtt"", ""haffuer"", ""tilladett"""	dan
+di:12:295	dan	hog	andra	Dansk kanslitext: 'icke skal', 'paa voitt landtt', 'wij', 'thaa'	dan	haffue, voitt landtt, wij faae aff andre, oc, epther	dan
+di:12:297	dan	hog	huvud	Dansk: 'fick breff som effter fðlgere', 'Yor gunstli tillfornn', 'Wiidt'			dan
+di:12:298	dan	hog	andra	och embitzmandt paa wortt slott Aggershuss, forschreffuitt: dansk	dan	'wortt slott', 'schriiffuelsse', 'vdgiðre halff saa mannge', 'etther', 'attj skulle'	dan
+di:12:310	dan	hog	huvud	Doms Copia j Donsku, Alle de mend som dette Breff; dansk domsöversättning			dan
+di:12:322	dan	hog	inget	'Her epther ffyndis retth lodebogen', 'paa skiffe och mend thete aar', 'gaff iegh': dansk.	dan	Her epther ffyndis retth lodebogen, gaff iegh her, Vpebørssell, fiske	dan
+di:12:323	dan	hog	inget	Dansk räkenskap: 'Rett regenskaff paa altt hues', 'paa borgemester oc raadis wegen'	dan	regenskaff, haffuer, paa, oc, Jtem opeborilt	dan
+di:12:324	dan	hog	andra	'Thette er thett Inuentarium', 'haffuer leuere', 'migh': dansk inventarium 1553	dan	Thette, haffuer, mett, ssom, schibe, forbiuder; forndanska	dan
+di:12:346	dan	hog	huvud	fich laugmandz breff, Giöre alle witterliigtt, thenne breffuiisere, haffuer; dansk			dan
+di:12:350	dan	hog	huvud	'Vij Christiann etc. giðre alle witterliigtt', 'Datum Kollingh': dansk kanslistil.			dan
+di:12:430	dan	hog	andra	nerverendis oss Elskelige Johann Fnjss, vor canttszeller; dansk	dan	"""vore menndt och Raadt"", ""Synndagenn"", ""hvijlchett handt"", ""haver"""	dan
+di:12:433	dan	hog	andra	'Wij, haffue, wedt Jslanndz lough skiiell och rett': dansk 1554	dan	haffuer, wedt Jslanndz lough skiell och rett, schall hanndt; dansk text, isländsk version	dan
+di:12:434	dan	hog	inget	ther paa Jslanndtt, till huer sancti Hans dagh mitzsommer, Datum vt supra; dansk			
+di:12:435	dan	hog	andra	Dansk: 'Fiich liige ett breff', 'och', 'thennom fornðyger ko. maiestets'	dan	fiich liige ett breff, paa, thennom, ko. maiestets	dan
+di:12:436	dan	hog	inget	Dansk kanslistil: 'Her Berennlt Giisselssen fiich', 'schall aarliigenn', 'Datum vt supra'.	dan	"""fiich liige sliigtt ett breff"", ""closter"", ""aarliigenn giflue"", ""mitzsommer"""	dan
+di:12:437	dan	hog	andra	Dansk: 'Hallduordt Skullessenn fiich liige sliigtt ett breff'	dan	fiich liigge ett breff, paa, closter, giffue, daler	dan
+di:12:438	dan	hog	huvud	wortt och Norgis kronis Closter, Jsslannd, Bðnnder: dansk			dan
+di:12:440	dan	hog	huvud	'att were fuldmechtigh laugmanndh', 'paa wortth Land Jsslanndh', 'Bedendis': dansk.			dan
+di:12:441	dan	hog	huvud	Wider att wij haffue afferdigett oss elskelige; dansk kanslitext			dan
+di:12:442	dan	medel	andra	forschreffne, thett, Datum vt supra, Her widtt att rette tegh; isländskt stycke i mitten	dan	forschreffne, Her widtt att rette tegh epther, lad thett ingenlundhe	dan
+di:12:445	dan	hog	huvud	'Wor synnerlige gunsth tillfornn', 'Wider', 'wjj haffue att talle melt etther': dansk			dan
+di:12:463	isl	medel	huvud	ffia og hallda sogdum peningum, sende Ragnhilldur; isländsk, dansk kungligt citat			isl
+di:12:494	dan	hog	andra	Peder Goske fick breff att skulle sende thette eptherschreffne; dansk	dan	"""fick breff att skulle sende"", ""eptherschreffne"", ""Islandtz fish"", ""epther sanctj Michaelis"""	dan
+di:12:495	dan	hog	andra	Dansk kvittans: 'Fiich ko. maiestettz quitanntze paa', 'vdj mðnntt'	dan	fiich quitanntze, paa, oc, mønntt, gyldenn	dan
+di:12:517	isl	medel	huvud	Samþicktt af Marteine Einarssyne, biskupum landsins: isländsk; errata-lista			isl
+di:12:60	dan	medel	inget	thette gðriis, paa Jtselanndt, skwlt holle, huorfsom; isländskt vittnesmål i mitten			
+di:12:61	dan	medel	andra	wii, thiill, forbiude wii, wor kongelige hegenn: dansk verndarbrev med isländskt inslag	dan	vndertagenn, wore kongelige hegenn, Thii forbiude wii; danskt kungabrev	dan
+di:12:62	dan	medel	andra	wor kongelige hegenn, forbiude wii, thii, tienere; isländskt vittnesmål i mitten	dan	Thii forbiude wii, vdindenn wor kongelige hegenn, beskermellfse; dansk text	dan
+di:12:74	dan	hog	andra	oc, paa, aff, Jtem och landskyldt: dansk jordebok	dan	landskyldt, fiske, Skog oc Skogeghn, Opboret her till, regenskap	dan
+di:12:77	deu	hog	inget	Mellanlågtyska: 'vnde', 'chrijftelijcken', 'gewanheijt', 'na dem', 'van des'.			
+di:12:79	dan	hog	inget	Dansk räkenskap: 'Loderboghen paa thet aar', 'haffuer kosted', 'Jtem', 'kommer'.	dan	"""Loderboghen paa thet aar 1548"", ""haffuer kosted"", ""skiibes loder"", ""tijll"""	dan
+di:12:80	dan	hog	andra	Dansk räkenskap: 'Rett iordbog paa Ijslandt', 'thette eptherskreffne guods'	dan	Thette eptherskreffne, oc, haffuer, landskyldt, ko, foer	dan
+di:12:81	dan	medel	andra	jeg, haffier ieg vdgeffuit, thete: danska former i kanslistil efter 1450	dan	"""landskyldt"", ""oc"", ""Aff thete forne qvieg haffuer ieg vdgeffuit"", ""Jtem"", ""paa Closteret"""	dan
+di:12:85	dan	hog	andra	'Rett iordbog', 'wppborett', 'Jtem mett Klepe', 'oc', 'thete skep': dansk.	dan	Rett iordbog, wpborett, landskyldt, mett, en ko, ij foder, oc	dan
+di:12:9	isl	hog	huvud	'gerum wer', 'kunnekt', 'ok ek ok fader minn', 'kirkiu j Langadal': isländskt.			isl
+di:12:96	dan	hog	andra	Dansk kanslistil: 'Thesse eptherne lenísmendtt', 'att skulle wdgiore', 'skiffs'.	dan	"""finge breff om karlle"", ""wdgiore till skiffs"", ""huer saa mange"", ""karlle"""	dan
+di:12:97	dan	hog	andra	Ghristian etc., Vor gunst tilfornn, wiidt att wij strags: dansk brev 1551	dan	Vor gunst tilfornn, wore schibe, Thii bede wij, mett	dan
+di:12:98	dan	hog	huvud	Dansk kanslistil: 'att skulle mðde', 'Actum Flensborg', 'Wor synderlig gunst'.			dan
+di:12:99	dan	hog	inget	Dansk brev: 'jeg', 'ether', 'Hanns Konng: Matt', 'Danmarchis Rigis'	dan	y kunde forfare, szom, jeg, haffuer, effther	dan
+di:13:10	dan	medel	andra	Thesse erennde, haftue forbrott, thenne artickell; dansk, isländskt stycke i mitten	dan	Thesse erennde och werffue, superintendenten, haffue fuldmagt, tiill	dan
+di:13:110	dan	hog	huvud	haffuer ieg, paa miju naadiste herris, Dade lade meg: dansk			dan
+di:13:12	dan	hog	huvud	Dansk kanslistil: 'Vor gunst tilfornn', 'at wij skicke tig', 'Jsland'.			dan
+di:13:122	dan	hog	inget	annammit, daller, Raadmand wdi Kiðpnnehaffn, Udgift: dansk räkenskap	dan	Register och Regenschaff, aff, Raadmand, daller; forndanska	dan
+di:13:137	dan	hog	huvud	Dansk kanslistil: 'Wii Christian then Tredie', 'hellse thegh oss Elskelige', 'Wijd att thenne'.			dan
+di:13:138	deu	hog	huvud	Lågtyska: 'Vnsernn besondernn gunstigenn freundenn', 'vnnd Radtmannen', 'vonn Ewer'.			deu
+di:13:140	dan	hog	inget	Vij Christiann thenn tredie etc., Giðre alle witterligtt, epthertij: dansk	dan	Giðre alle witterligtt, thenn edle, wdj, skib, lade kiðbe	dan
+di:13:154	isl	medel	huvud	Þat giðrum vier, þuiat kuikid hlytr, almugafolkinu; isländsk med danska inslag			isl
+di:13:159	dan	hog	andra	'Hðgborne ffðrste och Stormectige Herre', 'Derffor j gud ffaders naffn': dansk	dan	Hogborne, ffrste, wtj, mgit, stifft, wadmale, thette breff	dan
+di:13:179	dan	hog	huvud	Peder Palladius Doctor oc Superintendens i Sielands Stict: dansk			dan
+di:13:181	dan	hog	huvud	Dansk: 'Wij Christiann thend Tredie met gudts Naade', 'Jslandt'			dan
+di:13:185	dan	hog	huvud	Thend 10 dag decembris annamett, Maiestets, paa Islandt, thesse tuende aar; dansk			dan
+di:13:196	deu	hog	huvud	'dat wy eynn Schip up Isslant na Schwefell tho segelenn': lågtysk brev			deu
+di:13:203	dan	hog	huvud	haffuer sig, forgrebbit, ther fore ere faldenn tiill oss, thedt holde; dansk			dan
+di:13:204	dan	hog	andra	Dansk: 'haffuer', 'thij', 'oc', 'effther islandske loug'	dan	haffue wij, thette wort obne breff, oc, tiill	dan
+di:13:207	dan	hog	huvud	Nicolaus Palladius Superintendent i Schaane Stigt, paa Jsland: dansk			dan
+di:13:208	dan	hog	huvud	Til den fromme Her Gilbert Superintendent i Skalholt stict paa Jsland; dansk			dan
+di:13:211	dan	hog	andra	'Wij Ghristiann thenn tredie', 'Gilberts breff', 'Superintendentt': dansk.	dan	Wij Ghristiann thenn tredie, mett Gudtzs naade, Thij forebiude wij, thee helst	dan
+di:13:212	dan	hog	huvud	'Her Gillebert fick breff att skulle were superintendent', 'Thij bede wij': dansk.			dan
+di:13:222	dan	hog	huvud	Wij Christian then Tredie, wndersotte, paa wort landt Wespenöe; dansk			dan
+di:13:223	dan	hog	huvud	Dadde Guthmerssen fick breff, Vii Christiann thenn tredie, Giöre: dansk			dan
+di:13:224	dan	hog	inget	Giöre alle wittherligtt att wij haffue forordineret, Laugmanndt; dansk	dan	"""Giøre alle wittherligtt"", ""haffue forordineret oc tilskickedt"", ""Laugmanndt"", ""Effther"""	dan
+di:13:243	eng	hog	inget	A letter to Doctour Cooke, Richemonde, Judge of thadmiralty: engelska	eng	'he is wylled to consyder', 'shipp and goodes be stayed', 'Supplycacion'	eng
+di:13:249	eng	hog	inget	Engelska: 'whereas the complaynantes', 'are contented', 'he is therefore'.	eng	"""A lettre to Richard Cornewallys"", ""complaynantes"", ""fysshe"", ""shipp and vessell"""	eng
+di:13:268	dan	hog	inget	Thend 28 Januarii behold Hans Wingaardt wdj Kiðpnehaffn; dansk räkenskap	dan	"""Thend 28 Januarii"", ""huess bøger"", ""paa Jslandsk"", ""met hannom"""	dan
+di:13:275	dan	hog	inget	fick breff saa liudendis, paa the skibe, thiill Island, lade bethemme; dansk	dan	paa the skibe, bodzmend, bestille, thiill willige, Actum Kollinghus	dan
+di:13:277	dan	hog	andra	Wij Frederich thenn andenn, mett Gudtzs naade, Danmarck oc Norge: dansk	dan	'Wij Frederich thenn andenn', 'Giðre alle witterligtt', 'haffue afferdigett', 'wortt skijb'	dan
+di:13:278	dan	medel	huvud	Dansk kungabrev; isländskt vittnesbörd i slutet: 'hafa Bored vitnisburd', 'Alþijnge'.			dan
+di:13:279	dan	hog	huvud	Wiider att wij haffue, liudendis, afferdiget: dansk			dan
+di:13:280	dan	hog	huvud	Dansk: 'Yeitingaebeép', 'alle wittherligt', 'haffue wndt och forlent'			dan
+di:13:281	dan	hog	huvud	'Kon. mts. obne credentz giffuenn', 'Frederich thenn andenn', 'wnde oc forlenne': dansk.			dan
+di:13:282	dan	hog	inget	Eggert Hanssenn fick och wdj lige maade breff, Datum vt supra; dansk	dan	"""Eggert Hanssenn fick och wdj lige maade breff"", ""closter"", ""aarlig affgifft"""	dan
+di:13:305	dan	hog	huvud	vadmell, Skibztolde, thid for Platoe, haffver hand affhend; dansk			dan
+di:13:306	dan	hog	huvud	'Jeg Knudt Steenssenn kiendis mett thette mytt obne breff', 'ieg haffuer annamett': dansk			dan
+di:13:307	dan	hog	inget	Fredericlt then andhen, Jegh Giillebert Ionssðn, eders; dansk			
+di:13:308	dan	hog	inget	'Hðgborne herre och fðrste', 'Dytmerschen', 'eders naadis Kongel. Mtt.': dansk.	dan	Stormectigiste Hogborne herre, huorledis, tiil, wor landsloug, beffalningsmandt	dan
+di:13:309	dan	hog	huvud	iegh, giffver, paa kongl. Majst. vegne qvit: dansk			dan
+di:13:334	dan	hog	andra	Dansk: 'Wij Frederich thennd anden', 'Tiill Leie aff', 'wdi Landschiild'	dan	Wij Frederich, hoes, stannder, oc, aff, regenschabs	dan
+di:13:341	dan	hog	andra	Dansk kanslistil: 'Actum Aarhwss', 'att', 'tiennere', 'vdj beffalning'.	dan	"""fick kong. mtts. følge breeff"", ""haftue forscreftne"", ""regenskab"", ""Hannd skall holde"""	dan
+di:13:342	dan	hog	andra	Eggertt Hanssenn fick att skulle were Laugmand, Wii Christian; dansk	dan	"""Haffue wij aff wor synnderliig gunnst"", ""wortt obnne"", ""effther Jslanndtzs loug"""	dan
+di:13:343	dan	hog	andra	Dansk kanslistil: 'Att skulle were Laugmannd', 'oc', 'Haffue for', 'Hanns'.	dan	"""Haffue for Hanns Laugmanndtzs Løønn"", ""bonder oc tiennere"", ""paa Jslannd"""	dan
+di:13:344	dan	hog	inget	Vij Frederich thennd, wnndt oc giffuett, 'thette worlt obnne breff': dansk	dan	Vij Frederich, haffve wij, wnndt oc giffuett, thette wortt obnne breff	dan
+di:13:345	dan	hog	huvud	'Wii Friderich thend anden', 'giðre alle vitterligt', 'oss elskelige': dansk 1560			dan
+di:13:346	dan	lag	andra	vnder wort segel, Aarhus, vor gaardt: dansk; isländsk adress i stycke 7	dan	Danskt 'vnder wort segel', 'Skriffuet paa vor gaardt'; isländsk översättning 'Vier Friderich ... Vitid ad'	dan
+di:13:347	dan	hog	andra	Frederich thennd anndenn, Vor gunnst tiilfornn, att wij, wortt lannd; dansk	dan	Vor gunnst tiilfornn, wij forefare, closterkirckernne, wortt lannd	dan
+di:13:363	dan	hog	huvud	'Hans Nielssen borgerre wdj wor kiðbstedtt', 'thenne breffuissere', 'oc': dansk.			dan
+di:13:364	dan	hog	andra	Dansk kanslistil: 'thette wort breff', 'oc', 'haffuer', 'wij'.	dan	"""haffuer"", ""wor kiere broder"", ""lester sild"", ""forschreffne"", ""attj"""	dan
+di:13:365	dan	hog	huvud	Stormegtiige herre och hðgborne fðrste, Danmarkis Norgis, Wendis: dansk			dan
+di:13:376	dan	hog	inget	Dansk kanslistil: 'att effther', 'haffuer schreffuit', 'thiill och giffuer'.	dan	"""fick breff"", ""haffuer schreffuit"", ""kiøbe tiill hans husses ophold"", ""Islands fisk"""	dan
+di:13:398	dan	hog	andra	Her Tage Tott fick kong. mtts bræff saa liudenndis, wij, thett, oss elskelige: dansk	dan	Her Tage Tott, baade, wortt slott, inndenn paaske, thennomm	dan
+di:13:399	dan	hog	huvud	'Frederich etc. Wor synnerlig gunst thilfornn', 'Wider', 'att', 'hoguerdige': dansk.			dan
+di:13:420	dan	hog	andra	Thenn 20 Februarij, vdj, annammit, Ko. Matts, paa Jslanndt; dansk	dan	annammit, regenschab, daler, kiðbe, Thenn, wdj	dan
+di:13:424	dan	hog	huvud	Vor gunst thilfornn, Wiid att wij haffue wnndt oc thilladt; dansk			dan
+di:13:425	dan	hog	huvud	Frederich etc., Vor synnerlig gunst thilfornne, Wiider, 'wij erre komne': dansk			dan
+di:13:426	dan	hog	huvud	Dansk kanslistil: 'haflfue wij nu ladett schriflfue', 'att hand schall', 'thill'.			dan
+di:13:427	dan	hog	andra	Dansk: 'Thij bede wij thig oc wille', 'att thw haffuer flittig vpseennde', 'Datum Emsborg'	dan	Thij bede wij thig oc wille, haffue, aff, wdforis, nogenn	dan
+di:13:428	dan	hog	huvud	Dansk: 'Hogmectigste forst och Konge', 'om den wtilbðrlig handel', 'paa Island'			dan
+di:13:430	dan	hog	huvud	'Kon. mts. obne breff til bðnder oc menige', 'Wij Frederich thend anden': dansk.			dan
+di:13:431	dan	hog	huvud	'Eggert Hanssen. laugmand paa Island for norden', 'fick breff som effther fðlger': dansk.			dan
+di:13:432	dan	hog	huvud	'Frederich thend anden etc.', 'Wiider', 'efftherthij', 'wij': dansk kungabrev 1561			dan
+di:13:433	dan	hog	huvud	'wort obne breff', 'vdgaa tiill wore vndersotte', 'tilschreffuit oss': dansk.			dan
+di:13:434	lat	hog	huvud	Dei gratia Danorum, Vniversis et singulis, Salutem: latinsk kansli			lat
+di:13:435	lat	hog	inget	Latin: 'Ripensi vigesima quarta Februarij', 'cum nauj nostra', 'Insulam nostram Vespenoe'.	lat	In Regia nostra, Ripensi vigesima quarta Februarij, cum nauj nostra propria	lat
+di:13:444	isl	medel	huvud	ec, ad, alldri heyrda, Skardi, Langadal; dansk kungabrev i slutet			isl
+di:13:471	dan	hog	huvud	Dansk: 'Thette ere de artikler som Jslenderne haffuer foregiffuet', 'Kong. Matt.'			dan
+di:13:472	dan	hog	huvud	efftherthij wij ere komene vdj forfaring, Frederich, att: dansk			dan
+di:13:473	dan	hog	huvud	Dansk: 'Til Pouel Stiissenn', 'Wor gunst tilforn', 'haffue wij vndtt oc tilladtt'			dan
+di:13:48	dan	hog	huvud	'aff paffuenn', 'och tisligiste', 'Christiernn', 'att forschreffne': dansk.			dan
+di:13:496	dan	hog	andra	Dansk kanslistil: 'Wor gunst tilforn. Wid. at thende breffuisere', 'haflfuer beret for oss'.	dan	"""Wor gunst tilforn"", ""haflfuer beret for oss"", ""forschreffne"", ""ihielslaget"""	dan
+di:13:5	dan	hog	andra	Datum Nyborg, Wor gunst tillfornn, Viid, thenne breffuissere: dansk	dan	'Datum Nyborg', 'haffuer berett for oss', 'thenne breffuissere', 'huoriedis att'	dan
+di:13:506	dan	hog	inget	Dansk: 'Till her Tage Thott. Wor siinderliig gunsth', 'Giiffuit paa Emshorg'	dan	Wor sunderliig gunsth, bede wij etther och begiere, lader hugge	dan
+di:13:511	dan	hog	andra	Dansk räkenskap: 'Thenn 12 dag Februarii annammit aff', 'paa Pouell'	dan	annammit aff, paa regennschaff, daler, oc, schall	dan
+di:13:517	dan	hog	inget	Dansk kanslistil: 'Vor gunst tiillforn', 'Wij bede tig oc wille', 'retther teg effther'.	dan	"""Vor gunst tiillforn"", ""Wij bede tig oc wille"", ""skiibe"", ""att"""	dan
+di:13:521	dan	hog	huvud	Wor synderliig gunst tiilffornne wiider, Frederich thennd andenn; dansk			dan
+di:13:524	dan	hog	andra	tiill, oc, vdj, etther, oss, forschreffne; dansk kanslistil	dan	obne breff, superintendenterne, wortt lannd, biude, wogne	dan
+di:13:525	dan	hog	inget	'paa kon. matts. skipper oc skibe', 'wdlðbenn', 'Register': dansk skeppsförteckning			
+di:13:526	dan	hog	huvud	etther, wij, huer serdelis biude, attj retthe: dansk kungligt brev 1562			dan
+di:13:527	dan	hog	huvud	Wiider att wij haffue wnndett och tilladtt oss elskelige; dansk			dan
+di:13:528	dan	hog	inget	Dansk kunglig text: 'Wor gunnst tiillffornn', 'Wiider', 'att efftertj'	dan	Wor gunst tiillffornn, haffue wij, oc, kiobmand, paa	dan
+di:13:529	dan	hog	andra	'thett ene wdj 0yefiordenn oc thett andett', 'Thij bede wij teg': dansk 1562	dan	thett, wdj, mett, haffner, bede wij teg; forndanska	dan
+di:13:531	dan	medel	inget	Dansk kungabrev ('haffue', 'thett', 'wor'); isländskt inslag i ett stycke	dan	haffue aff att lade, mett gode ware, oc, skelligtt	dan
+di:13:542	isl	hog	huvud	Isländskt domsutdrag: 'ad hann hefdi', 'j Lambargili', 'dæmdum vier'; dansk slutformel.			isl
+di:13:565	dan	hog	huvud	Erich Rosenkrandtzs, Vor synnerlig gunst, Wiider, thend; dansk			dan
+di:13:566	dan	hog	huvud	obne breff om traun, Giðre alle wittherligt, att; dansk			dan
+di:13:6	dan	hog	inget	oc, 'wortt slot Kiðpnehaffnn', 'thett', 'wdj wortt skib': dansk kungabrev 1555	dan	belöber, skipper, till wortt slot, Her vid att rette teg	dan
+di:13:60	dan	hog	inget	wdi, hagde, opeborett, then, Maiestets, Datum Kiðpnehaffn; dansk	dan	fick quitantz paa, daller, Datum Kiðpnehaffn, anttuordett	dan
+di:13:61	dan	hog	inget	Dansk: 'Jdem Knud Stienssen Fick quitantz', 'Datum vt supra'			
+di:13:64	dan	hog	andra	Giðre alle witterligtt, wor wndersaate, haffuer paa sijnn egne: dansk	dan	Giðre alle witterligtt, wndersaate, haffuer, breffue; forndanska	dan
+di:13:7	dan	hog	andra	Dansk kanslistil: 'haffuer forschreffne', 'att wij vville', 'Schreffuit Datum vt supra'.			
+di:13:74	deu	hog	inget	Högtyska: 'Unnsern gnedigstenn', 'wir kennen euch', 'wir habenn aber aus'.			
+di:13:76	deu	hog	huvud	Tyska/lågtyska: 'Unnsern gnedigstenn grns zuvorn', 'unnser vogtt', 'wir kennen euch'			deu
+di:13:8	dan	hog	huvud	Peder Gotske fick breff, haffuer forordinerett, att hand, Jsland; dansk			dan
+di:13:82	dan	hog	andra	Dansk kanslistil: 'eptherschreffne', 'schall', 'haffue', 'hertiill', 'the'.	dan	"""Thesse eptherschreffne erennde"", ""embitzmanndt"", ""schall"", ""haffue""; även isländsk version"	dan
+di:13:83	dan	hog	andra	Laugmand for westenn och Nordenn, Vij Christiann, wittherligt; dansk	dan	"""Giøre alle wittherligt"", ""haffue forordineret"", ""Laugmand"", ""wort Land"""	dan
+di:13:84	dan	hog	inget	frann domkierkenn, Thi bede wi eder, Giffuit paa wort Slott; dansk	dan	"""wdj anndre maade"", ""Och kierkenn"", ""Giffuit paa wort Slott""; isländsk version även"	dan
+di:13:85	dan	hog	andra	Giðre alle vittherligtt, haffue vnnt oc forlenntt, thenne breffuissere; dansk	dan	Giðre alle vittherligtt, vnnt oc forlenntt, thette wortt obnne breff	dan
+di:13:86	dan	hog	huvud	Dansk: 'Vor sðnnerlig gunst tilfornn', 'Vider. at som I ere begierendis'			dan
+di:13:9	dan	hog	huvud	Dansk kanslistil: 'haffuer', 'att', 'lader', 'ther', 'skib Dauid'.			dan
+di:14:104	isl	medel	huvud	þeir, sem, þad, sijno, samþycki; isländsk text med danska inslag			isl
+di:14:112	dan	hog	huvud	Dansk kanslistil: 'Disse epterschreffne artikle haffuer ieg', 'Kongelig Maiestet'.			dan
+di:14:113	dan	hog	huvud	Dansk: 'gaffue ko. intt. theris breff', 'Wij effterschreffne', 'kienndis'			dan
+di:14:114	dan	hog	huvud	Gi0re alle witterligtt, att effthertij, oss, haffuer wdlagtt; dansk			dan
+di:14:115	dan	hog	huvud	Islannd fick breff saa liudendis, Wij Frederich thennd andenn, Gi0re alle witterligtt; dansk			dan
+di:14:133	deu	hog	huvud	Vnnd Gotten K0ning, Thun kundt hiemit, Nachdeme sich zwischenn vnns: tyska			deu
+di:14:141	deu	hog	huvud	Högtysk kanslistil: 'Nachdeme', 'vnnd anngenomen', 'Crafft dies', 'werdenn'.			deu
+di:14:143	deu	hog	andra	An die Stadt Hamburgk, Nach dem wir vns mit, auff unsern beuehl, begern wir; tyska	deu	An die Stadt Hamburgk, Nach dem wir vns, gnedigst Jhr wollet	deu
+di:14:163	deu	hog	huvud	Ewer schreiben ahm 26. tage, Euer sucliung, wir beuolen, Konnig: tyska			deu
+di:14:166	deu	hog	huvud	Högtyska: 'Ess haben vnss die', 'vnderthenigst zuerkennen geben', 'Jhr Jlmen'.			deu
+di:14:167	dan	hog	huvud	'Wij Fredericli thend andenn', 'Gi0re alle witterligtt', 'aff wor synderlig gunst': dansk.			dan
+di:14:168	dan	hog	huvud	Erick Arnessenn fick breff, Wij Frederich thennd andenn: dansk			dan
+di:14:170	dan	hog	huvud	fick kon. mats. breff, Wor gunst tiillfornn, wij, thett: dansk			dan
+di:14:176	dan	hog	inget	Dansk kanslistil: 'kunde selge oc affhende wor suoffuell', 'att hannom authordis', 'wij forfarre'.	dan	"""kunde selge oc affhende wor suoffuell"", ""daller for tþnnen"", ""forschreffne"", ""mett"""	dan
+di:14:198	dan	hog	huvud	Dansk: 'kongl. Majst Befalningsmand offver Jsland', 'kiendis och gi0re viterligt'			dan
+di:14:2	lat	lag	huvud	endast isländsk sammanfattning; latin antagen för brev till engelsk kung			lat
+di:14:207	deu	hog	huvud	Vowoll wy vor velenn Ialirenn, unde, gemohte, nhamen: lågtyska			deu
+di:14:210	deu	hog	huvud	Högtysk: 'Wir haben ewer schreibenn vnderm dato', 'Jhr euch', 'Abnn die Stadt Brehmen'.			deu
+di:14:211	deu	medel	huvud	vorbitlich, schreiben, gentzlich, vnser; två tyska stycken, ett isländskt			deu
+di:14:223	dan	hog	huvud	Wor synderlig gunst tilfornn, Wiider, liudenndis, breff: dansk			dan
+di:14:224	dan	hog	huvud	'Her Magnus Guldennstiern', 'fick ko. ma. breff saa liudenndis', 'Wiider': dansk			dan
+di:14:227	dan	hog	huvud	'Wii Frederich thenn andenn etc.', 'gipre alle witterligtatt', 'beseigle': dansk.			dan
+di:14:242	dan	hog	huvud	oc doct. Hero, finge ko. matt. breff vt sequitur, Frederich: dansk			dan
+di:14:243	dan	hog	huvud	Wii Frederich etc., effterti oss elskelige, Pouell Stissenn; dansk			dan
+di:14:245	dan	hog	huvud	fick ko. ma. breff saa liudenndis, Wiider att ther wij droge frann Ki0pnehaffn; dansk			dan
+di:14:246	dan	hog	huvud	Dansk kanslistil: 'Gi0re alle wittlier', 'efftherthj', 'wij forfare', 'oc'.			dan
+di:14:247	dan	hog	huvud	Wor sjmnderlig gunst, Wiider, thennd, wij: dansk kanslistil 1565			dan
+di:14:248	dan	hog	huvud	Magnus Guldenstiern statholder, fick Ko: Ma: breff saa liudenndis: dansk			dan
+di:14:249	dan	hog	inget	motte tage, lade besegle tuenne haffne, Datum Byringe, oc; dansk	dan	lige maade fick, borger, haffne, kaldis, Datum Byringe	dan
+di:14:250	dan	hog	huvud	fick kon. matts hreff, wij, oc, thennd, Wiider: dansk kungligt brev 1565			dan
+di:14:253	dan	hog	huvud	wii Frederich, oc, haffue befalit, thend: dansk			dan
+di:14:254	dan	hog	huvud	Helse etlier alle wore tro vndersotte, forfare, oc: dansk			dan
+di:14:255	dan	hog	andra	Dansk: 'Jslandh', 'haffver', 'hvorledis', 'paa forne wortt'	dan	gior alle witterligt, haffver, mett, thette vortt opne Breff	dan
+di:14:256	dan	hog	huvud	Vndersottene, finge kon. matts. breff, liudendis, wii, lensmand: dansk			dan
+di:14:257	dan	medel	andra	Formildett, Effterladett, Ohotemaall; dansk, med isländsk formel i brevet	dan	"""Haffue wij aff wor Synnderlige gunst"", ""Opnne Breff""; även isländsk version"	dan
+di:14:258	dan	hog	huvud	Kongshreff fyrer Bardastrþnd, Wii Frederich thenn anndenn; dansk			dan
+di:14:259	dan	hog	huvud	Serre a Benedictsen. wort oc kronens closter, Modraatt; dansk			dan
+di:14:26	dan	hog	huvud	Til Johan Friis Cantzler, Frederich, Wiider att wii haffue: dansk			dan
+di:14:260	dan	hog	huvud	Giore alle wittherligt att wij aff wor synderlig gunst oc naade; dansk			dan
+di:14:261	dan	hog	huvud	Dansk: 'Nicolaus Torstenson fick kon. matts. breff', 'Gi0re alle witterligt'			dan
+di:14:262	dan	hog	huvud	Dansk kanslistil: 'Jafft lioss sig en quinde', 'att wille tage', 'aff wor synderlig gunst'.			dan
+di:14:263	dan	hog	huvud	'Frederich etc.', 'Vor gunst tilforn', 'Wiid.', 'att wij nu skicke till thig': dansk			dan
+di:14:277	dan	hog	andra	Frederich etc. Wor synderlig gunst tilforn, Wiider, att oss; dansk	dan	"""Wor synderlig gunst tilforn"", ""haffuer"", ""oss elskelige"", ""raadmand ther vdj"""	dan
+di:14:289	dan	hog	huvud	Dc, wittherligt att wij aff wor synderlig gunst, haffue: dansk			dan
+di:14:3	isl	medel	huvud	hann lofadi, huad mier viidist, hallda, erfiigiar; isländsk kvittens			isl
+di:14:317	deu	hog	huvud	Tyska: 'Monats empfangen vnnd daraus vermercke', 'vnns', 'Isslendischen'			deu
+di:14:318	eng	hog	inget	Certeyn articles, subiects of Englonde, fysshinge in Iselonde: engelska	eng	'Complaints', 'our occupiers have bene yerlie occupied', 'fysshinge', 'Stockfysshe'	eng
+di:14:327	dan	hog	huvud	Wij Fredericli, Gi0re alle witteiligt, wndt och, haffue: dansk kungabrev			dan
+di:14:328	dan	hog	andra	ficlc wdj k§f maade breff, medt wore vndersaatte, haffue; dansk	dan	wore vndersaatte, hanndle och wanndle, huilckit wij oss sielff	dan
+di:14:333	deu	hog	inget	Lågtyska: 'Unsen fruntliken deinst', 'Gestrenge', 'Wy hebbenn', 'gude frundt'.			
+di:14:346	deu	medel	huvud	'unnd Grossmechtigster Konig', 'Kon: Mtt. sein unsere': tysk brev med isländskt vittnesinslag			deu
+di:14:356	dan	hog	huvud	lade heseile en wor och kronens, Paa 'vortt iandt Islandt; dansk			dan
+di:14:357	dan	hog	huvud	Dansk: 'Gi0er alle witterligt', 'oss elskelige', 'vdj Hamborg'			dan
+di:14:358	dan	hog	huvud	thennom, forschreffne, forplicht, Skal the, wore vndersaatte; dansk kanslistil			dan
+di:14:393	dan	hog	huvud	haffue, weritt, oss, wor, vdj, thijd; dansk kanslistil			dan
+di:14:394	dan	hog	inget	'Frwe Eddell Hardenberrig', 'lige maade', 'Actum Skanderborg', 'lader Otthe Bradis hud'.	dan	Frwe Eddell, effterleffwerske, fich vdtj lige maade, Actum, thend	dan
+di:14:407	dan	hog	huvud	Wij Fredericli etc, witterligtt, fick hreff, lyudinndes: dansk			dan
+di:14:41	dan	hog	huvud	Wiider att alt wi liHffue, Wor synderlig gunst tilforn: dansk			dan
+di:14:415	dan	hog	huvud	Breff till Johan Jellessen, Saa liudendis, Vor gunst tilfornn, haffuer schreffuit; dansk			dan
+di:14:416	deu	hog	huvud	Erbare. Fursichtige. Hochgelarte. Hochweise grossgunstige Herren; tyska			deu
+di:14:417	deu	hog	huvud	Unsernn freundtlichen gruss zuvorn, Erbare unnd weise Herrn; tyska			deu
+di:14:422	dan	hog	huvud	'Tilbiude idher Dannemán', 'haffue', 'wele', 'Wár gunst': dansk kansli.			dan
+di:14:43	deu	hog	huvud	Högtysk kanslistil: 'Wir haben euer schreiben', 'Actum Coppenhagen', 'vnd'.			deu
+di:14:433	dan	hog	andra	Dansk kanslistil: 'Datum Fic derichsborg', 'gi0re alle viter', 'Wier Fridericli annar'.	dan	"""Friderici 2di Bref"", ""efftermaning"", ""wore efftercommere"", ""Datum Fredericksborg"""	dan
+di:14:434	dan	hog	huvud	Dansk: 'Henrich Krag fick f0lge breff', 'Wiider att wij haffue tiltroit'			dan
+di:14:435	dan	hog	inget	Dansk kanslistil: 'Her Peder Enesen fick breff', 'att', 'tliend', 'Datum Frederichsborg'.	dan	"""Her Peder Enesen fick breff"", ""ligginndes"", ""wden affgifft"", ""Datum Frederichsborg"""	dan
+di:14:436	dan	hog	huvud	Dansk kanslistil: 'Kreff till Johann Friis och Peder Oxe', 'Wij bede ether', 'attj wille'.			dan
+di:14:44	dan	hog	andra	'Til Jochim Beck', 'Frederich etc Wiid', 'thu haffuer klar giordt thet regenschaff': dansk.	dan	Wiid. at effterthii wii forfare, regenschaff, tiikommer, wille beholde	dan
+di:14:48	deu	hog	huvud	'Als wir von euch', 'vnterteinigst anlzeig', 'zu gnedigster dancknemen Antwort': tyskt			deu
+di:14:49	deu	hog	huvud	Högtysk kanslistil: 'Nachdem wir', 'gnediglich Begern', 'Friderichsburg'.			deu
+di:14:57	dan	hog	huvud	'Jacop Brockenhuss. fick ko. mtts. schriffuelsse', 'att hand', 'Fredrichsborg': dansk.			dan
+di:14:59	dan	hog	huvud	Dansk kanslistil: 'Frederich etc. Wiid. at oss elskelige', 'thiener', 'thend sag', 'forfarendis'.			dan
+di:14:6	deu	hog	huvud	wir Friderich der ander, bekennen, ausgegangenes; högtyska			deu
+di:14:60	dan	hog	huvud	'Til Niclaus oc Fusse Thorstensonner', 'Wor gunst tilforn', 'Wiider': dansk.			dan
+di:14:61	dan	hog	huvud	Wiider, att wii forfare, Skalholtz domkircke sclial were m0get; dansk			dan
+di:14:62	dan	hog	huvud	Dansk öppet brev: 'Giþre alle wiitterligt', 'effter', 'thend'			dan
+di:14:63	dan	hog	huvud	Dansk kanslistil: 'Wij Frederich thend anden etc. gipre alle witterligt', 'jndbygger paa wort land'.			dan
+di:14:64	dan	hog	huvud	Dansk kanslistil: 'Wij forfare. at domkircken for synden', 'oc kronen', 'befalit'.			dan
+di:14:65	dan	hog	huvud	'wij hehþffue til wort egit behoff', 'wore vndersotte', 'tha wille wij': dansk			dan
+di:14:66	dan	hog	huvud	wij, witterligt, haffue vndt oc forlent: dansk kanslistil			dan
+di:14:67	dan	hog	inget	'Gunder Gislessen fick vdj lige maade breff', 'Datum Frederichsborg': dansk.			
+di:14:68	dan	hog	huvud	Dansk kanslistil: 'Jtem', 'skall', 'naadeligen', 'paa Islandt', 'naadigste herre'.			dan
+di:14:69	dan	medel	andra	lensmand, forscreffne wort land Island, Thend, Frederichsborg; dansk	dan	"""thette wort breff"", ""wed magt holdet"", ""emod"", ""Datum Frederichsborg""; isländsk version även"	dan
+di:14:70	dan	hog	huvud	fick breff at mue haffue, gi0re alle wittérligt, haffuer ladit berette; dansk			dan
+di:14:71	dan	hog	huvud	Frederich thend anden, Gipre alle witterligt, wij ere komne vdj forfaring: dansk			dan
+di:14:72	dan	hog	huvud	Kon. mts breff, Wij Frederich tbend anden, paa Island: dansk			dan
+di:14:73	dan	hog	huvud	Dansk kunglig stämning: 'udj egen Person', 'vort Rige Danmarck', 'Tiltale'			dan
+di:14:77	dan	hog	inget	Dansk kanslistil: 'giffuitt', 'haffuer', 'ko. mtts.', 'Kiobnehaffnn'.	dan	"""att ko. mtts. haffuer giffuuitt"", ""skib lad"", ""Datum Kiobnehaffnn"", ""mdlxiij"""	dan
+di:14:78	dan	hog	huvud	Breff tiil wndersottene, wij, haffue afferdigit, thend anden; dansk			dan
+di:14:79	dan	hog	huvud	Dansk kanslistil: 'att', 'haffuer', 'forclaret', 'wort land Issland'.			dan
+di:14:80	deu	hog	andra	Wir Friderich, Jnen, Jsslandt, verbietten, Churfursten; högtysk kanslistil	deu	Churfursten, Wir Friderich, Mitt denen von Hamburg, wissen wir	deu
+di:14:93	deu	medel	andra	zu iwegen zubringen, Jch glaub, thaler, Kon. May; isländskt vittnesmål i mitten	deu	So bitt Jch auch nicht zu vndterlassen, geltt, thausent thaler	deu
+di:15:104	dan	hog	inget	'som kongen aff Polen acliter att lade affuerferdiige', 'om vij kunde liide': dansk	dan	som kongen aff Polen, att, vdj, tha er thenne vor mening	dan
+di:15:132	dan	hog	huvud	Dansk: 'att betalle', 'thett', 'wij', 'ther', 'saa liand'			dan
+di:15:152	dan	hog	huvud	'Vij Frederich thennd anden', 'Helsse thig oss Elskelig', 'udi': dansk kanslispråk.			dan
+di:15:156	dan	hog	huvud	Wij Frederich then anden, gi0rre alle witterligtt, Mogenssen: dansk			dan
+di:15:165	dan	hog	huvud	Dansk kanslistil: 'Marcus Hess fek beseyling paa en haffn', 'Frederich giprre alle witterligt'.			dan
+di:15:167	dan	hog	huvud	'aar effther Gudz hyrdt', 'Riigens Raad', 'Laugmand for norden': dansk kansli.			dan
+di:15:169	dan	hog	andra	Dansk: 'Till Tollderren att hand skall arresterre', 'Wor gunst tillforn'	dan	Wor gunst tillforn, haffue, schiib, aff, oc, wiid naffn	dan
+di:15:171	dan	hog	andra	'Till Cristoffcr Walkendorp', 'att hand skall forlenne', 'Wor gunst tillforn': dansk.	dan	Till Cristoffer Walkendorp, att hand skall forlenne, haffue, kaldis, closter	dan
+di:15:172	dan	hog	huvud	'tage och ananmie', 'wortt lannd Jslannd', 'Elskelig Pouell Jonssenn': dansk 1569			dan
+di:15:173	dan	hog	andra	lydenndis, effter som forsclireffuit staar, Datum Frederichsborg: dansk	dan	"""laugmand for nordenn och westenn"", ""fick beskiermelse breff"", ""Datum Frederichsborg"""	dan
+di:15:174	dan	hog	andra	'Vdj liige maade', 'fick Joen Joensenn', 'Datum Kiepnnebaffnn': dansk kanslispråk.	dan	Vdj lige maade, fick, beskiermelse breff, Datum, thennd, aar	dan
+di:15:175	dan	hog	huvud	Jcg, oc, Superintendent, witterligt giör, obne breff: dansk			dan
+di:15:176	dan	hog	inget	'Wij Fridrich thennd Anden medt guds naade', 'giore alle vitterligt', 'tager och annamer'.	dan	Wij Fridrich thennd Anden, giore alle vitterligt, vern, fredt, ei, adt	dan
+di:15:177	dan	hog	huvud	'Pouell Jonnsen fick konn. maits. breff', 'Wor gunst tilfornn', 'Wiid': dansk.			dan
+di:15:179	dan	hog	huvud	Till dem paa Island, kon. matts., Cristoffer Walkendrop; dansk			dan
+di:15:180	dan	hog	huvud	'Instructz og wnderwissning paa huis æhrinde', 'wii', 'befalningsmand': dansk.			dan
+di:15:181	dan	hog	huvud	Vor gunst tilfornn, Wiid, wij haffue vnndt, Isslanndt: dansk			dan
+di:15:182	dan	hog	huvud	'Till Superintenterne paa Island', 'Viider', 'wij nu haffue tilltrott oc befallitt': dansk			dan
+di:15:208	dan	hog	huvud	haffuer ieg paa konleg niajestets vegne, tilladt, Ordinantz Lydelse: dansk			dan
+di:15:211	dan	hog	huvud	forligthe ath, haffve, och, thenne, effter; dansk			dan
+di:15:266	dan	hog	huvud	Mrij Frederich elc. Giþre alle witterligt, wnndt, liaffue; dansk			dan
+di:15:270	dan	hog	huvud	Gi0r alle witterligtt, att, wij forfarc, oc straffes paa liffuit; dansk			dan
+di:15:275	dan	hog	huvud	Dansk instruktion: 'att oss elskelige Simen Surbeck', 'effter mett tliend handell'.			dan
+di:15:276	dan	hog	inget	Bpnnder och menig almue, Wij Frederich, Stormarnn; dansk	dan	"""Wij Frederich thennd andenn"", ""wdj"", ""huem som"", ""eij tilstedenndis"""	dan
+di:15:277	dan	hog	andra	Dansk kungabrev: 'Frederich thennd Andenn', 'Wor gunst tilfornn', 'paa wore wegnne'	dan	Wor gunst tilfornn, Wij bede teg oc wille, mett, thennd, haffnn	dan
+di:15:28	dan	hog	huvud	fick breff att lade besegle, Gipre alle witterligtt, haffue vndt; dansk			dan
+di:15:312	dan	hog	andra	'Jeg Johann Bockhollt', 'Maijtts Befalningsmand', 'biuder och befaler': dansk.	dan	Jeg Johann Bockhollt, haffuer, och, thillborligt, naadigste herris	dan
+di:15:315	eng	hog	inget	'A letter to Sir Asshefielde knight', 'Queen's Marchaunt', 'Denmarke': engelska	eng	A letter to Sir, in aunswer of, the Queen's Marchaunt; engelska	eng
+di:15:317	eng	hog	inget	At Hampton Coourte, Thearle of Bedford, Mr. Treasourer, Wheare; engelskt råd	eng	Wheare Luder Ottersonne, subject unto the King of Denmarke	eng
+di:15:319	dan	hog	inget	Till Peder Oxe hoffmester, Saa liudenndis, Wiider att wij erc, thiill enns; dansk	dan	Wor synnderlig gunst tilfornn, Wiider att, wij ere, wdj etthers	dan
+di:15:40	deu	hog	andra	Erbare Hoch unnd Wohvysse, unnd gantzwillige, tborustenn: lågtyska	deu	'Erbare Hoch unnd Wohvysse', 'unnd', 'wollen', 'tho segelen'; isländskt inventarium i bilaga	deu
+di:15:57	isl	hog	huvud	Isländsk kvittans: 'Jeg Magnus Jonsson medkenne', 'Þui giore ec', 'þessa mijns briefs'			isl
+di:15:59	dan	hog	inget	'Frederich etc.', 'Wiider', 'thenne breffuiser Hanns Nielsen haffuer nu werit': dansk	dan	Wiider att, thenne breffuiser, bede wij etther, wille lade bestille	dan
+di:15:60	dan	hog	huvud	Peder Oxe, Johann Friiss, synnderlig gunst, lyudinndes: dansk			dan
+di:15:64	dan	hog	andra	Dansk kanslistil: 'att wij haffue forordineritt oc tillskikett', 'thenne breffuisser'.	dan	"""Laugmand for Norden oc Westen"", ""Och tlier att skulle"", ""fuldmectiig""; isländskt inslag"	dan
+di:15:67	dan	hog	huvud	'Wor synnerlig gunst tilfornn', 'att effter som thenne breffuissere': dansk.			dan
+di:15:73	dan	hog	huvud	Dansk: 'Frederich etc. AVor gunst tilfornn', 'Wiid att wii ere kommenn'			dan
+di:15:9	dan	hog	huvud	fick breff att hesegle, Gi0re alle witterligtt, haffue vndt och tilladt; dansk			dan
+di:16:104	lat	hog	huvud	Memorandum quod septimo die irrotulat' Decembris; latinsk kansliformel			lat
+di:16:106	lat	hog	huvud	Latinsk rättsprotokoll: 'Et idem W. B. pro exoneracione', 'curie hic breue domini Regis'.			lat
+di:16:107	lat	hog	huvud	'Rex omnibus ad quos etc. salutem', 'Supplicauit nobis venerabilis pater': latin			lat
+di:16:108	lat	lag	huvud	Enbart isländsk ingress och 'Rex'; ingen språkprov ur brevet.			lat
+di:16:109	lat	hog	huvud	Anglolatin: 'Rememoratoris', 'execucio', 'Scaccarium', 'Per Barones'; isländskt referat.			lat
+di:16:110	lat	medel	andra	'Custuma proueniencie', 'existentis tempore', 'Nauibus': latinsk räkenskap med engelska namn	lat	Custuma, diuersis mercatoribus, Nauibus, Anno xvj Regis; tullräkenskap	lat
+di:16:111	lat	hog	huvud	'Anglicis, malefactoribus, pacis nostre perturbatoribus': latinsk tilskipan			lat
+di:16:119	lat	hog	huvud	'quod curia etc.', 'Ita etc.', 'in crastino sancti Michaelis': latinsk rättsprotokoll			lat
+di:16:121	lat	hog	andra	Pro Johanne Rex Omnibus ad quos etc. salutem: latinskt kanslibrev	lat	'Pro Johanne Rex Omnihus ad quos etc. salutem', 'T. R. apud Redyng' VI die ffebruarij'	lat
+di:16:124	lat	hog	huvud	'per Johanne Rex Omnibus ad quos etc. salutem': latinsk kunglig stil			lat
+di:16:128	lat	lag	huvud	Endast isländskt referat och engelsk arkivnotis; latin är typiskt för patentbrev.			lat
+di:16:131	lat	hog	huvud	'Teste Rege apud Westm', non obstante, per breve': latinska kanslistklausuler			lat
+di:16:132	lat	hog	huvud	Latinsk kunglig licens: 'seu molestacione aliquali eiusdem Johanms servientum attornatorum'.			lat
+di:16:133	lat	lag	andra	Enbart isländsk kommentar i utdragen; brevet är engelsk patentlicens, troligen latin.	lat	Treaty Rolls, engelskt kansli; bara isländsk kommentar synlig	lat
+di:16:137	lat	medel	andra	De salua gardia Rex per litteras; latinsk kanslitext, isländsk redaktion	lat	"""De salua gardia Rex per litteras""; engelsk kansli, latin"	lat
+di:16:142	lat	hog	huvud	Latinska: 'De inquirendo Rex dilectis sibi Jacobo', 'T. R. apud Westm.'.			lat
+di:16:144	lat	hog	huvud	Pro Edwardo Hull Rex omnibus ad quos etc., Sciatis quod de gracia; latin			lat
+di:16:146	lat	hog	huvud	pro Edwardo Hull. Rex omnibus ad quos etc. salutem; latin			lat
+di:16:148	eng	hog	inget	so that the trowth may knowen, Bristol, Wylliam Canynges: engelska	eng	'so that the trowth may knowen', 'of the kyng', 'by vertiwe of a corpus cum causa'	eng
+di:16:150	eng	hog	inget	This is the rewynd' of Edmund' Kervile, yat said Balinger; engelska	eng	"""This is the rewynd"", ""saien' yat"", ""merchaundice"", ""ffurthermore"""	eng
+di:16:151	lat	hog	andra	Latin: 'Teste rege apud Westmonasterium, nono die Aprilis', 'et firmiter observare'.	lat	et firmiter observare, Teste rege apud Westmonasterium nono die Aprilis	lat
+di:16:152	lat	hog	huvud	De licencia, Rex omnibus ad quos etc, Monstravit nobis dilectus, quod licet; latin			lat
+di:16:154	lat	hog	huvud	pro Rege Johannes Norffolk de Stebenhithe mercator: latinsk kansli			lat
+di:16:155	lat	medel	huvud	'Pardonacione Rex omnibus Balliuis': latinsk benådningsformel; isländsk återgivning			lat
+di:16:156	lat	hog	huvud	Latinsk engelsk utredningsrulla: 'Inquisicio capta', 'In cuius rei testimonium'.			lat
+di:16:157	lat	hog	huvud	Latinskt licensbrev: 'gracia nostra speciali', 'hcenciam dedimus eidem Wilelmo', 'exceptis mercandisis'.			lat
+di:16:158	eng	hog	inget	his quarter share in a ship, Isabella his wife; engelsk testamente	eng	"""His quarter share in a ship"", ""Isabella his wife"""	eng
+di:16:159	annat	lag	inget	isländsk återgivning av engelskt kanslibrev; originalformulering ej synlig i utdraget	lat	Endast isländskt regest; Patent Rolls, latinsk kansliform troligen	lat
+di:16:160	lat	hog	huvud	Rex dilectis sihi Richardo Hanson maiori ville sue: latin			lat
+di:16:161	lat	hog	huvud	De naui arestand, Rex dilectis sibi, diligenter In cuius etc, T. R.; latinsk writ			lat
+di:16:162	lat	hog	huvud	Latinsk text: 'Pro Radulpho Legh & Richardo Arnold', 'Rex omnibus ad quos etc.'			lat
+di:16:163	annat	lag	inget	Endast isländsk regest i utdraget; brevets språk syns inte	lat	Endast isländskt regest; Patent Rolls, kanslispråk troligen latin	lat
+di:16:164	lat	hog	huvud	Latinskt engelskt patentbrev: 'Henricus dei gracia Rex', 'Omnibus ad', 'de licencia traducendi'.			lat
+di:16:165	lat	hog	huvud	Latinsk licens: 'licencia Merwyn', 'vniuersis & singulis Admirallis', 'Sciatis quod de gracia'.			lat
+di:16:166	lat	hog	huvud	Latinskt brev: 'Rex omnibus ad quos etc. salutem Sciatis quod de gracia nostra'.			lat
+di:16:186	lat	hog	huvud	De licencia versus partes Island, Pæx omnibus ad quos etc.; latin			lat
+di:16:193	lat	hog	huvud	Latinskt engelskt licensbrev: 'De licencia traducendi', 'Omnibus ad quos etc.', 'mercator'.			lat
+di:16:209	lat	medel	andra	Latinskt citat om skeppet och Westmannaeyjar; isländsk text är editörens sammanfattning.	lat	"""oneris cuiuscumque vellent"", ""dicto regno nostro Anglia""; Treaty Rolls"	lat
+di:16:210	lat	hog	huvud	Latinska artiklar: 'Item omnes mercatores et subditi domini regis Anglie'.			lat
+di:16:213	lat	lag	inget	Endast isländsk regest av engelskt kanslibrev; källspråket antas latin	lat	bara isländskt regest; engelska kanslibrev troligen latinska	lat
+di:16:216	lat	hog	huvud	Nos autem, ligas, confederaciones, cuius rei testimonium, Westmonastérium; latin			lat
+di:16:217	lat	lag	andra	Endast isländsk regest av engelskt kanslibrev; källspråket antas latin	lat	bara isländskt regest; engelska kanslibrev troligen latinska	lat
+di:16:219	lat	medel	andra	Latinska citat ('contra edictum', 'mercatores', 'Privilegia') i tysk sammanfattning; isländsk ram.	lat	"""contra edictum"", ""Islandia navigarunt"", ""post commissas ibi caedes""; även tysk text"	lat
+di:16:226	lat	hog	huvud	Latinsk utredning ('Inquisisio capta'); isländsk text är sammanfattning.			lat
+di:16:229	lat	medel	huvud	'constabat sihi in toto', 'nauis ponderis', 'doliatarum': latinsk skeppslista			lat
+di:16:230	annat	lag	inget	isländsk återgivning av fördragstext; ingen originalformulering i utdraget	lat	Endast isländskt regest; fredsfördrag mellan kungar troligen latin	
+di:16:232	lat	medel	andra	latinska meningar i skeppslistan; engelska skeppsnamn som 'Mary of Bristow'	lat	"""navis qui dispositus est ad mare"", ""habet navium"", ""Le George qui quer'"""	lat
+di:16:236	eng	hog	inget	and that also they shall not in goyng, comyng; medelengelska	eng	"""we late you witte"", ""owr"", ""seid Iselond"", ""withowth"""	eng
+di:16:237	eng	hog	inget	Engelska: 'deputyd my seyd servant', 'pleynlv executyd', 'have yevyn to hym'.	eng	deputyd my seyd servant, yevyn to hym full autoryte, doggeres, viage towardes Islond	eng
+di:16:241	eng	hog	inget	'The cheffe merchaundyse in Iseland', 'clothe', 'bedes': engelsk handelslista	eng	The cheffe merchaundyse, Wodemole, and oyle; engelska	eng
+di:16:242	deu	hog	huvud	Lågtyska brödraskap: 'Witlick sij alle den Jennen', 'dusser brodersschup'			deu
+di:16:244	eng	hog	inget	'grevously punysshed', 'Be it therefore ordeyned stablisshed and enacted': engelska	eng	grevously punysshed, Fysshe, be it therefore ordeyned; engelska stadgar	eng
+di:16:247	eng	hog	inget	English account of victuals, herring and the Norfolk and Suffolk coast	eng	Account of the victuals provided by John Shurley, for a relief of victual	eng
+di:16:249	eng	medel	inget	Engelsk sjörättsprotokoll: 'master for the voyage into Iceland', 'by his own negligence'	eng	Robt. Brook master for the voyage into Iceland, fell out of the ship	eng
+di:16:250	deu	hog	inget	Lågtyska: 'wan de schippel nae willen der Engelschen', 'hebbeo de Engelschen', 'vormordet'.	deu	"""unde"", ""de schippel"", ""hebben de Engelschen dat schyp""; lågtyska"	deu
+di:16:252	dan	hog	huvud	Danska verstexter om Grönland: 'Efter Grönland fra', 'Saa lod liand', 'oc'.			dan
+di:16:253	annat	lag	inget	Bara isländska sammanfattningar och engelska källtitlar; ingen brevtext	eng	Endast isländsk kommentar; testamentsutdrag ur engelskt register	
+di:16:254	dan	hog	inget	loffuit, at de Danske wbehindrit maatte seyle, Kong Maitt; dansk	dan	"""Kongens Undersaatter"", ""Sendebud"", ""Hvilckit"", ""haffde""; också isländskt referat"	dan
+di:16:255	dan	hog	huvud	'Effterdi wi kommer udi viss Forfaring', 'Gud til Ære', 'vore Rigei': dansk.			dan
+di:16:258	lat	medel	huvud	Latinsk fullmaktsformel 'Christiernus Dei gracia'; dansk arkivnotis runtomkring			lat
+di:16:259	deu	medel	andra	dat, to, schall, vorbenemde, 'ist sach': lågtyska med nederländska inslag	deu	"""mith sampt den watterlendishen steden"", ""in pancht to nemen"", ""schall he""; lågtyska"	deu
+di:16:261	dan	medel	andra	theres breff till hoffueth, oc, sendt: dansk, kort utdrag	dan	'Eth. n. vden twiffuel', 'hwort', 'gi0rer', 'thaa kan', 'ær'	dan
+di:16:262	dan	hog	huvud	thee ikke worde tliei'eS, eth. n. williæ, Eth. nades tienere; dansk			dan
+di:16:268	deu	hog	andra	Lågtyska: 'schepkindere', 'sampt sinen rederen', 'dat se des zeligen'	deu	koplude, schepkindere, vnd, dar to willen, frunden, don	deu
+di:16:269	eng	hog	inget	and one Wafter of the Iceland fleet have been taken by two ships of Leith; engelsk	eng	by which seven prizes and one Wafter of the Iceland fleet have been taken	eng
+di:16:275	eng	hog	inget	oute of the said parties of Iseland, fyshe in manei'; engelska	eng	"""composition made the first day of June"", ""kinges purveyors"", ""shippe"""	eng
+di:16:277	eng	hog	inget	Engelsk kontobok: 'mony and clothe and schertts', 'yc master', 'delyverd'	eng	to ye master, delyverd, barrelys tarre, somme, att 6 d.	eng
+di:16:280	eng	hog	inget	paid to Wylliam Colkyeny, mareyners, Mary Walsingham; engelska	eng	"""he the mareyners that selthe"", ""Md payd to"", ""in to Yselonde"""	eng
+di:16:281	eng	hog	inget	Engelska: 'youreasilh', 'aduertised', 'Jacolface', 'the kingis Realme', 'ffrenchman'.	eng	"""youreasilh ai your grace"", ""the ffrenchman"", ""the Shipp"", ""beinge drye"""	eng
+di:16:287	deu	hog	huvud	dat, vnsze, vnnd, Ludtken: lågtyska			deu
+di:16:288	deu	hog	huvud	sedel gemaket den xvj dacli, Seleuert to liebben to schipp luken; lågtyska			deu
+di:16:289	deu	hog	huvud	Lågtyska: 'Vnszen frunthlichen grudt vnd willigen denst', 'heren shippers vnnd koplude'.			deu
+di:16:290	deu	hog	andra	Lågtyska: 'Dem alleynghe mandagz negest nae Petry', 'vnd', 'tho'	deu	vnd, De sake Dat, geslaghen, byplychtygers, tho	deu
+di:16:291	deu	hog	huvud	Vnnsze gants'willige vnnd, Julij 1532, Juwer, dath: lågtyska			deu
+di:16:292	eng	hog	inget	'Dover, and view the place wliere the haven shall he made': engelskt brev	eng	Dover, the place where the haven shall be, ships; engelska	eng
+di:16:293	deu	hog	huvud	Lågtyska/tyska: 'Durchluchtigste grothmechtigste kunigk', 'vnsen', 'de vnsern'			deu
+di:16:294	deu	hog	huvud	dat sick de Engelschen, dhe redere tha dem schepe: lågtyska			deu
+di:16:296	lat	hog	huvud	ut par iustumque fuerit, subditis hic nostris concedere; latin			lat
+di:16:297	lat	medel	huvud	Latinskt slut: 'Date sub nostro signeto'; isländskt referat i övrigt.			lat
+di:16:298	deu	hog	huvud	vnszenn, Erszamenn, Borgermeysterenn, raedtmannen: lågtyskt brev från Hamburg			deu
+di:16:299	deu	hog	huvud	Lågtyska: 'vnd', 'myt', 'Copluden', 'Clachte der Engelschen', 'Ko. w.'.			deu
+di:16:301	lat	hog	huvud	'viuere atque ualere Date sub nostro signeto', 'Vestre regie Maies': latin			lat
+di:16:304	lat	medel	huvud	Certificatio pro ... illustrissimo; isländska stycken är regest			lat
+di:16:305	lat	medel	huvud	coram nobis sistentes, ciues nostri, nauigatione; isländska stycken är regest			lat
+di:16:306	eng	lag	inget	Isländsk översättning av engelskt kungabrev; engelsk originaltext saknas i utdragen.	lat	Henrik VIII till Hamburg; bara isländsk kommentar synlig, troligen latinskt original	lat
+di:16:308	deu	hog	huvud	vnse Secretaren beyde schryfftlik vnd muntlik, dat, Darmede, vnd; lågtysk			deu
+di:16:309	deu	hog	huvud	Lågtyska: 'Erszamenn', 'Raedthmannenn', 'unszenn', 'to gebrukende', 'ock'.			deu
+di:16:310	deu	hog	huvud	vnnd, Juwer allergnedigsten, dath, dersuluen: lågtyska			deu
+di:16:312	annat	lag	inget	endast isländsk redaktion och arkivhänvisningar; underlagstexten saknas	lat	Hamburgs förhandlingsprotokoll; bara isländsk kommentar synlig, troligen latinska akter	lat
+di:16:315	deu	hog	huvud	Summa ghenamenn vth den vornemestenn breuen, Datli schyp; lågtyska			deu
+di:16:316	lat	hog	andra	Sequuntur acta Post lectionem vero, Actiones aliquot et querelæ; latin	lat	"""Sequuntur acta"", ""jnpetratum fuit deliberandi tempus"", ""responsum ei fuit""; latinska akter"	lat
+di:16:317	lat	hog	huvud	'que in Islandia', 'Ciuitatem Hamburgensem', 'Quoniam citatus': latinsk inlaga			lat
+di:16:318	lat	hog	huvud	Latinsk text: 'Grauamina ciuium Hamburgensium contra Anglicos'			lat
+di:16:321	deu	medel	inget	Lágþýzka, afrit: källnotisen anger lågtyskt original; utdraget isländsk översättning	deu	Lagþýzka, afrit; lågtyskt avtal mellan köpmän	deu
+di:16:322	deu	hog	huvud	'vnnsze', 'dyt', 'dat', 'beyde schippernn', 'tugedenn': lågtyskt utdrag			deu
+di:16:323	deu	hog	huvud	Denn hochgelerten Ersamen vnnd wolweysen, zu Segeherge, vnns; tyska			deu
+di:16:325	lat	hog	huvud	Latinska brevstycken: 'Finalis responsio', 'Actum Segeberge', 'Dni millesimo'			lat
+di:16:326	lat	lag	andra	Latin: 'Hic jnserantur litere Senatus'; isländsk redaktion dominerar i övrigt.	lat	Hic jnserantur litere Senatus ad Regem anglorum; kort latinskt stycke	lat
+di:16:327	deu	hog	inget	dat dusser guder Stadt vnschult, vnd gude toneigunge, to ku. mt, ock; lågtysk	deu	handele, also dat dusser guder Stadt vnschult, vnd, geburliker erbedunge	deu
+di:16:328	lat	hog	huvud	Latinsk text: 'nostrorum ciuium Joannis Hesterberch', 'exacta cautione fideiussoria'			lat
+di:16:330	deu	hog	huvud	Lågtyska: 'Erszamen vorsichtigen', 'Vnnszernn liebenn getrewenn', 'ynligennde Copienn'.			deu
+di:16:331	deu	hog	huvud	Juwer Er: wisz. breff, dath, ock, Vnnsze, Vnszen; lågtysk			deu
+di:16:333	deu	hog	andra	Lågtyska: 'vnde', 'ock', 'nene koep', 'Dudeskenn', 'sclial eme syne ware'.	deu	gutli lioerth edder, nene koep ghesetteth werden, Ith vnde syn volck, dath	deu
+di:16:334	eng	hog	inget	Instruxions for Richard, englisshe ffleets, Waffetyng: engelska	eng	Instruxions for Richard fforster, 'the Kinge pleasure', 'shall see all such shippes'	eng
+di:16:335	eng	hog	inget	A certificat of the nombre of shippes retourned out of Islonde; engelska	eng	"""A certificat of the nombre of shippes"", ""Lorde Kinge Henry"""	eng
+di:16:336	eng	hog	inget	Engelsk statut: 'from forestalling of Fish', 'Wliere As before this tyme'	eng	Wliere As before this tyme dyverse Actis of Parliament, forstallers, seid	eng
+di:16:337	deu	hog	huvud	Lågtyska: 'myt', 'vnnd', 'tho don', 'szunderheit', 'Hamborgh', 'Maiestet'.			deu
+di:16:339	eng	hog	inget	Krassað handri, ye menys wagys, I have heryd, ye yere of owre lord; engelska	eng	ye gvace of god, John archer ye 18 day of Marche, payd, he most have	eng
+di:16:340	deu	hog	huvud	Lågtyska: 'Denn Erszamenn vnd Hochwisenn', 'vnnsenn besundern gunstigen frunden'			deu
+di:16:77	lat	hog	andra	Serenissimo Principi domino Henrico, Regnorum Norw, Ericus eadem gracia; latin	lat	Serenissimo Principi domino Henrico, dei gracia Regi Anglie	lat
+di:16:78	lat	hog	huvud	Per ipsum Regem presentibus Archiepiscopo Cantuariensi; latinsk kansliformel			lat
+di:16:79	lat	hog	huvud	Kanslilatin: 'Fiant breuia de proclamacione in portubus', 'Cancellar' Anglie'.			lat
+di:16:80	annat	hog	inget	Anglo-normandisk petition: pleise, seigneur, establir, null tiel defence; isländska regest	annat	anglonormandiska: si bien a nostre dit Seigneur le Roy, Pleise a	
+di:16:82	eng	lag	inget	Hall Book King's Lynn; utdraget endast isländsk sammanfattning	lat	Endast isländskt regest; stadsbok i King's Lynn, troligen latin	lat
+di:16:83	lat	hog	andra	Latinsk stadsbok: 'Congregacio tenta ibidem die Lune xxv die Februarij'	lat	Congregacio tenta ibidem die Lune; kort latinskt stycke	lat
+di:16:85	annat	lag	inget	Endast isländsk regest i utdraget; brevets språk syns inte	lat	Endast isländsk kommentar; leyfisbréf ur engelska kanslirullor troligen latin	lat
+di:16:86	lat	hog	huvud	Latinsk stadsbok: 'Congregacio tenta ibidem', 'sicut ipsi qui'			lat
+di:16:87	lat	hog	huvud	Latinsk kunglig skrivelse: 'Vic.', 'sub eadem data', 'Northumbr'.			lat
+di:16:88	lat	hog	huvud	Congregacio tenta ibidem die Veneris, Declaracio ex parte episcopi: latin			lat
+di:16:91	annat	medel	inget	anglonormandiska: 'Priount les Communes', 'Parlement', 'Lieges et Sugettis'	annat	anglonormandiska: Priount les Communes, nostre Seigneur le Roy	
+di:16:94	dan	hog	huvud	haffuer, huilcken, icke, oc, Penge; dansk kanslistil			dan
+di:16:95	lat	medel	huvud	Hec indentura facto inter: latinskt utdrag, isländsk sammanfattning			lat
+di:16:96	eng	hog	inget	the xiiij yere of kyn Henr, unto the fest of Seynt Michell, writte directid; engelsk	eng	the xiiij yere of kyn Henr' the vjte, Brystowe, seid ship, halynger	eng
+di:16:98	annat	lag	inget	isländsk återgivning av engelska kanslihandlingar; ingen originalformulering i utdraget	lat	Endast isländskt regest; Close Rolls, kanslispråk troligen latin	
+di:1:1	lat	medel	huvud	Latinska citat ur brevet; övriga stycken är isländsk kommentar			lat
+di:1:10	lat	hog	andra	Påvebrev: 'Johannes episcopus, seruus seruorum Dei, dilecto confratri Wenni'.	lat	Johannes episcopus, seruus seruorum Dei, dilecto confratri Wenni	lat
+di:1:12	lat	hog	huvud	Agapitus episcopus, seruus seruorum Dei, reverentissimo ac sanctissimo; latin			lat
+di:1:13	lat	hog	andra	seruorum Dei, reverentissimo et sanctissimo, Perpetuum, Cum pig desiderium; latin	lat	seruorum Dei, reverentissimo et sanctissimo Liuezoni, archiepiscopo	lat
+di:1:133	lat	lag	andra	Endast isländsk regest av latinskt påvebrev; källspråket antas latin	lat	pavligt brev 1237; endast isländsk kommentar i utdraget	lat
+di:1:134	lat	hog	andra	Latinsk påvetext: 'Gregorius episcopus servus servorum Dei', 'Sicut'	lat	Gregorius episcopus servus servorum Dei, archiepiscopo Nidrosiensi	lat
+di:1:14	lat	hog	huvud	Data per manum Petri, cancellarii sancte ecclesie; latinsk påvebulla			lat
+di:1:141	nor	hog	andra	ok, sænðom, yðar, þa uarð han, sæm; norrön påvetext i kansli	nor	"""var vyrduleghær broðær"", ""optlegha nauð"", ""Noreghs konongs riki"", ""ok""; ändelser -ær"	nor
+di:1:146	lat	hog	huvud	Påvebrev: 'Alexander episcopus, servus servorum Dei', 'ecclesiœ Nidrosiensis'.			lat
+di:1:151	lat	lag	huvud	påvebrev enligt isländsk redaktion; inga latinska citat i utdragen			lat
+di:1:17	lat	hog	huvud	pallium, Hata per manus Leonis, cancellarii sanctg Romang ecclesie, indictione tercia; latin			lat
+di:1:19	lat	lag	huvud	Endast editörens isländska kommentar citeras; påvebrev antas vara latinskt.			lat
+di:1:1b	lat	hog	huvud	Incipit liber censuum, singule domus, episcopatu; latinsk förteckning			lat
+di:1:2	lat	lag	huvud	endast utgivarnot och litteraturhänvisningar; påvebrevets text ej synlig			lat
+di:1:20	lat	hog	huvud	Alexander episcopus, seruus seruorum Dei, reuerentissimo; latinsk påvebrev			lat
+di:1:27	lat	hog	andra	persona hanc nostrae constitutionis paginam, secundo tertiove commonita; latin	lat	persona hanc nostrae constitutionis paginam, contra eam temere uenire	lat
+di:1:35	lat	hog	andra	Ego Manfredus presbyter Card', sancte Sauinæ; latinska underskrifter	lat	"""Ego Manfredus presbyter Card."", ""sancte Sabinae""; påvebulla"	lat
+di:1:36	lat	lag	huvud	latinska källhänvisningar och isländsk sammanfattning; inget originalutdrag			lat
+di:1:39	lat	lag	andra	latinsk varianthänvisning i utgivarnot ('mallem: siquidem'); brevtext ej synlig isländskt	lat	faciendis et ecclesiis disponendis; isländsk kommentar, latinsk text	lat
+di:1:3b	lat	hog	andra	Påvebrev: 'Gregorius episcopus servus servorum Dei venerabili fratri'.	lat	Gregorius episcopus servus servorum Dei venerabili fratri archiepiscopo	lat
+di:1:4	lat	hog	andra	Latinskt påvebrev 849: 'Quoniam apostolicae dignitatis est', 'Data per manum'	lat	sanctae Hammaburgensis ecclesiae archiepiscopo, Data per manum Stephani	lat
+di:1:4b	lat	hog	huvud	Latinskt påvebrev: 'Innocentius episcopus servus servorum Dei', 'apostolicam benedictionem'.			lat
+di:1:5	lat	hog	huvud	'Ite, docete omnes gentes', 'Quicunque receperit', 'dilecto filio nostro': latinskt påvebrev			lat
+di:1:7	lat	hog	huvud	Latinskt påvebrev: 'Stephanus episcopus, seruus seruorum Dei', 'Cum pig desiderium'.			lat
+di:1:70	lat	lag	andra	Papabrev med latinsk inskrift Ne clerici arma; övrig text isländsk regest	lat	Ne clerici arma; isländsk kommentar, latinsk bulla	lat
+di:1:74	lat	hog	andra	Celestinus episcopus seruus seruorum, dilectis filiis, salutem; latin	lat	"""Celestinus episcopus seruus seruorum dei"", ""dilectis filijs"", ""apostolicam beneditionem"""	lat
+di:1:75	lat	hog	huvud	Påvebrev: 'auctore patre luminum', 'caritati vestræ duximus prædicendum'.			lat
+di:1:8	lat	hog	huvud	constat sanctam et uniuersalem ecclesiam; latinsk påvebrevstext			lat
+di:1:9	lat	hog	huvud	Anastasius episcopus, seruus seruorum Dei, dilecto confratri: latin			lat
+di:1:93	lat	hog	huvud	'ei præceperat', 'pallium Jobanni', 'metropolitana cura': latinskt påvebrev			lat
+di:2:107	lat	hog	huvud	presumat, studeat difficultate submota, Datum apud Urbem veterem: latin			lat
+di:2:147	nor	medel	andra	vit varom, ockor insigli, ek, þat, Actum i Nidarose; norrönt vittnesmål	nor	"""hpyrda ek"", ""oc"", ""sagde"", ""Actum i Nidarose""; Nidaros 1290"	nor
+di:2:152	nor	medel	andra	þætta bræf, ok, fiærtoga, Eirigs konongs ok Hakonar: fornnorska	nor	'Ollum guds vinum ok sinom þeim sæm þætta bræf sia', 'gængo ver', 'konongs'	nor
+di:2:153	nor	hog	huvud	Gunnar a Borgom ok þorer klærkr komo, uill yððr kunnikt gera; fornnorska			nor
+di:2:154	nor	hog	huvud	Fornnorska: 'ok', 'eda', 'þetta bref', 'ollum monnum', 'sinum'.			nor
+di:2:160	nor	hog	inget	rekar, hualreka, ok, sua, firer; fornnorska i kustlag	nor	"""ok"", ""ollu"", ""fra"", ""hualreka""; kungabrev från Bergen 1296"	nor
+di:2:166	lat	hog	huvud	Latinskt påvebrev: 'Bonifacius episcopus seruus seruorum dei', 'Dilecto filio'			lat
+di:2:168	nor	hog	andra	'skal erchibiskvp skipa', 'skvla meistara', 'korsbræðrom': norska domkyrkostadgar	nor	erchibiskvp, korsbræðrom, skal oc gæra, oc bref; fornnorska	nor
+di:2:172	isl	hog	huvud	Isländsk kristfé-skrå: 'Kristfie þau sem standa upp j huammi', 'ok ero þath', 'hardbeitu'.			isl
+di:2:173	nor	hog	andra	mit eidi huert manadharmata boll firir xij aura, var þetta bref; norska	nor	"""strionom odhal"", ""scal liggia"", ""medh þui skillordhe"", ""vars herra"""	nor
+di:2:175	nor	hog	huvud	Fornnorska: 'ek', 'firir þetta bref mitt', 'svnnvdag', 'konvngs' i domsformel.			nor
+di:2:181	nor	hog	andra	Ollum mannum þæim sem þetta bref sia æða bæyra sendir, oc: fornnorska	nor	'Ollum mannum þæim sem þetta bref sia æða bæyra', 'oc', 'konongs', 'huspræyia'	nor
+di:2:188	lat	hog	huvud	miseratione divina archiepiscopus, Datum Asloiæ, confiteri; latinsk stadga			lat
+di:2:190	nor	hog	huvud	þæim sem þetta bref sea edhir hoyra, sendir, oc: fornnorska Bergen			nor
+di:2:206	nor	hog	andra	Bergen-brev: 'Allum guðs uinum ok sinum', 'firir þetta bref', 'Noregs konongs'	nor	Allum guðs uinum ok sinum, firir, ok, uoku, ccc vetra ok tolf vetr	nor
+di:2:210	nor	hog	huvud	tyrsdagen, rikis vars, konongs garðe, Niðarose, vm þa; norskt rättsbrev			nor
+di:2:225	nor	hog	andra	Norrön domtext: 'daghen nesta firir Jonsuoku', 'virduleghs herra Hakonar Noræghs'	nor	firir þa skuld, hofdu læynt morghum lutum, daghen nesta, Noræghs konongs	nor
+di:2:235	nor	medel	inget	Norska: 'daghen nesta eftir Jacobsuakudagh', 'rikis'; isländskt referat omkring.	nor	Biarku meðr allum lunnyndum, daghen nesta eftir Jacobsuakudagh, a nitianda are	nor
+di:2:236	nor	hog	huvud	'veer hafuum enner skipat', 'j Oslo', 'þæim', 'sæm': norsk kanslistil 1318			nor
+di:2:338	nor	medel	andra	þ-skrivning, 'þeim löndum', 'Samningrinn fdr fram': norsk-isländskt språkbruk från Oslo	nor	"""fiorda [kalendas] doghom julij"", ""wirduleghs herra"", ""Noregs kononghs"", ""ok"""	nor
+di:2:345	lat	hog	huvud	Latinsk text: 'Elavus miseratione divina Nidrosiensis', 'Datum Nidrosiæ'			lat
+di:2:346	nor	medel	inget	witrum manne, oc, va' rðyndum, loghmanne, Magnuss konungs Eiriksson: norsk	nor	'a manadaghenu', 'æfter krossmæsso dagh a adru are rikiss', 'oc'; 1321, Norge	nor
+di:2:347	lat	hog	huvud	nos recepti, patentes literas, apud Kælastraum, crastino; latin			lat
+di:2:348	lat	hog	huvud	Latinsk text: 'Venerabili in Christo Fratri Domino', 'Datum Stavangriæ'			lat
+di:2:350	lat	hog	huvud	'Ego Grimarus Electus ab hac': latinsk biskopsed			lat
+di:2:351	lat	hog	huvud	Latinsk konsekrationsskrivelse: 'Litera super Consecratione', 'Nidrosiensi', 'salutem'.			lat
+di:2:352	isl	hog	huvud	Forsagnir: 'veizt þu', 'skalt', 'ok', 'vtan landz', 'ok æll hæilogh ewangelia'.			isl
+di:2:37	lat	hog	andra	Latinsk notarialformel: 'resignantes', 'in Colonia', 'datum anno domini M° CC° LXX°'.	lat	"""resignantes"", ""in Colonia"", ""datum anno domini"", ""in die Processi et Martiniani"""	lat
+di:2:370	lat	medel	andra	Latinska adresser: 'In eund. mod... episcopo Lincopensi'; norsk-isländskt referat.	lat	In eund. mod. episcopo Lincopensi, Datum ut; ett nordiskt stycke ingår	lat
+di:2:389	nor	hog	andra	Fornnorska ärkebiskopsbrev: 'firir þetta bref er gort var', 'oc', 'sua vattande'.	nor	"""herra abote fyrnæfndr"", ""lagðe"", ""oc"", ""til vitnisburdhar"", ""incigle"""	nor
+di:2:393	nor	medel	andra	Norskt kansli: 'Gulaþingslögmaðr', 'Noregs konongs', 'minum dome'	nor	oc samþyckiandom, Noregs Swyia oc Gota konongs, j Biorgwin	nor
+di:2:399	nor	hog	andra	'uar j Oslo', 'bref er gort uar', 'rikis uars': norsk kanslistil 1330	nor	uaro insighli, gort uar j Oslo, drotzsæti; fornnorskt avslut	nor
+di:2:41	lat	hog	huvud	Latinsk påvetext: 'Sanctissimo in Christo patri ac domino', 'summo pontifici'			lat
+di:2:450	isl	medel	andra	Latinsk original, norrön översättning: 'ok', 'skyllduliga', 'lesaz', 'byrgð'	nor	Latinsk inledning men nordisk text: ok skyllduliga boðin at hallda, firirboðit	
+di:2:455	lat	lag	huvud	endast isländsk sammanfattning; latin antas för dokumentet från 1337			lat
+di:2:458	nor	hog	andra	Fornnorska: 'þikiast eighi mega', 'loghmader', 'þa s^al officialis', 'þa bidium ver ydr'.	nor	"""officialis oc loghmadher"", ""ifvir at taka"", ""þikiast eighi mega"", ""dom a legliia"""	nor
+di:2:461	nor	hog	huvud	'þeir', 'þersar iardhir', 'medh', 'vmbodesmadhir': fornnorska med þ och norsk ortografi.			nor
+di:2:462	nor	hog	huvud	'þetta bref sea eðr hðyr', 'guðs miskun noregs swia oc gota konungr', 'ok': norsk			nor
+di:2:463	nor	hog	andra	Bergensk biskup: 'ver gerom', 'ydrum', 'þat', 'sendom ver yðr'	nor	Ydrum kærleika gerom ver kunnight, hofum ver, oc, nokot	nor
+di:2:464	nor	hog	huvud	Bergensk brev: 'hefer hann fenghit honom fullt vmboð', 'ver oc bidium'			nor
+di:2:465	isl	hog	huvud	'þa er virduligr herra egill byskup sennde', 'sira æirek', 'kuikfee': isländsk			isl
+di:2:469	nor	hog	huvud	ok, þeir, korsbrððr och tiundargerdhar: fornnorska i Björgvin			nor
+di:2:471	nor	hog	huvud	Fornnorska: 'ok', 'þui bidium ver', 'þer later', 'j ollu sinu'; biskop i Bergen.			nor
+di:2:472	nor	hog	andra	þoraren pentr hefir dwallst hia oss, vaar bod, ok; norska	nor	"""Ad dominum"", ""gort vaar bod"", ""hitta vini sina"", ""værda""; avskrift ur norska brev"	nor
+di:2:473	nor	hog	huvud	þæim sem þetta bref sea, guðs vinum ok sinum, vaart bref: fornnorska			nor
+di:2:485	nor	hog	huvud	ok, þat, fænghom, yðru brefe, vndirstoðom, bryllaup; fornnorska			nor
+di:2:5	nor	hog	inget	þetta bref gort, vars herra, vættra, ok, manaðar a fyrsta are vars; norskt	nor	Var þetta bref gort i Niðrose, korsbræðrom, vættra, kalendas, ærkibiskups	nor
+di:2:509	isl	hog	huvud	Isländsk kyrkoinventarium: 'var sua mikit kuikfee kirkiu', 'Efter odd bonda gafuzst', 'Biarnfell'.			isl
+di:2:519	isl	hog	huvud	hofum ver lagt þangat, vaart innsighle firir þetta bref; isländsk			isl
+di:2:520	nor	medel	andra	þriðia, skirir, oc, moður, hussprðy; norsk kyrkolag från Niðarós	nor	"""oc"", ""þes"", ""hafuir"", ""skirir""; norsk kyrkoskipan, avskrift omkring 1450"	nor
+di:2:521	swe	medel	inget	thiill, vaare, thar, vars, oss sialffum; Lödöse-testamente, Oslo-stadga	nor	koupðyre nordann om Bergenn, skatlannda, Thette bref var giort i oslou	
+di:2:523	isl	hog	huvud	'gerum vid', 'kunect', 'heyrdum okkur ellri menn', 'j moti', 'tungu': isländskt vittne.			isl
+di:2:53	isl	hog	andra	kirkia, kyr, ær, hoekr, oc: isländskt máldagiordförråd	isl	Kirkia a halft land, kyr, oc ær, messv fot; isländsk máldagi	isl
+di:2:61	isl	hog	huvud	'þar skal bioda karinur tuær med pater noster', 'haldi gagnfaustum': isländsk			isl
+di:2:65	nor	hog	inget	'sua hialpi mer Guð', 'þersi hin helgu guðspioll', konunginum: norsk ON-ortografi	nor	"""sua iattaði hann"", ""oc"", ""capitula sin inzsigli"", ""tunsbergi aa þeim degi"""	nor
+di:2:66	nor	hog	andra	Fornnorsk lagtext: 'þaa konongr', 'þægnum sinum', 'pettaí.bref var gprt j Biorgwin'.	nor	dome konongs eða byskups, uil kiosa vm rett sin, gprt j Biorgwin, vettra	nor
+di:2:69	lat	hog	huvud	Latinskt påvebrev: 'Nicolaus episcopus etc.', 'Venerabili fratri', 'Johannij archiepiscopo'.			lat
+di:2:81	lat	lag	andra	Enbart isländskt referat; avlatsbrev är vanligen latinska. Inget språkprov ur brevet.	lat	bara isländskt regest; avlatsbrev troligen latinskt	lat
+di:2:82	nor	medel	andra	'þat jatta ek gudi ok hans helgum mannum': norsk kroningsed; latin i övrig text	lat	leges et consuetudines, ecclesiasticam libertatem; fornnorsk ed inskjuten	lat
+di:2:83	lat	hog	huvud	Latinskt brev: 'Uniuersis sancte matris ecclesie filiis tam prelatis quam subditis'.			lat
+di:3:100	isl	hog	huvud	rekr, flutr, hualr, Presthólum, saudanesi; isländska ortnamn och ordformer			isl
+di:3:16	nor	lag	andra	Namnlista över norska biskopar; inga språkdrag i utdragen, norsk källa.	nor	"Biskopslängd: ""Haluarðr"", ""Jngiællðr"", ""Jorunðr"", ""J oslo"", ""Jorkønyium"""	nor
+di:3:169	isl	hog	huvud	huærr sæm þat gorer, þiliku, sem heilagrar kirkiu; isländsk			isl
+di:3:174	isl	hog	huvud	þinghunautum, bidium, þaa, samþycke, ok; Hólabiskupsdæmi			isl
+di:3:177	isl	hog	huvud	þetta breí sea edr hæýra, þinghvælle, alþingi, bref vars výrdulighs; isländsk			isl
+di:3:20	lat	hog	huvud	Påvebrev: 'Clemens episcopus servus servorum dei venerabili fratri Ormero'.			lat
+di:3:202	isl	hog	huvud	ek gerer kunnigt, laugmadr nordan ok vestan a islandi: isländsk			isl
+di:3:226	isl	hog	huvud	gerande, þa er lidit war, þushundrat ara, ok æitt aar: isländsk			isl
+di:3:227	isl	hog	huvud	vid, oc, j tunghu sueit, landamerki, Ridum, vidiualla: isländsk			isl
+di:3:228	nor	hog	andra	Fornnorska: 'þetta bref er gort', 'ok svijia Rikiss', 'Noræghs', 'ok sina'.	isl	"""ok"", ""þorstæinn lögmadr"", ""frialsan ok lidughan"", ""firer"", ""reka"""	isl
+di:3:234	nor	hog	andra	oc, wær eigum, aullum, medur, hiaweraundum; fornnorska	isl	"""aungu wndan teknu"", ""edur"", ""med aullum"", ""wær eigum""; isländsk stavning"	isl
+di:3:235	isl	hog	huvud	'j fyrstu j skrudhuse', 'ok', 'þorlæifs', 'kapur', 'tuær': isländsk kyrkoinventarium			isl
+di:3:238	nor	medel	andra	'þad bref', 'hefer', 'wær', 'rikis wors noregs': norsk kanslistil 1375	isl	aullum hlutum, hlunnendum, innsigiadh, waurdufell; isländsk skrivning	isl
+di:3:240	isl	medel	huvud	Munkaþverá-bröder: 'þetta bref sia edr heyra', 'vær conventvbræðr'; norsk ort i slutet.			isl
+di:3:309	nor	medel	huvud	'Thrundbiem', 'Bergenu', 'nu hoffum ver': norska ortnamn och pronomen 1382			nor
+di:3:311	nor	medel	huvud	Norsk-dansk kanslistil: 'Qmbodtzmannd vor her i Bergenu', 'Norge storann skade'			nor
+di:3:315	nor	hog	andra	Norrön lagtext: 'þar met lagom', 'Leg og Riett', 'vier', 'þunsbergi'	nor	War þetta bref giort i þunsbergi met raade oc samtyckt, lagom	nor
+di:3:316	isl	medel	huvud	'handlaghde', 'vaðmálum', 'ok', 'sira jon þordar-Son': isländsk brevform från Reynistaður.			isl
+di:3:325	isl	hog	huvud	Isländsk 1385: 'ath', 'hafdi', 'sea edr heýra', 'aa landamerke'			isl
+di:3:335	isl	hog	huvud	'ek setta ek mitt inzsighle', 'a holum', 'eýiafirde': isländsk brevstil			isl
+di:3:342	isl	hog	huvud	þetta bref, loghmadr nordan ok vestan a islandæ, Iðnghuhlijd, ath; isländsk			isl
+di:3:358	isl	hog	huvud	'þeim godum monnum', 'ok', 'Harrastaðir' och Skagaströnd: isländskt skriftspråk			isl
+di:3:367	nor	medel	andra	Fornnorska dom i Bergen: 'ok', 'þetta bref er giort', 'fyre', 'Sem fyr segher'.			
+di:3:368	nor	hog	huvud	Fornnorska: 'ok', 'þetta bref sea æder hoyre', 'wir eighom', 'Margretta mæder gudz nadh'.			nor
+di:3:385	isl	medel	huvud	þetta bref sea edr heyra, þordarson, ok; isländsk ortografi med latinskt citat			isl
+di:3:403	nor	hog	huvud	ek, skylldughar, setti ek mit jnssighli, firer, ok; regest anger norskt ritmål			nor
+di:3:515	isl	medel	huvud	sæm þetta bref sia ædr hæyra, ath a atta ari, eg hefi; isländsk			isl
+di:3:534	isl	medel	huvud	'ek', 'gerannde', 'ath', 'hwsfreyia', 'þau vmbod': isländskt med vissa norska drag.			isl
+di:3:538	isl	hog	huvud	ek, giðri, þat, hlidar; h- före l och r; Haganes på Island			isl
+di:3:543	isl	hog	huvud	Isländsk domstol i Vatnsfjörður: 'þeir', 'edr', 'hualsins', 'sagda ek'.			isl
+di:3:557	isl	hog	huvud	Isländskt Hólar-brev 1401: 'ok', 'þuilikar', 'fimtarstefnu j langa fðstunni'			isl
+di:3:558	isl	hog	huvud	alþingi, jslandi, þetta bref, ek med fullum lagha; isländsk rättstext			isl
+di:3:576	dan	medel	huvud	wy, oc, swo, vpa, hanom: dansk, Margrete, med visst svenskt drag			dan
+di:3:598	isl	medel	huvud	ok, ollvm, gognvm, giædvm, tvngufelli; ett tyskt stycke i mitten			isl
+di:3:616	isl	hog	huvud	Isländskt rättsbeslut: 'þat vnder þeirra handabande', 'logretto', 'vorþingh', 'malaferlum'.			isl
+di:3:619	isl	hog	huvud	þat gerer ek, vestfiordo godum monnum, þesso mino brefe; isländsk			isl
+di:3:626	isl	hog	huvud	biarna abota j videy, ok, avllvm haus Iogligum, klavstvrs; isländsk			isl
+di:3:629	nor	medel	huvud	þetta bref, edr, ok, ath vij saghom; norsk kanslistil från Bergen			nor
+di:3:633	lat	hog	huvud	Vniuersis et singulis ad quos presentes nostre litere peruenerint; latin			lat
+di:3:637	isl	medel	huvud	Blandat 'þetta', 'þat' med 'ath', 'oc'; isländskt brev från Skálholt.			isl
+di:3:639	dan	medel	inget	theim, oc, ath, varo, vij; Datum in villa Slaulosia, dansk kanslistil	nor	theim stefna, umbodsman ether loghman varn, viliom vij, sialfuer; norrönt med danska drag	
+di:3:642	lat	hog	huvud	Latinsk datering och formel: 'palacio Westmonasterij', 'Ad mandatum domini'			lat
+di:3:84	nor	hog	andra	Norsk text 1356: 'rikis mins', 'Noregs kungs', 'eptir Nikulaasmesso'	nor	hiaverandum, laughardaghen nesta, aa odru are rikis mins, Noregs kungs	nor
+di:3:99	isl	medel	huvud	'þat', 'edr', 'aa', 'Rettum landz laghum', 'huerr madr'; Grenjaðarstaðir, isländsk kyrka.			isl
+di:4:126	isl	hog	huvud	Jons kirkia postula j Wijk, Þetta er j Norrænu bokum; isländsk			isl
+di:4:15	nor	hog	andra	ok, fyrnæmfde, þy sætium veer vaar jncighlæ, med gvdz nad noregs; fornnorska	nor	"""fyrnæmfde varæ kæræ"", ""oc þy sætium veer"", ""Oslo a dæghi""; isländsk avskrift även"	nor
+di:4:233	isl	medel	inget	'Kirkia j Skardi', 'ij kýr oc slijkt innan sig': kort isländsk máldagsrad	isl	Kirkia j Skardi, a þridiung, heimalanndi, kyr oc slijkt	isl
+di:4:329	isl	hog	huvud	'gerom ollum godum monnum viturligt', 'oss skyldugr', 'hofuum': isländskt.			isl
+di:4:330	isl	hog	huvud	'oss j huerio ij forbuduf oss', 'kaupslagha', 'wor rettarbentr': isländsk			isl
+di:4:331	isl	hog	huvud	þetta bref, ath lefuer gefit, Ok til sanninda, gert uar j hafnarfiord; isländsk			isl
+di:4:336	isl	lag	huvud	Engelska köpmän skriver på norrönt: 'þat', 'þesso', 'varo brefue', 'ok'			isl
+di:4:340	dan	medel	inget	Dansk-norsk kanslistil: 'oc', 'forscrefuet', 'hafuum lofuet', 'handerhantle'	nor	Wer hafuum lofuet, sæm fer er sagt, ware gode tro, ærfuiug, betale	nor
+di:4:341	isl	hog	huvud	'wy oc ganze almughen', 'idher nadh', 'scriptum a tkingwallum': isländsk-norsk			isl
+di:4:342	dan	medel	inget	idher, nadhige herra, tha jak war, thyænistæ; forndansk-norskt	swe	"""jak war i fiordh"", ""æn tho at"", ""tha""; blandat nordiskt, ändelser -æ"	swe
+di:4:343	deu	hog	huvud	'vnd', 'tho', 'juwen', 'dat', 'sik', 'dar': lågtyskt brev till kung Erik 1420			deu
+di:4:344	isl	medel	andra	'þat erende', 'ok', 'j', 'hwat sæm hans nadh vill'; isländskt brev från Brautarholt.	isl	"""wer j broterholte saghom ok hyrdom"", ""a sammtall skilordh"", ""ok"", ""kungdomsins vegna"""	isl
+di:4:362	isl	medel	huvud	'hafom', 'gifom wer', 'settiom', 'j bryterholte': isländskt brev från Hólar.			isl
+di:4:366	isl	hog	huvud	'ver hannes paalsson', 'j Saurb', 'sættom ver vaar jncigle', 'gort var': isländskt.			isl
+di:4:380	dan	hog	inget	Erick med Guds Naade, lougen vduiss, Seriptum Aakerhuuss; dansk	dan	"""Erickir med gudtz Naade Norgis Danmarckis"", ""laugmender"", ""aff thennom"", ""wdgiffuit"""	dan
+di:4:385	isl	hog	huvud	ath, oc, wppaa och grindhawík: isländska drag			isl
+di:4:386	lat	hog	huvud	Latinsk slutformel: 'Uimunitatis Ciuitatis Bergensis', 'presentibus duximus apponendum'.			lat
+di:4:412	isl	hog	huvud	'en þu forsmadir ath koma', 'minom a uestom fardogum', 'mær j var þesse min domr'.			isl
+di:4:417	isl	hog	huvud	'Wær Jon med gudz nadh', 'gerom', 'uortt jnsigli', 'a holum': isländsk			isl
+di:4:425	isl	medel	huvud	þetta bref, þionozstu, truskap, ydr; ath och wer, Hólum			isl
+di:4:428	isl	hog	huvud	Isländsk citation: 'Jtem litera citaciouis', 'er kæ®r hæima a holom', 'j haust', 'skuldi stæfna'.			isl
+di:4:430	isl	medel	huvud	vatzskardz, hunavatzþingi, goda menn, ver hofom; Hólabrev med dansk-norska drag			isl
+di:4:435	isl	hog	huvud	'oc leyniliga hionaband', 'þorlæifs þordarsonar', 'boduarsdottur': isländsk; latinsk inledning			isl
+di:4:447	isl	hog	huvud	þui, vtan, oc, uorum vilia, sira þordh loptzson: isländsk			isl
+di:4:448	isl	hog	huvud	'Ver jon med gudz nad', 'gerom ollum godum monnum viturligt': isländsk			isl
+di:4:449	isl	hog	huvud	Isländsk Hólar-kontrakt: 'ok', 'þionozstu læyn', 'firir', 'hundrot'			isl
+di:4:452	isl	hog	huvud	vt gifit oc skrifat a vorum stadh holuffl, faustudagæn: isländsk			isl
+di:4:454	isl	hog	huvud	'ver uortt jnsigli', 'a holum j hialtadaal', 'Prestr heitr oc lofar': isländsk			isl
+di:4:455	isl	hog	huvud	'ek', 'skal', 'þat', 'þeim' i Hólabiskups prästeed; isländskt brev.			isl
+di:4:457	isl	hog	huvud	'j motæ giortt in synodo', 'hann færdi sitt folk', 'oc sagdæ sigh': isländskt.			isl
+di:4:461	isl	hog	huvud	þæim sæm þetta bref sæa sedr hæyra, þingheyrum: isländsk formel			isl
+di:4:466	isl	hog	huvud	Hólabiskup: 'þessir', 'þatt', 'sæm', 'oc', 'hæilagre kirkiu'; isländskt brev.			isl
+di:4:467	isl	hog	huvud	sægir ek Scupin skylldugan, þan tima, sira jon prest palsson, ok; isländsk			isl
+di:4:469	isl	hog	huvud	'læntti hann abota', 'hustrv margret', 'vj kroka', 'kendizst han': isländsk			isl
+di:4:471	isl	hog	huvud	þau gafuo med ser j prouen stadnum, þau skulo oc hafua; isländsk			isl
+di:4:472	isl	hog	huvud	Hólar-biskop 1430; 'þat', 'ok', 'þeirra' och isländsk ortografi			isl
+di:4:473	isl	hog	huvud	ath, oc, æns goda gudmundar biscup, skuldæ, hola kirkia: isländsk			isl
+di:4:474	isl	hog	huvud	Isländsk dom 1430: 'ath', 'suor', 'Þessa saunnodo', 'skilnad'			isl
+di:4:478	isl	hog	huvud	Isländsk skuldförbindelse: 'þesso holdno er mins herra quittonarbreí', 'þui sæm þat liudar'.			isl
+di:4:485	isl	hog	huvud	'dotter lofuar gudæ', 'æk skal wæra', 'j Reyninæsi', 'lydnæ': isländsk eiðstafr			isl
+di:4:487	isl	hog	huvud	Isländskt Hólar-brev: 'ok', 'min herra biscupen', 'þa min herra forbaudh'			isl
+di:4:488	isl	medel	huvud	kirkonar, pæningha, suaradæ, 'æ', minom herra: isländskt skriftspråk 1431			isl
+di:4:489	isl	hog	huvud	'ath sakir wors biscupsligz', 'j voru biscupsdæmi', 'biodum wer vorum profastum'.			isl
+di:4:490	isl	hog	huvud	Isländsk fästning: 'j timbrstofuone a holuffl', 'firir ingialdæ', 'var ek jon'.			isl
+di:4:491	isl	hog	huvud	Hólar-brev 1431; 'þat', 'fyrnænfndr', 'ok', 'þæim' i isländsk form			isl
+di:4:492	isl	hog	huvud	Hólabiskup: 'ok', 'sæm wer gifuom', 'firir oss', 'a holum', 'þa lofuadæ þionozstu'.			isl
+di:4:494	isl	hog	huvud	Hólar-brev: 'ok', 'þæim', 'þingi', 'sæm', 'skadalaust' i isländsk form			isl
+di:4:496	isl	hog	huvud	Hólar-dom 1431: 'ath', 'þau hofdo haldit', 'firir þa sauk oc olydnæ'			isl
+di:4:497	isl	hog	huvud	Hólar-brev 1431: 'ok', 'þær', 'þiaghr', 'biscup a holum' i isländsk form			isl
+di:4:499	isl	hog	huvud	Hólar 1431: 'ok', 'þat', 'sæm', 'þæim', 'ædr' i isländsk ortografi			isl
+di:4:503	isl	hog	huvud	Vær jon med g(udz) nadh, ok, þui, þessa med suornum bokaræidæ: isländsk			isl
+di:4:508	isl	lag	huvud	Hólar-brev; wer, oc, skulo, suaræ men -um-dativ och þ; osäkert			isl
+di:4:509	isl	medel	huvud	'messo med ollum ræidhskap oc altarestæiue': isländsk inventarium med latinska boktitlar			isl
+di:4:516	isl	hog	huvud	'sina kunnikt gerandæ ath wer', 'j timbrstofuonne aa holum', 'þetta kaapa vitnis bref'.			isl
+di:4:528	isl	hog	huvud	'stænfnum þigh', 'firir oss heim til hola', 'hofum fullan rætt oc logb': isländskt.			isl
+di:4:534	isl	hog	huvud	ok, fyrnæfndum, firir, j, ner verandæ: isländsk			isl
+di:4:535	isl	hog	huvud	Isländsk: 'handlogdhu mitt', 'sogdu aræ', 'okar j millum', 'badum'			isl
+di:4:539	isl	medel	huvud	firir oss, ath, kirkiu jordina, Kældulandh j skaghafyrdi; isländsk ortografi			isl
+di:4:549	isl	hog	andra	'þat gerir ek illughæ berghulfsson godum monnum kunnikt', 'ath ek', 'hefuer gæfuit'.	isl	at gerir ek illughæ, godum monnum kunnikt, hefuer gæfuit, j jordunne, ek	isl
+di:4:550	isl	medel	huvud	'ath tiundum', 'j hæima landæ', 'Porcio j kuer': isländsk visitation med latinska kyrkonamn			isl
+di:4:551	isl	hog	huvud	Isländsk ed: 'ek ... hond a helga (bok)', 'ok', 'gudi', 'ollum'			isl
+di:4:554	isl	hog	andra	ollum lagha, ok, sæm fyrr sægir, biscups a holum: isländsk	isl	'ok', 'þetta bref', 'jordina stafshol', Hólar; norrön text med isländska drag	isl
+di:4:558	lat	medel	huvud	Latinsk datering och artikelformel; dansk-engelsk fördragsrubrik			lat
+di:4:560	isl	medel	huvud	Vær jon, vidrkænozst, þessu voru brefuæ, ok; isländsk biskopskvittens			isl
+di:4:567	isl	hog	huvud	Isländskt vittnesbörd från Sjávarborg: 'ok', 'þa', 'eda', 'heyrdvro', 'insigli'.			isl
+di:4:583	lat	hog	huvud	Latinskt formulär: 'Pateat vniversis per presentes', 'Datum hollis'.			lat
+di:4:588	isl	medel	huvud	'ver hofum gefit', 'Radum os Reikningh', 'lidugan', 'þorlak': isländskt Hólabrev.			isl
+di:4:594	isl	hog	huvud	Isländskt vittnesbörd: 'kenuuz eg sira', 'þesso mino', 'ek mitt msigh firir', 'giort var'.			isl
+di:4:602	lat	hog	huvud	Latin: 'ex omnibus, ad quos et cetera, salutem', 'dedimus venerabili patri'.			lat
+di:4:609	isl	medel	huvud	Reynistaðarklaustur: 'ok efter waro radhi', 'kusu systr', 'hwerra', 'Keynistaðar'; norsk-isländsk blandning.			isl
+di:4:611	isl	hog	huvud	Isländskt köpebrev: 'ad vær hofum sellt', 'brodurs', 'ad fornu'; latinskt inslag			isl
+di:4:622	isl	hog	huvud	ok heyrdum aa tirir kirkiu dyrom, firir þetta bref; isländsk			isl
+di:4:674	dan	medel	inget	Kanslitext 'oc', 'bref', 'ollum monnum', 'Danmarks', med þ-drag	nor	ollum monnom, þetta bref, ware nadh, oc, vmbodzmonn	nor
+di:4:686	isl	medel	huvud	'fyrer', 'ath deyia', 'kvgillde', 'vpp j iordna aa skidastavdvm'; lågtyskt slutstycke.			isl
+di:4:688	lat	hog	huvud	Datum arce nostra Haffniensi anno domini 1443, nisi regiam nostram; latin			lat
+di:4:694	lat	hog	huvud	'vicecomitibus', 'Westmonasterium, duodecimo die Maij': latinskt kungabrev			lat
+di:4:718	isl	medel	huvud	þushunndrud, vors herra, ath huort, ok til sannenda, langadal; latinsk början			isl
+di:4:723	lat	hog	andra	Latinska helgdagar: 'Domini, Pentcostes Trinitatis, Corporis Christi, Nativitatis'.	lat	Domini, Pentcostes, Trinitatis, Corporis Christi, Assumptonis, beate Dei	lat
+di:4:733	isl	hog	huvud	Isländsk räkenskap: 'ok kogyldom som bygda standa', 'giorde', 'bykt firir'			isl
+di:4:735	isl	medel	andra	Blandat 'ef', 'þeim', 'oss' med 'oc', 'hafua'; Hólabiskup, isländsk miljö.	isl	"""Scal ban oc ollom nytsamligom kaupom kaupa staden"", ""ok"", ""þet alt halda"""	isl
+di:4:737	dan	medel	inget	Kanslitext 'wi', 'hwarom', 'ædher', 'forbiodom'; isländska ortnamn	nor	ædher, ok, laghom, lærdom ok lekom; kanslinorska	
+di:4:743	isl	medel	huvud	Gårdslista med isländska namn: 'hool', 'grymsen', 'aura', 'alna', 'bykt firir'.			isl
+di:4:750	annat	lag	inget	Endast isländsk regest i utdraget; brevets språk syns inte			
+di:4:751	lat	hog	huvud	Latin: 'Kome apud Sanctum Petrum anno jncarnationis', 'non obstantibus quibuscunque'.			lat
+di:4:758	lat	hog	huvud	Latinskt påvebrev: 'Datum Rome apud Sanctumpetrum', 'pontificatus nostri'			lat
+di:4:761	lat	hog	andra	'Collector Dacie et Swecie etc.', 'Die xva Julij anno vt supra': latinsk kansli	lat	Collector Dacie et Swecie, Die xva Julij anno vt supra	lat
+di:4:762	lat	hog	huvud	Latinskt formulär: 'Uniuersis christi fidelibus presentes literas visuris'.			lat
+di:4:767	isl	hog	andra	Isländska: 'þui bidiom vj yder', 'þa bad han', 'j mak vera henne', 'oc þeirra peninga'.	isl	"""vitten kere moder"", ""þui bidiom vj yder kerliga firir gudz skuld"", ""ok"""	isl
+di:4:768	isl	hog	andra	'þui hafuom wj scriftat', 'j somar', 'þa skal han after koma': isländskt brev.	isl	firir oss, hafuom wj scriftat han, til roms j swa matto, skal han after koma	isl
+di:4:769	isl	hog	andra	þesso varo brefui, þæs, vitterlikt och hola kirkio: isländsk	isl	uionnom vitterlikt með þesso varo brefui, rekenskap, quittan oc akeralausa	isl
+di:4:770	isl	hog	andra	Hólar-brev 1448: 'varo brefue', 'þesso', 'sira', 'vnt oc veit'	isl	Wj gotskalk med gudz nadh biscop a holom, var vitterlikt, þesso varo brefue	isl
+di:4:778	nor	hog	huvud	oc, jder, kunnokt, brefue, vmbod, fyrnefnd, eder uarom virdeligom; norskt brev			nor
+di:4:783	nor	medel	huvud	Nidarosk text: 'oc', 'wy', 'scrifuat', 'þe', 'þes', 'kunnikt gorandi'			nor
+di:4:788	lat	medel	huvud	Latinskt fördragsutdrag; isländsk vidimusformel 'þetta bref sia edr' i slutet.			lat
+di:5:10	deu	hog	huvud	Lågtyska vittnesmål: 'Item Vrone gissche', 'vormund', 'eyndrechtichliken'			deu
+di:5:104	nor	hog	andra	Trondheims-norsk: 'ok vndirsata', 'warom', 'elschelighe', 'j trondheim laghsogn'	nor	Sendher ollom warom elschelighe almogha ok vndirsata, weer hafwom, ok	nor
+di:5:106	lat	lag	huvud	latinsk adress 'Sanctissimo' i utgivarnot; övrigt isländsk referat			lat
+di:5:11	deu	hog	huvud	Lågtyska: 'hot bekant', 'entfangen', 'mit syme schiffe', 'synen reders', 'unde'.			deu
+di:5:115	deu	hog	huvud	greue to Oldeuborgk, vnde Goten koningk, gudere schipkindere; lågtyska			deu
+di:5:12	deu	hog	huvud	dat nement seghelen noch vorsoken, Item, Vynlande: lågtyska			deu
+di:5:121	nor	medel	huvud	Norsk lagtext: 'wprisen', 'Norighe', 'laghiu', 'ædher', 'swara'; danskt inslag 'wy'.			nor
+di:5:130	lat	hog	andra	'Nam Kome per qvendam', 'Anno domini', 'nostro sub regali secreto': latin	lat	Nam Kome per quendam, in regnis nostris, anno domini	lat
+di:5:138	nor	hog	inget	Fornnorska: 'ok', 'þessu uoru opnu', 'epterkomner konunger j norige'; latinsk datering.	isl	"""hofum vij unnt ok gefit"", ""ok"", ""uoru opnu"", ""epterkomner""; isländsk stavning, latinsk datering"	isl
+di:5:139	isl	medel	huvud	pat giorum vier gunnar prestur, iordina þrandarhollt; isländsk, dansk kungligt citat			isl
+di:5:14	lat	hog	huvud	coram libro recognouit, canonici, Copenhauen; latinsk notariatsform			lat
+di:5:147	nor	hog	inget	thet aattwnda Sanctorum, oppa, oc, wy en a ny: norsk kansli	swe	'Thusanda firahwndradha', 'medhan', 'moghom', 'oc', 'wy hafwom'; svenskt skrivsätt trots norska prelater	swe
+di:5:15	lat	lag	huvud	endast ett latinskt ord (miraculis) i utdraget; isländsk editorial text			lat
+di:5:153	isl	hog	huvud	'wer saman', 'ok efterleilagx', 'j agafirde', 'wy wor jnsigle': isländsk 1458			isl
+di:5:16	isl	hog	huvud	'þeir haufdu heyrdt', abota, þorlæifsdottor, æighenkono: isländsk domstext			isl
+di:5:170	nor	hog	huvud	Norrönt 1459: 'ok j kunuen tat', 'fyrnempder biscop', 'hefwer gripit'			nor
+di:5:18	deu	hog	huvud	'ik', 'vor my vnde myne eruen', 'dat ik gelouet hebbe': lågtysk 1442			deu
+di:5:182	annat	lag	inget	Endast isländsk regest och latinsk källnotis; brevtext saknas i utdraget	nor	Mycket fragmentariskt; isländsk kommentar, norsk avskrift troligen	
+di:5:189	dan	medel	inget	'oc gothe kungh grefue i Oldenborgh', 'wer hafuum': dansk kansli med norsk formel.	dan-nor	Christiærn med gudz nadh, ollum monnum þeim er þetta bref sea ædher hoyrer	
+di:5:19	dan	hog	huvud	oc, wlaghe, gota konnunk, wy wele: dansk kanslistil			dan
+di:5:199	nor	medel	andra	Norskt: 'Erkebiscop j Niderosi', 'vij', 'forbiudom', 'hermed' med latinsk-kyrklig prägel	dan	Thi forbiodum vij, haffuom, adurnefnder; isländsk inblandning	
+di:5:201	dan	hog	inget	giörre gode mend vitterligt, thette vort obne breff, haffue afflost; dansk	dan	Vij andreas med gudz naade, giörre gode mend vitterligt, thette vort obne breff	dan
+di:5:21	lat	hog	huvud	'nostro sub secreto', 'Datum castro': latinsk brevformel i kungligt brev			lat
+di:5:22	dan	hog	andra	'Giðræ witterligt alle met thette wort obne breff', 'Tha wille wij', 'Nories'.	dan-nor	Giðræ witterligt, met thette wort obne breff, Nories, oss och wille wij, loug	
+di:5:3	nor	hog	andra	rikis vars, Noræghs konunghs, tyrsdaghen, fylki, loghbok; norskt brev	nor	A xita are rikis vars, Noræghs konunghs, manadaghen ok tyrsdaghen, ok	nor
+di:5:327	lat	hog	huvud	Ad Clerum et populum, Honorabilibus viris, Qvoniam Scalholtensis; latin			lat
+di:5:35	isl	medel	huvud	Hólar-skrå: 'Jtem', 'kvgyllde', 'Standa svo vardna skulder'; isländska ortnamn			isl
+di:5:36	isl	medel	huvud	'j rossom oc vjc', 'swa myket goz var'; isländskt inventarium med latinska formler.			isl
+di:5:40	isl	hog	andra	'gerum iduer witerlikt', 'ok', 'dandemannom', 'widwikarkirkio', 'krafde oss dooms'.	isl	Vij gotskalk med gudz nad biscop a holom, thesso waaro brefue, ok, wera	isl
+di:5:42	isl	medel	andra	Vittnesbörd: 'hier J landit', 'hueria vlucku', 'ath giora'; latinsk bilaga i slutet.	isl	hialpa til suo hann mætti giora havnum eina hueria vlucku, ath filipus	isl
+di:5:424	nor	medel	inget	ok, firi, ffredaginn næstan, thessum jordum: norsk, Rogaland	nor	Rogaland; 'ollum thessum jordum', 'ok', 'ffredaginn næstan firi sancte Magnus dag', blandad ortografi	nor
+di:5:430	isl	hog	andra	'waro brefue', 'ok', 'j hia sagom ok hordom', 'wpborit', 'kugille': isländskt.	isl	godom monnum witerlig med þesso waro brefue, wij warom j hia, aa ord ok handerbaud	isl
+di:5:441	isl	medel	huvud	þær, fylgia, hunauazþingi, Skagafirde; tyskt citat i mitten			isl
+di:5:46	lat	hog	andra	Datum in ciuitate Nydrosiensi, anno ab incarnacione; latinsk datering	lat	"""Nos Marcellus...dei gracia"", ""Datum in ciuitate Nydrosiensi"""	lat
+di:5:462	lat	hog	huvud	Deuotis et in christo sibi dilectis, frater, salutem; latinsk brevinledning			lat
+di:5:47	lat	hog	inget	Latinsk domslutsformel: 'Datum Nydrosie anno domini millesimo quadringentesimo'.			
+di:5:49	deu	hog	huvud	'vnd', 'dat', 'sullen', 'vnsem', 'bliuen': lågtysk ed av Marcellus			deu
+di:5:50	lat	lag	huvud	Endast utgivarnotiser och papperskansliets namn ('secretarius'); latin antas			lat
+di:5:504	dan	hog	inget	Dansk kungabrev: 'vorum oc norigis rike kronone land', 'vor elskelig hofsvein'	dan-nor	uorer kære undersatte, bygia oc bo, vppa, vitit kere uiner, vj sendem	
+di:5:51	lat	hog	huvud	postulatus per Noruegie Dacie et Swecie regna, apostolice sedis legatus; latin			lat
+di:5:54	lat	hog	huvud	'Marcellus Dei gratia Episcopus Scalb.': latinskt kvittensbrev			lat
+di:5:56	dan	hog	huvud	'wy', 'oc', 'haua', 'tilladhit', 'aff wor senderlighe genst': dansk kanslispråk.			dan
+di:5:57	dan	medel	huvud	'heffn och vrede' på vernakulärt språk; datering på latin; kort utdrag			dan
+di:5:61	lat	hog	huvud	Vniuersis christifidelibus presens scriptum visuris seu; latinsk formel			lat
+di:5:618	annat	lag	inget	Bara isländsk regest; brevets egen språkform syns inte	lat	Endast isländskt regest; fördrag mellan kungar troligen latin	lat
+di:5:62	lat	hog	huvud	Latinskt pilgrimsbrev: 'Justum et deificum est personis non suspectis', 'Scriptum'.			lat
+di:5:628	isl	hog	huvud	þetta bref, hengiom vit, logrettumann, Rosthvalanesi; isländska ortnamn			isl
+di:5:65	lat	hog	huvud	Ego N. presbiter ordinatus voueo et promitto deo: latin			lat
+di:5:66	lat	hog	huvud	Vniversis christifidelibus presentes literas jnspecturis, Noueritis nos; latin			lat
+di:5:86	dan	hog	huvud	Wy haue thet oc owerweyt, engen kan worde, Thy kære Væner, Blester; dansk			dan
+di:5:93	lat	medel	huvud	Latinsk datering och sigillformel 'nostro sub sigillo presentibus appenso'; isländsk redaktion.			lat
+di:5:94	lat	medel	huvud	latinsk slutformel (sub sigillo presentibus appenso); isländsk sammanfattning			lat
+di:6:129	lat	hog	inget	Latinsk traktattext: 'Diffinitum est, quod intra Biennium antedictum', 'Teste'.			
+di:6:152	dan	medel	inget	'Thij viliom vær thet', 'sua som edher', 'thier', 'hopes oss'; Hólar, blandat 'ath' och 'ok'.	dan-nor	"""viliom vær"", ""lydoghi oc effterlodighi"", ""aff edher""; senare isländskt stycke ""ath sira magnus"""	
+di:6:153	isl	hog	huvud	'þessu vorn opnu brefui', 'vier vorum', 'munkaþuera': isländsk ärkebiskopsbrev			isl
+di:6:159	nor	hog	huvud	eer gauto med gudz miskund Erchebiscop j Nidaroos, allom mannom; norska			nor
+di:6:180	lat	hog	inget	Latinsk kontraktsformel: 'Diffinitum est, quod infra Biennium antedictum'	lat	Diffinitum est, quod infra Biennium antedictum	lat
+di:6:246	lat	hog	huvud	'Sixti scilicet Pate Qvarti', 'ad amicos ordinis nostri', 'recipio personam': latin			lat
+di:6:287	dan	medel	inget	wij, oc, thetta, 'forbiudom wij': dansk kanslistil i kungabrev 1480	dan-nor	"""Wer willom ether kunnicht gore"", ""hauom"", ""nema hwor sa er"", ""wij""; norrönt och danskt"	dan-nor
+di:6:294	nor	medel	huvud	allom, skal tby forde ærlighin man, waarom, ok: fornnorska -om-ändelser			nor
+di:6:312	isl	hog	huvud	Mariu kirkia, j teigi, þridiung, einia landi; isländsk máldagi			isl
+di:6:361	nor	medel	andra	ock, kunnuckt gðrænde, voore opne Breffue, ær nw dðdh; norsk-danskt kansli	dan-nor	"""ffiesso voore opne Breffue"", ""ock boo aa Islande"", ""nw dødh"", ""kerlighe med gudi"""	
+di:6:363	lat	hog	huvud	Latinskt slut: 'Ex ciuitate Bergensi regni Noruegie pridie ydus Septembris'.			lat
+di:6:364	dan	medel	inget	ock, wii, gorer, haffuer, kirkior; dansk-norskt kanslispråk 1481	dan-nor	"""Gorer wii kunnuckt"", ""haffuer"", ""aff"" men ändelser -æ och -iom"	dan-nor
+di:6:365	dan	hog	andra	Dansk kanslistil: 'haffver taket eina utlaga qvindæ', 'thil vore', 'thesse', 'thi'.	dan-nor	"""fiorde at han haffvæ taket eina utlaga qvindæ"", ""oppa hvilke"", ""the helge kirkio"""	
+di:6:419	dan	hog	andra	'wii oc tillade', 'kopmen', 'kepstedher', 'wii': dansk Halmstad-recess 1483	dan	wnne wii oc tillade, kopmen, wor oc kronens, privilegier	dan
+di:6:426	lat	medel	huvud	Edwardus dei gratia Rex, latinsk kopia; isländsk transkriptionsnotis			lat
+di:6:431	isl	hog	huvud	þath giorer ek sweinbiorn prestur, ek wt nefndi, ath dæma; isländsk			isl
+di:6:441	dan	hog	huvud	Wij Hans met gudz Nade Danmarckis Norgis wendis, Kong fyanns; dansk			dan
+di:6:462	nor	medel	andra	wy, adher, doomssbreff, ær, thaa, giordhe; norsk kansli med danskt inslag	dan-nor	"""stadhtestom wy adher"", ""ær"", ""forbiudhand-"", ""hwaeriom manne""; ändelser -om och -æ"	
+di:6:564	dan	hog	huvud	haffue nti wort Rige Norrige, oc hielm, Tog wort oc kronenn: dansk			dan
+di:6:660	dan-nor	lag	andra	oc, haffuer, eij, effther (dansk kansli) blandat med þridiudaginn, næsta firir (norskt)	dan	'opne breff ok haffuer eij retthe keremaall', 'oss ok kronen'; isländskt vidimus i senare stycke	
+di:7:388	lat	hog	huvud	suffragire clemencia succedente tempore, predictum dominum Einarum professione: latin			lat
+di:7:397	annat	hog	inget	Italienska: 'mare e coperto', 'non solo cum la rete', 'Islanda'.	annat	italienska: Quello mare e coperto de pessi, cum la rete, stochfissi	
+di:7:402	dan	hog	huvud	'Wij Ijanss med gudz nade', 'thenne breffuisere', 'haffuer varet her fore oss': dansk.			dan
+di:7:403	dan	hog	huvud	'Víj Hans met gudz nadæ Danmarckis', 'Giðræ allæ wittherligt', 'Holsten stormarn': dansk.			dan
+di:7:426	dan	medel	inget	Kanslitext 'Wer williom', 'ath', 'ædher', 'gudh'; dansk-svenska drag	dan-nor	ollom monnom theim, thetta bref sea ædher heyra, wer williom, haffuom	dan-nor
+di:7:427	dan	medel	inget	haffwm, sied, lesith, jnnsegle, Danmarckis Suerikis: dansk kansli	dan-nor	'haffna vnt ok tillatet', 'Giðre alle viturlegt ath vij', 'ok'; danska former med norröna drag	
+di:7:480	lat	hog	huvud	De sacristia, Jm primis vj. calices, Jtem xxj. dalmatice, cappe alique; latin			lat
+di:7:658	isl	hog	huvud	ath ver haufurn gefit sira ávgmundi, opnu brefi, skrifat aa breidabolstad; isländsk			isl
+di:7:684	dan	hog	andra	Dansk kanslistil: 'Wii Hanss', 'Giore alle viterligt', 'thenne', 'oss'.	dan	"""Wii Hanss met gudz nade"", ""Giore alle viterligt"", ""haffner nw bereth"", ""oc"""	dan
+di:7:686	dan	hog	inget	'Vii Hans met gudz nad', 'Sleszwigh', 'sendher ollom monnom', 'thette breff': dansk.	dan-nor	sendher ollom monnom them som thette breff sea ædher hoyrer, weer williom, haffwom	dan-nor
+di:7:701	nor	medel	inget	Norsk-norrön text 1505: 'thessvm', 'ock', 'hvndrvdh', 'berena gyllene'	isl	vothnvm og veidhestodhvm, ollvm avdrvm gædhvm, egh ber her vpp, hvsthrv	isl
+di:7:710	dan	hog	huvud	Dansk kanslistil: 'Kopnehaön wor skicket foræ oss', 'Krwmedigæ', 'wor nadige Herris'.			dan
+di:8:139	lat	hog	huvud	miseracione Divina Archiepiscopus, Datum in curia nostra Bergensi; latin			lat
+di:8:140	nor	medel	inget	Norsk: 'þetta bref', 'eda', 'skrifad', 'vppa sancte Brijgittardag'; ärkebiskopsakt.	isl	latinsk inledning men islandsk text: dom oc vrskurd, vortt jnnsigle, skrifad uppa	isl
+di:8:147	dan-nor	medel	andra	danska 'thi', 'haffue' och norska 'Þui haufum vier': blandat språk i samma brev			
+di:8:148	dan	medel	inget	Dansk kanslitext: 'vii', 'vor synderlige gunst', 'Elskulige', 'Thi forbiode vii'	isl	og med letta vort opne bref, hafa anamat, þenna brefvisara; danska drag	isl
+di:8:17	lat	hog	huvud	Påvebrev: 'Johannes etc. venerabili fratri Johanni episcopo Hollensi salutem'.			lat
+di:8:170	deu	hog	huvud	Juw Erbarnn, vnnd Burgmeister vnnd Rathmann: lågtyska, Hamburg			deu
+di:8:18	lat	hog	inget	Latinskt citat ur påvebrev ('Eadem die', 'dominus noster prouidit'); isländsk ram.			
+di:8:19	lat	hog	huvud	Eadem die pridie Non. Martij, dominus noster prouiditj ecclesie; latin			lat
+di:8:20	lat	medel	huvud	Latinsk påvlig formel 'Eadem die ... dominus frater'; isländsk regest			lat
+di:8:21	lat	hog	huvud	Uniuersis etca Benedictus, legum doctor apostolice camere; latin			lat
+di:8:24	lat	hog	andra	Rome dicta die tercia mensis Nouembris, dominus Johannes episopus: latin	lat	'dominus Johannes episopus Scalotensis soluit flor.', 'millesimo quadringentesimo'	lat
+di:8:25	lat	hog	huvud	Antonius clericus et cardinalis, Susanne: latinsk kvittans			lat
+di:8:251	isl	hog	huvud	'Þat giorer ek ion þorsteinsson godum monnum', 'uissa ec', 'munkaþueraa': isländskt.			isl
+di:8:258	dan	hog	inget	Wii Christiernn met gudz xaade, Giðre alle vittherligt, thette wortt opne; dansk	dan	Wii Christiernn met gudz xaade, Giðre alle vittherligt, wore synderlige gwnst	dan
+di:8:26	lat	medel	huvud	Die Mercurij: latinskt papalt utdrag; isländsk sammanfattning			lat
+di:8:278	dan	medel	andra	wii, Waar tha thette wor fuld doom, meth forne wort elskelige: dansk	dan	'ath the ville holle och haffue', 'samtycht meth forne wort elskelige Raadh'; isländsk text i senare stycke	dan
+di:8:29	lat	hog	huvud	Latin: 'Die xxvjj mensis Maij', 'canonico ccclesie Nidorsiensis'.			lat
+di:8:30	lat	hog	huvud	Latinsk kvittens: 'dominus Johannes episcopus Scalotensis soluit florenos', 'Fuit promotus'.			lat
+di:8:317	isl	lag	andra	endast isländsk utgivarnot; brevtext ej synlig i utdraget	isl	Endast isländskt regest; stadarbréf utfärdat av biskop på Hólar	isl
+di:8:32	lat	hog	andra	Latinsk påvetext: 'Die Veneris ij° idus Julij', 'prouisum est ecclesie Olensi'	lat	Die Veneris, ad relacionem domini, prouisum est ecclesie	lat
+di:8:34	lat	hog	huvud	Latin: 'Die xxja Julij reuerendus pater dominus Robertus electus Olensis'.			lat
+di:8:343	dan	hog	huvud	Laugmanns Bref Wigíus ellendzsonar, Wii Christiernn met guds nade; dansk			dan
+di:8:36	lat	hog	huvud	Latinsk ingress: 'Guillermus [tit. s. Martini in Montibus presbyter cardinalis]'.			lat
+di:8:368	lat	hog	huvud	Jn cuius rei fident et testinronium secrelum nostrum, Datum Asloie, anno et die; latin			lat
+di:8:377	lat	medel	huvud	Quittancia episcopi Erici, Nos; latinsk formel med dansk rubrik			lat
+di:8:388	dan	hog	huvud	giðre alle vitterligt, have os tilkiende givet, vort Rige, undersaater, udi; dansk			dan
+di:8:398	dan	hog	huvud	'Norby Höuitzman', 'quittanciam', 'mijn Herre', 'Datum Haffnie': dansk kvitto 1514			dan
+di:8:40	deu	hog	huvud	bij deme Rine hertigh in Beyern doen witlik allen, vnsen breff; lågtyska			deu
+di:8:400	dan	medel	andra	haffuer, och, vii nu mett tbette vordt opne: dansk kansli, norska drag	dan	'haffuer', 'Huilckeh dom', 'mett tbette vordt opne', 'ocb Articule'	dan
+di:8:42	lat	hog	huvud	Latinsk påvetext: 'Beatissime pater Quia deuota creatur'.			lat
+di:8:422	dan	hog	huvud	'nw uti thette aar', 'sijden framdelis', 'thette forne oss': dansk.			dan
+di:8:432	deu	medel	andra	'vnszen', 'vnd', 'witliken vorszegelt', 'to Copenhagen': lågtyska; norsk stycke osäkert	deu	vnszen leuen getruwen, dusent vyffhundert, gegeuen to Copenhagen; lågtyska	deu
+di:8:435	lat	hog	huvud	debitam exhibuerit obedienciam, Jn cuius collacionis testimonium, Datum in residencia; latin			lat
+di:8:44	lat	hog	huvud	Latinskt citat ur påvlig supplik: 'Beatissime pater', 'deuota creatura'.			lat
+di:8:46	lat	hog	andra	Die Lune, sanctissimus dominus noster, ad relacionem domini; latin	lat	Die Lune xvij kal. Maij, sanctissimus dominus noster	lat
+di:8:466	dan	medel	huvud	Wij christiern met guds naade, breffuiser, haffuer werret, fysland: dansk			dan
+di:8:468	dan	hog	inget	Dansk: 'Clausulis assuetis', 'Datum Kopenhaffn', 'wor embetzmand'	dan	paa, hwndrede, mijn hers nade, vdh till Jsland, oc	dan
+di:8:48	lat	hog	andra	'Dignetur s. v. deuote facture uestre', 'conseruatoriam pro se': latinskt påvebrev	lat	Dignetur, conseruatoriam, episcopo, ecclesia sua; latin	lat
+di:8:49	lat	hog	huvud	Dicta die xvja mensis Octobris, reuerendus in Christo; latinsk kuriaskrivelse			lat
+di:8:494	dan	hog	inget	Dansk kanslistil: 'Wii £ric Walkendorff met Gudz Nadlie', 'thette wort Breff', 'oc'.	dan	"""Wii Eric...met Gudz Nadhe"", ""Ærchebiscop j Trondem"", ""Logmandj Trondem"", ""haffwe wij"""	dan
+di:8:496	dan	hog	huvud	Dansk kanslistil: 'oc hanss medtarffwinge', 'thette wort obne breff', 'wii'.			dan
+di:8:499	dan	medel	inget	ath, wij, giorde, effther Norigis Logh, Wij Andor met Guds Nadhe; dansk skrivsätt	dan-nor	Wij Andor, effther Norigis Logh, thil allth thet gods, ær reth, wethe wij eij	dan-nor
+di:8:50	lat	hog	huvud	Georgius presbyter cardinalis de Flisco, sacri: latinsk påvlig text			lat
+di:8:513	lat	medel	inget	'Datum in castro Haffnensi', 'consuetis', 'Relator magister andreas glob': latinsk datering	lat	consuetis, Datum in castro Haffnensi, die beati luce, Relator	lat
+di:8:528	dan	hog	huvud	efftherthij, haffuer ladit, tiill och oc: dansk			dan
+di:8:533	deu	hog	andra	dee wol werdych, jn, vnd, datt: lågtyska	deu	Lågtyska: 'vnd', 'datt', 'jegen', 'tho eynen ffullmachtych bischop', 'wyllen'	deu
+di:8:546	dan	hog	andra	haffve, ther, yther, giffvet, udviiser, vii; dansk	dan	at nýde och beholde, garde met alle forne gotz, vii, tillade	dan
+di:8:56	nor	medel	andra	'Swa manga joorder aagher Munkaliifwes kloster', 'Jtem aff Væstmanna oyom': norsk jordebok	dan-nor	Swa manga joorder, aagher, aff Væstmanna oyom, gaar j stykke klædhe	
+di:8:569	dan-nor	lag	andra	Dansk kanslistil ('tha fore oss', 'wærduge') blandad med norska þ-former ('þvi', 'þav')	dan	danskt vidimus (Raadstuen, wærduge fader) kring islandskt stycke	
+di:8:572	isl	medel	huvud	'þetta Bref sia edur heyra', 'Gudz og wora', 'kunnugt giorafidi'; Hólar, isländsk miljö.			isl
+di:8:574	dan	hog	andra	Wij Erich, vdj Trondhem, thette wort obne breff, haffue, ath; dansk	dan	Wij Erich med guds nade, wittherlicht, obne breff, stadfeste	dan
+di:8:575	dan	medel	andra	thessligiste haffwe wij och kiere forfaders breff: dansk, enstaka norska drag	dan	haffwe wij och seet, stadfestelsæ breff, obne breff; dansk text, isländsk version	dan
+di:8:584	deu	hog	huvud	Lågtyska: 'Wij Burgermestere vnde Radtmanne der Stadt Hamborch', 'vnde', 'apene breff'.			deu
+di:8:587	dan	medel	huvud	jeg, haffuer, szend, till, Kobinghaffwen i brevstycket; isländsk redaktionstext			dan
+di:8:588	dan	hog	inget	Dansk kanslistil i Bergen: 'thette', 'oc', 'haffuer', 'waart', 'vthi'.	dan	"""kungørende med thette waart opne"", ""haffuer dispenseret"", ""raadmen""; norskt inslag, ""sancte Olaff"""	dan
+di:8:601	dan	hog	inget	Dansk kanslistil: 'met thette vort opne breff stadfeste oc fuldburde', 'the jndheholde'.	dan	"""stadfæstelsse breff"", ""haffve stadfest oc fuldburdit"", ""wedh"", ""thette vort opne breff"""	dan
+di:8:615	dan	hog	huvud	Christiern met guds nade Danmarkis, gudz, fyrer: dansk			dan
+di:8:619	dan	hog	inget	Dansk: 'Wij Cristiern met gwtz nade', 'tha haffwe wij giffuet', 'wer willom ath'	dan	Wij Cristiern, haffwe wij giffuet, jngen skall macth haffwe, hedhen aff om	dan
+di:8:76	deu	hog	huvud	Lågtyska: 'vnde', 'wj', 'dat ok', 'wen de rat', 'to raden'; isländsk redaktion.			deu
+di:8:80	dan	medel	inget	'Ock wii', 'thetta wortt opnæ breff', 'oc': dansk kanslistil, även i Bergen.	dan-nor	tient oss som en troo dandysswen, wortt opnæ breff, hægn, bidie wii, oc	dan-nor
+di:8:81	dan	medel	inget	kennes, thetta, ath, medh, thenne; dansk skrivsätt trots bergensk ort	dan	Kennes medh thetta wort opnæ brefi, thenne nerffwarendis breffwijssere	dan
+di:9:106	lat	hog	huvud	Latinsk formel: 'Universis et singulis christi fidelibus praesentes literas'			lat
+di:9:107	lat	hog	huvud	Latin: 'Universis christi fidelibus praesentes literas visuris', 'sacerdotale'.			lat
+di:9:113	dan	hog	andra	'Kkistján', 'wii bete oc biude ether', 'Hertug udi Slessvig': dansk kungabrev 1523	dan	met guds nade, Hertug udi Slessvig, helse Eder, kierligen met gud	dan
+di:9:114	dan	lag	andra	dansk kungligt brev (kðpenhafn, thee, paa vort slot) och isländskt köpebrev			
+di:9:133	lat	hog	huvud	'Commendatoria', 'Augmundus Dei gratia Episcopus', 'laudabile testimonium': latin			lat
+di:9:134	lat	hog	huvud	Latinsk ingress: 'Avgmundus Dei gratia episcopus Skalholtensis a(c) administrator'.			lat
+di:9:135	dan	medel	andra	hefur Hans Eggertzson, sidan vier komum, ydars nád; dansk med svenska drag	isl	"""hefur Hans Eggertzson framfarid hier i landed"", ""sidan vier komum"", ""þar uth gull"""	isl
+di:9:135b	dan	medel	inget	'och', 'adt', 'uthaff', 'Eders naad', 'vnder': danskpåverkat; latinsk adress	dan	thesse saker, hann er alldre mann, vij sende vort skib, Eders naad	dan
+di:9:138	annat	hog	inget	franska: 'scauoir', 'nostre quartier', 'nous faire aucunque assistence', 'nostre puissance'	annat	franska: nostre puissance, vous plaise scauoir, nostre isle	
+di:9:139	dan	hog	andra	Dansk: 'Her Jonn Arnnssðn fick sligthenn', 'Viider kiere', 'thennom'	dan	Haffuer giffuit, fuldmagt, oc, wduold, kiere, Capittell	dan
+di:9:140	dan	hog	andra	Dansk kanslistil: 'Bethendis oc biudindis', 'thij hafum vij', 'vores sampycki'.	dan	"""Bethendis oc biudindis aff wor konngelige magt"", ""mett"", ""haffue""; inslag isländska"	dan
+di:9:149	dan	medel	andra	menthe her Hans, skulle icke, pennighe, ther; dansk ortografi	dan	"""konghen skulle icke wijllæ lonæ pennighe"", ""tijl Engeland"""	dan
+di:9:175	dan	hog	inget	'beklager seg', 'oc', 'thet er lantzens forderff', 'inghe kðpmenn': dansk	dan	beklager seg, waare hanss nade, inghe kopmenn, thet er; danskt med norska drag	dan
+di:9:176	dan	medel	inget	Dansk lénaskrá 1523: 'hawe Island selffwer ok', 'Item om wor', 'sidindis'			
+di:9:179	dan	hog	inget	'Kere err oc fadher', 'etthers', 'oc', 'Thi bedhe wij': dansk brev 1524	dan	wj, haffwe, thesse nesthe, bedhe wij efter kerligen, skicke	dan
+di:9:181	dan	hog	huvud	Dansk brev: 'ether wel fortencer', 'ieg sende ether', 'Nederland'			dan
+di:9:184	dan	hog	huvud	thenne, tiidth, jeg, edhers nades, thet breff; dansk			dan
+di:9:19	lat	hog	andra	Latinsk text: 'Die Mercurij decimo Kalend. Januarij', 'Ecclesiæ Hallensi'	lat	prouisum est Ecclesiæ Hallensi vacanti per mortem	lat
+di:9:191	dan	hog	huvud	haffue, giffuet, oss, oc, tiill, ville haffue screffuett; dansk			dan
+di:9:21	lat	hog	huvud	Latinsk påvlig text: 'Eadem die', 'dominus frater', 'camere apostolice'			lat
+di:9:24	lat	medel	inget	Latinsk regestrubrik 'Pro Marcello Scalotiensis Electo pensio'; isländsk sammanfattning.			
+di:9:25	lat	hog	inget	Maecellus dei gracia Episcopus Scalotensis, apostolice sedis legatus; latin	lat	"""Marcellus dei gracia Episcopus"", ""apostolice sedis legatus"""	lat
+di:9:27	lat	hog	inget	'Dominus iohannes torkilli', 'canonicus regularis', 'monasterium vocatur': latin	lat	Dominus iohannes, canonicus regularis, dyocesis, monasterium	lat
+di:9:29	lat	lag	huvud	Endast isländsk regest av latinskt påvebrev; formuleringar i utgivarens notis			lat
+di:9:317	dan	hog	andra	thet, ieg skall suare, eder nade, luder, och; dansk	dan	quad eder nade tycker ieg skall suare, thet han begærer	dan
+di:9:35	lat	hog	huvud	Påvebrev: 'Suplicat s. v. deuota creatura vestra Magnus episcopus Scalatensis'.			lat
+di:9:355	dan	hog	inget	Johan Peturson wor fovite paa Jslandt, Hertuge i Slesuik; dansk			
+di:9:356	dan	hog	andra	wdwaltt, Norigis, Elskuliga, oc, nad vnt: dansk	dan	Danskt original 'giðre alle witterligtt', 'haffue'; isländsk översättning 'vorri sierligri Gunst og nad' ingår	dan
+di:9:36	dan	hog	andra	Thessá áre, ther, ock, hufue fanget brðst vdi, war nadige Herre, wiliom; dansk	dan-swe	wiliom wj ey siithia, nakra wtlenska men; svenska och danska drag	
+di:9:40	isl	hog	huvud	Isländskt 1492: 'vitnisburdur', 'ad Brecka i Fliotsdal', 'ætte Skogarpart'			isl
+di:9:404	deu	hog	huvud	tho, vnnd, vnsse, Wy Frederich, gnadenn; lågtysk kanslistil			deu
+di:9:434	lat	hog	andra	Vniuersis christifidelibus presentes litteras, datum jn residencia; latin	lat	nostre diocesis cum omnibus suis juribus, Jn cuius collacionis testimonium	lat
+di:9:435	dan	hog	andra	helse Eder alle vore kiære undersatte, vii hafum, tiltroet, skatland; dansk	dan	vore kiære undersatte, Vider kiære venner, vort skatland, at vii hafum	dan
+di:9:476	dan	hog	andra	paa thette herremode, paa theres kobenskaf, Bergen: dansk	dan	'paa thette herremode', 'ath Hamborger haffwe Jsland', 'ecke gott', 'wore thet'	dan
+di:9:50	dan	hog	andra	haffwe, thaa skulle, komne till, paa thee skiib: dansk	dan	'oc andre ware', 'haffwe the', 'thaa skulle thee indkomme paa thee skiib', 'swa thee ey'	dan
+di:9:503	lat	hog	andra	Latin: 'Obseqvium indefessum meramque obedientiam', 'mi domine reverende'.	lat	Obseqvium indefessum, gratiam habeo, vestrae paternitati, Cum hijs in christo ualete	lat
+di:9:51	dan	hog	andra	'Oss elskelige Esgj Billæ', 'Embesmand paa Kobinghaffn', 'Wor gunst tillforne': dansk.	dan	Oss elskelige, Bethæ wii teg att tw sldcker, Wor gunst tillforne, hwadt	dan
+di:9:512	lat	hog	huvud	Datum apud sedem nostram schalholt, sub secreto presentibus: latin			lat
+di:9:521	isl	medel	huvud	Isländsk dom: 'eda', 'hefdi', 'þordis kona sin', 'j annari grein'; ett dansk stycke.			isl
+di:9:529	dan	hog	huvud	Dansk kanslistil: 'vvenner skulle haíi'ue en forscrift', 'at the wille', 'effther'.			dan
+di:9:55	isl	medel	huvud	ord sem hier med skrifat stendvr, myklagarde, sagde, vaskaravxl: isländsk			isl
+di:9:564	dan	hog	andra	'Wii Oluff mett gudz node', 'haffwe', 'vdi', 'konning ffredericks': dansk kansli i Norge.	dan	Wii Oluff mett gudz node, Haffwe wii alffwerliigen offwerwægedt, vdi Trondem	dan
+di:9:571	dan	hog	inget	Jtem, oc, haffuer, paa Hatteberg, nw, Kiobneaffn: dansk			
+di:9:579	isl	medel	huvud	'ec hefi', 'ad', 'skal en bruka', 'medkenunzt ec': isländsk form; latinsk datering.			isl
+di:9:593	lat	hog	huvud	Olavus Dei gratia Archiepiscopus, dilecto nobis, Salutem: latin			lat
+di:9:598	deu	medel	andra	Lågtyska i slutstycket: 'tho tals', 'dar', 'dat', 'de kreeh'; isländsk redaktion i övrigt.	deu	Jtem noch griker palsen iiijc fische tho tals, dar wylde he reden	deu
+di:9:6	nor	medel	huvud	þui, þeir, ver, skall, logbok; Hákon Magnússon i Norge			nor
+di:9:602	lat	medel	andra	Articuli de pace concilianda inter; latinsk artikellista, dansk rubrik	lat	"""Articuli de pace concilianda inter""; resten är utgivarens isländska kommentar"	lat
+di:9:625	isl	medel	andra	þessi, millvm, ad vier hofum feinged, þessu voru opnu brefe; latinsk slutkommentar	isl	Landamerkiabref, iordina alla, Vier 0gmund med guds nad biskup, med þessu voru opnu brefe	isl
+di:9:628	eng	hog	inget	'contents of mr secretarys letters', 'the kings majestie', 'Lubeckers': engelsk text	eng	contents of mr secretarys letters, the kings majestie; engelska	eng
+di:9:629	dan	hog	huvud	Dansk kanslistil: 'Vii Cristian med gudz nade udvald koning', 'oc med thette vort opne bref'.			dan

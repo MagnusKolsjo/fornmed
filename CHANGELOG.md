@@ -31,6 +31,19 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 - Isofs Ortnamnsregister (CC BY) ger orter utan beslut socken och härad (`hamta_isof.py`).
   Nya beslut läggs till och fattade beslut står kvar.
 - `data/platser/oklara_lagen.tsv`: brev vars läge ska granskas.
+- Diplomatarium Norvegicum som källa: 19 113 brev ur band 1–23 med regester, brevtext, tillägg,
+  noter och registerposter (`importera_dn.py`). Brevspråket bestäms maskinellt (`sprakklassning.py`,
+  `sprak_urval.py`, `sprak_samla.py`), och utfärdandeorterna knyts till platser, med läge ur
+  Kartverkets ortnamnsregister där namnet är entydigt (`hamta_ssr.py`) och med nutida namn som en
+  språkmodell föreslagit och Kartverket eller Wikidata bekräftat (`dn_orter.py`).
+- Diplomatarium Islandicum som källa: 8 723 brev ur band 1–16 med isländsk rubrik ur
+  innehållsförteckningen och brevtext ur OCR (`importera_di.py`), maskinellt bestämt språk och
+  orter med läge där en språkmodells nutida namn och sýsla bekräftas av Icelandic Saga Map eller
+  Wikidata (`hamta_sagamap.py`, `di_orter.py`).
+- Ett brev som finns i både SDHK och Diplomatarium Fennicum eller Norvegicum visas en gång i
+  sökningen, med de andra utgåvorna i `samma_brev`.
+- Danska regester indexeras med dansk stemming, och `texttyper='alla'` söker även i noter och
+  registerposter.
 - Sökindex (`sokindex.py`, tabellerna `sokpost` och `sokpost_plats`): varje verk och
   entitet med tillkomst, förlaga och händelsetid och med platser för händelse,
   tillkomst, förvaring och läge. Byggs om av `leverans.py`.

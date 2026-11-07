@@ -26,3 +26,7 @@ webb/media/
 
 # macOS
 .DS_Store
+
+# Utdrag som språkmodellen bedömt; skapas om ur databasen (svaren och besluten versioneras)
+data/sprak/*/delar/
+data/sprak/*/urval.jsonl

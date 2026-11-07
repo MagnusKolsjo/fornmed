@@ -20,7 +20,7 @@ import embeddings
 from normalisering import ordform
 
 MODERNA_TYPER = ("regest", "oversattning")
-ALLA_TYPER = ("regest", "oversattning", "originaltext", "normaliserad", "skolion")
+ALLA_TYPER = ("regest", "oversattning", "originaltext", "normaliserad", "skolion", "anmarkning", "register")
 
 # Hur många kandidater varje metod lämnar till sammanvägningen
 KANDIDATER = 100
@@ -655,7 +655,44 @@ def sok(fraga: str, metod: str = "hybrid", antal: int = 10, filter_: Filter | No
         poang = dict(rader)
         traffar = [{**r, "poang": round(poang[r["passage_id"]], 4)}
                    for r in hamta_passager([pid for pid, _ in rader])]
-    return {"traffar": traffar, "expansion": expansion.som_dict()}
+    return {"traffar": sla_ihop_samma_brev(traffar), "expansion": expansion.som_dict()}
+
+
+def sla_ihop_samma_brev(traffar: list[dict]) -> list[dict]:
+    """
+    Ett brev som finns i både SDHK och Diplomatarium Fennicum eller Norvegicum visas en gång,
+    på den bäst placerade träffen, med de andra utgåvornas verk i samma_brev.
+    """
+    if not traffar or not db._ar_postgres():
+        return traffar
+    verk_ids = sorted({t["verk_id"] for t in traffar})
+    conn = db._hamta_db()
+    try:
+        cur = conn.cursor()
+        cur.execute(
+            f"""SELECT v.id, 'sdhk:' || n FROM {db._prefix()}verk v
+                CROSS JOIN LATERAL jsonb_array_elements_text((v.extra::jsonb)->'sdhk') n
+                WHERE v.kallsamling_id IN ('df', 'dn')
+                  AND (v.id = ANY(%s) OR 'sdhk:' || n = ANY(%s))""",
+            (verk_ids, verk_ids),
+        )
+        par = cur.fetchall()
+    finally:
+        conn.close()
+    grupp: dict[str, set[str]] = {}
+    for a, b in par:
+        g = grupp.get(a, set()) | grupp.get(b, set()) | {a, b}
+        for v in g:
+            grupp[v] = g
+    sedda: set[str] = set()
+    resultat = []
+    for t in traffar:
+        if t["verk_id"] in sedda:
+            continue
+        andra = sorted(grupp.get(t["verk_id"], set()) - {t["verk_id"]})
+        sedda |= {t["verk_id"], *andra}
+        resultat.append({**t, "samma_brev": andra} if andra else t)
+    return resultat
 
 
 def hamta_passager(passage_ids: list[str]) -> list[dict]:

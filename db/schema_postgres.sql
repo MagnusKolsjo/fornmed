@@ -627,3 +627,28 @@ JOIN fornmed.entitet e ON e.id = i.identifierad_med
 WHERE i.alternativgrupp IS NOT NULL
 GROUP BY i.alternativgrupp, i.entitet_id
 HAVING count(DISTINCT i.identifierad_med) > 1;
+
+
+-- 2026-11-07: danska regester (Diplomatarium Norvegicum) indexeras med dansk stemming,
+-- som svenska med svensk. Den genererade kolumnen kan inte ändras på plats och byggs
+-- därför om, men bara en gång: när uttrycket ännu saknar den danska konfigurationen.
+DO $$
+BEGIN
+    IF NOT EXISTS (
+        SELECT 1 FROM pg_attrdef d
+        JOIN pg_attribute a ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+        WHERE d.adrelid = 'fornmed.passage'::regclass AND a.attname = 'sokvektor'
+          AND pg_get_expr(d.adbin, d.adrelid) LIKE '%danish%'
+    ) THEN
+        ALTER TABLE fornmed.passage DROP COLUMN sokvektor;
+        ALTER TABLE fornmed.passage ADD COLUMN sokvektor TSVECTOR GENERATED ALWAYS AS (
+            CASE WHEN typ IN ('regest', 'oversattning') AND sprak = 'swe'
+                 THEN to_tsvector('swedish', text) || to_tsvector('simple', text)
+                 WHEN typ IN ('regest', 'oversattning', 'anmarkning', 'register') AND sprak = 'dan'
+                 THEN to_tsvector('danish', text) || to_tsvector('simple', text)
+                 ELSE to_tsvector('simple', text)
+            END
+        ) STORED;
+        CREATE INDEX IF NOT EXISTS passage_sokvektor_idx ON fornmed.passage USING GIN (sokvektor);
+    END IF;
+END $$;

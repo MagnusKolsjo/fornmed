@@ -37,7 +37,7 @@ mcp = MCPServer(
     "fornmed",
     instructions=(
         "Källor till Sveriges och Nordens forntid och medeltid: medeltidsbrev ur "
-        "Riksarkivets SDHK (44 000 brev fram till 1540), Diplomatarium Fennicum (6 900 brev), runinskrifter (Rundata, "
+        "Riksarkivets SDHK (44 000 brev fram till 1540), Diplomatarium Fennicum (6 900 brev), Diplomatarium Norvegicum (19 000 brev), Diplomatarium Islandicum (8 700 brev), runinskrifter (Rundata, "
         "6 800 inskrifter), landskapslagarna, Grágás, Eddorna, Heimskringla, "
         "islänningasagorna med Landnámabók och Íslendingabók, Hervarar saga, Fagrskinna, "
         "Morkinskinna, Ágrip, Knýtlinga saga, Saxo, Sven Aggesen, Erikskrönikan, "
@@ -88,6 +88,13 @@ mcp = MCPServer(
         "fornsvenska och fornvästnordiska; utom de latinska krönikorna söks "
         "originaltexterna bara med fulltext, så sök gärna med källspråkets egna ord. Latinska termer söks på stammen och kan ge brus (decim* "
         "träffar även ordningstal). Originaltext läses med fornmed_hamta_passage. "
+        "DIPLOMATARIER: Diplomatarium Fennicum (df:N), Norvegicum (dn:band:nr) och Islandicum (di:band:nr) har regester på "
+        "svenska, danska/norska respektive isländska. Islandicums brevtext är OCR med läsfel, och gränsen mellan breven "
+        "är osäker där verkets uppgifter anger grans_osaker. Ett brev som också finns i SDHK visas en gång i sökningen, med de andra "
+        "utgåvorna i fältet samma_brev. Norvegicums och Islandicums brevspråk är maskinellt bestämt (fältet sprakbedomning i "
+        "verkets uppgifter anger metoden). texttyper='alla' söker även i utgivarnas noter (passagetyp "
+        "'anmarkning') och i bandens registerposter (passagetyp 'register'); en registerpost gäller brevens "
+        "sida, inte nödvändigtvis det enskilda brevet. "
         "SKOLIER: Adam av Bremens skolier (passagetyp 'skolion') söks med "
         "texttyper='alla'. De är marginaltillägg i handskrifterna, delvis av Adam "
         "själv och delvis av senare avskrivare, och ska redovisas som skolier, "

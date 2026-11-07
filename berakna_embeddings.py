@@ -54,7 +54,8 @@ def urval(roll: str, alias: str = "") -> str:
     if roll == "svenska":
         return f"{alias}typ IN ('regest', 'oversattning') AND {alias}sprak = 'swe'"
     latin = " OR ".join(f"{alias}id LIKE '{verk}:%'" for verk in LATINSKA_VERK)
-    return (f"({alias}typ = 'oversattning' AND {alias}sprak <> 'swe') "
+    # Regester på andra språk än svenska, som Diplomatarium Norvegicums danska och norska
+    return (f"({alias}typ IN ('oversattning', 'regest') AND {alias}sprak <> 'swe') "
             f"OR ({alias}sprak = 'lat' AND {alias}typ IN ('originaltext', 'skolion') AND ({latin}))")
 
 

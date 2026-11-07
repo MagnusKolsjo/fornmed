@@ -235,6 +235,70 @@ Datamängden från Kansallisarkisto (CC0) ger brevtext och grunduppgifter. Reges
 utfärdare, datum och platsregister finns bara på webbplatsen, som inte anger någon
 licens för dem. Regester ur Auctoritate Papae (2012) tas inte med.
 
+## Import av Diplomatarium Islandicum
+
+```bash
+.venv/bin/python importera_di.py --prov   # räkna brev och rubrikträffar per band
+.venv/bin/python importera_di.py
+```
+
+Källan är bækur.is OCR-text (en fil per sida, `data/raw/diplomatarium_islandicum/*.zip`) och PDF:erna.
+OCR:n läser brevnumren dåligt, så nummer, datering, isländsk rubrik och sida kommer från bandens
+innehållsförteckning, som en språkmodell har skrivit av från sidbilderna
+(`data/di_forteckning`, instruktionen i `instruktion.md`). Brevtexten tas ur OCR:n: på den angivna
+sidan söks rubrikraden med förteckningens årtal, och texten fram till nästa rubrik hör till brevet.
+Hittas ingen rubrikrad, eller har rubrikraden ett annat läsbart nummer, anges gränsen som osäker
+(`grans_osaker`, `nr_i_texten`, `texten_omfattar_aven` i verkets uppgifter).
+Rubrikraden känns igen på numret (med OCR:ns sifferförväxlingar), dateringens år, dag och månad,
+och i máldagesamlingarna på kyrkans ortnamn ("LXXXIX. Hroarshollt."); en rubrik kan stå på två rader.
+
+Brevtextens språk bestäms som för Norvegicum (`sprakklassning.py --klassa di`, `sprak_urval.py
+--kallsamling di`, `sprak_samla.py --kallsamling di`). Isländsk brevstavning lär sig klassaren av
+DI-brev utfärdade på säkert isländska platser, eftersom sagornas normaliserade stavning inte liknar
+brevens.
+
+Orterna i rubrikraderna får läge bara genom ett nutida namn och en sýsla som en språkmodell har
+föreslagit (`data/platser/di_normalisering`) och ett register har bekräftat (`di_orter.py`,
+`data/platser/di_orter.tsv`). I Icelandic Saga Map (`hamta_sagamap.py`, CC BY-NC 4.0) ska det
+finnas en enda plats med namnet och kartans sysselkod ska vara sýslan. Annars ska Wikidata ha en
+enda isländsk plats med namnet (gård, kloster och kyrka inom 2 km räknas som en) och Saga Map en
+plats i samma sýsla inom 20 km. Att namnet är ensamt i Saga Map räcker inte, eftersom kartan bara har
+sagornas platser och gårdsnamnen (Saurbær, Skarð) återkommer över hela landet; sådana orter blir
+platser utan läge. Orter utanför Island prövas mot Wikidata som för Norvegicum.
+
+## Import av Diplomatarium Norvegicum
+
+```bash
+.venv/bin/python importera_dn.py                        # data/raw/dn/MIDLAT_XML.zip (Nasjonalbiblioteket)
+.venv/bin/python sprakklassning.py --klassa dn --fil data/sprak/dn_sprak.tsv
+.venv/bin/python sprak_samla.py                         # språkmodellens bedömningar i data/sprak/omgang*
+.venv/bin/python importera_dn.py                        # en gång till, nu med språket
+.venv/bin/python hamta_ssr.py                           # Kartverkets ortnamn för DN-orterna
+.venv/bin/python dn_orter.py                            # prövar föreslagna nutida ortnamn mot Kartverket och Wikidata
+.venv/bin/python platser.py && .venv/bin/python berakna_embeddings.py
+```
+
+Varje brev blir ett verk `dn:{band}:{nr}` med regest (danska eller norska), brevtext, tillägg och
+påskrifter, proveniens, utgivarnas noter och de poster i bandets namn- och sakregister som hänvisar
+till brevets sidor. Korpusens teckenkoder (`/th/`, `/edd/`, `/´a/` …) blir Unicode. SDHK-brev som
+hänvisar till samma band och nummer och har samma datum får DN-numret i verkets uppgifter.
+
+Brevtextens språk anges inte i materialet. `sprakklassning.py` lär sig latin, fornsvenska,
+forndanska, fornnorska och tyska av brev med känt språk (SDHK, de DN-brev SDHK anger språket för,
+och Diplomatarium Danicum, som bara används för detta och inte läses in) och bedömer stycke för
+stycke. Där klassaren är osäker har en språkmodell bedömt två eller tre utvalda stycken
+(`sprak_urval.py`, instruktionen i `data/sprak/instruktion.md`); språket sätts bara när två
+bedömningar är överens. Metoden står i varje verks `sprakbedomning`.
+
+Utfärdandeorten knyts till en befintlig plats när namnet, eller dess nutida form i
+`data/platser/dn_alias.tsv`, har en enda plats med läge (eller en enda i Norge). Annars ger
+Kartverkets register läget, men bara när alla kommuner, socknar, kyrkor och bygder med namnet
+ligger inom 15 km från varandra. I "Rom, Vatikanet" är Vatikanet platsen och Rom sammanhanget.
+Äldre stavningar (Eker, Vaage, Thelemarken) har en språkmodell gett nutida namn
+(`data/platser/dn_normalisering`); ett förslag används bara när Kartverket på samma villkor, eller
+Wikidata med koordinater, rätt land och namnet som etikett, bekräftar det (`data/platser/dn_orter.tsv`).
+Landskap och regioner får inget läge.
+
 ## Import av SDHK
 
 ```bash
