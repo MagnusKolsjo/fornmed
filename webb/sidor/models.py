@@ -117,6 +117,9 @@ class RegisterSida(RoutablePageMixin, TextSida):
     Varje entitet har en egen sida under sin adress (se lankar.entitetsadress och register.py).
     """
 
+    # Översikten är en vanlig textsida; Wagtail skulle annars söka sidor/register_sida.html
+    template = "sidor/text_sida.html"
+
     @path("")
     def oversikt(self, request):
         return self.render(request)
