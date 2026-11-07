@@ -280,6 +280,10 @@ class Command(BaseCommand):
             if gammal.specific_class is Page:
                 gammal.delete()
 
+        # Menyn följer sidornas ordning i trädet. En ny sida placeras därför efter
+        # sidan före den i SIDOR, inte sist; befintliga sidor flyttas inte, så
+        # att en ordning som ändrats i Wagtail står kvar
+        foregaende = None
         for klass, slug, titel, ingress, text, i_menyn in SIDOR:
             sida = start.get_children().filter(slug=slug).specific().first()
             if sida is None:
@@ -287,6 +291,11 @@ class Command(BaseCommand):
                              show_in_menus=i_menyn, search_description=ingress,
                              visa_omfang=slug in VISA_OMFANG)
                 start.add_child(instance=sida)
+                if foregaende is not None:
+                    sida.move(foregaende, pos="right")
+                else:
+                    sida.move(start, pos="first-child")
+                sida = Page.objects.get(id=sida.id).specific
                 self.stdout.write(f"Skapade {titel}.")
             elif ska_skrivas_over(slug):
                 sida.title, sida.ingress, sida.brodtext = titel, ingress, text
@@ -294,3 +303,4 @@ class Command(BaseCommand):
                 sida.show_in_menus = i_menyn
                 sida.save_revision().publish()
                 self.stdout.write(f"Skrev över {titel}.")
+            foregaende = sida
