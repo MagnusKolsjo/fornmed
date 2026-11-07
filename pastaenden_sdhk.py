@@ -1066,7 +1066,8 @@ class Personlista:
       VERKSAM_AR år före dödsåret, och saknas dödsåret till VERKSAM_AR år efter det
       tolfte levnadsåret. En post utan levnadsår kopplas inte, och
     - något mer än namnet stämmer: ett släktnamn som båda har, eller ett ämbete eller
-      stånd hos personen som står i SBL:s yrkesuppgift (riddare, riksråd, lagman). Listan
+      stånd hos personen som står i SBL:s yrkesuppgift eller i Wikidatas yrke eller
+      befattning (riddare, riksråd, lagman, häradshövding). Listan
       rymmer bara personer som fått en biografi, så ett patronymikon ensamt räcker inte:
       de flesta Nils Larsson i breven finns inte i SBL.
 
@@ -1097,7 +1098,7 @@ class Personlista:
 
     @staticmethod
     def _ambeten_passar(p: dict, nycklar: set[str]) -> bool:
-        titel = (p.get("titel") or "").lower()
+        titel = " ".join(filter(None, (p.get("titel"), p.get("wd_titel")))).lower()
         if not titel:
             return False
         koder = {n.split(":")[1] for n in nycklar if n.startswith("ambete:")}

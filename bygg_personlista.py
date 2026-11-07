@@ -59,7 +59,9 @@ DOD_SENAST = 1600
 UTAN_FORE = 1540
 # Nordiska riken och Kalmarunionen: Sverige, Danmark, Norge, Finland, Island, Kalmarunionen
 LANDER = ["Q34", "Q35", "Q20", "Q33", "Q189", "Q62623"]
-# Titlar som hör hemma i regent- och biskopslistorna
+# SBL-titlar som hör hemma i regent- och biskopslistorna. Wikidatas poster sorteras ut på
+# Wikidata-id, så att norska och danska biskopar och riksföreståndare som inte finns i
+# listorna står kvar här.
 EGEN_LISTA = re.compile(r"\b(?:kung|drottning|påve|biskop|ärkebiskop|riksföreståndare|hertig)\b", re.I)
 
 FRAGA = """
@@ -73,6 +75,18 @@ SELECT ?p ?namn ?enamn ?fodd ?fp ?dod ?dp ?sbl WHERE {
   OPTIONAL { ?p rdfs:label ?enamn . FILTER(LANG(?enamn) = "en") }
 }
 """
+# Yrke (P106), befattning (P39), ätt (P53) och adelstitel (P97) på svenska, annars engelska
+EGENSKAPER = """
+SELECT ?p ?egenskap ?etikett WHERE {
+  VALUES ?p { %s }
+  VALUES ?egenskap { wdt:P106 wdt:P39 wdt:P53 wdt:P97 }
+  ?p ?egenskap ?v .
+  OPTIONAL { ?v rdfs:label ?sv . FILTER(LANG(?sv) = "sv") }
+  OPTIONAL { ?v rdfs:label ?en . FILTER(LANG(?en) = "en") }
+  BIND(COALESCE(?sv, ?en) AS ?etikett)
+}
+"""
+ETT = {"P106": "yrke", "P39": "befattning", "P53": "att", "P97": "yrke"}
 # Alias hämtas för sig, eftersom en fråga med båda överskrider Wikidatas tidsgräns
 ALIAS = """
 SELECT ?p ?alias WHERE {
@@ -102,9 +116,16 @@ def hamta_wikidata() -> None:
     for i in range(0, len(q_id), 300):
         for r in _sparql(ALIAS % " ".join(f"wd:{q}" for q in q_id[i:i + 300])):
             alias.setdefault(r["p"]["value"].rsplit("/", 1)[1], set()).add(r["alias"]["value"])
+    egenskaper: dict[str, dict[str, set]] = {}
+    for i in range(0, len(q_id), 300):
+        for r in _sparql(EGENSKAPER % " ".join(f"wd:{q}" for q in q_id[i:i + 300])):
+            if r.get("etikett"):
+                falt = ETT[r["egenskap"]["value"].rsplit("/", 1)[1]]
+                egenskaper.setdefault(r["p"]["value"].rsplit("/", 1)[1], {}).setdefault(falt, set()).add(r["etikett"]["value"])
     for r in rader:
         q = r["p"]["value"].rsplit("/", 1)[1]
         r["alias"] = {"value": "|".join(sorted(alias.get(q, ())))}
+        r["egenskaper"] = {k: sorted(v) for k, v in egenskaper.get(q, {}).items()}
     WIKIDATA_FIL.parent.mkdir(parents=True, exist_ok=True)
     WIKIDATA_FIL.write_text(json.dumps(rader, ensure_ascii=False), encoding="utf-8")
     log.info("Wikidata: %d rader, %d personer", len(rader), len(q_id))
@@ -156,6 +177,15 @@ def las_sbl() -> list[dict]:
     return poster
 
 
+def _att(etiketter: list[str]) -> str | None:
+    """Ättens namn som breven skriver det: 'Läma', 'Ulvåsaätten' → 'Ulvåsa', 'Färla, Martin Bengtssons ätt' → 'Färla'."""
+    for e in etiketter:
+        namn = re.sub(r"(?:ätten|ätt|släkten|släkt)$", "", e.split(",")[0].strip()).strip(" -")
+        if namn and " " not in namn and not re.fullmatch(r"Q\d+", namn):
+            return namn
+    return None
+
+
 def _wd_ar(tid: str) -> int:
     """Året ur Wikidatas tidsvärde: '1360-01-01T00:00:00Z' eller '+1360-…'."""
     return int(re.match(r"[+-]?(\d+)-", tid).group(1))
@@ -174,8 +204,11 @@ def las_wikidata() -> list[dict]:
         dp, fp = int(r["dp"]["value"]), int(r["fp"]["value"]) if r.get("fp") else 0
         dod = _wd_ar(r["dod"]["value"]) if dp >= 9 else None
         fodd = _wd_ar(r["fodd"]["value"]) if r.get("fodd") and fp >= 9 else None
+        eg = r.get("egenskaper", {})
+        yrken = [y for y in eg.get("befattning", []) + eg.get("yrke", []) if not re.fullmatch(r"Q\d+", y)]
         post = poster.setdefault(q, {"namn": namn, "fodd": fodd, "fodd_typ": "exakt" if fodd else "saknas",
-                                     "dod": dod, "dod_typ": "exakt" if dod else "saknas", "titel": None,
+                                     "dod": dod, "dod_typ": "exakt" if dod else "saknas",
+                                     "titel": ", ".join(dict.fromkeys(yrken)) or None, "att": _att(eg.get("att", [])),
                                      "sbl": r.get("sbl", {}).get("value"), "wikidata": q, "kalla": "Wikidata",
                                      "alias": set()})
         post["alias"] |= {a for a in r.get("alias", {}).get("value", "").split("|") if a}
@@ -192,11 +225,16 @@ def bygg() -> list[dict]:
             s = sbl.pop(w["sbl"])
             # SBL:s år och namn går före; Wikidata ger id och alias
             personer.append({**s, "wikidata": w["wikidata"], "alias": w["alias"], "kalla": "SBL, Wikidata",
+                             "wd_titel": w["titel"], "att": w["att"],
                              "fodd": s["fodd"] or w["fodd"], "fodd_typ": s["fodd_typ"] if s["fodd"] else w["fodd_typ"],
                              "dod": s["dod"] or w["dod"], "dod_typ": s["dod_typ"] if s["dod"] else w["dod_typ"]})
         else:
-            personer.append(w)
-    personer += [{**s, "alias": []} for s in sbl.values()]
+            personer.append({**w, "wd_titel": w["titel"], "titel": None})
+    personer += [{**s, "alias": [], "wd_titel": None, "att": None} for s in sbl.values()]
+    # Ätten blir en namnform: "Erik Kettilsson" med ätten Puke kan också stå som "Erik Kettilsson (Puke)"
+    for p in personer:
+        if p["att"] and ordform(p["att"]) not in ordform(p["namn"]):
+            p["alias"] = sorted({*p["alias"], f"{p['namn']} ({p['att']})"})
 
     # Regenter, påvar och biskopar har egna listor
     egna_q, egna_namn = set(), set()
@@ -206,7 +244,8 @@ def bygg() -> list[dict]:
                 egna_q.add(p["wikidata"])
             egna_namn.add((ordform(p["namn"]), p.get("dod")))
     personer = [p for p in personer if p["wikidata"] not in egna_q and (ordform(p["namn"]), p["dod"]) not in egna_namn
-                and not (p["titel"] and EGEN_LISTA.search(p["titel"]))]
+                and not (p["titel"] and EGEN_LISTA.search(p["titel"]))
+]
 
     # Stabila id:n: samma Wikidata- eller SBL-id ger samma id som förra gången
     tidigare = json.loads(UT.read_text(encoding="utf-8"))["personer"] if UT.exists() else []
@@ -228,6 +267,12 @@ def bygg() -> list[dict]:
         p["id"] = pid
         if p["sbl"]:
             p["sbl_url"] = SBL_URL.format(p["sbl"])
+    # Ett id som en gång delats ut försvinner aldrig: en post som inte längre finns i
+    # källorna står kvar som den var
+    for gammal in tidigare:
+        if gammal["id"] not in tagna:
+            log.warning("%s (%s) finns inte längre i källorna och står kvar", gammal["id"], gammal["namn"])
+            personer.append({**gammal, "kvar_fran_tidigare": True})
     personer.sort(key=lambda p: p["id"])
     return personer
 
