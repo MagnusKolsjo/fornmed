@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load humanize wagtailcore_tags %}
+{% load static humanize wagtailcore_tags %}
 {% block titel %}{% if param.q %}Sök: {{ param.q }}{% elif sokt %}Sökresultat{% else %}{{ page.title }}{% endif %} – Fornmed{% endblock %}
 {% block innehall %}
 <div class="sok{% if textkritik %} med-textkritik{% endif %}">
@@ -99,7 +99,7 @@
       <section class="tidrum" aria-labelledby="tidrum-rubrik">
         <h2 id="tidrum-rubrik">Var och när</h2>
         <p class="metadata">Där och när det som träffarna beskriver hände, och annars där och när källan skrevs.</p>
-        <div id="karta" class="karta" role="region" aria-label="Karta över träffarnas platser"></div>
+        <div id="karta" class="karta" data-varld="{% static 'sidor/baskarta_varld.json' %}" data-europa="{% static 'sidor/baskarta.json' %}" role="region" aria-label="Karta över träffarnas platser"></div>
         {% if kartpunkter %}
         <p class="metadata">Punktens storlek visar antalet träffar; klicka på en punkt för att avgränsa till platsen. Platserna finns också som länkar under Landskap och Land och på varje träff.</p>
         {% else %}
@@ -109,7 +109,7 @@
         {% if tidslinje %}
         <h3 class="dold">Tidslinje</h3>
         <div class="tidslinje">
-          {% for s in tidslinje %}<a class="stapel{% if s.sekel %} sekel{% endif %}" href="{{ s.url }}" aria-label="{{ s.decennium }}–{{ s.till }}: {{ s.antal|intcomma }} träff{{ s.antal|pluralize:'ar' }}"><span class="stapel-yta" style="height: {{ s.hojd|stringformat:'s' }}%"></span>{% if s.sekel %}<span class="stapel-ar" aria-hidden="true">{{ s.decennium }}</span>{% endif %}</a>{% endfor %}
+          {% for s in tidslinje %}<a class="stapel{% if s.sekel %} sekel{% endif %}" href="{{ s.url }}" aria-label="{{ s.decennium }}–{{ s.till }}: {{ s.antal|intcomma }} träff{{ s.antal|pluralize:'ar' }}"><span class="stapel-yta h{{ s.hojd }}"></span>{% if s.sekel %}<span class="stapel-ar" aria-hidden="true">{{ s.decennium }}</span>{% endif %}</a>{% endfor %}
         </div>
         <p class="metadata">Antal träffar per decennium. En träff räknas i varje decennium som dess datering spänner över. Klicka på ett decennium för att avgränsa, eller ange år under Avgränsa sökningen.</p>
         {% endif %}
@@ -158,42 +158,5 @@
   <div class="text">{{ page.brodtext|richtext }}</div>
   {% endif %}
 </div>
-{% if sokt and not fel %}
-<script>
-/* Källkritisk hjälp: slås på och av utan ny sidladdning. Valet sparas i
-   adressen, så att det följer med länkar, och i webbläsaren, så att det
-   gäller nästa sökning också. Utan skript används länken i noscript. */
-(function () {
-  var knapp = document.getElementById("textkritik-vaxel");
-  var sok = document.querySelector(".sok");
-  if (!knapp || !sok) return;
-  function satt(pa) {
-    sok.classList.toggle("med-textkritik", pa);
-    knapp.setAttribute("aria-pressed", pa ? "true" : "false");
-    knapp.querySelector(".vaxel-lage").textContent = pa ? "På" : "Av";
-    var url = new URL(window.location.href);
-    if (pa) { url.searchParams.set("textkritik", "1"); } else { url.searchParams.delete("textkritik"); }
-    window.history.replaceState(null, "", url);
-    document.querySelectorAll('.sok a[href^="?"]').forEach(function (a) {
-      var u = new URL(a.getAttribute("href"), window.location.href);
-      if (pa) { u.searchParams.set("textkritik", "1"); } else { u.searchParams.delete("textkritik"); }
-      a.setAttribute("href", u.search);
-    });
-    var dolt = document.querySelector('.sokformular input[name="textkritik"]');
-    if (pa && !dolt) {
-      dolt = document.createElement("input");
-      dolt.type = "hidden"; dolt.name = "textkritik"; dolt.value = "1";
-      document.querySelector(".sokformular").appendChild(dolt);
-    } else if (!pa && dolt) { dolt.remove(); }
-    try { window.localStorage.setItem("fornmed-textkritik", pa ? "1" : "0"); } catch (e) {}
-  }
-  knapp.hidden = false;
-  var sparat = null;
-  try { sparat = window.localStorage.getItem("fornmed-textkritik"); } catch (e) {}
-  if (sparat === "1" && knapp.getAttribute("aria-pressed") === "false") { satt(true); }
-  knapp.addEventListener("click", function () { satt(knapp.getAttribute("aria-pressed") !== "true"); });
-})();
-</script>
-{% endif %}
 {% if sokt and traffar and not fel %}{% include "sidor/karta.html" %}{% endif %}
 {% endblock %}

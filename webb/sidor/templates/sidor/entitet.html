@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load wagtailcore_tags humanize %}
+{% load static wagtailcore_tags humanize %}
 {% block titel %}{{ entitet.namn }} – Fornmed{% endblock %}
 {% block innehall %}
 <article class="entitet">
@@ -39,7 +39,7 @@
 
   {% if kartpunkter %}
   <section class="karta-ram" aria-label="Karta">
-    <div id="karta" class="karta" role="region" aria-label="Karta över platserna"></div>
+    <div id="karta" class="karta" data-varld="{% static 'sidor/baskarta_varld.json' %}" data-europa="{% static 'sidor/baskarta.json' %}" role="region" aria-label="Karta över platserna"></div>
     <p class="metadata">{% if plats %}Platsens läge och platserna i påståendena om den.{% else %}Platserna i påståendena. Punktens storlek visar antalet påståenden.{% endif %}</p>
     {{ kartpunkter|json_script:"kartpunkter" }}
   </section>

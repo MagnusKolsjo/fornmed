@@ -13,9 +13,9 @@
   <ul class="kallor">
   {% for k in grupp.list %}
     <li class="kalla">
-      <h3>{% if k.id %}<a href="{% pageurl page %}verk/{{ k.id|verkadress }}/">{{ k.titel }}</a>{% else %}{{ k.titel }}{% endif %}</h3>
+      <h3>{% if k.id %}<a href="{% pageurl page %}verk/{{ k.id|verkadress }}/">{{ k.titel }}</a>{% elif k.samlad %}<a href="{% slugurl 'sok' %}?kallsamling={{ k.samlad }}">{{ k.titel }}</a>{% else %}{{ k.titel }}{% endif %}</h3>
       <p class="metadata">
-        {% if k.antal %}{{ k.antal|intcomma }} {% if k.samlad == "sdhk" %}brev{% else %}inskrifter{% endif %}{% endif %}
+        {% if k.antal %}{{ k.antal|intcomma }} {% if k.samlad == "rundata" %}inskrifter{% else %}brev{% endif %}{% endif %}
         {% if k.upphov %}{{ k.upphov }}{% endif %}{% if k.upphov and k.datering %} · {% endif %}{% if k.datering %}{{ k.datering }}{% endif %}
         {% if k.kallsamling %}{% if k.upphov or k.datering %} · {% endif %}{{ k.kallsamling }}{% endif %}
         {% if k.gemensam_licens %} · Licens: {{ k.gemensam_licens }}{% endif %}

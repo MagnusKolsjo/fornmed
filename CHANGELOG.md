@@ -82,6 +82,13 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   förfalskning och interpolation, och tre brev redovisas som omstridda med båda
   ståndpunkterna. Motiveringarna är inte längre avkapade. Se `rapporter/akthet_sdhk.md`.
 - Ekesjö är inte längre knuten till Eksjö.
+- Webbplatsens källförteckning redovisar Diplomatarium Fennicum, Norvegicum och Islandicum som en
+  post var under sina formella namn, som SDHK, i stället för en post per brev. Titeln leder till
+  sökningen i källsamlingen. Förstasidans antal medeltidsbrev omfattar alla fyra brevsamlingarna
+  och räknar ett brev som finns i flera en gång.
+- Webbplatsens skript ligger i egna filer (`webb.js`, `karta.js`) och tidslinjens staplar har
+  höjden som CSS-klass, så att kartan, tidslinjen, menyn och den källkritiska hjälpen fungerar
+  med innehållspolicyn, som inte tillåter inbäddade skript eller stilattribut.
 - En koppling mellan SDHK och Diplomatarium Fennicum kräver samma dag eller månad; samma år räcker
   bara när DF enbart anger året (`data/platser/df_fmu_osakra.tsv`).
 - Socknarna läses i fast ordning, så att samma körning alltid ger samma läge och id. 63 tidigare

@@ -1,0 +1,67 @@
+/* Leaflet-kartan för punkterna i json_script-elementet "kartpunkter", på
+   söksidan och registrets sidor. Baskartornas adresser står i kartelementets
+   data-varld och data-europa. Laddas med defer efter leaflet.js. */
+(function () {
+  var element = document.getElementById("karta");
+  var data = document.getElementById("kartpunkter");
+  if (!element || !data || !window.L) return;
+  var punkter = JSON.parse(data.textContent);
+  var stil = getComputedStyle(document.documentElement);
+  function farg(namn) { return stil.getPropertyValue(namn).trim(); }
+  // Europas detaljerade karta läggs på från den här förstoringen
+  var EUROPA_FRAN_ZOOM = 5;
+  var karta = L.map(element, { scrollWheelZoom: false, maxZoom: 10, minZoom: 2, zoomSnap: 0.5,
+                               worldCopyJump: false, maxBounds: [[-85, -200], [85, 200]], maxBoundsViscosity: 0.8 });
+  karta.attributionControl.setPrefix(false);
+  karta.attributionControl.addAttribution("Karta: Natural Earth");
+
+  var storst = Math.max.apply(null, punkter.map(function (p) { return p.antal; }).concat([1]));
+  var grupp = L.featureGroup();
+  punkter.forEach(function (p) {
+    var m = L.circleMarker([p.latitud, p.longitud], {
+      radius: 4 + 14 * Math.sqrt(p.antal / storst),
+      color: farg("--fm-ink"), weight: 1, fillColor: farg("--fm-rune"), fillOpacity: 0.7
+    });
+    var a = document.createElement("a");
+    a.href = p.url;
+    a.textContent = p.namn;
+    var div = document.createElement("div");
+    div.appendChild(a);
+    div.appendChild(document.createTextNode(": " + p.antal + (p.antal === 1 ? " träff" : " träffar")));
+    m.bindPopup(div);
+    grupp.addLayer(m);
+  });
+  // Utan punkter visas Europa och Medelhavet, så att kartan inte ser trasig ut
+  if (punkter.length) { karta.fitBounds(grupp.getBounds().pad(0.15), { maxZoom: 8 }); }
+  else { karta.setView([52, 15], 3); }
+
+  var landstil = { color: farg("--fm-muted"), weight: 0.6, fillColor: farg("--fm-paper"), fillOpacity: 1 };
+  var sjostil = { color: farg("--fm-muted"), weight: 0.4, fillColor: "#DCE6E3", fillOpacity: 1 };
+  function lager(bas) {
+    return L.layerGroup([L.geoJSON(bas.land, { interactive: false, style: landstil }),
+                         L.geoJSON(bas.sjoar, { interactive: false, style: sjostil })]);
+  }
+  function hamta(adress) { return fetch(adress).then(function (svar) { return svar.json(); }); }
+
+  var varld = null, europa = null, europaHamtas = false;
+  function visaEuropa() {
+    var narmare = karta.getZoom() >= EUROPA_FRAN_ZOOM;
+    if (narmare && !europa && !europaHamtas) {
+      europaHamtas = true;
+      hamta(element.dataset.europa).then(function (bas) { europa = lager(bas); visaEuropa(); });
+      return;
+    }
+    if (!europa) return;
+    if (narmare && !karta.hasLayer(europa)) { europa.addTo(karta); grupp.bringToFront(); }
+    if (!narmare && karta.hasLayer(europa)) { karta.removeLayer(europa); }
+  }
+
+  // Punkterna visas direkt; baskartan läggs under dem när den har lästs in
+  grupp.addTo(karta);
+  hamta(element.dataset.varld).then(function (bas) {
+    varld = lager(bas).addTo(karta);
+    grupp.bringToFront();
+    visaEuropa();
+  });
+  karta.on("zoomend", visaEuropa);
+})();

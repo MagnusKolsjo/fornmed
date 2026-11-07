@@ -23,7 +23,7 @@ SPRAK = {
     "lat": "latin", "fsv": "fornsvenska", "non": "fornvästnordiska", "swe": "svenska",
     "dan": "danska", "eng": "engelska", "deu": "tyska", "nor": "norska", "isl": "isländska",
     "ara": "arabiska", "ang": "fornengelska", "fra": "franska", "ita": "italienska",
-    "grc": "grekiska", "gml": "medellågtyska", "fin": "finska", "nld": "nederländska",
+    "grc": "grekiska", "gml": "medellågtyska", "fin": "finska", "nld": "nederländska", "rus": "ryska",
 }
 
 TYPER = {
@@ -32,6 +32,8 @@ TYPER = {
     "maskinoversattning": "maskinöversättning",
     "maskintranskription": "maskintranskription",
     "regest": "regest",
+    "anmarkning": "noter",
+    "register": "registerposter",
 }
 
 # Rubriker för leveransernas ändringar per tabell
@@ -41,11 +43,16 @@ TABELLER = {
     "term": "termer", "ordboksartikel": "ordboksartiklar", "auktoritet": "personer i auktoritetslängderna",
 }
 
-# Brev och runinskrifter är tusentals verk var och redovisas som en källa var
+# Brevsamlingarna och runinskrifterna är tusentals verk var och redovisas som en källsamling var,
+# diplomatarierna under sina formella namn
 SAMLADE = {
-    "sdhk": "Medeltidsbrev i Svenskt Diplomatariums huvudkartotek (SDHK)",
+    "sdhk": "Svenskt Diplomatariums huvudkartotek över medeltidsbreven (SDHK)",
+    "df": "Diplomatarium Fennicum",
+    "dn": "Diplomatarium Norvegicum",
+    "di": "Diplomatarium Islandicum",
     "rundata": "Runinskrifter i Rundata",
 }
+DIPLOMATARIER = ("sdhk", "df", "dn", "di")
 
 # Hänvisningen som källan kräver varje gång dess uppgifter visas. Samnordisk
 # runtextdatabas ska anges med namn och med just den här adressen.
@@ -56,6 +63,15 @@ HANVISNINGAR = {
     ],
     "sdhk": [
         ("Svenskt Diplomatariums huvudkartotek, Riksarkivet", "https://sok.riksarkivet.se/sdhk"),
+    ],
+    "df": [
+        ("Diplomatarium Fennicum, Kansallisarkisto", "https://df.kansallisarkisto.fi/"),
+    ],
+    "dn": [
+        ("Diplomatarium Norvegicum, Nasjonalbiblioteket", "https://www.nb.no/forskning/medieval-latin/corpus/"),
+    ],
+    "di": [
+        ("Diplomatarium Islandicum, Bækur.is", "https://baekur.is/bok/676591e5-5556-493c-83b6-f8ffce008ea4"),
     ],
 }
 
@@ -185,10 +201,11 @@ def _berakna_kallforteckning() -> list[dict]:
         JOIN fornmed.passage pa ON pa.verk_id = v.id
         LEFT JOIN fornmed.utgava u ON u.id = pa.utgava_id
         LEFT JOIN fornmed.kallsamling k ON k.id = v.kallsamling_id
-        WHERE v.kallsamling_id NOT IN ('sdhk', 'rundata')
+        WHERE v.kallsamling_id <> ALL(%s)
         GROUP BY v.id, v.titel, v.upphov, v.datering_edtf, v.genre, k.namn, u.id, u.sprak, u.typ,
                  u.roll, u.oversattare, u.ar, COALESCE(u.licens, k.licens), pa.typ
-        """
+        """,
+        (list(SAMLADE),),
     )
     verk: dict[str, dict] = {}
     for r in rader:
@@ -224,7 +241,7 @@ def _berakna_kallforteckning() -> list[dict]:
                     v["beskrivning"] += f", efter utgåvan {ar}"
 
     kallor = list(verk.values())
-    kallor += [_samlad("sdhk"), _samlad("rundata")]
+    kallor += [_samlad(k) for k in SAMLADE]
     for post in kallor:
         post["bokstav"] = _bokstav(post["titel"])
         licenser = {v["licens"] for v in post["versioner"] if v["licens"]}
@@ -235,7 +252,7 @@ def _berakna_kallforteckning() -> list[dict]:
 
 
 def _samlad(kallsamling: str) -> dict:
-    """Brevsamlingen eller runinskrifterna som en post, med språkversionerna sammanräknade."""
+    """En brevsamling eller runinskrifterna som en post, med språkversionerna sammanräknade."""
     rader = _rader(
         """
         SELECT pa.typ AS passagetyp, pa.sprak, COALESCE(u.licens, k.licens) AS licens, count(*) AS passager
@@ -251,7 +268,7 @@ def _samlad(kallsamling: str) -> dict:
     )
     antal = _rader("SELECT count(*) AS n FROM fornmed.verk WHERE kallsamling_id = %s", (kallsamling,))[0]["n"]
     namn = {"originaltext": "original", "normaliserad": "original", "oversattning": "oversattning",
-            "regest": "regest", "skolion": "original"}
+            "regest": "regest", "skolion": "original", "anmarkning": "anmarkning", "register": "register"}
     versioner = []
     for r in rader:
         version = _version(namn.get(r["passagetyp"], "original"), r["sprak"], None, None, None,
@@ -261,7 +278,7 @@ def _samlad(kallsamling: str) -> dict:
                                       "oversattning": "översättning"}.get(r["passagetyp"], version["beskrivning"])
         versioner.append(version)
     return {"id": None, "titel": SAMLADE[kallsamling], "upphov": None, "datering": None,
-            "genre": "diplom" if kallsamling == "sdhk" else "runinskrift", "kallsamling": None,
+            "genre": "runinskrift" if kallsamling == "rundata" else "diplom", "kallsamling": None,
             "versioner": versioner, "antal": antal, "samlad": kallsamling,
             "hanvisningar": HANVISNINGAR.get(kallsamling, [])}
 
@@ -308,16 +325,19 @@ def leveranser() -> list[dict]:
 
 
 def _berakna_omfang() -> dict:
+    # Ett brev som också finns i SDHK (DF- och DN-brev med SDHK-nummer) räknas en gång
     rader = _rader(
         """
-        SELECT (SELECT count(*) FROM fornmed.verk WHERE kallsamling_id = 'sdhk') AS brev,
+        SELECT (SELECT count(*) FROM fornmed.verk WHERE kallsamling_id = ANY(%(brev)s)
+                  AND jsonb_array_length(COALESCE((extra::jsonb)->'sdhk', '[]'::jsonb)) = 0) AS brev,
                (SELECT count(*) FROM fornmed.verk WHERE kallsamling_id = 'rundata') AS runinskrifter,
-               (SELECT count(*) FROM fornmed.verk WHERE kallsamling_id NOT IN ('sdhk', 'rundata')) AS ovriga_verk,
+               (SELECT count(*) FROM fornmed.verk WHERE kallsamling_id <> ALL(%(samlade)s)) AS ovriga_verk,
                (SELECT count(*) FROM fornmed.verk) AS verk,
                (SELECT count(*) FROM fornmed.passage) AS passager,
                (SELECT count(*) FROM fornmed.pastaende) AS pastaenden,
                (SELECT count(*) FROM fornmed.kallsamling) AS kallsamlingar
-        """
+        """,
+        {"brev": list(DIPLOMATARIER), "samlade": list(SAMLADE)},
     )
     return rader[0]
 

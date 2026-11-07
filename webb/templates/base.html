@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block titel %}{% if page and page.depth > 2 %}{{ page.title }} – {% endif %}Fornmed{% endblock %}</title>
 {% if page.search_description %}<meta name="description" content="{{ page.search_description }}">{% endif %}
-<script>document.documentElement.classList.add("js");</script>
+<script src="{% static 'sidor/webb.js' %}"></script>
 <link rel="stylesheet" href="{% static 'grafisk_profil/profil.css' %}">
 <link rel="stylesheet" href="{% static 'sidor/webb.css' %}">
 <link rel="icon" href="{% static 'grafisk_profil/fornmed-logo-enfarg.svg' %}" type="image/svg+xml">
@@ -31,24 +31,6 @@
     </nav>
   </div>
 </header>
-<script>
-/* Menyn fälls ihop till en knapp på smala skärmar. Utan skript visas den som vanligt. */
-(function () {
-  var knapp = document.querySelector(".menyknapp");
-  if (!knapp) return;
-  knapp.hidden = false;
-  knapp.addEventListener("click", function () {
-    var oppen = knapp.getAttribute("aria-expanded") === "true";
-    knapp.setAttribute("aria-expanded", oppen ? "false" : "true");
-  });
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && knapp.getAttribute("aria-expanded") === "true") {
-      knapp.setAttribute("aria-expanded", "false");
-      knapp.focus();
-    }
-  });
-})();
-</script>
 <main id="innehall" class="ram">
 {% block innehall %}{% endblock %}
 </main>

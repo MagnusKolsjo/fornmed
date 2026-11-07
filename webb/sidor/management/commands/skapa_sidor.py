@@ -26,7 +26,7 @@ START_INGRESS = (
 START_TEXT = """
 <h2>Vad som finns</h2>
 <ul>
-<li>Medeltidsbrev ur Riksarkivets SDHK, 44 000 brev fram till 1540, med regester och originaltexter</li>
+<li>Medeltidsbrev ur fyra källsamlingar, med regester och originaltexter: Riksarkivets SDHK (44 000 brev fram till 1540), Diplomatarium Fennicum (6 900 brev fram till 1530), Diplomatarium Norvegicum (19 000 brev) och Diplomatarium Islandicum (8 700 brev), de två sista med de flesta breven före 1570</li>
 <li>Runinskrifter ur Rundata, 6 800 inskrifter med translitterering, normalisering och översättning</li>
 <li>Landskapslagarna, stadslagen och landslagarna, Grágás och Hednalagen</li>
 <li>Eddorna, Heimskringla, islänningasagorna, fornaldarsagorna och kungasagorna</li>
@@ -71,7 +71,7 @@ KALLOR_TEXT = """
 <li><b>maskinöversättning</b>: en svensk översättning gjord av en språkmodell. Den är ogranskad och bör inte citeras som översättning; hänvisa till originalet eller en tryckt översättning,</li>
 <li><b>maskintranskription</b>: originaltext som en språkmodell läst av från sidbilder. Den är ogranskad och bör kontrolleras mot sidbilden.</li>
 </ul>
-<p>Titeln leder till texten i originalet och språket till den versionen. Där kan texten också visas sida vid sida med en översättning och hämtas som Markdown, text eller JSON. Medeltidsbreven och runinskrifterna är tusentals verk och redovisas som en post var.</p>
+<p>Titeln leder till texten i originalet och språket till den versionen. Där kan texten också visas sida vid sida med en översättning och hämtas som Markdown, text eller JSON. Brevsamlingarna (SDHK, Diplomatarium Fennicum, Norvegicum och Islandicum) och runinskrifterna är tusentals verk och redovisas som en post per källsamling.</p>
 """
 
 PASTAENDEN_INGRESS = (

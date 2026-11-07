@@ -158,7 +158,7 @@ def _tidslinje(decennier: list[dict], param: dict) -> list[dict]:
         staplar.append({
             "decennium": decennium, "till": decennium + 9, "antal": n,
             # Roten ur jämnar ut skillnaden mellan breven på 1400-talet och allt annat
-            "hojd": round(100 * math.sqrt(n / storst), 1) if n else 0,
+            "hojd": round(100 * math.sqrt(n / storst)) if n else 0,
             "url": _lank(param, ar_fran=decennium, ar_till=decennium + 9),
             "sekel": decennium % 100 == 0,
         })
