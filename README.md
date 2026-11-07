@@ -848,6 +848,19 @@ inte en ny entitet i DF. I de senare faserna förs också en förekomst utan ort
 en person med samma namn finns inom 40 år; DF skriver ofta bara "Arvid Kurck" där
 SDHK har ämbetet.
 
+Efter klustringen slås personer med samma släktnamn ihop, när klustringen höll isär
+dem bara för att ett brev saknade ort och ämbete eller de hade olika ämbeten. En
+person utan ort och ämbete ("Peter Duva", 1445) förs till den enda personen med samma
+namn och ort eller ämbete inom 20 år ("väpnaren Peter Duva", 1438–1441). Två personer
+med ort eller ämbete och ett namn i minst tre led, varav ett släktnamn ("Karl
+Tordsson Bonde"), slås ihop inom 40 år och 60 års spann. Personer som förekommer i
+samma brev hålls alltid isär. Ett patronymikon, svenskt eller latinskt ("Nils
+Larsson", "Petrus Suenonis"), pekar inte ut en person och slås inte ihop. En person
+utan ort och ämbete med ett patronymikon får i stället en möjlig identifiering
+(`kommentar = 'samma_namn'`, bedömning `mojlig`) med den enda personen med samma namn
+och ort eller ämbete inom tio år. Den som sammanslagningen tar bort ett id från
+hänvisar till det nya, som andra ersatta id:n.
+
 Sammanslagningen är medvetet försiktig, men två kända svagheter finns kvar.
 Samma person kan bli flera entiteter när fälten saknar ort eller ämbete. Och
 två ämbetsinnehavare med samma förnamn och säte kan slås ihop om de följer
@@ -923,7 +936,9 @@ andra källor kan länka till den. Regenter, påvar och biskopar har fasta id:n 
 auktoritetslistorna, med Wikidata-id där sådant finns. För övriga personer
 minns `data/sdhk_idregister.tsv` vilket id varje förekomst (brev och
 utfärdarform) fick senast. När klustringen ändras får varje grupp det tidigare
-id som flest av dess förekomster hade; större grupper väljer först. Ett id som
+id som flest av dess förekomster hade; grupper med fler förekomster ur SDHK:s
+utfärdare och mottagare väljer först, sedan större grupper, så att ett SDHK-brev
+behåller sitt id när en grupp delas. Ett id som
 ingen grupp får tillbaka ersätts av det id dit flest av förekomsterna gick, och
 finns kvar som en entitet med identifieringen `ersatt_av`, så att länkar från
 andra källor går att följa. Ett id delas aldrig ut på nytt till en annan

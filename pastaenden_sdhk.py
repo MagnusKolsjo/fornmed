@@ -914,7 +914,7 @@ def _biskopsambete(u: Utfardare, saten: set[str]) -> tuple[str, str | None] | No
     return (kod, sate) if sate else None
 
 
-def klustra(forekomster: list[Forekomst]) -> None:
+def klustra(forekomster: list[Forekomst]) -> list[tuple[dict, dict]]:
     """
     Slår ihop förekomster av samma person (nivå 3). Förekomsterna gås igenom
     i tidsordning per förnamn. En förekomst förs till en tidigare person när
@@ -945,7 +945,127 @@ def klustra(forekomster: list[Forekomst]) -> None:
         for namn, lista in per_fornamn.items():
             _klustra_fornamn(lista, egna_per_fornamn[namn], slaktnamn=fas != FASER[0])
     personer = [p for egna in egna_per_fornamn.values() for p in egna]
+    personer = _sla_ihop_slaktnamn(personer)
     _namnge(personer)
+    return _mojliga_samma(personer)
+
+
+# Största uppehåll när en förekomst utan ort och ämbete förs till en person med samma släktnamn
+MAX_GAP_UTAN_AR = 20
+# Största uppehåll för en möjlig identifiering på ett patronymikon
+MAX_GAP_MOJLIG_AR = 10
+
+
+def _personuppgifter(p: dict) -> tuple[str | None, tuple[int, int] | None, set[str], set[str]]:
+    """Fullständigt namn (förnamn och efternamn), spann, nycklar och brev för en person."""
+    # Ett efternamn inom parentes ensamt är ett annat förnamn ("Lase (Laurens)"), inget släktnamn
+    fulla = Counter(ordform(f"{f.u.fornamn} {f.u.efternamn}") for f in p["forekomster"]
+                    if f.u.efternamn and f.u.fornamn and re.sub(r"\([^)]*\)", "", f.u.efternamn).strip())
+    ar = [x for f in p["forekomster"] if f.ar for x in f.ar]
+    nycklar = set().union(*(f.nycklar() for f in p["forekomster"]))
+    return (fulla.most_common(1)[0][0] if fulla else None, (min(ar), max(ar)) if ar else None,
+            nycklar, {f.verk for f in p["forekomster"]})
+
+
+def _gap(a: tuple[int, int], b: tuple[int, int]) -> int:
+    return max(0, a[0] - b[1], b[0] - a[1])
+
+
+def _spann(a: tuple[int, int], b: tuple[int, int]) -> int:
+    return max(a[1], b[1]) - min(a[0], b[0])
+
+
+def _sla_ihop_slaktnamn(personer: list[dict]) -> list[dict]:
+    """
+    Slår ihop personer med samma släktnamn som klustringen höll isär, eftersom ett av
+    breven saknade ort och ämbete eller de två hade olika ämbeten:
+
+    1. En person utan ort och ämbete ("Peter Duva", 1445) förs till den enda personen
+       med samma förnamn och släktnamn, ort eller ämbete och högst MAX_GAP_UTAN_AR års
+       uppehåll ("väpnaren Peter Duva", 1438–1441).
+    2. Två personer med ort eller ämbete och ett namn i minst tre led, varav ett
+       släktnamn ("Karl Tordsson Bonde", "Axel Petersson Tott"), slås ihop när de ligger
+       inom MAX_GAP_AR och MAX_SPANN_AR och inte har samma ämbete på olika säten.
+
+    Två personer som förekommer i samma brev hålls alltid isär (far och son med samma
+    namn). Ett patronymikon ("Nils Larsson") pekar inte ut en person och slås inte ihop
+    här; se _mojliga_samma. Sammanslagningen ändrar SDHK:s grupper, men IdRegister ger
+    gruppen det id som flest förekomster hade, och det andra id:t hänvisar dit.
+    """
+    uppg = [_personuppgifter(p) for p in personer]
+    forald = list(range(len(personer)))
+
+    def rot(i: int) -> int:
+        while forald[i] != i:
+            forald[i] = forald[forald[i]]
+            i = forald[i]
+        return i
+
+    spann_rot = {i: u[1] for i, u in enumerate(uppg)}
+    brev_rot = {i: set(u[3]) for i, u in enumerate(uppg)}
+    nyck_rot = {i: set(u[2]) for i, u in enumerate(uppg)}
+
+    def forena(i: int, j: int) -> bool:
+        a, b = rot(i), rot(j)
+        if a == b:
+            return False
+        if brev_rot[a] & brev_rot[b] or _sateskonflikt(nyck_rot[a], nyck_rot[b]) or \
+                _spann(spann_rot[a], spann_rot[b]) > MAX_SPANN_AR:
+            return False
+        forald[b] = a
+        spann_rot[a] = (min(spann_rot[a][0], spann_rot[b][0]), max(spann_rot[a][1], spann_rot[b][1]))
+        brev_rot[a] |= brev_rot[b]
+        nyck_rot[a] |= nyck_rot[b]
+        return True
+
+    per_namn: dict[str, list[int]] = defaultdict(list)
+    for i, (namn, spann, _, _) in enumerate(uppg):
+        if namn and spann and " " in namn and not PATRONYMIKON.search(namn):
+            per_namn[namn].append(i)
+    for namn, lista in sorted(per_namn.items()):
+        med = [i for i in lista if uppg[i][2]]
+        for i in (i for i in lista if not uppg[i][2]):
+            kandidater = [j for j in med if _gap(uppg[i][1], uppg[j][1]) <= MAX_GAP_UTAN_AR
+                          and not (uppg[i][3] & uppg[j][3])]
+            if len(kandidater) == 1:
+                forena(kandidater[0], i)
+        if len(namn.split()) >= 3:
+            med.sort(key=lambda i: uppg[i][1])
+            for x, i in enumerate(med):
+                for j in med[x + 1:]:
+                    if _gap(uppg[i][1], uppg[j][1]) <= MAX_GAP_AR:
+                        forena(i, j)
+
+    grupper: dict[int, dict] = {}
+    for i, p in enumerate(personer):
+        g = grupper.setdefault(rot(i), {"efternamn": p["efternamn"], "nycklar": set(), "fran": 9999, "till": 0,
+                                        "forekomster": []})
+        g["forekomster"] += p["forekomster"]
+        g["nycklar"] |= p["nycklar"]
+    return list(grupper.values())
+
+
+def _mojliga_samma(personer: list[dict]) -> list[tuple[dict, dict]]:
+    """
+    Personer som kan vara samma men inte slås ihop: en person utan ort och ämbete med ett
+    patronymikon ("Ulf Staffansson", 1418) och den enda personen med samma namn och ort
+    eller ämbete inom MAX_GAP_MOJLIG_AR år ("väpnaren Ulf Staffansson", 1411–1436). De
+    blir möjliga identifieringar, så att den som använder databasen ser kandidaten.
+    """
+    uppg = [_personuppgifter(p) for p in personer]
+    per_namn: dict[str, list[int]] = defaultdict(list)
+    for i, (namn, spann, _, _) in enumerate(uppg):
+        if namn and spann and PATRONYMIKON.search(namn):
+            per_namn[namn].append(i)
+    ut = []
+    for lista in per_namn.values():
+        med = [i for i in lista if uppg[i][2]]
+        for i in (i for i in lista if not uppg[i][2]):
+            kandidater = [j for j in med if _gap(uppg[i][1], uppg[j][1]) <= MAX_GAP_MOJLIG_AR
+                          and not (uppg[i][3] & uppg[j][3])]
+            if len(kandidater) == 1:
+                ut.append((personer[i], personer[kandidater[0]]))
+    return ut
 
 
 # Klustringens faser: (roll, källa). En senare fas ändrar aldrig en tidigare fas personer.
@@ -956,7 +1076,8 @@ def _fas(f: "Forekomst") -> tuple[int, str]:
     return (1 if f.roll == "adressat" else 0, f.verk.split(":", 1)[0])
 
 
-PATRONYMIKON = re.compile(r"(?:son|sen|sön|dot+er|dottir)$")
+# Svenska och latinska patronymikon: "Larsson", "Nilsdotter", "Petri", "Suenonis", "Tidechini"
+PATRONYMIKON = re.compile(r"(?:son|sen|sön|dot+er|dottir|i|is)$")
 
 
 def _klustra_fornamn(lista: list[Forekomst], egna: list[dict], slaktnamn: bool = False) -> None:
@@ -1050,8 +1171,8 @@ class IdRegister:
     Minns vilket id varje förekomst (brev och utfärdarform) fick senast, så
     att en person behåller sitt id när klustringen eller SDHK-datat ändras.
 
-    En grupp får det tidigare id som flest av dess förekomster hade; större
-    grupper väljer först. Ett id som ingen grupp får tillbaka ersätts av det
+    En grupp får det tidigare id som flest av dess förekomster hade; grupper med
+    fler förekomster ur SDHK:s utfärdare och mottagare väljer först, sedan större grupper. Ett id som ingen grupp får tillbaka ersätts av det
     id dit flest av dess förekomster gick, och ersättningen sparas så att
     länkar från andra källor går att följa. Ett id delas aldrig ut på nytt
     till en annan person. Registret ligger i data/ och delas mellan miljöerna.
@@ -1095,7 +1216,10 @@ class IdRegister:
                 grupper[f.entitet].append(f)
         tagna: set[str] = set()
         byte: dict[str, str] = {}
-        for forslag, grupp in sorted(grupper.items(), key=lambda g: (-len(g[1]), g[0])):
+        # SDHK:s utfärdare och mottagare väljer först, så att ett SDHK-brev behåller sitt id
+        # när en grupp delas; därefter större grupper före mindre
+        bas = lambda grupp: sum(1 for f in grupp if _fas(f) == FASER[0])
+        for forslag, grupp in sorted(grupper.items(), key=lambda g: (-bas(g[1]), -len(g[1]), g[0])):
             rost = Counter(self.tidigare[nyckel[id(f)]] for f in grupp if nyckel[id(f)] in self.tidigare)
             val = next((pid for pid, _ in rost.most_common() if pid not in tagna and pid.startswith(BREVPERSON)),
                        None)
@@ -1335,7 +1459,7 @@ def bygg(conn) -> dict:
                 stat["adressat"] += 1
 
     att_klustra = [f for f in forekomster if f.entitet is None]
-    klustra(att_klustra)
+    mojliga = klustra(att_klustra)
     for f in forekomster:
         stat[f"{f.roll}_" + (f.orsak or "okopplad")] += 1
         if f.identitet and f.identitet.entitet:
@@ -1354,6 +1478,7 @@ def bygg(conn) -> dict:
     return {"forekomster": forekomster, "institutioner": institutioner, "regenter": regenter,
             "register": register, "garningar": garningar, "brevformer": brevformer, "regesttext": regesttexter,
             "alla_brev": alla_brev,
+            "mojliga_samma": [(a["forekomster"][0].entitet, b["forekomster"][0].entitet) for a, b in mojliga],
             "datering": datering, "stat": stat, "otolkade": otolkade, "ofullstandiga": ofullst}
 
 
@@ -1667,6 +1792,16 @@ def rader(resultat: dict, uppslag) -> dict[str, list[tuple]]:
         amb = ", ".join(a for a, _ in info["ambeten"].most_common(3))
         kallor = " och ".join(KALLOR[k] for k in KALLOR if k in info["kallor"])
         entiteter[eid] = (eid, "person", namn, f"I {kallor} {spann}" + (f"; {amb}" if amb else ""))
+
+    # Möjligen samma person: kandidaten blir en identifiering, inte en sammanslagning
+    for a, b in resultat["mojliga_samma"]:
+        if not a or not b or a == b:
+            continue
+        iid = f"identifiering:sdhk:samma_namn:{a.split(':', 1)[1].replace(':', '_')}:{b.split(':', 1)[1].replace(':', '_')}"
+        identifieringar.append((iid, a, b, None, "samma_namn"))
+        bedomningar.append((f"{iid}:bedomning", None, iid, "identifiering", "mojlig",
+                            "Samma förnamn och patronymikon inom tio år, och den enda personen med namnet som "
+                            "har ort eller ämbete. Ett patronymikon pekar inte ensamt ut en person."))
 
     # Ersatta id:n finns kvar som hänvisningar, så att länkar från andra källor
     # går att följa till personen de slogs ihop med

@@ -7,6 +7,10 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Brevpersoner med samma släktnamn som klustringen höll isär slås ihop (893 id:n hänvisar
+  nu till ett annat), och 2 551 personer med samma patronymikon inom tio år har fått en
+  möjlig identifiering med varandra i stället för att slås ihop.
+
 - `platsdubletter.py` och `data/platser/platsdubletter.tsv`: 217 platser som fanns under
   två id:n (brevort och fyndplats, brevens socken och RAÄ:s, olika stavningar) hänvisar
   nu till en och samma plats. De gamla id:na finns kvar och fungerar.
