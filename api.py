@@ -23,6 +23,7 @@ import db
 import dokument
 import fragor
 import listor
+import objektsok
 import sok
 from dokument import DokumentFel
 from fastapi import FastAPI, Path, Query, Request
@@ -363,6 +364,77 @@ def sokning(
     data = {"fraga": q, "metod": metod, "texttyper": texttyper, "antal": len(svar["traffar"]),
             "expansion": svar["expansion"], "traffar": svar["traffar"]}
     return _svar(request, data, "lista", rader=svar["traffar"], titel=f"Sökning: {q}")
+
+
+def _bbox(varde: str | None) -> tuple[float, float, float, float] | None:
+    if not varde:
+        return None
+    try:
+        vast, syd, ost, nord = (float(v) for v in varde.split(","))
+    except ValueError as fel:
+        raise DokumentFel(400, "bbox anges som västra längd,södra bredd,östra längd,norra bredd") from fel
+    return vast, syd, ost, nord
+
+
+@app.get("/v1/sok/objekt/{objekt_id}", tags=["sökning"], responses=_innehall("objekt"),
+         summary="Ett verks eller en entitets sökpost: typ, tider och platser")
+def sokpost(request: Request, objekt_id: str, _format: FormatParam = None) -> Response:
+    post = _hittad(objektsok.hamta_poster([objekt_id]).get(objekt_id), f"Sökposten '{objekt_id}'")
+    return _svar(request, post, "objekt")
+
+
+@app.get("/v1/sok/objekt", tags=["sökning"], responses=_innehall("lista"),
+         summary="Sök dokument och entiteter med tid, plats och fasetter")
+def sok_objekt(
+    request: Request,
+    q: Annotated[str | None, Query(description="Frågan. Utan fråga listas urvalet i tidsordning")] = None,
+    objekttyp: Annotated[str | None, Query(pattern="^(verk|entitet)$")] = None,
+    undertyp: Annotated[str | None, Query(description="Verkets genre (diplom, saga, lag …) eller "
+                                                      "entitetens typ (person, plats …)")] = None,
+    kallsamling: Annotated[str | None, Query(description="t.ex. sdhk, df, rundata")] = None,
+    ar_fran: int | None = None,
+    ar_till: int | None = None,
+    tidsaxel: Annotated[str, Query(
+        pattern="^(primar|handelse|tillkomst|forlaga)$",
+        description="Vilken tid årsfiltret gäller: primar (händelsen om den är känd, annars tillkomsten), "
+                    "handelse, tillkomst eller forlaga (äldsta daterade vittne)")] = "primar",
+    plats: Annotated[str | None, Query(description="Platsens entitets-id. Ett land, landskap, län, en kommun "
+                                                   "eller socken omfattar platserna där, t.ex. plats:gotland")] = None,
+    platsroll: Annotated[str | None, Query(
+        pattern="^(primar|handelse|tillkomst|forvaring|lage)$",
+        description="Vilken roll platsen ska ha; utan roll räknas alla")] = None,
+    bbox: Annotated[str | None, Query(description="Primära platser inom västra längd,södra bredd,"
+                                                  "östra längd,norra bredd (WGS84)")] = None,
+    texttyper: Annotated[str, Query(pattern="^(moderna|alla)$")] = "moderna",
+    expandera: bool = True,
+    fasetter: bool = True,
+    karta: Annotated[bool, Query(description="Urvalets primära platser med läge och antal, för en karta")] = False,
+    sida: Annotated[int, Query(ge=1)] = 1,
+    per_sida: Annotated[int, Query(ge=1, le=100)] = 20,
+    max_tecken_per_traff: Annotated[int, Query(ge=50, le=20000)] = 500,
+    _format: FormatParam = None,
+) -> Response:
+    filter_ = sok.Filter(ar_fran, ar_till, tidsaxel=tidsaxel, kallsamling=kallsamling, plats=plats,
+                         platsroll=platsroll, objekttyp=objekttyp, undertyp=undertyp, bbox=_bbox(bbox))
+    with SOKNINGAR_SAMTIDIGT:
+        try:
+            svar = objektsok.sok_objekt(q, filter_, per_sida, sida, texttyper, expandera, fasetter, karta)
+        except ValueError as fel:
+            raise DokumentFel(400, str(fel)) from fel
+    for traff in svar["traffar"]:
+        utdrag = traff.get("utdrag")
+        if utdrag:
+            utdrag["trunkerad"] = len(utdrag["text"]) > max_tecken_per_traff
+            utdrag["text"] = utdrag["text"][:max_tecken_per_traff]
+    rader = [{"id": t["id"], "objekttyp": t["objekttyp"], "undertyp": t["undertyp"], "rubrik": t["rubrik"],
+              "tid_fran": (t["tid"]["visas"] or {}).get("fran"), "tid_till": (t["tid"]["visas"] or {}).get("till"),
+              "tid_kalla": (t["tid"]["visas"] or {}).get("kalla"),
+              "platser": "; ".join(p["namn"] for p in t["platser"] if p["primar"]),
+              "sammanfattning": t["sammanfattning"]} for t in svar["traffar"]]
+    return _svar(request, svar["traffar"], "lista", rader=rader, titel=f"Sökning: {q or 'urval'}",
+                 total=svar["total"], sida=sida, per_sida=per_sida,
+                 omslag={"fraga": q, "expansion": svar["expansion"], "stavning": svar["stavning"], "kapad": svar["kapad"],
+                         "fasetter": svar["fasetter"], "karta": svar["karta"]})
 
 
 # -----------------------------------------------------------------------------

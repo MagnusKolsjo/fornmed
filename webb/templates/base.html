@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block titel %}{% if page and page.depth > 2 %}{{ page.title }} – {% endif %}Fornmed{% endblock %}</title>
 {% if page.search_description %}<meta name="description" content="{{ page.search_description }}">{% endif %}
+<script>document.documentElement.classList.add("js");</script>
 <link rel="stylesheet" href="{% static 'grafisk_profil/profil.css' %}">
 <link rel="stylesheet" href="{% static 'sidor/webb.css' %}">
 <link rel="icon" href="{% static 'grafisk_profil/fornmed-logo-enfarg.svg' %}" type="image/svg+xml">
@@ -14,9 +15,14 @@
 <a class="hoppa" href="#innehall">Till innehållet</a>
 <header class="sidhuvud" id="sidhuvud">
   <div class="ram">
-    <a class="logotyp" href="{% if startsida %}{% pageurl startsida %}{% else %}/{% endif %}"><img src="{% static 'grafisk_profil/fornmed-logo.svg' %}" alt="Fornmed" width="220" height="64"></a>
-    <nav aria-label="Huvudmeny">
-      <ul>
+    <a class="logotyp" href="{% if startsida %}{% pageurl startsida %}{% else %}/{% endif %}"><img src="{% static 'grafisk_profil/fornmed-logo.svg' %}" alt="Fornmed, till startsidan" width="260" height="76"></a>
+    <div class="profillinje" aria-hidden="true"></div>
+    <nav class="huvudmeny" aria-label="Huvudmeny">
+      <button type="button" class="menyknapp" aria-expanded="false" aria-controls="meny" hidden>
+        <span class="menyikon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Meny</span>
+      </button>
+      <ul class="meny" id="meny">
         {% if startsida %}<li><a href="{% pageurl startsida %}"{% if page and page.id == startsida.id %} aria-current="page"{% endif %}>Sammanfattning</a></li>{% endif %}
         {% for sida in meny %}
         <li><a href="{% pageurl sida %}"{% if page and page.id == sida.id %} aria-current="page"{% endif %}>{{ sida.title }}</a></li>
@@ -25,6 +31,24 @@
     </nav>
   </div>
 </header>
+<script>
+/* Menyn fälls ihop till en knapp på smala skärmar. Utan skript visas den som vanligt. */
+(function () {
+  var knapp = document.querySelector(".menyknapp");
+  if (!knapp) return;
+  knapp.hidden = false;
+  knapp.addEventListener("click", function () {
+    var oppen = knapp.getAttribute("aria-expanded") === "true";
+    knapp.setAttribute("aria-expanded", oppen ? "false" : "true");
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && knapp.getAttribute("aria-expanded") === "true") {
+      knapp.setAttribute("aria-expanded", "false");
+      knapp.focus();
+    }
+  });
+})();
+</script>
 <main id="innehall" class="ram">
 {% block innehall %}{% endblock %}
 </main>

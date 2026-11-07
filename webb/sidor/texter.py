@@ -38,19 +38,25 @@ class TextFel(Exception):
         self.detaljer = detaljer
 
 
+# Brevsamlingar vars verk har id utan verk: framför, t.ex. sdhk:1000 och dn:1:1
+BREVSAMLINGAR = ("sdhk", "df", "dn")
+
+
 def adress(verk_id: str) -> str:
     """Verkets id som del av en webbadress: verk:lag:aldre_vastgotalagen blir lag-aldre_vastgotalagen.
 
     Wagtail släpper bara igenom bokstäver, siffror, understreck och bindestreck
-    i adressens delar. Verkens id börjar alla med verk: och har inga bindestreck,
-    så kolon kan skrivas som bindestreck och adressen göras om till id.
+    i adressens delar. Verkens id har inga bindestreck, så kolon kan skrivas
+    som bindestreck och adressen göras om till id. Breven har id som sdhk:1000
+    utan verk: och får adresser som sdhk-1000.
     """
     return verk_id.removeprefix("verk:").replace(":", "-")
 
 
 def verk_id(adress_: str) -> str:
     """Motsatsen till adress()."""
-    return "verk:" + adress_.replace("-", ":")
+    id_ = adress_.replace("-", ":")
+    return id_ if id_.split(":", 1)[0] in BREVSAMLINGAR else "verk:" + id_
 
 
 def _hamta(sokvag: str, **param) -> dict | list:

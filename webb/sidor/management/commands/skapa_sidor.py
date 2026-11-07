@@ -15,7 +15,7 @@ from django.core.management.base import BaseCommand
 from django.db import transaction
 from wagtail.models import Page, Site
 
-from sidor.models import KallforteckningSida, StartSida, TextSida, UppdateringarSida
+from sidor.models import KallforteckningSida, RegisterSida, SokSida, StartSida, TextSida, UppdateringarSida
 
 START_INGRESS = (
     "Fornmed samlar källor till Sveriges och Nordens forntid och medeltid och gör dem sökbara "
@@ -42,6 +42,22 @@ START_TEXT = """
 <p>Fornmed är en MCP-server som en AI-assistent som Claude kan söka och läsa i. Lägg till den med adressen <code>https://mcp.fornmed.se</code>; ingen inloggning behövs. <a href="/mcp/">Så ansluter du.</a></p>
 <p>Allt finns också i ett öppet <a href="/api/">API</a>. Hela dokument, delar och enskilda passager kan hämtas på valt språk som JSON, Markdown eller text, och listor som CSV.</p>
 """
+
+SOK_INGRESS = (
+    "Sök bland breven, runinskrifterna, lagarna och krönikorna och bland personerna, platserna och "
+    "begreppen i dem. Träffarna visas på karta och tidslinje efter när och var det hände."
+)
+
+SOK_TEXT = """
+<p>Sökningen hittar både ord och omskrivningar, och fackord som <i>ledung</i> och <i>frälse</i> söks också med sina fornsvenska och latinska former. Träffarna kan avgränsas till en tid, en plats, en typ av källa eller en källsamling.</p>
+<p>Varje träff visar när och var det som källan berättar ägde rum, så som påståendena i den anger det. Där det inte är känt visas när och var källan skrevs. Slå på de textkritiska uppgifterna för att se båda, och för att se när det äldsta bevarade vittnet skrevs och var källan förvaras.</p>
+"""
+
+REGISTER_INGRESS = (
+    "Personer, platser, institutioner, ämbeten, folk och begrepp i källorna. Varje post visar vad "
+    "källorna säger om den, med länkar till källan och till de andra som nämns. Sök efter en post "
+    "på söksidan."
+)
 
 KALLOR_INGRESS = (
     "Alla källor i Fornmed i bokstavsordning, med de språkversioner som finns och licensen för var och en."
@@ -216,6 +232,7 @@ VISA_OMFANG = {"metod"}
 
 # (klass, slug, titel, ingress, brödtext, i menyn)
 SIDOR = [
+    (SokSida, "sok", "Sök", SOK_INGRESS, SOK_TEXT, True),
     (KallforteckningSida, "kallor", "Källor", KALLOR_INGRESS, KALLOR_TEXT, True),
     (TextSida, "pastaenden", "Påståendesamlingarna", PASTAENDEN_INGRESS, PASTAENDEN_TEXT, True),
     (TextSida, "metod", "Metod och källkritik", METOD_INGRESS, METOD_TEXT, True),
@@ -223,6 +240,7 @@ SIDOR = [
     (TextSida, "api", "API", API_INGRESS, API_TEXT, True),
     (UppdateringarSida, "uppdateringar", "Uppdateringar", UPPDATERINGAR_INGRESS, "", True),
     (TextSida, "licenser", "Licenser", LICENSER_INGRESS, LICENSER_TEXT, False),
+    (RegisterSida, "register", "Register", REGISTER_INGRESS, "", False),
 ]
 
 

@@ -31,6 +31,32 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 - Isofs Ortnamnsregister (CC BY) ger orter utan beslut socken och härad (`hamta_isof.py`).
   Nya beslut läggs till och fattade beslut står kvar.
 - `data/platser/oklara_lagen.tsv`: brev vars läge ska granskas.
+- Sökindex (`sokindex.py`, tabellerna `sokpost` och `sokpost_plats`): varje verk och
+  entitet med tillkomst, förlaga och händelsetid och med platser för händelse,
+  tillkomst, förvaring och läge. Byggs om av `leverans.py`.
+- `/v1/sok/objekt`: dokument och entiteter med filter på typ, källsamling, tidsaxel,
+  plats och kartruta, och fasetter för typ, källsamling, sekel, land och landskap.
+  Utan fråga listas urvalet i tidsordning. Med `karta=true` följer urvalets platser med läge
+  och antal, och fasetten `decennium` ger underlaget för en tidslinje.
+- Webbplatsen: söksida med filter, fasetter, karta och tidslinje, och sökruta på startsidan.
+  Träffarna visar typ, tid och plats; textkritiska uppgifter (tillkomst, äldsta vittne,
+  förvaring) visas på begäran. Breven har egna sidor under `/kallor/verk/sdhk-<nr>/`.
+- Webbplatsen: registret med en sida per person, plats, institution, ämbete, folk och begrepp
+  (`/register/<id med -- för kolon>/`), med påståenden som länkar till källan och till andra
+  entiteter, identifieringar, namnar och namnformer. Alla sökträffar leder till en sida.
+- `/v1/sok/objekt/{id}`: ett verks eller en entitets sökpost med tider och platser.
+- Kartorna använder Leaflet 1.9.4 (BSD-2) och en baskarta ur Natural Earth (public domain)
+  som ligger på webbplatsen själv (`webb/bygg_baskarta.py`); en sida gör inga anrop till
+  andra servrar.
+- Webbplatsens sidhuvud, sökträffar och statusetiketter följer den grafiska manualen.
+- Brevsidorna och träffarnas källkritiska hjälp visar forskningens bedömningar av källan i klartext,
+  med bedömare och motivering; en bedömning av ett vittne, som en förfalskad avskrift, anger vittnet.
+- Felstavningstolerant sökning efter namn och termer (`stavning.py`) på söksidan och i
+  `/v1/sok/objekt`, med tolkningen i svaret.
+- `/v1/entiteter/{id}` och `fornmed_hamta_entitet`: påståendena har subjektets, objektets och
+  platsens namn, platsens id, passagen och verket, och namnformerna har verket.
+- `sok.Filter` har tidsaxel, källsamling, plats, platsroll, objekttyp, undertyp och
+  kartruta; `/v1/sok` och `fornmed_sok` fungerar som förut.
 
 ### Ändrat
 

@@ -9,6 +9,21 @@
     {% if verk.upphov %}{{ verk.upphov }}{% endif %}{% if verk.upphov and verk.datering_edtf %} · {% endif %}{% if verk.datering_edtf %}{{ verk.datering_edtf|datering }}{% endif %}{% if verk.kallsamling %} · {{ verk.kallsamling }}{% endif %}
   </p>
 
+  {% if bedomningar %}
+  <section class="bedomningar" aria-labelledby="bedomningar-rubrik">
+    <h2 id="bedomningar-rubrik">Bedömningar av källan</h2>
+    <ul>
+      {% for b in bedomningar %}
+      <li>
+        <span class="tag">{{ b.etikett }}</span>{% if not b.granskad %} <span class="tag">Bedömning: ogranskad</span>{% endif %}
+        {% if b.vittne %}<p class="metadata">Gäller vittnet: {{ b.vittne }}</p>{% endif %}
+        <p class="metadata">{% if b.kalla %}Enligt {{ b.kalla }}{% if b.sakerhet %}, säkerhet {{ b.sakerhet }}{% endif %}.{% endif %}{% if b.motivering %} {{ b.motivering }}{% endif %}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   <section class="verk-uppgifter" aria-label="Version och källhänvisning">
     <h2 class="dold">Version</h2>
     <ul class="versionsval">

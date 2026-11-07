@@ -1,9 +1,11 @@
 """
 Registrerar en leverans av databasen och skriver databaskopian.
 
-Körs på utvecklingsdatorn när databasen ska till servern. Skriptet räknar
-rader per tabell och verk per källsamling, jämför med förra leveransen och
-skriver en rad i tabellen leverans. Därefter görs kopian med pg_dump, så att
+Körs på utvecklingsdatorn när databasen ska till servern. Först byggs
+sökindexet om (sokindex.py), så att kopian aldrig har ett index som släpar
+efter källorna. Sedan räknar skriptet rader per tabell och verk per
+källsamling, jämför med förra leveransen och skriver en rad i tabellen
+leverans. Därefter görs kopian med pg_dump, så att
 raden följer med: webbplatsens lista över uppdateringar och API:ets
 /v1/leveranser bygger på den.
 
@@ -24,6 +26,7 @@ import subprocess
 from datetime import datetime
 
 import db
+import sokindex
 from fragor import _en, _rader
 
 log = logging.getLogger("leverans")
@@ -111,6 +114,7 @@ def main() -> None:
         tolk.error("kopian görs med pg_dump och kräver PostgreSQL; använd --bara-registrera")
 
     db.initiera_schema()
+    log.info("Sökindexet byggt: %(poster)d poster med %(platser)d platser", sokindex.bygg())
     leverans = registrera(argument.anmarkning)
     log.info("Leverans %s registrerad: %s", leverans["id"],
              json.dumps(leverans["andringar"], ensure_ascii=False))

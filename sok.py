@@ -65,16 +65,48 @@ SUFFIX = ("arnas", "ernas", "ornas", "arna", "erna", "orna", "nas", "ens", "ets"
           "ar", "or", "na", "n", "s")
 
 
+# Tidsaxlarna i sökindexet (sokindex.py) och deras kolumnprefix. primar är den
+# tid som visas först: händelsen om den är känd, annars tillkomsten.
+TIDSAXLAR = {"primar": "tid", "handelse": "handelse", "tillkomst": "tillkomst", "forlaga": "forlaga"}
+PLATSROLLER = ("primar", "handelse", "tillkomst", "forvaring", "lage")
+
+
 @dataclass
 class Filter:
-    """Avgränsning på verkets datering (överlappande årsintervall) och genre."""
+    """
+    Avgränsning på tid, genre, källsamling och plats.
+
+    Årsfiltret gäller verkets datering (tillkomsten) om inte en annan
+    tidsaxel anges. Övriga axlar, källsamling, plats och objekttyp läses ur
+    sökindexet, som måste vara byggt med sokindex.py.
+    """
 
     ar_fran: int | None = None
     ar_till: int | None = None
     genre: str | None = None
+    tidsaxel: str = "tillkomst"
+    kallsamling: str | None = None
+    # Platsens entitets-id; ett land, landskap, län, en kommun eller socken
+    # omfattar också platserna där
+    plats: str | None = None
+    platsroll: str | None = None
+    objekttyp: str | None = None
+    undertyp: str | None = None
+    # Primära platser inom (västra längd, södra bredd, östra längd, norra bredd)
+    bbox: tuple[float, float, float, float] | None = None
+
+    def __post_init__(self) -> None:
+        if self.tidsaxel not in TIDSAXLAR:
+            raise ValueError(f"Okänd tidsaxel '{self.tidsaxel}'. Använd {', '.join(TIDSAXLAR)}.")
+        if self.platsroll is not None and self.platsroll not in PLATSROLLER:
+            raise ValueError(f"Okänd platsroll '{self.platsroll}'. Använd {', '.join(PLATSROLLER)}.")
+        if self.objekttyp not in (None, "verk", "entitet"):
+            raise ValueError(f"Okänd objekttyp '{self.objekttyp}'. Använd verk eller entitet.")
 
     def aktivt(self) -> bool:
-        return any(v is not None for v in (self.ar_fran, self.ar_till, self.genre))
+        return any(v is not None for v in (self.ar_fran, self.ar_till, self.genre, self.kallsamling,
+                                           self.plats, self.platsroll, self.objekttyp, self.undertyp,
+                                           self.bbox))
 
     def sql(self, alias: str = "v") -> tuple[str, list]:
         """
@@ -83,16 +115,65 @@ class Filter:
         när ett årsfilter anges.
         """
         villkor, param = [], []
-        if self.ar_fran is not None:
-            villkor.append(f"{alias}.datering_till >= {db._ph()}")
-            param.append(self.ar_fran * 10000 + 101)
-        if self.ar_till is not None:
-            villkor.append(f"{alias}.datering_fran <= {db._ph()}")
-            param.append(self.ar_till * 10000 + 1231)
+        if self.tidsaxel == "tillkomst":
+            if self.ar_fran is not None:
+                villkor.append(f"{alias}.datering_till >= {db._ph()}")
+                param.append(self.ar_fran * 10000 + 101)
+            if self.ar_till is not None:
+                villkor.append(f"{alias}.datering_fran <= {db._ph()}")
+                param.append(self.ar_till * 10000 + 1231)
         if self.genre is not None:
             villkor.append(f"{alias}.genre = {db._ph()}")
             param.append(self.genre)
+        s_villkor, s_param = self.sokpost_villkor("s", med_tid=self.tidsaxel != "tillkomst", med_genre=False)
+        if s_villkor:
+            villkor.append(f"{alias}.id IN (SELECT s.id FROM {db._prefix()}sokpost s "
+                           f"WHERE {' AND '.join(s_villkor)})")
+            param += s_param
         return (" AND " + " AND ".join(villkor) if villkor else ""), param
+
+    def sokpost_villkor(self, alias: str = "s", med_tid: bool = True, med_genre: bool = True
+                        ) -> tuple[list[str], list]:
+        """Villkoren mot sökindexets tabell sokpost, som en lista att foga ihop med AND."""
+        p, ph = db._prefix(), db._ph()
+        villkor, param = [], []
+        if med_tid:
+            kolumn = TIDSAXLAR[self.tidsaxel]
+            if self.ar_fran is not None:
+                villkor.append(f"{alias}.{kolumn}_till >= {ph}")
+                param.append(self.ar_fran * 10000 + 101)
+            if self.ar_till is not None:
+                villkor.append(f"{alias}.{kolumn}_fran <= {ph}")
+                param.append(self.ar_till * 10000 + 1231)
+        for kolumn, varde in (("kallsamling_id", self.kallsamling), ("objekttyp", self.objekttyp),
+                              ("undertyp", self.undertyp), ("undertyp", self.genre if med_genre else None)):
+            if varde is not None:
+                villkor.append(f"{alias}.{kolumn} = {ph}")
+                param.append(varde)
+        # sp.primar ensamt är sant i båda backenderna (BOOLEAN i Postgres, 0/1 i SQLite)
+        roll = ""
+        if self.platsroll == "primar":
+            roll = " AND sp.primar"
+        elif self.platsroll is not None:
+            roll = f" AND sp.roll = {ph}"
+        if self.plats is not None:
+            villkor.append(
+                f"EXISTS (SELECT 1 FROM {p}sokpost_plats sp WHERE sp.sokpost_id = {alias}.id "
+                f"AND (sp.plats_id = {ph} OR sp.plats_id IN (SELECT entitet_id FROM {p}plats_uppgift "
+                f"WHERE {ph} IN (kommun_id, socken_id, lan_id, landskap_id, land_id, ingar_i_id))){roll})")
+            param += [self.plats, self.plats]
+        elif self.platsroll not in (None, "primar"):
+            villkor.append(f"EXISTS (SELECT 1 FROM {p}sokpost_plats sp WHERE sp.sokpost_id = {alias}.id{roll})")
+        if self.platsroll not in (None, "primar"):
+            param.append(self.platsroll)
+        if self.bbox is not None:
+            vast, syd, ost, nord = self.bbox
+            villkor.append(
+                f"EXISTS (SELECT 1 FROM {p}sokpost_plats sp JOIN {p}plats_uppgift u ON u.entitet_id = sp.plats_id "
+                f"WHERE sp.sokpost_id = {alias}.id AND sp.primar AND u.longitud BETWEEN {ph} AND {ph} "
+                f"AND u.latitud BETWEEN {ph} AND {ph})")
+            param += [vast, ost, syd, nord]
+        return villkor, param
 
 
 @dataclass
@@ -129,7 +210,8 @@ class Expansion:
 
     def som_dict(self) -> list[dict]:
         return [{"ord": b["ord"], "begrepp_id": b["begrepp_id"], "huvudterm": b["huvudterm"],
-                 "antal_termer": len(b["termer"])} for b in self.begrepp]
+                 "antal_termer": len(b["termer"]), "stavning": b.get("stavning", False)}
+                for b in self.begrepp]
 
 
 def _kandidatformer(ord_: str) -> list[str]:
@@ -144,13 +226,45 @@ def _kandidatformer(ord_: str) -> list[str]:
     return list(dict.fromkeys(former))
 
 
-def expandera(fraga: str) -> Expansion:
+# Ett ord som förekommer i färre passager än så kan vara en felstavning eller
+# en ovanlig namnform (Anscharius står i ett enda brev) och slås upp på
+# liknande stavning; vanligare ord (ledning) är ord i sin egen rätt
+VANLIGT_ORD = 5
+
+
+def _vanligt_ord(cur, ord_: str) -> bool:
+    """Om ordet, i grundform eller böjt, förekommer i minst VANLIGT_ORD passager."""
+    if db._ar_postgres():
+        cur.execute("SELECT count(*) FROM (SELECT 1 FROM fornmed.passage WHERE sokvektor @@ to_tsquery('simple', %s) "
+                    "OR sokvektor @@ to_tsquery('swedish', %s) LIMIT %s) x", (ord_, ord_, VANLIGT_ORD))
+    else:
+        cur.execute("SELECT count(*) FROM (SELECT 1 FROM passage_fts WHERE passage_fts MATCH ? LIMIT ?)",
+                    (f'"{ord_}"', VANLIGT_ORD))
+    return cur.fetchone()[0] >= VANLIGT_ORD
+
+
+def vanligt_ord(ord_: str) -> bool:
+    """Som _vanligt_ord, med en egen anslutning."""
+    conn = db._hamta_db()
+    try:
+        return _vanligt_ord(conn.cursor(), ord_)
+    finally:
+        conn.close()
+
+
+def expandera(fraga: str, felstavning: bool = False) -> Expansion:
     """
     Slår upp frågans ord och ordpar i begreppsregistret: begrepp, platser,
     folk och personer. Namn expanderas bara med stavningsvarianter av samma
     namn (Starkad, Starcatherus, Stærkodder), aldrig med identifieringar som
     forskningen diskuterar (Hygelac = Chlochilaicus); de ligger i
     identifieringstabellen med sina bedömningar.
+
+    Med felstavning slås ett ord som inte finns i registret upp på liknande
+    stavning (stavning.py): Anskar och Anscharius blir Ansgar med alla hans
+    namnformer. Namn slås alltid upp, men ett fackord ersätter bara ett ord
+    som är ovanligt i texterna, så att ledning inte blir ledung. Ordet
+    självt söks fortfarande. Sådana begrepp har stavning=True.
     """
     ord_ = re.findall(r"\w+", fraga)
     kandidater: dict[str, str] = {}
@@ -177,6 +291,32 @@ def expandera(fraga: str) -> Expansion:
         for sokform, begrepp_id, namn, beskrivning in traffar:
             begrepp.setdefault(begrepp_id, {"ord": kandidater[sokform], "begrepp_id": begrepp_id,
                                             "huvudterm": namn, "definition": beskrivning or ""})
+        if felstavning:
+            # Importeras här: stavning importerar fragor, som importerar sok
+            import stavning
+
+            tackta = {o.lower() for b in begrepp.values() for o in b["ord"].split()}
+            for o in ord_:
+                if len(o) < stavning.MIN_TECKEN or o.lower() in SMAORD or o.lower() in tackta:
+                    continue
+                # Namn varierar i stavning och slås alltid upp; ett fackord
+                # ersätter bara ett ord som är ovanligt i texterna
+                bara_namn = _vanligt_ord(cur, o)
+                lika = [(form, [i for i in ids if not (bara_namn and i.startswith("begrepp:"))], d)
+                        for form, ids, d in stavning.termindex().liknande(o)]
+                lika = [r for r in lika if r[1]]
+                if not lika:
+                    continue
+                # Bara de närmaste formerna: Anskar är Ansgar, inte allt som liknar
+                basta = min(d for _, _, d in lika)
+                for _, ids, d in lika:
+                    if d != basta:
+                        continue
+                    for entitet_id in ids:
+                        cur.execute(f"SELECT namn, beskrivning FROM {p}entitet WHERE id = {ph}", (entitet_id,))
+                        namn, beskrivning = cur.fetchone()
+                        begrepp.setdefault(entitet_id, {"ord": o, "begrepp_id": entitet_id, "huvudterm": namn,
+                                                        "definition": beskrivning or "", "stavning": True})
         for begrepp_id, b in begrepp.items():
             cur.execute(f"SELECT term, sprak FROM {p}term WHERE entitet_id = {ph} ORDER BY id",
                         (begrepp_id,))
@@ -277,13 +417,16 @@ def _valj_stemming(termer: list[tuple[str, str, bool]]) -> list[tuple[str, str, 
 
 
 def fulltextsok(fraga: str, antal: int = KANDIDATER, filter_: Filter | None = None,
-                typer: tuple[str, ...] = MODERNA_TYPER, expansion: Expansion | None = None
-                ) -> list[tuple[str, float]]:
+                typer: tuple[str, ...] = MODERNA_TYPER, expansion: Expansion | None = None,
+                alla_grupper: bool = False) -> list[tuple[str, float]]:
     """
     Passager rankade på fulltexträff, som (passage_id, poäng).
 
     Orden i frågan och termerna från expansionen kombineras med ELLER så att
     en träff inte kräver exakt samma ord som frågan; rankningen sköter resten.
+    Med alla_grupper måste passagen träffa varje frågeord, där ett expanderat
+    begrepp räknas som ett ord med alla sina termer. Det ger en avgränsad
+    träffmängd i stället för en rangordning av allt som nämner något av orden.
     """
     expansion = expansion or Expansion()
     traffade = {o for b in expansion.begrepp for o in b["ord"].split()}
@@ -293,7 +436,10 @@ def fulltextsok(fraga: str, antal: int = KANDIDATER, filter_: Filter | None = No
     # Varje frågeord som inte expanderats är en grupp, och varje begrepp med
     # alla sina termer en; grupperna vägs efter hur sällsynta de är (_idf)
     grupper = [[(o, "swe", True)] for o in fragans_ord if o not in traffade and o.lower() not in SMAORD]
-    grupper += [[(o, "swe", False) for o in b["ord"].split()] + [(t, sprak, False) for t, sprak in b["termer"]]
+    # Ett begrepp med fras=True (ett tolkat flerordsnamn) söker frågans ord
+    # som fras: Magnus Erikson ska inte träffa varje Magnus
+    grupper += [([(b["ord"], "swe", False)] if b.get("fras") else [(o, "swe", False) for o in b["ord"].split()])
+                + [(t, sprak, False) for t, sprak in b["termer"]]
                 for b in expansion.begrepp]
     if db._ar_postgres():
         termer = _valj_stemming(termer)
@@ -315,26 +461,33 @@ def fulltextsok(fraga: str, antal: int = KANDIDATER, filter_: Filter | None = No
             # Poängen är därför summan av IDF för de grupper passagen
             # träffar, som i bm25 (SQLite-backenden); ts_rank_cd, delad med
             # textens längd, skiljer bara passager med samma grupper åt.
-            villkor, idf_param = [], []
+            villkor, idf_param, krav, krav_param = [], [], "", []
             for villkor_sql, param, idf in _idf(cur, grupper):
                 villkor.append(f"CASE WHEN {villkor_sql} THEN {ph} ELSE 0 END")
                 idf_param += [*param, idf]
+                if alla_grupper:
+                    krav += f" AND {villkor_sql}"
+                    krav_param += param
             idf_sql = " + ".join(villkor) or "0"
             cur.execute(
                 f"""
                 SELECT pa.id, {idf_sql}
-                       + greatest(ts_rank_cd(pa.sokvektor, qs, 1), ts_rank_cd(pa.sokvektor, qe, 1)) AS poang
+                       + greatest(ts_rank_cd(pa.sokvektor, qs, 1), ts_rank_cd(pa.sokvektor, qe, 1),
+                                  ts_rank_cd(pa.sokvektor, qd, 1)) AS poang
                 FROM {p}passage pa
                 JOIN {p}verk v ON v.id = pa.verk_id,
-                     to_tsquery('swedish', {ph}) qs, to_tsquery('simple', {ph}) qe
-                WHERE (pa.sokvektor @@ qs OR pa.sokvektor @@ qe)
-                  AND pa.typ IN ({typ_sql}){filter_sql}
+                     to_tsquery('swedish', {ph}) qs, to_tsquery('simple', {ph}) qe, to_tsquery('danish', {ph}) qd
+                WHERE (pa.sokvektor @@ qs OR pa.sokvektor @@ qe OR pa.sokvektor @@ qd)
+                  AND pa.typ IN ({typ_sql}){filter_sql}{krav}
                 ORDER BY poang DESC
                 LIMIT {ph}
                 """,
-                (*idf_param, pg_sv, pg_enkel, *typer, *filter_param, antal),
+                (*idf_param, pg_sv, pg_enkel, pg_sv, *typer, *filter_param, *krav_param, antal),
             )
         else:
+            if alla_grupper:
+                delar = [_fts_termer(g)[2] for g in grupper]
+                lite_fraga = " AND ".join(f"({d})" for d in delar if d) or lite_fraga
             cur.execute(
                 f"""
                 SELECT pa.id, -bm25(passage_fts) AS poang

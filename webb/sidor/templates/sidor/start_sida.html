@@ -4,6 +4,15 @@
 {% block innehall %}
 <article class="text">
   {% if page.ingress %}<p class="ingress stor fm-reading">{{ page.ingress }}</p>{% endif %}
+  {% if soksida_url %}
+  <form class="sokformular startsok" method="get" action="{{ soksida_url }}" role="search">
+    <div class="sokrad">
+      <label class="dold" for="startsok">Sök i källorna</label>
+      <input type="search" id="startsok" name="q" placeholder="Sök efter personer, platser, händelser eller ord i källorna">
+      <button type="submit">Sök</button>
+    </div>
+  </form>
+  {% endif %}
   {% if omfang %}
   <ul class="siffror" aria-label="Databasens omfång">
     <li><strong>{{ omfang.brev|intcomma }}</strong> medeltidsbrev</li>

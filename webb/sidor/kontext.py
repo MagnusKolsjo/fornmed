@@ -3,14 +3,18 @@
 from django.conf import settings
 from wagtail.models import Site
 
+from .models import SokSida
+
 
 def webbplats(request):
     site = Site.find_for_request(request)
     meny = []
     if site:
         meny = site.root_page.get_children().live().in_menu().specific()
+    soksida = SokSida.objects.live().first()
     return {
         "meny": meny,
+        "soksida_url": soksida.url if soksida else None,
         "startsida": site.root_page if site else None,
         "statistik_url": settings.WEBB_STATISTIK_URL,
         "statistik_id": settings.WEBB_STATISTIK_ID,

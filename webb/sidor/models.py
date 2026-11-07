@@ -6,6 +6,8 @@ hämtas ur Fornmeds databas när sidan visas (se kallor.py), så att de
 alltid stämmer med det som söktjänsten svarar med.
 """
 
+import urllib.parse
+
 from django.db import models
 from django.http import Http404
 from wagtail.admin.panels import FieldPanel
@@ -13,7 +15,7 @@ from wagtail.contrib.routable_page.models import RoutablePageMixin, path
 from wagtail.fields import RichTextField
 from wagtail.models import Page
 
-from . import kallor, texter
+from . import kallor, klartext, lankar, register, sokning, texter
 
 
 class TextSida(Page):
@@ -82,10 +84,58 @@ class KallforteckningSida(RoutablePageMixin, TextSida):
             svar = self.render(request, template="sidor/verk_fel.html", context_overrides={"fel": str(fel)})
             svar.status_code = 503 if fel.kod >= 500 else fel.kod
             return svar
+        # Forskningens bedömningar av verket (äkthet, datering) med motivering
+        try:
+            uppgifter = texter._hamta("/v1/verk/" + urllib.parse.quote(sida["verk"]["id"], safe=":"))
+            sida["bedomningar"] = [klartext.bedomningsruta(b) for b in uppgifter.get("bedomningar", [])]
+            # Bedömningar av enskilda vittnen, t.ex. en förfalskad avskrift av ett äkta brev
+            sida["bedomningar"] += [klartext.bedomningsruta({**b, "vittnestyp": v["typ"], "vittne": v["beskrivning"]})
+                                    for v in uppgifter.get("vittnen", []) for b in v.get("bedomningar", [])]
+        except texter.TextFel:
+            sida["bedomningar"] = []
         return self.render(request, template="sidor/verk.html", context_overrides=sida)
 
     class Meta:
         verbose_name = "källförteckning"
+
+
+class SokSida(TextSida):
+    """Sökningen med filter, fasetter, karta och tidslinje (se sokning.py)."""
+
+    def get_context(self, request, *args, **kwargs):
+        kontext = super().get_context(request, *args, **kwargs)
+        kontext.update(sokning.sok(request.GET))
+        return kontext
+
+    class Meta:
+        verbose_name = "söksida"
+
+
+class RegisterSida(RoutablePageMixin, TextSida):
+    """
+    Registret över personer, platser, institutioner, ämbeten, folk och begrepp.
+    Varje entitet har en egen sida under sin adress (se lankar.entitetsadress och register.py).
+    """
+
+    @path("")
+    def oversikt(self, request):
+        return self.render(request)
+
+    @path("<str:adress>/")
+    def entitet(self, request, adress: str):
+        fran = request.GET.get("fran", "0")
+        try:
+            sida = register.entitetens_sida(lankar.entitet_id(adress), int(fran) if fran.isdigit() else 0)
+        except texter.TextFel as fel:
+            if fel.kod == 404:
+                raise Http404(str(fel)) from fel
+            svar = self.render(request, template="sidor/verk_fel.html", context_overrides={"fel": str(fel)})
+            svar.status_code = 503 if fel.kod >= 500 else fel.kod
+            return svar
+        return self.render(request, template="sidor/entitet.html", context_overrides=sida)
+
+    class Meta:
+        verbose_name = "register"
 
 
 class UppdateringarSida(TextSida):

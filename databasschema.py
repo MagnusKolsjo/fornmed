@@ -34,8 +34,9 @@ GRUPPER = [
      ["pastaende", "pastaende_relation", "bedomning"]),
     ("Auktoriteter", "Längderna över regenter, biskopar och påvar.",
      ["auktoritetslangd", "auktoritet", "auktoritet_titel"]),
-    ("Register och drift", "Kontrollerade värden och databasens leveranser.",
-     ["vokabular", "leverans"]),
+    ("Register och drift", "Kontrollerade värden, databasens leveranser och sökindexet, som härleds ur övriga "
+                           "tabeller.",
+     ["vokabular", "leverans", "sokpost", "sokpost_plats"]),
     ("Vyer", "Sammanställningar som räknas fram ur tabellerna när de läses; de lagrar inget själva.",
      ["pastaende_oversikt", "omstridda", "konkurrerande_identifieringar"]),
 ]
@@ -44,6 +45,8 @@ TABELLER = {
     "kallsamling": "Ett dataset som materialet har lästs in ur, till exempel SDHK, Rundata eller Fornsvenska textbanken, med utgivare, licens och version.",
     "verk": "Texten som intellektuell enhet: ett brev, en runinskrift, en lag, en saga, en krönika. Verkets datering är textens tillkomst, skild från handskrifternas och händelsernas.",
     "plats_uppgift": "Var en plats ligger i dag: nutida namn, land, län, kommun, socken och koordinater. Bedömningar med metod och granskningsstatus, skilda från källans namnform. Fylls av platsregister.py och platser.py.",
+    "sokpost": "Sökindexet: ett sökbart verk eller en entitet med rubrik, sammanfattning och tre tider: tillkomst, förlaga (äldsta daterade vittne) och händelse (påståendenas tid). Byggs om av sokindex.py.",
+    "sokpost_plats": "Sökpostens platser i rollerna händelse, tillkomst, förvaring och läge, med de platser som visas först på kartan markerade. Byggs om av sokindex.py.",
     "verk_plats": "Verkets geografiska platser som entiteter: brevens utfärdandeort och runinskrifternas fyndplats, socken, härad, kommun, område och förvaring. Ett verk kan ha flera platser. Fylls av platser.py.",
     "vittne": "En fysisk eller registrerad överlevnad av verket: original, avskrift, registratur eller tryck, med egen datering.",
     "utgava": "En tryckt eller digital utgåva av verket, och därmed en språkversion: original, översättning, maskinöversättning eller maskintranskription.",
@@ -79,6 +82,12 @@ KOLUMNER = {
              "sprak": "Verkets språk, ISO 639-3", "utfardandeort": "Var ett brev utfärdades", "datering_edtf": "Datering i EDTF, t.ex. 1276-05-23 eller 1375/1378?",
              "datering_fran": "Tidigaste möjliga datum, ÅÅÅÅMMDD", "datering_till": "Senaste möjliga datum, ÅÅÅÅMMDD", "datering_anm": "Anmärkning om dateringen",
              "beskrivning": "Kort beskrivning", "extern_url": "Länk till verket hos källan", "extra": "Övriga uppgifter, t.ex. runinskrifters fyndort och bildlänkar"},
+    "sokpost": {"id": "Verkets eller entitetens id", "objekttyp": "verk eller entitet", "undertyp": "Verkets genre eller entitetens typ",
+                "soknamn": "Rubrik och namnformer i sökform, för namnsökning", "forlaga_typ": "Vittnestypen för det äldsta daterade vittnet",
+                "handelse_fran": "Tidigaste tid i påståendena (ÅÅÅÅMMDD)", "handelse_till": "Senaste tid i påståendena (ÅÅÅÅMMDD)",
+                "tid_fran": "Den tid som visas först: händelsen om den är känd, annars tillkomsten", "tid_kalla": "handelse eller tillkomst"},
+    "sokpost_plats": {"sokpost_id": "Sökposten", "plats_id": "Platsen", "roll": "handelse, tillkomst, forvaring eller lage (vokabulär sokplatsroll)",
+                      "primar": "Visas först på kartan", "osaker": "Kopplingen till platsen är osäker eller härledd", "antal": "Antal påståenden som anger platsen"},
     "verk_plats": {"verk_id": "Verket", "plats_id": "Platsen", "roll": "utfardandeort, fyndplats, socken, harad, kommun, omrade eller forvaring (vokabulär platsroll)",
                    "namnform": "Platsen som den står i källan", "osaker": "Källan anger orten med frågetecken eller som ett alternativ",
                    "harledd": "Orten står inom parentes eller hakparentes i källan, eller läget anges i förhållande till platsen"},
@@ -236,7 +245,7 @@ PLATSER = {
     "entitet_namnform": (780, 260), "identifiering": (400, 340), "entitet": (590, 340), "plats_uppgift": (590, 430),
     "begreppsrelation": (780, 360), "ordboksartikel": (20, 300), "term": (210, 400),
     "auktoritetslangd": (20, 490), "auktoritet": (210, 490), "auktoritet_titel": (400, 490),
-    "vokabular": (960, 470), "leverans": (960, 540),
+    "vokabular": (960, 470), "leverans": (960, 540), "sokpost": (780, 470), "sokpost_plats": (780, 540),
 }
 BREDD, HOJD = 150, 40
 FARGER = {"Källor": "#244A63", "Entiteter och begrepp": "#426C62", "Påståenden och bedömningar": "#93483E",

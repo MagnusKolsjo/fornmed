@@ -500,6 +500,57 @@ CREATE INDEX IF NOT EXISTS plats_uppgift_kommun_idx ON fornmed.plats_uppgift (ko
 CREATE INDEX IF NOT EXISTS plats_uppgift_socken_idx ON fornmed.plats_uppgift (socken_id);
 CREATE INDEX IF NOT EXISTS plats_uppgift_land_idx ON fornmed.plats_uppgift (land_id);
 
+-- 2026-11-07: sökindex. En rad per sökbart objekt (verk och entitet) med tre
+-- tider och platser i tre roller, så att sökningen kan filtrera och räkna
+-- fasetter och kartan och tidslinjen kan rita träffarna. Tiderna är
+-- tillkomst (när källan skrevs), förlaga (äldsta daterade vittne, eftersom
+-- vår text ofta bygger på en senare avskrift) och händelse (när det som
+-- påståendena beskriver ägde rum). tid_* är den tid som visas först:
+-- händelsen om den är känd, annars tillkomsten, och tid_kalla säger vilken.
+-- Tabellerna härleds helt ur övriga tabeller och byggs om av sokindex.py.
+CREATE TABLE IF NOT EXISTS fornmed.sokpost (
+    id               TEXT PRIMARY KEY,   -- verkets eller entitetens id
+    objekttyp        TEXT NOT NULL,      -- verk eller entitet
+    undertyp         TEXT,               -- verkets genre eller entitetens typ
+    kallsamling_id   TEXT,
+    rubrik           TEXT NOT NULL,
+    sammanfattning   TEXT,
+    sprak            TEXT[],
+    -- Rubrik och namnformer i sökform (fragor._sokform), för namnsökning
+    soknamn          TEXT NOT NULL,
+    tillkomst_edtf   TEXT,
+    tillkomst_fran   INTEGER,
+    tillkomst_till   INTEGER,
+    forlaga_typ      TEXT,               -- vokabular 'vittnestyp'
+    forlaga_edtf     TEXT,
+    forlaga_fran     INTEGER,
+    forlaga_till     INTEGER,
+    handelse_fran    INTEGER,
+    handelse_till    INTEGER,
+    antal_pastaenden INTEGER NOT NULL DEFAULT 0,
+    tid_fran         INTEGER,
+    tid_till         INTEGER,
+    tid_kalla        TEXT                -- handelse eller tillkomst
+);
+CREATE INDEX IF NOT EXISTS sokpost_typ_idx ON fornmed.sokpost (objekttyp, undertyp);
+CREATE INDEX IF NOT EXISTS sokpost_tid_idx ON fornmed.sokpost (tid_fran, tid_till);
+
+-- Platserna i tre roller: handelse (påståendenas plats), tillkomst (brevets
+-- utfärdandeort, runinskriftens fyndplats) och forvaring, samt lage för en
+-- platsentitets eget läge. primar markerar de platser som visas först på
+-- kartan: händelsens om den är känd, annars tillkomstens. antal är hur många
+-- påståenden som anger platsen.
+CREATE TABLE IF NOT EXISTS fornmed.sokpost_plats (
+    sokpost_id       TEXT NOT NULL REFERENCES fornmed.sokpost (id) ON DELETE CASCADE,
+    plats_id         TEXT NOT NULL REFERENCES fornmed.entitet (id),
+    roll             TEXT NOT NULL,      -- vokabular 'sokplatsroll'
+    primar           BOOLEAN NOT NULL DEFAULT FALSE,
+    osaker           BOOLEAN NOT NULL DEFAULT FALSE,
+    antal            INTEGER NOT NULL DEFAULT 1,
+    PRIMARY KEY (sokpost_id, roll, plats_id)
+);
+CREATE INDEX IF NOT EXISTS sokpost_plats_plats_idx ON fornmed.sokpost_plats (plats_id, roll);
+
 -- =============================================================================
 -- 3. Vyer (skapas om vid varje uppstart)
 -- =============================================================================

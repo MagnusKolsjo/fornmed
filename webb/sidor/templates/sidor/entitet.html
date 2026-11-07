@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags humanize %}
+{% block titel %}{{ entitet.namn }} – Fornmed{% endblock %}
+{% block innehall %}
+<article class="entitet">
+  <p class="metadata"><a href="{% pageurl page %}">Register</a></p>
+  <p class="overrubrik">{{ typ }}{% if tid %} · {{ tid }}{% endif %}</p>
+  <h1 class="fm-heading">{{ entitet.namn }}</h1>
+  {% if entitet.beskrivning %}<p class="ingress fm-reading">{{ entitet.beskrivning }}</p>{% endif %}
+  {% if primara_platser and not plats %}
+  <div class="kortlista">
+    <p class="metadata">Platser: {% for p in primara_platser %}<a href="{{ p.url }}">{{ p.namn }}</a>{% if not forloop.last %}; {% endif %}{% endfor %}</p>
+    {% if ovriga_platser %}
+    <details class="fler">
+      <summary>Visa alla {{ antal_primara_platser }} platser</summary>
+      <p class="metadata">{% for p in ovriga_platser %}<a href="{{ p.url }}">{{ p.namn }}</a>{% if not forloop.last %}; {% endif %}{% endfor %}</p>
+    </details>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if plats %}
+  <section class="verk-uppgifter" aria-label="Var platsen ligger">
+    <dl class="uppgifter">
+      {% if plats.nutida_namn and plats.nutida_namn != entitet.namn %}<div><dt>Nutida namn</dt><dd>{{ plats.nutida_namn }}</dd></div>{% endif %}
+      {% for rubrik, lank in hierarki %}<div><dt>{{ rubrik }}</dt><dd><a href="{{ lank.url }}">{{ lank.namn }}</a></dd></div>{% endfor %}
+      {% if plats.latitud %}<div><dt>Läge</dt><dd>{{ plats.latitud|floatformat:4 }}, {{ plats.longitud|floatformat:4 }}{% if plats.anm %} ({{ plats.anm }}){% endif %}</dd></div>{% endif %}
+      <div><dt>Uppgiften</dt><dd>{% if plats.kalla %}{{ plats.kalla }}, {% endif %}{% if plats.metod == "sprakmodell" %}kopplad av språkmodell{% elif plats.metod == "regel" %}kopplad med regel{% else %}ur auktoritet{% endif %}{% if not plats.granskad %}, <span class="tag">Läge: ogranskat</span>{% endif %}</dd></div>
+    </dl>
+  </section>
+  {% endif %}
+
+  <p class="lankrad">
+    {% if sok_plats %}<a href="{{ sok_plats }}">Allt som hände här</a> · {% endif %}
+    {% if sok_namn %}<a href="{{ sok_namn }}">Sök efter {{ entitet.namn }} i källorna</a> · {% endif %}
+    {% if entitet.wikidata_id %}<a href="https://www.wikidata.org/wiki/{{ entitet.wikidata_id }}">Wikidata</a> · {% endif %}
+    <a href="{{ entitet_api_url }}?format=md">Markdown</a> · <a href="{{ entitet_api_url }}">JSON</a>
+  </p>
+
+  {% if kartpunkter %}
+  <section class="karta-ram" aria-label="Karta">
+    <div id="karta" class="karta" role="region" aria-label="Karta över platserna"></div>
+    <p class="metadata">{% if plats %}Platsens läge och platserna i påståendena om den.{% else %}Platserna i påståendena. Punktens storlek visar antalet påståenden.{% endif %}</p>
+    {{ kartpunkter|json_script:"kartpunkter" }}
+  </section>
+  {% endif %}
+
+  {% if sammanfattning %}
+  <section>
+    <h2>Vad källorna säger</h2>
+    <table class="sammanfattning">
+      <thead><tr><th scope="col">Påstående</th><th scope="col">Roll</th><th scope="col">Antal</th><th scope="col">År</th></tr></thead>
+      <tbody>
+        {% for s in sammanfattning %}<tr><td>{{ s.predikat|capfirst }}</td><td>{{ s.roll }}</td><td>{{ s.antal|intcomma }}</td><td>{{ s.ar }}</td></tr>{% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  {% if identifieringar or namne %}
+  <section>
+    <h2>Samma som andra?</h2>
+    {% if identifieringar %}
+    <ul class="identifieringar">
+      {% for i in identifieringar %}
+      <li><a href="{{ i.annan.url }}">{{ i.annan.namn }}</a>{% if i.kommentar %} <span class="antal">({{ i.kommentar|lower }})</span>{% endif %}
+        {% for b in i.bedomningar %}<p class="metadata"><span class="tag">{{ b.text }}</span>{% if b.motivering %} {{ b.motivering }}{% endif %}</p>{% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if namne %}
+    <p class="metadata">Andra poster med samma namn. De kan avse samma {{ typ|lower }} men har inte identifierats med denna.</p>
+    <ul class="namne">
+      {% for n in namne %}<li><a href="{{ n.url }}">{{ n.namn }}</a>{% if n.tid %} <span class="antal">{{ n.tid }}</span>{% endif %}{% if n.beskrivning %} – {{ n.beskrivning }}{% endif %}</li>{% endfor %}
+    </ul>
+    {% if antal_namne > namne|length and namne_url %}
+    <a class="traff vidare" href="{{ namne_url }}">
+      <span class="meta">Samma som andra?</span>
+      <span class="vidare-rubrik">Se alla {% if antal_namne >= 50 %}minst {% endif %}{{ antal_namne }} poster med namnet {{ entitet.namn }}</span>
+    </a>
+    {% endif %}
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if pastaenden %}
+  <section>
+    <h2>Påståenden <span class="antal">{{ pastaenden_totalt|intcomma }}</span></h2>
+    <p class="metadata">Ett påstående beskriver vad källan hävdar, inte vad som hände.</p>
+    <ol class="pastaenden">
+      {% for p in pastaenden %}
+      <li>
+        <p class="pastaende-mening">
+          {% if p.subjekt.denna %}<strong>{{ p.subjekt.namn }}</strong>{% else %}<a href="{{ p.subjekt.url }}">{{ p.subjekt.namn }}</a>{% endif %}
+          {{ p.predikat }}
+          {% if p.objekt %}{% if p.objekt.denna %}<strong>{{ p.objekt.namn }}</strong>{% elif p.objekt.url %}<a href="{{ p.objekt.url }}">{{ p.objekt.namn }}</a>{% else %}<span class="varde">{{ p.objekt.namn }}</span>{% endif %}{% endif %}
+          {% if p.plats %} i {% if p.plats.denna %}<strong>{{ p.plats.namn }}</strong>{% else %}<a href="{{ p.plats.url }}">{{ p.plats.namn }}</a>{% endif %}{% endif %}
+        </p>
+        <p class="metadata">
+          {% if p.tid %}{{ p.tid }} · {% endif %}{% if p.kalla.url %}<a href="{{ p.kalla.url }}">{{ p.kalla.titel }}</a>{% else %}{{ p.kalla.titel }}{% endif %}{% if p.tidsavstand %} · skriven {{ p.tidsavstand }} år efter{% endif %}
+          {% if p.omstridd %} · <span class="tag">Bedömning: omstridd</span>{% elif p.antal_bedomningar %} · {{ p.antal_bedomningar }} bedömning{{ p.antal_bedomningar|pluralize:"ar" }}{% endif %}
+        </p>
+      </li>
+      {% endfor %}
+    </ol>
+    {% if foregaende is not None or nasta %}
+    <nav class="bladdra" aria-label="Fler påståenden">
+      <span>{% if foregaende is not None %}<a href="?fran={{ foregaende }}">← Föregående</a>{% endif %}</span>
+      <span>{% if nasta %}<a href="?fran={{ nasta }}">Nästa →</a>{% endif %}</span>
+    </nav>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if namnformer %}
+  <section>
+    <h2>Namnformer i källorna</h2>
+    <ul class="namnformer">
+      {% for n in namnformer %}<li>{{ n.namnform }}{% if n.url %} <span class="antal">(<a href="{{ n.url }}">{{ n.verk_namn }}</a>)</span>{% endif %}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if not pastaenden and not plats and not namnformer %}
+  <p>Det finns ännu inga påståenden om {{ entitet.namn }} i databasen. {% if sok_namn %}<a href="{{ sok_namn }}">Sök efter namnet i källorna.</a>{% endif %}</p>
+  {% endif %}
+</article>
+{% if kartpunkter %}{% include "sidor/karta.html" %}{% endif %}
+{% endblock %}

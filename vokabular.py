@@ -74,6 +74,12 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("platsroll", "omrade", "Område", "Landskap eller land"),
     ("platsroll", "forvaring", "Förvaring", "Där en runinskrift finns i dag, om den uppgiften skiljer sig från fyndplatsen"),
 
+    # Sökplatsroll — platsens roll för ett objekt i sökindexet
+    ("sokplatsroll", "handelse", "Händelse", "Där det som ett påstående beskriver ägde rum"),
+    ("sokplatsroll", "tillkomst", "Tillkomst", "Där källan skrevs: brevets utfärdandeort, runinskriftens fyndplats"),
+    ("sokplatsroll", "forvaring", "Förvaring", "Där källan förvaras i dag"),
+    ("sokplatsroll", "lage", "Läge", "Platsentitetens eget läge"),
+
     # Platsslag
     ("platsslag", "land", "Land", "Nutida land eller medeltida rike"),
     ("platsslag", "landskap", "Landskap", None),

@@ -124,6 +124,8 @@ def hamta_verk(verk_id: str) -> dict | None:
         plats["osaker"], plats["harledd"] = bool(plats["osaker"]), bool(plats["harledd"])
         plats["granskad"] = None if plats["granskad"] is None else bool(plats["granskad"])
     verk["bedomningar"] = _bedomningar("verk_id", verk_id)
+    for vittne in verk["vittnen"]:
+        vittne["bedomningar"] = _bedomningar("vittne_id", vittne["id"])
     return verk
 
 
@@ -220,8 +222,9 @@ def hamta_entitet(entitet_id: str, predikat: str | None = None, antal: int = 50,
     if entitet is None:
         return None
     entitet["namnformer"] = _rader(
-        f"SELECT namnform, sprak, passage_id FROM {p}entitet_namnform WHERE entitet_id = {ph} "
-        f"ORDER BY namnform LIMIT 100",
+        f"SELECT n.namnform, n.sprak, n.passage_id, pa.verk_id FROM {p}entitet_namnform n "
+        f"LEFT JOIN {p}passage pa ON pa.id = n.passage_id WHERE n.entitet_id = {ph} "
+        f"ORDER BY n.namnform LIMIT 100",
         (entitet_id,),
     )
     identifieringar = _rader(
@@ -281,12 +284,16 @@ def hamta_entitet(entitet_id: str, predikat: str | None = None, antal: int = 50,
         f"SELECT COUNT(*) AS n FROM {p}pastaende pt WHERE {villkor}", parametrar)["n"]
     entitet["pastaenden"] = _rader(
         f"""
-        SELECT o.id, o.subjekt_id, o.predikat, o.objekt_id, o.objekt_varde, o.tid_edtf,
+        SELECT o.id, o.subjekt_id, s.namn AS subjekt, o.predikat, o.objekt_id, ob.namn AS objekt,
+               o.objekt_varde, pt.plats_id, pl.namn AS plats, o.tid_edtf, pt.passage_id, o.verk_id,
                o.verk_titel, o.genre, o.tidsavstand_ar, o.antal_bedomningar, o.omstridd,
                (SELECT b.varde FROM {p}bedomning b
                 WHERE b.pastaende_id = o.id AND b.aspekt = 'titulatur' LIMIT 1) AS titulatur
         FROM {p}pastaende_oversikt o
         JOIN {p}pastaende pt ON pt.id = o.id
+        JOIN {p}entitet s ON s.id = pt.subjekt_id
+        LEFT JOIN {p}entitet ob ON ob.id = pt.objekt_id
+        LEFT JOIN {p}entitet pl ON pl.id = pt.plats_id
         WHERE {villkor}
         ORDER BY o.tidsavstand_ar, pt.tid_fran, o.id
         LIMIT {int(antal)} OFFSET {int(fran)}

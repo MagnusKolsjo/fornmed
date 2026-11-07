@@ -63,6 +63,8 @@ ovan; API:et är alltid öppet.
 | `/v1/passager/{id}` | En passage med hela texten |
 | `/v1/sdhk/{nummer}` | Genväg till ett brev (omdirigerar till verket) |
 | `/v1/sok` | Sökning, som `fornmed_sok` |
+| `/v1/sok/objekt` | Dokument och entiteter med tid, plats och fasetter, med eller utan fråga (se Sökindex) |
+| `/v1/sok/objekt/{id}` | Ett verks eller en entitets sökpost med tider och platser |
 | `/v1/entiteter`, `/v1/entiteter/{id}` | Sökning på namn och en entitet med påståenden |
 | `/v1/entiteter/{id}/namnformer`, `/v1/entiteter/{id}/identifieringar` | Namnformerna i källorna och identifieringarna med bedömningar |
 | `/v1/pastaenden`, `/v1/pastaenden/{id}` | Påståenden med filter på entitet, predikat, verk, källsamling, extraktion, granskning och år, och ett påstående |
@@ -123,6 +125,14 @@ python manage.py migrate
 python manage.py skapa_sidor
 python manage.py runserver 127.0.0.1:8425
 ```
+
+Kartorna ritas med Leaflet och en baskarta ur Natural Earth som båda ligger
+bland webbplatsens filer, så att ett besök inte skickar något till andra
+servrar och inte sätter några kakor. Baskartan är hela jorden i skala 1:50
+miljoner och Europa i 1:10 miljoner, som läggs på när man zoomar in. Den byggs
+om med `webb/bygg_baskarta.py` ur Natural Earths GeoJSON-filer
+(`ne_50m_admin_0_countries`, `ne_50m_lakes`, `ne_10m_admin_0_countries`,
+`ne_10m_lakes`).
 
 ### Auktoriteter och leveranser
 
@@ -329,6 +339,70 @@ Vektorsökningen är stark på omskrivningar ("en änka skänker jord för sin
 mans själ" hittar "hustru … ger sin gård … för sin själ") men svag på
 enstaka historiska fackord som *ledung* eller *frälse*, som modellen inte
 känner. För sådana frågor är det fulltextträffarna som bär.
+
+## Sökindex
+
+```bash
+.venv/bin/python sokindex.py
+.venv/bin/python objektsok.py "Visby"
+.venv/bin/python objektsok.py --plats plats:gotland --objekttyp verk --ar-fran 1300 --ar-till 1350
+```
+
+`sokindex.py` samlar varje verk och varje entitet i en sökpost (`sokpost`)
+med platser (`sokpost_plats`). Indexet härleds ur övriga tabeller, byggs om
+från grunden och körs automatiskt av `leverans.py`.
+
+Varje post har tre tider:
+
+| Tid | Ur | Innebörd |
+|---|---|---|
+| Tillkomst | `verk.datering_*` | När källan skrevs |
+| Förlaga | äldsta daterade `vittne` | Det äldsta bevarade underlaget, ofta en senare avskrift |
+| Händelse | påståendenas `tid_*` | När det som påståendena beskriver ägde rum |
+
+och platser i fyra roller: händelse (påståendenas plats), tillkomst
+(brevets utfärdandeort, runinskriftens fyndplats eller socken), förvaring
+och, för platser, läge. Det som visas först, `tid_*` och de platser som är
+markerade `primar`, är händelsen om den är känd och annars tillkomsten;
+`tid_kalla` säger vilken. Påståenden om tillstånd och normer, som att någon
+är kung av Sverige eller att en bot gäller i Västergötland, anger ett område
+och inte var något hände, och deras plats räknas därför inte som händelsens.
+Land, landskap och län blir aldrig primär plats för något annat än sig själva.
+
+Vilket vittne en utgåva bygger på är inte registrerat, och de flesta brevs
+vittnen saknar datering; förlagan finns därför i dag bara för
+runinskrifterna och några lagar.
+
+`/v1/sok/objekt` (och `objektsok.py`) söker i passagerna som `/v1/sok`, men
+samlar träffarna per verk med det bästa textstället som utdrag och lägger
+till entiteter och verk vars namn eller titel matchar frågan. Exakta namn
+kommer först. Filtren är objekttyp, undertyp (genre eller entitetstyp),
+källsamling, år på en vald tidsaxel (`tidsaxel=primar|handelse|tillkomst|forlaga`),
+plats med roll och en ruta på kartan (`bbox`). En plats omfattar också
+platserna i den, så `plats=plats:gotland` ger allt på Gotland. Fasetterna
+räknar objekttyp, undertyp, källsamling, sekel, land och landskap bland
+kandidaterna, och utan fråga bland hela urvalet, som då listas i tidsordning.
+
+Kandidaterna är alla träffar, inte de bästa av fler, så att ett klick på en
+fasett ger lika många träffar som fasetten visar. Fulltextsökningen kräver
+därför alla frågeord (ett expanderat begrepp räknas som ett ord), och en
+passage som bara den semantiska sökningen hittar måste nå en lägsta likhet
+(`MINSTA_LIKHET` i `objektsok.py`). Namn i registret söks som namn: en fråga
+som bara består av namn söks utan semantisk del, och annars får den
+semantiska sökningen bara fackordens definitioner, inte personers eller
+platsers beskrivningar. Den semantiska sökningen görs i hela
+databasen och filtreras efteråt. Sekel och decennier räknas som årsfiltret:
+en träff räknas i varje period som dess datering överlappar.
+
+**Felstavningar.** Namn och termer slås också upp på liknande stavning
+(`stavning.py`): Anskar och Anscharius ger Ansgar med alla hans namnformer,
+Kalmr ger Kalmar och Magnus Erikson ger Magnus Eriksson. En form godtas om
+den skiljer sig med högst en bokstav per fyra eller börjar med det sökta
+(minst fem bokstäver), och bara de närmaste formerna tas med. Namn slås
+alltid upp, men ett fackord ersätter bara ett ord som är ovanligt i
+texterna, så att *ledning* inte blir *ledung*. Det sökta ordet söks
+fortfarande, och svaret anger tolkningen i `stavning`. Tolkningen görs utan
+filtren, så att en fasett ger lika många träffar efter klicket.
 
 ## Litterära källor och lagar
 

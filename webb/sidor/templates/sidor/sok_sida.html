@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% load humanize wagtailcore_tags %}
+{% block titel %}{% if param.q %}Sök: {{ param.q }}{% elif sokt %}Sökresultat{% else %}{{ page.title }}{% endif %} – Fornmed{% endblock %}
+{% block innehall %}
+<div class="sok{% if textkritik %} med-textkritik{% endif %}">
+  <section class="sokpanel" aria-labelledby="sokrubrik">
+    <p class="overrubrik" aria-hidden="true">Brev · runinskrifter · lagar · krönikor · personer · platser</p>
+    <h1 class="fm-heading" id="sokrubrik">Sök i källorna</h1>
+    {% if page.ingress and not sokt %}<p class="ingress">{{ page.ingress }}</p>{% endif %}
+
+    <form class="sokformular" method="get" role="search" aria-label="Sök i källorna">
+      <div class="sokrad">
+        <label class="dold" for="q">Sökord</label>
+        <input type="search" id="q" name="q" value="{{ param.q|default:'' }}" placeholder="Personer, platser, händelser eller ord i källorna" aria-describedby="sokhjalp">
+        <button type="submit">Sök</button>
+      </div>
+      <p class="metadata" id="sokhjalp">Sökningen klarar felstavade namn och söker fackord också i fornsvensk och latinsk form.</p>
+
+      <fieldset class="avgransa">
+        <legend>Avgränsa sökningen</legend>
+        <div class="avgransa-falt">
+          <div class="falt">
+            <label for="objekttyp">Visa</label>
+            <select id="objekttyp" name="objekttyp">
+              <option value="">Allt</option>
+              <option value="verk"{% if param.objekttyp == "verk" %} selected{% endif %}>Dokument</option>
+              <option value="entitet"{% if param.objekttyp == "entitet" %} selected{% endif %}>Personer, platser och begrepp</option>
+            </select>
+          </div>
+          <div class="falt">
+            <label for="ar_fran">Från år</label>
+            <input type="number" id="ar_fran" name="ar_fran" value="{{ param.ar_fran|default:'' }}" inputmode="numeric" placeholder="t.ex. 1300">
+          </div>
+          <div class="falt">
+            <label for="ar_till">Till år</label>
+            <input type="number" id="ar_till" name="ar_till" value="{{ param.ar_till|default:'' }}" inputmode="numeric" placeholder="t.ex. 1399">
+          </div>
+          <div class="falt bred">
+            <label for="tidsaxel">Åren gäller</label>
+            <select id="tidsaxel" name="tidsaxel">
+              {% for varde, namn in tidsaxlar.items %}<option value="{{ varde }}"{% if param.tidsaxel == varde %} selected{% endif %}>{{ namn }}</option>{% endfor %}
+            </select>
+          </div>
+        </div>
+        <p class="metadata">Typ av källa, källsamling och plats väljer du bland träffarna.</p>
+      </fieldset>
+      {% if param.undertyp %}<input type="hidden" name="undertyp" value="{{ param.undertyp }}">{% endif %}
+      {% if param.kallsamling %}<input type="hidden" name="kallsamling" value="{{ param.kallsamling }}">{% endif %}
+      {% if param.plats %}<input type="hidden" name="plats" value="{{ param.plats }}">{% endif %}
+      {% if param.platsroll %}<input type="hidden" name="platsroll" value="{{ param.platsroll }}">{% endif %}
+      {% if textkritik %}<input type="hidden" name="textkritik" value="1">{% endif %}
+    </form>
+  </section>
+
+  {% if fel %}<p class="anmarkning" role="alert">{{ fel }}</p>{% endif %}
+
+  {% if sokt and not fel %}
+    <div class="resultathuvud">
+      <div>
+        <p class="antal-stor" aria-live="polite"><strong>{{ total|intcomma }}</strong> träff{{ total|pluralize:"ar" }}</p>
+        {% if stavning %}<p class="stavning">Ingen post stavas exakt så. Visar träffar för <strong>{{ stavning|join:", " }}</strong>.</p>{% endif %}
+        {% if expansion %}<p class="metadata">Sökte också på {{ expansion|join:", " }}.</p>{% endif %}
+        {% if kapad %}<p class="metadata">Frågan matchar fler textställen än som räknas; antalen gäller de mest relevanta. Avgränsa gärna.</p>{% endif %}
+      </div>
+      <div class="vaxel-ram">
+        <button type="button" class="vaxel" id="textkritik-vaxel" aria-pressed="{% if textkritik %}true{% else %}false{% endif %}" aria-describedby="textkritik-hjalp" hidden>
+          <span class="vaxel-spar" aria-hidden="true"><span class="vaxel-knopp"></span></span>
+          <span class="vaxel-text">Källkritisk hjälp</span>
+          <span class="vaxel-lage" aria-hidden="true">{% if textkritik %}På{% else %}Av{% endif %}</span>
+        </button>
+        <noscript><a class="vaxel-lank" href="{{ textkritik_vaxla_url }}">{% if textkritik %}Dölj{% else %}Visa{% endif %} källkritisk hjälp</a></noscript>
+        <p class="metadata" id="textkritik-hjalp">När källan skrevs, äldsta bevarade vittne och var den förvaras.</p>
+      </div>
+    </div>
+
+  <div class="sok-layout">
+    <aside class="fasetter" aria-labelledby="fasettrubrik">
+      <h2 class="dold" id="fasettrubrik">Avgränsa resultatet</h2>
+      {% if aktiva %}
+      <section class="valda">
+        <h3>Valda avgränsningar</h3>
+        <ul class="aktiva">
+          {% for a in aktiva %}<li><a href="{{ a.url }}"><span class="dold">Ta bort </span>{{ a.namn }} <span aria-hidden="true">×</span></a></li>{% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+      {% for grupp in fasetter %}
+      <section>
+        <h3>{{ grupp.rubrik }}</h3>
+        <ul>
+          {% for v in grupp.varden %}<li><a href="{{ v.url }}"{% if v.vald %} aria-current="true"{% endif %}><span>{{ v.namn }}</span> <span class="antal">{{ v.antal|intcomma }}<span class="dold"> träff{{ v.antal|pluralize:"ar" }}</span></span></a></li>{% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </aside>
+
+    <div class="sok-resultat">
+      {% if traffar %}
+      <section class="tidrum" aria-labelledby="tidrum-rubrik">
+        <h2 id="tidrum-rubrik">Var och när</h2>
+        <p class="metadata">Där och när det som träffarna beskriver hände, och annars där och när källan skrevs.</p>
+        <div id="karta" class="karta" role="region" aria-label="Karta över träffarnas platser"></div>
+        {% if kartpunkter %}
+        <p class="metadata">Punktens storlek visar antalet träffar; klicka på en punkt för att avgränsa till platsen. Platserna finns också som länkar under Landskap och Land och på varje träff.</p>
+        {% else %}
+        <p class="karta-tom">Ingen av träffarna har ännu ett känt läge. De berättande källorna har sällan platser i databasen, och en del orter saknar koordinater.</p>
+        {% endif %}
+        {{ kartpunkter|json_script:"kartpunkter" }}
+        {% if tidslinje %}
+        <h3 class="dold">Tidslinje</h3>
+        <div class="tidslinje">
+          {% for s in tidslinje %}<a class="stapel{% if s.sekel %} sekel{% endif %}" href="{{ s.url }}" aria-label="{{ s.decennium }}–{{ s.till }}: {{ s.antal|intcomma }} träff{{ s.antal|pluralize:'ar' }}"><span class="stapel-yta" style="height: {{ s.hojd|stringformat:'s' }}%"></span>{% if s.sekel %}<span class="stapel-ar" aria-hidden="true">{{ s.decennium }}</span>{% endif %}</a>{% endfor %}
+        </div>
+        <p class="metadata">Antal träffar per decennium. En träff räknas i varje decennium som dess datering spänner över. Klicka på ett decennium för att avgränsa, eller ange år under Avgränsa sökningen.</p>
+        {% endif %}
+      </section>
+      {% endif %}
+
+      <h2 class="dold">Träffar</h2>
+      <ol class="traffar">
+        {% for t in traffar %}
+        <li class="traff">
+          <p class="meta">{{ t.typ }}{% if t.tid %} · <span class="dold">tid </span>{{ t.tid }}{% if t.tid_kalla == "skriven" %} (skriven){% endif %}{% endif %}</p>
+          <h3><a href="{{ t.url }}">{{ t.rubrik }}</a></h3>
+          {% if t.text %}<p class="traff-text"{% if t.lang %} lang="{{ t.lang }}"{% endif %}>{{ t.text|truncatechars:320 }}</p>{% endif %}
+          {% if t.platser or t.ogranskad or t.bedomningar %}
+          <div class="fot">
+            {% if t.platser %}<span class="platser"><span class="dold">Plats: </span>{% for p in t.platser %}<a href="{{ p.url }}">{{ p.text }}</a>{% if p.roll != "händelse" and p.roll != "läge" %} ({{ p.roll }}){% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}</span>{% endif %}
+            {% for p in t.platser %}{% if p.osaker %}<span class="tag">Plats: osäker</span>{% endif %}{% endfor %}
+            {% if t.ogranskad %}<span class="tag">Översättning: ogranskad</span>{% endif %}
+            {% for b in t.bedomningar %}<span class="tag">{{ b.etikett }}</span>{% endfor %}
+          </div>
+          {% endif %}
+          {% if t.textkritik %}
+          <div class="textkritik-uppgifter">
+            <h4>Källkritisk hjälp</h4>
+            <dl>
+              {% for rubrik, varde in t.textkritik %}<div><dt>{{ rubrik }}</dt><dd>{{ varde }}</dd></div>{% endfor %}
+            </dl>
+          </div>
+          {% endif %}
+        </li>
+        {% empty %}
+        <li class="traff">Inga träffar. Pröva ett annat ord eller ta bort en avgränsning.</li>
+        {% endfor %}
+      </ol>
+
+      {% if foregaende or nasta %}
+      <nav class="bladdra" aria-label="Sidor i träfflistan">
+        <span>{% if foregaende %}<a href="{{ foregaende }}">← Föregående sida</a>{% endif %}</span>
+        <span class="metadata">Sida {{ sida }} av {{ sidor|intcomma }}</span>
+        <span>{% if nasta %}<a href="{{ nasta }}">Nästa sida →</a>{% endif %}</span>
+      </nav>
+      {% endif %}
+    </div>
+  </div>
+  {% elif not fel %}
+  <div class="text">{{ page.brodtext|richtext }}</div>
+  {% endif %}
+</div>
+{% if sokt and not fel %}
+<script>
+/* Källkritisk hjälp: slås på och av utan ny sidladdning. Valet sparas i
+   adressen, så att det följer med länkar, och i webbläsaren, så att det
+   gäller nästa sökning också. Utan skript används länken i noscript. */
+(function () {
+  var knapp = document.getElementById("textkritik-vaxel");
+  var sok = document.querySelector(".sok");
+  if (!knapp || !sok) return;
+  function satt(pa) {
+    sok.classList.toggle("med-textkritik", pa);
+    knapp.setAttribute("aria-pressed", pa ? "true" : "false");
+    knapp.querySelector(".vaxel-lage").textContent = pa ? "På" : "Av";
+    var url = new URL(window.location.href);
+    if (pa) { url.searchParams.set("textkritik", "1"); } else { url.searchParams.delete("textkritik"); }
+    window.history.replaceState(null, "", url);
+    document.querySelectorAll('.sok a[href^="?"]').forEach(function (a) {
+      var u = new URL(a.getAttribute("href"), window.location.href);
+      if (pa) { u.searchParams.set("textkritik", "1"); } else { u.searchParams.delete("textkritik"); }
+      a.setAttribute("href", u.search);
+    });
+    var dolt = document.querySelector('.sokformular input[name="textkritik"]');
+    if (pa && !dolt) {
+      dolt = document.createElement("input");
+      dolt.type = "hidden"; dolt.name = "textkritik"; dolt.value = "1";
+      document.querySelector(".sokformular").appendChild(dolt);
+    } else if (!pa && dolt) { dolt.remove(); }
+    try { window.localStorage.setItem("fornmed-textkritik", pa ? "1" : "0"); } catch (e) {}
+  }
+  knapp.hidden = false;
+  var sparat = null;
+  try { sparat = window.localStorage.getItem("fornmed-textkritik"); } catch (e) {}
+  if (sparat === "1" && knapp.getAttribute("aria-pressed") === "false") { satt(true); }
+  knapp.addEventListener("click", function () { satt(knapp.getAttribute("aria-pressed") !== "true"); });
+})();
+</script>
+{% endif %}
+{% if sokt and traffar and not fel %}{% include "sidor/karta.html" %}{% endif %}
+{% endblock %}
