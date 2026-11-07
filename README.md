@@ -766,12 +766,21 @@ häradh och hæraþ ger samma träff. Latinska termer söks på stammen, vilket
 ger brus där stammen också är ett annat ord (decim* träffar även
 ordningstalet decimus).
 
-## Påståenden ur SDHK:s utfärdarfält
+## Påståenden ur SDHK:s och DF:s utfärdarfält
 
 ```bash
 .venv/bin/python pastaenden_sdhk.py                 # läs in
 .venv/bin/python pastaenden_sdhk.py --torr --rapport rapport/   # bara stickprov och otolkade fält
+.venv/bin/python platser.py                         # därefter: påståendena följer orten som avses
 ```
+
+Skriptet läser både SDHK och Diplomatarium Fennicum. DF skriver utfärdarfältet
+med namnet först och "av" för orten ("Gustaf, kung", "Råd, av Stockholm",
+"Sigfrid, av Linköping"), och fältet skrivs om till SDHK:s form innan det tolkas.
+"ja 3 muuta" ("och 3 andra") blir "m.fl.", och "(ei määritetty)" ("inte angiven")
+ger ingen utfärdare. DF-brev som redan är kopplade till ett SDHK-brev (samma
+FMU-nummer och datum) är samma brev och läses bara ur SDHK. Påståendena ur DF har
+DF-brevets id (`df:6022:utfardare:…`).
 
 SDHK anger för de flesta brev vem som utfärdade dem, t.ex. "Biskop Knut i
 Linköping" eller "Peter i Skeda, häradshövding i Hanekinds härad". Skriptet
@@ -830,6 +839,15 @@ Vem ett namn avser avgörs i fyra nivåer:
    50 års spann, och samma ämbete med olika säte hålls isär. Förekomster utan
    ort eller ämbete blir egna personer.
 
+Förekomsterna läses i faser: först SDHK:s utfärdare och mottagare, sedan DF:s,
+sedan missivens adressater (nedan). En senare fas kan föra en förekomst till en
+person ur en tidigare fas men aldrig slå ihop eller dela den fasens personer. Så
+ändras inget SDHK-id av att DF eller adressaterna läses in, och samma person får
+inte en ny entitet i DF. I de senare faserna förs också en förekomst utan ort och
+ämbete till en person, när den har ett släktnamn (inte ett patronymikon) och precis
+en person med samma namn finns inom 40 år; DF skriver ofta bara "Arvid Kurck" där
+SDHK har ämbetet.
+
 Sammanslagningen är medvetet försiktig, men två kända svagheter finns kvar.
 Samma person kan bli flera entiteter när fälten saknar ort eller ämbete. Och
 två ämbetsinnehavare med samma förnamn och säte kan slås ihop om de följer
@@ -863,6 +881,33 @@ Mottagarens titlar och ämbeten blir påståenden som utfärdarens. En
 mottagare utan titel, ämbete, efternamn eller känt förnamn avvisas, eftersom
 uppräknade gårdsnamn annars blir personer.
 
+### Adressater och svar
+
+Ett brev utan gärning är ofta ett missiv: "Rådet i Åbo till det i Lübeck angående
+…", "Erik Trolle meddelar Sten Sture att …". `tolka_brevform` i
+`regest_garningar.py` tar ut adressaten ur regestens första mening, och den
+identifieras som mottagarna. Påståendet är `skriver_till`, med brevets verk-id som
+värde. Står ett verb eller en bisats före "till" ("kungör att han till …", "dotter
+till …") är det inte ett missiv.
+
+Säger regesten att brevet svarar på ett tidigare ("med svar på dennes skrivelse av
+28 maj", "att man mottagit dennes brev av den 9 juni", "svarar biskopen i
+Strängnäs") blir det också ett påstående `besvarar`, med den som får svaret som
+objekt. Värdet är det besvarade brevets verk-id när brevet har hittats, annars
+regestens hänvisning. Hur säkert det besvarade brevet är står i en bedömning med
+aspekten `brevkoppling`:
+
+| värde | grund |
+|---|---|
+| `saker` | utgivaren anger brevets nummer ("SDHK nr 23220", i DF "n:o 5257") |
+| `sannolik` | regesten anger datumet, och det enda brevet det datumet har parterna i omvänd ordning |
+| `mojlig` | inget datum; det enda missivet från adressaten till utfärdaren under året före |
+
+Breven söks i både SDHK och DF, så ett svar i DF kan peka på ett brev i SDHK.
+Brev som bara svarar utan att regesten säger på vad kopplas inte, och en brevväxling
+som regesten inte nämner (A skriver till B, B senare till A) registreras inte som
+påstående: den är vår slutsats, inte källans.
+
 Kända svagheter: mottagare som är altaren, kapell eller kyrkor utan ortnamn
 ("S:ta Katarinas altare i Åbo domkyrka") känns ofta inte igen som
 institutioner, och påståendet får då bara värde och inget objekt. Ett
@@ -883,8 +928,16 @@ ingen grupp får tillbaka ersätts av det id dit flest av förekomsterna gick, o
 finns kvar som en entitet med identifieringen `ersatt_av`, så att länkar från
 andra källor går att följa. Ett id delas aldrig ut på nytt till en annan
 person. Registret ligger i `data/` och delas mellan miljöerna, så att dev och
-prod har samma id:n. Skriptet tar bort och skapar om sina påståenden vid
-varje körning, men raderar aldrig en entitet som en annan källa refererar till.
+prod har samma id:n; DF:s förekomster har nycklar som `df6022:…` och adressaterna
+`a|…`. En person som bara är känd ur DF får ett id som `person:df:<namn>:<nr>`.
+Skriptet tar bort och skapar om sina påståenden vid varje körning, men raderar
+aldrig en entitet som en annan källa refererar till, och aldrig en plats.
+
+Orterna i fälten slås upp bland de platser som redan finns, med platsregistrets
+regler: runinskrifternas fyndplatser, socknarna och andra platser med område i
+id:t slås inte upp på namnet, projektets handregistrerade platser går före de ur
+breven, en ersatt plats följs till den nya, och för ett DF-brev går DF:s egen plats
+med namnet först. Bara en ort som inte finns får en ny entitet.
 
 ### Biskopslistan
 

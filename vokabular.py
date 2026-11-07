@@ -112,6 +112,9 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     # Predikat — vad ett påstående säger om sitt subjekt
     ("predikat", "innehar_ambete", "innehar ämbete", None),
     ("predikat", "utfardar", "utfärdar", None),
+    ("predikat", "skriver_till", "skriver till", "Brevets adressat; värdet är brevets verk-id"),
+    ("predikat", "besvarar", "besvarar", "Brevet svarar på ett brev från objektet; värdet är det besvarade brevets verk-id "
+     "när det är identifierat, annars regestens hänvisning"),
     ("predikat", "overlater", "överlåter egendom till", None),
     ("predikat", "ager", "äger", None),
     ("predikat", "forlaner", "förlänar", None),
@@ -187,6 +190,7 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("bedomningsaspekt", "datering", "Datering", "Värdet är ett EDTF-uttryck, inte vokabulär"),
     ("bedomningsaspekt", "identifiering", "Identifiering", "Gäller identifieringar mellan entiteter"),
     ("bedomningsaspekt", "titulatur", "Titulatur", "Gäller påståenden om titel: om titeln stämmer med dateringen"),
+    ("bedomningsaspekt", "brevkoppling", "Brevkoppling", "Gäller 'besvarar': om det besvarade brevet är rätt identifierat"),
 
     # Identifiering — hur säkert två entiteter är desamma
     ("identifiering", "saker", "Säker", None),
@@ -198,6 +202,9 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     # Titulatur — hur brevets datering förhåller sig till titelinnehavet och
     # livet hos den som brevet ger titeln. Koderna används också som
     # kommentar på identifieringar mellan en utfärdare och dess kandidater.
+    ("brevkoppling", "saker", "Säker", "Utgivaren anger det besvarade brevets nummer"),
+    ("brevkoppling", "sannolik", "Sannolik", "Regesten anger det besvarade brevets datum, och parterna stämmer"),
+    ("brevkoppling", "mojlig", "Möjlig", "Regesten anger inget datum; det enda brevet mellan parterna under året före"),
     ("titulatur", "under_titeln", "Under titeln", "Bar titeln vid dateringen"),
     ("titulatur", "fore_titeln", "Före titeln", "Levde men hade ännu inte titeln, t.ex. utvald tronföljare"),
     ("titulatur", "efter_titeln", "Efter titeln", "Levde men hade förlorat eller lämnat titeln, t.ex. avsatt kung"),

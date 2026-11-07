@@ -7,6 +7,13 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Påståenden ur Diplomatarium Fennicums utfärdarfält och regester, på samma sätt som
+  ur SDHK (`pastaenden_sdhk.py`). DF:s personer förs till SDHK:s när namn, ort eller
+  ämbete stämmer, utan att något SDHK-id ändras.
+- Predikaten `skriver_till` (missivets adressat) och `besvarar` (brevet svarar på ett
+  tidigare brev), med bedömningsaspekten `brevkoppling` för hur säkert det besvarade
+  brevet är identifierat.
+
 - Geografiska platser som entiteter: tabellen `verk_plats` kopplar breven och
   runinskrifterna till sina platser med roll och källans ordalydelse, och
   `auktoritet_titel.sate_id` kopplar sätena. Fylls av `platser.py`.
@@ -76,6 +83,10 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Ändrat
 
+- Brevpåståendenas orter slås upp med platsregistrets regler och i id-ordning, så att ett
+  namn alltid ger samma plats och handregistrerade platser går före brevens egna
+  (Bjälbo, Essunga, Gökhem). En ersatt plats följs till den nya, och `pastaenden_sdhk.py`
+  raderar inte längre platser, eftersom `platser.py` flyttar påståendena efteråt.
 - SDHK:s äkthetsbedömningar kommer ur en granskad lista (`data/sdhk/akthet_granskning.tsv`,
   `sdhk_akthet.py`) i stället för en ordregel: 20 brev som inte är misstänkta har inte längre
   någon bedömning, 44 brev har fått den de saknade, värdena skiljer förfalskning, misstänkt

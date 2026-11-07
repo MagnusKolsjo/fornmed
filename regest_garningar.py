@@ -134,3 +134,114 @@ def tolka_garning(regest: str) -> Garning | None:
     if ort and ort.split()[0] in ("Sverige", "Danmark", "Norge"):
         ort = None
     return Garning(verb, VERB[verb], mottagare or None, slakt, egendom[:300] or None, pris, ort)
+
+
+# -----------------------------------------------------------------------------
+# Brevets adressat och svar på tidigare brev
+# -----------------------------------------------------------------------------
+# Missiv har ingen gärning utan en adressat: "Rådet i Åbo till det i Lübeck angående
+# ...", "Ärkebiskop Jakob till herr Sten Kristersson att ...", "Erik Trolle meddelar
+# Sten Sture att ...". Regesten säger ibland också att brevet svarar på ett tidigare:
+# "med svar på dennes skrivelse av 28 maj", "att man mottagit dennes brev av den 9 juni",
+# "Biskop Magnus svarar biskopen i Strängnäs".
+
+MANADSNAMN = {"januari": 1, "februari": 2, "mars": 3, "april": 4, "maj": 5, "juni": 6, "juli": 7,
+              "augusti": 8, "september": 9, "oktober": 10, "november": 11, "december": 12}
+_MANAD = r"(" + "|".join(MANADSNAMN) + r"|jan|febr?|apr|aug|sept?|okt|nov|dec)\.?"
+_KORT = {"jan": 1, "feb": 2, "febr": 2, "apr": 4, "aug": 8, "sep": 9, "sept": 9, "okt": 10, "nov": 11, "dec": 12}
+
+# Verb som tar adressaten som objekt ("meddelar Sten Sture att")
+ADRESSVERB = r"(?:svarar|besvarar|meddelar|underrättar|tackar|ber|anmodar|uppmanar|befaller|varnar|förmanar|lyckönskar|tillskriver)"
+# Före "till" i ett missiv står bara avsändaren: inga verb eller bisatser
+INTE_AVSANDARE = re.compile(r"\b(?:att|som|vilk\w+|kungör|kungöra|förbinder|förbinda|ger|giver|skänker|säljer|lovar|"
+                            r"tillstår|erkänner|stadfäster|överlåter|upplåter|pantsätter|byter|dömer|utnämner|"
+                            r"intygar|vittnar|bekräftar|förklarar|befullmäktigar|gör|har|hade|sänder|sände|skickar|"
+                            r"inger|framför|överlämnar|återlämna\w*|kallar|kallas|varit|är|blir|hänvisar|hänskjuter|"
+                            r"frisäger|vidimerar|upprättar|avger|avlägger|bemöter|uppbär|bekänner|utfärdar|utställer|"
+                            r"lämnar|donerar|förordnar|förordar|besöker|utser|sköter|översänder|förnyar|kvitterar|"
+                            r"anhåller|reserverar|rekommenderar|anbefaller|inbjuder|uttalar|bemyndigar|avsäger|utlovar|"
+                            r"providerar|återställer|uppgör|tilldelar|förlänar|befriar|tillåter|beviljar|förbjuder|"
+                            r"\w*(?:byter|träder|förskriver|arrenderar|säljer|giver|dömer|låter|ställer|sänder|lägger|"
+                            r"tager|tar|betalar|lovar|ber|meddelar|svarar|tackar|befaller|underrättar))\b|;"
+                            # "bröder till", "dotter till": släktskap, inte adress
+                            r"|\b(?:bröder|broder|bror|son|söner|dotter|döttrar|hustru|änka|frände|fränder|måg|syster|"
+                            r"fader|far|moder|mor|arvinge|arvingar|fullmäktig\w*|ombud)$")
+_ADRESSAT_SLUT = (r"(?=,? (?:med|om|att|angående|rörande|beträffande|i anledning av|som svar|med anledning|på (?:hans|hennes|deras|dennes|"
+                  r"dess|sin|sina|adressatens)|för (?:hans|hennes|deras|dennes|det|den|att)|och (?:ber|meddelar|tackar|"
+                  r"begär|förklarar|lovar|beklagar|underrättar|uppmanar|anhåller|förmanar|svarar))\b|\s+\(|[.;:]|$)")
+MISSIV = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:skriver |skrev |hemställer |vänder sig |sänder brev |(?:meddelar|skriver) i (?:ett )?brev )?till "
+                    r"(?P<adr>.{2,160}?)" + _ADRESSAT_SLUT)
+BREV_FRAN = re.compile(r"^Brev från (?P<avs>.{2,120}?) till (?P<adr>.{2,160}?)" + _ADRESSAT_SLUT)
+ADRESSVERB_MONSTER = re.compile(r"^(?P<avs>.{2,140}?)\s+" + ADRESSVERB + r"\s+(?P<adr>(?!att\b|om\b|sig\b|därom\b|på\b|ett\b|det\b|"
+                                r"brev\w*\b|skrivelse\w*\b).{2,160}?)" + _ADRESSAT_SLUT.replace("(?=,? (?:", "(?=,? (?:för|på|", 1))
+# "besvarar ett brev från Ernst van Dotzem": adressaten är det besvarade brevets avsändare
+SVAR_FRAN = re.compile(r"^(?P<avs>.{2,140}?)\s+(?:besvarar|svarar på) (?:ett |en |det |hans |deras |två |de )?(?:brev|skrivelse)\w* "
+                       r"från (?P<adr>.{2,160}?)" + _ADRESSAT_SLUT)
+
+_POSSESSIV = r"(?:dennes|dess|hans|hennes|deras|adressatens|rådets|ert|edert|eder|deras senaste|hans senaste)"
+SVAR = re.compile(r"\b(?:svarar|besvarar)\b(?! för\b)|\bsvar (?:på|till) " + _POSSESSIV + r"|\bmottagit " + _POSSESSIV +
+                  r"\s+(?:\w+\s+){0,3}?(?:brev|skrivelse|bud|budskap|kallelse|svar|förfrågan|begäran)|\b" + _POSSESSIV + r" \(?(?:i )?(?:brev|skrivelse)\w*\s+(?:av|daterat?|dat\.)\s+(?:den\s+)?\d")
+NEKAT = re.compile(r"\b(?:inte|ej|icke|utan|aldrig|ännu ej|ännu inte)\s+(?:\w+\s+){0,3}$")
+HANVISNING = re.compile(r"(?:" + _POSSESSIV + r"\s+)?\(?(?:i\s+)?(?:brev|skrivelse)\w*\s+(?:av|daterat?|dat\.)\s+"
+                        r"(?:den\s+)?(\d{1,2})\s+" + _MANAD + r"(?:\s+(\d{4}))?(\s+samma år|\s+i år)?")
+# SDHK skriver ibland datumet som åååammdd: "hans brev 12990404"
+HANVISNING_TAL = re.compile(r"(?:" + _POSSESSIV + r"\s+)?(?:brev|skrivelse)\w*\s+(?:av\s+|daterat?\s+)?(1[1-5]\d\d)(\d\d)(\d\d)\b")
+
+
+@dataclass
+class Brevform:
+    adressat: str | None             # adressatfrasen som den står
+    svar: bool                       # regesten säger att brevet svarar på ett tidigare
+    hanvisning: str | None           # "dennes skrivelse av 28 maj"
+    datum: tuple[int, int, int | None] | None   # det besvarade brevets dag, månad och år
+    nummer: tuple[str, int] | None = None   # utgivarens hänvisning: ('sdhk', 23220) eller ('egen', 5257)
+
+
+# Utgivarens hänvisning till det besvarade brevet: "(SDHK nr 23220)", i DF "(n:o 5257)"
+NUMMER_SDHK = re.compile(r"\bSDHK nr\.?\s*(\d+)")
+NUMMER_EGEN = re.compile(r"\bn:o\s*(\d+)")
+
+
+def _manad(s: str) -> int:
+    s = s.lower().rstrip(".")
+    return MANADSNAMN.get(s) or _KORT[s]
+
+
+def tolka_brevform(regest: str) -> Brevform | None:
+    """Adressaten i ett missiv och om brevet svarar på ett tidigare brev; None om regesten inte säger något om det."""
+    mening = forsta_meningen(regest)
+    adressat = None
+    for monster in (BREV_FRAN, SVAR_FRAN, MISSIV, ADRESSVERB_MONSTER):
+        m = monster.match(mening)
+        if not m:
+            continue
+        avs, adr = m.group("avs"), re.sub(r"\s+", " ", m.group("adr")).strip(" ,")
+        if INTE_AVSANDARE.search(avs) or VERBMONSTER.search(avs):
+            continue
+        # En adressat som själv innehåller ett verb är en gärning ("till Venngarn bekräftar ...")
+        if INTE_AVSANDARE.search(adr) or VERBMONSTER.search(adr):
+            continue
+        adressat = re.sub(r"^" + HEDERSORD.pattern[1:], "", adr, flags=re.I).strip(" ,")
+        break
+    svar = False
+    # Svaret står i regestens början: de två första meningarna
+    borjan = mening + regest[len(mening):][:1] + forsta_meningen(regest[len(mening) + 1:].lstrip())
+    for m in SVAR.finditer(borjan):
+        if not NEKAT.search(borjan[max(0, m.start() - 40):m.start()]):
+            svar = True
+            break
+    hanvisning = datum = None
+    if svar and (h := HANVISNING.search(borjan)):
+        hanvisning = h.group(0).strip(" (")
+        datum = (int(h.group(1)), _manad(h.group(2)), int(h.group(3)) if h.group(3) else None)
+    elif svar and (h := HANVISNING_TAL.search(borjan)) and 1 <= int(h.group(2)) <= 12 and 1 <= int(h.group(3)) <= 31:
+        hanvisning = h.group(0)
+        datum = (int(h.group(3)), int(h.group(2)), int(h.group(1)))
+    nummer = None
+    if svar and (n := NUMMER_SDHK.search(borjan)):
+        nummer = ("sdhk", int(n.group(1)))
+    elif svar and (n := NUMMER_EGEN.search(borjan)):
+        nummer = ("egen", int(n.group(1)))
+    if not adressat and not svar:
+        return None
+    return Brevform(adressat or None, svar, hanvisning, datum, nummer)
