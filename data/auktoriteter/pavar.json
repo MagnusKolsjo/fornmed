@@ -1,339 +1,394 @@
 {
- "beskrivning": "Påvar och motpåvar 817–1549. 'fran' och 'till' är pontifikatets år; 'dod' anges när påven levde vidare efter pontifikatet (avgick eller avsattes), annars är 'till' dödsåret. Motpåvar har 'anm'. 'namnvarianter' normaliserar namnformer i SDHK:s regester till listans form. Sammanställd ur allmänna uppslagsverk och inte kontrollerad mot primärlitteratur.",
+ "beskrivning": "Påvar och motpåvar 817–1549. 'fran' och 'till' är pontifikatets år; 'dod' anges när påven levde vidare efter pontifikatet (avgick eller avsattes), annars är 'till' dödsåret. Motpåvar har 'anm'. 'namnvarianter' normaliserar namnformer i SDHK:s regester till listans form. Sammanställd ur allmänna uppslagsverk och inte kontrollerad mot primärlitteratur. 'wikidata' är personens objekt i Wikidata (CC0), matchat på namn, ordningstal och år.",
  "pavar": [
   {
    "namn": "Paschalis",
    "nr": "I",
    "fran": 817,
-   "till": 824
+   "till": 824,
+   "wikidata": "Q103308"
   },
   {
    "namn": "Eugenius",
    "nr": "II",
    "fran": 824,
-   "till": 827
+   "till": 827,
+   "wikidata": "Q104205"
   },
   {
    "namn": "Valentinus",
    "nr": "",
    "fran": 827,
-   "till": 827
+   "till": 827,
+   "wikidata": "Q168733"
   },
   {
    "namn": "Gregorius",
    "nr": "IV",
    "fran": 827,
-   "till": 844
+   "till": 844,
+   "wikidata": "Q167052"
   },
   {
    "namn": "Sergius",
    "nr": "II",
    "fran": 844,
-   "till": 847
+   "till": 847,
+   "wikidata": "Q228644"
   },
   {
    "namn": "Leo",
    "nr": "IV",
    "fran": 847,
-   "till": 855
+   "till": 855,
+   "wikidata": "Q228205"
   },
   {
    "namn": "Benedictus",
    "nr": "III",
    "fran": 855,
-   "till": 858
+   "till": 858,
+   "wikidata": "Q172445"
   },
   {
    "namn": "Nicolaus",
    "nr": "I",
    "fran": 858,
-   "till": 867
+   "till": 867,
+   "wikidata": "Q170503"
   },
   {
    "namn": "Hadrianus",
    "nr": "II",
    "fran": 867,
-   "till": 872
+   "till": 872,
+   "wikidata": "Q173995"
   },
   {
    "namn": "Johannes",
    "nr": "VIII",
    "fran": 872,
-   "till": 882
+   "till": 882,
+   "wikidata": "Q170504"
   },
   {
    "namn": "Marinus",
    "nr": "I",
    "fran": 882,
-   "till": 884
+   "till": 884,
+   "wikidata": "Q227721"
   },
   {
    "namn": "Hadrianus",
    "nr": "III",
    "fran": 884,
-   "till": 885
+   "till": 885,
+   "wikidata": "Q172398"
   },
   {
    "namn": "Stephanus",
    "nr": "V",
    "fran": 885,
-   "till": 891
+   "till": 891,
+   "wikidata": "Q245030"
   },
   {
    "namn": "Formosus",
    "nr": "",
    "fran": 891,
-   "till": 896
+   "till": 896,
+   "wikidata": "Q170499"
   },
   {
    "namn": "Bonifatius",
    "nr": "VI",
    "fran": 896,
-   "till": 896
+   "till": 896,
+   "wikidata": "Q178071"
   },
   {
    "namn": "Stephanus",
    "nr": "VI",
    "fran": 896,
-   "till": 897
+   "till": 897,
+   "wikidata": "Q238947"
   },
   {
    "namn": "Romanus",
    "nr": "",
    "fran": 897,
-   "till": 897
+   "till": 897,
+   "wikidata": "Q170500"
   },
   {
    "namn": "Theodorus",
    "nr": "II",
    "fran": 897,
-   "till": 897
+   "till": 897,
+   "wikidata": "Q172432"
   },
   {
    "namn": "Johannes",
    "nr": "IX",
    "fran": 898,
-   "till": 900
+   "till": 900,
+   "wikidata": "Q227961"
   },
   {
    "namn": "Benedictus",
    "nr": "IV",
    "fran": 900,
-   "till": 903
+   "till": 903,
+   "wikidata": "Q182463"
   },
   {
    "namn": "Leo",
    "nr": "V",
    "fran": 903,
-   "till": 903
+   "till": 903,
+   "wikidata": "Q172404"
   },
   {
    "namn": "Sergius",
    "nr": "III",
    "fran": 904,
-   "till": 911
+   "till": 911,
+   "wikidata": "Q172424"
   },
   {
    "namn": "Anastasius",
    "nr": "III",
    "fran": 911,
-   "till": 913
+   "till": 913,
+   "wikidata": "Q103431"
   },
   {
    "namn": "Lando",
    "nr": "",
    "fran": 913,
-   "till": 914
+   "till": 914,
+   "wikidata": "Q104798"
   },
   {
    "namn": "Johannes",
    "nr": "X",
    "fran": 914,
-   "till": 928
+   "till": 928,
+   "wikidata": "Q227976"
   },
   {
    "namn": "Leo",
    "nr": "VI",
    "fran": 928,
-   "till": 929
+   "till": 929,
+   "wikidata": "Q103795"
   },
   {
    "namn": "Stephanus",
    "nr": "VII",
    "fran": 929,
-   "till": 931
+   "till": 931,
+   "wikidata": "Q235920"
   },
   {
    "namn": "Johannes",
    "nr": "XI",
    "fran": 931,
-   "till": 936
+   "till": 936,
+   "wikidata": "Q181959"
   },
   {
    "namn": "Leo",
    "nr": "VII",
    "fran": 936,
-   "till": 939
+   "till": 939,
+   "wikidata": "Q182489"
   },
   {
    "namn": "Stephanus",
    "nr": "VIII",
    "fran": 939,
-   "till": 942
+   "till": 942,
+   "wikidata": "Q222500"
   },
   {
    "namn": "Marinus",
    "nr": "II",
    "fran": 942,
-   "till": 946
+   "till": 946,
+   "wikidata": "Q103423"
   },
   {
    "namn": "Agapitus",
    "nr": "II",
    "fran": 946,
-   "till": 955
+   "till": 955,
+   "wikidata": "Q103389"
   },
   {
    "namn": "Johannes",
    "nr": "XII",
    "fran": 955,
-   "till": 964
+   "till": 964,
+   "wikidata": "Q172933"
   },
   {
    "namn": "Leo",
    "nr": "VIII",
    "fran": 963,
-   "till": 965
+   "till": 965,
+   "wikidata": "Q227965"
   },
   {
    "namn": "Benedictus",
    "nr": "V",
    "fran": 964,
    "till": 964,
-   "dod": 966
+   "dod": 966,
+   "wikidata": "Q170559"
   },
   {
    "namn": "Johannes",
    "nr": "XIII",
    "fran": 965,
-   "till": 972
+   "till": 972,
+   "wikidata": "Q181952"
   },
   {
    "namn": "Benedictus",
    "nr": "VI",
    "fran": 973,
-   "till": 974
+   "till": 974,
+   "wikidata": "Q179882"
   },
   {
    "namn": "Benedictus",
    "nr": "VII",
    "fran": 974,
-   "till": 983
+   "till": 983,
+   "wikidata": "Q179697"
   },
   {
    "namn": "Johannes",
    "nr": "XIV",
    "fran": 983,
-   "till": 984
+   "till": 984,
+   "wikidata": "Q227972"
   },
   {
    "namn": "Johannes",
    "nr": "XV",
    "fran": 985,
-   "till": 996
+   "till": 996,
+   "wikidata": "Q228649"
   },
   {
    "namn": "Gregorius",
    "nr": "V",
    "fran": 996,
-   "till": 999
+   "till": 999,
+   "wikidata": "Q58571"
   },
   {
    "namn": "Silvester",
    "nr": "II",
    "fran": 999,
-   "till": 1003
+   "till": 1003,
+   "wikidata": "Q172383"
   },
   {
    "namn": "Johannes",
    "nr": "XVII",
    "fran": 1003,
-   "till": 1003
+   "till": 1003,
+   "wikidata": "Q227963"
   },
   {
    "namn": "Johannes",
    "nr": "XVIII",
    "fran": 1004,
-   "till": 1009
+   "till": 1009,
+   "wikidata": "Q179702"
   },
   {
    "namn": "Sergius",
    "nr": "IV",
    "fran": 1009,
-   "till": 1012
+   "till": 1012,
+   "wikidata": "Q227970"
   },
   {
    "namn": "Benedictus",
    "nr": "VIII",
    "fran": 1012,
-   "till": 1024
+   "till": 1024,
+   "wikidata": "Q162102"
   },
   {
    "namn": "Johannes",
    "nr": "XIX",
    "fran": 1024,
-   "till": 1032
+   "till": 1032,
+   "wikidata": "Q227978"
   },
   {
    "namn": "Benedictus",
    "nr": "IX",
    "fran": 1032,
    "till": 1048,
-   "dod": 1056
+   "dod": 1056,
+   "wikidata": "Q178799"
   },
   {
    "namn": "Silvester",
    "nr": "III",
    "fran": 1045,
    "till": 1045,
-   "dod": 1063
+   "dod": 1063,
+   "wikidata": "Q46090"
   },
   {
    "namn": "Gregorius",
    "nr": "VI",
    "fran": 1045,
    "till": 1046,
-   "dod": 1047
+   "dod": 1047,
+   "wikidata": "Q227981"
   },
   {
    "namn": "Clemens",
    "nr": "II",
    "fran": 1046,
-   "till": 1047
+   "till": 1047,
+   "wikidata": "Q58573"
   },
   {
    "namn": "Damasus",
    "nr": "II",
    "fran": 1048,
-   "till": 1048
+   "till": 1048,
+   "wikidata": "Q60063"
   },
   {
    "namn": "Leo",
    "nr": "IX",
    "fran": 1049,
-   "till": 1054
+   "till": 1054,
+   "wikidata": "Q58559"
   },
   {
    "namn": "Victor",
    "nr": "II",
    "fran": 1055,
-   "till": 1057
+   "till": 1057,
+   "wikidata": "Q58563"
   },
   {
    "namn": "Stephanus",
    "nr": "IX",
    "fran": 1057,
-   "till": 1058
+   "till": 1058,
+   "wikidata": "Q58568"
   },
   {
    "namn": "Benedictus",
@@ -341,19 +396,22 @@
    "fran": 1058,
    "till": 1059,
    "anm": "motpåve",
-   "dod": 1073
+   "dod": 1073,
+   "wikidata": "Q117656"
   },
   {
    "namn": "Nicolaus",
    "nr": "II",
    "fran": 1059,
-   "till": 1061
+   "till": 1061,
+   "wikidata": "Q117840"
   },
   {
    "namn": "Alexander",
    "nr": "II",
    "fran": 1061,
-   "till": 1073
+   "till": 1073,
+   "wikidata": "Q171112"
   },
   {
    "namn": "Honorius",
@@ -361,44 +419,51 @@
    "fran": 1061,
    "till": 1064,
    "anm": "motpåve (Cadalus)",
-   "dod": 1072
+   "dod": 1072,
+   "wikidata": "Q355773"
   },
   {
    "namn": "Gregorius",
    "nr": "VII",
    "fran": 1073,
-   "till": 1085
+   "till": 1085,
+   "wikidata": "Q133063"
   },
   {
    "namn": "Clemens",
    "nr": "III",
    "fran": 1080,
    "till": 1100,
-   "anm": "motpåve (Wibert)"
+   "anm": "motpåve (Wibert)",
+   "wikidata": "Q336684"
   },
   {
    "namn": "Victor",
    "nr": "III",
    "fran": 1086,
-   "till": 1087
+   "till": 1087,
+   "wikidata": "Q227724"
   },
   {
    "namn": "Urban",
    "nr": "II",
    "fran": 1088,
-   "till": 1099
+   "till": 1099,
+   "wikidata": "Q30578"
   },
   {
    "namn": "Paschalis",
    "nr": "II",
    "fran": 1099,
-   "till": 1118
+   "till": 1118,
+   "wikidata": "Q227967"
   },
   {
    "namn": "Gelasius",
    "nr": "II",
    "fran": 1118,
-   "till": 1119
+   "till": 1119,
+   "wikidata": "Q180882"
   },
   {
    "namn": "Gregorius",
@@ -406,82 +471,95 @@
    "fran": 1118,
    "till": 1121,
    "anm": "motpåve (Burdinus)",
-   "dod": 1137
+   "dod": 1137,
+   "wikidata": "Q365848"
   },
   {
    "namn": "Calixtus",
    "nr": "II",
    "fran": 1119,
-   "till": 1124
+   "till": 1124,
+   "wikidata": "Q170654"
   },
   {
    "namn": "Honorius",
    "nr": "II",
    "fran": 1124,
-   "till": 1130
+   "till": 1130,
+   "wikidata": "Q173071"
   },
   {
    "namn": "Innocentius",
    "nr": "II",
    "fran": 1130,
-   "till": 1143
+   "till": 1143,
+   "wikidata": "Q170386"
   },
   {
    "namn": "Anacletus",
    "nr": "II",
    "fran": 1130,
    "till": 1138,
-   "anm": "motpåve"
+   "anm": "motpåve",
+   "wikidata": "Q314025"
   },
   {
    "namn": "Celestinus",
    "nr": "II",
    "fran": 1143,
-   "till": 1144
+   "till": 1144,
+   "wikidata": "Q171144"
   },
   {
    "namn": "Lucius",
    "nr": "II",
    "fran": 1144,
-   "till": 1145
+   "till": 1145,
+   "wikidata": "Q170385"
   },
   {
    "namn": "Eugenius",
    "nr": "III",
    "fran": 1145,
-   "till": 1153
+   "till": 1153,
+   "wikidata": "Q167610"
   },
   {
    "namn": "Anastasius",
    "nr": "IV",
    "fran": 1153,
-   "till": 1154
+   "till": 1154,
+   "wikidata": "Q179389"
   },
   {
    "namn": "Hadrianus",
    "nr": "IV",
    "fran": 1154,
-   "till": 1159
+   "till": 1159,
+   "wikidata": "Q132845"
   },
   {
    "namn": "Alexander",
    "nr": "III",
    "fran": 1159,
-   "till": 1181
+   "till": 1181,
+   "wikidata": "Q160116"
   },
   {
    "namn": "Victor",
    "nr": "IV",
    "fran": 1159,
    "till": 1164,
-   "anm": "motpåve"
+   "anm": "motpåve",
+   "wikidata": "Q241387"
   },
   {
    "namn": "Paschalis",
    "nr": "III",
    "fran": 1164,
    "till": 1168,
-   "anm": "motpåve"
+   "anm": "motpåve",
+   "wikidata": "Q346582"
   },
   {
    "namn": "Calixtus",
@@ -489,164 +567,191 @@
    "fran": 1168,
    "till": 1178,
    "anm": "motpåve",
-   "dod": 1180
+   "dod": 1180,
+   "wikidata": "Q356636"
   },
   {
    "namn": "Lucius",
    "nr": "III",
    "fran": 1181,
-   "till": 1185
+   "till": 1185,
+   "wikidata": "Q182474"
   },
   {
    "namn": "Urban",
    "nr": "III",
    "fran": 1185,
-   "till": 1187
+   "till": 1187,
+   "wikidata": "Q171520"
   },
   {
    "namn": "Gregorius",
    "nr": "VIII",
    "fran": 1187,
-   "till": 1187
+   "till": 1187,
+   "wikidata": "Q101866"
   },
   {
    "namn": "Clemens",
    "nr": "III",
    "fran": 1187,
-   "till": 1191
+   "till": 1191,
+   "wikidata": "Q171001"
   },
   {
    "namn": "Celestinus",
    "nr": "III",
    "fran": 1191,
-   "till": 1198
+   "till": 1198,
+   "wikidata": "Q103437"
   },
   {
    "namn": "Innocentius",
    "nr": "III",
    "fran": 1198,
-   "till": 1216
+   "till": 1216,
+   "wikidata": "Q128076"
   },
   {
    "namn": "Honorius",
    "nr": "III",
    "fran": 1216,
-   "till": 1227
+   "till": 1227,
+   "wikidata": "Q160182"
   },
   {
    "namn": "Gregorius",
    "nr": "IX",
    "fran": 1227,
-   "till": 1241
+   "till": 1241,
+   "wikidata": "Q124831"
   },
   {
    "namn": "Celestinus",
    "nr": "IV",
    "fran": 1241,
-   "till": 1241
+   "till": 1241,
+   "wikidata": "Q171238"
   },
   {
    "namn": "Innocentius",
    "nr": "IV",
    "fran": 1243,
-   "till": 1254
+   "till": 1254,
+   "wikidata": "Q160609"
   },
   {
    "namn": "Alexander",
    "nr": "IV",
    "fran": 1254,
-   "till": 1261
+   "till": 1261,
+   "wikidata": "Q169915"
   },
   {
    "namn": "Urban",
    "nr": "IV",
    "fran": 1261,
-   "till": 1264
+   "till": 1264,
+   "wikidata": "Q169305"
   },
   {
    "namn": "Clemens",
    "nr": "IV",
    "fran": 1265,
-   "till": 1268
+   "till": 1268,
+   "wikidata": "Q172928"
   },
   {
    "namn": "Gregorius",
    "nr": "X",
    "fran": 1271,
-   "till": 1276
+   "till": 1276,
+   "wikidata": "Q161740"
   },
   {
    "namn": "Innocentius",
    "nr": "V",
    "fran": 1276,
-   "till": 1276
+   "till": 1276,
+   "wikidata": "Q170871"
   },
   {
    "namn": "Hadrianus",
    "nr": "V",
    "fran": 1276,
-   "till": 1276
+   "till": 1276,
+   "wikidata": "Q173000"
   },
   {
    "namn": "Johannes",
    "nr": "XXI",
    "fran": 1276,
-   "till": 1277
+   "till": 1277,
+   "wikidata": "Q172916"
   },
   {
    "namn": "Nicolaus",
    "nr": "III",
    "fran": 1277,
-   "till": 1280
+   "till": 1280,
+   "wikidata": "Q170859"
   },
   {
    "namn": "Martin",
    "nr": "IV",
    "fran": 1281,
-   "till": 1285
+   "till": 1285,
+   "wikidata": "Q227719"
   },
   {
    "namn": "Honorius",
    "nr": "IV",
    "fran": 1285,
-   "till": 1287
+   "till": 1287,
+   "wikidata": "Q227743"
   },
   {
    "namn": "Nicolaus",
    "nr": "IV",
    "fran": 1288,
-   "till": 1292
+   "till": 1292,
+   "wikidata": "Q103625"
   },
   {
    "namn": "Celestinus",
    "nr": "V",
    "fran": 1294,
    "till": 1294,
-   "dod": 1296
+   "dod": 1296,
+   "wikidata": "Q118081"
   },
   {
    "namn": "Bonifatius",
    "nr": "VIII",
    "fran": 1294,
-   "till": 1303
+   "till": 1303,
+   "wikidata": "Q134646"
   },
   {
    "namn": "Benedictus",
    "nr": "XI",
    "fran": 1303,
-   "till": 1304
+   "till": 1304,
+   "wikidata": "Q169301"
   },
   {
    "namn": "Clemens",
    "nr": "V",
    "fran": 1305,
-   "till": 1314
+   "till": 1314,
+   "wikidata": "Q131463"
   },
   {
    "namn": "Johannes",
    "nr": "XXII",
    "fran": 1316,
-   "till": 1334
+   "till": 1334,
+   "wikidata": "Q165568"
   },
   {
    "namn": "Nicolaus",
@@ -654,83 +759,96 @@
    "fran": 1328,
    "till": 1330,
    "anm": "motpåve",
-   "dod": 1333
+   "dod": 1333,
+   "wikidata": "Q348611"
   },
   {
    "namn": "Benedictus",
    "nr": "XII",
    "fran": 1334,
-   "till": 1342
+   "till": 1342,
+   "wikidata": "Q170389"
   },
   {
    "namn": "Clemens",
    "nr": "VI",
    "fran": 1342,
-   "till": 1352
+   "till": 1352,
+   "wikidata": "Q170863"
   },
   {
    "namn": "Innocentius",
    "nr": "VI",
    "fran": 1352,
-   "till": 1362
+   "till": 1362,
+   "wikidata": "Q169288"
   },
   {
    "namn": "Urban",
    "nr": "V",
    "fran": 1362,
-   "till": 1370
+   "till": 1370,
+   "wikidata": "Q133046"
   },
   {
    "namn": "Gregorius",
    "nr": "XI",
    "fran": 1370,
-   "till": 1378
+   "till": 1378,
+   "wikidata": "Q169594"
   },
   {
    "namn": "Urban",
    "nr": "VI",
    "fran": 1378,
-   "till": 1389
+   "till": 1389,
+   "wikidata": "Q171626"
   },
   {
    "namn": "Clemens",
    "nr": "VII",
    "fran": 1378,
    "till": 1394,
-   "anm": "motpåve i Avignon"
+   "anm": "motpåve i Avignon",
+   "wikidata": "Q320371"
   },
   {
    "namn": "Bonifatius",
    "nr": "IX",
    "fran": 1389,
-   "till": 1404
+   "till": 1404,
+   "wikidata": "Q165561"
   },
   {
    "namn": "Benedictus",
    "nr": "XIII",
    "fran": 1394,
    "till": 1423,
-   "anm": "motpåve i Avignon"
+   "anm": "motpåve i Avignon",
+   "wikidata": "Q310371"
   },
   {
    "namn": "Innocentius",
    "nr": "VII",
    "fran": 1404,
-   "till": 1406
+   "till": 1406,
+   "wikidata": "Q227713"
   },
   {
    "namn": "Gregorius",
    "nr": "XII",
    "fran": 1406,
    "till": 1415,
-   "dod": 1417
+   "dod": 1417,
+   "wikidata": "Q227694"
   },
   {
    "namn": "Alexander",
    "nr": "V",
    "fran": 1409,
    "till": 1410,
-   "anm": "motpåve i Pisa"
+   "anm": "motpåve i Pisa",
+   "wikidata": "Q262884"
   },
   {
    "namn": "Johannes",
@@ -738,13 +856,15 @@
    "fran": 1410,
    "till": 1415,
    "anm": "motpåve i Pisa",
-   "dod": 1419
+   "dod": 1419,
+   "wikidata": "Q294599"
   },
   {
    "namn": "Martin",
    "nr": "V",
    "fran": 1417,
-   "till": 1431
+   "till": 1431,
+   "wikidata": "Q169612"
   },
   {
    "namn": "Clemens",
@@ -752,13 +872,15 @@
    "fran": 1423,
    "till": 1429,
    "anm": "motpåve",
-   "dod": 1446
+   "dod": 1446,
+   "wikidata": "Q348629"
   },
   {
    "namn": "Eugenius",
    "nr": "IV",
    "fran": 1431,
-   "till": 1447
+   "till": 1447,
+   "wikidata": "Q167561"
   },
   {
    "namn": "Felix",
@@ -766,85 +888,99 @@
    "fran": 1439,
    "till": 1449,
    "anm": "motpåve i Basel",
-   "dod": 1451
+   "dod": 1451,
+   "wikidata": "Q312636"
   },
   {
    "namn": "Nicolaus",
    "nr": "V",
    "fran": 1447,
-   "till": 1455
+   "till": 1455,
+   "wikidata": "Q134588"
   },
   {
    "namn": "Calixtus",
    "nr": "III",
    "fran": 1455,
-   "till": 1458
+   "till": 1458,
+   "wikidata": "Q160369"
   },
   {
    "namn": "Pius",
    "nr": "II",
    "fran": 1458,
-   "till": 1464
+   "till": 1464,
+   "wikidata": "Q101437"
   },
   {
    "namn": "Paulus",
    "nr": "II",
    "fran": 1464,
-   "till": 1471
+   "till": 1471,
+   "wikidata": "Q102605"
   },
   {
    "namn": "Sixtus",
    "nr": "IV",
    "fran": 1471,
-   "till": 1484
+   "till": 1484,
+   "wikidata": "Q163514"
   },
   {
    "namn": "Innocentius",
    "nr": "VIII",
    "fran": 1484,
-   "till": 1492
+   "till": 1492,
+   "wikidata": "Q161351"
   },
   {
    "namn": "Alexander",
    "nr": "VI",
    "fran": 1492,
-   "till": 1503
+   "till": 1503,
+   "wikidata": "Q108316"
   },
   {
    "namn": "Pius",
    "nr": "III",
    "fran": 1503,
-   "till": 1503
+   "till": 1503,
+   "wikidata": "Q160030"
   },
   {
    "namn": "Julius",
    "nr": "II",
    "fran": 1503,
-   "till": 1513
+   "till": 1513,
+   "wikidata": "Q80516"
   },
   {
    "namn": "Leo",
    "nr": "X",
    "fran": 1513,
-   "till": 1521
+   "till": 1521,
+   "wikidata": "Q49237"
   },
   {
    "namn": "Hadrianus",
    "nr": "VI",
    "fran": 1522,
-   "till": 1523
+   "till": 1523,
+   "wikidata": "Q57087"
   },
   {
    "namn": "Clemens",
    "nr": "VII",
    "fran": 1523,
-   "till": 1534
+   "till": 1534,
+   "wikidata": "Q83159"
   },
   {
    "namn": "Paulus",
    "nr": "III",
    "fran": 1534,
-   "till": 1549
+   "till": 1549,
+   "wikidata": "Q133001"
   }
  ],
  "namnvarianter": {

@@ -224,9 +224,14 @@ def bygg() -> dict:
     # artikeln eller listan ändras: nyckeln är Wikidata-id, artikel eller
     # namn och första säte
     tidigare: dict[str, str] = {}
+    # Biskopar utan artikel har fått sitt Wikidata-id genom stift och år
+    # (P39 med P708), inte genom artikeln; det id:t behålls också
+    tidigare_qid: dict[str, str] = {}
     fil = AUKTORITETER / "biskopar.json"
     if fil.exists():
         for g in json.loads(fil.read_text(encoding="utf-8"))["personer"]:
+            if g.get("wikidata"):
+                tidigare_qid[g["id"]] = g["wikidata"]
             for k in (g.get("wikidata"), g.get("wikipedia"), f"{g['namn']}|{g['titlar'][0][1]}"):
                 if k:
                     tidigare.setdefault(k, g["id"])
@@ -244,7 +249,7 @@ def bygg() -> dict:
             "id": pid, "namn": p["namn"], "fodd": info.get("fodd"), "dod": info.get("dod"),
             "fornamn": [fornamn], "titlar": [t[:4] for t in p["titlar"]],
             "ar_text": {t[1]: t[4] + (" (tillträdde ej)" if len(t) > 5 else "") for t in p["titlar"]},
-            "wikidata": info.get("qid"), "wikipedia": p["artikel"],
+            "wikidata": info.get("qid") or tidigare_qid.get(pid), "wikipedia": p["artikel"],
         })
     return {
         "beskrivning": "Biskopar och ärkebiskopar i Uppsala, Linköpings, Skara, Strängnäs, Västerås, Växjö, "
@@ -252,7 +257,8 @@ def bygg() -> dict:
                        "Wikipedias stiftslistor (CC BY-SA 4.0) och Wikidata (CC0). 'titlar' är [titel, säte, "
                        "från, till]; år som listan anger som ungefärliga är vidgade med fem år, och listans "
                        "ursprungliga uttryck står i 'ar_text'. Listorna bygger på äldre biskopslängder och "
-                       "skiljer sig ibland från varandra och från nyare forskning.",
+                       "skiljer sig ibland från varandra och från nyare forskning. Biskopar utan artikel har "
+                       "Wikidata-id när Wikidata anger dem som biskopar i samma stift och med samma år för tillträde, avgång eller död (högst tre års skillnad).",
         "hamtad": time.strftime("%Y-%m-%d"),
         "personer": personer,
     }

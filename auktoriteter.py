@@ -37,7 +37,7 @@ LANGDER = {
     "regenter": {
         "namn": "Regenter och riksföreståndare",
         "licens": None,
-        "kalla": "Sammanställd för projektet ur SDHK:s utfärdare och allmänna uppslagsverk",
+        "kalla": "Sammanställd för projektet ur SDHK:s utfärdare och allmänna uppslagsverk; Wikidata-id ur Wikidata (CC0)",
     },
     "biskopar": {
         "namn": "Biskopar och ärkebiskopar",
@@ -47,7 +47,7 @@ LANGDER = {
     "pavar": {
         "namn": "Påvar och motpåvar",
         "licens": None,
-        "kalla": "Sammanställd för projektet ur allmänna uppslagsverk; inte kontrollerad mot primärlitteratur",
+        "kalla": "Sammanställd för projektet ur allmänna uppslagsverk; inte kontrollerad mot primärlitteratur; Wikidata-id ur Wikidata (CC0)",
     },
 }
 
@@ -64,7 +64,7 @@ def las_langd(langd_id: str) -> tuple[dict, list[dict], list[tuple]]:
             person_id = pave_id(p)
             personer.append({"person_id": person_id, "namn": f"{p['namn']} {p['nr']}".strip(),
                              "fodd": None, "dod": p.get("dod", p["till"]), "ordningstal": p["nr"],
-                             "anm": p.get("anm"), "wikidata_id": None, "wikipedia": None})
+                             "anm": p.get("anm"), "wikidata_id": p.get("wikidata"), "wikipedia": None})
             titlar.append((person_id, 1, "pave", None, p["fran"], p["till"], None))
         return langd, personer, titlar
 
