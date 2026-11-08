@@ -5,6 +5,7 @@ Utgåvorna får språk, typ (original, översättning eller maskinöversättning
 roll (huvudtext eller skolier), översättare och år. Uppgifterna härleds ur
 det som redan finns: passagernas språk och typ, utgåvans id och
 referensen, där tryckta översättningar anges som "Namn (övers.), …, Ort år".
+Maskinöversättningarna får språkmodellen som översättare.
 
 Passagerna får den del av verket de hör till: bok, balk, del av en
 annalserie eller namngivet avsnitt som en saga i en kungasagesamling.
@@ -57,6 +58,10 @@ SAGA = re.compile(r"\b(saga|sǫgu|þáttr|tháttr|þáttur)\b", re.IGNORECASE)
 # "Emil Olson (övers.), …" och "Citaten i Ynglinga saga efter Emil Olson (övers.), …"
 OVERSATTARE = re.compile(r"^(?:.* efter )?(?P<namn>[^()]+?)\s*\(övers\.\)")
 # Utgivningsår; ett datum som "2016-11-28" är filens tidsstämpel i openMGH, inte ett utgivningsår
+# Språkmodellen som gjorde maskinöversättningarna (se data/oversattningar/promptar/).
+# En referens som namnger en annan modell, "språkmodell (Namn)", går före.
+SPRAKMODELL = "språkmodell: Claude Opus 5.5 (claude-opus-5-5)"
+NAMNGIVEN_MODELL = re.compile(r"språkmodell \((?P<namn>(?!Claude\))[^)]+)\)")
 AR = re.compile(r"\b(1[4-9]\d\d|20\d\d)\b(?!-\d\d-\d\d)")
 
 
@@ -145,6 +150,9 @@ def harled_utgava(utgava_id: str, referens: str, sprak: Counter, typer: Counter)
     oversattare = None
     if typ == "oversattning" and (traff := OVERSATTARE.match(referens)):
         oversattare = traff.group("namn").strip()
+    elif typ == "maskinoversattning":
+        traff = NAMNGIVEN_MODELL.search(referens)
+        oversattare = f"språkmodell: {traff.group('namn')}" if traff else SPRAKMODELL
 
     ar = None
     if typ in ("original", "oversattning") and (traff := AR.search(referens)):

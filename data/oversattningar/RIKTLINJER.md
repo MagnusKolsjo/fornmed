@@ -1,8 +1,9 @@
 # Riktlinjer för maskinöversättningarna
 
-Översättningarna i den här katalogen är gjorda av en språkmodell (Claude)
-direkt från originalspråket. De är ogranskade och laddas i egna utgåvor
-märkta som maskinöversättning; de bör inte citeras som översättning.
+Översättningarna i den här katalogen är gjorda av en språkmodell, Claude Opus
+5.5 (`claude-opus-5-5`), direkt från originalspråket. De är ogranskade och
+laddas i egna utgåvor märkta som maskinöversättning; de bör inte citeras som
+översättning.
 Syftet är att göra texterna sökbara på modern svenska.
 
 Modellen har fått följande instruktioner:
@@ -36,3 +37,21 @@ Modellen har fått följande instruktioner:
 
 Filerna är JSON-objekt där nyckeln är originalpassagens id och värdet
 översättningen.
+
+Uppdragen som delagenterna fick, med hjälpskripten och riktlinjernas första
+version, finns i `promptar/`.
+
+## Nya översättningar
+
+Varje ny översättning redovisas i `promptar/` på samma sätt, så att den går att
+granska och göra om:
+
+- uppdraget ordagrant som en egen fil `NNN_<jobb>.md`, i löpnummerordning efter
+  de befintliga, med modell och utfiler överst;
+- när uppdraget byggs av ett skript, också skriptets utskrift, och skriptet i
+  `promptar/hjalpskript/`;
+- en rad i `promptar/INDEX.md` för varje ny eller ändrad översättningsfil;
+- en ny version i `promptar/riktlinjer_versioner/` när riktlinjerna ändras.
+
+Lokala sökvägar ersätts med platshållarna `<projektmapp>`, `<arbetsmapp>` och
+`<produktionsmapp>`. Tid och sessions-id tas inte med.

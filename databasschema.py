@@ -101,7 +101,7 @@ KOLUMNER = {
     "utgava": {"id": "Utgåvans id; maskinöversättningar slutar på :sv_modell", "verk_id": "Verket", "referens": "Bibliografisk referens",
                "licens": "Utgåvans licens", "sprak": "Utgåvans språk, ISO 639-3; tomt när utgåvan har flera språk",
                "typ": "original, oversattning, maskinoversattning eller maskintranskription", "roll": "huvudtext eller skolier",
-               "oversattare": "Översättare för tryckta översättningar", "ar": "Utgivningsår"},
+               "oversattare": "Översättare för tryckta översättningar; språkmodellen för maskinöversättningar", "ar": "Utgivningsår"},
     "passage": {"id": "Passagens id; översättningar har originalets id med språksuffix, t.ex. :sv", "verk_id": "Verket",
                 "utgava_id": "Utgåvan; tomt för SDHK:s regester", "typ": "originaltext, regest, oversattning, normaliserad eller skolion",
                 "adress": "Passagens adress i verket, t.ex. ÄVgL Kkb 1 — Kirkiu bolkær, flock 1", "ordning": "Ordningen i utgåvan",
