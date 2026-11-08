@@ -1203,6 +1203,9 @@ ställer upp påståendena per ämne och lag, ordnade efter landsdel, så att
 skillnaderna mellan Götaland, Svealand, Gotland, Skåne, städerna, riket och
 Island syns.
 
+Uppdragen till delagenterna, specifikationerna de följde och metodbeskrivningar
+för det som gjordes utan delagent finns i `data/pastaenden/promptar/`.
+
 ## Handregistrerade påståenden: Hygelac och ynglingakretsen
 
 ```bash
