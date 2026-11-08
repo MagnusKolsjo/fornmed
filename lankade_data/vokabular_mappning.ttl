@@ -1,0 +1,30 @@
+# =============================================================================
+# Fornmeds vokabulär: kopplingar till andra modeller
+#
+# Etiketter och beskrivningar kommer från vokabular.py och skrivs ut av
+# vokabular_rdf.py. Här står bara det som inte går att härleda: vilka egenskaper
+# i CIDOC CRM, Wikidata och Schema.org som motsvarar Fornmeds predikat.
+#
+# En koppling står bara här när egenskapen uttrycker samma relation i samma
+# riktning. Predikat där motsvarigheten går åt andra hållet (grundar, dödar,
+# skriver till) eller är vidare (dör, föds) har ingen koppling.
+#
+# Licens: CC0 1.0.
+# =============================================================================
+
+@prefix fm:       <https://w3id.org/fornmed/def/> .
+@prefix predikat: <https://w3id.org/fornmed/id/vokabular/predikat/> .
+@prefix crm:      <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix wdt:      <http://www.wikidata.org/prop/direct/> .
+@prefix schema:   <https://schema.org/> .
+
+predikat:foralder_till fm:motsvarandeEgenskap wdt:P40 , schema:children .
+predikat:gift_med      fm:motsvarandeEgenskap wdt:P26 , schema:spouse .
+predikat:syskon_till   fm:motsvarandeEgenskap wdt:P3373 , schema:sibling .
+predikat:begravd_i     fm:motsvarandeEgenskap wdt:P119 .
+predikat:innehar_ambete fm:motsvarandeEgenskap wdt:P39 .
+predikat:eftertrader   fm:motsvarandeEgenskap wdt:P1365 .
+predikat:ar_belagen_i  fm:motsvarandeEgenskap wdt:P131 , crm:P89_falls_within .
+predikat:ar_del_av     fm:motsvarandeEgenskap wdt:P361 .
+predikat:ager          fm:motsvarandeEgenskap wdt:P1830 .
+predikat:deltar_i      fm:motsvarandeEgenskap wdt:P1344 , crm:P11i_participated_in .

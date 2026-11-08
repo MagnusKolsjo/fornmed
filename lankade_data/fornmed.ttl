@@ -1,0 +1,515 @@
+# =============================================================================
+# Fornmeds vokabulär för länkade data
+# https://w3id.org/fornmed/def/
+#
+# Klasser och egenskaper som Fornmed behöver utöver CIDOC CRM, LRMoo, CRMinf,
+# SKOS och W3C Web Annotation. Varje klass och egenskap är kopplad till
+# motsvarigheten i CIDOC CRM med rdfs:subClassOf eller rdfs:subPropertyOf, så
+# att data går att läsa både med Fornmeds egna termer och med CRM:s.
+#
+# Licens: CC0 1.0. Ange gärna Fornmed som källa.
+# =============================================================================
+
+@prefix fm:      <https://w3id.org/fornmed/def/> .
+@prefix crm:     <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crminf:  <http://www.cidoc-crm.org/extensions/crminf/> .
+@prefix lrmoo:   <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix oa:      <http://www.w3.org/ns/oa#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:  <http://www.w3.org/2008/05/skos-xl#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
+
+fm: a owl:Ontology ;
+    rdfs:label "Fornmeds vokabulär"@sv , "Fornmed vocabulary"@en ;
+    rdfs:comment "Klasser och egenskaper för källor, påståenden och forskningens bedömningar i Fornmed, uttryckta som tillägg till CIDOC CRM."@sv ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    vann:preferredNamespacePrefix "fm" ;
+    vann:preferredNamespaceUri "https://w3id.org/fornmed/def/" ;
+    rdfs:seeAlso <https://w3id.org/fornmed/> .
+
+# -----------------------------------------------------------------------------
+# Källor: källsamling, verk, vittne, utgåva, passage
+# -----------------------------------------------------------------------------
+
+fm:Kallsamling a owl:Class ;
+    rdfs:subClassOf dcterms:Dataset ;
+    rdfs:label "källsamling"@sv , "source collection"@en ;
+    rdfs:comment "Datamängd som Fornmeds material har importerats ur, med egen utgivare och licens. Varje källsamling har en egen namngiven graf."@sv .
+
+fm:Verk a owl:Class ;
+    rdfs:subClassOf lrmoo:F2_Expression ;
+    rdfs:label "verk"@sv , "work"@en ;
+    rdfs:comment "En källa som text: ett brev, en inskrift, en saga, en lag. Verket är texten, oberoende av vilka exemplar som bevarats."@sv .
+
+fm:Vittne a owl:Class ;
+    rdfs:subClassOf crm:E22_Human-Made_Object ;
+    rdfs:label "vittne"@sv , "witness"@en ;
+    rdfs:comment "En fysisk eller registrerad överlevnad av ett verk: original, avskrift, registratur, tryck. Vittnet har egen datering, skild från verkets."@sv .
+
+fm:Utgava a owl:Class ;
+    rdfs:subClassOf lrmoo:F3_Manifestation ;
+    rdfs:label "utgåva"@sv , "edition"@en ;
+    rdfs:comment "En utgåva eller språkversion av verket: originaltext, översättning, maskinöversättning."@sv .
+
+fm:Passage a owl:Class ;
+    rdfs:subClassOf crm:E33_Linguistic_Object ;
+    rdfs:label "passage"@sv , "passage"@en ;
+    rdfs:comment "Den citerbara textenheten i en utgåva: ett brevs regest eller text, ett kapitel, en strof, en balk."@sv .
+
+fm:Platsangivelse a owl:Class ;
+    rdfs:label "platsangivelse"@sv , "place statement"@en ;
+    rdfs:comment "Ett verks koppling till en plats i en viss roll (utfärdandeort, fyndplats, socken), med källans namnform och uppgift om osäkerhet."@sv .
+
+# -----------------------------------------------------------------------------
+# Entiteter
+# -----------------------------------------------------------------------------
+
+fm:Entitet a owl:Class ;
+    rdfs:subClassOf crm:E1_CRM_Entity ;
+    rdfs:label "entitet"@sv , "entity"@en ;
+    rdfs:comment "Något som källorna omtalar: person, grupp, plats, institution, indelning, ämbete, händelse, begrepp eller väsen. Entiteten är källans referent; att två entiteter avser samma sak är en identifiering, inte en sammanslagning."@sv .
+
+fm:Person a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E21_Person ;
+    rdfs:label "person"@sv , "person"@en .
+
+fm:Grupp a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E74_Group ;
+    rdfs:label "grupp, släkt eller folk"@sv , "group, family or people"@en .
+
+fm:Plats a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E53_Place ;
+    rdfs:label "plats"@sv , "place"@en .
+
+fm:Indelning a owl:Class ;
+    rdfs:subClassOf fm:Plats ;
+    rdfs:label "administrativ indelning"@sv , "administrative unit"@en ;
+    rdfs:comment "Land, landskap, härad, socken, län eller kommun."@sv .
+
+fm:Institution a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E74_Group ;
+    rdfs:label "institution"@sv , "institution"@en ;
+    rdfs:comment "Kloster, stift, kapitel, stad, rike, slottslän."@sv .
+
+fm:Ambete a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E55_Type , skos:Concept ;
+    rdfs:label "ämbete eller roll"@sv , "office or role"@en .
+
+fm:Handelse a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E5_Event ;
+    rdfs:label "händelse"@sv , "event"@en .
+
+fm:Begrepp a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E55_Type , skos:Concept ;
+    rdfs:label "begrepp"@sv , "concept"@en ;
+    rdfs:comment "Samhällsbegrepp som ledung, tionde och frälse, med termer på flera språk och i flera historiska former."@sv .
+
+fm:Vasen a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E28_Conceptual_Object ;
+    rdfs:label "gud eller väsen"@sv , "deity or mythological being"@en ;
+    rdfs:comment "Gudar och mytologiska väsen. De är föreställningar, inte personer."@sv .
+
+fm:FastKulturarvsobjekt a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E18_Physical_Thing ;
+    rdfs:label "fast kulturarvsobjekt"@sv , "immovable heritage object"@en ;
+    rdfs:comment "Något som är bundet till en plats: gravfält, runsten på ursprunglig plats, borg, kyrka, slott, galgbacke, offerlund, tingsplats, väg. Om det är en fornlämning eller ett byggnadsminne är en registerstatus, inte en klass."@sv .
+
+fm:LostKulturarvsobjekt a owl:Class ;
+    rdfs:subClassOf fm:Entitet , crm:E22_Human-Made_Object ;
+    rdfs:label "löst kulturarvsobjekt"@sv , "movable heritage object"@en ;
+    rdfs:comment "Museiföremål, fynd, sigillstamp."@sv .
+
+# -----------------------------------------------------------------------------
+# Omdömen: påstående, identifiering, bedömning, omnämnande, datering, koppling
+# -----------------------------------------------------------------------------
+
+fm:Pastaende a owl:Class ;
+    rdfs:subClassOf crm:E13_Attribute_Assignment ;
+    rdfs:label "påstående"@sv , "claim"@en ;
+    rdfs:comment "Vad en passage hävdar: subjekt (P140), predikat (P177), objekt (P141), plats (P7) och tid (P4), med passagen som belägg (P70i). Ett påstående beskriver vad källan säger, inte vad som hände."@sv .
+
+fm:Identifiering a owl:Class ;
+    rdfs:subClassOf crminf:I4_Proposition_Set ;
+    rdfs:label "identifiering"@sv , "identification"@en ;
+    rdfs:comment "Förslaget att två entiteter avser samma sak. Identifieringar med samma alternativgrupp utesluter varandra. Fornmed använder aldrig owl:sameAs mellan egna entiteter, eftersom identiteten ofta är en forskningsfråga."@sv .
+
+fm:Bedomning a owl:Class ;
+    rdfs:subClassOf crminf:I2_Belief ;
+    rdfs:label "bedömning"@sv , "assessment"@en ;
+    rdfs:comment "En forskares eller ett registers omdöme om ett påstående, verk, vittne eller en identifiering: historicitet, äkthet, datering. Flera bedömningar av samma mål redovisas var för sig."@sv .
+
+fm:Omnamnande a owl:Class ;
+    rdfs:subClassOf oa:Annotation ;
+    rdfs:label "omnämnande"@sv , "mention"@en ;
+    rdfs:comment "Ett textspann i en passage som nämner en person, plats eller annan entitet. Omnämnandet kan finnas utan identifierad entitet; identifieringen är ett eget omdöme med säkerhet och granskning."@sv .
+
+fm:Datering a owl:Class ;
+    rdfs:subClassOf crm:E13_Attribute_Assignment ;
+    rdfs:label "datering"@sv , "dating"@en ;
+    rdfs:comment "En tid knuten till en passage eller ett verk, med uppgift om vilken sorts tid det är (tillkomst eller omtalad tid) och vad dateringen grundas på."@sv .
+
+fm:Koppling a owl:Class ;
+    rdfs:label "koppling"@sv , "link"@en ;
+    rdfs:comment "En koppling från en källa eller entitet i Fornmed till ett kulturarvsobjekt i Fornmed eller i ett annat register, med slag, säkerhet och proveniens."@sv .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: tid
+# -----------------------------------------------------------------------------
+# Källornas datum är julianska och ofta ogiltiga som gregorianska (1300-02-29).
+# EDTF-texten är den auktoritativa formen; fran och till är samma intervall
+# som heltal ÅÅÅÅMMDD i källans kalender, så att det går att jämföra utan
+# kalenderomräkning.
+
+fm:edtf a owl:DatatypeProperty ;
+    rdfs:label "EDTF"@sv , "EDTF"@en ;
+    rdfs:comment "Tiden som ett EDTF-uttryck (Extended Date/Time Format, ISO 8601-2) i källans kalender."@sv ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range xsd:string .
+
+fm:fran a owl:DatatypeProperty ;
+    rdfs:label "från"@sv , "from"@en ;
+    rdfs:comment "Intervallets första dag som heltal ÅÅÅÅMMDD i källans kalender."@sv ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range xsd:integer .
+
+fm:till a owl:DatatypeProperty ;
+    rdfs:label "till"@sv , "to"@en ;
+    rdfs:comment "Intervallets sista dag som heltal ÅÅÅÅMMDD i källans kalender."@sv ;
+    rdfs:domain crm:E52_Time-Span ;
+    rdfs:range xsd:integer .
+
+fm:tillkomst a owl:ObjectProperty ;
+    rdfs:label "tillkomst"@sv , "time of origin"@en ;
+    rdfs:comment "När texten skrevs."@sv .
+
+fm:omtaladTid a owl:ObjectProperty ;
+    rdfs:label "omtalad tid"@sv , "time referred to"@en ;
+    rdfs:comment "Den tid texten handlar om. Ett sagakapitel skrivet omkring 1230 kan handla om 995–1000."@sv .
+
+fm:grund a owl:ObjectProperty ;
+    rdfs:label "grund"@sv , "basis"@en ;
+    rdfs:comment "Vad en datering grundas på: årtal i texten, påståenden i passagen, en regent med känd regeringstid, eller en språkmodells bedömning."@sv ;
+    rdfs:domain fm:Datering ;
+    rdfs:range skos:Concept .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: proveniens och säkerhet
+# -----------------------------------------------------------------------------
+
+fm:extraktion a owl:ObjectProperty ;
+    rdfs:label "extraktion"@sv , "extraction method"@en ;
+    rdfs:comment "Hur uppgiften kom till: manuellt registrerad, med regel eller mönster, eller av språkmodell."@sv ;
+    rdfs:range skos:Concept .
+
+fm:extraheradAv a owl:DatatypeProperty ;
+    rdfs:subPropertyOf prov:wasAttributedTo ;
+    rdfs:label "extraherad av"@sv , "extracted by"@en ;
+    rdfs:comment "Person, skript eller modell som tog fram uppgiften."@sv .
+
+fm:granskad a owl:DatatypeProperty ;
+    rdfs:label "granskad"@sv , "reviewed"@en ;
+    rdfs:comment "Sant om en människa har kontrollerat uppgiften mot källan eller publikationen."@sv ;
+    rdfs:range xsd:boolean .
+
+fm:granskadAv a owl:DatatypeProperty ;
+    rdfs:label "granskad av"@sv , "reviewed by"@en .
+
+fm:sakerhet a owl:ObjectProperty ;
+    rdfs:label "säkerhet"@sv , "certainty"@en ;
+    rdfs:comment "Hur säkert omdömet är, som ett värde i Fornmeds vokabulär (hög, medel, låg)."@sv ;
+    rdfs:range skos:Concept .
+
+fm:sannolikhet a owl:DatatypeProperty ;
+    rdfs:label "sannolikhet"@sv , "confidence score"@en ;
+    rdfs:comment "En modells eller regels sannolikhet mellan 0 och 1, för maskinellt framtagna omdömen."@sv ;
+    rdfs:range xsd:decimal .
+
+fm:alternativgrupp a owl:DatatypeProperty ;
+    rdfs:label "alternativgrupp"@sv , "alternative group"@en ;
+    rdfs:comment "Omdömen med samma alternativgrupp utesluter varandra: götar eller jutar, Knut Eriksson eller Knut Långe."@sv .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: källor
+# -----------------------------------------------------------------------------
+
+fm:kallsamling a owl:ObjectProperty ;
+    rdfs:label "källsamling"@sv , "source collection"@en ;
+    rdfs:range fm:Kallsamling .
+
+fm:genre a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "genre"@sv , "genre"@en ;
+    rdfs:range skos:Concept .
+
+fm:upphov a owl:DatatypeProperty ;
+    rdfs:label "upphov"@sv , "author or issuer"@en ;
+    rdfs:comment "Upphovsman eller utfärdare som källan anger dem, som text."@sv .
+
+fm:vittnestyp a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "vittnestyp"@sv , "witness type"@en ;
+    rdfs:domain fm:Vittne ;
+    rdfs:range skos:Concept .
+
+fm:signum a owl:DatatypeProperty ;
+    rdfs:label "signum"@sv , "shelfmark"@en ;
+    rdfs:domain fm:Vittne .
+
+fm:utgavetyp a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "utgåvetyp"@sv , "edition type"@en ;
+    rdfs:domain fm:Utgava ;
+    rdfs:range skos:Concept .
+
+fm:oversattare a owl:DatatypeProperty ;
+    rdfs:label "översättare"@sv , "translator"@en ;
+    rdfs:domain fm:Utgava .
+
+fm:passagetyp a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "passagetyp"@sv , "passage type"@en ;
+    rdfs:comment "Originaltext, regest, översättning, normaliserad text eller skolion."@sv ;
+    rdfs:domain fm:Passage ;
+    rdfs:range skos:Concept .
+
+fm:adress a owl:DatatypeProperty ;
+    rdfs:label "adress"@sv , "locator"@en ;
+    rdfs:comment "Passagens plats i verket som källan anger den: kapitel, strof, sida."@sv ;
+    rdfs:domain fm:Passage .
+
+fm:ordning a owl:DatatypeProperty ;
+    rdfs:label "ordning"@sv , "order"@en ;
+    rdfs:domain fm:Passage ;
+    rdfs:range xsd:integer .
+
+fm:del a owl:DatatypeProperty ;
+    rdfs:label "del"@sv , "part"@en ;
+    rdfs:comment "Den bok, balk eller saga i verket som passagen hör till."@sv ;
+    rdfs:domain fm:Passage .
+
+fm:maskinoversatt a owl:DatatypeProperty ;
+    rdfs:label "maskinöversatt"@sv , "machine translated"@en ;
+    rdfs:comment "Sant för översättningar gjorda av språkmodell. De är ogranskade; citera originalet."@sv ;
+    rdfs:range xsd:boolean .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: platser
+# -----------------------------------------------------------------------------
+
+fm:plats a owl:ObjectProperty ;
+    rdfs:label "plats"@sv , "place statement"@en ;
+    rdfs:domain fm:Verk ;
+    rdfs:range fm:Platsangivelse .
+
+fm:roll a owl:ObjectProperty ;
+    rdfs:label "roll"@sv , "role"@en ;
+    rdfs:range skos:Concept .
+
+fm:avser a owl:ObjectProperty ;
+    rdfs:label "avser"@sv , "refers to"@en ;
+    rdfs:range fm:Entitet .
+
+fm:namnform a owl:DatatypeProperty ;
+    rdfs:label "namnform"@sv , "name form"@en ;
+    rdfs:comment "Namnet som källan skriver det."@sv .
+
+fm:osaker a owl:DatatypeProperty ;
+    rdfs:label "osäker"@sv , "uncertain"@en ;
+    rdfs:range xsd:boolean .
+
+fm:harledd a owl:DatatypeProperty ;
+    rdfs:label "härledd"@sv , "derived"@en ;
+    rdfs:comment "Sant när platsen inte står i källan utan är härledd, till exempel socknen ur fyndplatsen."@sv ;
+    rdfs:range xsd:boolean .
+
+fm:utfardandeort a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P7_took_place_at ;
+    rdfs:label "utfärdandeort"@sv , "place of issue"@en ;
+    rdfs:comment "Genväg för platsangivelser med rollen utfärdandeort som inte är osäkra."@sv .
+
+fm:fyndplats a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P53_has_former_or_current_location ;
+    rdfs:label "fyndplats"@sv , "find spot"@en .
+
+fm:platsslag a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "platsslag"@sv , "kind of place"@en ;
+    rdfs:range skos:Concept .
+
+fm:nutidaNamn a owl:DatatypeProperty ;
+    rdfs:label "nutida namn"@sv , "present-day name"@en .
+
+fm:land a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:label "land"@sv , "country"@en .
+
+fm:landskap a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:label "landskap"@sv , "province"@en .
+
+fm:lan a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:label "län"@sv , "county"@en .
+
+fm:kommun a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:label "kommun"@sv , "municipality"@en .
+
+fm:socken a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P89_falls_within ;
+    rdfs:label "socken"@sv , "parish"@en .
+
+fm:lageKalla a owl:DatatypeProperty ;
+    rdfs:label "lägets källa"@sv , "source of location"@en ;
+    rdfs:comment "Varifrån platsens läge och nutida tillhörighet kommer. Uppgifterna är en bedömning, skild från källans namnform."@sv .
+
+fm:lageMetod a owl:DatatypeProperty ;
+    rdfs:label "lägets metod"@sv , "location method"@en ;
+    rdfs:comment "Hur läget kopplades: auktoritet, regel eller språkmodell."@sv .
+
+fm:lageGranskat a owl:DatatypeProperty ;
+    rdfs:label "läget granskat"@sv , "location reviewed"@en ;
+    rdfs:range xsd:boolean .
+
+fm:harSateI a owl:ObjectProperty ;
+    rdfs:label "har säte i"@sv , "has seat at"@en ;
+    rdfs:comment "En institution har sitt säte i en byggnad eller på en plats: Kalmar slottslän i Kalmar slott."@sv ;
+    rdfs:domain fm:Institution .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: påståenden
+# -----------------------------------------------------------------------------
+
+fm:objektvarde a owl:DatatypeProperty ;
+    rdfs:label "objektvärde"@sv , "object value"@en ;
+    rdfs:comment "Påståendets objekt när det är ett värde och inte en entitet, till exempel ett belopp eller en titel som text."@sv ;
+    rdfs:domain fm:Pastaende .
+
+fm:citat a owl:DatatypeProperty ;
+    rdfs:label "citat"@sv , "quotation"@en ;
+    rdfs:comment "Det ställe i passagen som påståendet bygger på."@sv .
+
+fm:motsvarandeEgenskap a owl:ObjectProperty ;
+    rdfs:label "motsvarande egenskap"@sv , "corresponding property"@en ;
+    rdfs:comment "En egenskap i en annan modell som uttrycker samma relation som predikatet, i samma riktning. Den som vill platta ut påståenden till direkta tripler kan använda den, men förlorar då källan och bedömningarna."@sv ;
+    rdfs:domain skos:Concept ;
+    rdfs:range rdf:Property .
+
+fm:relateratPastaende a owl:ObjectProperty ;
+    rdfs:label "relaterat påstående"@sv , "related claim"@en ;
+    rdfs:domain fm:Pastaende ;
+    rdfs:range fm:Pastaende .
+
+fm:stoder a owl:ObjectProperty ;
+    rdfs:subPropertyOf fm:relateratPastaende ;
+    rdfs:label "stöder"@sv , "supports"@en .
+
+fm:motsager a owl:ObjectProperty ;
+    rdfs:subPropertyOf fm:relateratPastaende ;
+    rdfs:label "motsäger"@sv , "contradicts"@en .
+
+fm:beroendeAv a owl:ObjectProperty ;
+    rdfs:subPropertyOf fm:relateratPastaende ;
+    rdfs:label "är beroende av"@sv , "depends on"@en ;
+    rdfs:comment "Påståendet återger samma tradition som det andra och ger därför inte oberoende stöd."@sv .
+
+fm:sammaSom a owl:ObjectProperty ;
+    rdfs:subPropertyOf fm:relateratPastaende ;
+    rdfs:label "är samma påstående som"@sv , "same claim as"@en .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: identifieringar och bedömningar
+# -----------------------------------------------------------------------------
+
+fm:entitet a owl:ObjectProperty ;
+    rdfs:label "entitet"@sv , "entity"@en ;
+    rdfs:domain fm:Identifiering ;
+    rdfs:range fm:Entitet .
+
+fm:identifieradMed a owl:ObjectProperty ;
+    rdfs:label "identifierad med"@sv , "identified with"@en ;
+    rdfs:domain fm:Identifiering ;
+    rdfs:range fm:Entitet .
+
+fm:aspekt a owl:ObjectProperty ;
+    rdfs:label "aspekt"@sv , "aspect"@en ;
+    rdfs:comment "Vad bedömningen gäller: historicitet, äkthet, korroboration, datering, identifiering, titulatur eller brevkoppling."@sv ;
+    rdfs:domain fm:Bedomning ;
+    rdfs:range skos:Concept .
+
+fm:bedomare a owl:DatatypeProperty ;
+    rdfs:label "bedömare"@sv , "assessor"@en ;
+    rdfs:domain fm:Bedomning .
+
+fm:publikation a owl:DatatypeProperty ;
+    rdfs:label "publikation"@sv , "publication"@en ;
+    rdfs:comment "Publikationen där bedömningen framförs, som referens i text. En DOI eller Libris-post anges dessutom med crm:P70i_is_documented_in."@sv .
+
+fm:sidor a owl:DatatypeProperty ;
+    rdfs:label "sidor"@sv , "pages"@en .
+
+fm:motivering a owl:DatatypeProperty ;
+    rdfs:label "motivering"@sv , "reasoning"@en .
+
+fm:ar a owl:DatatypeProperty ;
+    rdfs:label "år"@sv , "year"@en ;
+    rdfs:range xsd:gYear .
+
+fm:registreradAv a owl:DatatypeProperty ;
+    rdfs:label "registrerad av"@sv , "recorded by"@en .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: begrepp och termer
+# -----------------------------------------------------------------------------
+
+fm:termtyp a owl:ObjectProperty ;
+    rdfs:label "termtyp"@sv , "term type"@en ;
+    rdfs:comment "Huvudterm, synonym, historisk form eller motsvarighet på annat språk."@sv ;
+    rdfs:domain skosxl:Label ;
+    rdfs:range skos:Concept .
+
+fm:ordboksartikel a owl:ObjectProperty ;
+    rdfs:label "ordboksartikel"@sv , "dictionary entry"@en ;
+    rdfs:domain skosxl:Label .
+
+# -----------------------------------------------------------------------------
+# Egenskaper: kopplingar till kulturarvsobjekt
+# -----------------------------------------------------------------------------
+
+fm:slag a owl:ObjectProperty ;
+    rdfs:label "slag"@sv , "kind of link"@en ;
+    rdfs:comment "Samma föremål, omnämnande, föremål som hör till källan eller samma slags föremål."@sv ;
+    rdfs:domain fm:Koppling ;
+    rdfs:range skos:Concept .
+
+fm:kopplingFran a owl:ObjectProperty ;
+    rdfs:label "från"@sv , "from"@en ;
+    rdfs:domain fm:Koppling .
+
+fm:kopplingTill a owl:ObjectProperty ;
+    rdfs:label "till"@sv , "to"@en ;
+    rdfs:domain fm:Koppling .
+
+fm:via a owl:ObjectProperty ;
+    rdfs:label "via"@sv , "via"@en ;
+    rdfs:comment "Omnämnandet eller identifieringen som kopplingen bygger på."@sv ;
+    rdfs:domain fm:Koppling .
+
+fm:kulturarvstyp a owl:ObjectProperty ;
+    rdfs:subPropertyOf crm:P2_has_type ;
+    rdfs:label "kulturarvstyp"@sv , "heritage object type"@en ;
+    rdfs:range skos:Concept .
+
+fm:registerstatus a owl:ObjectProperty ;
+    rdfs:label "registerstatus"@sv , "register status"@en ;
+    rdfs:comment "En status i ett kulturmiljöregister, angiven som en bedömning med register och datum: fornlämning, övrig kulturhistorisk lämning, byggnadsminne."@sv .
+
+fm:skick a owl:ObjectProperty ;
+    rdfs:label "skick"@sv , "state of preservation"@en ;
+    rdfs:comment "Bevarad, i bruk, ruin, försvunnen, känd bara ur källor eller tradition."@sv .

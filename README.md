@@ -214,6 +214,18 @@ Datering lagras som EDTF (`1276-05-23`, `1396`, `1373~`, `1375/1378?`) plus
 ett heltalsintervall `ÅÅÅÅMMDD` för sökning. Datumen återges som i källan
 (julianska) och konverteras inte.
 
+## Länkade data
+
+`lankade_data/README.md` beskriver hur Fornmed uttrycks som RDF: beständiga
+URI:er under `https://w3id.org/fornmed/`, CIDOC CRM med LRMoo och CRMinf som
+modell, och hur påståenden, identifieringar och bedömningar skrivs utan att
+bli fakta. Fornmeds egna klasser och egenskaper finns i
+`lankade_data/fornmed.ttl`. Vokabuläret skrivs ut som SKOS med
+
+```bash
+.venv/bin/python vokabular_rdf.py -o vokabular.ttl
+```
+
 ## Installation
 
 PostgreSQL-servern behöver tillägget pgvector.
