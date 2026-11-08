@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # Läser in RDF-exporten från utvecklingsdatorn i SPARQL-ändpunkten och
-# publicerar dumpfilerna.
+# publicerar dumpfilerna, och EDM-profilen i underkatalogen edm/.
 #
 #     sudo bash /srv/fornmed/fornmed/deploy/las_in_rdf.sh /srv/fornmed/inkommande/rdf-<TIDPUNKT>
 #
@@ -56,6 +56,7 @@ if [[ $1 == --aterstall ]]; then
     [[ -n $foregaende ]] || fel "Det finns inga tidigare dumpfiler att läsa in."
     INKOMMANDE=$(mktemp -d "$BAS/inkommande/rdf-aterstall-XXXX")
     cp "$foregaende"/*.nq.gz "$INKOMMANDE/"
+    [[ -d $foregaende/edm ]] && cp -r "$foregaende/edm" "$INKOMMANDE/"
     set -- "$INKOMMANDE"
 fi
 
@@ -95,6 +96,8 @@ steg "Byter in den nya databasen och dumpfilerna"
 # -----------------------------------------------------------------------------
 mkdir -p "$NYA_DUMPAR"
 cp "$INKOMMANDE"/*.nq.gz "$NYA_DUMPAR/"
+# EDM-profilen publiceras bredvid dumpfilerna men läses inte in i SPARQL-ändpunkten
+[[ -d $INKOMMANDE/edm ]] && cp -r "$INKOMMANDE/edm" "$NYA_DUMPAR/"
 chmod -R a+rX "$NY" "$NYA_DUMPAR"
 
 ln -sfn "$NY" "$SPARQL/aktuell.ny" && mv -T "$SPARQL/aktuell.ny" "$SPARQL/aktuell"

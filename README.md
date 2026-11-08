@@ -249,6 +249,8 @@ kontrolleras mot SHACL-formerna i `lankade_data/former.ttl` med
 ```bash
 .venv/bin/python rdf_export.py -o rdf/ --kontrollera
 .venv/bin/python rdf_validera.py rdf/
+.venv/bin/python edm_export.py -o rdf/edm      # EDM-profilen, för Europeanas modell
+.venv/bin/python edm_export.py --kontrollera rdf/edm
 ```
 
 ## Installation

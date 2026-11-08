@@ -708,7 +708,7 @@ ONTOLOGINS_DOKUMENTATION = "https://github.com/MagnusKolsjo/fornmed/blob/main/la
 
 
 def _verkets_sida(verk_id: str) -> str:
-    return f"/kallor/verk/{verk_id.removeprefix('verk:').replace(':', '-')}/"
+    return rdf_uri.verkets_sida(verk_id)
 
 
 def _entitetens_sida(entitet_id: str) -> str:

@@ -52,6 +52,9 @@ trap 'rm -rf "$LOKAL" "$RDF_LOKAL" "$RDF_LOKAL.validering.md"' EXIT
 echo "==> Skriver databasen som länkade data"
 (cd "$KALLA" && "$PYTHON" rdf_export.py -o "$RDF_LOKAL" --kontrollera)
 
+echo "==> Skriver EDM-profilen och prövar den mot Europeanas XSD"
+(cd "$KALLA" && "$PYTHON" edm_export.py -o "$RDF_LOKAL/edm" && "$PYTHON" edm_export.py --kontrollera "$RDF_LOKAL/edm")
+
 echo "==> Kontrollerar exporten mot SHACL-formerna"
 (cd "$KALLA" && "$PYTHON" rdf_validera.py "$RDF_LOKAL" --rapport "$RDF_LOKAL.validering.md" > /dev/null) || {
     echo "Exporten bryter mot formerna; se $RDF_LOKAL.validering.md" >&2

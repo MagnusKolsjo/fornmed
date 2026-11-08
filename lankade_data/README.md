@@ -737,3 +737,56 @@ passagerna i en maskinöversättning är märkta och att antalet tripler stämme
 VoID-beskrivningen. Det varnar också för hänvisningar till ersatta id och för
 Wikidata-objekt som flera entiteter delar. Med `--urval 0.1` prövas en tiondel av
 posterna mot formerna, vilket räcker för att hitta fel i mappningen.
+
+## EDM-profil
+
+`edm_export.py` skriver verken i Europeana Data Model (EDM), en gzippad RDF/XML-fil per
+källsamling, för den som vill skörda Fornmed med Europeanas modell. Filerna publiceras
+under `/data/rdf/edm/` bredvid dumpfilerna. Profilen är inte en leverans till Europeana,
+som tar emot objekt genom avtal med dem som äger originalen.
+
+```bash
+.venv/bin/python edm_export.py -o rdf/edm
+.venv/bin/python edm_export.py --kontrollera rdf/edm
+```
+
+Varje verk blir ett `edm:ProvidedCHO` med verkets URI och en `ore:Aggregation`
+(`…#aggregation`):
+
+| EDM | Innehåll |
+|---|---|
+| `dc:title`, `dc:description` | Verkets titel och Fornmeds beskrivning |
+| `dc:language` | Verkets språk enligt ISO 639-3; fornsvenska, som saknar kod, anges som `swe` |
+| `dc:type` | Genren, ett `skos:Concept` i Fornmeds vokabulär |
+| `dc:creator` | Utfärdaren, en `edm:Agent` med `owl:sameAs` till Wikidata |
+| `dcterms:created` | Dateringen, en `edm:TimeSpan` med EDTF-uttrycket och första och sista dagen |
+| `dcterms:spatial` | Utfärdandeort och fyndplats, `edm:Place` med läge och `owl:sameAs` till Wikidata |
+| `dc:source`, `dcterms:isPartOf` | Källans utgivare och källsamlingen |
+| `dc:relation` | Källans egen sida, till exempel brevet i SDHK hos Riksarkivet |
+| `edm:type` | `TEXT` |
+| `edm:dataProvider`, `edm:provider` | `Fornmed` |
+| `edm:isShownAt` | Verkets sida på fornmed.se |
+| `edm:rights` | Källsamlingens licens, se nedan |
+
+Profilen följer Europeanas villkor för metadata, som ska vara CC0: den innehåller bara
+Fornmeds egna uppgifter. Regester och texter ur källorna står inte i profilen; de nås
+genom `edm:isShownAt`.
+
+`edm:rights` gäller sidan med regest, text och översättning och följer därför
+källsamlingens licens: CC BY 4.0 för SDHK, landskapslagarna, MGH och de fornsvenska
+krönikorna; CC BY-SA 4.0 och CC BY-NC-SA 4.0 där källan har dem; Public Domain Mark för
+sagorna, Eddan och de andra samlingar som är fria från upphovsrätt; och
+[CNE](http://rightsstatements.org/vocab/CNE/1.0/) (upphovsrätten inte bedömd) för
+Diplomatarium Norvegicum, Islandicum och Fennicum och Snorres Edda, vars regester är
+moderna texter utan angiven licens.
+
+Två slags verk tas inte med: Rundatas runinskrifter, vars villkor saknar motsvarighet
+bland Europeanas rättighetsangivelser och som når Europeana genom Kulturmiljöregistret,
+och verk utan känt språk, eftersom Europeana kräver `dc:language` för text.
+
+`--kontrollera` prövar filerna mot Europeanas XSD
+([europeana/metis-schema](https://github.com/europeana/metis-schema), version 14.1, som
+hämtas till `data/raw/edm_xsd/` första gången) och mot SHACL-formerna i
+`lankade_data/former_edm.ttl`. Formerna uttrycker också de Schematron-regler i schemat
+som XSD inte prövar: att ett verk har titel, språk och genre, tid eller plats, och att
+aggregationen har leverantör, visningssida och en godkänd rättighetsangivelse.

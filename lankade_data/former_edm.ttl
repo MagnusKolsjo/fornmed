@@ -1,0 +1,82 @@
+# =============================================================================
+# SHACL-former för Fornmeds EDM-profil
+#
+# Formerna uttrycker de Schematron-regler i Europeanas schema (EDM-EXTERNAL-MAIN
+# och ORE i europeana/metis-schema) som XSD-valideringen inte prövar, och de val
+# som profilen bygger på: Fornmed som leverantör, en av Europeanas
+# rättighetsangivelser och TEXT med språk. edm_export.py --kontrollera kör dem.
+#
+# Licens: CC0 1.0.
+# =============================================================================
+
+@prefix fmf:     <https://w3id.org/fornmed/def/former/edm/> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix edm:     <http://www.europeana.eu/schemas/edm/> .
+@prefix ore:     <http://www.openarchives.org/ore/terms/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+fmf:ProvidedCHO a sh:NodeShape ;
+    sh:targetClass edm:ProvidedCHO ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ;
+    sh:property [ sh:path dc:title ; sh:minCount 1 ; sh:maxCount 1 ; sh:minLength 1 ] ,
+        [ sh:path dc:description ; sh:maxCount 1 ; sh:languageIn ( "sv" ) ] ,
+        # Europeanas regel: dc:language krävs när edm:type är TEXT
+        [ sh:path dc:language ; sh:minCount 1 ; sh:pattern "^[a-z]{3}$" ] ,
+        [ sh:path dc:identifier ; sh:minCount 1 ; sh:maxCount 1 ] ,
+        [ sh:path dc:type ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/genre/[^/#]+$" ] ,
+        [ sh:path dc:creator ; sh:class edm:Agent ] ,
+        [ sh:path dcterms:spatial ; sh:class edm:Place ] ,
+        [ sh:path dcterms:created ; sh:maxCount 1 ; sh:class edm:TimeSpan ] ,
+        [ sh:path dc:relation ; sh:nodeKind sh:IRI ] ,
+        [ sh:path edm:type ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "TEXT" ) ] ;
+    # Europeanas regel: dc:subject, dc:type, dcterms:temporal eller dcterms:spatial
+    sh:or ( [ sh:path dc:subject ; sh:minCount 1 ] [ sh:path dc:type ; sh:minCount 1 ]
+            [ sh:path dcterms:temporal ; sh:minCount 1 ] [ sh:path dcterms:spatial ; sh:minCount 1 ] ) .
+
+fmf:Aggregation a sh:NodeShape ;
+    sh:targetClass ore:Aggregation ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+#aggregation$" ;
+    sh:property [ sh:path edm:aggregatedCHO ; sh:minCount 1 ; sh:maxCount 1 ; sh:class edm:ProvidedCHO ] ,
+        [ sh:path edm:dataProvider ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "Fornmed" ) ] ,
+        [ sh:path edm:provider ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "Fornmed" ) ] ,
+        [ sh:path edm:isShownAt ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://fornmed\\.se/kallor/verk/[^/]+/$" ] ,
+        # De rättighetsangivelser som profilen använder, av Europeanas fjorton
+        [ sh:path edm:rights ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:in ( <http://creativecommons.org/licenses/by/4.0/>
+                  <http://creativecommons.org/licenses/by-sa/4.0/>
+                  <http://creativecommons.org/licenses/by-nc-sa/4.0/>
+                  <http://creativecommons.org/publicdomain/mark/1.0/>
+                  <http://creativecommons.org/publicdomain/zero/1.0/>
+                  <http://rightsstatements.org/vocab/CNE/1.0/> ) ] .
+
+fmf:Agent a sh:NodeShape ;
+    sh:targetClass edm:Agent ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/entitet/[^/#]+$" ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ] ,
+        [ sh:path owl:sameAs ; sh:maxCount 1 ; sh:pattern "^http://www\\.wikidata\\.org/entity/Q[0-9]+$" ] .
+
+fmf:Place a sh:NodeShape ;
+    sh:targetClass edm:Place ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/entitet/[^/#]+$" ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ] ,
+        [ sh:path wgs84:lat ; sh:maxCount 1 ] ,
+        [ sh:path wgs84:long ; sh:maxCount 1 ] ,
+        [ sh:path owl:sameAs ; sh:maxCount 1 ; sh:pattern "^http://www\\.wikidata\\.org/entity/Q[0-9]+$" ] .
+
+fmf:TimeSpan a sh:NodeShape ;
+    sh:targetClass edm:TimeSpan ;
+    sh:property [ sh:path edm:begin ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^-?[0-9]{4}-[0-9]{2}-[0-9]{2}$" ;
+                  sh:lessThanOrEquals edm:end ] ,
+        [ sh:path edm:end ; sh:minCount 1 ; sh:maxCount 1 ; sh:pattern "^-?[0-9]{4}-[0-9]{2}-[0-9]{2}$" ] .
+
+fmf:Begrepp a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ] ,
+        [ sh:path skos:inScheme ; sh:minCount 1 ] .

@@ -50,6 +50,11 @@ def uri(typ: str, post_id: str) -> str:
     return f"{ID}{typ}/{koda(post_id)}"
 
 
+def verkets_sida(verk_id: str) -> str:
+    """Sökvägen till verkets webbsida på fornmed.se: verk sdhk:34486 visas på /kallor/verk/sdhk-34486/."""
+    return f"/kallor/verk/{verk_id.removeprefix('verk:').replace(':', '-')}/"
+
+
 def vokabular_uri(schema: str, kod: str | None = None) -> str:
     """URI:n för ett vokabulär, eller för ett värde i det om `kod` anges."""
     bas = f"{ID}vokabular/{koda(schema)}"

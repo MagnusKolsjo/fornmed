@@ -28,7 +28,7 @@ kod och `www-data` som tjänsteanvändare.
 | `https://<domän>` | Webbplatsen | nginx → gunicorn (Django/Wagtail) |
 | `https://<domän>/id/`, `https://<domän>/def/` | Länkade data: uppslag av URI:er och Fornmeds vokabulär | nginx → fornmed-tjänsten |
 | `https://<domän>/sparql`, `https://<domän>/sparql/` | SPARQL-ändpunkten och dess frågesida | nginx → fornmed-sparql |
-| `https://<domän>/data/rdf/` | Dumpfilerna, en gzippad N-Quads-fil per graf | nginx (statiska filer) |
+| `https://<domän>/data/rdf/` | Dumpfilerna, en gzippad N-Quads-fil per graf, och EDM-profilen under `edm/` | nginx (statiska filer) |
 | `https://www.<domän>` | 301 till `https://<domän>` | nginx |
 | `https://api.<domän>` | REST-API, OpenAPI under `/openapi.json`, dokumentation under `/docs` | nginx → fornmed-tjänsten |
 | `https://mcp.<domän>` | MCP över streamable http, utan sökväg | nginx → fornmed-tjänsten |
@@ -133,8 +133,10 @@ Därefter skickas ny kod med `deploy/skicka_kod.sh` och nya kopior med
 `deploy/skicka_databas.sh "<anmärkning>"` gör allt i ett steg:
 
 0. `rdf_export.py --kontrollera` skriver databasen som länkade data, en gzippad
-   N-Quads-fil per graf, och `rdf_validera.py` kontrollerar filerna mot
-   SHACL-formerna i `lankade_data/former.ttl`, vilket tar omkring tio minuter.
+   N-Quads-fil per graf, och `edm_export.py` skriver EDM-profilen, en RDF/XML-fil
+   per källsamling, som prövas mot Europeanas XSD. `rdf_validera.py` kontrollerar
+   N-Quads-filerna mot SHACL-formerna i `lankade_data/former.ttl`, vilket tar
+   omkring tio minuter.
    Hittar kontrollerna länkar till poster som saknas, eller bryter exporten
    mot formerna, avbryts leveransen innan något har skickats, och
    valideringsrapporten sparas i kodkatalogen.
