@@ -226,6 +226,12 @@ bli fakta. Fornmeds egna klasser och egenskaper finns i
 .venv/bin/python vokabular_rdf.py -o vokabular.ttl
 ```
 
+Hela datamängden skrivs som N-Quads, en gzippad fil per graf, med
+
+```bash
+.venv/bin/python rdf_export.py -o rdf/ --kontrollera
+```
+
 ## Installation
 
 PostgreSQL-servern behöver tillägget pgvector.

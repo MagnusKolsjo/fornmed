@@ -73,6 +73,11 @@ gäller också i RDF:
   ASCII, procentkodas med UTF-8. Termen `begrepp:harad:fsv:hæraþ` får URI:n
   `https://w3id.org/fornmed/id/term/begrepp:harad:fsv:h%C3%A6ra%C3%BE`. Snedstreck i ett id
   kodas som `%2F`. Regeln finns i `rdf_uri.py`.
+- **Delar av en post har hash-URI:er under postens URI.** Ett påståendes tidsintervall är
+  `…/pastaende/{id}#tid`, ett verks tillkomst `…/verk/{id}#tillkomst` och en platsangivelse
+  `…/verk/{id}#plats-{roll}-{plats-id}`. Dumpfilerna har därför inga blanka noder, och
+  delarna är desamma i varje export. Exemplen nedan skriver dem som `[ … ]` för
+  läsbarhetens skull.
 - **En URI tas aldrig bort och återanvänds aldrig.** En entitet som slås ihop med en annan
   behåller sin URI, som då pekar vidare med `dcterms:isReplacedBy`.
 
@@ -516,6 +521,11 @@ Varje källsamling har en egen namngiven graf, med licensen angiven på grafen:
 | `graf/lankar` | Länkar till andra datamängder | CC0 |
 | `graf/omnamnanden` | Omnämnanden i passagerna | CC0 |
 
+En graf får en licens-URI (`dcterms:license`) bara när licensen gäller hela samlingen.
+Om licenstexten säger att en del saknar känd licens eller är skyddad, som för
+regesterna i Diplomatarium Fennicum, står bara texten (`dcterms:rights`). Grafer för
+källsamlingar och längder som Fornmed själv har sammanställt är CC0.
+
 Påståendena ligger i källsamlingens graf eftersom de citerar källans text. Källsamlingarna
 har allt från CC0 och public domain till CC BY 4.0, CC BY-SA 4.0, CC BY-NC-SA 4.0 och
 ODbL, så den som återanvänder data bör välja grafer efter licens. Fornmeds egna
@@ -523,3 +533,19 @@ uppgifter är CC0. Ange gärna Fornmed som källa.
 
 I SPARQL-ändpunkten är standardgrafen unionen av alla grafer. En fråga utan `GRAPH` ser
 alltså allt, och med `GRAPH` eller `FROM` går det att avgränsa till vissa licenser.
+
+Metadatagrafen `graf/metadata` beskriver datamängden och varje graf med VoID: titel,
+licens, antal tripler och var dumpfilen finns.
+
+## Export
+
+`rdf_export.py` i projektets rotkatalog skriver hela datamängden som gzippade N-Quads, en
+fil per graf:
+
+```bash
+.venv/bin/python rdf_export.py -o rdf/ --kontrollera
+```
+
+Med `--kontrollera` rapporterar skriptet länkar till Fornmed-poster som inte finns i
+exporten och avslutar med felkod om det finns sådana. Översättningen från tabellerna
+till RDF finns i `rdf_mappning.py`, som också används när en enskild post slås upp.

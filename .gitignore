@@ -20,6 +20,9 @@ data/raw/
 # Arbetsmaterial till granskningar
 data/platser/tredje_bedomning/
 
+# RDF-exporten; skapas om ur databasen med rdf_export.py
+rdf/
+
 # Webbplatsens genererade filer
 webb/staticfiles/
 webb/media/

@@ -62,6 +62,16 @@ fm:Passage a owl:Class ;
     rdfs:label "passage"@sv , "passage"@en ;
     rdfs:comment "Den citerbara textenheten i en utgåva: ett brevs regest eller text, ett kapitel, en strof, en balk."@sv .
 
+fm:Ordboksartikel a owl:Class ;
+    rdfs:subClassOf crm:E33_Linguistic_Object ;
+    rdfs:label "ordboksartikel"@sv , "dictionary entry"@en ;
+    rdfs:comment "En betydelse av ett uppslagsord i Söderwall, Söderwalls supplement eller Schlyter."@sv .
+
+fm:Langd a owl:Class ;
+    rdfs:subClassOf dcterms:Dataset ;
+    rdfs:label "längd"@sv , "list of office holders"@en ;
+    rdfs:comment "En längd över ämbetsinnehavare: regenter, biskopar, påvar. Varje titel i längden är ett påstående med längden som belägg."@sv .
+
 fm:Platsangivelse a owl:Class ;
     rdfs:label "platsangivelse"@sv , "place statement"@en ;
     rdfs:comment "Ett verks koppling till en plats i en viss roll (utfärdandeort, fyndplats, socken), med källans namnform och uppgift om osäkerhet."@sv .
@@ -476,7 +486,18 @@ fm:termtyp a owl:ObjectProperty ;
 
 fm:ordboksartikel a owl:ObjectProperty ;
     rdfs:label "ordboksartikel"@sv , "dictionary entry"@en ;
-    rdfs:domain skosxl:Label .
+    rdfs:domain skosxl:Label ;
+    rdfs:range fm:Ordboksartikel .
+
+fm:lemgram a owl:DatatypeProperty ;
+    rdfs:label "lemgram"@sv , "lemgram"@en ;
+    rdfs:comment "Språkbankens identifierare för ordet. Den binder ihop samma ord i olika ordböcker."@sv ;
+    rdfs:domain fm:Ordboksartikel .
+
+fm:betydelseNr a owl:DatatypeProperty ;
+    rdfs:label "betydelsenummer"@sv , "sense number"@en ;
+    rdfs:domain fm:Ordboksartikel ;
+    rdfs:range xsd:integer .
 
 # -----------------------------------------------------------------------------
 # Egenskaper: kopplingar till kulturarvsobjekt

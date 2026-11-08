@@ -39,6 +39,7 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("vittnestyp", "faksimil", "Faksimil", None),
     ("vittnestyp", "oversattning", "Översättning", None),
     ("vittnestyp", "handskrift", "Handskrift", "Kodex eller fragment med litterär text"),
+    ("vittnestyp", "proveniens", "Proveniensuppgift", "Utgåvans uppgift om förlagan, t.ex. original på pergament i ett visst arkiv"),
 
     # Passagetyp — styr indexering och sökning
     ("passagetyp", "originaltext", "Originaltext", "Källans text i utgåva eller transkription"),
@@ -46,6 +47,8 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("passagetyp", "oversattning", "Översättning", None),
     ("passagetyp", "normaliserad", "Normaliserad text", "Normaliserad stavning av originaltexten"),
     ("passagetyp", "skolion", "Skolion", "Tillägg i handskrifternas marginal; kan ha annan upphovsman och datering än huvudtexten"),
+    ("passagetyp", "anmarkning", "Anmärkning", "Utgivarens noter till brevtexten"),
+    ("passagetyp", "register", "Registerpost", "Utgåvans namn- eller sakregister för brevet"),
 
     # Utgåvetyp — hur utgåvans text förhåller sig till källan
     ("utgavetyp", "original", "Originalspråk", "Källans text i utgåva eller transkription"),
