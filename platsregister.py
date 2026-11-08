@@ -42,6 +42,24 @@ WIKIDATA_URL = "https://www.wikidata.org/w/api.php"
 USER_AGENT = "fornmed/1.0 (https://fornmed.se)"
 KALLA = "Riksantikvarieämbetet, K-samsök"
 
+# Auktoritetens Wikidata-länkar som pekar fel: Granhult och Nottebäck på en
+# förgreningssida för båda socknarna, Varnum i Västergötland på en
+# förgreningssida och Antarktis på ett objekt som har omdirigerats
+RATTAD_WIKIDATA = {
+    ("socken", "712"): "Q18290200",
+    ("socken", "739"): "Q18331480",
+    ("socken", "1814"): "Q10713136",
+    ("land", "aq"): "Q10372207",
+}
+
+
+def _ratta(raa: dict) -> dict:
+    for slag in ("land", "landskap", "lan", "kommun", "socken"):
+        for post in raa.get(slag, []):
+            post["wikidata"] = RATTAD_WIKIDATA.get((slag, post["kod"]), post.get("wikidata"))
+    return raa
+
+
 _POST = re.compile(r'<owl:NamedIndividual rdf:about="[^"]*[#;]([^"#;]+)">(.*?)</owl:NamedIndividual>', re.S)
 
 
@@ -137,7 +155,7 @@ def hamta() -> None:
     raa = hamta_raa()
     RAA_FIL.write_text(json.dumps(raa, ensure_ascii=False, indent=0), encoding="utf-8")
     q_id = [p["wikidata"] for slag in ("land", "landskap", "lan", "kommun", "socken")
-            for p in raa[slag] if p.get("wikidata")]
+            for p in _ratta(json.loads(json.dumps(raa)))[slag] if p.get("wikidata")]
     # Orterna som granskningen har knutit till Wikidata
     orter = (KATALOG / "orter.tsv").read_text(encoding="utf-8") if (KATALOG / "orter.tsv").exists() else ""
     q_id += re.findall(r"\bQ\d+\b", orter)
@@ -162,7 +180,7 @@ def _visningsnamn(namn: str, slag: str, fakta: dict) -> str:
 
 
 def las_in() -> None:
-    raa = json.loads(RAA_FIL.read_text(encoding="utf-8"))
+    raa = _ratta(json.loads(RAA_FIL.read_text(encoding="utf-8")))
     fakta = json.loads(WIKIDATA_FIL.read_text(encoding="utf-8"))
     p = db._prefix()
     befintliga: dict[str, str] = {}

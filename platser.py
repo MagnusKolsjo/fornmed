@@ -1370,8 +1370,19 @@ def main() -> None:
         cur = conn.cursor()
         for pid in register.utan_wikidata:
             cur.execute(f"UPDATE {p}entitet SET wikidata_id = NULL WHERE id = {ph}", (pid,))
+        # Islandicums och Norvegicums orter får sitt Wikidata-id bara härifrån, så id:t
+        # följer det aktuella beslutet: ett ändrat eller struket beslut ska
+        # inte lämna kvar id:t från en tidigare körning
+        cur.execute(f"""SELECT id FROM {p}entitet WHERE wikidata_id IS NOT NULL
+                        AND (id LIKE 'plats:di:%' OR id LIKE 'plats:dn:%')""")
+        for (pid,) in cur.fetchall():
+            if pid not in register.wikidata:
+                cur.execute(f"UPDATE {p}entitet SET wikidata_id = NULL WHERE id = {ph}", (pid,))
         for pid, q in register.wikidata.items():
-            cur.execute(f"UPDATE {p}entitet SET wikidata_id = {ph} WHERE id = {ph} AND wikidata_id IS NULL", (q, pid))
+            if pid.startswith(("plats:di:", "plats:dn:")):
+                cur.execute(f"UPDATE {p}entitet SET wikidata_id = {ph} WHERE id = {ph}", (q, pid))
+            else:
+                cur.execute(f"UPDATE {p}entitet SET wikidata_id = {ph} WHERE id = {ph} AND wikidata_id IS NULL", (q, pid))
         cur.execute(f"DELETE FROM {p}verk_plats")
         cur.execute(f"DELETE FROM {p}identifiering WHERE id LIKE 'identifiering:plats:%'")
         conn.commit()

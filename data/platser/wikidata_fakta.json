@@ -551,6 +551,14 @@
 "namn": "Kalmar län",
 "over": "Q34"
 },
+"Q10372207": {
+"kommunkod": null,
+"land": null,
+"lat": -90,
+"lon": 0,
+"namn": "Antarktisfördragets område",
+"over": null
+},
 "Q103732": {
 "kommunkod": null,
 "land": "Q34",
@@ -18263,6 +18271,14 @@
 "namn": "Varnhems socken",
 "over": "Q499421"
 },
+"Q10713136": {
+"kommunkod": null,
+"land": "Q34",
+"lat": 57.82694,
+"lon": 13.14556,
+"namn": "Varnums socken",
+"over": "Q382808"
+},
 "Q10713138": {
 "kommunkod": null,
 "land": "Q34",
@@ -22727,6 +22743,14 @@
 "namn": "Gottröra socken",
 "over": "Q214048"
 },
+"Q18290200": {
+"kommunkod": null,
+"land": "Q34",
+"lat": 57.04955,
+"lon": 15.23074,
+"namn": "Granhults socken",
+"over": "Q515505"
+},
 "Q18290316": {
 "kommunkod": null,
 "land": "Q34",
@@ -22982,6 +23006,14 @@
 "lon": 14.94722,
 "namn": "Hällaryds socken",
 "over": "Q510223"
+},
+"Q18331480": {
+"kommunkod": null,
+"land": "Q34",
+"lat": 57.1278,
+"lon": 15.21453,
+"namn": "Nottebäcks socken",
+"over": "Q10710314"
 },
 "Q18332179": {
 "kommunkod": null,
