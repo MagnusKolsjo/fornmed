@@ -129,6 +129,8 @@ SSR_FIL = Path(__file__).parent / "data" / "raw" / "ssr" / "ssr.jsonl"
 SSR_KALLA = "Kartverket: Sentralt stedsnavnregister (CC BY 4.0)"
 DN_ALIAS = KATALOG / "dn_alias.tsv"
 DN_ORTER = KATALOG / "dn_orter.tsv"
+# Orter som Kartverkets regel eller språkmodellen placerade fel; läses före båda
+DN_KORRIGERINGAR = KATALOG / "dn_korrigeringar.tsv"
 DI_ALIAS = KATALOG / "di_alias.tsv"
 DI_ORTER = KATALOG / "di_orter.tsv"
 SAGAMAP_KALLA = "Icelandic Saga Map, sagamap.hi.is (CC BY-NC 4.0)"
@@ -924,9 +926,11 @@ def _dn_delar(ort: str) -> tuple[str, str | None]:
 def koppla_dn(register: Platsregister) -> list[tuple]:
     """Diplomatarium Norvegicums utfärdandeorter.
 
-    En befintlig plats används när namnet (eller dess nutida form i dn_alias.tsv) har en enda plats
-    med läge, eller en enda i Norge. Annars ger Kartverket läget när namnet är entydigt i Norge.
-    Övriga orter blir egna platser utan läge, så att breven ändå kan sökas på orten.
+    En rättelse i dn_korrigeringar.tsv går först: orten får rättelsens läge, även om namnet är
+    entydigt hos Kartverket eller har en annan plats. Annars används en befintlig plats när namnet
+    (eller dess nutida form i dn_alias.tsv) har en enda plats med läge, eller en enda i Norge.
+    Därefter ger Kartverket läget när namnet är entydigt i Norge. Övriga orter blir egna platser
+    utan läge, så att breven ändå kan sökas på orten.
     """
     p = db._prefix()
     alias = {}
@@ -940,6 +944,11 @@ def koppla_dn(register: Platsregister) -> list[tuple]:
     if DN_ORTER.exists():
         with DN_ORTER.open(encoding="utf-8", newline="") as f:
             normaliserade = {r["namn"].casefold(): r for r in csv.DictReader(f, delimiter="\t")}
+    # Rättelserna gäller platsens id, så att stavningsvarianter av namnet får samma rättelse
+    korrigeringar = {}
+    if DN_KORRIGERINGAR.exists():
+        with DN_KORRIGERINGAR.open(encoding="utf-8", newline="") as f:
+            korrigeringar = {_slug(r["namn"]): r for r in csv.DictReader(f, delimiter="\t")}
     namn_per_id = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {p}entitet WHERE typ IN ('plats', 'indelning')")}
     namn_per_id.update({pid: rad[2] for pid, rad in register.nya.items()})
     lagen = _df_auktoritetslagen()
@@ -969,6 +978,16 @@ def koppla_dn(register: Platsregister) -> list[tuple]:
     def plats(namn: str, storre: str | None) -> str:
         if namn in val:
             return val[namn]
+        if (korrigering := korrigeringar.get(_slug(namn))):
+            pid = f"plats:dn:{_slug(namn)}"
+            register._ny(pid, namn, f"{namn} i Diplomatarium Norvegicum")
+            register.uppgifter[pid] = {"nutida_namn": korrigering["nutida"], "land_id": register.land.get(korrigering["land"]),
+                                       "latitud": float(korrigering["lat"]), "longitud": float(korrigering["lon"]),
+                                       "kalla": f"Wikidata {korrigering['wikidata']}", "metod": "sprakmodell",
+                                       "anm": f"Rättad efter breven: {korrigering['motivering']}."}
+            register.wikidata[pid] = korrigering["wikidata"]
+            val[namn] = pid
+            return pid
         if (pid := befintlig(namn)):
             val[namn] = pid
             return pid

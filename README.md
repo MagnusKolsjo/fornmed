@@ -322,7 +322,10 @@ stycke. Där klassaren är osäker har en språkmodell bedömt två eller tre ut
 (`sprak_urval.py`, instruktionen i `data/sprak/instruktion.md`); språket sätts bara när två
 bedömningar är överens. Metoden står i varje verks `sprakbedomning`.
 
-Utfärdandeorten knyts till en befintlig plats när namnet, eller dess nutida form i
+En rättelse i `data/platser/dn_korrigeringar.tsv` går före allt annat: orter som Kartverkets
+regel eller språkmodellen placerat fel (Tautra i Brønnøy i stället för klostret på Frosta)
+får rättelsens läge och Wikidata-id, med motiveringen ur breven. Annars knyts
+utfärdandeorten till en befintlig plats när namnet, eller dess nutida form i
 `data/platser/dn_alias.tsv`, har en enda plats med läge (eller en enda i Norge). Annars ger
 Kartverkets register läget, men bara när alla kommuner, socknar, kyrkor och bygder med namnet
 ligger inom 15 km från varandra. I "Rom, Vatikanet" är Vatikanet platsen och Rom sammanhanget.
@@ -1283,8 +1286,13 @@ Samma ort kan ha kommit in från flera håll: Vadstena som brevort och som fyndp
 i Rundata, Hedemora socken som brevort och som RAÄ:s socken. `platsdubletter.py`
 hittar dem och lägger till dem i `data/platser/platsdubletter.tsv`: samma namn och
 högst 2 km mellan lägena, eller samma nutida namn och socken med samma namn eller
-bara annan stavning (Stekeborg och Stegeborg). Ting och möten slås inte ihop med
-orten, två av RAÄ:s socknar inte med varandra och två av Rundatas fyndplatser bara
+bara annan stavning (Stekeborg och Stegeborg). Platser i de nordiska
+diplomatarierna saknar ofta socken; där räknas två platser ur samma diplomatarium som
+samma när de har samma nutida namn och läge (inom 0,1 km) och liknande namn, vilket
+fångar stavningsvarianter (Tunsberg och Tønsberg) och Islandicums OCR-läsfel (Skalholti
+och Skalholtl). Namn som anger en byggnad på orten (Vanse kirke, Tunsberghus) eller en
+plats i en annan (Mo Lom) slås inte ihop med orten. Ting och möten slås inte ihop med
+orten, inte heller Alþingi och Öxarárþingi med Þingvellir, två av RAÄ:s socknar inte med varandra och två av Rundatas fyndplatser bara
 i samma socken, eftersom "Narsaq (Ø 42)" och "Narsaq (Ø 17a)" är olika ruiner.
 Den plats som behålls är RAÄ:s, sedan projektets handregistrerade, brevorten, de
 nordiska diplomatariernas och sist fyndplatsen. `platser.py` låter den gamla id:n

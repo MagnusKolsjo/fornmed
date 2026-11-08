@@ -15,7 +15,9 @@ versioneras, och läses sedan in i tabellen extern_lank:
 - Kartverkets ortnamnsregister. Norska platser vars läge kommer från
   registret får länk till ortnamnet. Numret tas fram på samma sätt som
   läget, ur de sparade svaren i data/raw/ssr, och används bara när
-  koordinaterna stämmer med platsregistrets.
+  koordinaterna stämmer med platsregistrets. När Kartverkets ortnamn är en
+  kyrka som fått representera en socken eller bygd blir länken rdfs:seeAlso:
+  kyrkan är platsens läge men inte platsen själv.
 
 Wikidata frågas bara med --hamta; utan flaggan används runinskrifternas
 länkar som redan står i filen.
@@ -169,7 +171,8 @@ def ssr() -> list[dict]:
             lage = platser._ssr_lage(namn, traffar) if namn else None
             if lage and lage.get("stedsnummer") and _samma_lage(lage["latitud"], u["latitud"]) \
                     and _samma_lage(lage["longitud"], u["longitud"]):
-                ut.append({"post_typ": "entitet", "post_id": pid, "relation": "closeMatch",
+                kyrka = lage["typ"] in ("Kirke", "Kirkested") and u.get("slag") != "kyrka"
+                ut.append({"post_typ": "entitet", "post_id": pid, "relation": "seeAlso" if kyrka else "closeMatch",
                            "uri": SSR + str(lage["stedsnummer"]), "kalla": "ssr", "metod": u["metod"]})
                 break
     log.info("Kartverket: %d av %d platser med läge från ortnamnsregistret", len(ut), len(uppgifter))

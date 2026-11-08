@@ -9,7 +9,14 @@ samma när
   "(Hycklinge socken)" eller "(Uppland)") och lägena ligger högst GRANS_KM från
   varandra, eller
 - de har samma nutida namn och samma socken, och namnen är detsamma eller bara
-  stavas olika ("Rumblaborg", "Rumlaborg").
+  stavas olika ("Rumblaborg", "Rumlaborg"), eller
+- de kommer ur samma diplomatarium (DN, DI eller DF), har samma nutida namn och läge
+  inom DIPLOMATARIUM_KM, och namnen liknar varandra. Det fångar stavningsvarianter
+  ("Tunsberg", "Tønsberg") och OCR-läsfel i Diplomatarium Islandicum ("Skalholti",
+  "Skalholtl") bland platser som saknar socken. Namn som anger olika nivåer
+  ("Vanse", "Vanse kirke"; "Tunsberg", "Tunsberghus") eller där det ena namnet är det
+  andra med ett tillägg ("Lom", "Mo Lom") slås inte ihop, eftersom de avser olika
+  platser som fått samma ungefärliga läge.
 
 Platser vars namn anger en händelse eller ett tillfälle ("Edsbergs ting", "Kumla
 ting") slås aldrig ihop med orten. Två av RAÄ:s socknar eller kommuner slås inte ihop
@@ -36,6 +43,7 @@ import csv
 import logging
 import math
 import re
+import unicodedata
 from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
@@ -48,8 +56,20 @@ log = logging.getLogger("platsdubletter")
 
 FIL = Path(__file__).parent / "data" / "platser" / "platsdubletter.tsv"
 GRANS_KM = 2.0
+# Diplomatarieorterna har fått sitt läge ur samma normalisering, så samma plats har
+# samma koordinater; avståndet tål bara avrundning
+DIPLOMATARIUM_KM = 0.1
+DIPLOMATARIUM = ("plats:dn:", "plats:di:", "plats:df:")
+# Alþingi, Öxarárþingi och lögréttan är tinget och lagrådet, inte Þingvellir där de
+# samlades. Mönstret känner igen dem också i Islandicums OCR-läsfel (Alþlngi, AlJ>ingi,
+# Öxarárþlngi), som tillfällesregeln ovan inte fångar.
+ISLANDSKT_TING = re.compile(r"^(?:al[þjpf>]|alj)|oxar|logrett")
+# Ord som anger en byggnad eller anläggning på orten och inte orten själv
+# "liusi" är Islandicums vanligaste OCR-läsning av "húsi" (Koltlingsliúsi för Koldinghus)
+NIVA = re.compile(r"(kirke|kirkja|kirkju|kyrkje|kyrka|kirken|kloster|klaustr|slott|borg|hus|husi|liusi|gård|gaard)$")
 # Namn som anger ett tillfälle eller en församling av människor på orten, inte orten själv
-TILLFALLE = re.compile(r"\b(?:\w*ting|tinget|möte|mötet|marknad|marknaden|landsting|herredag|riksdag)\b", re.I)
+# Isländskans þing (Alþingi, Öxarárþingi) är tinget, inte Þingvellir där det hölls
+TILLFALLE = re.compile(r"\b(?:\w*ting|tinget|möte|mötet|marknad|marknaden|landsting|herredag|riksdag|\w*þingi?)\b", re.I)
 AUKTORITET = ("plats:socken:", "plats:kommun:", "plats:lan:", "plats:landskap:", "plats:land:")
 # Ordningen när en av två platser ska behållas
 BEHALL = [AUKTORITET, ("plats:sdhk:", "plats:df:", "plats:dn:", "plats:di:", "plats:runa:", "plats:wd:", "plats:museum:")]
@@ -75,6 +95,23 @@ def grundnamn(pid: str, namn: str) -> str:
     if pid.startswith(("plats:runa:", "plats:wd:")):
         return ordform(namn)
     return ordform(re.sub(r"\s*\([^)]*\)\s*$", "", namn))
+
+
+def _skrivform(namn: str) -> str:
+    """'Vanse kirke (Farsund)' → 'vanse kirke'; 'Tunsbergshúsí' → 'tunsbergshusi'."""
+    utan_parentes = re.sub(r"\s*\([^)]*\)\s*", " ", namn).strip(" .,-").casefold()
+    return "".join(t for t in unicodedata.normalize("NFKD", utan_parentes) if not unicodedata.combining(t))
+
+
+def _samma_niva(a: str, b: str) -> bool:
+    """
+    Falskt när namnen avser olika nivåer: en byggnad och orten ("vanse kirke", "vanse";
+    "tunsberghus", "tunsberg"), eller en plats i en annan ("mo lom", "lom").
+    """
+    orda, ordb = a.split(), b.split()
+    if orda != ordb and (set(orda) < set(ordb) or set(ordb) < set(orda)):
+        return False
+    return bool(NIVA.search(a.replace(" ", ""))) == bool(NIVA.search(b.replace(" ", "")))
 
 
 def las_beslut() -> dict[str, tuple[str, str]]:
@@ -125,6 +162,23 @@ def hitta() -> list[tuple[str, str, str]]:
                 na, nb = grundnamn(a["id"], a["namn"]), grundnamn(b["id"], b["namn"])
                 if na == nb or SequenceMatcher(None, na, nb).ratio() >= 0.85:
                     par.setdefault(frozenset((a["id"], b["id"])), f"samma nutida namn och socken ({socken})")
+
+    per_nutida: dict[tuple[str, str], list[dict]] = {}
+    for r in platser.values():
+        prefix = next((d for d in DIPLOMATARIUM if r["id"].startswith(d)), None)
+        if prefix and not r["socken_id"] and r["nutida_namn"] and r["latitud"] is not None \
+                and not ISLANDSKT_TING.search(_skrivform(r["namn"])):
+            # Det nutida namnet har ibland kommunen i parentes: "Norderhov (Ringerike)"
+            per_nutida.setdefault((prefix, grundnamn(r["id"], r["nutida_namn"])), []).append(r)
+    for (_, nutida), lista in per_nutida.items():
+        for i, a in enumerate(lista):
+            for b in lista[i + 1:]:
+                na, nb = grundnamn(a["id"], a["namn"]), grundnamn(b["id"], b["namn"])
+                km = _km((a["latitud"], a["longitud"]), (b["latitud"], b["longitud"]))
+                # Nivån bedöms på namnet som det skrivs: normaliseringen gör "Tunsberghus" till "tunsbergus"
+                if km <= DIPLOMATARIUM_KM and _samma_niva(_skrivform(a["namn"]), _skrivform(b["namn"])) \
+                        and SequenceMatcher(None, na, nb).ratio() >= 0.5:
+                    par.setdefault(frozenset((a["id"], b["id"])), f"samma nutida namn och läge ({nutida}), olika stavning")
 
     # Paren bildar grupper: Gripsholm finns som brevort, fyndplats och DF-ort. En grupp slås
     # ihop till en plats, utom när den rymmer två auktoritetsplatser eller två fyndplatser,

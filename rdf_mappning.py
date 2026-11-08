@@ -537,7 +537,11 @@ def identifiering(rad: dict) -> Iterator[Trippel]:
     yield s, p("fm", "identifieradMed"), post("entitet", rad["identifierad_med"])
     if rad.get("alternativgrupp"):
         yield s, p("fm", "alternativgrupp"), L(rad["alternativgrupp"])
-    if rad.get("kommentar"):
+    if rad.get("kommentar") == "ersatt_av":
+        # En dublett som slagits ihop: det gamla id:t finns kvar och hänvisar
+        # till det som behålls, så att publicerade länkar fortsätter att fungera
+        yield post("entitet", rad["entitet_id"]), p("dcterms", "isReplacedBy"), post("entitet", rad["identifierad_med"])
+    elif rad.get("kommentar"):
         yield s, p("rdfs", "comment"), L(rad["kommentar"], "sv")
 
 
