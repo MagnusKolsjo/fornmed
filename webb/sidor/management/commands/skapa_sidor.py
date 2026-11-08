@@ -76,8 +76,9 @@ KALLOR_TEXT = """
 
 PASTAENDEN_INGRESS = (
     "Ett påstående beskriver vad en källa hävdar, inte vad som hände. Fornmed har i dag tre "
-    "samlingar av påståenden: en regelbaserad ur SDHK och två piloter där en språkmodell har "
-    "tagit ut påståendena ur originaltexten och en oberoende andra extraktion har kontrollerat dem."
+    "samlingar av påståenden: en regelbaserad ur medeltidsbreven i SDHK och de nordiska "
+    "diplomatarierna, och två piloter där en språkmodell har tagit ut påståendena ur "
+    "originaltexten och en oberoende andra extraktion har kontrollerat dem."
 )
 
 PASTAENDEN_TEXT = """
@@ -86,12 +87,17 @@ PASTAENDEN_TEXT = """
 <p>Påståendet säger alltså vad källan hävdar. Om det stämmer är en annan fråga, och den besvaras med bedömningar: en forskares eller en publikations omdöme om påståendets historicitet, om källans äkthet eller om att två namn avser samma person. När bedömningarna går isär redovisas alla, med bedömare och publikation.</p>
 <p>Personer, platser, ämbeten och begrepp är entiteter som delas mellan källorna. Kungarna i Västgötalagens konungalängd är samma entiteter som utfärdarna i medeltidsbreven, och samma person behåller sitt id mellan versionerna av databasen.</p>
 
-<h2>Medeltidsbreven i SDHK</h2>
-<p><b>87 090 påståenden ur 38 113 brev, regelbaserade och ogranskade.</b></p>
-<p>Riksarkivets kartotek anger för de flesta brev vem som utfärdade dem, till exempel ”Biskop Knut i Linköping”. Fältet tolkas med regler till tre slags påståenden: att personen utfärdar brevet (47 979), har en titel eller ett ämbete (20 922) och har ett stånd som riddare eller väpnare (6 282). Påståendena dateras med brevets datum.</p>
-<p>Vem ett namn avser avgörs i flera steg. Regenter, påvar och biskopar slås upp i auktoritetslängderna, som anger åren för varje titel. Brevets datering avgör sedan om personen bar titeln då, ännu inte bar den, hade förlorat den eller redan var död. ”Kung Albrekt” år 1395 blir Albrekt av Mecklenburg med anmärkningen att han inte längre var kung. När flera kandidater passar lika bra kopplas brevet inte till någon av dem; kandidaterna registreras i stället som möjliga identifieringar. Stadsråd, kloster och domkapitel blir en institution per ort, och övriga personer slås samman försiktigt när namn, ort eller ämbete och tid stämmer.</p>
-<p>Ur regesternas första mening tas dessutom gärningarna: vem som säljer, skänker, pantsätter, testamenterar, upplåter, förlänar, byter, stadfäster, dömer eller utnämner, till vem, vilken egendom det gäller och priset. Det ger omkring 11 900 påståenden. Mottagarna identifieras på samma sätt som utfärdarna, så den som köper jord i ett brev och säljer i ett annat är samma person.</p>
-<p>Utfärdarfältet är Riksarkivets registeruppgift och inte ett citat ur brevet, och regesten är en modern sammanfattning. Påståendena har därför inget citat. Kända svagheter är att samma person kan bli flera entiteter när fältet saknar ort eller ämbete, och att altaren och kapell utan ortnamn inte alltid känns igen som mottagare.</p>
+<h2>Medeltidsbreven</h2>
+<p><b>129 179 påståenden ur 54 804 brev i SDHK, Diplomatarium Fennicum, Diplomatarium Norvegicum och Diplomatarium Islandicum, regelbaserade och ogranskade.</b></p>
+<p>Påståendena tas ur breven med regler, inte av en språkmodell. För SDHK och Diplomatarium Fennicum är grunden kartotekets uppgift om vem som utfärdade brevet, till exempel ”Biskop Knut i Linköping”. Diplomatarium Norvegicum saknar en sådan uppgift; där tas utfärdaren ur regestens början, som är skriven på 1800-talsdanska eller nutida norska. Diplomatarium Islandicum har bara en kort isländsk rubrik till varje brev, och påståenden finns där bara när rubriken nämner utfärdaren. Namn och titlar skrivs om till samma form i alla fyra samlingar, så att samma person och samma ämbete känns igen oavsett var brevet är utgivet. Ett brev som finns i flera samlingar räknas en gång.</p>
+<p>Fältet och regesten ger flera slags påståenden, alla daterade med brevets datum: att personen utfärdar brevet (65 149), har en titel eller ett ämbete (32 307) och har ett stånd som riddare eller väpnare (6 741). Ur regesten tas gärningarna: vem som säljer, skänker, pantsätter, testamenterar, upplåter, förlänar, byter, stadfäster, dömer eller utnämner, till vem, vilken egendom det gäller och priset (17 253). I de norska vittnesbreven, där utfärdarna är vittnen, är gärningens subjekt den part som vittnena intygar.</p>
+<h3>Brevväxling</h3>
+<p>Ett brev utan gärning är ofta ett missiv, ett brev till någon. Adressaten registreras (7 274 påståenden), och när regesten säger att brevet svarar på ett tidigare brev blir det ett påstående om svaret (455). I 39 fall har det besvarade brevet hittats, också mellan samlingarna: ett svar i Diplomatarium Fennicum kan peka på ett brev i SDHK. Hur säkert det besvarade brevet är identifierat står i en bedömning: säker när utgivaren själv anger brevets nummer, sannolik när regesten anger datumet och parterna stämmer, möjlig när regesten inte anger datum och det bara finns ett brev mellan parterna under året före. En brevväxling som regesterna inte nämner registreras inte: den vore vår slutsats, inte källans.</p>
+<h3>Personer</h3>
+<p>Vem ett namn avser avgörs i flera steg. Regenter, påvar och biskopar slås upp i auktoritetslängderna, och brevets datering avgör om personen bar titeln då, ännu inte bar den, hade förlorat den eller redan var död. ”Kung Albrekt” år 1395 blir Albrekt av Mecklenburg med anmärkningen att han inte längre var kung. Stadsråd, kloster och domkapitel blir en institution per ort.</p>
+<p>Övriga personer, i dag 45 208, slås samman när namn, ort eller ämbete och tid stämmer. Personer med samma släktnamn och personer med samma namn som förekommer tillsammans med samma medutfärdare inom fem år slås också samman. Ett patronymikon som ”Nils Larsson” pekar inte ensamt ut en person; där registreras den enda tänkbara kandidaten som en möjlig identifiering i stället (2 653). 199 personer, som drotsen Bo Jonsson (Grip) och ärkebiskopen Jón Arason, är kopplade till en lista med levnadsår ur Svenskt biografiskt lexikon och Wikidata. Ett brev som är daterat efter personens död förs aldrig till personen, och Tord Bonde är på så sätt fyra personer i fyra generationer.</p>
+<p>En person behåller sitt id mellan versionerna av databasen. När två personer slås samman finns det gamla id:t kvar och hänvisar till det nya (2 585 id:n), så att en länk till Fornmed inte bryts.</p>
+<p>Kartotekets uppgift och regesten är moderna sammanfattningar och inga citat ur brevet, så påståendena har inget citat. Kända svagheter är att samma person fortfarande kan vara flera entiteter när breven bara anger namnet, att altaren och kapell utan ortnamn inte alltid känns igen och att de isländska namnens böjning skrivs om med grova regler.</p>
 
 <h2>Pilot 1: Västgötalagens längder</h2>
 <p><b>222 påståenden ur konunga-, lagmans- och biskopslängden, extraherade av språkmodell och kontrollerade med en oberoende extraktion.</b></p>
@@ -114,7 +120,7 @@ PASTAENDEN_TEXT = """
 <li><b>Gärningar ur längderna</b> med oberoende extraktion, som i den första piloten.</li>
 <li><b>Teman valda efter kunskapsluckor.</b> Ämnena väljs efter de luckor som forskningsöversikter pekar ut. Två förslag är statsbildning och kungamakt jämförd mellan Svealand, Götaland, Gotland, Skåne och de små landen i Småland, och kommersialisering och städer med belägg ur breven, som köping, stad och myntväsen.</li>
 <li><b>Beowulf-kretsen.</b> Gutertolkningen av gēatas som ett fjärde alternativ, med Wulfstans beskrivning av Gotland, Gutasagan och Jordanes som underlag.</li>
-<li><b>Fler källor och bättre identifiering.</b> Fler källor att knyta påståenden till, och en fortsatt sammanslagning av personer som förekommer i flera källor, med stabila id:n så att länkar inte bryts.</li>
+<li><b>Fler källor och bättre identifiering.</b> Fler källor att knyta påståenden till, fler personer med levnadsår, och en fortsatt sammanslagning av personer som förekommer i flera källor, med stabila id:n så att länkar inte bryts.</li>
 <li><b>Granskade bedömningar.</b> Forskningens ståndpunkter kontrollerade mot publikationerna, så att bedömningarna kan markeras som granskade.</li>
 </ul>
 <p>Nya samlingar meddelas under <a href="/uppdateringar/">uppdateringar</a>.</p>
