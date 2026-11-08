@@ -1108,7 +1108,9 @@ class Personlista:
     """
 
     def __init__(self, fil: Path = AUKTORITETER / "personer.json") -> None:
-        self.personer = json.loads(fil.read_text(encoding="utf-8"))["personer"] if fil.exists() else []
+        # En post som har ersatts av en person i längderna kopplas inte
+        self.personer = [p for p in (json.loads(fil.read_text(encoding="utf-8"))["personer"] if fil.exists() else [])
+                         if not p.get("ersatt_av")]
         self.per_fornamn: dict[str, list[dict]] = defaultdict(list)
         for p in self.personer:
             for namn in [p["namn"], *p.get("alias", [])]:

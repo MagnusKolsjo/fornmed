@@ -24,7 +24,9 @@ och "efter" ger ingen gräns.
 
 Personer som redan finns i regenter.json eller biskopar.json (samma Wikidata-id, eller
 samma namn och dödsår) tas inte med här, så att en person har ett id. Ett id som en gång
-delats ut behålls när listan byggs om, med Wikidata-id eller SBL-id som nyckel.
+delats ut behålls när listan byggs om, med Wikidata-id eller SBL-id som nyckel. Har en
+post här senare visat sig vara en person i längderna, står den kvar med bara id, namn och
+'ersatt_av', längdens id, så att det gamla id:t hänvisar dit.
 
 Användning:
     python bygg_personlista.py --hamta   # hämta Wikidata på nytt
@@ -237,12 +239,13 @@ def bygg() -> list[dict]:
             p["alias"] = sorted({*p["alias"], f"{p['namn']} ({p['att']})"})
 
     # Regenter, påvar och biskopar har egna listor
-    egna_q, egna_namn = set(), set()
+    egna_q: dict[str, str] = {}
+    egna_namn: dict[tuple, str] = {}
     for fil in ("regenter.json", "biskopar.json"):
         for p in json.loads((AUKTORITETER / fil).read_text(encoding="utf-8"))["personer"]:
             if p.get("wikidata"):
-                egna_q.add(p["wikidata"])
-            egna_namn.add((ordform(p["namn"]), p.get("dod")))
+                egna_q.setdefault(p["wikidata"], p["id"])
+            egna_namn.setdefault((ordform(p["namn"]), p.get("dod")), p["id"])
     personer = [p for p in personer if p["wikidata"] not in egna_q and (ordform(p["namn"]), p["dod"]) not in egna_namn
                 and not (p["titel"] and EGEN_LISTA.search(p["titel"]))
 ]
@@ -270,7 +273,13 @@ def bygg() -> list[dict]:
     # Ett id som en gång delats ut försvinner aldrig: en post som inte längre finns i
     # källorna står kvar som den var
     for gammal in tidigare:
-        if gammal["id"] not in tagna:
+        if gammal["id"] in tagna:
+            continue
+        ersatt_av = gammal.get("ersatt_av") or egna_q.get(gammal.get("wikidata")) \
+            or egna_namn.get((ordform(gammal["namn"]), gammal.get("dod")))
+        if ersatt_av:
+            personer.append({"id": gammal["id"], "namn": gammal["namn"], "ersatt_av": ersatt_av})
+        else:
             log.warning("%s (%s) finns inte längre i källorna och står kvar", gammal["id"], gammal["namn"])
             personer.append({**gammal, "kvar_fran_tidigare": True})
     personer.sort(key=lambda p: p["id"])
@@ -290,9 +299,10 @@ def main() -> None:
                        "Wikidata (CC0). Byggs av bygg_personlista.py. dod_typ 'exakt' och 'senast' är en bortre "
                        "gräns; 'omkring' är vidgad med fem år.",
         "personer": personer}, ensure_ascii=False, indent=1), encoding="utf-8")
-    log.info("%d personer, varav %d med dödsår (%d ur SBL, %d ur båda källorna)", len(personer),
-             sum(1 for p in personer if p["dod"]), sum(1 for p in personer if "SBL" in p["kalla"]),
-             sum(1 for p in personer if p["kalla"] == "SBL, Wikidata"))
+    aktuella = [p for p in personer if not p.get("ersatt_av")]
+    log.info("%d personer, varav %d med dödsår (%d ur SBL, %d ur båda källorna); %d ersatta av längderna",
+             len(aktuella), sum(1 for p in aktuella if p["dod"]), sum(1 for p in aktuella if "SBL" in p["kalla"]),
+             sum(1 for p in aktuella if p["kalla"] == "SBL, Wikidata"), len(personer) - len(aktuella))
 
 
 if __name__ == "__main__":

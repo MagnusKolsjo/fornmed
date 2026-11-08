@@ -260,6 +260,7 @@ def bygg() -> dict:
             "ar_text": {t[1]: t[4] + (" (tillträdde ej)" if len(t) > 5 else "") for t in p["titlar"]},
             "wikidata": info.get("qid") or tidigare_qid.get(pid), "wikipedia": p["artikel"],
         })
+    personer = _sla_ihop(personer)
     return {
         "beskrivning": "Biskopar och ärkebiskopar i Uppsala, Linköpings, Skara, Strängnäs, Västerås, Växjö, "
                        "Åbo och Lunds stift som tillträdde senast 1536. Byggd av bygg_biskopslista.py ur svenska "
@@ -267,10 +268,40 @@ def bygg() -> dict:
                        "från, till]; år som listan anger som ungefärliga är vidgade med fem år, och listans "
                        "ursprungliga uttryck står i 'ar_text'. Listorna bygger på äldre biskopslängder och "
                        "skiljer sig ibland från varandra och från nyare forskning. Biskopar utan artikel har "
-                       "Wikidata-id när Wikidata anger dem som biskopar i samma stift och med samma år för tillträde, avgång eller död (högst tre års skillnad).",
+                       "Wikidata-id när Wikidata anger dem som biskopar i samma stift och med samma år för tillträde, avgång eller död (högst tre års skillnad). "
+                       "En biskop som bytte stift och står i två listor utan artikel är en post med båda titlarna; "
+                       "'ersatta' är de id som posten ersätter.",
         "hamtad": time.strftime("%Y-%m-%d"),
         "personer": personer,
     }
+
+
+def _sla_ihop(personer: list[dict]) -> list[dict]:
+    """
+    Samma person i två stiftslistor blir en post. En biskop med artikel är redan en
+    post, eftersom artikeln är nyckeln; en utan artikel står i varje stift för sig
+    (Petrus Tyrgilli, biskop i Linköping och ärkebiskop i Uppsala) och känns igen på
+    Wikidata-id:t. Posten med det kortaste id:t behålls och får de andras titlar,
+    förnamn och id som 'ersatta', så att de gamla id:na kan hänvisa till den.
+    """
+    per_q: dict[str, list[dict]] = {}
+    for p in personer:
+        if p.get("wikidata"):
+            per_q.setdefault(p["wikidata"], []).append(p)
+    borta: set[str] = set()
+    for grupp in per_q.values():
+        if len(grupp) < 2:
+            continue
+        behall, *ovriga = sorted(grupp, key=lambda p: (len(p["id"]), p["id"]))
+        for o in ovriga:
+            behall["titlar"] = sorted(behall["titlar"] + o["titlar"], key=lambda t: (t[2] or 0, t[3] or 0))
+            behall["ar_text"] = {**o["ar_text"], **behall["ar_text"]}
+            behall["fornamn"] = list(dict.fromkeys(behall["fornamn"] + o["fornamn"]))
+            behall["fodd"] = behall["fodd"] or o["fodd"]
+            behall["dod"] = behall["dod"] or o["dod"]
+            behall["ersatta"] = sorted({*behall.get("ersatta", []), o["id"]})
+            borta.add(o["id"])
+    return [p for p in personer if p["id"] not in borta]
 
 
 def main() -> None:

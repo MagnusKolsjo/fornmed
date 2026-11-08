@@ -2356,28 +2356,9 @@
    "id": "person:birger_hakanson_x"
   },
   {
-   "namn": "Birger Magnusson",
-   "fodd": 1210,
-   "fodd_typ": "exakt",
-   "dod": 1266,
-   "dod_typ": "exakt",
-   "titel": "Jarl",
-   "sbl": "18238",
-   "wikidata": "Q316828",
-   "kalla": "SBL, Wikidata",
-   "alias": [
-    "Birger Jaarli",
-    "Birger Jarl",
-    "Birger Magnusson",
-    "Birger Magnusson (Bjälbo)",
-    "Birger Magnusson till Bjälbo",
-    "Jaarli Birger",
-    "Jarl Birger"
-   ],
-   "wd_titel": "Sveriges riksjarl, jarl, militär, monark, politiker",
-   "att": "Bjälbo",
    "id": "person:birger_magnuson_1266",
-   "sbl_url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=18238"
+   "namn": "Birger Magnusson",
+   "ersatt_av": "person:birger_jarl"
   },
   {
    "namn": "Birger Nilsson (Grip)",
@@ -4650,23 +4631,9 @@
    "id": "person:erik_arvidson_1566"
   },
   {
+   "id": "person:erik_axelson_1481",
    "namn": "Erik Axelsson",
-   "fodd": 1419,
-   "fodd_typ": "exakt",
-   "dod": 1481,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": null,
-   "wikidata": "Q581346",
-   "kalla": "Wikidata",
-   "alias": [
-    "Erik Akselinpoika Tott",
-    "Erik Axelsen Thott",
-    "Erik Axelsson Tott"
-   ],
-   "wd_titel": "riksföreståndare, politiker",
-   "id": "person:erik_axelson_1481"
+   "ersatt_av": "person:erik_axelsson_tott"
   },
   {
    "namn": "Erik Bielke",
@@ -5035,35 +5002,9 @@
    "sbl_url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=11884"
   },
   {
+   "id": "person:erik_magnuson_av_norge_1299",
    "namn": "Erik Magnusson av Norge",
-   "fodd": 1268,
-   "fodd_typ": "exakt",
-   "dod": 1299,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": null,
-   "wikidata": "Q314450",
-   "kalla": "Wikidata",
-   "alias": [
-    "Eerik Pappisvihaaja",
-    "Eirik 2 Magnusson",
-    "Eirik II",
-    "Eirik II Magnusson",
-    "Eirik II Magnusson av Norge",
-    "Eirik Magnusson",
-    "Eirik Prestehatar",
-    "Erik 02 Magnusson",
-    "Erik II Magnusson",
-    "Erik II Magnusson av Norge",
-    "Erik II av Norge",
-    "Erik Magnusson",
-    "Erik Magnusson Prestehater",
-    "Erik Prestehater",
-    "Erik Prästhataren"
-   ],
-   "wd_titel": "Norges monark, suverän härskare",
-   "id": "person:erik_magnuson_av_norge_1299"
+   "ersatt_av": "person:erik_magnusson_norge"
   },
   {
    "namn": "Erik Månsson",
@@ -6088,31 +6029,9 @@
    "id": "person:frantz_beijer_1594"
   },
   {
+   "id": "person:fredrik_i_av_danmark_1533",
    "namn": "Fredrik I av Danmark",
-   "fodd": 1471,
-   "fodd_typ": "exakt",
-   "dod": 1533,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": null,
-   "wikidata": "Q157789",
-   "kalla": "Wikidata",
-   "alias": [
-    "Frederik 1",
-    "Frederik 1.",
-    "Frederik I",
-    "Frederik af Holsten",
-    "Fredrik 01",
-    "Fredrik I",
-    "Fredrik I av Danmark",
-    "Fredrik av Holstein",
-    "Kong Frederik 1.",
-    "Kong Fredrik I",
-    "Tanskan Frederik I"
-   ],
-   "wd_titel": "Danmarks monark, Norges monark, hertig, monark",
-   "id": "person:fredrik_i_av_danmark_1533"
+   "ersatt_av": "person:fredrik_1"
   },
   {
    "namn": "Gabriel Kristiernsson",
@@ -7135,36 +7054,9 @@
    "id": "person:hakon_herdebrei_1162"
   },
   {
+   "id": "person:hakon_magnuson_1319",
    "namn": "Håkon Magnusson",
-   "fodd": 1270,
-   "fodd_typ": "exakt",
-   "dod": 1319,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": null,
-   "wikidata": "Q313153",
-   "kalla": "Wikidata",
-   "alias": [
-    "Haakon Pitkäsääri",
-    "Håkan Hålägg",
-    "Håkan V Magnusson",
-    "Håkan V Magnusson av Norge",
-    "Håkan V av Norge",
-    "Håkon 05",
-    "Håkon 5 Magnusson",
-    "Håkon 5.",
-    "Håkon 5. Magnusson",
-    "Håkon 5. af Norge",
-    "Håkon Hålägg",
-    "Håkon V",
-    "Håkon V Magnusson",
-    "Håkon V Magnusson av Norge",
-    "Håkon hålegg",
-    "Kong Håkon V"
-   ],
-   "wd_titel": "Norges monark",
-   "id": "person:hakon_magnuson_1319"
+   "ersatt_av": "person:hakon_5"
   },
   {
    "namn": "Håkon Sverresson",
@@ -8406,26 +8298,9 @@
    "sbl_url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=11948"
   },
   {
-   "namn": "Ingeborg",
-   "fodd": 1301,
-   "fodd_typ": "exakt",
-   "dod": 1361,
-   "dod_typ": "exakt",
-   "titel": "Hertiginna, Prinsessa",
-   "sbl": "11949",
-   "wikidata": "Q467530",
-   "kalla": "SBL, Wikidata",
-   "alias": [
-    "Ingebjørg Håkonsdatter",
-    "Ingebjørg Håkonsdotter",
-    "Ingeborg Håkansdotter av Norge",
-    "Ingeborg Håkonsdatter",
-    "Ingeborg Håkonsdotter"
-   ],
-   "wd_titel": "riksföreståndare, hertig, politiker",
-   "att": null,
    "id": "person:ingeborg_1361",
-   "sbl_url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=11949"
+   "namn": "Ingeborg",
+   "ersatt_av": "person:ingeborg_hakansdotter"
   },
   {
    "namn": "Ingeborg Åkesdotter",
@@ -8462,24 +8337,9 @@
    "id": "person:ingeborg_baner_1541"
   },
   {
+   "id": "person:ingeborg_eriksdoter_av_danmark_1287",
    "namn": "Ingeborg Eriksdotter av Danmark",
-   "fodd": 1244,
-   "fodd_typ": "exakt",
-   "dod": 1287,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": "Estridska",
-   "sbl": null,
-   "wikidata": "Q287511",
-   "kalla": "Wikidata",
-   "alias": [
-    "Ingebjørg Eiriksdotter",
-    "Ingebjørg Eriksdatter",
-    "Ingebjørg Eriksdotter",
-    "Ingeborg Eriksdotter av Danmark (Estridska)"
-   ],
-   "wd_titel": "drottninggemål",
-   "id": "person:ingeborg_eriksdoter_av_danmark_1287"
+   "ersatt_av": "person:ingeborg_eriksdotter"
   },
   {
    "namn": "Ingeborg Gerhardsdotter",
@@ -11910,28 +11770,9 @@
    "id": "person:kristian_agricola_1586"
   },
   {
+   "id": "person:kristian_i_av_danmark_1559",
    "namn": "Kristian III av Danmark",
-   "fodd": 1503,
-   "fodd_typ": "exakt",
-   "dod": 1559,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": null,
-   "wikidata": "Q154998",
-   "kalla": "Wikidata",
-   "alias": [
-    "Christian 3",
-    "Christian 3.",
-    "Christian III",
-    "Christian III av Danmark",
-    "Hertug Christian",
-    "Kong Christian 3.",
-    "Kristian 03 av Danmark",
-    "Kristian III"
-   ],
-   "wd_titel": "Danmarks monark, Norges monark, monark",
-   "id": "person:kristian_i_av_danmark_1559"
+   "ersatt_av": "person:kristian_3"
   },
   {
    "namn": "Kristiern Bengtsson",
@@ -15125,40 +14966,9 @@
    "id": "person:olof_arvidson_x"
   },
   {
+   "id": "person:olof_av_danmark_och_norge_1387",
    "namn": "Olof av Danmark och Norge",
-   "fodd": 1370,
-   "fodd_typ": "exakt",
-   "dod": 1387,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": "Bjälbo",
-   "sbl": null,
-   "wikidata": "Q313879",
-   "kalla": "Wikidata",
-   "alias": [
-    "Olaf 4. af Norge",
-    "Olav 4 Håkonsson",
-    "Olav Håkonsson",
-    "Olav IV",
-    "Olav IV Håkonson",
-    "Olav IV Håkonsson",
-    "Olav IV av Norge",
-    "Olavi IV Haakoninpoika",
-    "Olof II",
-    "Olof II av Danmark",
-    "Olof III",
-    "Olof III av Danmark",
-    "Olof IV Håkansson",
-    "Olof av Danmark och Norge (Bjälbo)",
-    "Oluf 2. Håkonsen",
-    "Oluf 3.",
-    "Oluf Håkonsen",
-    "Oluf II",
-    "Oluf III",
-    "Oluf III av Danmark"
-   ],
-   "wd_titel": "Danmarks monark, Norges monark, kung, monark",
-   "id": "person:olof_av_danmark_och_norge_1387"
+   "ersatt_av": "person:olof_hakansson"
   },
   {
    "namn": "Olof Drake",
@@ -17601,26 +17411,9 @@
    "id": "person:sune_sik_1154"
   },
   {
-   "namn": "Svante Nilsson",
-   "fodd": 1460,
-   "fodd_typ": "exakt",
-   "dod": 1512,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": null,
-   "sbl": "34641",
-   "wikidata": "Q384917",
-   "kalla": "Wikidata",
-   "alias": [
-    "Svante Nilsson (Natt och Dag)",
-    "Svante Nilsson (Sture)",
-    "Svante Nilsson Natt och Dag",
-    "Svante Nilsson Sture",
-    "Svante Sture"
-   ],
-   "wd_titel": "riksföreståndare, militär, politiker",
    "id": "person:svante_nilson_1512",
-   "sbl_url": "https://sok.riksarkivet.se/sbl/Presentation.aspx?id=34641"
+   "namn": "Svante Nilsson",
+   "ersatt_av": "person:svante_nilsson"
   },
   {
    "namn": "Svante Stålarm",
@@ -18780,24 +18573,9 @@
    "id": "person:valborg_fleming_x"
   },
   {
+   "id": "person:valdemar_magnuson_1318",
    "namn": "Valdemar Magnusson",
-   "fodd": 1285,
-   "fodd_typ": "exakt",
-   "dod": 1318,
-   "dod_typ": "exakt",
-   "titel": null,
-   "att": "Bjälbo",
-   "sbl": null,
-   "wikidata": "Q1369581",
-   "kalla": "Wikidata",
-   "alias": [
-    "Hertig Valdemar",
-    "Valdemar Folkunga, hertug af Finland",
-    "Valdemar Magnusson (Bjälbo)",
-    "Valdemar Magnusson av Sverige"
-   ],
-   "wd_titel": null,
-   "id": "person:valdemar_magnuson_1318"
+   "ersatt_av": "person:valdemar_magnusson_hertig"
   },
   {
    "namn": "Valerianus Laurentii Cuprimontanus",

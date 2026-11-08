@@ -12,6 +12,12 @@ av utfärdarfältet också använder.
 
 Inläsningen ersätter hela längden varje gång och kan köras om när filerna
 har ändrats.
+
+En person som funnits under två id, en biskop i två stift eller en person i
+personlistan som också står i regentlängden, behåller det ena. Det andra
+hänvisar dit (identifieringen ersatt_av), och påståenden och identifieringar
+som pekar på det flyttas till det id som behålls. Biskopslängden anger de
+ersatta id:na i 'ersatta' och personlistan i 'ersatt_av'.
 Kör platser.py efteråt, så att sätena kopplas till sina platser igen.
 
 Användning:
@@ -29,6 +35,7 @@ from pastaenden_sdhk import pave_id
 log = logging.getLogger("auktoriteter")
 
 KATALOG = Path(__file__).parent / "data" / "auktoriteter"
+BEDOMARE = "Fornmeds auktoritetslängder"
 
 # Längdens namn, licens och ursprung. Regent- och påvelängderna är
 # projektets egna sammanställningar och har ingen licens utöver projektets;
@@ -105,6 +112,53 @@ def las_in(conn, langd_id: str) -> tuple[int, int]:
     return len(personer), len(titlar)
 
 
+def ersatta() -> dict[str, str]:
+    """Gammalt id -> id som behålls, ur biskopslängden och personlistan."""
+    ut: dict[str, str] = {}
+    for p in json.loads((KATALOG / "biskopar.json").read_text(encoding="utf-8"))["personer"]:
+        for gammalt in p.get("ersatta", []):
+            ut[gammalt] = p["id"]
+    personlista = KATALOG / "personer.json"
+    if personlista.exists():
+        for p in json.loads(personlista.read_text(encoding="utf-8"))["personer"]:
+            if p.get("ersatt_av"):
+                ut[p["id"]] = p["ersatt_av"]
+    return ut
+
+
+def las_in_ersatta(conn) -> int:
+    """Hänvisningar från ersatta id, för de id som finns som entiteter."""
+    p, ph = db._prefix(), db._ph()
+    cur = conn.cursor()
+    cur.execute(f"SELECT id FROM {p}entitet WHERE typ = 'person'")
+    finns = {r[0] for r in cur.fetchall()}
+    par = {g: n for g, n in ersatta().items() if g in finns and n in finns}
+    identifieringar, bedomningar = [], []
+    for gammalt, nytt in par.items():
+        iid = f"identifiering:auktoritet:ersatt:{gammalt.split(':', 1)[1].replace(':', '_')}"
+        identifieringar.append((iid, gammalt, nytt, None, "ersatt_av"))
+        bedomningar.append((f"{iid}:bedomning", iid, "identifiering", "saker",
+                            "Samma person som i längden, med samma Wikidata-id.", BEDOMARE))
+        for kolumn in ("subjekt_id", "objekt_id"):
+            cur.execute(f"UPDATE {p}pastaende SET {kolumn} = {ph} WHERE {kolumn} = {ph}", (nytt, gammalt))
+        # Andra identifieringar följer med, utom den som säger att id:t är ersatt. En
+        # identifiering mellan de två id:na ("möjligen samma person") är nu avgjord
+        cur.execute(f"""DELETE FROM {p}identifiering WHERE id <> {ph} AND
+                        ((entitet_id = {ph} AND identifierad_med = {ph}) OR (entitet_id = {ph} AND identifierad_med = {ph}))""",
+                    (iid, gammalt, nytt, nytt, gammalt))
+        for kolumn in ("entitet_id", "identifierad_med"):
+            cur.execute(f"UPDATE {p}identifiering SET {kolumn} = {ph} WHERE {kolumn} = {ph} AND id <> {ph}",
+                        (nytt, gammalt, iid))
+        # Wikidata-objektet är personens, och det id som behålls bär det
+        cur.execute(f"UPDATE {p}entitet SET wikidata_id = NULL WHERE id = {ph}", (gammalt,))
+    conn.commit()
+    db.upsert(conn, "identifiering", ["id", "entitet_id", "identifierad_med", "alternativgrupp", "kommentar"], ["id"],
+              identifieringar)
+    db.upsert(conn, "bedomning", ["id", "identifiering_id", "aspekt", "varde", "motivering", "bedomare"], ["id"],
+              bedomningar)
+    return len(par)
+
+
 def main() -> None:
     argparse.ArgumentParser(description=__doc__.split("\n\n")[0]).parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -114,6 +168,7 @@ def main() -> None:
         for langd_id in LANGDER:
             personer, titlar = las_in(conn, langd_id)
             log.info("%s: %d personer, %d titlar", langd_id, personer, titlar)
+        log.info("Ersatta id som hänvisar till längderna: %d", las_in_ersatta(conn))
     finally:
         conn.close()
 
