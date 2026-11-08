@@ -159,7 +159,11 @@ def abo(wikitext: str) -> list[dict]:
 
 
 def wikidata(artiklar: list[str]) -> dict[str, dict]:
-    """Artikel -> {qid, fodd, dod}. Omdirigeringar följs."""
+    """
+    Artikel -> {qid, fodd, dod}. Omdirigeringar följs. Bara objekt för
+    människor (P31 Q5) godtas: en artikel om en biskop utan eget objekt kan
+    vara en omdirigering till stiftets lista eller ämbete.
+    """
     ut: dict[str, dict] = {}
     for i in range(0, len(artiklar), 50):
         grupp = artiklar[i:i + 50]
@@ -176,6 +180,7 @@ def wikidata(artiklar: list[str]) -> dict[str, dict]:
         time.sleep(3)
     qids = sorted({v["qid"] for v in ut.values()})
     liv: dict[str, tuple] = {}
+    manniskor: set[str] = set()
     for i in range(0, len(qids), 50):
         svar = _hamta(WIKIDATA_API, action="wbgetentities", ids="|".join(qids[i:i + 50]), props="claims")
         for q, ent in svar["entities"].items():
@@ -188,7 +193,11 @@ def wikidata(artiklar: list[str]) -> dict[str, dict]:
                         return int(m.group(1))
                 return None
             liv[q] = (ar("P569"), ar("P570"))
+            if any(c["mainsnak"].get("datavalue", {}).get("value", {}).get("id") == "Q5"
+                   for c in ent.get("claims", {}).get("P31", [])):
+                manniskor.add(q)
         time.sleep(3)
+    ut = {a: v for a, v in ut.items() if v["qid"] in manniskor}
     for v in ut.values():
         v["fodd"], v["dod"] = liv.get(v["qid"], (None, None))
     return ut
