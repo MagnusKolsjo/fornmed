@@ -44,11 +44,16 @@ KALLA = "Riksantikvarieämbetet, K-samsök"
 
 # Auktoritetens Wikidata-länkar som pekar fel: Granhult och Nottebäck på en
 # förgreningssida för båda socknarna, Varnum i Västergötland på en
-# förgreningssida och Antarktis på ett objekt som har omdirigerats
+# förgreningssida, Antarktis på ett objekt som har omdirigerats, och Glava,
+# Svartnäs och Sandviken på den socken de bröts ut ur. Sandviken har inget
+# eget sockenobjekt i Wikidata.
 RATTAD_WIKIDATA = {
     ("socken", "712"): "Q18290200",
     ("socken", "739"): "Q18331480",
     ("socken", "1814"): "Q10713136",
+    ("socken", "2139"): "Q10505328",
+    ("socken", "2380"): "Q18455083",
+    ("socken", "2435"): None,
     ("land", "aq"): "Q10372207",
 }
 

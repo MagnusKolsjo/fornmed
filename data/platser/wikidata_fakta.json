@@ -5271,6 +5271,14 @@
 "namn": "Glanshammars socken",
 "over": "Q297718"
 },
+"Q10505328": {
+"kommunkod": null,
+"land": "Q34",
+"lat": 59.55639,
+"lon": 12.56167,
+"namn": "Glava socken",
+"over": "Q511365"
+},
 "Q10505345": {
 "kommunkod": null,
 "land": "Q34",
@@ -23270,6 +23278,14 @@
 "lon": 28.04667,
 "namn": "Belarus",
 "over": null
+},
+"Q18455083": {
+"kommunkod": null,
+"land": "Q34",
+"lat": 60.91423,
+"lon": 16.13754,
+"namn": "Svartnäs socken",
+"over": "Q501545"
 },
 "Q186230": {
 "kommunkod": "2521",

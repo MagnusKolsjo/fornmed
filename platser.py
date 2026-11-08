@@ -84,6 +84,7 @@ import db
 from fragor import _rader
 from normalisering import ordform
 from pastaenden_sdhk import _slug
+import platsdubletter
 
 log = logging.getLogger("platser")
 
@@ -1074,11 +1075,14 @@ def koppla_di(register: Platsregister) -> list[tuple]:
     kopplingar = []
     rader = _rader(f"SELECT id, utfardandeort FROM {p}verk WHERE kallsamling_id = 'di' AND utfardandeort IS NOT NULL")
     # Samma ort i olika OCR-former ("Skálholti", "Skálliolti-") blir en plats genom nyckeln. Läget
-    # tas ur de former som har ett bekräftat förslag, om de alla anger samma ort.
+    # tas ur de former som har ett bekräftat förslag, om de alla anger samma ort. En form med ett
+    # alias är redan avgjord och lånar inte ut sitt läge: "Vík á Seltjarnarnesi" är Reykjavík,
+    # men ett ensamt "Vík" kan vara vilken vík som helst
     former: dict[str, set[str]] = {}
     for r in rader:
         ort_text = re.sub(r"^(?:á|í|i|ú|a|at|að)\s+", "", r["utfardandeort"].strip(" .,[]"))
-        former.setdefault(_isl_nyckel(ort_text), set()).add(ort_text.casefold())
+        if ort_text.casefold() not in alias:
+            former.setdefault(_isl_nyckel(ort_text), set()).add(ort_text.casefold())
     for r in rader:
         ort_text = re.sub(r"^(?:á|í|i|ú|a|at|að)\s+", "", r["utfardandeort"].strip(" .,[]"))
         nyckel = _isl_nyckel(ort_text)
@@ -1113,6 +1117,44 @@ def koppla_di(register: Platsregister) -> list[tuple]:
     med_lage = sum(1 for k in kopplingar if _lage_for(register, k[1], lagen) or register.uppgifter.get(k[1], {}).get("latitud"))
     log.info("DI: %d brev på %d platser, %d med läge", len(kopplingar), len(set(val.values())), med_lage)
     return kopplingar
+
+
+def skilj_nivaer(register: Platsregister) -> None:
+    """
+    En byggnad, ett ting eller ett sammansatt namn får inte ortens Wikidata-objekt.
+    Besluten ger ofta orten som närmevärde för läget ("Haderslev slott",
+    "Helgastaðaþingi", "Kingston upon Hull og Ravensworth"); läget behålls, men objektet
+    avser orten och inte stället. På samma sätt får en by eller stad inte objektet för
+    socknen eller kommunen ("Ljunghem" som by, "Södertälje stad"): auktoritetens plats
+    behåller det.
+    """
+    p = db._prefix()
+    namn = {r["id"]: r["namn"] for r in _rader(f"SELECT id, namn FROM {p}entitet WHERE typ IN ('plats', 'indelning')")}
+    namn.update({pid: rad[2] for pid, rad in register.nya.items()})
+    slag = {r["entitet_id"]: r["slag"] for r in _rader(f"SELECT entitet_id, slag FROM {p}plats_uppgift")}
+    slag.update({pid: u.get("slag") for pid, u in register.uppgifter.items() if u.get("slag")})
+    ersatta = {r["entitet_id"] for r in _rader(f"SELECT entitet_id FROM {p}identifiering WHERE kommentar = 'ersatt_av'")}
+    per_q: dict[str, list[str]] = {}
+    for pid, q in register.wikidata.items():
+        per_q.setdefault(q, []).append(pid)
+    for r in _rader(f"SELECT id, wikidata_id FROM {p}entitet WHERE wikidata_id IS NOT NULL AND typ IN ('plats', 'indelning')"):
+        if r["id"] not in register.wikidata and r["id"] not in register.utan_wikidata:
+            per_q.setdefault(r["wikidata_id"], []).append(r["id"])
+
+    def specifik(m: str, o: str) -> bool:
+        if platsdubletter.annan_niva(namn.get(m, ""), namn.get(o, "")):
+            return True
+        # En ort av annat slag än auktoriteten med samma objekt
+        return o.startswith(platsdubletter.AUKTORITET) and not m.startswith(platsdubletter.AUKTORITET) \
+            and (o.startswith(platsdubletter.NUTIDA_ENHET) or bool(slag.get(m) and slag.get(o) and slag[m] != slag[o]))
+
+    struka = {m for medlemmar in per_q.values() if len(medlemmar) > 1
+              for m in medlemmar if not m.startswith(platsdubletter.AUKTORITET) and m not in ersatta
+              and any(specifik(m, o) for o in medlemmar if o != m and o not in ersatta)}
+    for pid in struka:
+        register.wikidata.pop(pid, None)
+        register.utan_wikidata.add(pid)
+    log.info("Platser utan en annan nivås Wikidata-objekt: %d", len(struka))
 
 
 def koppla_df(register: Platsregister) -> list[tuple]:
@@ -1192,10 +1234,20 @@ def dubletter(register: Platsregister, kopplingar: list[tuple], saten: list[tupl
     for uppgift in register.uppgifter.values():
         if uppgift.get("ingar_i_id") in flytt:
             uppgift["ingar_i_id"] = flytt[uppgift["ingar_i_id"]]
-    # Ett brev som hade båda platserna i samma roll får bara en koppling
+    def folj(pid: str) -> str:
+        """Platsen som pid till slut hänvisar till, genom dubletterna och alla andra ersättningar."""
+        sett = {pid}
+        while (ny := flytt.get(pid) or register.ersatta.get(pid)) and ny not in sett:
+            sett.add(ny)
+            pid = ny
+        return pid
+
+    # Ett brev som hade båda platserna i samma roll får bara en koppling. Kopplingen följer
+    # varje ersättning, också de som regler efter kopplingen gjorde ("Tarttila by i
+    # Sääksmäki" → Tarttila), så att inget brev pekar på ett id som hänvisar vidare
     resultat, sett = [], set()
     for verk_id, pid, roll, *resten in kopplingar:
-        pid = flytt.get(pid, pid)
+        pid = folj(pid)
         if (verk_id, roll, pid) not in sett:
             sett.add((verk_id, roll, pid))
             resultat.append((verk_id, pid, roll, *resten))
@@ -1206,7 +1258,7 @@ def dubletter(register: Platsregister, kopplingar: list[tuple], saten: list[tupl
         if rad[4] == "ersatt_av" and rad[2] in flytt:
             register.identifieringar[iid] = (rad[0], rad[1], flytt[rad[2]], rad[3], rad[4])
     log.info("Dubletter: %d platser hänvisar till en annan", len(flytt))
-    return resultat, [(flytt.get(pid, pid), sate) for pid, sate in saten]
+    return resultat, [(folj(pid), sate) for pid, sate in saten]
 
 
 def sammanslagningar(register: Platsregister, kopplingar: list[tuple]) -> list[tuple]:
@@ -1349,6 +1401,7 @@ def main() -> None:
     df = koppla_df(register)
     dn = koppla_dn(register)
     di = koppla_di(register)
+    skilj_nivaer(register)
     alla, saten = dubletter(register, brev + runor + df + dn + di, saten)
     las_uppslag(register)
     arv_fran_storre(register)

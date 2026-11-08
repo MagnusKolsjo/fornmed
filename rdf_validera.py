@@ -97,7 +97,9 @@ class Tvarkontroll:
             self.ersatt[s] = o
         elif o.startswith(f"<{ID}entitet/") and p not in _EGNA_HANVISNINGAR:
             self.hanvisningar[o] += 1
-        if p == "<http://www.w3.org/2004/02/skos/core#exactMatch>" and o.startswith(_WIKIDATA):
+        # Bara entiteterna: flera runinskrifter på samma sten har stenens objekt
+        if p == "<http://www.w3.org/2004/02/skos/core#exactMatch>" and o.startswith(_WIKIDATA) \
+                and s.startswith(f"<{ID}entitet/"):
             self.wikidata[o].add(s)
         if p == f"<{DEF}utgavetyp>" and o.endswith("/utgavetyp/maskinoversattning>"):
             self.maskinutgavor.add(s)

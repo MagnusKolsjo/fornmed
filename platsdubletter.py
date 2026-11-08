@@ -10,6 +10,12 @@ samma när
   varandra, eller
 - de har samma nutida namn och samma socken, och namnen är detsamma eller bara
   stavas olika ("Rumblaborg", "Rumlaborg"), eller
+- de har samma Wikidata-objekt och är på samma nivå: ingen av dem är en byggnad på
+  den andras ort, ett tillfälle på orten eller en del av den andras namn ("Mo Lom",
+  "Lom"), de har inte olika slag (by och socken), och ingen av dem är en kommun eller
+  ett län. "X i Y" jämförs som X ("Ås kloster i Halland", "Ås kloster"). Det är
+  den enda regeln som slår ihop tillfällen, och då bara med varandra: Islandicums
+  OCR-läsningar av alþingi är samma ting.
 - de kommer ur samma diplomatarium (DN, DI eller DF), har samma nutida namn och läge
   inom DIPLOMATARIUM_KM, och namnen liknar varandra. Det fångar stavningsvarianter
   ("Tunsberg", "Tønsberg") och OCR-läsfel i Diplomatarium Islandicum ("Skalholti",
@@ -62,15 +68,21 @@ DIPLOMATARIUM_KM = 0.1
 DIPLOMATARIUM = ("plats:dn:", "plats:di:", "plats:df:")
 # Alþingi, Öxarárþingi och lögréttan är tinget och lagrådet, inte Þingvellir där de
 # samlades. Mönstret känner igen dem också i Islandicums OCR-läsfel (Alþlngi, AlJ>ingi,
-# Öxarárþlngi), som tillfällesregeln ovan inte fångar.
-ISLANDSKT_TING = re.compile(r"^(?:al[þjpf>]|alj)|oxar|logrett")
+# Öxarárþlngi, Öxafárþlrtgi), som tillfällesregeln ovan inte fångar.
+# "alp" är OCR:ns läsning av "alþ", men Álptamýri är en gård
+ISLANDSKT_TING = re.compile(r"^(?:al[þjpf>]|alj)(?!ta)|oxa[rf]|logrett")
 # Ord som anger en byggnad eller anläggning på orten och inte orten själv
 # "liusi" är Islandicums vanligaste OCR-läsning av "húsi" (Koltlingsliúsi för Koldinghus)
-NIVA = re.compile(r"(kirke|kirkja|kirkju|kyrkje|kyrka|kirken|kloster|klaustr|slott|borg|hus|husi|liusi|gård|gaard)$")
+NIVA = re.compile(r"(kirke|kirkja|kirkju|kyrkje|kyrka|kyrckia|kirckia|kirken|kloster|klaustr|slott|borg|hus|husi|liusi|gård|gaard)$")
 # Namn som anger ett tillfälle eller en församling av människor på orten, inte orten själv
 # Isländskans þing (Alþingi, Öxarárþingi) är tinget, inte Þingvellir där det hölls
 TILLFALLE = re.compile(r"\b(?:\w*ting|tinget|möte|mötet|marknad|marknaden|landsting|herredag|riksdag|\w*þingi?)\b", re.I)
 AUKTORITET = ("plats:socken:", "plats:kommun:", "plats:lan:", "plats:landskap:", "plats:land:")
+# Nutida förvaltningsenheter slås aldrig ihop med en ort ur källorna efter Wikidata-objektet:
+# Orusts kommun är inte Ordost, och Södertälje kommun inte Södertälje stad
+NUTIDA_ENHET = ("plats:kommun:", "plats:lan:")
+# "Visborg på Gotland", "Ås kloster i Halland": det första ledet är platsen
+I_STALLET = re.compile(r"\s+(?:i|på|vid|uti|under)\s+.+$", re.I)
 # Ordningen när en av två platser ska behållas
 BEHALL = [AUKTORITET, ("plats:sdhk:", "plats:df:", "plats:dn:", "plats:di:", "plats:runa:", "plats:wd:", "plats:museum:")]
 
@@ -114,6 +126,34 @@ def _samma_niva(a: str, b: str) -> bool:
     return bool(NIVA.search(a.replace(" ", ""))) == bool(NIVA.search(b.replace(" ", "")))
 
 
+# Byggnader när två platser har samma Wikidata-objekt. "borg" saknas: i Islandicum är
+# Rómaborg och Kantaraborg städer, och Flensborg och Helsingborg är städernas namn
+BYGGNAD = re.compile(r"(kirke|kirkja|kirkju|kyrkje|kyrka|kyrckia|kirckia|kirken|kloster|klaustr|slott|hus|husi|liusi|gård|gaard)$")
+
+
+def annan_niva(a: str, b: str) -> bool:
+    """
+    Sant när platsen a avser något på eller i b, inte b självt: fler ord ("Haderslev
+    slott", "Haderslev"), b:s namn med en byggnad efter ("Tunsbergshúsí", "Tunsberg"),
+    eller ett tillfälle på en ort. "X i Y" jämförs som X.
+    """
+    # "Börje socken" och "Börje" är samma socken
+    fa, fb = (re.sub(r"\s+socken$", "", _skrivform(I_STALLET.sub("", n))) for n in (a, b))
+    if tillfalle(a) != tillfalle(b):
+        return tillfalle(a)
+    ord_a, ord_b = fa.split(), fb.split()
+    if ord_a != ord_b and set(ord_b) < set(ord_a):
+        return True
+    ha, hb = fa.replace(" ", ""), fb.replace(" ", "")
+    return len(ha) > len(hb) and ha.startswith(hb[:max(3, len(hb) - 2)]) \
+        and bool(BYGGNAD.search(ha)) and not NIVA.search(hb)
+
+
+def tillfalle(namn: str) -> bool:
+    """Ett ting, ett möte eller en marknad, också i Islandicums OCR-läsningar av alþingi."""
+    return bool(TILLFALLE.search(namn) or ISLANDSKT_TING.search(_skrivform(namn)))
+
+
 def las_beslut() -> dict[str, tuple[str, str]]:
     if not FIL.exists():
         return {}
@@ -126,13 +166,13 @@ def hitta() -> list[tuple[str, str, str]]:
     p = db._prefix()
     ersatta = {r["entitet_id"] for r in _rader(f"SELECT entitet_id FROM {p}identifiering WHERE kommentar = 'ersatt_av'")}
     beslut = las_beslut()
-    platser = {}
-    for r in _rader(f"""SELECT e.id, e.namn, u.nutida_namn, u.socken_id, u.latitud, u.longitud
+    platser, tillfallen = {}, {}
+    for r in _rader(f"""SELECT e.id, e.namn, e.wikidata_id, u.nutida_namn, u.socken_id, u.latitud, u.longitud, u.slag
                          FROM {p}entitet e LEFT JOIN {p}plats_uppgift u ON u.entitet_id = e.id
                          WHERE e.typ IN ('plats', 'indelning') ORDER BY e.id"""):
-        if r["id"] in ersatta or r["id"] in beslut or TILLFALLE.search(r["namn"]):
+        if r["id"] in ersatta or r["id"] in beslut:
             continue
-        platser[r["id"]] = r
+        (tillfallen if tillfalle(r["namn"]) else platser)[r["id"]] = r
     kopplingar = Counter()
     for r in _rader(f"""SELECT plats_id, count(*) AS n FROM (
                           SELECT plats_id FROM {p}verk_plats UNION ALL
@@ -179,6 +219,20 @@ def hitta() -> list[tuple[str, str, str]]:
                 if km <= DIPLOMATARIUM_KM and _samma_niva(_skrivform(a["namn"]), _skrivform(b["namn"])) \
                         and SequenceMatcher(None, na, nb).ratio() >= 0.5:
                     par.setdefault(frozenset((a["id"], b["id"])), f"samma nutida namn och läge ({nutida}), olika stavning")
+
+    per_wikidata: dict[str, list[dict]] = {}
+    for r in list(platser.values()) + list(tillfallen.values()):
+        # Rundatas fyndplatser hålls isär av källan själv och tas inte med här
+        if r["wikidata_id"] and not r["id"].startswith(NUTIDA_ENHET + ("plats:runa:",)):
+            per_wikidata.setdefault(r["wikidata_id"], []).append(r)
+    for q, lista in per_wikidata.items():
+        for i, a in enumerate(lista):
+            for b in lista[i + 1:]:
+                if annan_niva(a["namn"], b["namn"]) or annan_niva(b["namn"], a["namn"]) \
+                        or (a["slag"] and b["slag"] and a["slag"] != b["slag"]):
+                    continue
+                par.setdefault(frozenset((a["id"], b["id"])), f"samma Wikidata-objekt ({q})")
+    platser.update(tillfallen)
 
     # Paren bildar grupper: Gripsholm finns som brevort, fyndplats och DF-ort. En grupp slås
     # ihop till en plats, utom när den rymmer två auktoritetsplatser eller två fyndplatser,
