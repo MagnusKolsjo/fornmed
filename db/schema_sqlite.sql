@@ -512,3 +512,21 @@ CREATE TABLE IF NOT EXISTS sokpost_plats (
 );
 CREATE INDEX IF NOT EXISTS sokpost_plats_plats_idx ON sokpost_plats (plats_id, roll);
 
+-- 2026-11-08: länkar till poster i andra datamängder (Wikidata,
+-- Kulturmiljöregistret, Samnordisk runtextdatabas, TORA, Kartverkets
+-- ortnamnsregister). relation säger hur posten och den andra hänger ihop:
+-- exactMatch (samma sak), closeMatch (sannolikt samma sak) eller seeAlso.
+-- kalla är varifrån kopplingen kommer och metod hur den gjordes, som i
+-- plats_uppgift. Tabellen fylls av lankar.py ur data/lankar/lankar.tsv.
+CREATE TABLE IF NOT EXISTS extern_lank (
+    post_typ         TEXT NOT NULL,      -- verk, vittne eller entitet
+    post_id          TEXT NOT NULL,
+    uri              TEXT NOT NULL,
+    relation         TEXT NOT NULL,      -- exactMatch, closeMatch eller seeAlso
+    kalla            TEXT NOT NULL,
+    metod            TEXT NOT NULL,      -- auktoritet, regel eller sprakmodell
+    granskad         INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (post_typ, post_id, uri)
+);
+CREATE INDEX IF NOT EXISTS extern_lank_uri_idx ON extern_lank (uri);
+

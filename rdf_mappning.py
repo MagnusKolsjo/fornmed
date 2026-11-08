@@ -435,6 +435,16 @@ def entitetens_lankar(rad: dict, wikidata_id: str | None) -> Iterator[Trippel]:
             yield s, p("skos", "exactMatch"), I(f"{RAA_GEO}county#{kod}")
 
 
+_LANKRELATION = {"exactMatch": ("skos", "exactMatch"), "closeMatch": ("skos", "closeMatch"),
+                 "seeAlso": ("rdfs", "seeAlso")}
+
+
+def extern_lank(rad: dict) -> Iterator[Trippel]:
+    """En länk ur tabellen extern_lank (se lankar.py)."""
+    if rad["relation"] in _LANKRELATION:
+        yield post(rad["post_typ"], rad["post_id"]), p(*_LANKRELATION[rad["relation"]]), I(rad["uri"])
+
+
 def term(rad: dict) -> Iterator[Trippel]:
     s = post("term", rad["id"])
     begrepp = post("entitet", rad["entitet_id"])

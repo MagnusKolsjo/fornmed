@@ -206,6 +206,8 @@ def exportera(katalog: Path, kontrollera: bool) -> Skrivare:
             ut.skriv("register", m.entitet(r, namnformer.get(r["id"], ()), platsuppgifter.get(r["id"])))
             ut.skriv("lankar", m.entitetens_lankar(r, r.get("wikidata_id")))
         del namnformer, platsuppgifter
+        for r in _strom(conn, f"SELECT * FROM {pf}extern_lank ORDER BY post_typ, post_id, uri"):
+            ut.skriv("lankar", m.extern_lank(r))
         for r in _strom(conn, f"SELECT * FROM {pf}term ORDER BY id"):
             ut.skriv("register", m.term(r))
         for r in _strom(conn, f"SELECT * FROM {pf}begreppsrelation"):

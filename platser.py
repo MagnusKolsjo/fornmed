@@ -907,7 +907,7 @@ def _ssr_lage(namn: str, ssr: dict) -> dict | None:
     kommun = next((k.get("kommunenavn") for k in (basta.get("kommuner") or []) if k.get("kommunenavn")), None)
     return {"nutida_namn": f"{namn} ({kommun})" if kommun and kommun != namn else namn,
             "latitud": basta["representasjonspunkt"]["nord"], "longitud": basta["representasjonspunkt"]["øst"],
-            "typ": basta["navneobjekttype"]}
+            "typ": basta["navneobjekttype"], "stedsnummer": basta.get("stedsnummer")}
 
 
 def _dn_delar(ort: str) -> tuple[str, str | None]:

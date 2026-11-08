@@ -86,11 +86,18 @@ def _alla_verk_id(conn, verk_id: list[str]) -> frozenset[str]:
 # Beskrivningar per posttyp
 # -----------------------------------------------------------------------------
 
+def _lankar(conn, typ: str, post_id: str) -> Iterator[m.Trippel]:
+    for r in _rader(conn, "SELECT * FROM {pf}extern_lank WHERE post_typ = ? AND post_id = ? ORDER BY uri",
+                    typ, post_id):
+        yield from m.extern_lank(r)
+
+
 def _verk(conn, verk_id: str) -> Iterator[m.Trippel]:
     rad = _en(conn, "SELECT * FROM {pf}verk WHERE id = ?", verk_id)
     rad["sprak"] = _lista(rad.get("sprak"))
     platser = _rader(conn, "SELECT * FROM {pf}verk_plats WHERE verk_id = ? ORDER BY roll, plats_id", verk_id)
     yield from m.verk(rad, platser)
+    yield from _lankar(conn, "verk", verk_id)
     for v in _rader(conn, "SELECT id, beskrivning FROM {pf}vittne WHERE verk_id = ? ORDER BY id", verk_id):
         s = m.post("vittne", v["id"])
         yield s, m.p("crm", "P128_carries"), m.post("verk", verk_id)
@@ -110,6 +117,7 @@ def _verk(conn, verk_id: str) -> Iterator[m.Trippel]:
 
 def _vittne(conn, vittne_id: str) -> Iterator[m.Trippel]:
     yield from m.vittne(_en(conn, "SELECT * FROM {pf}vittne WHERE id = ?", vittne_id))
+    yield from _lankar(conn, "vittne", vittne_id)
     for b in _rader(conn, "SELECT * FROM {pf}bedomning WHERE vittne_id = ? ORDER BY id", vittne_id):
         yield from m.bedomning(b)
 
@@ -144,6 +152,7 @@ def _entitet(conn, entitet_id: str) -> Iterator[m.Trippel]:
     plats = _rader(conn, "SELECT * FROM {pf}plats_uppgift WHERE entitet_id = ?", entitet_id)
     yield from m.entitet(rad, namnformer, plats[0] if plats else None)
     yield from m.entitetens_lankar(rad, rad.get("wikidata_id"))
+    yield from _lankar(conn, "entitet", entitet_id)
     for a in _rader(conn, "SELECT * FROM {pf}auktoritet WHERE person_id = ?", entitet_id):
         yield from m.auktoritetens_lankar(a)
     for t in _rader(conn, "SELECT * FROM {pf}term WHERE entitet_id = ? ORDER BY id", entitet_id):

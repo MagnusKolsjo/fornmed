@@ -284,6 +284,21 @@ Fornmed länkar direkt till den som äger uppgiften: Riksantikvarieämbetet för
 lämningar, Riksarkivet för TORA, Kartverket för norska ortnamn. Wikidata är navet för
 resten. Länkar som Wikidata redan har till VIAF, GND och GeoNames upprepas inte.
 
+| Mål | Fornmeds poster | Hur länken tas fram |
+|---|---|---|
+| Wikidata | Personer, platser, indelningar och institutioner med Wikidata-id i registret | Registrets egna uppgifter |
+| Wikidata | Runstenar och andra föremål med runinskrift (vittnen) | Rundata-signumet i Wikidata (P1261) |
+| Kulturmiljöregistret och museernas samlingar i K-samsök | Samma vittnen | Wikidata-objektets K-samsök-URI (P1260) |
+| Samnordisk runtextdatabas i K-samsök | Runinskrifterna (verk) | Wikidata-objektets K-samsök-URI (P1260) |
+| Riksantikvarieämbetets sockenauktoritet, kommuner och län | Socknar, kommuner och län | Sockenkoden och SCB:s kommun- och länskoder |
+| TORA | Platser vars läge kommer från TORA | Numret i platslexikonets beslut |
+| Kartverkets ortnamnsregister | Norska platser vars läge kommer från registret | Ortnamnets nummer, när koordinaterna stämmer |
+
+Länkar till Wikidata, Kulturmiljöregistret och Samnordisk runtextdatabas via signumet är
+`skos:exactMatch`. Länkar till TORA och Kartverket är `skos:closeMatch`, eftersom
+platsens identifiering är en bedömning. `lankar.py` i projektets rotkatalog tar fram
+länkarna, skriver dem till `data/lankar/lankar.tsv` och läser in dem i databasen.
+
 ### Begrepp
 
 Begreppsregistret är ett `skos:ConceptScheme`. Termerna, med historiska former och
@@ -504,13 +519,17 @@ kulturarvsobjekt, platsen en `fm:Plats` och länet en `fm:Institution` med
 
 ### Kopplingar
 
-När ett verk och ett objekt i ett register är samma föremål, som en runinskrift och
-runstenen i Kulturmiljöregistret, uttrycks det med `skos:exactMatch`:
+När ett vittne och ett objekt i ett register är samma föremål, som runstenen Vg 52 och
+lämningen i Kulturmiljöregistret, uttrycks det med `skos:exactMatch` på vittnet. Inskriften,
+verket, länkas på samma sätt till sin post i Samnordisk runtextdatabas:
 
 ```turtle
-verk:runa:vg_52 skos:exactMatch
-    <http://www.wikidata.org/entity/Q29577829> ,
-    <http://kulturarvsdata.se/raa/lamning/b80bc1d6-bba5-4b4e-95d3-5596e3ec7922> .
+vittne:vittne:runa:vg_52 crm:P128_carries verk:verk:runa:vg_52 ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q29577829> ,
+        <http://kulturarvsdata.se/raa/lamning/b80bc1d6-bba5-4b4e-95d3-5596e3ec7922> .
+
+verk:verk:runa:vg_52 skos:exactMatch
+    <http://kulturarvsdata.se/uu/srdb/70e0dfe4-8479-4e2a-96fe-859443a6568b> .
 ```
 
 Övriga kopplingar är `fm:Koppling` med slag, säkerhet och proveniens: att en passage

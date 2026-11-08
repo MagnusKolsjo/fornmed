@@ -229,6 +229,17 @@ bli fakta. Fornmeds egna klasser och egenskaper finns i
 .venv/bin/python vokabular_rdf.py -o vokabular.ttl
 ```
 
+Länkarna till Wikidata (för runinskrifterna), Kulturmiljöregistret,
+Samnordisk runtextdatabas, TORA och Kartverkets ortnamnsregister tas fram och
+läses in med
+
+```bash
+.venv/bin/python lankar.py --hamta
+```
+
+Utan `--hamta` frågas inte Wikidata, och runinskrifternas länkar tas ur
+`data/lankar/lankar.tsv`.
+
 Hela datamängden skrivs som N-Quads, en gzippad fil per graf, med
 
 ```bash
