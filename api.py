@@ -14,7 +14,9 @@ uvicorn eller tillsammans med MCP-servern i tjanst.py.
 """
 
 import logging
+import pathlib
 import threading
+import urllib.parse
 from typing import Annotated
 
 # db läser .env vid import och måste därför importeras före moduler som
@@ -24,6 +26,8 @@ import dokument
 import fragor
 import listor
 import objektsok
+import rdf_post
+import rdf_uri
 import sok
 from dokument import DokumentFel
 from fastapi import FastAPI, Path, Query, Request
@@ -55,6 +59,10 @@ Accept-huvudet.
 `/v1/verk/{verk_id}/delar` listar böcker, balkar och sagor, som hämtas var för
 sig. `sprak=` väljer språkversion, i prioritetsordning (`sprak=swe,dan,lat`).
 `parallellt=ja` med två språk ger texterna passage för passage.
+
+**Länkade data.** Verk, passager, utgåvor, entiteter och påståenden finns som RDF
+med `format=ttl`, `jsonld`, `nt` eller `rdf`. `/id/{typ}/{id}` är de beständiga
+URI:erna (https://w3id.org/fornmed/id/…) och `/def/` Fornmeds klasser och egenskaper.
 
 **Källkritik.** Svenska översättningar gjorda av språkmodell är ogranskade och
 märkta så i varje svar; de bör inte citeras som översättning. Ett påstående
@@ -109,8 +117,9 @@ app.add_middleware(_Cache)
 # -----------------------------------------------------------------------------
 
 FormatParam = Annotated[str | None, Query(
-    alias="format", pattern="^(json|md|txt|csv)$",
-    description="json, md, txt eller csv (csv bara för listor). Gäller före Accept-huvudet.")]
+    alias="format", pattern="^(json|md|txt|csv|ttl|jsonld|nt|rdf)$",
+    description="json, md, txt eller csv (csv bara för listor). Verk, passager, utgåvor, entiteter och "
+                "påståenden finns också som RDF: ttl, jsonld, nt eller rdf. Gäller före Accept-huvudet.")]
 
 
 def _innehall(slag: str) -> dict:
@@ -148,6 +157,35 @@ def _svar(request: Request, data, slag: str, rader: list[dict] | None = None,
         return JSONResponse(jsonable_encoder(data), headers=huvuden)
     innehall = jsonable_encoder(rader if rader is not None else data)
     return Response(aterge(innehall, slag, fmt, titel), media_type=FORMAT[fmt], headers=huvuden)
+
+
+def _rdf_format(request: Request) -> str | None:
+    """
+    RDF-formatet om ett sådant begärts med format= eller uttryckligen i
+    Accept-huvudet, annars None. Ett Accept med */* räknas inte, så att
+    klienter som inte anger något fortsätter att få JSON.
+    """
+    begart = request.query_params.get("format")
+    if begart:
+        return begart if begart in rdf_post.FORMAT else None
+    accept = request.headers.get("accept") or ""
+    if not any(mediatyp in accept.lower() for mediatyp in rdf_post.MEDIATYP_TILL_FORMAT):
+        return None
+    fmt = rdf_post.valj_format(None, accept, html=False)
+    if fmt is None or rdf_post.kvalitet(accept, rdf_post.FORMAT[fmt][0]) <= rdf_post.kvalitet(accept, "application/json"):
+        return None
+    return fmt
+
+
+def _rdf_svar(typ: str, post_id: str, fmt: str) -> Response:
+    """Postens beskrivning som RDF, samma som under /id/."""
+    try:
+        tripler = rdf_post.tripler(typ, post_id)
+    except rdf_post.PostSaknas:
+        raise DokumentFel(404, "Posten finns inte.")
+    mediatyp = rdf_post.FORMAT[fmt][0]
+    return Response(rdf_post.serialisera(tripler, fmt), media_type=f"{mediatyp}; charset=utf-8",
+                    headers={"Vary": "Accept"})
 
 
 def _hittad(varde, beskrivning: str):
@@ -237,6 +275,8 @@ def lista_verk(
 @app.get("/v1/verk/{verk_id}", tags=["källor"], responses=_innehall("objekt"),
          summary="Ett verk med vittnen, utgåvor, passager (utan text) och bedömningar")
 def hamta_verk(request: Request, verk_id: VerkId, _format: FormatParam = None) -> Response:
+    if fmt := _rdf_format(request):
+        return _rdf_svar("verk", verk_id, fmt)
     verk = _hittad(fragor.hamta_verk(verk_id), f"Verket '{verk_id}'")
     return _svar(request, verk, "objekt")
 
@@ -305,6 +345,8 @@ def delens_text(
          summary="En passage med hela texten; sprak= ger samma passage på ett annat språk")
 def hamta_passage(request: Request, passage_id: str, sprak: SprakParam = None,
                   _format: FormatParam = None) -> Response:
+    if fmt := _rdf_format(request):
+        return _rdf_svar("passage", passage_id, fmt)
     if koder := _sprakkoder(sprak):
         return _svar(request, dokument.hamta_passage_pa_sprak(passage_id, koder), "passage")
     return _svar(request, dokument.hamta_passage(passage_id), "passage")
@@ -319,6 +361,8 @@ def verkets_utgavor(request: Request, verk_id: VerkId, _format: FormatParam = No
 @app.get("/v1/utgavor/{utgava_id}", tags=["källor"], responses=_innehall("objekt"),
          summary="En utgåva med språk, typ, licens, omfång och delar")
 def hamta_utgava(request: Request, utgava_id: str, _format: FormatParam = None) -> Response:
+    if fmt := _rdf_format(request):
+        return _rdf_svar("utgava", utgava_id, fmt)
     return _svar(request, listor.hamta_utgava(utgava_id), "objekt")
 
 
@@ -463,6 +507,8 @@ def hamta_entitet(
     fran: Annotated[int, Query(ge=0)] = 0,
     _format: FormatParam = None,
 ) -> Response:
+    if fmt := _rdf_format(request):
+        return _rdf_svar("entitet", entitet_id, fmt)
     entitet = _hittad(fragor.hamta_entitet(entitet_id, predikat, antal, fran),
                       f"Entiteten '{entitet_id}'")
     return _svar(request, entitet, "objekt")
@@ -533,6 +579,8 @@ def lista_bedomningar(
 @app.get("/v1/pastaenden/{pastaende_id}", tags=["påståenden"], responses=_innehall("objekt"),
          summary="Ett påstående med källa, relationer och bedömningar")
 def hamta_pastaende(request: Request, pastaende_id: str, _format: FormatParam = None) -> Response:
+    if fmt := _rdf_format(request):
+        return _rdf_svar("pastaende", pastaende_id, fmt)
     pastaende = _hittad(fragor.hamta_pastaende(pastaende_id), f"Påståendet '{pastaende_id}'")
     return _svar(request, pastaende, "objekt", titel=pastaende_id)
 
@@ -644,3 +692,124 @@ def lista_leveranser(
          summary="En leverans med antal per tabell och källsamling")
 def hamta_leverans(request: Request, leverans_id: str, _format: FormatParam = None) -> Response:
     return _svar(request, listor.hamta_leverans(leverans_id), "objekt", titel=f"Leverans {leverans_id}")
+
+
+# -----------------------------------------------------------------------------
+# Länkade data: uppslag av URI:er
+# -----------------------------------------------------------------------------
+# https://w3id.org/fornmed/id/… vidarebefordras till https://<domän>/id/…,
+# som nginx skickar hit. En webbläsare skickas vidare till postens webbsida;
+# ett program får RDF. Webbsidornas adresser följer samma regler som
+# webbplatsen (webb/sidor/texter.py och webb/sidor/lankar.py): verk under
+# /kallor/verk/, entiteter under /register/.
+
+ONTOLOGI = pathlib.Path(__file__).parent / "lankade_data" / "fornmed.ttl"
+ONTOLOGINS_DOKUMENTATION = "https://github.com/MagnusKolsjo/fornmed/blob/main/lankade_data/README.md"
+
+
+def _verkets_sida(verk_id: str) -> str:
+    return f"/kallor/verk/{verk_id.removeprefix('verk:').replace(':', '-')}/"
+
+
+def _entitetens_sida(entitet_id: str) -> str:
+    return f"/register/{urllib.parse.quote(entitet_id.replace(':', '--'))}/"
+
+
+def _webbsida(typ: str, post_id: str) -> str | None:
+    """Webbsidan som visar posten, eller None om ingen sida finns."""
+    conn = db._hamta_db()
+    try:
+        fraga = lambda sql: rdf_post._rader(conn, sql, post_id)  # noqa: E731
+        if typ == "verk":
+            return _verkets_sida(post_id) if fraga("SELECT 1 FROM {pf}verk WHERE id = ?") else None
+        if typ == "entitet":
+            return _entitetens_sida(post_id) if fraga("SELECT 1 FROM {pf}entitet WHERE id = ?") else None
+        if typ == "kallsamling":
+            return "/kallor/" if fraga("SELECT 1 FROM {pf}kallsamling WHERE id = ?") else None
+        verk_sql = {
+            "vittne": "SELECT verk_id FROM {pf}vittne WHERE id = ?",
+            "utgava": "SELECT verk_id FROM {pf}utgava WHERE id = ?",
+            "passage": "SELECT verk_id FROM {pf}passage WHERE id = ?",
+            "pastaende": "SELECT ps.verk_id FROM {pf}pastaende p JOIN {pf}passage ps ON ps.id = p.passage_id "
+                         "WHERE p.id = ?",
+            "bedomning": "SELECT coalesce(b.verk_id, v.verk_id, ps.verk_id) AS verk_id FROM {pf}bedomning b "
+                         "LEFT JOIN {pf}vittne v ON v.id = b.vittne_id "
+                         "LEFT JOIN {pf}pastaende p ON p.id = b.pastaende_id "
+                         "LEFT JOIN {pf}passage ps ON ps.id = p.passage_id WHERE b.id = ?",
+        }
+        entitet_sql = {
+            "identifiering": "SELECT entitet_id FROM {pf}identifiering WHERE id = ?",
+            "term": "SELECT entitet_id FROM {pf}term WHERE id = ?",
+        }
+        if typ in verk_sql:
+            rader = fraga(verk_sql[typ])
+            if rader and rader[0]["verk_id"]:
+                return _verkets_sida(rader[0]["verk_id"])
+        if typ in entitet_sql or typ == "bedomning":
+            sql = entitet_sql.get(typ, "SELECT i.entitet_id FROM {pf}bedomning b "
+                                       "JOIN {pf}identifiering i ON i.id = b.identifiering_id WHERE b.id = ?")
+            rader = fraga(sql)
+            if rader:
+                return _entitetens_sida(rader[0]["entitet_id"])
+        return None
+    finally:
+        conn.close()
+
+
+def _alternativ(sokvag: str) -> str:
+    """Link-huvud med postens adress i varje RDF-format."""
+    return ", ".join(f'<{sokvag}?format={kod}>; rel="alternate"; type="{mediatyp}"'
+                     for kod, (mediatyp, _, _) in rdf_post.FORMAT.items())
+
+
+ID_TYPER = "|".join(rdf_uri.TYPER + ("vokabular",))
+
+
+@app.api_route("/id/{typ}/{post_id:path}", methods=["GET", "HEAD"], tags=["länkade data"],
+         responses={200: {"content": {t: {} for t in rdf_post.MEDIATYP_TILL_FORMAT}}, 303: {}},
+         summary="En post som länkade data: webbsidan för en webbläsare, RDF för ett program")
+def id_uppslag(
+    request: Request,
+    typ: Annotated[str, Path(pattern=f"^({ID_TYPER})$",
+                             description="verk, passage, entitet, pastaende, bedomning …")],
+    post_id: Annotated[str, Path(description="Postens id, t.ex. sdhk:34486 eller plats:socken:449")],
+    format_: Annotated[str | None, Query(alias="format", pattern="^(html|ttl|jsonld|nt|rdf)$",
+                                         description="html, ttl, jsonld, nt eller rdf. Gäller före Accept-huvudet.")] = None,
+) -> Response:
+    fmt = rdf_post.valj_format(format_, request.headers.get("accept"))
+    if fmt is None:
+        return JSONResponse({"fel": "Formatet finns inte.", "format": ["html", *rdf_post.FORMAT]},
+                            status_code=406)
+    sokvag = f"/id/{typ}/{rdf_uri.koda(post_id)}"
+    if fmt == "html":
+        sida = _webbsida(typ, post_id)
+        if sida:
+            return RedirectResponse(sida, status_code=303, headers={"Vary": "Accept"})
+        # Poster utan egen webbsida (vokabulär, längder, ordboksartiklar) visas som Turtle
+        fmt = "ttl"
+    svar = _rdf_svar(typ, post_id, fmt)
+    svar.headers["Link"] = _alternativ(sokvag)
+    svar.headers["Cache-Control"] = "public, max-age=300"
+    return svar
+
+
+@app.api_route("/def/", methods=["GET", "HEAD"], tags=["länkade data"], summary="Fornmeds klasser och egenskaper")
+@app.api_route("/def/{namn}", methods=["GET", "HEAD"], tags=["länkade data"], include_in_schema=False)
+def ontologi(request: Request, namn: str | None = None,
+             format_: Annotated[str | None, Query(alias="format", pattern="^(html|ttl|jsonld|nt|rdf)$")] = None,
+             ) -> Response:
+    # Klasserna och egenskaperna har URI:er som /def/Pastaende men beskrivs alla i samma dokument
+    fmt = rdf_post.valj_format(format_, request.headers.get("accept"))
+    if fmt == "html":
+        return RedirectResponse(ONTOLOGINS_DOKUMENTATION, status_code=303, headers={"Vary": "Accept"})
+    if fmt is None:
+        return JSONResponse({"fel": "Formatet finns inte.", "format": ["html", *rdf_post.FORMAT]},
+                            status_code=406)
+    if fmt == "ttl":
+        innehall = ONTOLOGI.read_bytes()
+    else:
+        g = rdf_post.Graph().parse(ONTOLOGI, format="turtle")
+        innehall = g.serialize(format=rdf_post.FORMAT[fmt][1], encoding="utf-8")
+    return Response(innehall, media_type=f"{rdf_post.FORMAT[fmt][0]}; charset=utf-8",
+                    headers={"Vary": "Accept", "Cache-Control": "public, max-age=3600",
+                             "Link": _alternativ("/def/")})

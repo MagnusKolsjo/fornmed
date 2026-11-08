@@ -15,7 +15,7 @@ from wagtail.contrib.routable_page.models import RoutablePageMixin, path
 from wagtail.fields import RichTextField
 from wagtail.models import Page
 
-from . import kallor, klartext, lankar, register, sokning, texter
+from . import kallor, klartext, lankade_data, lankar, register, sokning, texter
 
 
 class TextSida(Page):
@@ -92,6 +92,7 @@ class KallforteckningSida(RoutablePageMixin, TextSida):
             sida["bedomningar"] += [klartext.bedomningsruta({**b, "vittnestyp": v["typ"], "vittne": v["beskrivning"]})
                                     for v in uppgifter.get("vittnen", []) for b in v.get("bedomningar", [])]
         except texter.TextFel:
+            uppgifter = None
             sida["bedomningar"] = []
         # Påståendena ur verket visas i en egen ruta, skild från källtexten
         sida["pastaenden"] = register.verkets_pastaenden(sida["verk"]["id"])
@@ -103,6 +104,11 @@ class KallforteckningSida(RoutablePageMixin, TextSida):
         else:
             param["pastaenden"] = "1"
         sida["pastaenden_vaxla_url"] = "?" + param.urlencode()
+        # Länkade data: Schema.org för sökmotorer och länkar till postens RDF
+        verkets_id = sida["verk"]["id"]
+        sida["jsonld"] = lankade_data.verk({**sida["verk"], **(uppgifter or {})},
+                                           request.build_absolute_uri(request.path))
+        sida["rdf_alternativ"] = lankade_data.alternativ("verk", verkets_id)
         return self.render(request, template="sidor/verk.html", context_overrides=sida)
 
     class Meta:
@@ -145,6 +151,8 @@ class RegisterSida(RoutablePageMixin, TextSida):
             svar = self.render(request, template="sidor/verk_fel.html", context_overrides={"fel": str(fel)})
             svar.status_code = 503 if fel.kod >= 500 else fel.kod
             return svar
+        sida["jsonld"] = lankade_data.entitet(sida["entitet"], request.build_absolute_uri(request.path))
+        sida["rdf_alternativ"] = lankade_data.alternativ("entitet", sida["entitet"]["id"])
         return self.render(request, template="sidor/entitet.html", context_overrides=sida)
 
     class Meta:

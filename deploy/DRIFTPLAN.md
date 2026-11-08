@@ -26,6 +26,7 @@ kod och `www-data` som tjänsteanvändare.
 | Adress | Innehåll | Bakom |
 |---|---|---|
 | `https://<domän>` | Webbplatsen | nginx → gunicorn (Django/Wagtail) |
+| `https://<domän>/id/`, `https://<domän>/def/` | Länkade data: uppslag av URI:er och Fornmeds vokabulär | nginx → fornmed-tjänsten |
 | `https://www.<domän>` | 301 till `https://<domän>` | nginx |
 | `https://api.<domän>` | REST-API, OpenAPI under `/openapi.json`, dokumentation under `/docs` | nginx → fornmed-tjänsten |
 | `https://mcp.<domän>` | MCP över streamable http, utan sökväg | nginx → fornmed-tjänsten |

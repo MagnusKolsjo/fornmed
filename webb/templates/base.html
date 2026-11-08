@@ -1,4 +1,4 @@
-{% load static wagtailcore_tags %}<!doctype html>
+{% load static wagtailcore_tags fornmed %}<!doctype html>
 <html lang="sv">
 <head>
 <meta charset="utf-8">
@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="{% static 'grafisk_profil/profil.css' %}">
 <link rel="stylesheet" href="{% static 'sidor/webb.css' %}">
 <link rel="icon" href="{% static 'grafisk_profil/fornmed-logo-enfarg.svg' %}" type="image/svg+xml">
-{% if statistik_url and statistik_id %}<script defer src="{{ statistik_url }}/script.js" data-website-id="{{ statistik_id }}"></script>{% endif %}
+{% for alt in rdf_alternativ %}<link rel="alternate" type="{{ alt.typ }}" href="{{ alt.url }}">
+{% endfor %}{% if jsonld %}<script type="application/ld+json">{{ jsonld|jsonld }}</script>
+{% endif %}{% if statistik_url and statistik_id %}<script defer src="{{ statistik_url }}/script.js" data-website-id="{{ statistik_id }}"></script>{% endif %}
 </head>
 <body class="fm-body">
 <a class="hoppa" href="#innehall">Till innehållet</a>

@@ -72,12 +72,15 @@ ovan; API:et är alltid öppet.
 | `/v1/auktoriteter`, `/v1/auktoriteter/{langd}`, `/v1/auktoriteter/{langd}/{person}` | Regent-, biskops- och påvelängderna, med filter på titel, säte och år |
 | `/v1/leveranser`, `/v1/leveranser/{id}` | Databasens uppdateringar med vad som ändrats |
 | `/v1/vokabularer`, `/v1/begrepp/{term}`, `/v1/ordbok` | Vokabulär, begreppsregister och ordböcker |
+| `/id/{typ}/{id}`, `/def/` | Länkade data: en post som RDF eller, för en webbläsare, omdirigering till webbsidan; Fornmeds klasser och egenskaper |
 | `/halsa` | Kontroll av att tjänsten och databasen svarar |
 
 **Format.** Alla resurser finns som JSON (standard), Markdown och text, och
 listor även som CSV. Formatet väljs med `format=json|md|txt|csv` eller med
 Accept-huvudet. Ett format som inte finns för resursen, som CSV för ett
-dokument, ger 406 med de format som finns. Listor pagineras med `sida` och
+dokument, ger 406 med de format som finns. Verk, passager, utgåvor, entiteter
+och påståenden finns också som RDF med `format=ttl|jsonld|nt|rdf` (se
+`lankade_data/README.md`). Listor pagineras med `sida` och
 `per_sida`; i CSV står totalen i `X-Total` och nästa sida i `Link`.
 
 **Språk.** `sprak=` väljer språkversion med ISO 639-3-koder i

@@ -95,7 +95,17 @@ gäller också i RDF:
 | `application/rdf+xml` | RDF/XML |
 
 Det är w3id-adressen som står i RDF:en och som andra ska länka till. Om Fornmed flyttar
-till en annan domän ändras bara vidarebefordringen i w3id.org.
+till en annan domän ändras bara vidarebefordringen i w3id.org. Reglerna för
+vidarebefordringen finns i `w3id/` och läggs i katalogen `fornmed/` i förrådet
+`perma-id/w3id.org` på GitHub.
+
+Verk, passager, utgåvor, entiteter och påståenden finns också som RDF i REST-API:et, med
+`format=ttl`, `format=jsonld`, `format=nt` eller `format=rdf`. Verkens och entiteternas
+webbsidor har en enkel beskrivning i Schema.org som JSON-LD och länkar till postens RDF
+med `<link rel="alternate">`.
+
+En post som saknar egen webbsida, som ett vokabulärvärde eller en längd, visas som Turtle
+även för en webbläsare.
 
 ## Modeller
 

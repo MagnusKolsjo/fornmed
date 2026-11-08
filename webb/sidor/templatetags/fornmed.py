@@ -1,6 +1,9 @@
 """Mallfilter för källtexterna: språknamn, versionstyper och dateringar."""
 
+import json
+
 from django import template
+from django.utils.safestring import mark_safe
 
 from sidor import kallor, texter
 
@@ -44,3 +47,14 @@ def get_item(ordbok: dict, nyckel: str):
 def verkadress(verk_id: str) -> str:
     """Verkets id som del av en webbadress (se texter.adress)."""
     return texter.adress(verk_id)
+
+
+@register.filter
+def jsonld(data: dict) -> str:
+    """
+    JSON-LD att lägga i <script type="application/ld+json">. Tecknen < > &
+    skrivs som \\u-koder, så att en text som innehåller </script> inte kan
+    avsluta elementet.
+    """
+    text = json.dumps(data, ensure_ascii=False)
+    return mark_safe(text.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026"))
