@@ -24,6 +24,37 @@
   </section>
   {% endif %}
 
+  {% if pastaenden.rader %}
+  <div class="verk-pastaenden{% if pastaenden_pa %} med-pastaenden{% endif %}">
+    <div class="vaxel-ram">
+      <button type="button" class="vaxel" id="pastaenden-vaxel" aria-pressed="{% if pastaenden_pa %}true{% else %}false{% endif %}" aria-controls="pastaenden-ruta" aria-describedby="pastaenden-hjalp" hidden>
+        <span class="vaxel-spar" aria-hidden="true"><span class="vaxel-knopp"></span></span>
+        <span class="vaxel-text">Påståenden ({{ pastaenden.total }})</span>
+        <span class="vaxel-lage" aria-hidden="true">{% if pastaenden_pa %}På{% else %}Av{% endif %}</span>
+      </button>
+      <noscript><a class="vaxel-lank" href="{{ pastaenden_vaxla_url }}">{% if pastaenden_pa %}Dölj{% else %}Visa{% endif %} påståenden ({{ pastaenden.total }})</a></noscript>
+      <p class="metadata" id="pastaenden-hjalp">Vem som gör vad enligt {% if verk.id|slice:":4" == "verk" %}källan{% else %}brevet{% endif %}, utläst ur texten. Inte en del av källan.</p>
+    </div>
+    <section class="pastaenden-ruta" id="pastaenden-ruta" aria-labelledby="pastaenden-rubrik">
+      <h2 id="pastaenden-rubrik">Påståenden ur {% if verk.id|slice:":4" == "verk" %}källan{% else %}brevet{% endif %}</h2>
+      <p class="metadata">Fornmeds analys, inte källans text.
+        {% if pastaenden.regel %}Påståendena är utlästa med regler ur regesten{% else %}Påståendena är utlästa ur texten{% endif %}{% if pastaenden.ogranskade %} och inte granskade{% endif %}.
+        Ett påstående säger vad källan hävdar, inte vad som hände. <a href="/pastaenden/">Om påståendena</a></p>
+      <ul>
+        {% for r in pastaenden.rader %}
+        <li>
+          {% if r.subjekt %}<a href="{{ r.subjekt.url }}">{{ r.subjekt.namn }}</a>{% endif %}
+          {{ r.predikat }}
+          {% if r.objekt %}<a href="{{ r.objekt.url }}">{{ r.objekt.namn }}</a>{% elif r.varde %}{{ r.varde }}{% endif %}{% if r.brev %}, svar på <a href="{{ r.brev.url }}">{{ r.brev.namn }}</a>{% endif %}
+          {% if r.grad %}<span class="tag">Koppling: {{ r.grad }}</span>{% endif %}{% if not pastaenden.ogranskade and not r.granskad %} <span class="tag">ogranskad</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% if pastaenden.total > pastaenden.rader|length %}<p class="metadata">Visar {{ pastaenden.rader|length }} av {{ pastaenden.total }} påståenden.</p>{% endif %}
+    </section>
+  </div>
+  {% endif %}
+
   <section class="verk-uppgifter" aria-label="Version och källhänvisning">
     <h2 class="dold">Version</h2>
     <ul class="versionsval">

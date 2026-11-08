@@ -21,13 +21,13 @@ PASTAENDEN_PER_SIDA = 50
 FORSTA = 3
 
 # Ett objektvärde som är ett verks id, t.ex. sdhk:41606 för det brev en person utfärdar
-VERK_ID = re.compile(r"^(sdhk|df|dn):\d[\d:]*$|^verk:[\w:]+$")
+VERK_ID = re.compile(r"^(sdhk|df|dn|di):\d[\w:]*$|^verk:[\w:]+$")
 
 
 def _verknamn(verk_id: str) -> str:
     """sdhk:41606 som SDHK nr 41606 och dn:1:2 som DN 1 nr 2, som verkens titlar skrivs."""
     delar = verk_id.split(":")
-    if delar[0] in ("sdhk", "df", "dn"):
+    if delar[0] in ("sdhk", "df", "dn", "di"):
         return f"{delar[0].upper()} {' '.join(delar[1:-1])} nr {delar[-1]}".replace("  ", " ")
     return verk_id
 
@@ -41,6 +41,59 @@ def _etiketter(schema: str) -> dict[str, str]:
 
 def _vag(entitet_id: str) -> str:
     return "/v1/entiteter/" + urllib.parse.quote(entitet_id, safe=":")
+
+
+# Ordningen i brevets ruta: vem som utfärdar, vem det gäller, vad som sker, vem som får brevet
+PREDIKATORDNING = ["utfardar", "innehar_ambete", "har_stand", "saljer", "skanker", "pantsatter", "testamenterar",
+                   "upplater", "forlaner", "overlater", "byter", "stadfaster", "domer", "utnamner", "skriver_till",
+                   "besvarar"]
+PASTAENDEN_PER_VERK = 200
+
+
+def verkets_pastaenden(verk_id: str) -> dict:
+    """
+    Påståendena ur ett brev, för rutan på brevets sida: subjekt, predikat och objekt med länkar.
+    Ett svar visar det besvarade brevet och hur säkert det är identifierat (bedömningen
+    brevkoppling). Tomt om API:et inte svarar.
+    """
+    try:
+        svar = texter._hamta("/v1/pastaenden", verk=verk_id, per_sida=PASTAENDEN_PER_VERK)
+    except texter.TextFel:
+        return {"rader": [], "total": 0}
+    adresser = lankar.sidor()
+    predikat = _etiketter("predikat")
+    grader = _etiketter("brevkoppling")
+
+    def lank(id_: str | None, namn: str | None) -> dict | None:
+        return {"namn": namn or id_, "url": lankar.entitet_url(id_, adresser)} if id_ else None
+
+    rader = []
+    for p in svar["poster"]:
+        rad = {"subjekt": lank(p["subjekt_id"], p.get("subjekt")),
+               "predikat": predikat.get(p["predikat"], p["predikat"].replace("_", " ")),
+               "objekt": lank(p["objekt_id"], p.get("objekt")), "varde": None, "brev": None,
+               "extraktion": p.get("extraktion"), "granskad": p.get("granskad"),
+               "ordning": PREDIKATORDNING.index(p["predikat"]) if p["predikat"] in PREDIKATORDNING else 99}
+        varde = p.get("objekt_varde")
+        if varde and VERK_ID.match(varde):
+            # "utfärdar" och "skriver till" har brevet självt som värde; ett svar det besvarade brevet
+            if varde != verk_id:
+                rad["brev"] = {"namn": _verknamn(varde), "url": lankar.verk_url(varde, adresser)}
+            elif not rad["objekt"]:
+                rad["varde"] = "brevet"
+        elif varde:
+            rad["varde"] = varde
+        if p["predikat"] == "besvarar" and rad["brev"]:
+            try:
+                bed = texter._hamta("/v1/bedomningar", pastaende=p["id"], aspekt="brevkoppling")["poster"]
+                rad["grad"] = grader.get(bed[0]["varde"], bed[0]["varde"]).lower() if bed else None
+            except (texter.TextFel, KeyError, IndexError):
+                rad["grad"] = None
+        rader.append(rad)
+    rader.sort(key=lambda r: r["ordning"])
+    return {"rader": rader, "total": svar.get("total", len(rader)),
+            "regel": all(r["extraktion"] == "regel" for r in rader),
+            "ogranskade": not any(r["granskad"] for r in rader)}
 
 
 def entitetens_sida(entitet_id: str, fran: int) -> dict:

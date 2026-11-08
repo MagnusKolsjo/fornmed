@@ -7,6 +7,10 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ### Tillagt
 
+- Påståendena på verkets sida: ett reglage visar påståendena ur brevet i en stenfärgad
+  ruta med runröd kant, skild från källtexten. Svar visar det besvarade brevet och hur säker
+  kopplingen är. Valet sparas i adressen och i webbläsaren, som för källkritisk hjälp.
+
 - Brevväxling i DI: svar känns igen i rubrikerna, och tre DI-svar är kopplade till det
   besvarade brevet (Henrik VI:s svar till Kristoffer av Bayern, biskop Gizurs svar till
   Jón Arason, biskop Hákons kvittens på Auðfinns brev). Ett DN-svar kopplas till ett brev i
@@ -162,6 +166,7 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
   plats, till exempel Erikstad, som var Erikstad i Dalsland men avser Bankekind och Vittaryd.
 - Verkets platser i `/v1/verk/{id}` och `fornmed_hamta_verk`, filtret `plats` i
   `/v1/verk` och `sate_id` i `/v1/auktoriteter`.
+- De isländska brevens sidor på webbplatsen (adresser som `di-4-696`) gav 404.
 
 ## [1.0.0] – 2026-11-02
 

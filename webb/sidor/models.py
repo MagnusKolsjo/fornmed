@@ -93,6 +93,16 @@ class KallforteckningSida(RoutablePageMixin, TextSida):
                                     for v in uppgifter.get("vittnen", []) for b in v.get("bedomningar", [])]
         except texter.TextFel:
             sida["bedomningar"] = []
+        # Påståendena ur verket visas i en egen ruta, skild från källtexten
+        sida["pastaenden"] = register.verkets_pastaenden(sida["verk"]["id"])
+        # Rutan visas när läsaren slår på reglaget; utan skript styrs den av adressen
+        sida["pastaenden_pa"] = request.GET.get("pastaenden") == "1"
+        param = request.GET.copy()
+        if sida["pastaenden_pa"]:
+            param.pop("pastaenden", None)
+        else:
+            param["pastaenden"] = "1"
+        sida["pastaenden_vaxla_url"] = "?" + param.urlencode()
         return self.render(request, template="sidor/verk.html", context_overrides=sida)
 
     class Meta:

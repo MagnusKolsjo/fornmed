@@ -38,8 +38,8 @@ class TextFel(Exception):
         self.detaljer = detaljer
 
 
-# Brevsamlingar vars verk har id utan verk: framför, t.ex. sdhk:1000 och dn:1:1
-BREVSAMLINGAR = ("sdhk", "df", "dn")
+# Brevsamlingar vars verk har id utan verk: framför, t.ex. sdhk:1000, dn:1:1 och di:2:348
+BREVSAMLINGAR = ("sdhk", "df", "dn", "di")
 
 
 def adress(verk_id: str) -> str:

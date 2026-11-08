@@ -362,3 +362,19 @@ a.traff.vidare .meta { margin: 0; color: var(--fm-muted); font-size: .86rem; let
 .bedomningar ul { list-style: none; padding: 0; margin: 0; }
 .bedomningar li + li { margin-top: .6rem; }
 .bedomningar .metadata { margin: .3rem 0 0; }
+
+/* Påståendena ur ett verk: Fornmeds analys, inte källans text. Stenfärgen och
+   den runröda kanten skiljer rutan från källtexten. Muted-färgen har för låg
+   kontrast mot sten, så rutans småtext använder bläcket. */
+.verk-pastaenden { margin: 1rem 0 1.5rem; }
+.verk-pastaenden .vaxel-ram { max-width: none; text-align: left; }
+.verk-pastaenden .vaxel-ram .metadata { margin: .3rem 0 0; }
+.pastaenden-ruta { display: none; background: var(--fm-stone); color: var(--fm-ink); border-left: 5px solid var(--fm-rune);
+                   padding: .8rem 1.1rem; margin-top: .75rem; }
+.verk-pastaenden.med-pastaenden .pastaenden-ruta { display: block; }
+.pastaenden-ruta h2 { margin: 0 0 .3rem; font-size: 1.25rem; }
+.pastaenden-ruta .metadata { color: var(--fm-ink); margin: 0 0 .6rem; font-size: .9rem; }
+.pastaenden-ruta ul { list-style: none; padding: 0; margin: 0; }
+.pastaenden-ruta li { padding: .35rem 0; border-top: 1px solid #C2B8A9; }
+.pastaenden-ruta a { color: var(--fm-ink); text-decoration-color: var(--fm-rune); }
+.pastaenden-ruta .tag { margin-left: .3rem; font-size: .8rem; }

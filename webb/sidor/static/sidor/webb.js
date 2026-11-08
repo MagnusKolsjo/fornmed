@@ -55,7 +55,35 @@ function fornmedTextkritik() {
   knapp.addEventListener("click", function () { satt(knapp.getAttribute("aria-pressed") !== "true"); });
 }
 
+/* Påståendena på ett verks sida: samma slags reglage som källkritisk hjälp.
+   Valet sparas i adressen och i webbläsaren, så att det gäller nästa brev också. */
+function fornmedPastaenden() {
+  var knapp = document.getElementById("pastaenden-vaxel");
+  var ram = document.querySelector(".verk-pastaenden");
+  if (!knapp || !ram) return;
+  function satt(pa) {
+    ram.classList.toggle("med-pastaenden", pa);
+    knapp.setAttribute("aria-pressed", pa ? "true" : "false");
+    knapp.querySelector(".vaxel-lage").textContent = pa ? "På" : "Av";
+    var url = new URL(window.location.href);
+    if (pa) { url.searchParams.set("pastaenden", "1"); } else { url.searchParams.delete("pastaenden"); }
+    window.history.replaceState(null, "", url);
+    document.querySelectorAll('.verk a[href^="?"]').forEach(function (a) {
+      var u = new URL(a.getAttribute("href"), window.location.href);
+      if (pa) { u.searchParams.set("pastaenden", "1"); } else { u.searchParams.delete("pastaenden"); }
+      a.setAttribute("href", u.search);
+    });
+    try { window.localStorage.setItem("fornmed-pastaenden", pa ? "1" : "0"); } catch (e) {}
+  }
+  knapp.hidden = false;
+  var sparat = null;
+  try { sparat = window.localStorage.getItem("fornmed-pastaenden"); } catch (e) {}
+  if (sparat === "1" && knapp.getAttribute("aria-pressed") === "false") { satt(true); }
+  knapp.addEventListener("click", function () { satt(knapp.getAttribute("aria-pressed") !== "true"); });
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   fornmedMeny();
   fornmedTextkritik();
+  fornmedPastaenden();
 });
