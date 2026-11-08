@@ -100,7 +100,7 @@ gäller också i RDF:
 
 Det är w3id-adressen som står i RDF:en och som andra ska länka till. Om Fornmed flyttar
 till en annan domän ändras bara vidarebefordringen i w3id.org. Reglerna för
-vidarebefordringen finns i `w3id/` och läggs i katalogen `fornmed/` i förrådet
+vidarebefordringen finns i `w3id/` och läggs i katalogen `ids/fornmed/` i förrådet
 `perma-id/w3id.org` på GitHub.
 
 Verk, passager, utgåvor, entiteter och påståenden finns också som RDF i REST-API:et, med
@@ -108,8 +108,10 @@ Verk, passager, utgåvor, entiteter och påståenden finns också som RDF i REST
 webbsidor har en enkel beskrivning i Schema.org som JSON-LD och länkar till postens RDF
 med `<link rel="alternate">`.
 
-En post som saknar egen webbsida, som ett vokabulärvärde eller en längd, visas som Turtle
-även för en webbläsare.
+En post som saknar egen webbsida, som ett vokabulärvärde, en längd eller en graf, visas
+som Turtle även för en webbläsare. En graf (`/graf/{namn}`) beskrivs som en
+`void:Dataset` med titel, licens, källa och dumpfil; antalet tripler står i
+metadatagrafen.
 
 ## Modeller
 

@@ -1,11 +1,17 @@
-# Beständiga adresser för Fornmed: https://w3id.org/fornmed/
+# # /fornmed/
 #
-# Allt vidarebefordras med 303 till samma sökväg under https://fornmed.se/,
-# där svaret väljs efter Accept-huvudet: en webbläsare får postens webbsida
-# och ett program RDF. Frågesträngen (format=ttl) följer med.
+# Persistent identifiers for Fornmed, a database of sources for the prehistory
+# and Middle Ages of Sweden and the Nordic countries: https://fornmed.se/
+#
+# Every path redirects with 303 to the same path under https://fornmed.se/,
+# which answers with the record's web page for a browser and RDF for a program,
+# depending on the Accept header. The query string (format=ttl) is kept.
+#
+# ## Contact
+# This space is administered by:
+#
+# Magnus Kolsjö
+# GitHub username: MagnusKolsjo
 
-Options +FollowSymLinks
 RewriteEngine on
-
-RewriteRule ^$ https://fornmed.se/ [R=303,L]
 RewriteRule ^(.*)$ https://fornmed.se/$1 [R=303,L]

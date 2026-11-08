@@ -20,7 +20,7 @@ import db
 import rdf_mappning as m
 import rdf_uri
 import vokabular_rdf
-from rdf_export import _json, _lista
+from rdf_export import VOID, Skrivare, _json, _lista
 
 # Format: kod i format= → (media-typ, rdflib-format, filändelse)
 FORMAT = {
@@ -224,6 +224,8 @@ def tripler(typ: str, post_id: str) -> list[m.Trippel]:
         return _vokabular(post_id)
     if typ == "begreppsregister":
         return _begreppsregister()
+    if typ == "graf":
+        return _graf(post_id)
     if typ not in BESKRIVNING:
         raise PostSaknas
     conn = db._hamta_db()
@@ -249,6 +251,55 @@ def _begreppsregister() -> list[m.Trippel]:
     """Begreppsregistret som schema. Begreppen själva är entiteter och slås upp under /id/entitet/."""
     uri = m.I(m.BEGREPPSREGISTER)
     return [(s, p, o) for s, p, o in _ntrader(vokabular_rdf.bygg_graf()) if s == uri]
+
+
+# Fornmeds egna grafer; källsamlingarnas och längdernas grafer slås upp i databasen
+EGNA_GRAFER = {
+    "register": "Fornmeds register: entiteter, namnformer, platsuppgifter och termer",
+    "bedomningar": "Bedömningar och identifieringar",
+    "lankar": "Länkar till andra datamängder",
+    "vokabular": "Fornmeds vokabulär och klasser och egenskaper",
+    "metadata": "Beskrivningen av datamängden och graferna (VoID)",
+}
+
+
+def _graf(namn: str) -> list[m.Trippel]:
+    """
+    En namngiven graf som en void:Dataset: titel, licens, källa och dumpfil.
+    Antalet tripler står i metadatagrafen och i SPARQL-ändpunkten, inte här,
+    eftersom databasen inte vet hur många tripler exporten gav.
+    """
+    titel, licenstext, kalla = None, None, None
+    if namn in EGNA_GRAFER:
+        titel = EGNA_GRAFER[namn]
+    else:
+        slag, _, post_id = namn.partition("/")
+        tabell = {"kallsamling": "kallsamling", "langd": "auktoritetslangd"}.get(slag)
+        if not tabell or not post_id:
+            raise PostSaknas
+        conn = db._hamta_db()
+        try:
+            rader = _rader(conn, f"SELECT namn, licens FROM {{pf}}{tabell} WHERE id = ?", post_id)
+        finally:
+            conn.close()
+        if not rader:
+            raise PostSaknas
+        titel, licenstext = rader[0]["namn"], rader[0]["licens"]
+        kalla = m.post(slag, post_id)
+    g = m.I(rdf_uri.graf_uri(namn))
+    ut = [(g, m.TYP, m.I(VOID + "Dataset")),
+          (g, m.p("dcterms", "title"), m.L(titel, "sv")),
+          (g, m.I(VOID + "dataDump"), m.I(rdf_uri.DUMPAR + Skrivare.filnamn(namn))),
+          (m.I(rdf_uri.BAS), m.I(VOID + "subset"), g)]
+    if kalla:
+        ut.append((g, m.p("dcterms", "source"), kalla))
+    if licenstext:
+        ut.append((g, m.p("dcterms", "rights"), m.L(licenstext, "sv")))
+        ut += [(g, m.p("dcterms", "license"), m.I(uri)) for uri in m.licens_uri(licenstext)]
+    else:
+        # Fornmeds egna grafer, och källsamlingar och längder som projektet självt har sammanställt
+        ut.append((g, m.p("dcterms", "license"), m.I(m.CC0)))
+    return ut
 
 
 def _ntrader(g: Graph) -> Iterator[m.Trippel]:
