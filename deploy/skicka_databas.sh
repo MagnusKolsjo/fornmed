@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # =============================================================================
 # Registrerar en leverans, gör en databaskopia och läser in den på servern.
+# Därefter skrivs databasen som länkade data (rdf_export.py), och filerna
+# läses in i SPARQL-ändpunkten och publiceras för nedladdning.
 #
 #     deploy/skicka_databas.sh "Erikskrönikan och 2 000 nya påståenden"
 #
@@ -39,9 +41,16 @@ version=$("$PG_DUMP" --version | grep -oE '[0-9]+' | head -1)
     exit 1
 }
 
-FIL=fornmed-$(date +%Y%m%d-%H%M%S).pgdump
+TIDPUNKT=$(date +%Y%m%d-%H%M%S)
+FIL=fornmed-$TIDPUNKT.pgdump
 LOKAL=${TMPDIR:-/tmp}/$FIL
-trap 'rm -f "$LOKAL"' EXIT
+RDF_LOKAL=${TMPDIR:-/tmp}/fornmed-rdf-$TIDPUNKT
+trap 'rm -rf "$LOKAL" "$RDF_LOKAL"' EXIT
+
+# Exporten görs först: hittar kontrollen länkar till poster som saknas
+# avbryts leveransen innan något har skickats
+echo "==> Skriver databasen som länkade data"
+(cd "$KALLA" && "$PYTHON" rdf_export.py -o "$RDF_LOKAL" --kontrollera)
 
 echo "==> Registrerar leveransen och gör kopian"
 (cd "$KALLA" && "$PYTHON" leverans.py --anmarkning "$ANMARKNING" --fil "$LOKAL" --pg-dump "$PG_DUMP")
@@ -55,3 +64,9 @@ ssh -t "$SERVER" "sudo bash /srv/fornmed/fornmed/deploy/las_in_databas.sh /srv/f
 
 # De två senaste kopiorna sparas på servern; äldre tas bort
 ssh "$SERVER" "ls -t /srv/fornmed/inkommande/*.pgdump | tail -n +3 | xargs -r rm --"
+
+echo "==> Skickar RDF-filerna"
+rsync -a --partial --progress "$RDF_LOKAL/" "$SERVER:/srv/fornmed/inkommande/rdf-$TIDPUNKT/"
+
+echo "==> Läser in dem i SPARQL-ändpunkten"
+ssh -t "$SERVER" "sudo bash /srv/fornmed/fornmed/deploy/las_in_rdf.sh /srv/fornmed/inkommande/rdf-$TIDPUNKT"

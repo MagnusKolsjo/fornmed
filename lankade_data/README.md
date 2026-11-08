@@ -547,6 +547,126 @@ alltså allt, och med `GRAPH` eller `FROM` går det att avgränsa till vissa lic
 Metadatagrafen `graf/metadata` beskriver datamängden och varje graf med VoID: titel,
 licens, antal tripler och var dumpfilen finns.
 
+## SPARQL
+
+SPARQL-ändpunkten är `https://fornmed.se/sparql`. Den tar emot frågor med GET
+(`?query=`) eller POST enligt SPARQL 1.1-protokollet, och svaret väljs med
+`Accept`-huvudet: SPARQL JSON (standard), XML, CSV eller TSV, och Turtle eller N-Triples
+för `CONSTRUCT` och `DESCRIBE`. Frågesidan på `https://fornmed.se/sparql/` har ett
+redigeringsfönster med färgläggning och tabeller.
+
+- Standardgrafen är unionen av alla grafer, så en fråga utan `GRAPH` ser allt. Med
+  `GRAPH` eller `FROM` avgränsas frågan till vissa grafer, till exempel efter licens.
+- En fråga avbryts efter 30 sekunder. Antalet frågor per adress är begränsat.
+- Ändpunkten läser bara. Den uppdateras vid varje leverans av databasen och har alltid
+  samma innehåll som dumpfilerna.
+
+```bash
+curl -G https://fornmed.se/sparql -H 'Accept: text/csv' \
+     --data-urlencode 'query=SELECT (COUNT(*) AS ?n) WHERE { ?p a <https://w3id.org/fornmed/def/Pastaende> }'
+```
+
+### Exempelfrågor
+
+Frågorna använder prefixen:
+
+```sparql
+PREFIX fm:      <https://w3id.org/fornmed/def/>
+PREFIX crm:     <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crminf:  <http://www.cidoc-crm.org/extensions/crminf/>
+PREFIX lrmoo:   <http://iflastandards.info/ns/lrm/lrmoo/>
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX void:    <http://rdfs.org/ns/void#>
+```
+
+Vad källorna säger om en person, med passagen som belägg:
+
+```sparql
+SELECT ?predikat ?objekt ?plats ?tid ?passage WHERE {
+  ?p a fm:Pastaende ;
+     crm:P140_assigned_attribute_to <https://w3id.org/fornmed/id/entitet/person:sdhk:knut_eskilson:33355> ;
+     crm:P177_assigned_property_of_type/skos:prefLabel ?predikat ;
+     crm:P70i_is_documented_in ?passage .
+  OPTIONAL { ?p crm:P141_assigned/rdfs:label ?objekt }
+  OPTIONAL { ?p crm:P7_took_place_at/rdfs:label ?plats }
+  OPTIONAL { ?p crm:P4_has_time-span/fm:edtf ?tid }
+}
+```
+
+Brev per landskap efter utfärdandeort, 1350–1399:
+
+```sparql
+SELECT ?landskap (COUNT(?verk) AS ?brev) WHERE {
+  ?verk fm:utfardandeort ?ort ;
+        fm:genre <https://w3id.org/fornmed/id/vokabular/genre/diplom> ;
+        lrmoo:R17i_was_created_by/crm:P4_has_time-span/fm:fran ?fran .
+  FILTER(?fran >= 13500101 && ?fran <= 13991231)
+  ?ort fm:landskap/rdfs:label ?landskap .
+}
+GROUP BY ?landskap ORDER BY DESC(?brev)
+```
+
+Runinskrifter med socknens länk till Riksantikvarieämbetets sockenauktoritet:
+
+```sparql
+SELECT ?inskrift ?socken ?raa WHERE {
+  ?verk rdfs:label ?inskrift ;
+        fm:plats [ fm:roll <https://w3id.org/fornmed/id/vokabular/platsroll/socken> ; fm:avser ?s ] .
+  ?s rdfs:label ?socken ; skos:exactMatch ?raa .
+  FILTER(STRSTARTS(STR(?raa), "http://kulturarvsdata.se/"))
+}
+LIMIT 100
+```
+
+Identifieringar där forskningen har flera alternativ:
+
+```sparql
+SELECT ?entitet (GROUP_CONCAT(?namn; separator=" | ") AS ?alternativ) WHERE {
+  ?i a fm:Identifiering ; fm:entitet ?e ; fm:alternativgrupp ?grupp ;
+     fm:identifieradMed/rdfs:label ?namn .
+  ?e rdfs:label ?entitet .
+}
+GROUP BY ?entitet ?grupp HAVING (COUNT(?i) > 1)
+```
+
+Brev som bedömts som misstänkta förfalskningar, med bedömare:
+
+```sparql
+SELECT ?verk ?bedomare ?publikation WHERE {
+  ?b a fm:Bedomning ; crminf:J4_that ?v ; fm:bedomare ?bedomare ;
+     crminf:J5_holds_to_be <https://w3id.org/fornmed/id/vokabular/akthet/misstankt> .
+  OPTIONAL { ?b fm:publikation ?publikation }
+  ?v rdfs:label ?verk .
+}
+```
+
+Graferna med licens och antal tripler:
+
+```sparql
+SELECT ?graf ?tripler ?licens WHERE {
+  <https://w3id.org/fornmed/> void:subset ?graf .
+  ?graf void:triples ?tripler .
+  OPTIONAL { ?graf dcterms:license ?licens }
+}
+ORDER BY DESC(?tripler)
+```
+
+Bara påståenden ur en graf med CC BY 4.0:
+
+```sparql
+SELECT (COUNT(*) AS ?n)
+FROM <https://w3id.org/fornmed/graf/kallsamling/sdhk>
+WHERE { ?p a fm:Pastaende }
+```
+
+## Dumpfiler
+
+Hela datamängden kan laddas ner från `https://fornmed.se/data/rdf/`, en gzippad
+N-Quads-fil per graf. Metadatagrafen (`metadata.nq.gz`) anger licens och antal tripler
+för varje fil.
+
 ## Export
 
 `rdf_export.py` i projektets rotkatalog skriver hela datamängden som gzippade N-Quads, en

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # =============================================================================
 # Installerar Fornmed på en Ubuntu-server: Postgres 16 med pgvector,
-# söktjänsten (API och MCP), Umami, webbplatsen, nginx med certifikat och
-# statistiken. Domänen anges i deploy/server.env (mall: server.example.env).
+# söktjänsten (API och MCP), SPARQL-ändpunkten (Oxigraph), Umami,
+# webbplatsen, nginx med certifikat och statistiken. Domänen anges i deploy/server.env (mall: server.example.env).
 #
 # Körs på servern som root, från kodkatalogen som skicka_kod.sh har fyllt:
 #
@@ -41,6 +41,9 @@ WEBB=/var/www/fornmed
 STATISTIK=/var/www/goaccess-fornmed
 PG_VERSION=16
 PORT=8424
+OXIGRAPH_VERSION=0.5.13
+OXIGRAPH_SHA256_X86_64=05f54af6d7ebd73888a600bcf25017ef304c51726428f6dae10d32e9185618be
+OXIGRAPH_SHA256_AARCH64=9d3f6ee2e78a3914d563c6109041eab7ecbc6e1aec5b8db285479f7f312ef55d
 
 EPOST=""
 CERTIFIKAT=ja
@@ -171,6 +174,35 @@ systemctl daemon-reload
 systemctl enable fornmed-tjanst.service fornmed-halsokontroll.timer fornmed-goaccess.timer
 systemctl restart fornmed-tjanst.service
 systemctl start fornmed-halsokontroll.timer fornmed-goaccess.timer
+
+# -----------------------------------------------------------------------------
+steg "SPARQL-ändpunkten (Oxigraph $OXIGRAPH_VERSION)"
+# -----------------------------------------------------------------------------
+# En körbar fil från Oxigraphs utgåvor på GitHub, kontrollerad mot
+# kontrollsumman nedan. Byt version och summor tillsammans.
+case "$(uname -m)" in
+    x86_64)  OXIGRAPH_FIL=oxigraph_v${OXIGRAPH_VERSION}_x86_64_linux_gnu; OXIGRAPH_SHA256=$OXIGRAPH_SHA256_X86_64 ;;
+    aarch64) OXIGRAPH_FIL=oxigraph_v${OXIGRAPH_VERSION}_aarch64_linux_gnu; OXIGRAPH_SHA256=$OXIGRAPH_SHA256_AARCH64 ;;
+    *) fel "Oxigraph finns inte för $(uname -m)." ;;
+esac
+if ! /usr/local/bin/oxigraph --version 2>/dev/null | grep -qx "oxigraph $OXIGRAPH_VERSION"; then
+    TMP_OX=$(mktemp)
+    curl -fsSL -o "$TMP_OX" "https://github.com/oxigraph/oxigraph/releases/download/v$OXIGRAPH_VERSION/$OXIGRAPH_FIL"
+    echo "$OXIGRAPH_SHA256  $TMP_OX" | sha256sum -c --quiet || { rm -f "$TMP_OX"; fel "Fel kontrollsumma för $OXIGRAPH_FIL."; }
+    install -m 755 "$TMP_OX" /usr/local/bin/oxigraph
+    rm -f "$TMP_OX"
+fi
+/usr/local/bin/oxigraph --version
+# Databasen och dumpfilerna fylls av las_in_rdf.sh vid varje leverans
+install -d -m 755 "$BAS/sparql" "$BAS/rdf"
+install -m 644 "$KOD/deploy/fornmed-sparql.service" /etc/systemd/system/fornmed-sparql.service
+systemctl daemon-reload
+systemctl enable fornmed-sparql.service
+if [[ -e $BAS/sparql/aktuell ]]; then
+    systemctl restart fornmed-sparql.service
+else
+    echo "Ingen RDF är inläst ännu; tjänsten startar efter första leveransen (skicka_databas.sh)."
+fi
 
 # -----------------------------------------------------------------------------
 steg "Umami"

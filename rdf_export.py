@@ -268,6 +268,8 @@ def _metadata(antal: Counter, kallsamlingar: list[dict], langder: list[dict]) ->
         "sv")
     yield helhet, void("uriSpace"), m.L(rdf_uri.ID)
     yield helhet, void("vocabulary"), m.I(rdf_uri.DEF)
+    yield helhet, void("sparqlEndpoint"), m.I(rdf_uri.SPARQL)
+    yield helhet, m.p("foaf", "homepage"), m.I(rdf_uri.WEBB)
     yield helhet, void("triples"), m.heltal(sum(antal.values()))
 
     licenstext = {f"kallsamling/{k['id']}": k.get("licens") for k in kallsamlingar}
@@ -280,7 +282,7 @@ def _metadata(antal: Counter, kallsamlingar: list[dict], langder: list[dict]) ->
         yield helhet, void("subset"), g
         yield g, m.TYP, void("Dataset")
         yield g, void("triples"), m.heltal(n)
-        yield g, void("dataDump"), m.I(f"https://fornmed.se/data/rdf/{Skrivare.filnamn(graf)}")
+        yield g, void("dataDump"), m.I(rdf_uri.DUMPAR + Skrivare.filnamn(graf))
         if graf.startswith("kallsamling/"):
             yield g, m.p("dcterms", "source"), m.post("kallsamling", graf.split("/", 1)[1])
         if graf.startswith("langd/"):

@@ -14,6 +14,10 @@ måste alltid skrivas på samma sätt.
 import urllib.parse
 
 BAS = "https://w3id.org/fornmed/"
+# Webbplatsen som w3id.org vidarebefordrar till, med SPARQL-ändpunkten och dumpfilerna
+WEBB = "https://fornmed.se/"
+SPARQL = WEBB + "sparql"
+DUMPAR = WEBB + "data/rdf/"
 DEF = BAS + "def/"
 ID = BAS + "id/"
 GRAF = BAS + "graf/"

@@ -27,6 +27,8 @@ kod och `www-data` som tjänsteanvändare.
 |---|---|---|
 | `https://<domän>` | Webbplatsen | nginx → gunicorn (Django/Wagtail) |
 | `https://<domän>/id/`, `https://<domän>/def/` | Länkade data: uppslag av URI:er och Fornmeds vokabulär | nginx → fornmed-tjänsten |
+| `https://<domän>/sparql`, `https://<domän>/sparql/` | SPARQL-ändpunkten och dess frågesida | nginx → fornmed-sparql |
+| `https://<domän>/data/rdf/` | Dumpfilerna, en gzippad N-Quads-fil per graf | nginx (statiska filer) |
 | `https://www.<domän>` | 301 till `https://<domän>` | nginx |
 | `https://api.<domän>` | REST-API, OpenAPI under `/openapi.json`, dokumentation under `/docs` | nginx → fornmed-tjänsten |
 | `https://mcp.<domän>` | MCP över streamable http, utan sökväg | nginx → fornmed-tjänsten |
@@ -44,6 +46,7 @@ Certifikat: `certbot --nginx` med ett certifikat för samma namn som ovan, förn
 | systemd-enhet | Vad | Lyssnar på | Kör som |
 |---|---|---|---|
 | `fornmed-tjanst.service` | FastAPI (API) och MCP-servern i samma uvicorn-process | `127.0.0.1:8424` | `www-data` |
+| `fornmed-sparql.service` | Oxigraph i läsläge över RDF-exporten (`/srv/fornmed/sparql/aktuell`) | `127.0.0.1:7878` | `www-data` |
 | `postgresql@16-main.service` | Postgres 16 med pgvector | `localhost:5432` | `postgres` |
 | `fornmed-goaccess.timer` | Bygger statistikrapporterna var femte minut | – | `root` |
 | `fornmed-halsokontroll.timer` | Hälsokontrollen var femte minut (`deploy/halsokontroll.sh`), med larm via Healthchecks.io | – | `root` |
@@ -69,6 +72,9 @@ startar om, och indexsidan för statistiken.
 | `/srv/fornmed/venv/` | Python-miljön, utanför kodkatalogen så att `rsync --delete` inte rör den |
 | `/srv/fornmed/modeller/` | Embeddingmodellerna (`HF_HOME`), nedladdade vid installationen |
 | `/srv/fornmed/inkommande/` | De två senaste databaskopiorna |
+| `/srv/fornmed/sparql/` | SPARQL-ändpunktens Oxigraph-databas; `aktuell` pekar på den senast inlästa |
+| `/srv/fornmed/rdf/` | Dumpfilerna från de två senaste leveranserna; `aktuell` visas under `/data/rdf/` |
+| `/usr/local/bin/oxigraph` | Oxigraph, en körbar fil med den version och kontrollsumma som står i `installera_server.sh` |
 | `/var/www/fornmed/` | Startsidan, sidan som visas vid omstart och den grafiska profilen |
 | `/var/www/goaccess-fornmed/` | GoAccess-rapporterna |
 | `/etc/nginx/sites-available/<domän>` | nginx-konfigurationen, med certbots 443-block |
@@ -126,6 +132,9 @@ Därefter skickas ny kod med `deploy/skicka_kod.sh` och nya kopior med
 
 `deploy/skicka_databas.sh "<anmärkning>"` gör allt i ett steg:
 
+0. `rdf_export.py --kontrollera` skriver databasen som länkade data, en gzippad
+   N-Quads-fil per graf. Hittar kontrollen länkar till poster som saknas
+   avbryts leveransen innan något har skickats.
 1. `leverans.py` skriver en rad i `fornmed.leverans` med antal per tabell och
    källsamling och skillnaden mot förra leveransen, och gör sedan kopian med
    `pg_dump -Fc` i version 16. Raden följer alltså med kopian, och historiken
@@ -143,6 +152,14 @@ Därefter skickas ny kod med `deploy/skicka_kod.sh` och nya kopior med
    kontrolleras före varje begäran. Svarar tjänsten inte med den nya kopian byts
    namnen tillbaka. I ett prov med två byten under kontinuerlig belastning
    misslyckades inga av 444 API-anrop, 278 MCP-anrop och 120 sidvisningar.
+5. RDF-filerna skickas till `/srv/fornmed/inkommande/rdf-<tidpunkt>/`, och
+   `deploy/las_in_rdf.sh` läser in dem i en ny Oxigraph-databas medan den gamla
+   svarar. Stämmer antalet tripler med exportens VoID-beskrivning pekas
+   `/srv/fornmed/sparql/aktuell` om och `fornmed-sparql` startas om, vilket tar
+   några sekunder. Svarar ändpunkten inte pekas länken tillbaka. Dumpfilerna
+   publiceras under `/data/rdf/`. Under inläsningen finns två databaser på disken,
+   omkring 5 GB; den gamla tas bort när den nya svarar. De förra dumpfilerna kan
+   läsas in igen med `las_in_rdf.sh --aterstall`.
 
 `FORNMED_PYTHON` och `FORNMED_PG_DUMP` anger Python-miljön och `pg_dump` i
 version 16, i miljön eller i den lokala `.env`.
@@ -221,6 +238,10 @@ minuter. Under en databasinläsning görs ingenting.
 | `webb_per_ip` | `<domän>` | 20 begäranden/s, kö 100 |
 | `api_per_ip` | `api.<domän>` | 10 begäranden/s, kö 30 |
 | `mcp_lasning` | `mcp.<domän>` | 10 begäranden/s, kö 20 |
+| `fornmed_sparql` | `<domän>/sparql`, `<domän>/sparql/` | 2 begäranden/s, kö 10 respektive 20 |
+
+Oxigraph avbryter dessutom en SPARQL-fråga efter 30 sekunder och får högst 2 GB
+minne och lägre CPU-vikt än söktjänsten.
 
 Söktjänsten har dessutom en övre gräns för samtidiga embeddingberäkningar (två
 sökningar åt gången), så att en skrapare inte kan ta all CPU. Lyckade API-svar får
@@ -362,10 +383,11 @@ hundra kB över nätet, vilket ett enda svar klarar utan problem. En utgåva öv
 10 miljoner tecken skulle inte skickas hel. Den ger då `413` med länkar till sina
 delar. Ingen utgåva är i dag i närheten av den gränsen.
 
-### Ingen nedladdning av hela datamängden
+### Ingen nedladdning av hela datamängden i API:et
 
-API:et erbjuder inte hela databasen i ett anrop. Den som vill ha mycket hämtar de
-dokument som behövs, ett i taget. Listor (verk, påståenden, bedömningar med flera)
+API:et erbjuder inte hela databasen i ett anrop. Den som vill ha allt laddar ner
+RDF-exporten under `/data/rdf/`; den som vill ha mycket men inte allt hämtar de
+dokument som behövs, ett i taget, eller frågar SPARQL-ändpunkten. Listor (verk, påståenden, bedömningar med flera)
 pagineras och har en övre gräns för `per_sida`. Gränsen gäller listor, inte
 texterna i ett dokument.
 

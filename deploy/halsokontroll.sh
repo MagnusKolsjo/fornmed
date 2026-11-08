@@ -80,6 +80,11 @@ kontroll() {
         -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' \
         -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"fornmed-halsokontroll","version":"1"}}}'
     kontroll "Umami" curl -fsS -m 15 -o /dev/null "https://stat.$DOMAN/script.js"
+    # SPARQL-ändpunkten kontrolleras först när en RDF-export har lästs in
+    if [[ -e /srv/fornmed/sparql/aktuell ]]; then
+        kontroll "https://$DOMAN/sparql" sh -c \
+            "curl -fsS -m 30 -G -H 'Accept: text/csv' --data-urlencode 'query=ASK { ?s ?p ?o }' 'https://$DOMAN/sparql' | grep -qi true"
+    fi
 
     ledig=$(df --output=avail -BG / | tail -1 | tr -dc '0-9')
     kontroll "ledig disk ${ledig} GB (minst $MIN_LEDIG_DISK_GB)" test "$ledig" -ge "$MIN_LEDIG_DISK_GB"

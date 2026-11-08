@@ -1,0 +1,32 @@
+# SPARQL-ändpunkten: Oxigraph i läsläge över Fornmeds länkade data.
+# Installeras av installera_server.sh till /etc/systemd/system/.
+#
+# Lyssnar på 127.0.0.1:7878; nginx skickar https://<domän>/sparql och
+# /sparql/ (frågesidan) hit. Databasen byggs av las_in_rdf.sh ur
+# dumpfilerna från rdf_export.py, och aktuell är en symbolisk länk till den
+# senast inlästa. Standardgrafen är unionen av alla grafer, så att frågor
+# utan GRAPH ser allt. En fråga avbryts efter 30 sekunder.
+
+[Unit]
+Description=Fornmed — SPARQL (Oxigraph, läsläge)
+After=network.target
+ConditionPathExists=/srv/fornmed/sparql/aktuell
+
+[Service]
+User=www-data
+Group=www-data
+ExecStart=/usr/local/bin/oxigraph serve-read-only --location /srv/fornmed/sparql/aktuell --bind 127.0.0.1:7878 --union-default-graph --cors --timeout-s 30
+Restart=on-failure
+RestartSec=5
+# Söktjänsten och webbplatsen går före när maskinen är upptagen
+CPUWeight=50
+MemoryHigh=1536M
+MemoryMax=2G
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadOnlyPaths=/srv/fornmed
+
+[Install]
+WantedBy=multi-user.target
