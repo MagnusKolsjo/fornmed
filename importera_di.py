@@ -343,10 +343,26 @@ def tolka_datum(text: str) -> tuple:
     ut = text
     for namn, nr in MANADER_DI.items():
         ut = re.sub(rf"\b{namn}\w*\.?", next(k for k, v in MANADER.items() if v == nr).capitalize() + ".", ut, flags=re.I)
-    # "1467, 13. Janúar" → "13. Jan. 1467"
+    # "1467, 13. Janúar" → "13. Jan. 1467". I ett intervall över årsskiftet hör
+    # det inledande året till början: "1538, 26. Sept.—2. Marts 1540" →
+    # "26. Sept. 1538—2. Marts 1540"
     if (m := re.match(r"\[?(\d{3,4})\]?,\s*(.+)$", ut)):
-        ut = f"{m[2]} {m[1]}"
-    return datum(ut)
+        ar, rest = m[1], m[2]
+        delar = re.split(r"\s*[—–-]\s*", rest, maxsplit=1)
+        if len(delar) == 2 and delar[0] and re.search(r"\b\d{3,4}\b", delar[1]) \
+                and not re.search(r"\b\d{3,4}\b", delar[0]):
+            ut = f"{delar[0]} {ar}—{delar[1]}"
+        else:
+            ut = f"{rest} {ar}"
+    edtf, fran, till, anm = datum(ut)
+    # Två år som inte bildar ett intervall framåt ("872 [868?]", "1394, 1399 og
+    # 1406") blir ett intervall som omfattar båda, så att början aldrig ligger
+    # efter slutet
+    if fran is not None and till is not None and fran > till:
+        forst, sist = till // 10000, fran // 10000
+        osaker = "?" if edtf and edtf.endswith("?") else ""
+        edtf, fran, till = f"{forst:04d}/{sist:04d}{osaker}", forst * 10000 + 101, sist * 10000 + 1231
+    return edtf, fran, till, anm
 
 
 def _ort(rubrikrad: str) -> str | None:

@@ -327,8 +327,9 @@ Ett påstående är vad en passage hävdar. Det blir en `fm:Pastaende`, som är 
 |---|---|
 | `crm:P140_assigned_attribute_to` | Subjektet |
 | `crm:P177_assigned_property_of_type` | Predikatet, ett värde i vokabuläret `predikat` |
-| `crm:P141_assigned` | Objektet, när det är en entitet |
+| `crm:P141_assigned` | Objektet, när det är en entitet eller ett verk |
 | `fm:objektvarde` | Objektet, när det är ett värde |
+| `fm:brev` | Brevet, när påståendet om brevväxling har en person som objekt: brevet självt för `skriver_till`, det besvarade brevet för `besvarar` |
 | `crm:P7_took_place_at` | Platsen |
 | `crm:P4_has_time-span` | Tiden |
 | `crm:P70i_is_documented_in` | Passagen som påståendet bygger på |
@@ -709,3 +710,24 @@ fil per graf:
 Med `--kontrollera` rapporterar skriptet länkar till Fornmed-poster som inte finns i
 exporten och avslutar med felkod om det finns sådana. Översättningen från tabellerna
 till RDF finns i `rdf_mappning.py`, som också används när en enskild post slås upp.
+
+### Validering
+
+`former.ttl` innehåller SHACL-former för varje slags post: vilka egenskaper som krävs,
+hur många värden de får ha och vilken sorts värde, till exempel att ett påstående har
+exakt ett subjekt, ett predikat och en passage, att ett tidsintervall inte slutar före
+det börjar och att ett läge har både latitud, longitud och geometri. `rdf_validera.py`
+kör formerna mot dumpfilerna:
+
+```bash
+.venv/bin/python rdf_validera.py rdf/ --rapport validering.md
+```
+
+Formerna prövas på en post i taget, så en hänvisning till en annan post kontrolleras
+på URI:ns form och inte på den andra postens klass. Det som gäller flera poster
+kontrollerar skriptet för sig: att varje klass och egenskap i Fornmeds namnrum finns i
+vokabuläret, att ett ersatt id inte hänvisar till ett id som också är ersatt, att
+passagerna i en maskinöversättning är märkta och att antalet tripler stämmer med
+VoID-beskrivningen. Det varnar också för hänvisningar till ersatta id och för
+Wikidata-objekt som flera entiteter delar. Med `--urval 0.1` prövas en tiondel av
+posterna mot formerna, vilket räcker för att hitta fel i mappningen.

@@ -1,0 +1,386 @@
+# =============================================================================
+# SHACL-former för Fornmeds länkade data
+#
+# Formerna beskriver hur varje slags post i exporten ska se ut: vilka
+# egenskaper som krävs, hur många värden de får ha och vilken sorts värde.
+# rdf_validera.py kör dem mot dumpfilerna innan de levereras.
+#
+# Formerna kontrollerar en post i taget. En hänvisning till en annan post
+# kontrolleras därför på URI:ns form (…/id/entitet/…), inte på den andra
+# postens klass; att posten finns kontrollerar rdf_export.py --kontrollera.
+#
+# Licens: CC0 1.0.
+# =============================================================================
+
+@prefix fmf:     <https://w3id.org/fornmed/def/former/> .
+@prefix fm:      <https://w3id.org/fornmed/def/> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix crm:     <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crminf:  <http://www.cidoc-crm.org/extensions/crminf/> .
+@prefix lrmoo:   <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:  <http://www.w3.org/2008/05/skos-xl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix geo:     <http://www.opengis.net/ont/geosparql#> .
+@prefix wgs84:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+# -----------------------------------------------------------------------------
+# Återkommande värden
+# -----------------------------------------------------------------------------
+
+# En text, med eller utan språktagg
+fmf:Text a sh:NodeShape ;
+    sh:nodeKind sh:Literal ;
+    sh:or ( [ sh:datatype xsd:string ] [ sh:datatype rdf:langString ] ) .
+
+fmf:SvenskText a sh:NodeShape ;
+    sh:datatype rdf:langString ;
+    sh:languageIn ( "sv" ) .
+
+fmf:Sanning a sh:NodeShape ;
+    sh:datatype xsd:boolean .
+
+# Licenserna som rdf_mappning.licens_uri känner igen
+fmf:Licens a sh:NodeShape ;
+    sh:in (
+        <https://creativecommons.org/licenses/by-nc-sa/4.0/>
+        <https://creativecommons.org/licenses/by-sa/4.0/>
+        <https://creativecommons.org/licenses/by/4.0/>
+        <https://creativecommons.org/publicdomain/zero/1.0/>
+        <https://opendatacommons.org/licenses/odbl/1-0/>
+        <https://creativecommons.org/publicdomain/mark/1.0/>
+    ) .
+
+# Språk: ISO 639-3 via Lexvo, eller Fornmeds vokabulär för språk utan kod
+fmf:Sprak a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:pattern "^(http://lexvo\\.org/id/iso639-3/[a-z]{3}|https://w3id\\.org/fornmed/id/vokabular/sprak/[a-z]+)$" .
+
+# Ett tidsintervall. EDTF-uttrycket kan stå ensamt, som i en bedömd datering;
+# heltalen är ÅÅÅÅMMDD och CRM:s gränser samma dagar som xsd:dateTime.
+fmf:Tidsintervall a sh:NodeShape ;
+    sh:targetClass crm:E52_Time-Span ;
+    sh:class crm:E52_Time-Span ;
+    sh:or (
+        [ sh:path fm:edtf ; sh:minCount 1 ]
+        [ sh:path fm:fran ; sh:minCount 1 ]
+        [ sh:path fm:till ; sh:minCount 1 ]
+    ) ;
+    sh:property [
+        sh:path fm:edtf ; sh:maxCount 1 ; sh:datatype xsd:string ;
+        # EDTF nivå 0–2: år, månad, dag, intervall, osäkerhet och ungefärlighet,
+        # okända siffror (X), mängder ([…], {…}) och öppna intervall (..)
+        sh:pattern "^[0-9X?~%/.,\\-\\[\\]{} ]+$" ;
+    ] , [
+        sh:path fm:fran ; sh:maxCount 1 ; sh:datatype xsd:integer ;
+        sh:lessThanOrEquals fm:till ;
+    ] , [
+        sh:path fm:till ; sh:maxCount 1 ; sh:datatype xsd:integer ;
+    ] , [
+        sh:path crm:P82a_begin_of_the_begin ; sh:maxCount 1 ; sh:datatype xsd:dateTime ;
+        sh:lessThanOrEquals crm:P82b_end_of_the_end ;
+    ] , [
+        sh:path crm:P82b_end_of_the_end ; sh:maxCount 1 ; sh:datatype xsd:dateTime ;
+    ] .
+
+# -----------------------------------------------------------------------------
+# Källor
+# -----------------------------------------------------------------------------
+
+fmf:Kallsamling a sh:NodeShape ;
+    sh:targetClass fm:Kallsamling ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:title ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:rights ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:license ; sh:node fmf:Licens ] ,
+        [ sh:path foaf:page ; sh:nodeKind sh:IRI ] ,
+        [ sh:path dcterms:modified ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] .
+
+fmf:Verk a sh:NodeShape ;
+    sh:targetClass fm:Verk ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path dcterms:title ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path fm:kallsamling ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/kallsamling/[^/#]+$" ] ,
+        [ sh:path fm:genre ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/genre/[^/#]+$" ] ,
+        [ sh:path crm:P72_has_language ; sh:node fmf:Sprak ] ,
+        [ sh:path dcterms:description ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path foaf:page ; sh:nodeKind sh:IRI ] ,
+        [ sh:path dcterms:date ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path lrmoo:R17i_was_created_by ; sh:maxCount 1 ; sh:node fmf:Tillkomst ] ,
+        [ sh:path fm:plats ; sh:node fmf:Platsangivelse ] ,
+        [ sh:path fm:utfardandeort ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:fyndplats ; sh:node fmf:Entitetslank ] .
+
+fmf:Tillkomst a sh:NodeShape ;
+    sh:class lrmoo:F28_Expression_Creation ;
+    sh:property [ sh:path crm:P4_has_time-span ; sh:maxCount 1 ; sh:node fmf:Tidsintervall ] ,
+        [ sh:path crm:P7_took_place_at ; sh:node fmf:Entitetslank ] .
+
+fmf:Platsangivelse a sh:NodeShape ;
+    sh:class fm:Platsangivelse ;
+    sh:property [ sh:path fm:roll ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/platsroll/[^/#]+$" ] ,
+        [ sh:path fm:avser ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:namnform ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:osaker ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Sanning ] ,
+        [ sh:path fm:harledd ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Sanning ] .
+
+fmf:Vittne a sh:NodeShape ;
+    sh:targetClass fm:Vittne ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path fm:vittnestyp ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/vittnestyp/[^/#]+$" ] ,
+        [ sh:path crm:P128_carries ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ] ,
+        [ sh:path fm:signum ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:tillkomst ; sh:maxCount 1 ; sh:node fmf:Tidsintervall ] ,
+        [ sh:path dcterms:hasFormat ; sh:nodeKind sh:IRI ] .
+
+fmf:Utgava a sh:NodeShape ;
+    sh:targetClass fm:Utgava ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path dcterms:bibliographicCitation ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path lrmoo:R4_embodies ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ] ,
+        [ sh:path fm:utgavetyp ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/utgavetyp/[^/#]+$" ] ,
+        [ sh:path crm:P72_has_language ; sh:maxCount 1 ; sh:node fmf:Sprak ] ,
+        [ sh:path fm:oversattare ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path dcterms:issued ; sh:maxCount 1 ; sh:datatype xsd:gYear ] ,
+        [ sh:path dcterms:rights ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path dcterms:license ; sh:node fmf:Licens ] .
+
+fmf:Passage a sh:NodeShape ;
+    sh:targetClass fm:Passage ;
+    sh:property [
+        # Passagen ingår i exakt ett verk och högst en utgåva
+        sh:path crm:P106i_forms_part_of ; sh:minCount 1 ; sh:maxCount 2 ;
+        sh:qualifiedValueShape [ sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ] ;
+        sh:qualifiedMinCount 1 ; sh:qualifiedMaxCount 1 ;
+    ] , [
+        sh:path crm:P106i_forms_part_of ;
+        sh:qualifiedValueShape [ sh:pattern "^https://w3id\\.org/fornmed/id/utgava/[^/#]+$" ] ;
+        sh:qualifiedMaxCount 1 ;
+    ] ,
+        [ sh:path fm:passagetyp ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/passagetyp/[^/#]+$" ] ,
+        [ sh:path fm:adress ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:ordning ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ,
+        [ sh:path crm:P72_has_language ; sh:maxCount 1 ; sh:node fmf:Sprak ] ,
+        [ sh:path crm:P190_has_symbolic_content ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path foaf:page ; sh:nodeKind sh:IRI ] ,
+        [ sh:path fm:del ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        # Bara maskinöversatta passager märks, och då med sant
+        [ sh:path fm:maskinoversatt ; sh:maxCount 1 ; sh:in ( true ) ] .
+
+fmf:Ordboksartikel a sh:NodeShape ;
+    sh:targetClass fm:Ordboksartikel ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:languageIn ( "sv-x-fsv" ) ] ,
+        [ sh:path fm:betydelseNr ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ,
+        [ sh:path skos:definition ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path fm:lemgram ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:kallsamling ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/kallsamling/[^/#]+$" ] .
+
+# -----------------------------------------------------------------------------
+# Entiteter
+# -----------------------------------------------------------------------------
+
+fmf:Entitetslank a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/entitet/[^/#]+$" .
+
+fmf:Entitet a sh:NodeShape ;
+    sh:targetClass fm:Entitet , fm:Person , fm:Grupp , fm:Plats , fm:Indelning , fm:Institution ,
+        fm:Ambete , fm:Handelse , fm:Begrepp , fm:Vasen ;
+    sh:node fmf:Entitetslank ;
+    sh:property [ sh:path rdf:type ; sh:minCount 1 ; sh:maxCount 1 ] ,
+        [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path skos:altLabel ; sh:node fmf:Text ] ,
+        [ sh:path dcterms:description ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path skos:inScheme ; sh:maxCount 1 ;
+          sh:in ( <https://w3id.org/fornmed/id/begreppsregister> ) ] ,
+        [ sh:path crm:P1_is_identified_by ; sh:node fmf:Namnform ] ,
+        [ sh:path skos:broader ; sh:node fmf:Entitetslank ] ,
+        [ sh:path skos:related ; sh:node fmf:Entitetslank ] ,
+        [ sh:path skosxl:prefLabel ; sh:node fmf:Term ] ,
+        [ sh:path skosxl:altLabel ; sh:node fmf:Term ] ,
+        # Platsregistret
+        [ sh:path fm:platsslag ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/platsslag/[^/#]+$" ] ,
+        [ sh:path fm:nutidaNamn ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path fm:land ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:landskap ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:lan ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:kommun ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:socken ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path crm:P89_falls_within ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path wgs84:lat ; sh:maxCount 1 ; sh:datatype xsd:decimal ;
+          sh:minInclusive -90 ; sh:maxInclusive 90 ] ,
+        [ sh:path wgs84:long ; sh:maxCount 1 ; sh:datatype xsd:decimal ;
+          sh:minInclusive -180 ; sh:maxInclusive 180 ] ,
+        [ sh:path geo:hasGeometry ; sh:maxCount 1 ; sh:node fmf:Punkt ] ,
+        [ sh:path fm:lageKalla ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:lageMetod ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:lageGranskat ; sh:maxCount 1 ; sh:node fmf:Sanning ] ;
+    # Ett läge anges med både latitud, longitud och geometri, eller inte alls
+    sh:or (
+        [ sh:property [ sh:path wgs84:lat ; sh:maxCount 0 ] ,
+                      [ sh:path wgs84:long ; sh:maxCount 0 ] ,
+                      [ sh:path geo:hasGeometry ; sh:maxCount 0 ] ]
+        [ sh:property [ sh:path wgs84:lat ; sh:minCount 1 ] ,
+                      [ sh:path wgs84:long ; sh:minCount 1 ] ,
+                      [ sh:path geo:hasGeometry ; sh:minCount 1 ] ]
+    ) .
+
+fmf:Namnform a sh:NodeShape ;
+    sh:class crm:E41_Appellation ;
+    sh:property [ sh:path crm:P190_has_symbolic_content ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path crm:P70i_is_documented_in ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/passage/[^/#]+$" ] .
+
+fmf:Punkt a sh:NodeShape ;
+    sh:property [ sh:path geo:asWKT ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype geo:wktLiteral ;
+                  sh:pattern "^POINT\\(-?[0-9.]+(e-?[0-9]+)? -?[0-9.]+(e-?[0-9]+)?\\)$" ] .
+
+fmf:Term a sh:NodeShape ;
+    sh:targetClass skosxl:Label ;
+    sh:class skosxl:Label ;
+    sh:property [ sh:path skosxl:literalForm ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path fm:termtyp ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/termtyp/[^/#]+$" ] ,
+        [ sh:path fm:ordboksartikel ; sh:pattern "^https://w3id\\.org/fornmed/id/ordboksartikel/[^/#]+$" ] ,
+        [ sh:path fm:registreradAv ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:granskad ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Sanning ] .
+
+# Ett id som har ersatts hänvisar till exakt en annan entitet
+fmf:Ersatt a sh:NodeShape ;
+    sh:targetSubjectsOf dcterms:isReplacedBy ;
+    sh:property [ sh:path dcterms:isReplacedBy ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] .
+
+# -----------------------------------------------------------------------------
+# Länkar till andra datamängder
+# -----------------------------------------------------------------------------
+
+# En entitet har högst ett Wikidata-objekt
+fmf:Lankad a sh:NodeShape ;
+    sh:targetSubjectsOf skos:exactMatch ;
+    sh:property [
+        sh:path skos:exactMatch ; sh:nodeKind sh:IRI ;
+        sh:qualifiedValueShape [ sh:pattern "^http://www\\.wikidata\\.org/entity/Q[0-9]+$" ] ;
+        sh:qualifiedMaxCount 1 ;
+    ] , [
+        sh:path skos:closeMatch ; sh:nodeKind sh:IRI ;
+    ] , [
+        sh:path rdfs:seeAlso ; sh:nodeKind sh:IRI ;
+    ] .
+
+# -----------------------------------------------------------------------------
+# Påståenden, identifieringar och bedömningar
+# -----------------------------------------------------------------------------
+
+fmf:Pastaende a sh:NodeShape ;
+    sh:targetClass fm:Pastaende ;
+    sh:property [ sh:path crm:P140_assigned_attribute_to ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path crm:P177_assigned_property_of_type ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/predikat/[^/#]+$" ] ,
+        [ sh:path crm:P141_assigned ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/(entitet|verk)/[^/#]+$" ] ,
+        [ sh:path fm:objektvarde ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path fm:brev ; sh:maxCount 1 ; sh:pattern "^https://w3id\\.org/fornmed/id/verk/[^/#]+$" ] ,
+        [ sh:path crm:P7_took_place_at ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path crm:P4_has_time-span ; sh:maxCount 1 ; sh:node fmf:Tidsintervall ] ,
+        [ sh:path crm:P70i_is_documented_in ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/(passage|langd)/[^/#]+$" ] ,
+        [ sh:path fm:citat ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path fm:extraktion ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/extraktion/[^/#]+$" ] ,
+        [ sh:path fm:extraheradAv ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:granskad ; sh:maxCount 1 ; sh:node fmf:Sanning ] ,
+        [ sh:path fm:granskadAv ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:stoder ; sh:node fmf:Pastaendelank ] ,
+        [ sh:path fm:motsager ; sh:node fmf:Pastaendelank ] ,
+        [ sh:path fm:beroendeAv ; sh:node fmf:Pastaendelank ] ,
+        [ sh:path fm:sammaSom ; sh:node fmf:Pastaendelank ] ;
+    # Påståendet tillskriver ett värde: en entitet, ett verk eller en text
+    sh:or ( [ sh:path crm:P141_assigned ; sh:minCount 1 ] [ sh:path fm:objektvarde ; sh:minCount 1 ] ) ;
+    # Ett påstående ur en passage bär alltid sin proveniens; en titel i en
+    # längd har längden som belägg och ingen extraktion
+    sh:or (
+        [ sh:path crm:P70i_is_documented_in ; sh:pattern "/id/langd/" ]
+        [ sh:property [ sh:path fm:extraktion ; sh:minCount 1 ] , [ sh:path fm:granskad ; sh:minCount 1 ] ]
+    ) .
+
+fmf:Pastaendelank a sh:NodeShape ;
+    sh:nodeKind sh:IRI ;
+    sh:pattern "^https://w3id\\.org/fornmed/id/pastaende/[^/#]+$" .
+
+fmf:Identifiering a sh:NodeShape ;
+    sh:targetClass fm:Identifiering ;
+    sh:property [ sh:path fm:entitet ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Entitetslank ;
+                  sh:disjoint fm:identifieradMed ] ,
+        [ sh:path fm:identifieradMed ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Entitetslank ] ,
+        [ sh:path fm:alternativgrupp ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path rdfs:comment ; sh:maxCount 1 ; sh:node fmf:SvenskText ] .
+
+fmf:Bedomning a sh:NodeShape ;
+    sh:targetClass fm:Bedomning ;
+    sh:property [ sh:path crminf:J4_that ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:pattern "^https://w3id\\.org/fornmed/id/(pastaende|verk|vittne|identifiering)/[^/#]+$" ] ,
+        [ sh:path fm:aspekt ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/bedomningsaspekt/[^/#]+$" ] ,
+        [ sh:path crminf:J5_holds_to_be ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:or ( [ sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/[^/#]+/[^/#]+$" ]
+                  [ sh:node fmf:Tidsintervall ] ) ] ,
+        [ sh:path fm:sakerhet ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/sakerhet/[^/#]+$" ] ,
+        [ sh:path fm:bedomare ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:publikation ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path crm:P70i_is_documented_in ; sh:maxCount 1 ; sh:nodeKind sh:IRI ] ,
+        [ sh:path dcterms:identifier ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:sidor ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:motivering ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path fm:ar ; sh:maxCount 1 ; sh:datatype xsd:gYear ] ,
+        [ sh:path fm:registreradAv ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
+        [ sh:path fm:granskad ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Sanning ] .
+
+# -----------------------------------------------------------------------------
+# Längder, vokabulär och metadata
+# -----------------------------------------------------------------------------
+
+fmf:Langd a sh:NodeShape ;
+    sh:targetClass fm:Langd ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:description ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:source ; sh:maxCount 1 ; sh:node fmf:Text ] ,
+        [ sh:path dcterms:rights ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path dcterms:license ; sh:node fmf:Licens ] .
+
+fmf:Begrepp a sh:NodeShape ;
+    sh:targetClass skos:Concept ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ] ,
+        [ sh:path skos:inScheme ; sh:minCount 1 ; sh:nodeKind sh:IRI ] .
+
+fmf:Begreppsschema a sh:NodeShape ;
+    sh:targetClass skos:ConceptScheme ;
+    sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:uniqueLang true ] .
+
+# Varje graf har ett antal tripler och pekar på sin dumpfil. En graf vars
+# källsamling har en oklar licens får ingen licens-URI, bara licenstexten;
+# det rapporteras som en varning, så att det syns men inte stoppar exporten.
+fmf:Graf a sh:NodeShape ;
+    sh:targetObjectsOf void:subset ;
+    sh:property [ sh:path dcterms:license ; sh:minCount 1 ; sh:node fmf:Licens ; sh:severity sh:Warning ] ,
+        [ sh:path dcterms:rights ; sh:maxCount 1 ; sh:node fmf:SvenskText ] ,
+        [ sh:path void:triples ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:integer ] ,
+        [ sh:path void:dataDump ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://fornmed\\.se/data/rdf/[a-z0-9_-]+\\.nq\\.gz$" ] .

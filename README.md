@@ -243,10 +243,12 @@ Utan `--hamta` frågas inte Wikidata, och runinskrifternas länkar tas ur
 `mixnmatch.py` skriver de entiteter som saknar Wikidata-id som en katalog
 för Mix'n'match.
 
-Hela datamängden skrivs som N-Quads, en gzippad fil per graf, med
+Hela datamängden skrivs som N-Quads, en gzippad fil per graf, och
+kontrolleras mot SHACL-formerna i `lankade_data/former.ttl` med
 
 ```bash
 .venv/bin/python rdf_export.py -o rdf/ --kontrollera
+.venv/bin/python rdf_validera.py rdf/
 ```
 
 ## Installation

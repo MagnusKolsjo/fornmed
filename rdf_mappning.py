@@ -153,14 +153,15 @@ def sprak_uri(kod: str) -> str:
 def _datum(heltal_: int, slut: bool) -> str:
     """
     ÅÅÅÅMMDD som xsd:dateTime utan kalenderomräkning. En dag som inte finns
-    i den gregorianska kalendern (29 februari 1300) flyttas utåt, så att
-    intervallet blir bredare och aldrig smalare.
+    i den gregorianska kalendern (29 februari 1300, 31 september) flyttas
+    utåt, så att intervallet blir bredare och aldrig smalare: ett slut till
+    första dagen i nästa månad, en början till den 28:e.
     """
     a, m, d = heltal_ // 10000, heltal_ // 100 % 100, heltal_ % 100
     try:
         date(a, m, d)
     except ValueError:
-        m, d = (3, 1) if slut else (m, 28)
+        m, d = (m + 1, 1) if slut else (m, 28)
     klocka = "23:59:59" if slut else "00:00:00"
     return L(f"{a:04d}-{m:02d}-{d:02d}T{klocka}", typ=XSD + "dateTime")
 
@@ -495,7 +496,10 @@ def proveniens(s: str, rad: dict) -> Iterator[Trippel]:
 def pastaende(rad: dict, verk_id: set[str] | frozenset[str] = frozenset()) -> Iterator[Trippel]:
     """
     Ett påstående. `verk_id` är mängden kända verk: ett objektvärde som är ett
-    verks id (utfärdaren utfärdar brevet sdhk:12136) blir en länk till verket.
+    verks id blir en länk till verket. Saknar påståendet objekt är brevet
+    objektet (utfärdaren utfärdar brevet sdhk:12136); har det ett objekt är
+    brevet ett tillägg, fm:brev (rådet i Lübeck skriver till kungen i brevet
+    sdhk:7374, Gustav Vasa besvarar Berend van Mehlens brev sdhk:45330).
     """
     s = post("pastaende", rad["id"])
     yield s, TYP, p("fm", "Pastaende")
@@ -505,7 +509,8 @@ def pastaende(rad: dict, verk_id: set[str] | frozenset[str] = frozenset()) -> It
         yield s, p("crm", "P141_assigned"), post("entitet", rad["objekt_id"])
     if rad.get("objekt_varde"):
         if rad["objekt_varde"] in verk_id:
-            yield s, p("crm", "P141_assigned"), post("verk", rad["objekt_varde"])
+            egenskap = p("fm", "brev") if rad.get("objekt_id") else p("crm", "P141_assigned")
+            yield s, egenskap, post("verk", rad["objekt_varde"])
         else:
             yield s, p("fm", "objektvarde"), L(rad["objekt_varde"])
     if rad.get("plats_id"):

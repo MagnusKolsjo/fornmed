@@ -401,6 +401,12 @@ fm:objektvarde a owl:DatatypeProperty ;
     rdfs:comment "Påståendets objekt när det är ett värde och inte en entitet, till exempel ett belopp eller en titel som text."@sv ;
     rdfs:domain fm:Pastaende .
 
+fm:brev a owl:ObjectProperty ;
+    rdfs:label "brev"@sv , "letter"@en ;
+    rdfs:comment "Brevet som ett påstående om brevväxling gäller, när påståendets objekt är en person: för 'skriver till' brevet självt, för 'besvarar' det besvarade brevet."@sv ;
+    rdfs:domain fm:Pastaende ;
+    rdfs:range fm:Verk .
+
 fm:citat a owl:DatatypeProperty ;
     rdfs:label "citat"@sv , "quotation"@en ;
     rdfs:comment "Det ställe i passagen som påståendet bygger på."@sv .

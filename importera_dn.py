@@ -126,8 +126,13 @@ def datum(text: str) -> tuple:
         form = f"{ar[0]}0000"
     edtf, fran, till, _ = tolka_datum(form)
     if len(set(ar)) > 1:
-        till = tolka_datum(f"{ar[-1]}0000")[2]
-        edtf = f"{ar[0]}/{ar[-1]}"
+        # Flera år ("2 Febr. 1413 [1408?]") ger ett intervall från det
+        # tidigaste till det senaste, så att början aldrig ligger efter slutet
+        forst, sist = min(ar), max(ar)
+        if ar[0] != forst:
+            fran = tolka_datum(f"{forst}0000")[1]
+        till = tolka_datum(f"{sist}0000")[2]
+        edtf = f"{forst}/{sist}"
     return (edtf + "?" if osaker and edtf else edtf), fran, till, text if osaker or len(set(ar)) > 1 else None
 
 

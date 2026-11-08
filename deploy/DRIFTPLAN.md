@@ -133,8 +133,11 @@ Därefter skickas ny kod med `deploy/skicka_kod.sh` och nya kopior med
 `deploy/skicka_databas.sh "<anmärkning>"` gör allt i ett steg:
 
 0. `rdf_export.py --kontrollera` skriver databasen som länkade data, en gzippad
-   N-Quads-fil per graf. Hittar kontrollen länkar till poster som saknas
-   avbryts leveransen innan något har skickats.
+   N-Quads-fil per graf, och `rdf_validera.py` kontrollerar filerna mot
+   SHACL-formerna i `lankade_data/former.ttl`, vilket tar omkring tio minuter.
+   Hittar kontrollerna länkar till poster som saknas, eller bryter exporten
+   mot formerna, avbryts leveransen innan något har skickats, och
+   valideringsrapporten sparas i kodkatalogen.
 1. `leverans.py` skriver en rad i `fornmed.leverans` med antal per tabell och
    källsamling och skillnaden mot förra leveransen, och gör sedan kopian med
    `pg_dump -Fc` i version 16. Raden följer alltså med kopian, och historiken

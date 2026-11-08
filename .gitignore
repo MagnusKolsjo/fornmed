@@ -33,3 +33,4 @@ webb/media/
 # Utdrag som språkmodellen bedömt; skapas om ur databasen (svaren och besluten versioneras)
 data/sprak/*/delar/
 data/sprak/*/urval.jsonl
+validering-*.md

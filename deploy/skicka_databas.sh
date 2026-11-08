@@ -45,12 +45,20 @@ TIDPUNKT=$(date +%Y%m%d-%H%M%S)
 FIL=fornmed-$TIDPUNKT.pgdump
 LOKAL=${TMPDIR:-/tmp}/$FIL
 RDF_LOKAL=${TMPDIR:-/tmp}/fornmed-rdf-$TIDPUNKT
-trap 'rm -rf "$LOKAL" "$RDF_LOKAL"' EXIT
+trap 'rm -rf "$LOKAL" "$RDF_LOKAL" "$RDF_LOKAL.validering.md"' EXIT
 
-# Exporten görs först: hittar kontrollen länkar till poster som saknas
-# avbryts leveransen innan något har skickats
+# Exporten görs först: hittar kontrollen länkar till poster som saknas, eller
+# bryter exporten mot SHACL-formerna, avbryts leveransen innan något har skickats
 echo "==> Skriver databasen som länkade data"
 (cd "$KALLA" && "$PYTHON" rdf_export.py -o "$RDF_LOKAL" --kontrollera)
+
+echo "==> Kontrollerar exporten mot SHACL-formerna"
+(cd "$KALLA" && "$PYTHON" rdf_validera.py "$RDF_LOKAL" --rapport "$RDF_LOKAL.validering.md" > /dev/null) || {
+    echo "Exporten bryter mot formerna; se $RDF_LOKAL.validering.md" >&2
+    cp "$RDF_LOKAL.validering.md" "$KALLA/validering-$TIDPUNKT.md"
+    echo "Rapporten är sparad som validering-$TIDPUNKT.md." >&2
+    exit 1
+}
 
 echo "==> Registrerar leveransen och gör kopian"
 (cd "$KALLA" && "$PYTHON" leverans.py --anmarkning "$ANMARKNING" --fil "$LOKAL" --pg-dump "$PG_DUMP")
