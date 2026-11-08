@@ -85,6 +85,10 @@ def _lista(varde):
 class Skrivare:
     """Håller en gzippad fil öppen per graf och räknar tripler."""
 
+    # Grafer där samma tripel kan komma från två tabeller: en person har sitt
+    # Wikidata-id både som entitet och i en längd. De är små nog att hålla i minnet.
+    UNIKA = {"lankar"}
+
     def __init__(self, katalog: Path, kontrollera: bool):
         self.katalog = katalog
         self.filer: dict[str, gzip.GzipFile] = {}
@@ -92,6 +96,7 @@ class Skrivare:
         self.kontrollera = kontrollera
         self.subjekt: set[str] = set()
         self.objekt: dict[str, str] = {}
+        self.skrivna: dict[str, set[tuple]] = {g: set() for g in self.UNIKA}
 
     @staticmethod
     def filnamn(graf: str) -> str:
@@ -103,7 +108,12 @@ class Skrivare:
             fil = self.filer[graf] = gzip.open(self.katalog / self.filnamn(graf), "wt", encoding="utf-8")
         g = m.I(rdf_uri.graf_uri(graf))
         n = 0
+        skrivna = self.skrivna.get(graf)
         for s, p, o in tripler:
+            if skrivna is not None:
+                if (s, p, o) in skrivna:
+                    continue
+                skrivna.add((s, p, o))
             fil.write(f"{s} {p} {o} {g} .\n")
             n += 1
             if self.kontrollera:
@@ -161,7 +171,6 @@ def exportera(katalog: Path, kontrollera: bool) -> Skrivare:
         vok = vokabular_rdf.bygg_graf()
         vok.parse(ONTOLOGI, format="turtle")
         ut.skriv("vokabular", _rdflib_tripler(vok))
-        ut.skriv("vokabular", _extra_vokabular())
 
         log.info("Verk")
         platser: dict[str, list[dict]] = defaultdict(list)
@@ -233,30 +242,22 @@ def exportera(katalog: Path, kontrollera: bool) -> Skrivare:
         conn.close()
 
     log.info("Metadata")
-    ut.skriv("metadata", _metadata(ut.antal, kallsamlingar, langder))
+    # Metadatagrafen räknas med i totalen och beskrivs själv. Hur många tripler den har
+    # beror inte på talen i den, så den byggs en gång för att räknas och en gång på riktigt
+    n = len(list(_metadata({**ut.antal, "metadata": 0}, kallsamlingar, langder)))
+    ut.skriv("metadata", _metadata({**ut.antal, "metadata": n}, kallsamlingar, langder))
     ut.stang()
     return ut
-
-
-def _extra_vokabular() -> Iterator[m.Trippel]:
-    """Det som URI:erna pekar på men som inte står i vokabular.py."""
-    register = m.I(m.BEGREPPSREGISTER)
-    yield register, m.TYP, m.p("skos", "ConceptScheme")
-    yield register, m.p("skos", "prefLabel"), m.L("Fornmeds begreppsregister", "sv")
-    sprak = m.I(rdf_uri.vokabular_uri("sprak"))
-    fsv = m.vok("sprak", "fsv")
-    yield sprak, m.TYP, m.p("skos", "ConceptScheme")
-    yield sprak, m.p("skos", "prefLabel"), m.L("Språk utan ISO 639-3-kod", "sv")
-    yield fsv, m.TYP, m.p("skos", "Concept")
-    yield fsv, m.p("skos", "inScheme"), sprak
-    yield fsv, m.p("skos", "prefLabel"), m.L("fornsvenska", "sv")
-    yield fsv, m.p("skos", "notation"), m.L("fsv")
 
 
 def _metadata(antal: Counter, kallsamlingar: list[dict], langder: list[dict]) -> Iterator[m.Trippel]:
     """
     VoID-beskrivning: hela datamängden och en deldatamängd per graf, med
-    licens och antal tripler. Källsamlingarna beskrivs också här.
+    licens och antal tripler. Källsamlingarna beskrivs också här. `antal` ska
+    ha med metadatagrafen själv.
+
+    Hela datamängden har ingen licens-URI, eftersom graferna har olika
+    licenser: Fornmeds egna är CC0, källsamlingarnas har källans.
     """
     void = lambda namn: m.I(VOID + namn)  # noqa: E731
     helhet = m.I(rdf_uri.BAS)
@@ -264,9 +265,9 @@ def _metadata(antal: Counter, kallsamlingar: list[dict], langder: list[dict]) ->
     yield helhet, m.p("dcterms", "title"), m.L("Fornmed", "sv")
     yield helhet, m.p("dcterms", "description"), m.L(
         "Källor till Sveriges och Nordens forntid och medeltid, med påståenden och forskningens bedömningar.", "sv")
-    yield helhet, m.p("dcterms", "license"), m.I(m.CC0)
     yield helhet, m.p("dcterms", "rights"), m.L(
-        "Fornmeds egna uppgifter är CC0. Ange gärna Fornmed som källa. Källsamlingarnas grafer har källsamlingens licens.",
+        "Graferna har olika licenser, som anges för varje graf. Fornmeds egna uppgifter är CC0; "
+        "ange gärna Fornmed som källa. Källsamlingarnas grafer har källsamlingens licens.",
         "sv")
     yield helhet, void("uriSpace"), m.L(rdf_uri.ID)
     yield helhet, void("vocabulary"), m.I(rdf_uri.DEF)

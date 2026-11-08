@@ -334,13 +334,9 @@ fmf:Identifiering a sh:NodeShape ;
 
 fmf:Bedomning a sh:NodeShape ;
     sh:targetClass fm:Bedomning ;
-    sh:property [ sh:path crminf:J4_that ; sh:minCount 1 ; sh:maxCount 1 ;
-                  sh:pattern "^https://w3id\\.org/fornmed/id/(pastaende|verk|vittne|identifiering)/[^/#]+$" ] ,
-        [ sh:path fm:aspekt ; sh:minCount 1 ; sh:maxCount 1 ;
-          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/bedomningsaspekt/[^/#]+$" ] ,
+    sh:property [ sh:path crminf:J4_that ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Proposition ] ,
         [ sh:path crminf:J5_holds_to_be ; sh:minCount 1 ; sh:maxCount 1 ;
-          sh:or ( [ sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/[^/#]+/[^/#]+$" ]
-                  [ sh:node fmf:Tidsintervall ] ) ] ,
+          sh:in ( <https://w3id.org/fornmed/id/vokabular/sanningsvarde/sant> ) ] ,
         [ sh:path fm:sakerhet ; sh:maxCount 1 ;
           sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/sakerhet/[^/#]+$" ] ,
         [ sh:path fm:bedomare ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
@@ -352,6 +348,17 @@ fmf:Bedomning a sh:NodeShape ;
         [ sh:path fm:ar ; sh:maxCount 1 ; sh:datatype xsd:gYear ] ,
         [ sh:path fm:registreradAv ; sh:maxCount 1 ; sh:datatype xsd:string ] ,
         [ sh:path fm:granskad ; sh:minCount 1 ; sh:maxCount 1 ; sh:node fmf:Sanning ] .
+
+# Det som en bedömning gäller: målet, aspekten och det bedömda värdet
+fmf:Proposition a sh:NodeShape ;
+    sh:class crminf:I4_Proposition_Set ;
+    sh:property [ sh:path crm:P67_refers_to ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:pattern "^https://w3id\\.org/fornmed/id/(pastaende|verk|vittne|identifiering)/[^/#]+$" ] ,
+        [ sh:path fm:aspekt ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/bedomningsaspekt/[^/#]+$" ] ,
+        [ sh:path fm:bedomtVarde ; sh:minCount 1 ; sh:maxCount 1 ;
+          sh:or ( [ sh:pattern "^https://w3id\\.org/fornmed/id/vokabular/[^/#]+/[^/#]+$" ]
+                  [ sh:node fmf:Tidsintervall ] ) ] .
 
 # -----------------------------------------------------------------------------
 # Längder, vokabulär och metadata

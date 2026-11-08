@@ -222,6 +222,8 @@ def tripler(typ: str, post_id: str) -> list[m.Trippel]:
     """Postens beskrivning som tripler. PostSaknas om posten inte finns."""
     if typ == "vokabular":
         return _vokabular(post_id)
+    if typ == "begreppsregister":
+        return _begreppsregister()
     if typ not in BESKRIVNING:
         raise PostSaknas
     conn = db._hamta_db()
@@ -241,6 +243,12 @@ def _vokabular(sokvag: str) -> list[m.Trippel]:
     if not ut:
         raise PostSaknas
     return ut
+
+
+def _begreppsregister() -> list[m.Trippel]:
+    """Begreppsregistret som schema. Begreppen själva är entiteter och slås upp under /id/entitet/."""
+    uri = m.I(m.BEGREPPSREGISTER)
+    return [(s, p, o) for s, p, o in _ntrader(vokabular_rdf.bygg_graf()) if s == uri]
 
 
 def _ntrader(g: Graph) -> Iterator[m.Trippel]:

@@ -152,7 +152,7 @@ fm:Identifiering a owl:Class ;
 fm:Bedomning a owl:Class ;
     rdfs:subClassOf crminf:I2_Belief ;
     rdfs:label "bedömning"@sv , "assessment"@en ;
-    rdfs:comment "En forskares eller ett registers omdöme om ett påstående, verk, vittne eller en identifiering: historicitet, äkthet, datering. Flera bedömningar av samma mål redovisas var för sig."@sv .
+    rdfs:comment "En forskares eller ett registers omdöme om ett påstående, verk, vittne eller en identifiering: historicitet, äkthet, datering. Det som bedöms är en proposition (crminf:J4_that, en crminf:I4_Proposition_Set) som pekar på målet och anger aspekt och bedömt värde; crminf:J5_holds_to_be anger sanningsvärdet och fm:sakerhet hur säker bedömningen är. Flera bedömningar av samma mål redovisas var för sig."@sv .
 
 fm:Omnamnande a owl:Class ;
     rdfs:subClassOf oa:Annotation ;
@@ -455,9 +455,14 @@ fm:identifieradMed a owl:ObjectProperty ;
 
 fm:aspekt a owl:ObjectProperty ;
     rdfs:label "aspekt"@sv , "aspect"@en ;
-    rdfs:comment "Vad bedömningen gäller: historicitet, äkthet, korroboration, datering, identifiering, titulatur eller brevkoppling."@sv ;
-    rdfs:domain fm:Bedomning ;
+    rdfs:comment "Vad en bedömd proposition gäller: historicitet, äkthet, korroboration, datering, identifiering, titulatur eller brevkoppling."@sv ;
+    rdfs:domain crminf:I4_Proposition_Set ;
     rdfs:range skos:Concept .
+
+fm:bedomtVarde a owl:ObjectProperty ;
+    rdfs:label "bedömt värde"@sv , "assessed value"@en ;
+    rdfs:comment "Det värde som propositionen tillskriver målet i sin aspekt: ett värde i aspektens vokabulär (äkthet: misstänkt) eller, för en datering, ett tidsintervall."@sv ;
+    rdfs:domain crminf:I4_Proposition_Set .
 
 fm:bedomare a owl:DatatypeProperty ;
     rdfs:label "bedömare"@sv , "assessor"@en ;

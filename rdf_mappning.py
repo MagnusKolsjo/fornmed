@@ -562,20 +562,35 @@ def _publikationslank(varde: str) -> str | None:
     return None
 
 
+# Sanningsvärdet i en bedömning: bedömaren håller propositionen för sann. Hur säker
+# bedömningen är står i fm:sakerhet.
+SANT = rdf_uri.vokabular_uri("sanningsvarde", "sant")
+
+
 def bedomning(rad: dict) -> Iterator[Trippel]:
+    """
+    En bedömning är en crminf:I2_Belief. Det som bedöms är en proposition, en delnod
+    (…#proposition) som pekar på målet med crm:P67_refers_to och anger aspekten och
+    det bedömda värdet: brevet sdhk:2177 har äktheten "misstänkt". J4_that pekar på
+    propositionen och J5_holds_to_be på sanningsvärdet, som CRMinf kräver.
+    """
     s = post("bedomning", rad["id"])
     yield s, TYP, p("fm", "Bedomning")
+    proposition = del_av(s, "proposition")
+    yield s, p("crminf", "J4_that"), proposition
+    yield s, p("crminf", "J5_holds_to_be"), I(SANT)
+    yield proposition, TYP, p("crminf", "I4_Proposition_Set")
     for kolumn, typ in (("pastaende_id", "pastaende"), ("verk_id", "verk"), ("vittne_id", "vittne"),
                         ("identifiering_id", "identifiering")):
         if rad.get(kolumn):
-            yield s, p("crminf", "J4_that"), post(typ, rad[kolumn])
-    yield s, p("fm", "aspekt"), vok("bedomningsaspekt", rad["aspekt"])
+            yield proposition, p("crm", "P67_refers_to"), post(typ, rad[kolumn])
+    yield proposition, p("fm", "aspekt"), vok("bedomningsaspekt", rad["aspekt"])
     if rad["aspekt"] == "datering":
         tid = del_av(s, "tid")
-        yield s, p("crminf", "J5_holds_to_be"), tid
+        yield proposition, p("fm", "bedomtVarde"), tid
         yield from tidsintervall(tid, rad["varde"], None, None)
     else:
-        yield s, p("crminf", "J5_holds_to_be"), vok(rad["aspekt"], rad["varde"])
+        yield proposition, p("fm", "bedomtVarde"), vok(rad["aspekt"], rad["varde"])
     if rad.get("sakerhet"):
         yield s, p("fm", "sakerhet"), vok("sakerhet", rad["sakerhet"])
     yield s, p("fm", "bedomare"), L(rad["bedomare"])
@@ -628,7 +643,9 @@ def langd_titel(rad: dict) -> Iterator[Trippel]:
         yield s, p("crm", "P7_took_place_at"), post("entitet", rad["sate_id"])
     if rad.get("fran") is not None or rad.get("till") is not None:
         fran, till = rad.get("fran"), rad.get("till")
-        edtf = f"{fran or ''}/{till or ''}" if fran != till else f"{fran}"
+        # EDTF skriver året med fyra siffror (0855); en okänd gräns är tom ("/1520")
+        ar4 = lambda a: f"{a:04d}" if a is not None else ""  # noqa: E731
+        edtf = f"{ar4(fran)}/{ar4(till)}" if fran != till else ar4(fran)
         tid = del_av(s, "tid")
         yield s, p("crm", "P4_has_time-span"), tid
         yield from tidsintervall(tid, edtf,

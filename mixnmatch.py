@@ -11,9 +11,9 @@ beskrivning eller de år då personen omnämns, och för alla hur många källor
 eller påståenden som nämner entiteten.
 
 Filformatet är det som Mix'n'match importerar: tabbseparerat utan
-citattecken och utan rubrikrad, med kolumnerna id, namn, beskrivning och
-typ (ett Wikidata-objekt). Id:t är Fornmeds entitets-id, samma som i
-egenskapen för Fornmeds id om den skapas.
+citattecken, med rubrikraden id, name, desc och type och därefter id,
+namn, beskrivning och typ (ett Wikidata-objekt). Id:t är Fornmeds
+entitets-id, samma som i egenskapen för Fornmeds id om den skapas.
 
     python mixnmatch.py -o fornmed_mixnmatch.tsv
 """
@@ -96,6 +96,8 @@ def main() -> None:
     args = tolk.parse_args()
     rader = poster()
     with args.ut.open("w", encoding="utf-8", newline="") as f:
+        # Mix'n'match känner igen kolumnerna på rubrikradens namn
+        f.write("id\tname\tdesc\ttype\n")
         for rad in rader:
             f.write("\t".join(rad) + "\n")
     print(f"{len(rader)} poster i {args.ut}")

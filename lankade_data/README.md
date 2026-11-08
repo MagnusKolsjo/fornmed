@@ -73,6 +73,10 @@ gäller också i RDF:
   ASCII, procentkodas med UTF-8. Termen `begrepp:harad:fsv:hæraþ` får URI:n
   `https://w3id.org/fornmed/id/term/begrepp:harad:fsv:h%C3%A6ra%C3%BE`. Snedstreck i ett id
   kodas som `%2F`. Regeln finns i `rdf_uri.py`.
+- **Ett id i en sökväg innehåller aldrig `/` eller `?`.** Apache, som w3id.org använder,
+  vidarebefordrar inte en sökväg med `%2F` eller `%3F`. I en hash-URI efter `#` går de bra,
+  eftersom delen efter `#` aldrig skickas till servern. `rdf_validera.py` stoppar en
+  export som bryter mot regeln.
 - **Delar av en post har hash-URI:er under postens URI.** Ett påståendes tidsintervall är
   `…/pastaende/{id}#tid`, ett verks tillkomst `…/verk/{id}#tillkomst` och en platsangivelse
   `…/verk/{id}#plats-{roll}-{plats-id}`. Dumpfilerna har därför inga blanka noder, och
@@ -398,30 +402,31 @@ identifiering:sdhk:sdhk_kung_knut_214:knut_6 a fm:Identifiering ;
 
 En bedömning är en forskares eller ett registers omdöme om ett påstående, ett verk, ett
 vittne eller en identifiering. Den blir en `fm:Bedomning`, som är en CRMinf
-`crminf:I2_Belief`. `crminf:J4_that` pekar på det som bedöms och `crminf:J5_holds_to_be`
-på omdömet.
+`crminf:I2_Belief`. Det som bedöms är en proposition, en delnod under bedömningen
+(`…#proposition`) och en `crminf:I4_Proposition_Set`: den pekar på målet med
+`crm:P67_refers_to` och anger aspekten (`fm:aspekt`) och det bedömda värdet
+(`fm:bedomtVarde`). `crminf:J4_that` pekar på propositionen och `crminf:J5_holds_to_be`
+på sanningsvärdet, som alltid är `sant`: bedömaren håller propositionen för sann. Hur
+säker bedömningen är anger `fm:sakerhet`.
 
 ```turtle
 bedomning:sdhk:2177:akthet:h_toll a fm:Bedomning ;
-    crminf:J4_that verk:sdhk:2177 ;
-    fm:aspekt <https://w3id.org/fornmed/id/vokabular/bedomningsaspekt/akthet> ;
-    crminf:J5_holds_to_be <https://w3id.org/fornmed/id/vokabular/akthet/misstankt> ;
+    crminf:J4_that <https://w3id.org/fornmed/id/bedomning/sdhk:2177:akthet:h_toll#proposition> ;
+    crminf:J5_holds_to_be <https://w3id.org/fornmed/id/vokabular/sanningsvarde/sant> ;
     fm:sakerhet <https://w3id.org/fornmed/id/vokabular/sakerhet/lag> ;
     fm:bedomare "H. Toll" ;
     fm:publikation "Historisk tidskrift för Finland 1926, s. 81 not 1" ;
     fm:granskad false .
 
-bedomning:sdhk:sdhk_kung_knut_214:knut_eriksson:bedomning a fm:Bedomning ;
-    crminf:J4_that identifiering:sdhk:sdhk_kung_knut_214:knut_eriksson ;
-    fm:aspekt <https://w3id.org/fornmed/id/vokabular/bedomningsaspekt/identifiering> ;
-    crminf:J5_holds_to_be <https://w3id.org/fornmed/id/vokabular/identifiering/mojlig> ;
-    fm:bedomare "pastaenden_sdhk.py" ;
-    fm:granskad false .
+<https://w3id.org/fornmed/id/bedomning/sdhk:2177:akthet:h_toll#proposition> a crminf:I4_Proposition_Set ;
+    crm:P67_refers_to verk:sdhk:2177 ;
+    fm:aspekt <https://w3id.org/fornmed/id/vokabular/bedomningsaspekt/akthet> ;
+    fm:bedomtVarde <https://w3id.org/fornmed/id/vokabular/akthet/misstankt> .
 ```
 
 När publikationen har en DOI eller en Libris-post pekar `crm:P70i_is_documented_in` på
 den. En bedömning av datering har ett EDTF-uttryck i stället för ett vokabulärvärde, som
-en `crm:E52_Time-Span`.
+en `crm:E52_Time-Span` och bedömt värde.
 
 ## Längder
 
@@ -655,8 +660,9 @@ Brev som bedömts som misstänkta förfalskningar, med bedömare:
 
 ```sparql
 SELECT ?verk ?bedomare ?publikation WHERE {
-  ?b a fm:Bedomning ; crminf:J4_that ?v ; fm:bedomare ?bedomare ;
-     crminf:J5_holds_to_be <https://w3id.org/fornmed/id/vokabular/akthet/misstankt> .
+  ?b a fm:Bedomning ; fm:bedomare ?bedomare ;
+     crminf:J4_that [ crm:P67_refers_to ?v ;
+                      fm:bedomtVarde <https://w3id.org/fornmed/id/vokabular/akthet/misstankt> ] .
   OPTIONAL { ?b fm:publikation ?publikation }
   ?v rdfs:label ?verk .
 }

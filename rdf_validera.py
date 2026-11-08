@@ -14,6 +14,10 @@ minnet. Kontrollerna över posterna:
 - vilka Wikidata-objekt som delas av flera entiteter som inte är ersatta
 - att passagerna i en maskinöversättning är märkta som maskinöversatta
 - att antalet tripler i varje fil stämmer med VoID-beskrivningen
+- att ingen URI har ett kodat snedstreck eller frågetecken före #: w3id.org
+  vidarebefordrar inte sådana sökvägar (%2F ger 404 och %3F 403)
+- att varje EDTF-uttryck följer EDTF och anger datum som finns, och att ett
+  intervall inte slutar före det börjar
 
 Skriptet avslutar med felkod om någon form bryts eller en kontroll som
 gäller fel (inte varning) slår till.
@@ -57,6 +61,46 @@ _EGNA_HANVISNINGAR = {f"<{DEF}entitet>", f"<{DEF}identifieradMed>",
                       "<http://www.w3.org/2004/02/skos/core#exactMatch>"}
 
 
+# EDTF nivå 0–1 som Fornmed använder: år med fyra siffror, eventuellt med okända
+# siffror (153X, 15XX), månad och dag, och osäkerhet (?), ungefärlighet (~) eller
+# båda (%). Ett intervall har två sådana datum, där ett får vara okänt (tomt) eller
+# öppet (..).
+_EDTF_DATUM = re.compile(r"(?P<ar>\d{4}|\d{3}X|\d{2}XX)(?:-(?P<man>\d{2})(?:-(?P<dag>\d{2}))?)?[?~%]?")
+_MANADSDAGAR = (31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+
+
+def _edtf_grans(text: str, slut: bool) -> tuple[int, int, int] | None:
+    """(år, månad, dag) för datumets tidigaste eller senaste dag, eller None om det inte är EDTF."""
+    m = _EDTF_DATUM.fullmatch(text)
+    if not m:
+        return None
+    ar = int(m["ar"].replace("X", "9" if slut else "0"))
+    man = int(m["man"]) if m["man"] else (12 if slut else 1)
+    if not 1 <= man <= 12:
+        return None
+    # Den 29 februari godtas alltid: medeltidens datum följer den julianska kalendern
+    dag = int(m["dag"]) if m["dag"] else (_MANADSDAGAR[man - 1] if slut else 1)
+    if not 1 <= dag <= _MANADSDAGAR[man - 1]:
+        return None
+    return ar, man, dag
+
+
+def edtf_fel(text: str) -> str | None:
+    """Varför ett EDTF-uttryck inte duger, eller None om det är giltigt."""
+    if "/" not in text:
+        return None if _edtf_grans(text, False) else "inte ett EDTF-datum"
+    fore, _, efter = text.partition("/")
+    if fore in ("", "..") and efter in ("", ".."):
+        return "intervall utan gränser"
+    borjan = None if fore in ("", "..") else _edtf_grans(fore, False)
+    slutet = None if efter in ("", "..") else _edtf_grans(efter, True)
+    if (fore not in ("", "..") and borjan is None) or (efter not in ("", "..") and slutet is None):
+        return "intervall med en gräns som inte är ett EDTF-datum"
+    if borjan and slutet and borjan > slutet:
+        return "intervall som slutar före det börjar"
+    return None
+
+
 def _delar(rad: str) -> list[str]:
     """Subjekt, predikat, objekt och graf ur en N-Quads-rad."""
     return _TERM.findall(rad)
@@ -82,6 +126,8 @@ class Tvarkontroll:
         self.void: dict[str, int] = {}
         self.dumpfil: dict[str, str] = {}
         self.antal: Counter[str] = Counter()
+        self.edtf: dict[str, list[tuple[str, str]]] = defaultdict(list)
+        self.oframkomliga: list[str] = []
 
     def las(self, fil: str, s: str, p: str, o: str) -> None:
         self.antal[fil] += 1
@@ -109,6 +155,16 @@ class Tvarkontroll:
             self.maskinmarkta.add(s)
         if p == "<http://rdfs.org/ns/void#triples>" and s.startswith(f"<{rdf_uri.GRAF}"):
             self.void[s] = int(o.split('"')[1])
+        for term in (s, o):
+            if term.startswith(f"<{ID}"):
+                sokvag = term[1:-1].split("#", 1)[0].upper()
+                if ("%2F" in sokvag or "%3F" in sokvag) and len(self.oframkomliga) < 100:
+                    self.oframkomliga.append(term)
+        if p == f"<{DEF}edtf>":
+            varde = o[1:].rsplit('"', 1)[0]
+            orsak = edtf_fel(varde)
+            if orsak and len(self.edtf[orsak]) < 1000:
+                self.edtf[orsak].append((s, varde))
         if p == "<http://rdfs.org/ns/void#dataDump>":
             self.dumpfil[s] = o[1:-1].rsplit("/", 1)[1]
 
@@ -143,6 +199,13 @@ class Tvarkontroll:
         omarkta = [p for p, u in self.passage_utgava.items() if u in self.maskinutgavor and p not in self.maskinmarkta]
         if omarkta:
             fel.append(f"{len(omarkta)} passager i maskinöversättningar saknar fm:maskinoversatt, t.ex. {omarkta[0]}")
+
+        if self.oframkomliga:
+            fel.append(f"{len(self.oframkomliga)} URI:er har / eller ? i sökvägen och går inte att nå genom "
+                       f"w3id.org, t.ex. {self.oframkomliga[0]}")
+        for orsak, fall in sorted(self.edtf.items()):
+            fel.append(f"EDTF: {len(fall)}{'+' if len(fall) >= 1000 else ''} {orsak}, t.ex. "
+                       + "; ".join(f"{s} \"{v}\"" for s, v in fall[:5]))
 
         for graf, vantat in sorted(self.void.items()):
             fil = self.dumpfil.get(graf)

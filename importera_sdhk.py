@@ -139,6 +139,12 @@ def tolka_datum(falt: str) -> tuple[str | None, int | None, int | None, str | No
         elif dag == 0:
             edtf = f"{ar:04d}-{man:02d}"
             fran, till = ar * 10000 + man * 100 + 1, ar * 10000 + man * 100 + 31
+        elif dag > (29 if man == 2 else (30 if man in (4, 6, 9, 11) else 31)):
+            # En dag som månaden inte har (31 juni) är ett fel i källan; dateringen
+            # gäller då hela månaden. Den 29 februari godtas: kalendern är juliansk
+            edtf = f"{ar:04d}-{man:02d}"
+            fran, till = ar * 10000 + man * 100 + 1, ar * 10000 + man * 100 + 31
+            anm = "; ".join(filter(None, [anm, f"dagen {dag} finns inte i månaden; dateringen gäller hela månaden"]))
         else:
             edtf = f"{ar:04d}-{man:02d}-{dag:02d}"
             fran = till = int(huvud)

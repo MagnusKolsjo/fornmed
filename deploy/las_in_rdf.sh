@@ -98,17 +98,24 @@ cp "$INKOMMANDE"/*.nq.gz "$NYA_DUMPAR/"
 chmod -R a+rX "$NY" "$NYA_DUMPAR"
 
 ln -sfn "$NY" "$SPARQL/aktuell.ny" && mv -T "$SPARQL/aktuell.ny" "$SPARQL/aktuell"
-systemctl restart fornmed-sparql.service
-if n=$(svarar); then
+# Omstarten och kontrollen står i villkoret, så att set -e inte avbryter skriptet
+# när omstarten misslyckas: då ska länken alltid tillbaka till den gamla databasen
+if systemctl restart fornmed-sparql.service && n=$(svarar); then
     ln -sfn "$NYA_DUMPAR" "$RDF/aktuell.ny" && mv -T "$RDF/aktuell.ny" "$RDF/aktuell"
     echo "SPARQL-ändpunkten svarar med $n tripler."
 else
     echo "SPARQL-ändpunkten svarar inte med den nya databasen. Byter tillbaka." >&2
+    rm -rf "$NYA_DUMPAR"
     if [[ -n $GAMMAL && -d $GAMMAL ]]; then
         ln -sfn "$GAMMAL" "$SPARQL/aktuell.ny" && mv -T "$SPARQL/aktuell.ny" "$SPARQL/aktuell"
-        systemctl restart fornmed-sparql.service
+        if systemctl restart fornmed-sparql.service && svarar > /dev/null; then
+            echo "Den gamla databasen svarar igen." >&2
+        else
+            echo "Den gamla databasen svarar inte heller. SPARQL-ändpunkten är nere." >&2
+        fi
+    else
+        echo "Det finns ingen tidigare databas att byta tillbaka till. SPARQL-ändpunkten är nere." >&2
     fi
-    rm -rf "$NYA_DUMPAR"
     fel "Den nya databasen ligger kvar i $NY. Se: journalctl -u fornmed-sparql -n 50"
 fi
 

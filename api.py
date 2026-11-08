@@ -765,6 +765,24 @@ def _alternativ(sokvag: str) -> str:
 ID_TYPER = "|".join(rdf_uri.TYPER + ("vokabular",))
 
 
+@app.api_route("/id/begreppsregister", methods=["GET", "HEAD"], tags=["länkade data"],
+               responses={200: {"content": {t: {} for t in rdf_post.MEDIATYP_TILL_FORMAT}}},
+               summary="Begreppsregistret som SKOS-schema")
+def begreppsregister_uppslag(
+    request: Request,
+    format_: Annotated[str | None, Query(alias="format", pattern="^(html|ttl|jsonld|nt|rdf)$")] = None,
+) -> Response:
+    fmt = rdf_post.valj_format(format_, request.headers.get("accept"))
+    if fmt is None:
+        return JSONResponse({"fel": "Formatet finns inte.", "format": ["html", *rdf_post.FORMAT]},
+                            status_code=406)
+    # Registret har ingen egen webbsida och visas som Turtle också för en webbläsare
+    svar = _rdf_svar("begreppsregister", "", "ttl" if fmt == "html" else fmt)
+    svar.headers["Link"] = _alternativ("/id/begreppsregister")
+    svar.headers["Cache-Control"] = "public, max-age=300"
+    return svar
+
+
 @app.api_route("/id/{typ}/{post_id:path}", methods=["GET", "HEAD"], tags=["länkade data"],
          responses={200: {"content": {t: {} for t in rdf_post.MEDIATYP_TILL_FORMAT}}, 303: {}},
          summary="En post som länkade data: webbsidan för en webbläsare, RDF för ett program")

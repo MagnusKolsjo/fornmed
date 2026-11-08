@@ -55,6 +55,36 @@ AXLAR = {
 }
 
 
+BEGREPPSREGISTER = URIRef(rdf_uri.ID + "begreppsregister")
+
+
+def _utanfor_vokabular(g: Graph) -> None:
+    """
+    Det som exporten pekar på men som inte står i vokabular.py: begreppsregistret
+    som schema för entiteterna av typen begrepp och ämbete, språk utan ISO 639-3-kod
+    och bedömningarnas sanningsvärde.
+    """
+    g.add((BEGREPPSREGISTER, RDF.type, SKOS.ConceptScheme))
+    g.add((BEGREPPSREGISTER, SKOS.prefLabel, Literal("Fornmeds begreppsregister", lang="sv")))
+    g.add((BEGREPPSREGISTER, DCTERMS.license, CC0))
+    for schema, etikett, kod, kod_etikett, definition in (
+            ("sprak", "Språk utan ISO 639-3-kod", "fsv", "fornsvenska", None),
+            ("sanningsvarde", "Sanningsvärde", "sant", "sant",
+             "Bedömaren håller propositionen för sann. Hur säker bedömningen är anges med säkerhet.")):
+        schema_uri = URIRef(rdf_uri.vokabular_uri(schema))
+        g.add((schema_uri, RDF.type, SKOS.ConceptScheme))
+        g.add((schema_uri, SKOS.prefLabel, Literal(etikett, lang="sv")))
+        g.add((schema_uri, DCTERMS.license, CC0))
+        varde = URIRef(rdf_uri.vokabular_uri(schema, kod))
+        g.add((varde, RDF.type, SKOS.Concept))
+        g.add((varde, SKOS.inScheme, schema_uri))
+        g.add((varde, SKOS.topConceptOf, schema_uri))
+        g.add((varde, SKOS.prefLabel, Literal(kod_etikett, lang="sv")))
+        g.add((varde, SKOS.notation, Literal(kod)))
+        if definition:
+            g.add((varde, SKOS.definition, Literal(definition, lang="sv")))
+
+
 def bygg_graf() -> Graph:
     """Vokabuläret som en rdflib-graf, med kopplingarna till andra modeller."""
     g = Graph()
@@ -79,6 +109,7 @@ def bygg_graf() -> Graph:
         if beskrivning:
             g.add((begrepp, SKOS.definition, Literal(beskrivning, lang="sv")))
 
+    _utanfor_vokabular(g)
     mappning = Graph().parse(MAPPNING, format="turtle")
     okanda = {str(s) for s in mappning.subjects() if (s, RDF.type, SKOS.Concept) not in g}
     if okanda:
