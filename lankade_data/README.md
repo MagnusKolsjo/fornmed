@@ -686,6 +686,17 @@ Hela datamängden kan laddas ner från `https://fornmed.se/data/rdf/`, en gzippa
 N-Quads-fil per graf. Metadatagrafen (`metadata.nq.gz`) anger licens och antal tripler
 för varje fil.
 
+## Länkar från Wikidata
+
+`mixnmatch.py` skriver registrets personer, platser, institutioner och begrepp som saknar
+Wikidata-id som en katalog för Mix'n'match, där Wikidatas redaktörer kopplar dem till
+Wikidata-objekt. Varje post har Fornmeds id, namnet, en beskrivning (nutida namn, socken
+och landskap för platser; beskrivning och omnämnda år för personer) och typen.
+
+```bash
+.venv/bin/python mixnmatch.py -o fornmed_mixnmatch.tsv
+```
+
 ## Export
 
 `rdf_export.py` i projektets rotkatalog skriver hela datamängden som gzippade N-Quads, en

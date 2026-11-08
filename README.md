@@ -240,6 +240,9 @@ läses in med
 Utan `--hamta` frågas inte Wikidata, och runinskrifternas länkar tas ur
 `data/lankar/lankar.tsv`.
 
+`mixnmatch.py` skriver de entiteter som saknar Wikidata-id som en katalog
+för Mix'n'match.
+
 Hela datamängden skrivs som N-Quads, en gzippad fil per graf, med
 
 ```bash
