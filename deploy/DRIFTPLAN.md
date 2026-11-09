@@ -219,7 +219,10 @@ visas sidorna ändå, utan källförteckning.
   samma `log_format anonymiserad` som för Valvaka. Varje namn får en egen
   loggfil, så att API- och MCP-användning syns för sig.
 - **Användning per resurs:** API-loggen räcker för att se vilka endpoints som används.
-  MCP-anrop loggas av tjänsten med verktygsnamn men utan frågetext.
+  MCP-anrop loggas av tjänsten med verktygsnamn men utan frågetext: en rad per
+  verktygsanrop under loggnamnet `fornmed.verktyg` i tjänstens journal, med
+  verktyg, klientens namn ur handskakningen, utfall och svarstid
+  (`journalctl -u fornmed-tjanst -o cat | grep fornmed.verktyg`).
 
 ## Övervakning
 

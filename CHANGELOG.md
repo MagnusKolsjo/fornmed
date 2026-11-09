@@ -7,6 +7,14 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [Unreleased]
+
+### Tillagt
+
+- MCP-servern loggar varje verktygsanrop på en rad under loggnamnet `fornmed.verktyg`, med
+  verktygets namn, klientens namn ur handskakningen, utfall och svarstid. Argumenten loggas
+  aldrig, och ett okänt verktygsnamn skrivs som `(okänt)`.
+
 ## [1.9.1] — 2026-11-10
 
 ### Tillagt

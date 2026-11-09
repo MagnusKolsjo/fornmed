@@ -6,8 +6,11 @@ vittne, utgåva, passage), entiteter, påståenden om vad källorna hävdar och
 forskningens bedömningar av dem. Alla verktyg har prefixet fornmed_.
 """
 
+import json
 import logging
 import sys
+import time
+from datetime import datetime, timezone
 
 # db läser .env vid import och måste därför importeras före moduler som
 # läser sin konfiguration ur miljön (embeddings)
@@ -25,6 +28,42 @@ logging.basicConfig(level=logging.INFO, stream=sys.stderr,
                     format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 logging.getLogger("httpx").setLevel(logging.WARNING)
 
+# Ett anrop per rad under eget loggnamn, så att användningen kan räknas per
+# verktyg ur tjänstens logg. Bara verktygets namn, klientens namn och
+# utfallet loggas, aldrig argumenten: de är användarens frågor.
+verktygslogg = logging.getLogger("fornmed.verktyg")
+
+
+class LoggandeServer(MCPServer):
+    """MCPServer som loggar varje verktygsanrop."""
+
+    async def call_tool(self, name, arguments, context=None):
+        start = time.monotonic()
+        utfall = "fel"
+        try:
+            svar = await super().call_tool(name, arguments, context)
+            utfall = "fel" if getattr(svar, "is_error", False) else "ok"
+            return svar
+        finally:
+            verktygslogg.info("verktygsanrop %s", json.dumps({
+                "tid": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                # Namnet kommer från klienten; okända namn skrivs inte ut
+                "verktyg": name if self._tool_manager.get_tool(name) else "(okänt)",
+                "klient": _klientnamn(context),
+                "utfall": utfall,
+                "ms": round((time.monotonic() - start) * 1000),
+            }, ensure_ascii=False))
+
+
+def _klientnamn(context) -> str:
+    """Klientens namn ur initialize, t.ex. claude-ai eller openai-mcp."""
+    try:
+        info = context.session.client_params.client_info
+        return (info.name or "")[:60]
+    except Exception:  # anrop utan handskakning eller utan klientuppgifter
+        return ""
+
+
 # Alla verktyg läser bara ur serverns egen databas
 LASNING_DB = ToolAnnotations(
     readOnlyHint=True,
@@ -33,7 +72,7 @@ LASNING_DB = ToolAnnotations(
     openWorldHint=False,
 )
 
-mcp = MCPServer(
+mcp = LoggandeServer(
     "fornmed",
     instructions=(
         "Källor till Sveriges och Nordens forntid och medeltid: medeltidsbrev ur "
