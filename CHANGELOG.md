@@ -7,7 +7,7 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
-## [Unreleased]
+## [1.10.0] — 2026-11-10
 
 ### Tillagt
 
