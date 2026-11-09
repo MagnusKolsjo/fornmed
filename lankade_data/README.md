@@ -706,6 +706,16 @@ och landskap för platser; beskrivning och omnämnda år för personer) och type
 .venv/bin/python mixnmatch.py -o fornmed_mixnmatch.tsv
 ```
 
+`quickstatements.py` skriver de entiteter som redan har ett Wikidata-id som kommandon för
+QuickStatements, så att objekten i Wikidata får sitt Fornmed-id när egenskapen finns.
+Ersatta entiteter tas inte med, och skriptet avbryter om ett Wikidata-objekt skulle få
+flera Fornmed-id. Med `--kontrollera` frågas Wikidata först, och objekt som inte finns,
+har omdirigerats eller redan har ett värde rapporteras i stället för att tas med.
+
+```bash
+.venv/bin/python quickstatements.py --egenskap <EGENSKAP> -o fornmed_quickstatements.tsv --kontrollera
+```
+
 ## Export
 
 `rdf_export.py` i projektets rotkatalog skriver hela datamängden som gzippade N-Quads, en
