@@ -7,6 +7,16 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [1.9.0] — 2026-11-10
+
+### Tillagt
+
+- `quickstatements.py` skriver de entiteter som har ett Wikidata-id, i registret eller i
+  längderna, som kommandon för QuickStatements, så att Wikidata-objekten kan få sitt
+  Fornmed-id. Egenskapen anges med `--egenskap`. Ersatta entiteter tas inte med, och skriptet
+  avbryter om ett objekt skulle få flera Fornmed-id. Med `--kontrollera` frågas Wikidata om
+  varje objekt först.
+
 ## [1.8.0] — 2026-11-08
 
 ### Tillagt
