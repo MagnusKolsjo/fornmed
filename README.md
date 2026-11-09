@@ -188,6 +188,17 @@ Vyer:
 - `konkurrerande_identifieringar` — entiteter där flera uteslutande
   identifieringar har bedömts som säkra eller sannolika av olika forskare.
 
+Hela schemat, med varje tabell, kolumn, nyckel och koppling och ett
+översiktsdiagram, beskrivs i `rapporter/databasschema.html` och
+`rapporter/databasschema.pdf`. Båda skrivs av `databasschema.py`, som läser
+schemat ur databasen och avbryter om en tabell eller kolumn saknar förklaring.
+Rapporten byggs om mot den publicerade databasen inför varje ny version:
+
+```bash
+DATABASE_URL=postgresql://<ANVÄNDARE>:<LÖSENORD>@localhost:5432/<DATABASNAMN> \
+  .venv/bin/python databasschema.py rapporter/databasschema.html --pdf rapporter/databasschema.pdf
+```
+
 ### Språkversioner och delar
 
 Varje språkversion av ett verk är en egen utgåva. `utgava` anger språk

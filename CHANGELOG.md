@@ -7,6 +7,18 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [Unreleased]
+
+### Tillagt
+
+- `databasschema.py --pdf` skriver ut schemarapporten som PDF, och skriptet avbryter om en
+  tabell eller kolumn i databasen saknar förklaring, grupp eller plats i diagrammet.
+
+### Fixat
+
+- Schemarapporten (`rapporter/databasschema.html` och `.pdf`) beskriver det aktuella schemat,
+  med tabellen `extern_lank` och sökpostens alla kolumner.
+
 ## [1.9.0] — 2026-11-10
 
 ### Tillagt

@@ -1,19 +1,30 @@
 """
-Skriver en utskrivbar beskrivning av databasens schema som HTML.
+Skriver en utskrivbar beskrivning av databasens schema som HTML och PDF.
 
 Tabellerna, kolumnerna, typerna, nycklarna, kopplingarna och villkoren läses
 ur databasen själv, så att beskrivningen alltid stämmer med schemat.
-Förklaringarna av tabeller och kolumner står här nedan. Sidan är gjord för
-utskrift som PDF i liggande A4.
+Förklaringarna av tabeller och kolumner står här nedan. Saknar en tabell eller
+kolumn förklaring, grupp eller plats i diagrammet avbryts skriptet, så att
+beskrivningen inte tyst blir ofullständig när schemat ändras.
+
+PDF:en skrivs ut i liggande A4 med Chrome utan fönster (FORNMED_CHROME anger
+programmet om det inte ligger på den vanliga platsen).
 
 Användning:
     python databasschema.py rapporter/databasschema.html
+    python databasschema.py rapporter/databasschema.html --pdf rapporter/databasschema.pdf
 """
 
 import argparse
 import html
 import math
+import os
+import shutil
+import subprocess
+import sys
+import tempfile
 from datetime import date
+from pathlib import Path
 
 import db
 from fragor import _rader
@@ -34,9 +45,9 @@ GRUPPER = [
      ["pastaende", "pastaende_relation", "bedomning"]),
     ("Auktoriteter", "Längderna över regenter, biskopar och påvar.",
      ["auktoritetslangd", "auktoritet", "auktoritet_titel"]),
-    ("Register och drift", "Kontrollerade värden, databasens leveranser och sökindexet, som härleds ur övriga "
-                           "tabeller.",
-     ["vokabular", "leverans", "sokpost", "sokpost_plats"]),
+    ("Register och drift", "Kontrollerade värden, databasens leveranser, sökindexet, som härleds ur övriga "
+                           "tabeller, och länkarna till andra databaser.",
+     ["vokabular", "leverans", "sokpost", "sokpost_plats", "extern_lank"]),
     ("Vyer", "Sammanställningar som räknas fram ur tabellerna när de läses; de lagrar inget själva.",
      ["pastaende_oversikt", "omstridda", "konkurrerande_identifieringar"]),
 ]
@@ -67,6 +78,7 @@ TABELLER = {
     "auktoritet": "En person i en längd, med levnadsår och Wikidata-id. person_id är personens entitets-id.",
     "auktoritet_titel": "En titel med säte och år för en person i en längd. En person kan ha flera titlar och säten.",
     "vokabular": "Kontrollerade värden för alla klassificeringar: genre, passagetyp, predikat, bedömningsaspekter och deras värden, deltyp med flera. Definieras i vokabular.py.",
+    "extern_lank": "Länkar från ett verk, ett vittne eller en entitet till samma sak i en annan databas, som Wikidata, Kulturmiljöregistret, TORA eller Kartverkets ortnamnsregister, med relation, källa, metod och granskningsstatus. Fylls av lankar.py.",
     "leverans": "En kopia av databasen som lämnat utvecklingsdatorn, med antal per tabell och skillnaden mot förra leveransen. Skrivs av leverans.py.",
     "pastaende_oversikt": "Varje påstående med källans genre och datering, det minsta möjliga tidsavståndet mellan händelse och källa, antal bedömningar och om de går isär.",
     "omstridda": "Mål där minst två bedömningar inom samma aspekt ger olika värden.",
@@ -83,6 +95,12 @@ KOLUMNER = {
              "datering_fran": "Tidigaste möjliga datum, ÅÅÅÅMMDD", "datering_till": "Senaste möjliga datum, ÅÅÅÅMMDD", "datering_anm": "Anmärkning om dateringen",
              "beskrivning": "Kort beskrivning", "extern_url": "Länk till verket hos källan", "extra": "Övriga uppgifter, t.ex. runinskrifters fyndort och bildlänkar"},
     "sokpost": {"id": "Verkets eller entitetens id", "objekttyp": "verk eller entitet", "undertyp": "Verkets genre eller entitetens typ",
+                "kallsamling_id": "Källsamlingen", "rubrik": "Rubriken i träfflistan", "sammanfattning": "Kort text i träfflistan",
+                "sprak": "Språken, ISO 639-3", "tillkomst_edtf": "Verkets tillkomst i EDTF",
+                "tillkomst_fran": "Tidigaste tillkomst, ÅÅÅÅMMDD", "tillkomst_till": "Senaste tillkomst, ÅÅÅÅMMDD",
+                "forlaga_edtf": "Det äldsta daterade vittnets datering i EDTF", "forlaga_fran": "Det äldsta vittnets tidigaste datum, ÅÅÅÅMMDD",
+                "forlaga_till": "Det äldsta vittnets senaste datum, ÅÅÅÅMMDD", "antal_pastaenden": "Antal påståenden om verket eller entiteten",
+                "tid_till": "Slutet på den tid som visas först",
                 "soknamn": "Rubrik och namnformer i sökform, för namnsökning", "forlaga_typ": "Vittnestypen för det äldsta daterade vittnet",
                 "handelse_fran": "Tidigaste tid i påståendena (ÅÅÅÅMMDD)", "handelse_till": "Senaste tid i påståendena (ÅÅÅÅMMDD)",
                 "tid_fran": "Den tid som visas först: händelsen om den är känd, annars tillkomsten", "tid_kalla": "handelse eller tillkomst"},
@@ -151,6 +169,10 @@ KOLUMNER = {
                          "sate": "Rike eller stift som i längden", "sate_id": "Platsen som entitet", "fran": "Första år", "till": "Sista år", "ar_text": "Längdens ursprungliga årsuttryck"},
     "vokabular": {"schema": "Klassificeringen värdet hör till, t.ex. genre", "kod": "Värdets kod", "etikett": "Värdets namn",
                   "beskrivning": "Förklaring", "ordning": "Ordning i listor"},
+    "extern_lank": {"post_typ": "verk, vittne eller entitet", "post_id": "Postens id", "uri": "Postens URI i den andra databasen",
+                    "relation": "exactMatch (samma sak), closeMatch (sannolikt samma sak) eller seeAlso",
+                    "kalla": "Varifrån kopplingen kommer", "metod": "auktoritet, regel eller sprakmodell",
+                    "granskad": "En människa har kontrollerat kopplingen"},
     "leverans": {"id": "Tidpunkt som ÅÅÅÅMMDD-TTMMSS", "tidpunkt": "När leveransen registrerades", "anmarkning": "Vad leveransen innehåller",
                  "antal": "Antal rader per tabell och verk per källsamling", "andringar": "Skillnaden mot förra leveransen"},
     "pastaende_oversikt": {"id": "Påståendet", "subjekt_id": "Subjektet", "predikat": "Predikatet", "objekt_id": "Objektet som entitet",
@@ -168,7 +190,8 @@ KOLUMNER = {
 LOGISKA = [
     ("auktoritet", "person_id", "entitet", "id", "Personen i längden är en entitet med samma id"),
     ("sdhk_brev", "sdhk_nr", "verk", "id", "Brevet blir verket sdhk:{sdhk_nr}"),
-    ("pastaende", "objekt_varde", "verk", "id", "För predikatet utfardar är värdet brevets verk-id"),
+    ("pastaende", "objekt_varde", "verk", "id", "För predikaten utfardar, skriver_till och besvarar är värdet ett brevs verk-id"),
+    ("extern_lank", "post_id", "entitet", "id", "Länkens post är en entitet, ett verk eller ett vittne enligt post_typ"),
 ]
 
 TYPER = {"text": "text", "int4": "heltal", "int8": "heltal (stort)", "bool": "sant/falskt", "jsonb": "JSON", "timestamptz": "tidpunkt",
@@ -246,6 +269,7 @@ PLATSER = {
     "begreppsrelation": (780, 360), "ordboksartikel": (20, 300), "term": (210, 400),
     "auktoritetslangd": (20, 490), "auktoritet": (210, 490), "auktoritet_titel": (400, 490),
     "vokabular": (960, 470), "leverans": (960, 540), "sokpost": (780, 470), "sokpost_plats": (780, 540),
+    "extern_lank": (510, 270),
 }
 BREDD, HOJD = 150, 40
 FARGER = {"Källor": "#244A63", "Entiteter och begrepp": "#426C62", "Påståenden och bedömningar": "#93483E",
@@ -490,15 +514,56 @@ def sida(schema: dict) -> str:
 """
 
 
+def saknas(schema: dict) -> list[str]:
+    """Tabeller och kolumner i databasen som beskrivningen inte förklarar."""
+    grupperade = {t for _, _, tabeller in GRUPPER for t in tabeller}
+    fel = []
+    for tabell, t in sorted(schema.items()):
+        if tabell not in grupperade:
+            fel.append(f"{tabell}: ingen grupp i GRUPPER")
+        if tabell not in TABELLER:
+            fel.append(f"{tabell}: ingen förklaring i TABELLER")
+        if not t["vy"] and tabell not in PLATSER:
+            fel.append(f"{tabell}: ingen plats i diagrammet (PLATSER)")
+        for k in t["kolumner"]:
+            if k["column_name"] not in KOLUMNER.get(tabell, {}):
+                fel.append(f"{tabell}.{k['column_name']}: ingen förklaring i KOLUMNER")
+    fel += [f"{t}: finns i GRUPPER men inte i databasen" for t in sorted(grupperade - set(schema))]
+    return fel
+
+
+def chrome() -> str:
+    for kandidat in (os.environ.get("FORNMED_CHROME"), "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                     shutil.which("google-chrome"), shutil.which("chromium")):
+        if kandidat and Path(kandidat).exists():
+            return kandidat
+    sys.exit("Chrome hittades inte; ange programmet i FORNMED_CHROME")
+
+
+def skriv_pdf(html_fil: Path, pdf_fil: Path) -> None:
+    # Chrome vill ha en egen profilkatalog, så att ett öppet Chrome-fönster inte tar över utskriften
+    with tempfile.TemporaryDirectory() as profil:
+        subprocess.run([chrome(), "--headless", "--disable-gpu", f"--user-data-dir={profil}", "--no-pdf-header-footer",
+                        f"--print-to-pdf={pdf_fil.resolve()}", html_fil.resolve().as_uri()],
+                       check=True, capture_output=True)
+
+
 def main() -> None:
     tolk = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    tolk.add_argument("fil", help="HTML-filen som skrivs")
+    tolk.add_argument("fil", type=Path, help="HTML-filen som skrivs")
+    tolk.add_argument("--pdf", type=Path, help="PDF-filen som skrivs ut ur HTML-filen")
     argument = tolk.parse_args()
     if not db._ar_postgres():
         tolk.error("schemat läses ur Postgres; DATABASE_URL pekar mot en annan databas")
-    with open(argument.fil, "w", encoding="utf-8") as f:
-        f.write(sida(las_schema()))
+    schema = las_schema()
+    fel = saknas(schema)
+    if fel:
+        sys.exit("Beskrivningen stämmer inte med databasen:\n  " + "\n  ".join(fel))
+    argument.fil.write_text(sida(schema), encoding="utf-8")
     print(f"Skrev {argument.fil}")
+    if argument.pdf:
+        skriv_pdf(argument.fil, argument.pdf)
+        print(f"Skrev {argument.pdf}")
 
 
 if __name__ == "__main__":
