@@ -7,6 +7,14 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [1.11.2] — 2026-11-12
+
+### Fixat
+
+- `deploy/skicka_kod.sh` startar om webbplatsen och inte bara söktjänsten, så att ändringar i
+  webbplatsens mallar och moduler syns efter leveransen. Skriptet väntar tills söktjänsten och
+  webbplatsen svarar och varnar om någon av dem inte gör det.
+
 ## [1.11.1] — 2026-11-12
 
 ### Tillagt
