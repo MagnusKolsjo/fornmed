@@ -5,8 +5,13 @@ och Grágás ur heimskringla.no.
 - Íslendinga sögur: alla sagor och þættir i Guðni Jónssons utgåva
   (Reykjavík 1946–49, normaliserad stavning), i den ordning de står i
   heimskringla.nos förteckning.
-- Hervarar saga ok Heiðreks (Guðni Jónsson & Bjarni Vilhjálmsson,
-  Fornaldarsögur Norðurlanda).
+- Fornaldarsagor ur Guðni Jónsson & Bjarni Vilhjálmssons Fornaldarsögur
+  Norðurlanda: Völsunga saga och Ragnars saga loðbrókar med Norna-Gests
+  þáttr, och de sagor som utspelar sig i Sverige och Götaland (Hervarar,
+  Yngvars, Gautreks, Hrólfs saga Gautrekssonar, Bósa, Örvar-Odds,
+  Ásmundar saga kappabana, Sturlaugs, Hrólfs saga kraka, Sögubrot och
+  Af Upplendinga konungum). Ragnarssona þáttr efter Hauksbók och Krákumál
+  efter Finnur Jónssons Carmina Scaldica, med en passage per strof.
 - Ágrip af Nóregskonungasögum, Fagrskinna (Finnur Jónsson 1902–03),
   Morkinskinna (C. R. Unger 1867) och Knýtlinga saga.
 - Sven Aggesens danska krönika och Grágás, som heimskringla.no bara har i
@@ -119,14 +124,72 @@ class Konfig:
     sprak: str = "non"              # originaltextens språk på sidan
     delsidor: str | None = None     # delsidornas titel slutar på detta, 'prefix:…' eller 'alla'
     uteslut: list[str] = field(default_factory=list)
+    strofer: bool = False           # dikt med numrerade strofer i stället för kapitel
+    oversattning: tuple[str, str] | None = None  # (språk, sida) när språktabellens första val är ofullständigt
 
+
+FSN = "Guðni Jónsson & Bjarni Vilhjálmsson (utg.), Fornaldarsögur Norðurlanda, Reykjavík 1943–44"
+# Språktabellen länkar för Völsunga saga Sanders utdrag och för Krákumál Sandvigs tolkning;
+# Winkel Horns och Rafns översättningar är fullständiga
+OVERSATTNING_VAL = {"Völsunga saga": ("dan", "Saga om Vølsungerne"),
+                    "Krákumál": ("dan", "Krákumál (C. C. Rafn)")}
 
 OVRIGA = [
     Konfig("Hervarar saga ok Heiðreks", "verk:saga:hervarar_saga", "Hervarar saga ok Heiðreks", "saga",
            ("1200/1300", 12000101, 13001231),
            "Fornaldarsaga om svärdet Tyrfing och Heidreks ätt; slutar med en lista över svenska kungar "
            "från Ivar vidfamne till Filip Hallstensson.",
-           utgava="Guðni Jónsson & Bjarni Vilhjálmsson (utg.), Fornaldarsögur Norðurlanda, Reykjavík 1943–44"),
+           utgava=FSN),
+    *[Konfig(sida, f"verk:saga:{_slug(titel)}", titel, genre, datering, beskrivning, utgava=utgava,
+             oversattning=OVERSATTNING_VAL.get(sida), strofer=genre == "skaldedikt")
+      for sida, titel, genre, datering, beskrivning, utgava in [
+        ("Völsunga saga", "Völsunga saga", "saga", ("1250/1275", 12500101, 12751231),
+         "Fornaldarsaga om Völsungarnas ätt, Sigurd Fafnesbane, Brynhild och Gudrun; bevarad i en enda "
+         "handskrift från omkring 1400 (NKS 1824 b 4to) och där följd av Ragnars saga loðbrókar.", FSN),
+        ("Ragnars saga loðbrókar ok sona hans", "Ragnars saga loðbrókar ok sona hans", "saga",
+         ("1230/1270", 12300101, 12701231),
+         "Fornaldarsaga om Ragnar lodbrok, hans hustrur Tora borgarhjort och Aslög (Kraka), Sigurd "
+         "Fafnesbanes dotter, och hans söner; Ragnar dör i kung Ellas ormgrop i England.", FSN),
+        ("Ragnarssona þáttr", "Ragnarssona þáttr", "saga", ("1280/1310", 12800101, 13101231),
+         "Kort berättelse om Ragnar lodbrok och hans söners härnadståg, med ättartal fram till Harald "
+         "hårfagre; bevarad i Hauksbók (1302–10).",
+         "Eiríkur Jónsson & Finnur Jónsson (utg.), Hauksbók, København 1892–96"),
+        ("Norna-Gests þáttr", "Norna-Gests þáttr", "saga", ("1280/1320", 12800101, 13201231),
+         "Berättelse om den trehundraårige Norna-Gest, som vid Olav Tryggvasons hov berättar om "
+         "Sigurd Fafnesbane och Ragnar lodbroks söner; bevarad i Flateyjarbók.", FSN),
+        ("Krákumál", "Krákumál", "skaldedikt", ("1100/1200", 11000101, 12001231),
+         "Ragnar lodbroks dödskväde, diktat i hans namn; 29 strofer om hans härnadståg, sagt i kung "
+         "Ellas ormgrop.", "Finnur Jónsson (utg.), Carmina Scaldica, København 1913"),
+        ("Yngvars saga víðförla", "Yngvars saga víðförla", "saga", ("1200/1300", 12000101, 13001231),
+         "Fornaldarsaga om den svenske hövdingen Ingvar den vittfarnes färd österut, samma tåg som "
+         "Ingvarsstenarna i Mälardalen minns, och om hans son Sven.", FSN),
+        ("Sögubrot af nokkurum fornkonungum í Dana- ok Svíaveldi", "Sögubrot af fornkonungum", "saga",
+         ("1250/1300", 12500101, 13001231),
+         "Fragmentarisk saga om de danska och svenska sagokungarna från Ivar vidfamne till Harald "
+         "hildetand och Sigurd ring, med slaget på Bråvalla.", FSN),
+        ("Af Upplendinga konungum", "Af Upplendinga konungum", "saga", ("1250/1350", 12500101, 13501231),
+         "Kort ättartal över kungarna i Upplanden i Norge, ättlingar till Olof trätälja av "
+         "ynglingaätten.", FSN),
+        ("Hrólfs saga kraka ok kappa hans", "Hrólfs saga kraka ok kappa hans", "saga",
+         ("1300/1400", 13000101, 14001231),
+         "Fornaldarsaga om den danske sagokungen Rolf krake och hans kämpar, med färden till kung "
+         "Adils i Uppsala och guldsådden på Fyrisvallarna.", FSN),
+        ("Gautreks saga", "Gautreks saga", "saga", ("1250/1350", 12500101, 13501231),
+         "Fornaldarsaga om kungarna i Götaland: Gauti, hans son Gautrek och Starkad och Vikar.", FSN),
+        ("Hrólfs saga Gautrekssonar", "Hrólfs saga Gautrekssonar", "saga", ("1250/1300", 12500101, 13001231),
+         "Fornaldarsaga om Rolf, son till Gautrek i Götaland, och hans frieri till den svenska "
+         "kungadottern Torbjörg.", FSN),
+        ("Bósa saga ok Herrauðs", "Bósa saga ok Herrauðs", "saga", ("1300/1350", 13000101, 13501231),
+         "Fornaldarsaga om Herröd, son till kung Ring i Östergötland, och hans fosterbror Bose.", FSN),
+        ("Örvar-Odds saga", "Örvar-Odds saga", "saga", ("1250/1300", 12500101, 13001231),
+         "Fornaldarsaga om Orvar-Odd, med Hjalmar den högmodige vid den svenske kungens hov i Uppsala "
+         "och striden på Samsö mot Angantyr och hans bröder.", FSN),
+        ("Ásmundar saga kappabana", "Ásmundar saga kappabana", "saga", ("1200/1300", 12000101, 13001231),
+         "Fornaldarsaga om Asmund kämpabane och Budle, kung i Sverige, och om svärden som smiddes åt honom.",
+         FSN),
+        ("Sturlaugs saga starfsama", "Sturlaugs saga starfsama", "saga", ("1300/1400", 13000101, 14001231),
+         "Fornaldarsaga om Sturlaug den idoge och kung Ingvar i Svitjod.", FSN),
+    ]],
     Konfig("Ágrip", "verk:agrip", "Ágrip af Nóregskonungasögum", "kronika", ("1190", 11900101, 11901231),
            "Kortfattad norsk kungakrönika på fornnorska, den äldsta bevarade på folkspråket.",
            utgava="Gustav Indrebø (utg.), Ágrip. Norrøne bokverk 32, Oslo 1936"),
@@ -237,6 +300,10 @@ def normalisera_kapitel(wikitext: str) -> str:
     Fornaldarsögur har '''I. KAPÍTULI''', Grágás '''<span id="2">2.</span> Om Ligførsel'''.
     """
     wikitext = re.sub(r"</?span[^>]*>", "", wikitext)
+    # Kapitelnumret kan stå direkt efter en bildlänk på samma rad (Kröningssvärd, Winkel Horn)
+    wikitext = re.sub(r"\]\]\s*(?='''\s*\d+\.)", "]]\n", wikitext)
+    # och följas av kapitlets första stycke på samma rad; det är text, ingen rubrik
+    wikitext = re.sub(r"(?m)^('''\s*\d+\.\s*''')[ \t]*(?=[^\n]{150})", r"\1\n", wikitext)
     return re.sub(r"(?m)^'''\s*([IVXLC]+)\.\s*KAP[ÍI]TULI\s*'''",
                   lambda m: f"'''{_romersk(m.group(1))}.'''", wikitext)
 
@@ -256,6 +323,22 @@ def kapitel_fran_forsta(wikitext: str) -> list[tuple[int, str, str]]:
         slut = next((t.start() for t in traffar[i + 1:] if int(t.group(1)) == nr + 1), len(wikitext))
         ut.append((nr, rensa_wiki(m.group(2)).strip(" ."), rensa_wiki(wikitext[m.end():slut])))
         forra = nr
+    return ut
+
+
+def strofer(wikitext: str) -> list[tuple[int, str, str]]:
+    """(nummer, '', text) per strof i en dikt där strofen inleds med sitt nummer ('1.' eller '1. Svunge vi')."""
+    if "Velg språk" in wikitext:
+        wikitext = wikitext[wikitext.find("|}", wikitext.find("Velg språk")) + 2:]
+    # Faktarutan om dikten hör inte till texten
+    wikitext = re.sub(r'<div class="toccolours">.*?</div>', "", wikitext, flags=re.S)
+    text = rensa_wiki(re.sub(r"<br\s*/?>", "\n", wikitext))
+    ut, forra = [], 0
+    for m in re.finditer(r"(?ms)^\s*(\d+)\.\s*(.*?)(?=^\s*\d+\.\s|\Z)", text):
+        nr = int(m.group(1))
+        if nr == forra + 1:
+            ut.append((nr, "", re.sub(r"(?m)^Kategori:.*$", "", m.group(2)).strip()))
+            forra = nr
     return ut
 
 
@@ -373,6 +456,14 @@ def islendinga_konfig() -> list[Konfig]:
 
 def lagg_till_text(paket: Kallpaket, k: Konfig, sida: str, typ: str, sprak: str, utgava_id: str,
                    delprefix: str = "", deladress: str = "", ordning_bas: int = 0) -> int:
+    if k.strofer:
+        w, _ = hamta_wikitext(sida)
+        slug = k.verk_id.split(':', 1)[1].replace(':', '_')
+        for nr, _, text in strofer(w):
+            paket.passager.append((k.verk_id, Passage(
+                id=f"{slug}:{sprak}:{nr}", typ=typ, adress=f"str. {nr}", sprak=sprak, text=stada(text),
+                ordning=ordning_bas + nr, utgava_id=utgava_id, url=sidlank(sida))))
+        return len(strofer(w))
     w, _ = hamta_wikitext(sida)
     # Fagrskinnas sidor upprepar texten under "===Tekst med fotnoter===" med
     # utgivarens fotnoter; bara den första versionen tas med
@@ -436,7 +527,7 @@ def lagg_till_verk(paket: Kallpaket, k: Konfig, sagadb: dict[str, set[str]]) -> 
     if k.sprak != "non":
         log.info("%-44s %4d passager (%s)", k.titel, n, k.sprak)
         return
-    rad = sprakrad(w)
+    rad = dict([k.oversattning]) if k.oversattning else sprakrad(w)
     for sprak in ("swe", "dan"):
         sida = rad.get(sprak)
         # Språktabellen kan länka en annan originaltext (verserna ur en skaldediktsutgåva)
