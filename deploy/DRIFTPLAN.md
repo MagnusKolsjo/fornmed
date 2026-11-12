@@ -124,8 +124,8 @@ version 16: en kopia från en nyare `pg_dump` kan inte läsas av en äldre
 4. Den första databaskopian, på utvecklingsdatorn:
    `deploy/skicka_databas.sh "Första leveransen"`.
 
-Därefter skickas ny kod med `deploy/skicka_kod.sh` och nya kopior med
-`deploy/skicka_databas.sh`. En misslyckad kopia lämnar den gamla orörd, och
+Därefter skickas ny kod med `deploy/skicka_kod.sh`, som också startar om söktjänsten och
+webbplatsen, och nya kopior med `deploy/skicka_databas.sh`. En misslyckad kopia lämnar den gamla orörd, och
 `sudo bash deploy/las_in_databas.sh --aterstall` tar tillbaka den förra.
 
 ## Leverans av data
