@@ -5,6 +5,8 @@ Etiketterna hämtas från API:ets vokabulär (/v1/vokabularer), som är samma
 som databasen använder, så att webbplatsen aldrig visar en kod.
 """
 
+import re
+
 from . import kallor, texter
 
 
@@ -55,3 +57,29 @@ def bedomningsruta(b: dict) -> dict:
         "sakerhet": etikett("sakerhet", b.get("sakerhet")).lower() if b.get("sakerhet") else None,
         "granskad": b.get("granskad", False),
     }
+
+
+# Hänvisningen till Diplomatarium Danicum i ett SDHK-brevs tryckuppgift, t.ex. "DD III:9, nr 87"
+_DD_REF = re.compile(r"\bDD\s*(?:[IVX]+|\d+)?\s*:\s*\d+\s*,?\s*nr\s*\d+\b")
+
+
+def tryck(uppgifter: dict) -> list[dict]:
+    """
+    Verkets tryck och tryckta regester (SDHK:s fält Tryck och Tryckt regest)
+    som rader för sidan. Hänvisningen till Diplomatarium Danicum blir länk till
+    brevet i DSL:s utgåva när verket har en sådan länk (lankar.py), så att
+    läsaren kan gå vidare till utgåvan.
+    """
+    dd = [l["uri"] for l in uppgifter.get("externa_lankar", []) if l["kalla"] == "diplomatarium_danicum"]
+
+    def delar(ref: str) -> dict:
+        m = _DD_REF.search(ref) if len(dd) == 1 else None
+        return ({"fore": ref[:m.start()], "dd": m.group(0), "efter": ref[m.end():], "url": dd[0]}
+                if m else {"fore": ref})
+
+    grupper = [
+        ("Tryck", [u["referens"] for u in uppgifter.get("utgavor", []) if ":tryck:" in u["id"] and u.get("referens")]),
+        ("Tryckt regest", [v["beskrivning"] for v in uppgifter.get("vittnen", [])
+                           if v["typ"] == "tryckt_regest" and v.get("beskrivning")]),
+    ]
+    return [{"etikett": etikett, "rader": [delar(r) for r in refs]} for etikett, refs in grupper if refs]

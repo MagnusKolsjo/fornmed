@@ -241,12 +241,18 @@ bli fakta. Fornmeds egna klasser och egenskaper finns i
 ```
 
 Länkarna till Wikidata (för runinskrifterna), Kulturmiljöregistret,
-Samnordisk runtextdatabas, TORA och Kartverkets ortnamnsregister tas fram och
-läses in med
+Samnordisk runtextdatabas, TORA, Kartverkets ortnamnsregister och Diplomatarium
+Danicum tas fram och läses in med
 
 ```bash
-.venv/bin/python lankar.py --hamta
+.venv/bin/python lankar.py --hamta --hamta-dd
 ```
+
+SDHK-brev som hänvisar till Diplomatarium Danicum länkas till brevet i Det
+Danske Sprog- og Litteraturselskabs utgåva på tekstnet.dk. Adressen tas ur
+utgåvans årsförteckning, som anger varje brevs DD-nummer. Bara adresserna
+sparas, inga regester eller texter ur utgåvan. På brevsidan blir
+DD-hänvisningen i tryckuppgiften en länk som öppnas i en ny flik.
 
 Utan `--hamta` frågas inte Wikidata, och runinskrifternas länkar tas ur
 `data/lankar/lankar.tsv`.

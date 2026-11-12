@@ -299,10 +299,15 @@ resten. Länkar som Wikidata redan har till VIAF, GND och GeoNames upprepas inte
 | Riksantikvarieämbetets sockenauktoritet, kommuner och län | Socknar, kommuner och län | Sockenkoden och SCB:s kommun- och länskoder |
 | TORA | Platser vars läge kommer från TORA | Numret i platslexikonets beslut |
 | Kartverkets ortnamnsregister | Norska platser vars läge kommer från registret | Ortnamnets nummer, när koordinaterna stämmer |
+| Diplomatarium Danicum (DSL, tekstnet.dk) | SDHK-brev som hänvisar till DD (verk) | DD-numret i SDHK:s tryckuppgift, sökt i utgåvans årsförteckning under brevets år |
 
 Länkar till Wikidata, Kulturmiljöregistret och Samnordisk runtextdatabas via signumet är
 `skos:exactMatch`. Länkar till TORA och Kartverket är `skos:closeMatch`, eftersom
-platsens identifiering är en bedömning. `lankar.py` i projektets rotkatalog tar fram
+platsens identifiering är en bedömning. Ett SDHK-brev som SDHK anger som tryckt i
+Diplomatarium Danicum får `skos:exactMatch` när DD-brevets dag stämmer med SDHK:s
+datering och `skos:closeMatch` när bara år och nummer gör det. När DD bara anges för
+en tryckt regest blir länken `rdfs:seeAlso`, eftersom regesten ofta står under ett annat
+brevs nummer, till exempel brevet som vidimeras. `lankar.py` i projektets rotkatalog tar fram
 länkarna, skriver dem till `data/lankar/lankar.tsv` och läser in dem i databasen.
 
 ### Begrepp

@@ -69,6 +69,9 @@
       {% if version.referens %}Utgåva: {{ version.referens }}{% endif %}
       {% if version.licens %}<br>Licens: {{ version.licens }}{% endif %}
     </p>
+    {% if tryck %}
+    {% for g in tryck %}<p class="metadata">{{ g.etikett }}: {% for t in g.rader %}{{ t.fore }}{% if t.url %}<a href="{{ t.url }}" target="_blank" rel="noopener" title="Diplomatarium Danicum hos Det Danske Sprog- og Litteraturselskab, öppnas i ny flik">{{ t.dd }}<span aria-hidden="true"> ↗</span><span class="dold"> – Diplomatarium Danicum hos DSL, öppnas i ny flik</span></a>{{ t.efter }}{% endif %}{% if not forloop.last %}; {% endif %}{% endfor %}</p>{% endfor %}
+    {% endif %}
     <p class="metadata">Hämta texten:
       <a href="{{ api_url }}/v1/verk/{{ verk.id }}/text?format=md&amp;utgava={{ vald.utgava|urlencode }}">Markdown</a> ·
       <a href="{{ api_url }}/v1/verk/{{ verk.id }}/text?format=txt&amp;utgava={{ vald.utgava|urlencode }}">text</a> ·

@@ -94,6 +94,7 @@ class KallforteckningSida(RoutablePageMixin, TextSida):
         except texter.TextFel:
             uppgifter = None
             sida["bedomningar"] = []
+        sida["tryck"] = klartext.tryck(uppgifter or {})
         # Påståendena ur verket visas i en egen ruta, skild från källtexten
         sida["pastaenden"] = register.verkets_pastaenden(sida["verk"]["id"])
         # Rutan visas när läsaren slår på reglaget; utan skript styrs den av adressen

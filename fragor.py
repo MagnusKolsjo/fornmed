@@ -101,6 +101,11 @@ def hamta_verk(verk_id: str) -> dict | None:
     verk["utgavor"] = _rader(
         f"SELECT id, referens, licens FROM {p}utgava WHERE verk_id = {ph} ORDER BY id", (verk_id,)
     )
+    # Samma verk i andra datamängder, t.ex. brevet i Diplomatarium Danicums utgåva (lankar.py)
+    verk["externa_lankar"] = _rader(
+        f"SELECT uri, relation, kalla FROM {p}extern_lank WHERE post_typ = 'verk' AND post_id = {ph} "
+        f"ORDER BY kalla, uri", (verk_id,)
+    )
     verk["passager"] = _rader(
         f"""
         SELECT id, typ, adress, sprak, length(text) AS tecken, url AS underlag_url
