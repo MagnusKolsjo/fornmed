@@ -559,6 +559,7 @@ sådana passager får flyttas eller tas bort för hand.
 .venv/bin/python -m tolkar.liber_monstrorum
 .venv/bin/python -m tolkar.fornsvenska_lagar
 .venv/bin/python -m tolkar.fornsvenska_kronikor
+.venv/bin/python -m tolkar.fornsvenska_texter
 .venv/bin/python -m tolkar.sagor_heimskringla
 .venv/bin/python -m tolkar.storm_mhn
 .venv/bin/python -m tolkar.ottar_wulfstan
@@ -583,10 +584,11 @@ sådana passager får flyttas eller tas bort för hand.
 | `liber_monstrorum` | Liber monstrorum, tre böcker | Haupt 1863, OCR ur Internet Archive (PD); svenska: språkmodellsöversättning | per bok och kapitel i Haupts numrering |
 | `fornsvenska_lagar` | Landskapslagarna, Magnus Erikssons lands- och stadslag, Kristoffers landslag m.fl. (32 texter) | Fornsvenska textbankens material, Språkbanken, CC BY 4.0; svenska: språkmodellsöversättning | per flock med hänvisning i formen "UL Äb 10"; fragment och inledningar per stycke |
 | `fornsvenska_kronikor` | Erikskrönikan, Karlskrönikan, Konungastyrelsen, Prosaiska krönikan (början) | Fornsvenska textbankens material, Språkbanken, CC BY 4.0 | per sida i utgåvan |
+| `fornsvenska_texter` | Legender om Erik den helige, Sigfrid, Olav, Magnus jarl, Katarina och Birgitta, Ansgars levnad efter Rimbert, Fornsvenska legendariet, Järteckensboken; Birgittas uppenbarelser i sju handskrifter, hennes autografer och Regula Salvatoris; Didrikssagan, Eufemiavisorna, Fornsvenska ordspråk; Olaus Petris och Peder Swarts krönikor; läkeböckerna och Peder Månssons Bondakonst (32 verk) | Fornsvenska textbankens material, Språkbanken, CC BY 4.0 | per sida i utgåvan; ett verk efter flera handskrifter har en utgåva per handskrift; ordspråken i grupper om 50 |
 | `storm_mhn` | Theodoricus monachus, Historia de antiquitate regum Norwagiensium; Historia Norwegie (latin) | Storm, Monumenta historica Norvegiæ 1880, OCR ur Internet Archive (två skanningar som rättar varandra; PD); svenska: språkmodellsöversättning | Theodoricus per kapitel, Historia Norwegie per rubrik, med Storms sidor |
 | `ottar_wulfstan` | Ottars och Wulfstans berättelser och beskrivningen av Europas norra folk ur den fornengelska Orosius | Sweet 1885, OCR ur Internet Archive, rensad av språkmodell (ogranskad, `data/transkriptioner/`); svenska: språkmodellsöversättning | per stycke med Sweets sida och rader |
 | `olaus_magnus` | Olaus Magnus, Historia de gentibus septentrionalibus (1555), alla 22 böcker | Project Runeberg efter Nasjonalbibliotekets skanning och OCR (PD); svenska: språkmodellsöversättning | per bok och kapitel med tryckets sidor |
-| `sagor_heimskringla` | Islänningasagor och þættir (Íslendinga sögur), Íslendingabók, Landnámabók, Hervarar saga, Ágrip, Fagrskinna, Morkinskinna, Knýtlinga saga; Sven Aggesen och Grágás i dansk översättning | Guðni Jónsson m.fl. (heimskringla.no); sagor som saknas där ur Icelandic Saga Database (sagadb.org, modern isländsk stavning); äldre svenska, danska och engelska översättningar tryckta före 1931 (PD) | per kapitel; Fagrskinna, Morkinskinna, Landnámabók och Grágás per delsida och kapitel |
+| `sagor_heimskringla` | Islänningasagor och þættir (Íslendinga sögur), Íslendingabók, Landnámabók; fornaldarsagor: Völsunga saga, Ragnars saga loðbrókar, Ragnarssona þáttr, Norna-Gests þáttr, Krákumál och sagorna med svensk anknytning (Hervarar, Yngvars, Gautreks, Hrólfs saga Gautrekssonar, Bósa, Örvar-Odds, Ásmundar saga kappabana, Sturlaugs, Hrólfs saga kraka, Sögubrot, Af Upplendinga konungum); Ágrip, Fagrskinna, Morkinskinna, Knýtlinga saga; Sven Aggesen och Grágás i dansk översättning | Guðni Jónsson m.fl. (heimskringla.no); sagor som saknas där ur Icelandic Saga Database (sagadb.org, modern isländsk stavning); äldre svenska, danska och engelska översättningar tryckta före 1931 (PD) | per kapitel; Fagrskinna, Morkinskinna, Landnámabók och Grágás per delsida och kapitel |
 
 Begränsningar:
 

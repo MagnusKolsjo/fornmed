@@ -1,0 +1,208 @@
+[
+ [
+  {
+   "verk": "verk:fsv:ansgarii_leverne",
+   "fran": 0,
+   "till": 51,
+   "tecken": 71504,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/ansgarii_leverne__0-51.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:katarina_av_sverige",
+   "fran": 0,
+   "till": 51,
+   "tecken": 70732,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/katarina_av_sverige__0-51.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:ansgarii_leverne",
+   "fran": 51,
+   "till": 90,
+   "tecken": 55160,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/ansgarii_leverne__51-90.json"
+  },
+  {
+   "verk": "verk:fsv:olavslegenden",
+   "fran": 0,
+   "till": 14,
+   "tecken": 14432,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/olavslegenden__0-14.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:erikslegenden",
+   "fran": 0,
+   "till": 6,
+   "tecken": 6239,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/erikslegenden__0-6.json"
+  },
+  {
+   "verk": "verk:fsv:om_erik_den_helige",
+   "fran": 0,
+   "till": 40,
+   "tecken": 49037,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/om_erik_den_helige__0-40.json"
+  },
+  {
+   "verk": "verk:fsv:katarina_av_sverige",
+   "fran": 51,
+   "till": 65,
+   "tecken": 19905,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/katarina_av_sverige__51-65.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_liv",
+   "fran": 0,
+   "till": 20,
+   "tecken": 33869,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/birgittas_liv__0-20.json"
+  },
+  {
+   "verk": "verk:fsv:sigfridslegenden",
+   "fran": 0,
+   "till": 16,
+   "tecken": 18162,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/sigfridslegenden__0-16.json"
+  },
+  {
+   "verk": "verk:fsv:birgittaautograferna",
+   "fran": 0,
+   "till": 9,
+   "tecken": 9889,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/birgittaautograferna__0-9.json"
+  },
+  {
+   "verk": "verk:fsv:magnus_jarl",
+   "fran": 0,
+   "till": 6,
+   "tecken": 6806,
+   "sprak": "fornsvenska",
+   "fil": "data/oversattningar/fornsvenska/magnus_jarl__0-6.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:hrolfs_saga_gautrekssonar",
+   "fran": 14,
+   "till": 26,
+   "tecken": 70581,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/hrolfs_saga_gautrekssonar__14-26.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:sturlaugs_saga_starfsama",
+   "fran": 0,
+   "till": 28,
+   "tecken": 69079,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/sturlaugs_saga_starfsama__0-28.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:orvar_odds_saga",
+   "fran": 13,
+   "till": 25,
+   "tecken": 66939,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/orvar_odds_saga__13-25.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:hrolfs_saga_gautrekssonar",
+   "fran": 0,
+   "till": 14,
+   "tecken": 64278,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/hrolfs_saga_gautrekssonar__0-14.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:orvar_odds_saga",
+   "fran": 0,
+   "till": 13,
+   "tecken": 62743,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/orvar_odds_saga__0-13.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:gautreks_saga",
+   "fran": 0,
+   "till": 11,
+   "tecken": 55047,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/gautreks_saga__0-11.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:bosa_saga_ok_herrauds",
+   "fran": 0,
+   "till": 16,
+   "tecken": 51798,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/bosa_saga_ok_herrauds__0-16.json"
+  },
+  {
+   "verk": "verk:saga:ragnarssona_thattr",
+   "fran": 0,
+   "till": 4,
+   "tecken": 17991,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/ragnarssona_thattr__0-4.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:yngvars_saga_vidforla",
+   "fran": 0,
+   "till": 14,
+   "tecken": 49749,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/yngvars_saga_vidforla__0-14.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:orvar_odds_saga",
+   "fran": 25,
+   "till": 32,
+   "tecken": 46932,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/orvar_odds_saga__25-32.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:saga:hrolfs_saga_gautrekssonar",
+   "fran": 26,
+   "till": 37,
+   "tecken": 38781,
+   "sprak": "fornvästnordiska",
+   "fil": "data/oversattningar/sagor/hrolfs_saga_gautrekssonar__26-37.json"
+  }
+ ]
+]

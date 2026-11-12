@@ -1,0 +1,156 @@
+[
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 0,
+   "till": 34,
+   "tecken": 71275,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__0-34.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 34,
+   "till": 67,
+   "tecken": 69944,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__34-67.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 67,
+   "till": 100,
+   "tecken": 70576,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__67-100.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 100,
+   "till": 133,
+   "tecken": 70311,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__100-133.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 133,
+   "till": 166,
+   "tecken": 70201,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__133-166.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 166,
+   "till": 199,
+   "tecken": 70005,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__166-199.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 199,
+   "till": 231,
+   "tecken": 70134,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__199-231.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 231,
+   "till": 265,
+   "tecken": 71676,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__231-265.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:olaus_petris_kronika",
+   "fran": 265,
+   "till": 297,
+   "tecken": 65958,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:olaus_petris_kronika",
+   "fil": "data/oversattningar/fornsvenska/olaus_petris_kronika__265-297.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:peder_swarts_kronika",
+   "fran": 0,
+   "till": 36,
+   "tecken": 70434,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:peder_swarts_kronika",
+   "fil": "data/oversattningar/fornsvenska/peder_swarts_kronika__0-36.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:peder_swarts_kronika",
+   "fran": 36,
+   "till": 71,
+   "tecken": 70133,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:peder_swarts_kronika",
+   "fil": "data/oversattningar/fornsvenska/peder_swarts_kronika__36-71.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:peder_swarts_kronika",
+   "fran": 71,
+   "till": 106,
+   "tecken": 71001,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:peder_swarts_kronika",
+   "fil": "data/oversattningar/fornsvenska/peder_swarts_kronika__71-106.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:peder_swarts_kronika",
+   "fran": 106,
+   "till": 141,
+   "tecken": 71450,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:peder_swarts_kronika",
+   "fil": "data/oversattningar/fornsvenska/peder_swarts_kronika__106-141.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:peder_swarts_kronika",
+   "fran": 141,
+   "till": 157,
+   "tecken": 31063,
+   "sprak": "äldre nysvenska",
+   "utgava": "utgava:fsv:peder_swarts_kronika",
+   "fil": "data/oversattningar/fornsvenska/peder_swarts_kronika__141-157.json"
+  }
+ ]
+]

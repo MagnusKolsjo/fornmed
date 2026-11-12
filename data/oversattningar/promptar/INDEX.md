@@ -7,6 +7,119 @@
 | `data/oversattningar/arabiska_sv.json` | [068_granska_ibn_fadlan_1_2.md](068_granska_ibn_fadlan_1_2.md), [069_granska_ibn_fadlan_3_5.md](069_granska_ibn_fadlan_3_5.md), [070_granska_ovriga_arabiska.md](070_granska_ovriga_arabiska.md) |
 | `data/oversattningar/beowulf_sv.json` | [001_pilotoversattning_lagar_m_m.md](001_pilotoversattning_lagar_m_m.md) |
 | `data/oversattningar/eddan_sv.json` | [001_pilotoversattning_lagar_m_m.md](001_pilotoversattning_lagar_m_m.md) |
+| `data/oversattningar/fornsvenska/ansgarii_leverne__0-51.json` | [210_oversatt_uppdrag_60_ansgarii_leverne.md](210_oversatt_uppdrag_60_ansgarii_leverne.md) |
+| `data/oversattningar/fornsvenska/ansgarii_leverne__51-90.json` | [212_oversatt_uppdrag_62_ansgarii_leverne_olavslegenden.md](212_oversatt_uppdrag_62_ansgarii_leverne_olavslegenden.md) |
+| `data/oversattningar/fornsvenska/birgittaautograferna__0-9.json` | [214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md](214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md) |
+| `data/oversattningar/fornsvenska/birgittas_liv__0-20.json` | [214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md](214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__0-51.json` | [245_oversatt_uppdrag_95_birgittas_uppenbarelser.md](245_oversatt_uppdrag_95_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__100-150.json` | [247_oversatt_uppdrag_97_birgittas_uppenbarelser.md](247_oversatt_uppdrag_97_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1036-1088.json` | [264_oversatt_uppdrag_114_birgittas_uppenbarelser.md](264_oversatt_uppdrag_114_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1088-1139.json` | [265_oversatt_uppdrag_115_birgittas_uppenbarelser.md](265_oversatt_uppdrag_115_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1139-1188.json` | [266_oversatt_uppdrag_116_birgittas_uppenbarelser.md](266_oversatt_uppdrag_116_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1188-1236.json` | [267_oversatt_uppdrag_117_birgittas_uppenbarelser.md](267_oversatt_uppdrag_117_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1236-1284.json` | [268_oversatt_uppdrag_118_birgittas_uppenbarelser.md](268_oversatt_uppdrag_118_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1284-1297.json` | [240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md](240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1297-1349.json` | [295_oversatt_uppdrag_144_birgittas_uppenbarelser](295_oversatt_uppdrag_144_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1349-1399.json` | [296_oversatt_uppdrag_145_birgittas_uppenbarelser](296_oversatt_uppdrag_145_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1399-1439.json` | [297_oversatt_uppdrag_146_birgittas_uppenbarelser](297_oversatt_uppdrag_146_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1439-1459.json` | [269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md](269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1459-1468.json` | [230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md](230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1468-1518.json` | [270_oversatt_uppdrag_120_birgittas_uppenbarelser.md](270_oversatt_uppdrag_120_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__150-199.json` | [248_oversatt_uppdrag_98_birgittas_uppenbarelser.md](248_oversatt_uppdrag_98_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1518-1567.json` | [271_oversatt_uppdrag_121_birgittas_uppenbarelser.md](271_oversatt_uppdrag_121_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__1567-1569.json` | [233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md](233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__199-249.json` | [249_oversatt_uppdrag_99_birgittas_uppenbarelser.md](249_oversatt_uppdrag_99_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__249-297.json` | [250_oversatt_uppdrag_100_birgittas_uppenbarelser.md](250_oversatt_uppdrag_100_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__297-347.json` | [251_oversatt_uppdrag_101_birgittas_uppenbarelser.md](251_oversatt_uppdrag_101_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__347-395.json` | [252_oversatt_uppdrag_102_birgittas_uppenbarelser.md](252_oversatt_uppdrag_102_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__395-399.json` | [230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md](230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__399-474.json` | [294_oversatt_uppdrag_143_birgittas_uppenbarelser](294_oversatt_uppdrag_143_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__474-489.json` | [293_oversatt_uppdrag_142_legendariet_birgittas_uppenbarelser](293_oversatt_uppdrag_142_legendariet_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__489-539.json` | [253_oversatt_uppdrag_103_birgittas_uppenbarelser.md](253_oversatt_uppdrag_103_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__51-100.json` | [246_oversatt_uppdrag_96_birgittas_uppenbarelser.md](246_oversatt_uppdrag_96_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__539-589.json` | [254_oversatt_uppdrag_104_birgittas_uppenbarelser.md](254_oversatt_uppdrag_104_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__589-638.json` | [255_oversatt_uppdrag_105_birgittas_uppenbarelser.md](255_oversatt_uppdrag_105_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__638-688.json` | [256_oversatt_uppdrag_106_birgittas_uppenbarelser.md](256_oversatt_uppdrag_106_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__688-738.json` | [257_oversatt_uppdrag_107_birgittas_uppenbarelser.md](257_oversatt_uppdrag_107_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__738-789.json` | [258_oversatt_uppdrag_108_birgittas_uppenbarelser.md](258_oversatt_uppdrag_108_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__789-840.json` | [259_oversatt_uppdrag_109_birgittas_uppenbarelser.md](259_oversatt_uppdrag_109_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__840-889.json` | [260_oversatt_uppdrag_110_birgittas_uppenbarelser.md](260_oversatt_uppdrag_110_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__889-937.json` | [261_oversatt_uppdrag_111_birgittas_uppenbarelser.md](261_oversatt_uppdrag_111_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__937-986.json` | [262_oversatt_uppdrag_112_birgittas_uppenbarelser.md](262_oversatt_uppdrag_112_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/birgittas_uppenbarelser__986-1036.json` | [263_oversatt_uppdrag_113_birgittas_uppenbarelser.md](263_oversatt_uppdrag_113_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/bondakonst__0-81.json` | [272_oversatt_uppdrag_122_bondakonst.md](272_oversatt_uppdrag_122_bondakonst.md) |
+| `data/oversattningar/fornsvenska/bondakonst__174-242.json` | [274_oversatt_uppdrag_124_bondakonst.md](274_oversatt_uppdrag_124_bondakonst.md) |
+| `data/oversattningar/fornsvenska/bondakonst__242-257.json` | [240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md](240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md) |
+| `data/oversattningar/fornsvenska/bondakonst__81-174.json` | [273_oversatt_uppdrag_123_bondakonst.md](273_oversatt_uppdrag_123_bondakonst.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__0-56.json` | [225_oversatt_uppdrag_75_didrikssagan.md](225_oversatt_uppdrag_75_didrikssagan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__111-165.json` | [227_oversatt_uppdrag_77_didrikssagan.md](227_oversatt_uppdrag_77_didrikssagan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__165-205.json` | [228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md](228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__205-260.json` | [229_oversatt_uppdrag_79_didrikssagan.md](229_oversatt_uppdrag_79_didrikssagan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__260-300.json` | [230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md](230_oversatt_uppdrag_80_didrikssagan_birgittas_uppenbarelser.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/didrikssagan__56-111.json` | [226_oversatt_uppdrag_76_didrikssagan.md](226_oversatt_uppdrag_76_didrikssagan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/erikslegenden__0-6.json` | [213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md](213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md) |
+| `data/oversattningar/fornsvenska/flores_och_blanzeflor__0-138.json` | [241_oversatt_uppdrag_91_flores_och_blanzeflor.md](241_oversatt_uppdrag_91_flores_och_blanzeflor.md) |
+| `data/oversattningar/fornsvenska/flores_och_blanzeflor__138-141.json` | [228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md](228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md) |
+| `data/oversattningar/fornsvenska/herr_ivan__0-143.json` | [236_oversatt_uppdrag_86_herr_ivan.md](236_oversatt_uppdrag_86_herr_ivan.md) |
+| `data/oversattningar/fornsvenska/herr_ivan__143-279.json` | [237_oversatt_uppdrag_87_herr_ivan.md](237_oversatt_uppdrag_87_herr_ivan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/herr_ivan__279-408.json` | [238_oversatt_uppdrag_88_herr_ivan.md](238_oversatt_uppdrag_88_herr_ivan.md), [283_samordna_namn_ivan_didrik_birgitta](283_samordna_namn_ivan_didrik_birgitta.md) |
+| `data/oversattningar/fornsvenska/hertig_fredrik__0-118.json` | [239_oversatt_uppdrag_89_hertig_fredrik.md](239_oversatt_uppdrag_89_hertig_fredrik.md) |
+| `data/oversattningar/fornsvenska/hertig_fredrik__118-170.json` | [240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md](240_oversatt_uppdrag_90_hertig_fredrik_birgittas_uppenbarelser_bondakonst.md) |
+| `data/oversattningar/fornsvenska/jarteckensboken__0-57.json` | [234_oversatt_uppdrag_84_jarteckensboken.md](234_oversatt_uppdrag_84_jarteckensboken.md) |
+| `data/oversattningar/fornsvenska/jarteckensboken__112-126.json` | [228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md](228_oversatt_uppdrag_78_didrikssagan_jarteckensboken_flores_och_blanzeflor.md) |
+| `data/oversattningar/fornsvenska/jarteckensboken__57-112.json` | [235_oversatt_uppdrag_85_jarteckensboken.md](235_oversatt_uppdrag_85_jarteckensboken.md) |
+| `data/oversattningar/fornsvenska/katarina_av_sverige__0-51.json` | [211_oversatt_uppdrag_61_katarina_av_sverige.md](211_oversatt_uppdrag_61_katarina_av_sverige.md) |
+| `data/oversattningar/fornsvenska/katarina_av_sverige__51-65.json` | [213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md](213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md) |
+| `data/oversattningar/fornsvenska/lakebok_10__0-13.json` | [275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md](275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md) |
+| `data/oversattningar/fornsvenska/lakebok_11__0-15.json` | [276_oversatt_uppdrag_126_lakebok_2_lakebok_11.md](276_oversatt_uppdrag_126_lakebok_2_lakebok_11.md) |
+| `data/oversattningar/fornsvenska/lakebok_1__0-14.json` | [242_oversatt_uppdrag_92_ordsprak_lakebok_1.md](242_oversatt_uppdrag_92_ordsprak_lakebok_1.md) |
+| `data/oversattningar/fornsvenska/lakebok_2__0-43.json` | [276_oversatt_uppdrag_126_lakebok_2_lakebok_11.md](276_oversatt_uppdrag_126_lakebok_2_lakebok_11.md) |
+| `data/oversattningar/fornsvenska/lakebok_3__0-53.json` | [277_oversatt_uppdrag_127_lakebok_3.md](277_oversatt_uppdrag_127_lakebok_3.md) |
+| `data/oversattningar/fornsvenska/lakebok_3__53-90.json` | [278_oversatt_uppdrag_128_lakebok_3.md](278_oversatt_uppdrag_128_lakebok_3.md) |
+| `data/oversattningar/fornsvenska/lakebok_4__0-9.json` | [269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md](269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md) |
+| `data/oversattningar/fornsvenska/lakebok_5_6__0-19.json` | [269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md](269_oversatt_uppdrag_119_birgittas_uppenbarelser_lakebok_4_lakebok_5_6.md) |
+| `data/oversattningar/fornsvenska/lakebok_7__0-55.json` | [279_oversatt_uppdrag_129_lakebok_7.md](279_oversatt_uppdrag_129_lakebok_7.md) |
+| `data/oversattningar/fornsvenska/lakebok_7__109-165.json` | [281_oversatt_uppdrag_131_lakebok_7.md](281_oversatt_uppdrag_131_lakebok_7.md) |
+| `data/oversattningar/fornsvenska/lakebok_7__165-204.json` | [282_oversatt_uppdrag_132_lakebok_7.md](282_oversatt_uppdrag_132_lakebok_7.md) |
+| `data/oversattningar/fornsvenska/lakebok_7__55-109.json` | [280_oversatt_uppdrag_130_lakebok_7.md](280_oversatt_uppdrag_130_lakebok_7.md) |
+| `data/oversattningar/fornsvenska/lakebok_8__0-10.json` | [275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md](275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md) |
+| `data/oversattningar/fornsvenska/lakebok_benz_22__0-4.json` | [233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md](233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md) |
+| `data/oversattningar/fornsvenska/legendariet__0-72.json` | [231_oversatt_uppdrag_81_legendariet.md](231_oversatt_uppdrag_81_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__147-191.json` | [233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md](233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md) |
+| `data/oversattningar/fornsvenska/legendariet__191-249.json` | [284_oversatt_uppdrag_133_legendariet](284_oversatt_uppdrag_133_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__249-304.json` | [285_oversatt_uppdrag_134_legendariet](285_oversatt_uppdrag_134_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__304-361.json` | [286_oversatt_uppdrag_135_legendariet](286_oversatt_uppdrag_135_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__361-423.json` | [287_oversatt_uppdrag_136_legendariet](287_oversatt_uppdrag_136_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__423-496.json` | [288_oversatt_uppdrag_137_legendariet](288_oversatt_uppdrag_137_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__496-562.json` | [289_oversatt_uppdrag_138_legendariet](289_oversatt_uppdrag_138_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__562-623.json` | [290_oversatt_uppdrag_139_legendariet](290_oversatt_uppdrag_139_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__623-692.json` | [291_oversatt_uppdrag_140_legendariet](291_oversatt_uppdrag_140_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__692-786.json` | [292_oversatt_uppdrag_141_legendariet](292_oversatt_uppdrag_141_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__72-147.json` | [232_oversatt_uppdrag_82_legendariet.md](232_oversatt_uppdrag_82_legendariet.md) |
+| `data/oversattningar/fornsvenska/legendariet__786-859.json` | [293_oversatt_uppdrag_142_legendariet_birgittas_uppenbarelser](293_oversatt_uppdrag_142_legendariet_birgittas_uppenbarelser.md) |
+| `data/oversattningar/fornsvenska/magnus_jarl__0-6.json` | [214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md](214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__0-34.json` | [298_oversatt_uppdrag_147_olaus_petris_kronika](298_oversatt_uppdrag_147_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__100-133.json` | [301_oversatt_uppdrag_150_olaus_petris_kronika](301_oversatt_uppdrag_150_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__133-166.json` | [302_oversatt_uppdrag_151_olaus_petris_kronika](302_oversatt_uppdrag_151_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__166-199.json` | [303_oversatt_uppdrag_152_olaus_petris_kronika](303_oversatt_uppdrag_152_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__199-231.json` | [304_oversatt_uppdrag_153_olaus_petris_kronika](304_oversatt_uppdrag_153_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__231-265.json` | [305_oversatt_uppdrag_154_olaus_petris_kronika](305_oversatt_uppdrag_154_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__265-297.json` | [306_oversatt_uppdrag_155_olaus_petris_kronika](306_oversatt_uppdrag_155_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__34-67.json` | [299_oversatt_uppdrag_148_olaus_petris_kronika](299_oversatt_uppdrag_148_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olaus_petris_kronika__67-100.json` | [300_oversatt_uppdrag_149_olaus_petris_kronika](300_oversatt_uppdrag_149_olaus_petris_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/olavslegenden__0-14.json` | [212_oversatt_uppdrag_62_ansgarii_leverne_olavslegenden.md](212_oversatt_uppdrag_62_ansgarii_leverne_olavslegenden.md) |
+| `data/oversattningar/fornsvenska/om_erik_den_helige__0-40.json` | [213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md](213_oversatt_uppdrag_63_erikslegenden_om_erik_den_helige_katarina_av_sverige.md) |
+| `data/oversattningar/fornsvenska/ordsprak__0-22.json` | [242_oversatt_uppdrag_92_ordsprak_lakebok_1.md](242_oversatt_uppdrag_92_ordsprak_lakebok_1.md) |
+| `data/oversattningar/fornsvenska/peder_manssons_lakebok__0-34.json` | [275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md](275_oversatt_uppdrag_125_peder_manssons_lakebok_lakebok_8_lakebok_10.md) |
+| `data/oversattningar/fornsvenska/peder_swarts_kronika__0-36.json` | [307_oversatt_uppdrag_156_peder_swarts_kronika](307_oversatt_uppdrag_156_peder_swarts_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/peder_swarts_kronika__106-141.json` | [310_oversatt_uppdrag_159_peder_swarts_kronika](310_oversatt_uppdrag_159_peder_swarts_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/peder_swarts_kronika__141-157.json` | [311_oversatt_uppdrag_160_peder_swarts_kronika](311_oversatt_uppdrag_160_peder_swarts_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/peder_swarts_kronika__36-71.json` | [308_oversatt_uppdrag_157_peder_swarts_kronika](308_oversatt_uppdrag_157_peder_swarts_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/peder_swarts_kronika__71-106.json` | [309_oversatt_uppdrag_158_peder_swarts_kronika](309_oversatt_uppdrag_158_peder_swarts_kronika.md), [312_samordna_namn_olaus_petri_peder_swart](312_samordna_namn_olaus_petri_peder_swart.md) |
+| `data/oversattningar/fornsvenska/regula_salvatoris__0-52.json` | [243_oversatt_uppdrag_93_regula_salvatoris.md](243_oversatt_uppdrag_93_regula_salvatoris.md) |
+| `data/oversattningar/fornsvenska/regula_salvatoris__104-118.json` | [233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md](233_oversatt_uppdrag_83_legendariet_regula_salvatoris_birgittas_uppenbarelser_lakebo.md) |
+| `data/oversattningar/fornsvenska/regula_salvatoris__52-104.json` | [244_oversatt_uppdrag_94_regula_salvatoris.md](244_oversatt_uppdrag_94_regula_salvatoris.md) |
+| `data/oversattningar/fornsvenska/sigfridslegenden__0-16.json` | [214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md](214_oversatt_uppdrag_64_birgittas_liv_sigfridslegenden_birgittaautograferna_magnus_j.md) |
 | `data/oversattningar/gutniska_sv.json` | [071_granska_gutasagan_och_gutalag_del_1.md](071_granska_gutasagan_och_gutalag_del_1.md), [072_granska_gutalag_del_2.md](072_granska_gutalag_del_2.md) |
 | `data/oversattningar/kronikor/erikskronikan__0-142.json` | [074_oversatt_uppdrag_1_erikskronikan.md](074_oversatt_uppdrag_1_erikskronikan.md) |
 | `data/oversattningar/kronikor/erikskronikan__142-259.json` | [075_oversatt_uppdrag_2_erikskronikan.md](075_oversatt_uppdrag_2_erikskronikan.md) |
@@ -185,6 +298,7 @@
 | `data/oversattningar/sagor/atla_saga_otryggssonar__0-15.json` | [129_oversatt_uppdrag_57.md](129_oversatt_uppdrag_57.md) |
 | `data/oversattningar/sagor/bardar_saga_snaefellsass__0-22.json` | [100_oversatt_uppdrag_28.md](100_oversatt_uppdrag_28.md) |
 | `data/oversattningar/sagor/bolla_thattr_bollasonar__0-10.json` | [128_oversatt_uppdrag_56.md](128_oversatt_uppdrag_56.md) |
+| `data/oversattningar/sagor/bosa_saga_ok_herrauds__0-16.json` | [221_oversatt_uppdrag_71_bosa_saga_ok_herrauds_ragnarssona_thattr.md](221_oversatt_uppdrag_71_bosa_saga_ok_herrauds_ragnarssona_thattr.md) |
 | `data/oversattningar/sagor/fagrskinna__0-25.json` | [082_oversatt_uppdrag_9_fagrskinna.md](082_oversatt_uppdrag_9_fagrskinna.md) |
 | `data/oversattningar/sagor/fagrskinna__121-145.json` | [087_oversatt_uppdrag_14.md](087_oversatt_uppdrag_14.md) |
 | `data/oversattningar/sagor/fagrskinna__25-46.json` | [083_oversatt_uppdrag_10_fagrskinna.md](083_oversatt_uppdrag_10_fagrskinna.md) |
@@ -197,6 +311,7 @@
 | `data/oversattningar/sagor/finnboga_saga_ramma__31-43.json` | [102_oversatt_uppdrag_30.md](102_oversatt_uppdrag_30.md) |
 | `data/oversattningar/sagor/fljotsdaela_saga__0-15.json` | [103_oversatt_uppdrag_31.md](103_oversatt_uppdrag_31.md) |
 | `data/oversattningar/sagor/fljotsdaela_saga__15-26.json` | [104_oversatt_uppdrag_32.md](104_oversatt_uppdrag_32.md) |
+| `data/oversattningar/sagor/gautreks_saga__0-11.json` | [220_oversatt_uppdrag_70_gautreks_saga.md](220_oversatt_uppdrag_70_gautreks_saga.md) |
 | `data/oversattningar/sagor/gisla_saga_surssonar_upphaf_yngri_gerdar__0-10.json` | [128_oversatt_uppdrag_56.md](128_oversatt_uppdrag_56.md) |
 | `data/oversattningar/sagor/gisls_thattr_illugasonar__0-5.json` | [129_oversatt_uppdrag_57.md](129_oversatt_uppdrag_57.md) |
 | `data/oversattningar/sagor/grims_thattr_grimstungu__0-3.json` | [131_oversatt_uppdrag_59.md](131_oversatt_uppdrag_59.md) |
@@ -210,6 +325,9 @@
 | `data/oversattningar/sagor/holta_thoris_saga__0-11.json` | [125_oversatt_uppdrag_53.md](125_oversatt_uppdrag_53.md) |
 | `data/oversattningar/sagor/hrafns_thattr_gudrunarsonar__0-6.json` | [127_oversatt_uppdrag_55.md](127_oversatt_uppdrag_55.md) |
 | `data/oversattningar/sagor/hrana_saga_hrings__0-15.json` | [126_oversatt_uppdrag_54.md](126_oversatt_uppdrag_54.md) |
+| `data/oversattningar/sagor/hrolfs_saga_gautrekssonar__0-14.json` | [218_oversatt_uppdrag_68_hrolfs_saga_gautrekssonar.md](218_oversatt_uppdrag_68_hrolfs_saga_gautrekssonar.md) |
+| `data/oversattningar/sagor/hrolfs_saga_gautrekssonar__14-26.json` | [215_oversatt_uppdrag_65_hrolfs_saga_gautrekssonar.md](215_oversatt_uppdrag_65_hrolfs_saga_gautrekssonar.md) |
+| `data/oversattningar/sagor/hrolfs_saga_gautrekssonar__26-37.json` | [224_oversatt_uppdrag_74_hrolfs_saga_gautrekssonar.md](224_oversatt_uppdrag_74_hrolfs_saga_gautrekssonar.md) |
 | `data/oversattningar/sagor/illuga_saga_tagldarbana__0-18.json` | [107_oversatt_uppdrag_35.md](107_oversatt_uppdrag_35.md) |
 | `data/oversattningar/sagor/illuga_saga_tagldarbana__18-26.json` | [122_oversatt_uppdrag_50.md](122_oversatt_uppdrag_50.md) |
 | `data/oversattningar/sagor/islendings_thattr_oradga__0-3.json` | [131_oversatt_uppdrag_59.md](131_oversatt_uppdrag_59.md) |
@@ -235,7 +353,11 @@
 | `data/oversattningar/sagor/morkinskinna__88-111.json` | [094_oversatt_uppdrag_22_morkinskinna.md](094_oversatt_uppdrag_22_morkinskinna.md) |
 | `data/oversattningar/sagor/ofeigs_thattr__0-2.json` | [130_oversatt_uppdrag_58.md](130_oversatt_uppdrag_58.md) |
 | `data/oversattningar/sagor/olkofra_saga__0-4.json` | [126_oversatt_uppdrag_54.md](126_oversatt_uppdrag_54.md) |
+| `data/oversattningar/sagor/orvar_odds_saga__0-13.json` | [219_oversatt_uppdrag_69_orvar_odds_saga.md](219_oversatt_uppdrag_69_orvar_odds_saga.md) |
+| `data/oversattningar/sagor/orvar_odds_saga__13-25.json` | [217_oversatt_uppdrag_67_orvar_odds_saga.md](217_oversatt_uppdrag_67_orvar_odds_saga.md) |
+| `data/oversattningar/sagor/orvar_odds_saga__25-32.json` | [223_oversatt_uppdrag_73_orvar_odds_saga.md](223_oversatt_uppdrag_73_orvar_odds_saga.md) |
 | `data/oversattningar/sagor/ottars_thattr_svarta__0-1.json` | [131_oversatt_uppdrag_59.md](131_oversatt_uppdrag_59.md) |
+| `data/oversattningar/sagor/ragnarssona_thattr__0-4.json` | [221_oversatt_uppdrag_71_bosa_saga_ok_herrauds_ragnarssona_thattr.md](221_oversatt_uppdrag_71_bosa_saga_ok_herrauds_ragnarssona_thattr.md) |
 | `data/oversattningar/sagor/reykdaela_saga_ok_viga_skutu__0-17.json` | [115_oversatt_uppdrag_43.md](115_oversatt_uppdrag_43.md) |
 | `data/oversattningar/sagor/reykdaela_saga_ok_viga_skutu__17-30.json` | [116_oversatt_uppdrag_44.md](116_oversatt_uppdrag_44.md) |
 | `data/oversattningar/sagor/sighvats_thattr_skalds__0-12.json` | [122_oversatt_uppdrag_50.md](122_oversatt_uppdrag_50.md) |
@@ -244,6 +366,7 @@
 | `data/oversattningar/sagor/sorla_thattr__0-2.json` | [131_oversatt_uppdrag_59.md](131_oversatt_uppdrag_59.md) |
 | `data/oversattningar/sagor/stefnis_thattr_thorgilssonar__0-5.json` | [131_oversatt_uppdrag_59.md](131_oversatt_uppdrag_59.md) |
 | `data/oversattningar/sagor/stufs_thattr_inn_meiri__0-3.json` | [130_oversatt_uppdrag_58.md](130_oversatt_uppdrag_58.md) |
+| `data/oversattningar/sagor/sturlaugs_saga_starfsama__0-28.json` | [216_oversatt_uppdrag_66_sturlaugs_saga_starfsama.md](216_oversatt_uppdrag_66_sturlaugs_saga_starfsama.md) |
 | `data/oversattningar/sagor/svarfdaela_saga__0-23.json` | [117_oversatt_uppdrag_45.md](117_oversatt_uppdrag_45.md) |
 | `data/oversattningar/sagor/svarfdaela_saga__23-32.json` | [125_oversatt_uppdrag_53.md](125_oversatt_uppdrag_53.md) |
 | `data/oversattningar/sagor/thjostolfs_saga_hamramma__0-18.json` | [124_oversatt_uppdrag_52.md](124_oversatt_uppdrag_52.md) |
@@ -262,6 +385,7 @@
 | `data/oversattningar/sagor/vatnsdaela_saga__25-47.json` | [121_oversatt_uppdrag_49.md](121_oversatt_uppdrag_49.md) |
 | `data/oversattningar/sagor/vodu_brands_thattr__0-5.json` | [129_oversatt_uppdrag_57.md](129_oversatt_uppdrag_57.md) |
 | `data/oversattningar/sagor/volsa_thattr__0-2.json` | [130_oversatt_uppdrag_58.md](130_oversatt_uppdrag_58.md) |
+| `data/oversattningar/sagor/yngvars_saga_vidforla__0-14.json` | [222_oversatt_uppdrag_72_yngvars_saga_vidforla.md](222_oversatt_uppdrag_72_yngvars_saga_vidforla.md) |
 | `data/oversattningar/storm_mhn/historia_norwegie__0-10.json` | [160_latin_uppdrag_28.md](160_latin_uppdrag_28.md) |
 | `data/oversattningar/storm_mhn/theodoricus__0-36.json` | [193_latin_uppdrag_61.md](193_latin_uppdrag_61.md) |
 

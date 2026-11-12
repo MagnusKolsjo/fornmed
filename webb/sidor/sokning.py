@@ -25,6 +25,7 @@ TYPNAMN = {
     "diplom": "Brev", "runinskrift": "Runinskrift", "saga": "Saga", "eddadikt": "Eddadikt", "lag": "Lag",
     "kronika": "Krönika", "geografi": "Geografi", "annal": "Annal", "hjaltedikt": "Hjältedikt",
     "legend": "Legend", "furstespegel": "Furstespegel", "skaldedikt": "Skaldedikt", "undersamling": "Samling",
+    "uppenbarelse": "Uppenbarelse", "riddardikt": "Riddardikt", "ordsprak": "Ordspråk", "facktext": "Fackprosa",
     "person": "Person", "plats": "Plats", "indelning": "Indelning", "institution": "Institution",
     "ambete": "Ämbete", "begrepp": "Begrepp", "grupp": "Folk eller grupp",
     "verk": "Dokument", "entitet": "Person, plats eller begrepp",

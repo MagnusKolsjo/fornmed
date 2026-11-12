@@ -1,0 +1,775 @@
+[
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 0,
+   "till": 56,
+   "tecken": 71534,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_a",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__0-56.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 56,
+   "till": 111,
+   "tecken": 71092,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_a",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__56-111.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 111,
+   "till": 165,
+   "tecken": 71142,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_a",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__111-165.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 165,
+   "till": 205,
+   "tecken": 50903,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_a",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__165-205.json"
+  },
+  {
+   "verk": "verk:fsv:jarteckensboken",
+   "fran": 112,
+   "till": 126,
+   "tecken": 18241,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:jarteckensboken",
+   "fil": "data/oversattningar/fornsvenska/jarteckensboken__112-126.json"
+  },
+  {
+   "verk": "verk:fsv:flores_och_blanzeflor",
+   "fran": 138,
+   "till": 141,
+   "tecken": 1744,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:flores_och_blanzeflor",
+   "fil": "data/oversattningar/fornsvenska/flores_och_blanzeflor__138-141.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 205,
+   "till": 260,
+   "tecken": 71405,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_b",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__205-260.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:didrikssagan",
+   "fran": 260,
+   "till": 300,
+   "tecken": 54172,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:didrikssagan_b",
+   "fil": "data/oversattningar/fornsvenska/didrikssagan__260-300.json"
+  },
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 395,
+   "till": 399,
+   "tecken": 5024,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__395-399.json"
+  },
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1459,
+   "till": 1468,
+   "tecken": 11646,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_sju_stycken",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1459-1468.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 0,
+   "till": 72,
+   "tecken": 71067,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bureanus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__0-72.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 72,
+   "till": 147,
+   "tecken": 71878,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bureanus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__72-147.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 147,
+   "till": 191,
+   "tecken": 44483,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bureanus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__147-191.json"
+  },
+  {
+   "verk": "verk:fsv:regula_salvatoris",
+   "fran": 104,
+   "till": 118,
+   "tecken": 18718,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:regula_salvatoris",
+   "fil": "data/oversattningar/fornsvenska/regula_salvatoris__104-118.json"
+  },
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1567,
+   "till": 1569,
+   "tecken": 2400,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_birgittinernorska",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1567-1569.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_benz_22",
+   "fran": 0,
+   "till": 4,
+   "tecken": 3849,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_benz_22",
+   "fil": "data/oversattningar/fornsvenska/lakebok_benz_22__0-4.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:jarteckensboken",
+   "fran": 0,
+   "till": 57,
+   "tecken": 70576,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:jarteckensboken",
+   "fil": "data/oversattningar/fornsvenska/jarteckensboken__0-57.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:jarteckensboken",
+   "fran": 57,
+   "till": 112,
+   "tecken": 71135,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:jarteckensboken",
+   "fil": "data/oversattningar/fornsvenska/jarteckensboken__57-112.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:herr_ivan",
+   "fran": 0,
+   "till": 143,
+   "tecken": 71677,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:herr_ivan",
+   "fil": "data/oversattningar/fornsvenska/herr_ivan__0-143.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:herr_ivan",
+   "fran": 143,
+   "till": 279,
+   "tecken": 71772,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:herr_ivan",
+   "fil": "data/oversattningar/fornsvenska/herr_ivan__143-279.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:herr_ivan",
+   "fran": 279,
+   "till": 408,
+   "tecken": 70993,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:herr_ivan",
+   "fil": "data/oversattningar/fornsvenska/herr_ivan__279-408.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:hertig_fredrik",
+   "fran": 0,
+   "till": 118,
+   "tecken": 71748,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:hertig_fredrik",
+   "fil": "data/oversattningar/fornsvenska/hertig_fredrik__0-118.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:hertig_fredrik",
+   "fran": 118,
+   "till": 170,
+   "tecken": 30614,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:hertig_fredrik",
+   "fil": "data/oversattningar/fornsvenska/hertig_fredrik__118-170.json"
+  },
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1284,
+   "till": 1297,
+   "tecken": 18797,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1284-1297.json"
+  },
+  {
+   "verk": "verk:fsv:bondakonst",
+   "fran": 242,
+   "till": 257,
+   "tecken": 16658,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:bondakonst",
+   "fil": "data/oversattningar/fornsvenska/bondakonst__242-257.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:flores_och_blanzeflor",
+   "fran": 0,
+   "till": 138,
+   "tecken": 71682,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:flores_och_blanzeflor",
+   "fil": "data/oversattningar/fornsvenska/flores_och_blanzeflor__0-138.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:ordsprak",
+   "fran": 0,
+   "till": 22,
+   "tecken": 48654,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:ordsprak",
+   "fil": "data/oversattningar/fornsvenska/ordsprak__0-22.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_1",
+   "fran": 0,
+   "till": 14,
+   "tecken": 16366,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_1",
+   "fil": "data/oversattningar/fornsvenska/lakebok_1__0-14.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:regula_salvatoris",
+   "fran": 0,
+   "till": 52,
+   "tecken": 71270,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:regula_salvatoris",
+   "fil": "data/oversattningar/fornsvenska/regula_salvatoris__0-52.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:regula_salvatoris",
+   "fran": 52,
+   "till": 104,
+   "tecken": 71567,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:regula_salvatoris",
+   "fil": "data/oversattningar/fornsvenska/regula_salvatoris__52-104.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 0,
+   "till": 51,
+   "tecken": 71008,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__0-51.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 51,
+   "till": 100,
+   "tecken": 70822,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__51-100.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 100,
+   "till": 150,
+   "tecken": 71669,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__100-150.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 150,
+   "till": 199,
+   "tecken": 71061,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__150-199.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 199,
+   "till": 249,
+   "tecken": 71986,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__199-249.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 249,
+   "till": 297,
+   "tecken": 71834,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__249-297.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 297,
+   "till": 347,
+   "tecken": 71020,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__297-347.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 347,
+   "till": 395,
+   "tecken": 71166,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a33",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__347-395.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 489,
+   "till": 539,
+   "tecken": 71474,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__489-539.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 539,
+   "till": 589,
+   "tecken": 71607,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__539-589.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 589,
+   "till": 638,
+   "tecken": 71445,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__589-638.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 638,
+   "till": 688,
+   "tecken": 71782,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__638-688.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 688,
+   "till": 738,
+   "tecken": 71937,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__688-738.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 738,
+   "till": 789,
+   "tecken": 71929,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__738-789.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 789,
+   "till": 840,
+   "tecken": 70691,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__789-840.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 840,
+   "till": 889,
+   "tecken": 70543,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__840-889.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 889,
+   "till": 937,
+   "tecken": 70745,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__889-937.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 937,
+   "till": 986,
+   "tecken": 70728,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__937-986.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 986,
+   "till": 1036,
+   "tecken": 71183,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__986-1036.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1036,
+   "till": 1088,
+   "tecken": 71647,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1036-1088.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1088,
+   "till": 1139,
+   "tecken": 71265,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1088-1139.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1139,
+   "till": 1188,
+   "tecken": 70572,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1139-1188.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1188,
+   "till": 1236,
+   "tecken": 71001,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1188-1236.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1236,
+   "till": 1284,
+   "tecken": 71772,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_andra_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1236-1284.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1439,
+   "till": 1459,
+   "tecken": 28426,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_oxenstiernianus",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1439-1459.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_4",
+   "fran": 0,
+   "till": 9,
+   "tecken": 12609,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_4",
+   "fil": "data/oversattningar/fornsvenska/lakebok_4__0-9.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_5_6",
+   "fran": 0,
+   "till": 19,
+   "tecken": 23664,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_5_6",
+   "fil": "data/oversattningar/fornsvenska/lakebok_5_6__0-19.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1468,
+   "till": 1518,
+   "tecken": 71860,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_birgittinernorska",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1468-1518.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1518,
+   "till": 1567,
+   "tecken": 71703,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_birgittinernorska",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1518-1567.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:bondakonst",
+   "fran": 0,
+   "till": 81,
+   "tecken": 71165,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:bondakonst",
+   "fil": "data/oversattningar/fornsvenska/bondakonst__0-81.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:bondakonst",
+   "fran": 81,
+   "till": 174,
+   "tecken": 71741,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:bondakonst",
+   "fil": "data/oversattningar/fornsvenska/bondakonst__81-174.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:bondakonst",
+   "fran": 174,
+   "till": 242,
+   "tecken": 70956,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:bondakonst",
+   "fil": "data/oversattningar/fornsvenska/bondakonst__174-242.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:peder_manssons_lakebok",
+   "fran": 0,
+   "till": 34,
+   "tecken": 46284,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:peder_manssons_lakebok",
+   "fil": "data/oversattningar/fornsvenska/peder_manssons_lakebok__0-34.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_8",
+   "fran": 0,
+   "till": 10,
+   "tecken": 11964,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_8",
+   "fil": "data/oversattningar/fornsvenska/lakebok_8__0-10.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_10",
+   "fran": 0,
+   "till": 13,
+   "tecken": 12841,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_10",
+   "fil": "data/oversattningar/fornsvenska/lakebok_10__0-13.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_2",
+   "fran": 0,
+   "till": 43,
+   "tecken": 49418,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_2",
+   "fil": "data/oversattningar/fornsvenska/lakebok_2__0-43.json"
+  },
+  {
+   "verk": "verk:fsv:lakebok_11",
+   "fran": 0,
+   "till": 15,
+   "tecken": 20022,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_11",
+   "fil": "data/oversattningar/fornsvenska/lakebok_11__0-15.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_3",
+   "fran": 0,
+   "till": 53,
+   "tecken": 71930,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_3",
+   "fil": "data/oversattningar/fornsvenska/lakebok_3__0-53.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_3",
+   "fran": 53,
+   "till": 90,
+   "tecken": 47849,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_3",
+   "fil": "data/oversattningar/fornsvenska/lakebok_3__53-90.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_7",
+   "fran": 0,
+   "till": 55,
+   "tecken": 71126,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_7",
+   "fil": "data/oversattningar/fornsvenska/lakebok_7__0-55.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_7",
+   "fran": 55,
+   "till": 109,
+   "tecken": 70958,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_7",
+   "fil": "data/oversattningar/fornsvenska/lakebok_7__55-109.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_7",
+   "fran": 109,
+   "till": 165,
+   "tecken": 71769,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_7",
+   "fil": "data/oversattningar/fornsvenska/lakebok_7__109-165.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:lakebok_7",
+   "fran": 165,
+   "till": 204,
+   "tecken": 49179,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:lakebok_7",
+   "fil": "data/oversattningar/fornsvenska/lakebok_7__165-204.json"
+  }
+ ]
+]

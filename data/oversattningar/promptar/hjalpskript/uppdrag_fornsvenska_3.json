@@ -1,0 +1,165 @@
+[
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 191,
+   "till": 249,
+   "tecken": 71134,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__191-249.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 249,
+   "till": 304,
+   "tecken": 71502,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__249-304.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 304,
+   "till": 361,
+   "tecken": 71790,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__304-361.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 361,
+   "till": 423,
+   "tecken": 71233,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__361-423.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 423,
+   "till": 496,
+   "tecken": 71224,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__423-496.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 496,
+   "till": 562,
+   "tecken": 70941,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__496-562.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 562,
+   "till": 623,
+   "tecken": 71666,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__562-623.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 623,
+   "till": 692,
+   "tecken": 71017,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__623-692.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 692,
+   "till": 786,
+   "tecken": 71754,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__692-786.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:legendariet",
+   "fran": 786,
+   "till": 859,
+   "tecken": 55642,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:legendariet_bildstenianus",
+   "fil": "data/oversattningar/fornsvenska/legendariet__786-859.json"
+  },
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 474,
+   "till": 489,
+   "tecken": 13494,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_forsta_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__474-489.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 399,
+   "till": 474,
+   "tecken": 71979,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_forsta_red",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__399-474.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1297,
+   "till": 1349,
+   "tecken": 71864,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a44",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1297-1349.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1349,
+   "till": 1399,
+   "tecken": 71520,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a44",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1349-1399.json"
+  }
+ ],
+ [
+  {
+   "verk": "verk:fsv:birgittas_uppenbarelser",
+   "fran": 1399,
+   "till": 1439,
+   "tecken": 58712,
+   "sprak": "fornsvenska",
+   "utgava": "utgava:fsv:birgittas_uppenbarelser_a44",
+   "fil": "data/oversattningar/fornsvenska/birgittas_uppenbarelser__1399-1439.json"
+  }
+ ]
+]

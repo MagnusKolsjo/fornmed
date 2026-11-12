@@ -4,11 +4,11 @@ Maskinöversättningarna i `data/oversattningar/` gjordes av delagenter. Alla de
 
 ## Innehåll
 
-- **`NNN_….md`** innehåller ett uppdrag per delagent, i tidsordning: 209 stycken. Där finns de egentliga översättningsjobben för lagarna, MGH-krönikorna, Adams skolier, sagorna, kungakrönikorna, rimkrönikorna och Ottar och Wulfstan. Där finns också de senare uppdragen som granskade eller reviderade översättningar och samordnade egennamnen, till exempel i Gregorius och Adam av Bremen. Varje fil anger modell, utfiler och delagentens uppdrag.
-- **Uppdrag som bara sa åt delagenten att köra ett skript** är sagorna, kungakrönikorna och de latinska texterna. För dem finns också skriptets utskrift ordagrant, alltså den instruktion delagenten faktiskt arbetade efter.
-- **`INDEX.md`** visar för varje översättningsfil vilket eller vilka uppdrag som skapade eller ändrade den. Alla 262 översättningsfiler har minst ett uppdrag.
+- **`NNN_….md`** innehåller ett uppdrag per delagent, i tidsordning: 312 stycken. Där finns de egentliga översättningsjobben för lagarna, MGH-krönikorna, Adams skolier, sagorna, kungakrönikorna, rimkrönikorna, Ottar och Wulfstan, fornaldarsagorna, de fornsvenska helgonlegenderna och övriga fornsvenska texter samt Olaus Petris och Peder Swarts krönikor. Där finns också de senare uppdragen som granskade eller reviderade översättningar och samordnade egennamnen, till exempel i Gregorius och Adam av Bremen. Varje fil anger modell, utfiler och delagentens uppdrag.
+- **Uppdrag som bara sa åt delagenten att köra ett skript** är sagorna, kungakrönikorna, de latinska texterna och de fornsvenska legenderna. För dem finns också skriptets utskrift ordagrant, alltså den instruktion delagenten faktiskt arbetade efter.
+- **`INDEX.md`** visar för varje översättningsfil vilket eller vilka uppdrag som skapade eller ändrade den. Alla 386 översättningsfiler har minst ett uppdrag.
 - **`hjalpskript/`** innehåller de hjälpskript uppdragen hänvisar till, återskapade i sin sista version:
-  - `sagaprompt.py` och `latinprompt.py` byggde uppdragen,
+  - `sagaprompt.py` och `latinprompt.py` byggde uppdragen; `planera.py` delade fornaldarsagorna och legenderna i jobb (`uppdrag_fornaldarsagor_legender.json`) och `uppdragsprompt.py` skrev deras uppdrag; på samma sätt delade och skrev `planera2.py`/`uppdragsprompt2.py` övrig fornsvenska, `planera3.py`/`uppdragsprompt3.py` de parallella handskrifterna (Legendariet efter Bildstenianus, Birgittas uppenbarelser första redaktionen och A 44) och `planera4.py`/`uppdragsprompt4.py` Olaus Petris och Peder Swarts krönikor, med `status2.py`–`status4.py` för att se vilka jobb som var klara,
   - `kalltext.py` och `kalltext_ids.py` hämtade originaltexten ur databasen,
   - `kontrollera_oversattning.py` och `kontroll_ids.py` kontrollerade att varje passage fått en översättning,
   - `granskpar.py` användes vid granskningen.

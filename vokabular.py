@@ -26,6 +26,10 @@ VOKABULAR: list[tuple[str, str, str, str | None]] = [
     ("genre", "arkeologi", "Arkeologiskt material", "Fynd, anläggningar och dateringar"),
     ("genre", "undersamling", "Undersamling", "Katalog över monster och under, t.ex. Liber monstrorum"),
     ("genre", "furstespegel", "Furstespegel", "Lärd framställning om hur en furste ska styra, t.ex. Konungastyrelsen"),
+    ("genre", "uppenbarelse", "Uppenbarelse", "Visionär text som återger syner och gudomliga budskap, t.ex. Birgittas uppenbarelser"),
+    ("genre", "riddardikt", "Riddardikt", "Höviskt epos på vers, t.ex. Eufemiavisorna"),
+    ("genre", "ordsprak", "Ordspråkssamling", "Samling av ordspråk och talesätt"),
+    ("genre", "facktext", "Fackprosa", "Läkebok, jordbrukslära eller annan praktisk handledning"),
 
     # Vittnestyp — fysisk eller registrerad överlevnad av ett verk
     ("vittnestyp", "original", "Original", None),

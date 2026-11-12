@@ -73,6 +73,7 @@ RATTIGHETER = {
     "sdhk": CC_BY,
     "fornsvenska_lagar": CC_BY,
     "fornsvenska_kronikor": CC_BY,
+    "fornsvenska_texter": CC_BY,
     "openmgh": CC_BY,
     "romerska": CC_BY_SA,
     "wikisource": CC_BY_SA,
