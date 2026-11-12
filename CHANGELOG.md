@@ -7,6 +7,17 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [1.11.1] — 2026-11-12
+
+### Tillagt
+
+- SDHK-brev som hänvisar till Diplomatarium Danicum länkar till brevet i Det Danske Sprog- og
+  Litteraturselskabs utgåva på tekstnet.dk (1 126 brev). DD-hänvisningen i brevsidans
+  tryckuppgift blir en länk som öppnas i ny flik, och länken följer med i länkade data
+  (`skos:exactMatch`, `skos:closeMatch` eller `rdfs:seeAlso`) och i API:ets
+  `externa_lankar` för verket. Ingenting ur DSL:s utgåva tas in i Fornmed utom adresserna.
+- Brevsidan visar SDHK:s uppgifter om tryck och tryckta regester.
+
 ## [1.11.0] — 2026-11-12
 
 ### Tillagt
