@@ -7,6 +7,33 @@ versionerna [Semantic Versioning](https://semver.org/lang/sv/).
 
 ---
 
+## [1.11.0] — 2026-11-12
+
+### Tillagt
+
+- Fornaldarsagor ur heimskringla.no: Völsunga saga, Ragnars saga loðbrókar, Ragnarssona þáttr
+  (efter Hauksbók), Norna-Gests þáttr och Krákumál, och sagorna med svensk anknytning: Yngvars,
+  Gautreks, Hrólfs saga Gautrekssonar, Bósa, Örvar-Odds, Ásmundar saga kappabana, Sturlaugs,
+  Hrólfs saga kraka, Sögubrot af fornkonungum och Af Upplendinga konungum. Äldre översättningar
+  tryckta före 1931 följer med där de finns (Kröningssvärd 1834, Winkel Horn 1876, Rafn 1826).
+- Källsamlingen `fornsvenska_texter` (`tolkar/fornsvenska_texter.py`) med 32 verk ur Fornsvenska
+  textbankens material: legender om de nordiska helgonen och Ansgar, Fornsvenska legendariet,
+  Järteckensboken, Birgittas uppenbarelser i sju handskrifter, hennes autografer och Regula
+  Salvatoris, Didrikssagan, Eufemiavisorna, Fornsvenska ordspråk, Olaus Petris och Peder Swarts
+  krönikor, läkeböckerna och Peder Månssons Bondakonst.
+- Genrerna `uppenbarelse`, `riddardikt`, `ordsprak` och `facktext`.
+- Svenska språkmodellsöversättningar av de sju fornaldarsagorna utan fri översättning och av de
+  fornsvenska texterna: helgonlegenderna, Fornsvenska legendariet efter Bureanus och
+  Bildstenianus, Järteckensboken, Birgittas uppenbarelser i alla handskrifter, Regula Salvatoris,
+  Didrikssagan, Eufemiavisorna, Fornsvenska ordspråk, läkeböckerna, Bondakonst och Olaus Petris
+  och Peder Swarts krönikor (uppdragen i `data/oversattningar/promptar/` 210–311).
+
+### Fixat
+
+- Sagorna på heimskringla.no förlorade kapitel vars första stycke stod på samma rad som
+  kapitelnumret, eller vars nummer följde direkt på en bildlänk. Grettis saga får därmed sina
+  saknade kapitel, och Kröningssvärds och Winkel Horns översättningar delas i rätt kapitel.
+
 ## [1.10.0] — 2026-11-10
 
 ### Tillagt
